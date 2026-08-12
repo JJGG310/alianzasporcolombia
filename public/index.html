@@ -44,7 +44,15 @@
   #actualizado{font-size:.85rem;color:var(--gris)}
   #map{height:380px;border-radius:8px;border:1px solid var(--borde);margin:.75rem 0}
   .filtros{display:flex;gap:.5rem;flex-wrap:wrap;margin:.5rem 0}
-  .filtros select{padding:.4rem .6rem;border:1px solid var(--borde);border-radius:6px;background:var(--carta);font-size:.9rem}
+  .filtros select,.filtros input{padding:.4rem .6rem;border:1px solid var(--borde);border-radius:6px;background:var(--carta);font-size:.9rem;font-family:inherit}
+  #f-texto{flex:1 1 100%;min-width:0;font-size:1rem;padding:.55rem .7rem}
+  #btn-cerca{font:inherit;font-size:.9rem;font-weight:600;cursor:pointer;padding:.4rem .8rem;
+    border:1px solid var(--borde);border-radius:6px;background:var(--carta);color:var(--tinta)}
+  #btn-cerca[aria-pressed="true"]{background:var(--rojo);border-color:var(--rojo);color:#fff}
+  #resumen{font-size:.85rem;color:var(--gris);margin:.4rem 0 0}
+  .ets{display:flex;flex-wrap:wrap;gap:.25rem;margin-top:.35rem}
+  .et{font-size:.7rem;font-weight:600;border-radius:5px;padding:.1rem .4rem;background:#e8f0e8;color:#1d6b2f;white-space:nowrap}
+  .et.no{background:#fde2e4;color:#a01020}
   .tabla-wrap{overflow-x:auto;background:var(--carta);border:1px solid var(--borde);border-radius:8px}
   #tabla-ayuda{width:100%;border-collapse:collapse;font-size:.85rem}
   #tabla-ayuda th,#tabla-ayuda td{padding:.5rem .6rem;text-align:left;border-bottom:1px solid var(--borde);vertical-align:top}
@@ -129,14 +137,18 @@
     <h2>Mapa de ayuda</h2>
     <p class="desc">Albergues, puntos de acopio, bancos de sangre, ollas comunitarias y organizaciones que gestionan donaciones, en las zonas afectadas. <strong>Llama antes de ir:</strong> la columna «Estado» te dice hace cuánto no se confirma cada punto — la situación cambia rápido y un albergue puede llenarse o cerrar. <strong>Nunca publicamos cuentas bancarias:</strong> contacta a la organización y valida con ella antes de entregar dinero. <span id="ayuda-corte"></span></p>
     <div class="filtros">
+      <input id="f-texto" type="search" placeholder="Buscar por nombre, barrio, dirección…" aria-label="Buscar">
       <select id="f-depto" aria-label="Filtrar por departamento"><option value="">Todos los departamentos</option></select>
       <select id="f-municipio" aria-label="Filtrar por municipio"><option value="">Todos los municipios</option></select>
       <select id="f-tipo" aria-label="Filtrar por tipo"><option value="">Todos los tipos</option></select>
+      <select id="f-necesidad" aria-label="Filtrar por lo que quieres donar"><option value="">¿Qué quieres donar?</option></select>
+      <button id="btn-cerca" type="button" aria-pressed="false">📍 Cerca de mí</button>
     </div>
     <div id="necesita" hidden>
       <h3>Qué se necesita ahora</h3>
       <ul></ul>
     </div>
+    <p id="resumen"></p>
     <div id="map"></div>
     <div class="tabla-wrap">
       <table id="tabla-ayuda">
@@ -211,6 +223,26 @@
     if (window.__pinta) window.__pinta();
   }).catch(() => {});
 
+  const NECESIDADES = {
+    agua: "Agua", alimentos: "Alimentos", aseo: "Aseo e higiene", panales: "Pañales",
+    abrigo: "Cobijas y colchonetas", ropa: "Ropa", medicamentos: "Medicamentos",
+    mascotas: "Comida de mascotas", sangre: "Sangre", voluntarios: "Voluntarios",
+    rescate: "Rescate y herramientas", bebes: "Cosas de bebé", ortopedico: "Ayudas ortopédicas",
+  };
+  // Lo que el punto sí recibe y lo que explícitamente no: evita viajes en vano con donaciones que rechazan.
+  function etiquetas(i) {
+    const si = (i.recibe || []).map(k => `<span class="et">${NECESIDADES[k] || k}</span>`);
+    const no = (i.no_recibe || []).map(k => `<span class="et no">No: ${NECESIDADES[k] || k}</span>`);
+    return si.length || no.length ? `<div class="ets">${si.join('')}${no.join('')}</div>` : '';
+  }
+  let miUbic = null;
+  function distKm(a, b) {
+    const R = 6371, r = Math.PI / 180;
+    const dLat = (b.lat - a.lat) * r, dLon = (b.lon - a.lon) * r;
+    const x = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(dLon / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(x));
+  }
+
   fetch('datos/ayuda.json', { cache: 'no-store' }).then(r => r.json()).then(data => {
     const items = data.items;
     document.getElementById('ayuda-corte').textContent = `Datos actualizados: ${data.actualizado}.`;
@@ -218,8 +250,13 @@
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(mapa);
     const capa = L.layerGroup().addTo(mapa);
     const selT = document.getElementById('f-tipo'), selM = document.getElementById('f-municipio'), selD = document.getElementById('f-depto');
+    const selN = document.getElementById('f-necesidad'), txt = document.getElementById('f-texto');
+    const btnCerca = document.getElementById('btn-cerca'), resumen = document.getElementById('resumen');
     for (const [k, t] of Object.entries(TIPOS)) selT.add(new Option(t.label, k));
     for (const d of [...new Set(items.map(i => i.departamento))].sort()) selD.add(new Option(d, d));
+    const hayNec = new Set(items.flatMap(i => i.recibe || []));
+    for (const [k, l] of Object.entries(NECESIDADES)) if (hayNec.has(k)) selN.add(new Option(l, k));
+    const limpia = s => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
     function llenaMunicipios() {
       selM.length = 1;
       const fd = selD.value;
@@ -228,11 +265,23 @@
     llenaMunicipios();
     const tbody = document.querySelector('#tabla-ayuda tbody');
     function pinta() {
-      const ft = selT.value, fm = selM.value, fd = selD.value;
-      const vivos = items.filter(i => (!ft || i.tipo === ft) && (!fm || i.municipio === fm) && (!fd || i.departamento === fd));
+      const ft = selT.value, fm = selM.value, fd = selD.value, fn = selN.value, q = limpia(txt.value).trim();
+      const vivos = items.filter(i =>
+        (!ft || i.tipo === ft) && (!fm || i.municipio === fm) && (!fd || i.departamento === fd) &&
+        (!fn || (i.recibe || []).includes(fn)) &&
+        (!q || limpia([i.nombre, i.direccion, i.municipio, i.departamento, i.que].join(' ')).includes(q)));
+      if (miUbic) {
+        for (const i of vivos) i._km = (i.lat == null) ? Infinity : distKm(miUbic, i);
+        vivos.sort((a, b) => a._km - b._km);
+      }
+      resumen.textContent = vivos.length === items.length
+        ? `${items.length} puntos de ayuda.`
+        : `${vivos.length} de ${items.length} puntos.` + (fn ? ` Reciben ${NECESIDADES[fn].toLowerCase()}.` : '');
       capa.clearLayers();
       for (const i of vivos) {
-        if (i.lat == null || i.lon == null) continue;
+        // Las coordenadas aproximadas son el centroide del municipio: varios puntos caerían
+        // exactamente encima y mandarían gente a la dirección equivocada. Van solo en la lista.
+        if (i.lat == null || i.lon == null || i.precision === 'aproximada') continue;
         const t = TIPOS[i.tipo] || { label: i.tipo, color: '#555' };
         L.circleMarker([i.lat, i.lon], { radius: 8, color: t.color, fillOpacity: .75 })
           .bindPopup(`<strong>${i.nombre}</strong><br>${t.label} · ${i.municipio}<br>${i.direccion || ''}<br>${i.que}<br><em>${i.contacto || ''}</em>`)
@@ -265,18 +314,31 @@
         return `<tr>
           <td><span class="pill" style="background:${t.color}18;color:${t.color}">${t.label}</span></td>
           <td><strong>${i.nombre}</strong></td>
-          <td>${i.municipio}</td>
+          <td>${i.municipio}${i._km != null && i._km !== Infinity ? `<br><small style="color:var(--gris)">${i.precision === 'aproximada' ? '~' : 'a '}${i._km < 10 ? i._km.toFixed(1) : Math.round(i._km)} km</small>` : ''}</td>
           <td>${i.direccion || ''}${i.direccion && i.contacto ? '<br>' : ''}${i.contacto || ''}</td>
-          <td>${i.que}</td>
+          <td>${i.que}${etiquetas(i)}</td>
           <td>${estado(i)}</td>
           <td><a href="${i.fuente}" rel="noopener" target="_blank">ver</a> · ${i.fecha_corte}<br>
             <button class="wa" data-wa="${texto.replace(/"/g, '&quot;')}" title="Compartir por WhatsApp">Compartir</button></td>
         </tr>`;
       }).join('');
     }
-    selT.onchange = selM.onchange = pinta;
+    selT.onchange = selM.onchange = selN.onchange = pinta;
     selD.onchange = () => { llenaMunicipios(); pinta(); };
     window.__pinta = pinta;
+    txt.oninput = pinta;
+    btnCerca.onclick = () => {
+      if (miUbic) { miUbic = null; btnCerca.setAttribute('aria-pressed', 'false'); btnCerca.textContent = '📍 Cerca de mí'; return pinta(); }
+      if (!navigator.geolocation) { btnCerca.textContent = 'Sin ubicación'; return; }
+      btnCerca.textContent = 'Ubicando…';
+      navigator.geolocation.getCurrentPosition(p => {
+        miUbic = { lat: p.coords.latitude, lon: p.coords.longitude };
+        btnCerca.setAttribute('aria-pressed', 'true');
+        btnCerca.textContent = '📍 Más cercanos primero';
+        mapa.setView([miUbic.lat, miUbic.lon], 12);
+        pinta();
+      }, () => { btnCerca.textContent = '📍 No se pudo ubicar'; });
+    };
     pinta();
 
     // Botones de ciudad: las más golpeadas primero, el resto por cantidad de puntos.
