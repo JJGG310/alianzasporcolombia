@@ -81,10 +81,10 @@ Publicable solo si tiene: fuente (URL) + fecha de corte + municipio + tipo. Si e
 2. ~~Conectar repo a Cloudflare Pages → publicar en alianzasporcolombia.com~~ ✅ (dominio comprado, DNS y HTTPS activos, deploy automático en cada push)
 3. ~~Scraper que federa 9 sitios ciudadanos → 957 puntos, publicados en `public/extracted-data/`~~ ✅
 4. **Decidir cuál frontend queda**: el vanilla que está en vivo o el de React (Persona B + equipo). Ver la tabla comparativa en el README. Mientras no se decida, el deploy NO se cambia.
-5. Pasarle al sitio en vivo los 957 puntos agregados: ya están publicados en `public/extracted-data/puntos.json`, falta que `index.html` los lea (Persona B)
+5. ~~Pasarle al sitio en vivo los puntos agregados~~ ✅ (729 reportes en mapa y tabla, marcados «sin verificación propia», con tipos nuevos: 🆘 pide ayuda, ofrece ayuda, salud; excluidos los de `politica_alerta`)
 6. Revisar los 8 puntos con `politica_alerta` (Persona A, hoy). Ojo: el mismo Nequi repetido en 4 puntos de mapa-emergencia — puede ser recaudo legítimo o puede no serlo.
 7. Enviar mensajes a los sitios aliados (Persona C, hoy). Ahora hay algo concreto que ofrecer: **ya los estamos federando** y los datos están en CC BY 4.0 para que ellos nos consuman de vuelta. El ing. de Univalle de Haciendo Comunidad ya escribió pidiendo justamente esto.
-8. Panel de cifras con fuente + hora (Persona B, 1-2 días)
+8. ~~Panel de cifras con fuente + hora~~ ✅ (balance UNGRD 12-ago en pestaña Ahora, con la brecha oficial/ciudadano explicada)
 9. Rutina automática de monitoreo: `cd scraper && make correr` cada 30-60 min, diff a revisión humana
 10. Confirmación telefónica de albergues/acopios listados (Persona A, continuo)
-11. Limpiar los `municipio` de `public/datos/ayuda.json` que no son municipios (`"Nacional (canaliza a zonas afectadas)"`, `"Valle del Cauca"`): ensucian el desplegable (Persona A)
+11. ~~Limpiar los `municipio` que no son municipios~~ ✅ (13 normalizados a «Nacional»; guardia también en la UI)

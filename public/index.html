@@ -228,6 +228,9 @@
     "sangre":        { label: "Banco de sangre",   color: "#8b0f57" },
     "olla":          { label: "Olla comunitaria",  color: "#b45f06" },
     "donacion-org":  { label: "Recibe donaciones", color: "#0b57d0" },
+    "pide-ayuda":    { label: "🆘 Pide ayuda",     color: "#7c3aed" },
+    "oferta":        { label: "Ofrece ayuda",      color: "#0d9488" },
+    "salud":         { label: "Salud",             color: "#0891b2" },
   };
   // Centros de municipio para ubicar aproximadamente los puntos cuya dirección exacta
   // no se pudo geocodificar (se dibujan distintos y el popup lo aclara).
@@ -251,6 +254,7 @@
     "cerrado":       { texto: "Ya no opera",    color: "#8a8a8a" },
   };
   function estado(i) {
+    if (i._agregado) return `<span class="pill" style="background:#8a8a8a18;color:#6a6a72">De ${i._agregado}</span><br><small style="color:var(--gris)">sin verificación propia</small>`;
     if (i.estado === 'cerrado') return `<span class="pill" style="background:#8a8a8a18;color:#8a8a8a">Ya no opera</span>`;
     // Cuando la fuente dice hasta cuándo va algo, el punto se cierra solo el día que vence.
     // Sin esto alguien tendría que acordarse a mano, y es justo lo que falla al quinto día.
@@ -305,9 +309,46 @@
     return 2 * R * Math.asin(Math.sqrt(x));
   }
 
-  fetch('datos/ayuda.json', { cache: 'no-store' }).then(r => r.json()).then(data => {
-    const items = data.items;
-    document.getElementById('ayuda-corte').textContent = `Datos actualizados: ${data.actualizado}.`;
+  // Los puntos federados de los otros sitios ciudadanos (scraper -> extracted-data/).
+  // Se muestran DISTINTOS a los verificados: la confianza es el producto.
+  const AGREGA_TIPO = { rescate: 'pide-ayuda', necesidad: 'pide-ayuda', oferta: 'oferta',
+    salud: 'salud', agua: 'salud', psicologico: 'salud', veterinario: 'salud' };
+  function municipioCerca(lat, lon) {
+    if (lat == null) return '';
+    let mejor = '', d = 0.16; // ~18 km
+    for (const [m, c] of Object.entries(CENTROS)) {
+      const dd = Math.max(Math.abs(lat - c[0]), Math.abs(lon - c[1]));
+      if (dd < d) { d = dd; mejor = m; }
+    }
+    return mejor;
+  }
+  function adaptaFederado(i) {
+    const tipo = AGREGA_TIPO[i.tipo] || i.tipo;
+    if (i.politica_alerta || i.fuente === 'curado' || tipo === 'info' || tipo === 'otro') return null;
+    const necesita = Array.isArray(i.necesita) && i.necesita.length ? ` Necesita: ${i.necesita.join(', ')}.` : '';
+    return {
+      tipo, nombre: i.nombre || '(sin nombre)',
+      municipio: i.municipio || municipioCerca(i.lat, i.lon) || '',
+      departamento: i.departamento || '',
+      direccion: [i.direccion, i.barrio].filter(Boolean).join(', '),
+      lat: i.lat ?? null, lon: i.lon ?? null,
+      que: (i.descripcion || '') + necesita,
+      contacto: i.contacto || '',
+      fuente: i.fuente_url || '', fecha_corte: ((i.creado || i.fecha_corte || '')).slice(0, 10),
+      recibe: i.recibe, no_recibe: i.no_recibe,
+      _agregado: i.fuente,
+    };
+  }
+
+  Promise.all([
+    fetch('datos/ayuda.json', { cache: 'no-store' }).then(r => r.json()),
+    fetch('extracted-data/puntos.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null),
+  ]).then(([data, fed]) => {
+    const crudos = fed ? (Array.isArray(fed) ? fed : (fed.puntos || fed.items || [])) : [];
+    const agregados = crudos.map(adaptaFederado).filter(Boolean);
+    const items = [...data.items, ...agregados];
+    document.getElementById('ayuda-corte').textContent =
+      `Datos actualizados: ${data.actualizado}. Incluye ${agregados.length} reportes agregados de otros sitios ciudadanos (marcados, sin verificación propia).`;
     const mapa = L.map('map').setView([3.9, -76.35], 8);
     window.__mapa = mapa; // para re-dibujar al mostrar la pestaña (Leaflet queda gris si nace oculto)
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(mapa);
@@ -356,11 +397,14 @@
           lat += r * Math.cos(ang); lon += r * Math.sin(ang); k++;
         }
         const t = TIPOS[i.tipo] || { label: i.tipo, color: '#555' };
-        const nota = aprox ? `<em>📍 Ubicación aproximada (centro del municipio) — guíate por la dirección:</em><br>` : '';
+        const nota = (aprox ? `<em>📍 Ubicación aproximada (centro del municipio) — guíate por la dirección:</em><br>` : '')
+          + (i._agregado ? `<em>Reporte agregado de <strong>${i._agregado}</strong> — sin verificación propia.</em><br>` : '');
         L.circleMarker([lat, lon], aprox
           ? { radius: 8, color: t.color, fillOpacity: .12, dashArray: '3 4', weight: 1.5 }
-          : { radius: 8, color: t.color, fillOpacity: .75 })
-          .bindPopup(`<strong>${i.nombre}</strong><br>${t.label} · ${i.municipio}<br>${nota}${i.direccion || ''}<br>${i.que}<br><em>${i.contacto || ''}</em>`)
+          : i._agregado
+            ? { radius: 6, color: t.color, fillOpacity: .35, weight: 1.5 }
+            : { radius: 8, color: t.color, fillOpacity: .75 })
+          .bindPopup(`<strong>${i.nombre}</strong><br>${t.label} · ${i.municipio}<br>${nota}${i.direccion || ''}<br>${i.que}<br><em>${i.contacto || ''}</em>${i._agregado && i.fuente ? `<br><a href="${i.fuente}" rel="noopener" target="_blank">ver en el sitio de origen</a>` : ''}`)
           .addTo(capa);
       }
       // "Qué se necesita ahora": une el feed curado de necesidades con los pedidos ya presentes en los datos.
@@ -422,7 +466,7 @@
     const cuenta = {};
     for (const i of items) cuenta[i.municipio] = (cuenta[i.municipio] || 0) + 1;
     const ciudades = Object.keys(cuenta)
-      .filter(m => !/,|\(|^Nacional|^Zonas|^Departamentos|^Valle del Cauca$/.test(m))   // solo ciudades reales
+      .filter(m => m && !/,|\(|^Nacional|^Zonas|^Departamentos|^Valle del Cauca$/.test(m))   // solo ciudades reales, sin vacíos
       .sort((a, b) => {
         const pa = PRIORIDAD.indexOf(a), pb = PRIORIDAD.indexOf(b);
         if (pa !== -1 || pb !== -1) return (pa === -1 ? 99 : pa) - (pb === -1 ? 99 : pb);
