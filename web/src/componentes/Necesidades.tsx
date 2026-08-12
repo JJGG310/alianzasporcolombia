@@ -31,11 +31,15 @@ const RUTA = '/datos/necesidades.json';
  */
 const LARGO_MAX = 220;
 
-/** Recorta en el último espacio antes del límite. null si no hace falta. */
+/**
+ * Recorta en el último espacio antes del límite y quita la puntuación que
+ * quede colgando, para no producir un «desplegada.…». null si no hace falta.
+ */
 function recortar(txt: string): string | null {
   if (txt.length <= LARGO_MAX) return null;
   const corte = txt.lastIndexOf(' ', LARGO_MAX);
-  return `${txt.slice(0, corte > LARGO_MAX / 2 ? corte : LARGO_MAX).trimEnd()}…`;
+  const trozo = txt.slice(0, corte > LARGO_MAX / 2 ? corte : LARGO_MAX);
+  return `${trozo.replace(/[\s.,;:—-]+$/, '')}…`;
 }
 
 const RE_URL = /https?:\/\/[^\s)<>"']+/g;

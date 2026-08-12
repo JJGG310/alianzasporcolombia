@@ -202,12 +202,18 @@
   line-height: var(--alto-suelto);
 }
 
-.necesidades__ver {
+/* Doble clase a propósito: paridad.css entra al bundle ANTES que base.css
+   (llega por el árbol de imports de los componentes), así que para ganarle a
+   .btn--sm hace falta más peso, no más orden. */
+.necesidades__item .necesidades__ver {
+  /* .btn--sm mide 34; acá sube a la mano completa: es el control que abre el
+     detalle del pedido y se toca con el pulgar. */
+  min-height: var(--toque);
   margin-top: var(--e2);
   padding-inline: 0;
   color: var(--enlace);
 }
-.necesidades__ver:hover {
+.necesidades__item .necesidades__ver:hover {
   background: transparent;
   text-decoration: underline;
   text-underline-offset: 2px;
@@ -344,6 +350,12 @@
   max-width: var(--ancho-prosa);
   font-size: var(--txt-sm);
   color: var(--tinta-500);
+}
+
+/* Teléfonos y WhatsApp de la Cruz Roja: se marcan con el pulgar y con afán, así
+   que ninguno se queda en los 34 de .btn--sm. */
+.busca__contactos .btn {
+  min-height: var(--toque);
 }
 
 .busca__contactos {
