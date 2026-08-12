@@ -5,7 +5,8 @@ Diseñada para trabajar **en paralelo sin pisarse**: cada persona es dueña de a
 ## Frentes (dueño por archivo = cero conflictos de merge)
 
 ### Persona A — Datos y verificación 📊
-**Dueña de:** `public/datos/*.json`, `public/recursos.js`, `RECURSOS.md`
+**Dueña de:** `public/datos/*.json` (ayuda, necesidades, avisos, cifras), `public/recursos.js`, `RECURSOS.md`
+- **Ojo:** `public/lite.html` lleva los datos EMBEBIDOS (es la versión para 2G) — cuando cambien mucho los datos, pedir regenerarla.
 - Mantener cada punto con fuente + fecha de corte; marcar vencidos.
 - Correr el scraper (`cd scraper && make correr`) y **revisar el diff** de `extracted-data/` antes de subirlo. La salida es determinista: lo que cambie en el diff es lo que cambió en la realidad.
 - Revisar los puntos con `politica_alerta` — no se publican sin que alguien los mire.

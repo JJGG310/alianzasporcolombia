@@ -87,6 +87,13 @@
     background:transparent;color:var(--tinta);border:1px solid var(--borde);border-radius:99px;padding:.45rem .9rem}
   #tabs button[aria-pressed="true"]{background:var(--rojo);border-color:var(--rojo);color:#fff}
   .tab-oculta{display:none !important}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.6rem}
+  .stat{background:var(--carta);border:1px solid var(--borde);border-radius:8px;padding:.7rem .85rem}
+  .stat b{display:block;font-size:1.45rem;color:var(--rojo);line-height:1.2}
+  .stat .n{font-weight:600;font-size:.9rem}
+  .stat .d{color:var(--gris);font-size:.8rem;margin:.2rem 0 0}
+  .stat .f{color:var(--gris);font-size:.75rem;margin-top:.3rem}
+  .stat .f a{color:#0b57d0}
   /* En celular la tabla de 7 columnas obliga a arrastrar de lado para llegar al teléfono
      de un albergue. Cada fila pasa a ser una tarjeta apilada; el orden de las columnas
      ya se lee solo (tipo, nombre, ciudad, dirección, qué, estado, fuente). */
@@ -132,6 +139,11 @@
       <a href="tel:767"><strong>#767</strong><span>Estado de vías (INVÍAS)</span></a>
     </div>
     <p id="actualizado"></p>
+  </section>
+  <section id="cifras" hidden>
+    <h2>Cifras oficiales</h2>
+    <p class="desc" id="cifras-nota"></p>
+    <div class="stats"></div>
   </section>
   <section id="donde" hidden>
     <h2>¿En qué ciudad estás?</h2>
@@ -190,6 +202,7 @@
 </main>
 <footer>
   Alianzas por Colombia es una iniciativa ciudadana sin ánimo de lucro. No recibimos donaciones directamente ni publicamos cuentas: enlazamos a organizaciones verificadas — valida siempre con ellas antes de entregar dinero.
+  <br><br>📶 <strong>¿Poca señal?</strong> <a href="lite.html">Versión liviana de solo texto (27 KB)</a> — carga hasta en 2G.
 </footer>
 <script src="recursos.js"></script>
 <script>
@@ -501,8 +514,25 @@
   cargaReplicas();
   setInterval(cargaReplicas, 300000); // cada 5 min mientras la página esté abierta
 
+  // Cifras oficiales: cada una con su fuente y su hora — y la brecha oficial/ciudadano explicada.
+  function cargaCifras() {
+    fetch('datos/cifras.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
+      document.getElementById('cifras-nota').textContent = d.nota + ' Corte: ' + d.actualizado + '.';
+      document.querySelector('#cifras .stats').innerHTML = (d.metricas || []).map(m => `
+        <div class="stat">
+          <b>${m.valor}</b>
+          <span class="n">${m.nombre}</span>
+          ${m.detalle ? `<p class="d">${m.detalle}</p>` : ''}
+          <p class="f">${m.fuente} · <a href="${m.url}" rel="noopener" target="_blank">fuente</a></p>
+        </div>`).join('');
+      document.getElementById('cifras').hidden = false;
+    }).catch(() => {});
+  }
+  cargaCifras();
+  setInterval(cargaCifras, 300000);
+
   // Pestañas por tema: adiós al scroll eterno. Hash en la URL para compartir la pestaña exacta.
-  const TAB_DE = { emergencias: 'ahora', replicas: 'ahora', donde: 'ayuda', ayuda: 'ayuda', buscar: 'buscar',
+  const TAB_DE = { emergencias: 'ahora', cifras: 'ahora', replicas: 'ahora', donde: 'ayuda', ayuda: 'ayuda', buscar: 'buscar',
     donaciones: 'donar', alivios: 'donar' }; // el resto del directorio cae en 'fuentes'
   const TABS_VALIDAS = ['ahora', 'ayuda', 'buscar', 'donar', 'fuentes'];
   function muestraTab(t, primeraVez) {

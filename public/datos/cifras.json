@@ -1,0 +1,55 @@
+{
+  "actualizado": "12 de agosto de 2026, 4:00 p.m.",
+  "nota": "Cada cifra con su fuente y su hora. Los números varían entre fuentes porque se consolidan a ritmos distintos — eso es normal, no es señal de ocultamiento.",
+  "metricas": [
+    {
+      "nombre": "Personas fallecidas",
+      "valor": "239–240",
+      "detalle": "Valle 125 · Risaralda 94 · Chocó 14 · Caldas 6 · Antioquia 1",
+      "fuente": "UNGRD, balance del 12-ago 7:30 a.m.",
+      "url": "https://www.radionacional.co/actualidad/terremoto-en-colombia-asciende-240-la-cifra-de-muertos"
+    },
+    {
+      "nombre": "Personas heridas",
+      "valor": "3.755",
+      "detalle": "",
+      "fuente": "UNGRD, 12-ago 7:30 a.m.",
+      "url": "https://www.eluniversal.com.co/colombia/2026/08/12/emergencia-por-terremoto-en-colombia-239-muertos-y-mas-de-49000-afectados/"
+    },
+    {
+      "nombre": "Desaparecidos (cifra oficial)",
+      "valor": "287",
+      "detalle": "Casos verificados por las autoridades",
+      "fuente": "UNGRD, 12-ago",
+      "url": "https://www.eluniversal.com.co/colombia/2026/08/12/emergencia-por-terremoto-en-colombia-239-muertos-y-mas-de-49000-afectados/"
+    },
+    {
+      "nombre": "Reportes ciudadanos por localizar",
+      "valor": "4.155",
+      "detalle": "Reportes abiertos en el registro ciudadano — muchos ya aparecieron y nadie cerró el reporte. No contradice la cifra oficial: cuentan cosas distintas",
+      "fuente": "Colombia Te Busca, 12-ago",
+      "url": "https://www.colombiatebusca.com"
+    },
+    {
+      "nombre": "Personas afectadas",
+      "valor": "49.214",
+      "detalle": "24.324 familias, en 403 municipios de 14 departamentos",
+      "fuente": "UNGRD, 12-ago",
+      "url": "https://www.eluniversal.com.co/colombia/2026/08/12/emergencia-por-terremoto-en-colombia-239-muertos-y-mas-de-49000-afectados/"
+    },
+    {
+      "nombre": "Viviendas destruidas",
+      "valor": "9.215",
+      "detalle": "45.457 averiadas · 140 edificios colapsados · 1.667 centros educativos afectados",
+      "fuente": "UNGRD, 12-ago",
+      "url": "https://www.eluniversal.com.co/colombia/2026/08/12/emergencia-por-terremoto-en-colombia-239-muertos-y-mas-de-49000-afectados/"
+    },
+    {
+      "nombre": "Víctimas identificadas",
+      "valor": "93 de 180",
+      "detalle": "Cuerpos recibidos e identificados por Medicina Legal (Chocó, Caldas, Risaralda, Valle)",
+      "fuente": "Medicina Legal, 12-ago",
+      "url": "https://www.radionacional.co/actualidad/terremoto-en-colombia-asciende-240-la-cifra-de-muertos"
+    }
+  ]
+}
