@@ -2,6 +2,7 @@
 node_modules/
 .vercel/
 .netlify/
+.wrangler/
 .claude/
 *.log
 .vercel
