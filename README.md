@@ -13,17 +13,18 @@ Sitio ciudadano que centraliza información verificada sobre el terremoto del 10
 ## Estructura
 
 ```
-web/              El sitio, en React + TypeScript (Vite)
-scraper/          Agregador en Go: lee los otros sitios ciudadanos y normaliza sus datos
-extracted-data/   Salida del scraper (generada, no se edita a mano)
-datos/ayuda.json  Los 91 puntos verificados a mano por el equipo (CC BY 4.0)
-recursos.js       Directorio de enlaces por sección
-index.html        El sitio original en HTML plano — se conserva hasta validar la migración
-RECURSOS.md       Inventario completo del barrido de fuentes (incluye caídas y vacíos)
-PLAN.md           Plan de producto por fases
-TRABAJO.md        Ruta de trabajo del equipo (quién hace qué, flujo git)
-docs/aliados.md   Borradores de contacto para los sitios hermanos
+web/                      El sitio, en React + TypeScript (Vite)
+  src/data/recursos.ts    Directorio de enlaces por sección — editarlo ES actualizar la página
+scraper/                  Agregador en Go: lee los otros sitios ciudadanos y normaliza sus datos
+extracted-data/           Salida del scraper (generada, no se edita a mano)
+datos/ayuda.json          Los 91 puntos verificados a mano por el equipo (CC BY 4.0)
+RECURSOS.md               Inventario completo del barrido de fuentes (incluye caídas y vacíos)
+PLAN.md                   Plan de producto por fases
+TRABAJO.md                Ruta de trabajo del equipo (quién hace qué, flujo git)
+docs/aliados.md           Borradores de contacto para los sitios hermanos
 ```
+
+> El sitio original (`index.html` + `recursos.js` en la raíz, HTML y JS planos) se retiró al terminar la migración a React. Sigue en el historial de git: `git show 00a7b02^:index.html`.
 
 Hay **dos orígenes de datos y son distintos a propósito**: `datos/ayuda.json` son los puntos que alguien del equipo confirmó (`verificado: true`), y `extracted-data/` es lo agregado automáticamente de otros sitios ciudadanos (`verificado: false`, siempre con enlace a su fuente). El sitio los muestra diferenciados: la confianza es el producto, y el usuario tiene que poder distinguirlos de un vistazo.
 
@@ -43,9 +44,30 @@ cd scraper && make correr     # escribe extracted-data/, revisa el diff antes de
 
 El scraper compila a **un binario sin dependencias**: `make construir` (o `make todas` para mac/linux/windows). Cualquiera del equipo lo corre desde su computador y sube el diff. Ver [scraper/README.md](scraper/README.md).
 
+## Federación con los otros sitios ciudadanos
+
+Después del terremoto aparecieron una docena de sitios ciudadanos, cada uno con su pedazo de la información y ninguno hablándose con los demás. En vez de pedirles que se pasen a nuestro formato, los leemos: el scraper agrega **8 sitios** y los normaliza al mismo esquema.
+
+| Sitio | De dónde salen sus datos | Puntos |
+|---|---|---:|
+| [mapa-emergencia](https://mapa-emergencia.artefactofilms.workers.dev/) | API REST propia | 502 |
+| [aidtrace](https://aidtrace-rastroayuda.vercel.app) | `/api/timeline` (trazabilidad de lotes, intermitente) | 100 |
+| [quesenecesita.org](https://quesenecesita.org/) | Google Sheets publicado como CSV | 49 |
+| [calisolidario](https://calisolidario.triadaaliados.com/) | payload RSC de Next.js embebido en el HTML | 45 |
+| [aqui-hace-falta](https://aqui-hace-falta.web.app/) | Convex — WebSocket, y también `POST /api/query` | 42 |
+| [Haciendo Comunidad](https://personnofound.github.io/HaciendoComunidad/) | Firestore con lectura anónima | 38 |
+| [puntos-criticos](https://terremoto-cali-puntos-criticos.netlify.app/) | arreglos JS escritos a mano en el HTML | 37 |
+| [Ventana de Vida](https://window-of-hope-countdown.lovable.app) | página editorial, sin dataset | 1 |
+
+**886 puntos** tras fusionar: 500 con coordenadas, 20 duplicados colapsados y **19 corroborados por dos sitios independientes** — que dos equipos que no se conocen reporten el mismo albergue es la mejor señal de confianza que hay sin llamar por teléfono.
+
+Esto es federación, no apropiación: cada punto conserva el enlace a su sitio de origen, y `extracted-data/` está en CC BY 4.0 para que ellos también puedan consumirnos. Si mantienes uno de estos sitios y prefieres que no te leamos, escríbenos y listo.
+
+**No agregamos datos de personas desaparecidas de ninguna fuente** — es el principio #2. Dos de estos sitios tienen su propia base; los adaptadores la saltan a propósito.
+
 ## Editar datos
 
-- **Enlaces del directorio** → `recursos.js` (cada item: nombre, url, desc, badge opcional).
+- **Enlaces del directorio** → `web/src/data/recursos.ts` (cada item: nombre, url, desc, badge opcional).
 - **Puntos de ayuda / mapa** → `datos/ayuda.json`. Reglas: `tipo` ∈ albergue|acopio|sangre|olla|donacion-org; `fuente` y `fecha_corte` obligatorios; `lat/lon` solo si son confiables (si no, `null` y sale solo en la tabla); **jamás cuentas bancarias en ningún campo**.
 - **`extracted-data/` no se edita.** Lo genera el scraper. Si un punto agregado está mal, se corrige en el adaptador de esa fuente o se le escribe al sitio de origen.
 
@@ -53,9 +75,11 @@ Un punto agregado que traiga `politica_alerta` **no se publica sin que alguien l
 
 ## Deploy
 
-Estático puro: `cd web && npm run build` y publicar `web/dist/` en Netlify o Vercel. Cada merge a `main` puede desplegar automático conectando el repo.
+Estático puro. `netlify.toml` y `vercel.json` ya están configurados: conecta el repo y listo, cada merge a `main` despliega solo.
 
-`extracted-data/` y `datos/` se sirven como archivos estáticos junto al sitio, así que también son la API pública del proyecto: cualquiera puede consumirlos.
+**El build corre desde la raíz del repo, no desde `web/`.** `web/scripts/sync-datos.mjs` necesita leer `datos/` y `extracted-data/`, que están afuera de `web/`.
+
+`extracted-data/` y `datos/` se sirven como archivos estáticos junto al sitio, con CORS abierto: son también la API pública del proyecto. La prensa y los sitios aliados pueden consumirlos sin pedir permiso.
 
 ## Licencias
 

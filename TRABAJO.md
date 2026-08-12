@@ -5,18 +5,19 @@ Diseñada para trabajar **en paralelo sin pisarse**: cada persona es dueña de a
 ## Frentes (dueño por archivo = cero conflictos de merge)
 
 ### Persona A — Datos y verificación 📊
-**Dueña de:** `datos/ayuda.json`, `recursos.js`, `RECURSOS.md`
+**Dueña de:** `datos/ayuda.json`, `web/src/data/recursos.ts`, `RECURSOS.md`
 - Mantener cada punto con fuente + fecha de corte; marcar vencidos.
-- Procesar los diffs que producen los barridos de agentes (revisar → aprobar → merge).
+- Correr el scraper (`cd scraper && make correr`) y **revisar el diff** de `extracted-data/` antes de subirlo. La salida es determinista: lo que cambie en el diff es lo que cambió en la realidad.
+- Revisar los puntos con `politica_alerta` — no se publican sin que alguien los mire.
 - Re-verificar liveblogs a diario (rotan de URL) y boletines oficiales.
 - Llamar/escribir a albergues y acopios para confirmar que siguen activos (el dato más valioso del sitio).
 
 ### Persona B — Producto y frontend 🛠
-**Dueña de:** `index.html`
-- Mapa y tabla (hecho — pulir), botón compartir por WhatsApp por tarjeta.
+**Dueña de:** `web/src/`
+- Mapa y tabla unificados (hecho), compartir por WhatsApp (hecho), réplicas en vivo del USGS (hecho).
 - Panel de cifras con fuente + hora.
-- Widget de réplicas en vivo (feed USGS ya verificado, `fetch` directo).
 - Versión `/lite` de solo texto (<50 KB) y luego PWA offline.
+- El scraper (`scraper/`) es de quien lo toque: si una fuente se rompe, `go run ./cmd/husmear <url>` dice de dónde saca sus datos ahora.
 
 ### Persona C — Alianzas, difusión y moderación 🤝
 **Dueña de:** `docs/`
@@ -45,9 +46,12 @@ Publicable solo si tiene: fuente (URL) + fecha de corte + municipio + tipo. Si e
 ## Esta semana (en orden)
 
 1. ~~Estructura, directorio verificado, mapa+tabla, datos abiertos~~ ✅
-2. Comprar dominio → conectar repo a Vercel/Netlify → publicar (Persona B, 1 h)
-3. Aprobar el JSON del barrido Valle-wide de fundaciones y puntos (Persona A, hoy)
-4. Enviar mensajes a los 4 sitios aliados (Persona C, hoy)
-5. Compartir por WhatsApp + panel de cifras + réplicas en vivo (Persona B, 1-2 días)
-6. Rutina automática de monitoreo aprobada y corriendo (ya diseñada en PLAN.md)
-7. Confirmación telefónica de albergues/acopios listados (Persona A, continuo)
+2. ~~Sitio migrado a React; compartir por WhatsApp y réplicas en vivo~~ ✅
+3. ~~Scraper que federa 8 sitios ciudadanos → 886 puntos en `extracted-data/`~~ ✅
+4. **Comprar dominio → conectar repo a Vercel/Netlify → publicar** (Persona B, 1 h). `netlify.toml` y `vercel.json` ya están listos; el build corre desde la raíz, no desde `web/`.
+5. Revisar los 8 puntos con `politica_alerta` (Persona A, hoy). Ojo: el mismo Nequi repetido en 4 puntos de mapa-emergencia — puede ser recaudo legítimo o puede no serlo.
+6. Enviar mensajes a los sitios aliados (Persona C, hoy). Ahora hay algo concreto que ofrecer: **ya los estamos federando** y `extracted-data/` está en CC BY 4.0 para que ellos nos consuman de vuelta. El ing. de Univalle de Haciendo Comunidad ya escribió pidiendo justamente esto.
+7. Panel de cifras con fuente + hora (Persona B, 1-2 días)
+8. Rutina automática de monitoreo: `make correr` cada 30-60 min, diff a revisión humana (ya diseñada en PLAN.md)
+9. Confirmación telefónica de albergues/acopios listados (Persona A, continuo)
+10. Limpiar los `municipio` de `datos/ayuda.json` que no son municipios (`"Nacional (canaliza a zonas afectadas)"`, `"Valle del Cauca"`): ensucian el desplegable del sitio (Persona A)

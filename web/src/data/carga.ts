@@ -1,9 +1,12 @@
-// Carga y fusión de las dos fuentes de datos.
+// Carga de los datos del sitio.
 //
-//   /datos/ayuda.json            91 puntos curados a mano  → siempre debe existir
-//   /extracted-data/puntos.json  puntos scrapeados          → puede dar 404
+//   /extracted-data/puntos.json  el conjunto completo y ya fusionado que produce
+//                                el scraper en Go. INCLUYE los 91 curados, con
+//                                fuente="curado". Es la fuente normal.
+//   /datos/ayuda.json            solo los 91 curados. Es el respaldo para un
+//                                clon en el que nadie ha corrido el scraper.
 //
-// La app nunca se rompe porque falte el segundo: muestra solo los curados y un
+// La app nunca se rompe porque falte el primero: muestra solo los curados y un
 // aviso discreto.
 
 import type {
@@ -53,18 +56,6 @@ function hash(txt: string): string {
 
 function limpiar(s: string | undefined | null): string {
   return (s ?? '').replace(/\s+/g, ' ').trim();
-}
-
-/** Clave de deduplicación: mismo nombre + mismo municipio = mismo punto. */
-function clave(p: Pick<Punto, 'nombre' | 'municipio'>): string {
-  const norm = (s: string) =>
-    s
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .replace(/[^a-z0-9]+/g, ' ')
-      .trim();
-  return `${norm(p.nombre ?? '')}|${norm(p.municipio ?? '')}`;
 }
 
 /**
@@ -121,9 +112,9 @@ async function traerJSON<T>(ruta: string, señal?: AbortSignal): Promise<T> {
 }
 
 /**
- * Carga las dos fuentes en paralelo y las fusiona.
+ * Carga ambos archivos en paralelo y devuelve el que corresponda.
  * Si falla el archivo curado la promesa rechaza (sin él no hay sitio).
- * Si falla el scrapeado, se devuelve solo lo curado más un aviso.
+ * Si falla el del scraper, se devuelve solo lo curado más un aviso.
  */
 export async function cargarDatos(señal?: AbortSignal): Promise<DatosApp> {
   const [curadoRes, scrapeRes] = await Promise.allSettled([
@@ -161,16 +152,19 @@ export async function cargarDatos(señal?: AbortSignal): Promise<DatosApp> {
       'Todavía no cargamos los puntos agregados de otros sitios ciudadanos. Estás viendo solo los verificados a mano.';
   }
 
-  // Los curados mandan: si el scraper trajo el mismo lugar, se descarta.
-  const vistos = new Set(curados.map(clave));
-  const agregadosUnicos = agregados.filter((p) => {
-    const k = clave(p);
-    if (vistos.has(k)) return false;
-    vistos.add(k);
-    return true;
-  });
-
-  const todos = [...curados, ...agregadosUnicos];
+  // La deduplicación NO se hace aquí: la hace el scraper.
+  //
+  // `extracted-data/puntos.json` ya es el conjunto fusionado e incluye los 91
+  // curados (con fuente="curado"). Su fusión es conservadora y consciente del
+  // tipo: exige mismo tipo, fuentes distintas y coincidencia de dirección o
+  // menos de 120 m. Deduplicar otra vez acá por nombre+municipio —ignorando el
+  // tipo— borraba 88 puntos legítimos, entre ellos un albergue y un banco de
+  // sangre que comparten nombre y ciudad.
+  //
+  // Por eso, si el archivo del scraper cargó, es la única fuente. Los curados
+  // sueltos solo se usan cuando ese archivo no está (clon recién bajado en el
+  // que nadie ha corrido `cd scraper && make correr`).
+  const todos = agregados.length > 0 ? agregados : curados;
 
   // Los que traen alerta de política salen del listado público.
   const publicos = todos.filter((p) => !requiereRevision(p));
@@ -179,8 +173,8 @@ export async function cargarDatos(señal?: AbortSignal): Promise<DatosApp> {
   return {
     puntos: ordenar(publicos),
     enRevision: ordenar(enRevision),
-    totalCurados: curados.length,
-    totalAgregados: agregadosUnicos.length,
+    totalCurados: todos.filter(esCurado).length,
+    totalAgregados: todos.filter((p) => !esCurado(p)).length,
     actualizadoCurado: curado.actualizado,
     generadoScrape,
     fuentes,
