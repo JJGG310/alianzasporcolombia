@@ -1,6 +1,14 @@
 # Los datos cambian con frecuencia durante la emergencia: nunca servir versiones viejas.
 /datos/*
   Cache-Control: public, max-age=0, must-revalidate
+  Access-Control-Allow-Origin: *
+
+# Lo que produce el scraper. CORS abierto a propósito: es la API pública del
+# proyecto, para que la prensa y los sitios aliados puedan consumirla sin pedir
+# permiso — igual que nosotros consumimos los de ellos.
+/extracted-data/*
+  Cache-Control: public, max-age=300
+  Access-Control-Allow-Origin: *
 
 /index.html
   Cache-Control: public, max-age=0, must-revalidate
