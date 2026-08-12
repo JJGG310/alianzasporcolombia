@@ -2,19 +2,18 @@ import { Suspense, lazy, useCallback, useEffect, useMemo, useState } from 'react
 
 import Directorio from './componentes/Directorio';
 import Encabezado from './componentes/Encabezado';
-import Filtros from './componentes/Filtros';
-import LineasEmergencia from './componentes/LineasEmergencia';
+import Filtros, { ordenarPorCercania, useOrigen } from './componentes/Filtros';
 import PieDePagina from './componentes/PieDePagina';
 import Replicas from './componentes/Replicas';
 import TablaPuntos from './componentes/TablaPuntos';
 import TarjetaPunto from './componentes/TarjetaPunto';
+import Icono from './componentes/Icono';
 
 import { cargarDatos, esCurado } from './data/carga';
 import { fechaCorta, haceCuanto, normalizarBusqueda, textoBuscable } from './data/catalogo';
 import { FILTRO_VACIO, type DatosApp, type Filtro, type Punto } from './types';
 
-// Leaflet pesa: se carga aparte para que el contenido crítico (líneas de
-// emergencia, listado) pinte primero en una red mala.
+// Leaflet pesa: se carga aparte para que lo crítico pinte primero en una red mala.
 const MapaAyuda = lazy(() => import('./componentes/MapaAyuda'));
 
 /** Cuántos puntos se pintan de entrada. El resto, bajo demanda. */
@@ -41,6 +40,10 @@ export default function App() {
   const [visibles, setVisibles] = useState(PAGINA);
   const anchoGrande = useAnchoGrande();
 
+  // La ubicación que la persona compartió con "Cerca de mí". Vive solo en
+  // memoria del navegador: no se guarda ni se manda a ningún lado.
+  const origen = useOrigen();
+
   useEffect(() => {
     const ac = new AbortController();
     cargarDatos(ac.signal)
@@ -62,7 +65,7 @@ export default function App() {
     setVisibles(PAGINA);
   }, []);
 
-  // El universo cambia si el usuario pide ver la cola de revisión.
+  // El universo cambia si se pide ver la cola de revisión.
   const universo: Punto[] = useMemo(() => {
     if (!datos) return [];
     return filtro.requiereRevision ? datos.enRevision : datos.puntos;
@@ -79,7 +82,7 @@ export default function App() {
     // Búsqueda por palabras sueltas y en cualquier orden: quien escribe
     // "sangre cali" espera los bancos de sangre de Cali, no una frase exacta.
     const terminos = normalizarBusqueda(filtro.texto).split(/\s+/).filter(Boolean);
-    return universo.filter((p) => {
+    const base = universo.filter((p) => {
       if (filtro.tipo && p.tipo !== filtro.tipo) return false;
       if (filtro.departamento && p.departamento !== filtro.departamento) return false;
       if (filtro.municipio && p.municipio !== filtro.municipio) return false;
@@ -91,7 +94,10 @@ export default function App() {
       }
       return true;
     });
-  }, [universo, filtro, indice]);
+    // Con ubicación compartida, lo más cerca manda sobre cualquier otro orden:
+    // es la única pregunta que importa cuando estás parado en la calle.
+    return origen ? ordenarPorCercania(base, origen) : base;
+  }, [universo, filtro, indice, origen]);
 
   const opciones = useMemo(() => {
     const tipos = new Set<string>();
@@ -102,7 +108,7 @@ export default function App() {
       tipos.add(p.tipo);
       if (p.departamento) departamentos.add(p.departamento);
       if (p.estado) estados.add(p.estado);
-      // Los municipios se acotan al departamento elegido, como en el sitio viejo.
+      // Los municipios se acotan al departamento elegido.
       if (p.municipio && (!filtro.departamento || p.departamento === filtro.departamento)) {
         municipios.add(p.municipio);
       }
@@ -117,126 +123,166 @@ export default function App() {
   }, [universo, filtro.departamento]);
 
   const aMostrar = filtrados.slice(0, visibles);
+  const urgentes = useMemo(
+    () => filtrados.filter((p) => p.estado === 'urgente').length,
+    [filtrados],
+  );
 
   return (
-    <>
+    <div className="app">
+      <a className="saltar" href="#herramienta">
+        Saltar al buscador de ayuda
+      </a>
+
       <Encabezado actualizado={datos?.actualizadoCurado ?? ''} />
 
-      <main>
-        <div className="columna-texto">
-          <LineasEmergencia />
+      <main className="app__cuerpo">
+        <div className="contenedor">
           <Replicas />
-        </div>
-
-        <section id="ayuda" className="ancha" aria-labelledby="t-ayuda">
-          <h2 id="t-ayuda">Mapa y directorio de ayuda</h2>
-          <p className="desc">
-            Albergues, puntos de acopio, bancos de sangre, ollas comunitarias y
-            organizaciones que gestionan donaciones. Cada punto lleva su fuente y su fecha
-            de corte, y dice si lo verificamos a mano o si lo agregamos automáticamente de
-            otro sitio ciudadano.{' '}
-            <strong>Nunca publicamos cuentas bancarias:</strong> contacta directamente a la
-            organización y valida con ella antes de entregar dinero.
-          </p>
-
-          {datos && (
-            <p className="meta">
-              {datos.totalCurados} puntos verificados a mano (corte:{' '}
-              {datos.actualizadoCurado}) · {datos.totalAgregados} agregados
-              automáticamente
-              {datos.generadoScrape
-                ? ` (última recolección ${haceCuanto(datos.generadoScrape)}, ${fechaCorta(
-                    datos.generadoScrape,
-                  )})`
-                : ''}
-              .
-            </p>
-          )}
-
-          {datos?.aviso && (
-            <p className="meta" role="status">
-              ℹ️ {datos.aviso}
-            </p>
-          )}
 
           {error && (
-            <div className="error" role="alert">
-              <p>{error}</p>
-              <p>
-                Mientras tanto puedes abrir los datos abiertos directamente:{' '}
-                <a href="/datos/ayuda.json">/datos/ayuda.json</a>.
-              </p>
+            <div className="aviso aviso--error" role="alert">
+              <Icono nombre="alerta" />
+              <div>
+                <p>{error}</p>
+                <p>
+                  Los datos siguen abiertos y los puedes ver directo:{' '}
+                  <a href="/extracted-data/puntos.json">todos los puntos</a>.
+                </p>
+              </div>
             </div>
           )}
 
-          {!datos && !error && (
-            <p className="cargando" role="status">
-              Cargando puntos de ayuda…
-            </p>
+          {datos?.aviso && (
+            <div className="aviso" role="status">
+              <Icono nombre="alerta" />
+              <p>{datos.aviso}</p>
+            </div>
           )}
 
-          {datos && (
-            <>
-              <Filtros
-                filtro={filtro}
-                cambiar={cambiar}
-                limpiar={limpiar}
-                tipos={opciones.tipos}
-                departamentos={opciones.departamentos}
-                municipios={opciones.municipios}
-                estados={opciones.estados}
-                totalEnRevision={datos.enRevision.length}
-                mostrados={filtrados.length}
-                total={universo.length}
-              />
+          <section id="herramienta" className="herramienta" aria-label="Buscar ayuda">
+            {datos && (
+              <p className="procedencia">
+                <span className="procedencia__dato">
+                  <Icono nombre="verificado" />
+                  <span className="procedencia__num">{datos.totalCurados}</span> verificados
+                  a mano
+                </span>
+                <span className="procedencia__dato">
+                  <Icono nombre="refrescar" />
+                  <span className="procedencia__num">{datos.totalAgregados}</span> agregados
+                  de otros sitios
+                  {datos.generadoScrape
+                    ? ` · ${haceCuanto(datos.generadoScrape)} (${fechaCorta(datos.generadoScrape)})`
+                    : ''}
+                </span>
+              </p>
+            )}
 
-              <Suspense
-                fallback={
-                  <div className="mapa mapa-vacio" role="status">
-                    <p>Cargando el mapa…</p>
-                  </div>
-                }
-              >
-                <MapaAyuda puntos={filtrados} />
-              </Suspense>
+            {!datos && !error && (
+              <div role="status" aria-live="polite">
+                <span className="solo-lectores">Cargando puntos de ayuda…</span>
+                <div className="esqueleto" style={{ height: 52, marginBottom: 'var(--e3)' }} />
+                <div className="esqueleto" style={{ height: 38, marginBottom: 'var(--e4)' }} />
+                <div className="esqueleto" style={{ height: '46vh', marginBottom: 'var(--e4)' }} />
+                <div className="esqueleto" style={{ height: 120, marginBottom: 'var(--e3)' }} />
+                <div className="esqueleto" style={{ height: 120 }} />
+              </div>
+            )}
 
-              {filtrados.length === 0 ? (
-                <p className="sin-resultados" role="status">
-                  Ningún punto coincide con esos filtros. Prueba con menos filtros o busca
-                  por municipio.
-                </p>
-              ) : anchoGrande ? (
-                <TablaPuntos puntos={aMostrar} />
-              ) : (
-                <ul className="lista-tarjetas">
-                  {aMostrar.map((p) => (
-                    <TarjetaPunto key={p.id} punto={p} />
-                  ))}
-                </ul>
-              )}
+            {datos && (
+              <>
+                <Filtros
+                  filtro={filtro}
+                  cambiar={cambiar}
+                  limpiar={limpiar}
+                  tipos={opciones.tipos}
+                  departamentos={opciones.departamentos}
+                  municipios={opciones.municipios}
+                  estados={opciones.estados}
+                  totalEnRevision={datos.enRevision.length}
+                  mostrados={filtrados.length}
+                  total={universo.length}
+                  puntos={universo}
+                />
 
-              {filtrados.length > aMostrar.length && (
-                <div className="mas">
-                  <button
-                    type="button"
-                    className="boton"
-                    onClick={() => setVisibles((v) => v + PAGINA)}
+                {filtrados.length > 0 && (
+                  <Suspense
+                    fallback={
+                      <div className="mapa">
+                        <div className="mapa__cargando" role="status">
+                          Cargando el mapa…
+                        </div>
+                      </div>
+                    }
                   >
-                    Mostrar {Math.min(PAGINA, filtrados.length - aMostrar.length)} más (van{' '}
-                    {aMostrar.length} de {filtrados.length})
-                  </button>
-                </div>
-              )}
-            </>
-          )}
-        </section>
+                    <MapaAyuda puntos={filtrados} miUbicacion={origen} />
+                  </Suspense>
+                )}
 
-        <div className="columna-texto">
+                {urgentes > 0 && (
+                  <p className="solo-lectores" aria-live="polite">
+                    {urgentes} de los {filtrados.length} puntos están marcados como urgentes.
+                  </p>
+                )}
+
+                {filtrados.length > 0 &&
+                  (anchoGrande ? (
+                    <TablaPuntos puntos={aMostrar} origen={origen} />
+                  ) : (
+                    <ul className="lista-puntos">
+                      {aMostrar.map((p) => (
+                        <li key={p.id}>
+                          <TarjetaPunto punto={p} origen={origen} />
+                        </li>
+                      ))}
+                    </ul>
+                  ))}
+
+                {filtrados.length > aMostrar.length && (
+                  <div className="cargar-mas">
+                    <button
+                      type="button"
+                      className="btn"
+                      onClick={() => setVisibles((v) => v + PAGINA)}
+                    >
+                      Mostrar {Math.min(PAGINA, filtrados.length - aMostrar.length)} más
+                      <span style={{ color: 'var(--tinta-400)' }}>
+                        {aMostrar.length} de {filtrados.length}
+                      </span>
+                    </button>
+                  </div>
+                )}
+              </>
+            )}
+          </section>
+
+          <div className="explicacion">
+            <h2>Qué es esto</h2>
+            <p className="prosa">
+              Información ciudadana centralizada sobre el terremoto M 7,4 del 10 de agosto
+              de 2026. Empezamos por Cali y el Valle del Cauca en las primeras horas y
+              crecimos por regiones a todo el país. Recopilamos y enlazamos: las cifras y
+              las órdenes de evacuación las emiten las autoridades, no nosotros.
+            </p>
+            <p className="prosa">
+              Cada punto lleva su fuente y su fecha de corte, y dice si lo verificamos a
+              mano o si lo agregamos automáticamente de otro sitio ciudadano. Lo agregado no
+              está confirmado uno por uno: por eso cita su origen, para que puedas
+              comprobarlo.
+            </p>
+            <p className="regla-dinero">
+              <strong>Nunca publicamos cuentas bancarias.</strong> Ninguna. Si vas a donar,
+              contacta directamente a la organización y valida con ella antes de entregar
+              dinero. Si un punto de este sitio te pide plata, no es nuestro.
+            </p>
+          </div>
+
           <Directorio />
         </div>
       </main>
 
       <PieDePagina licencia={datos?.licencia} politica={datos?.politica} />
-    </>
+    </div>
   );
 }

@@ -1,0 +1,241 @@
+/* Estructura de la página y el mapa.
+ *
+ * El orden manda: buscador → mapa → listado. Todo lo explicativo va después.
+ * Antes había header, franja de aviso, seis tarjetas de teléfonos, réplicas y
+ * un párrafo largo ANTES del mapa; en un celular eso son tres pantallazos de
+ * scroll para llegar a lo que la persona vino a buscar.
+ */
+
+.app {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__cuerpo {
+  flex: 1;
+  padding-block: var(--e4) var(--e7);
+}
+
+/* ---- Secciones ------------------------------------------------------- */
+
+.seccion {
+  margin-block: var(--e6);
+}
+
+.seccion__titulo {
+  font-size: var(--txt-lg);
+  margin-bottom: var(--e2);
+}
+
+.seccion__ayuda {
+  font-size: var(--txt-sm);
+  color: var(--tinta-500);
+  max-width: var(--ancho-prosa);
+  margin-bottom: var(--e4);
+}
+
+/* ---- Herramienta ----------------------------------------------------- */
+/* El bloque de buscador + mapa + listado. Sin título: no hace falta anunciar
+   la herramienta cuando la herramienta es la página. */
+
+.herramienta {
+  margin-top: var(--e4);
+}
+
+/* ---- Barra de procedencia -------------------------------------------- */
+/* Una línea, no un párrafo: cuántos puntos, de dónde salen y qué tan viejos
+   son. Es el principio #2 del proyecto en su forma más compacta. */
+
+.procedencia {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--e1) var(--e3);
+  margin-bottom: var(--e3);
+  font-size: var(--txt-xs);
+  color: var(--tinta-500);
+}
+
+.procedencia__dato {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--e1);
+  white-space: nowrap;
+}
+
+.procedencia__num {
+  font-weight: var(--peso-fuerte);
+  color: var(--tinta-700);
+}
+
+/* ---- Mapa ------------------------------------------------------------ */
+
+.mapa {
+  position: relative;
+  height: 46vh;
+  min-height: 260px;
+  max-height: 520px;
+  border: 1px solid var(--borde);
+  border-radius: var(--radio-lg);
+  overflow: hidden;
+  background: var(--superficie-2);
+  margin-bottom: var(--e4);
+}
+
+@media (min-width: 900px) {
+  .mapa {
+    height: 52vh;
+  }
+}
+
+.mapa .leaflet-container {
+  height: 100%;
+  width: 100%;
+  font: inherit;
+  background: var(--superficie-2);
+}
+
+/* Leaflet trae su propio look de 2011. Lo alineamos al sistema. */
+.mapa .leaflet-control-zoom a {
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  color: var(--tinta-900);
+  background: var(--superficie);
+  border-color: var(--borde);
+  font-weight: var(--peso-medio);
+}
+.mapa .leaflet-control-zoom a:hover {
+  background: var(--superficie-2);
+}
+.mapa .leaflet-control-attribution {
+  background: var(--superficie);
+  color: var(--tinta-400);
+  font-size: 10px;
+  padding: 2px var(--e2);
+}
+.mapa .leaflet-control-attribution a {
+  color: var(--tinta-500);
+}
+.mapa .leaflet-popup-content-wrapper {
+  border-radius: var(--radio);
+  box-shadow: var(--sombra-lg);
+  background: var(--superficie);
+  color: var(--tinta-900);
+}
+.mapa .leaflet-popup-tip {
+  background: var(--superficie);
+}
+.mapa .leaflet-popup-content {
+  margin: var(--e3);
+  font-size: var(--txt-sm);
+  line-height: var(--alto-normal);
+}
+
+/* En modo oscuro el mapa claro deslumbra a las 2 a. m. Se apaga un poco sin
+   invertirlo: invertido, el agua se ve como tierra y deja de ser legible. */
+@media (prefers-color-scheme: dark) {
+  .mapa .leaflet-tile-pane {
+    filter: brightness(0.72) saturate(0.85) contrast(1.05);
+  }
+}
+
+.mapa__cargando {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: var(--txt-sm);
+  color: var(--tinta-500);
+}
+
+/* Leyenda y nota de cobertura, debajo del mapa y en pequeño. */
+.mapa-pie {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--e2) var(--e4);
+  margin-top: calc(var(--e4) * -1 + var(--e2));
+  margin-bottom: var(--e4);
+  font-size: var(--txt-xs);
+  color: var(--tinta-500);
+}
+
+.mapa-pie__clave {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--e1);
+}
+
+.mapa-pie__punto {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex: none;
+  border: 1.5px solid var(--superficie);
+  box-shadow: 0 0 0 1px currentColor;
+  background: currentColor;
+}
+
+/* ---- Avisos ---------------------------------------------------------- */
+/* Discretos a propósito. Una franja amarilla a todo lo ancho compite con la
+   urgencia real de los puntos y le enseña a la gente a ignorar los avisos. */
+
+.aviso {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--e2);
+  padding: var(--e3);
+  border: 1px solid var(--confirmar-tenue);
+  border-radius: var(--radio);
+  background: var(--confirmar-tenue);
+  color: var(--confirmar);
+  font-size: var(--txt-sm);
+  margin-bottom: var(--e4);
+}
+
+.aviso--error {
+  border-color: var(--urgente-borde);
+  background: var(--urgente-tenue);
+  color: var(--urgente);
+}
+
+/* ---- Explicación ----------------------------------------------------- */
+/* Todo lo que hay que leer una vez y nunca más: qué es esto, de dónde salen
+   los datos, la advertencia de no entregar plata sin validar. */
+
+.explicacion {
+  margin-top: var(--e7);
+  padding-top: var(--e5);
+  border-top: 1px solid var(--borde);
+}
+
+.explicacion h2 {
+  font-size: var(--txt-md);
+  margin-bottom: var(--e2);
+}
+
+.explicacion p + p {
+  margin-top: var(--e3);
+}
+
+/* La regla del dinero es la que más nos importa: se dice fuerte, una sola vez
+   y en el lugar donde alguien está a punto de donar. */
+.regla-dinero {
+  margin-top: var(--e4);
+  padding: var(--e3) var(--e4);
+  border-left: 3px solid var(--urgente);
+  background: var(--urgente-tenue);
+  border-radius: 0 var(--radio) var(--radio) 0;
+  color: var(--tinta-900);
+  font-size: var(--txt-sm);
+}
+
+/* ---- Cargar más ------------------------------------------------------ */
+
+.cargar-mas {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--e5);
+}

@@ -1,0 +1,653 @@
+/* Búsqueda y listado de puntos de ayuda.
+ *
+ * Esta es la herramienta: un buscador, unos chips y una lista. Todo lo demás
+ * del sitio es contexto. Las decisiones que ordenan este archivo:
+ *
+ *   1. Se busca, no se navega. El campo de texto es lo más grande de la
+ *      pantalla y los chips están a un pulgar de distancia; los filtros finos
+ *      viven doblados dentro de un <details>.
+ *   2. El rojo es urgencia y nada más. Lo interactivo es tinta (--accion).
+ *      Un botón "Cómo llegar" no es una emergencia.
+ *   3. Jerarquía por tamaño y peso. El nombre del punto es lo más grande de la
+ *      tarjeta; la fuente y la fecha de corte son lo más pequeño, pero están
+ *      siempre.
+ *   4. Ni un valor suelto: todo sale de tokens.css.
+ */
+
+/* Depende de tokens.css y base.css, que main.tsx carga antes que este archivo.
+   El orden importa: acá solo se afina lo que base.css ya definió. */
+
+/* ==========================================================================
+   1. Búsqueda
+   ========================================================================== */
+
+.busqueda {
+  display: flex;
+  flex-direction: column;
+  gap: var(--e3);
+  margin: var(--e4) 0 var(--e5);
+}
+
+/* ---- El campo grande ---------------------------------------------------- */
+/* Protagonista deliberado: alto mayor que el resto de controles y tipografía
+   de --txt-md. En un celular es lo primero que el pulgar encuentra. */
+
+.buscador {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.buscador__campo {
+  min-height: calc(var(--toque) + var(--e2));
+  padding-left: calc(var(--e6) + var(--e1));
+  padding-right: var(--toque);
+  border-radius: var(--radio-lg);
+  font-size: var(--txt-md);
+  box-shadow: var(--sombra-sm);
+  transition:
+    border-color var(--dur-1) var(--ease),
+    box-shadow var(--dur-1) var(--ease);
+}
+.buscador__campo:focus {
+  border-color: var(--tinta-500);
+  outline: none;
+}
+
+.buscador__lupa {
+  position: absolute;
+  left: var(--e3);
+  color: var(--tinta-400);
+  pointer-events: none;
+}
+.buscador:focus-within .buscador__lupa {
+  color: var(--tinta-700);
+}
+
+.buscador__limpiar {
+  position: absolute;
+  right: var(--e1);
+  display: grid;
+  place-items: center;
+  width: var(--toque);
+  height: var(--toque);
+  padding: 0;
+  border: 0;
+  border-radius: var(--radio-full);
+  background: transparent;
+  color: var(--tinta-500);
+  cursor: pointer;
+  transition:
+    background var(--dur-1) var(--ease),
+    color var(--dur-1) var(--ease);
+}
+.buscador__limpiar:hover {
+  background: var(--superficie-2);
+  color: var(--tinta-900);
+}
+.buscador__limpiar:active {
+  transform: translateY(1px);
+}
+
+/* ---- Chips de acceso rápido -------------------------------------------- */
+/* Fila con scroll horizontal contenido: se desliza con el pulgar y nunca
+   empuja el ancho de la página. */
+
+.chips {
+  display: flex;
+  gap: var(--e2);
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding-bottom: var(--e1);
+}
+.chips::-webkit-scrollbar {
+  display: none;
+}
+.chips > .chip {
+  flex: none;
+  scroll-snap-align: start;
+  min-height: var(--toque);
+}
+.chip:active {
+  transform: translateY(1px);
+}
+.chip:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.chip:disabled:hover {
+  border-color: var(--borde-fuerte);
+}
+
+/* "Cerca de mí" abre el chip: es la pregunta real de quien está en la calle. */
+.chip--cerca {
+  border-color: var(--tinta-300);
+}
+
+.ubic-aviso {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--e2);
+  margin: 0;
+  font-size: var(--txt-sm);
+  color: var(--tinta-500);
+}
+.ubic-aviso--problema {
+  color: var(--confirmar);
+}
+
+/* ---- Más filtros -------------------------------------------------------- */
+/* Doblados a propósito: si compiten con el buscador, la persona se pone a
+   escoger departamentos en vez de escribir "albergue chapinero". */
+
+.mas-filtros {
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  background: var(--superficie);
+}
+.mas-filtros > summary {
+  display: flex;
+  align-items: center;
+  gap: var(--e2);
+  min-height: var(--toque);
+  padding: 0 var(--e3);
+  color: var(--tinta-700);
+  font-size: var(--txt-sm);
+  font-weight: var(--peso-medio);
+  cursor: pointer;
+  list-style: none;
+  border-radius: var(--radio);
+}
+.mas-filtros > summary::-webkit-details-marker {
+  display: none;
+}
+.mas-filtros > summary:hover {
+  background: var(--superficie-2);
+}
+.mas-filtros__conteo {
+  display: inline-grid;
+  place-items: center;
+  min-width: var(--e5);
+  height: var(--e5);
+  padding: 0 var(--e1);
+  border-radius: var(--radio-full);
+  background: var(--accion);
+  color: var(--accion-texto);
+  font-size: var(--txt-xs);
+  font-weight: var(--peso-fuerte);
+}
+.mas-filtros__flecha {
+  margin-left: auto;
+  color: var(--tinta-400);
+  transition: transform var(--dur-2) var(--ease);
+}
+.mas-filtros[open] .mas-filtros__flecha {
+  transform: rotate(180deg);
+}
+
+.mas-filtros__cuerpo {
+  display: grid;
+  gap: var(--e3);
+  padding: var(--e3);
+  border-top: 1px solid var(--borde);
+}
+@media (min-width: 700px) {
+  .mas-filtros__cuerpo {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.casilla {
+  display: flex;
+  align-items: center;
+  gap: var(--e2);
+  min-height: var(--toque);
+  color: var(--tinta-700);
+  font-size: var(--txt-sm);
+  cursor: pointer;
+}
+.casilla input {
+  width: var(--e4);
+  height: var(--e4);
+  accent-color: var(--accion);
+  flex: none;
+}
+
+/* ---- Resumen de resultados --------------------------------------------- */
+
+.resumen {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--e2) var(--e3);
+  margin: 0;
+  font-size: var(--txt-sm);
+  color: var(--tinta-500);
+}
+.resumen strong {
+  color: var(--tinta-900);
+  font-weight: var(--peso-fuerte);
+}
+.resumen__urgentes {
+  color: var(--urgente);
+  font-weight: var(--peso-medio);
+}
+.resumen__urgentes::before {
+  content: '·';
+  margin-right: var(--e2);
+  color: var(--tinta-300);
+}
+.resumen__aviso {
+  flex: 1 1 100%;
+  color: var(--confirmar);
+}
+.resumen__limpiar {
+  margin-left: auto;
+}
+
+/* ---- Sin resultados ----------------------------------------------------- */
+/* Un "0 resultados" seco deja a la persona sin salida. Acá se dice cuál filtro
+   está estorbando y se ofrece quitarlo de un toque. */
+
+.vacio {
+  display: grid;
+  gap: var(--e3);
+  justify-items: start;
+  padding: var(--e5) var(--e4);
+  border: 1px dashed var(--borde-fuerte);
+  border-radius: var(--radio-lg);
+  background: var(--superficie);
+}
+.vacio__titulo {
+  font-size: var(--txt-md);
+  font-weight: var(--peso-fuerte);
+  color: var(--tinta-900);
+}
+.vacio__nota {
+  font-size: var(--txt-sm);
+  color: var(--tinta-500);
+}
+.vacio__acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--e2);
+}
+
+/* ==========================================================================
+   2. Tarjeta de punto
+   ========================================================================== */
+
+/* La <ul> la arma App (es quien pagina); acá solo se le quita la viñeta y se
+   le pone la rejilla. Dos columnas apenas hay ancho para dos: en un celular
+   angosto una tarjeta a media pantalla no cabe con la dirección completa. */
+.lista-puntos,
+.lista-tarjetas {
+  list-style: none;
+  margin: var(--e4) 0 0;
+  padding: 0;
+  display: grid;
+  gap: var(--e3);
+}
+@media (min-width: 560px) {
+  .lista-puntos,
+  .lista-tarjetas {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+}
+/* Cada <li> es solo el hueco de la rejilla: la tarjeta lo llena entero para
+   que dos tarjetas de distinto alto queden parejas. */
+.lista-puntos > li,
+.lista-tarjetas > li {
+  display: flex;
+}
+.lista-puntos > li > .punto,
+.lista-tarjetas > li > .punto {
+  flex: 1;
+}
+
+.punto.tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--e2);
+  padding: var(--e4);
+  border-left: 1px solid var(--borde);
+  background: var(--superficie);
+}
+/* Urgente a un metro de distancia: una banda de 3 px y el sello. Pintar la
+   tarjeta entera de rojo haría que 41 urgencias se vean como 878. */
+.punto--urgente.tarjeta {
+  border-left: 3px solid var(--urgente);
+  padding-left: calc(var(--e4) - 2px);
+}
+
+.punto__sellos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--e1) var(--e2);
+}
+.punto__tipo {
+  font-size: var(--txt-xs);
+  font-weight: var(--peso-medio);
+  letter-spacing: var(--track-mayus);
+  text-transform: uppercase;
+  color: var(--tinta-500);
+}
+
+.punto__nombre {
+  font-size: var(--txt-md);
+  font-weight: var(--peso-fuerte);
+  color: var(--tinta-900);
+}
+
+.punto__donde {
+  font-size: var(--txt-sm);
+  color: var(--tinta-500);
+}
+.punto__dist {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--e1);
+  color: var(--tinta-900);
+  font-weight: var(--peso-medio);
+  white-space: nowrap;
+}
+
+.punto__desc {
+  font-size: var(--txt-sm);
+  color: var(--tinta-700);
+}
+
+/* ---- Qué necesita / qué ofrece ------------------------------------------ */
+/* El dato que decide si alguien va o no. Texto corrido obliga a leerlo; una
+   fila de etiquetas se barre de un vistazo. */
+
+.punto__etqs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--e1) var(--e2);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.punto__etq-item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--e1);
+}
+.punto__k {
+  font-size: var(--txt-xs);
+  font-weight: var(--peso-medio);
+  letter-spacing: var(--track-mayus);
+  text-transform: uppercase;
+  color: var(--tinta-400);
+}
+.punto__etq {
+  padding: 2px var(--e2);
+  border-radius: var(--radio-sm);
+  background: var(--superficie-2);
+  color: var(--tinta-700);
+  font-size: var(--txt-xs);
+}
+.punto__mas {
+  min-height: var(--toque);
+  /* El botón necesita 44 px de área táctil sin abrir un hueco en la fila. */
+  margin-block: calc(var(--e3) * -1);
+  padding-inline: var(--e2);
+  border: 0;
+  border-radius: var(--radio-sm);
+  background: none;
+  color: var(--enlace);
+  font: inherit;
+  font-size: var(--txt-xs);
+  font-weight: var(--peso-medio);
+  cursor: pointer;
+}
+.punto__mas:hover {
+  background: var(--superficie-2);
+}
+
+.punto__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--e1) var(--e3);
+  font-size: var(--txt-sm);
+  color: var(--tinta-700);
+}
+.punto__meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--e1);
+}
+.punto__meta svg {
+  color: var(--tinta-400);
+}
+
+.punto__alerta {
+  display: flex;
+  gap: var(--e2);
+  padding: var(--e2);
+  border-radius: var(--radio-sm);
+  background: var(--confirmar-tenue);
+  color: var(--confirmar);
+  font-size: var(--txt-sm);
+}
+
+/* ---- Acciones ----------------------------------------------------------- */
+
+.punto__acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--e2);
+  margin-top: var(--e1);
+}
+.punto__acciones .btn {
+  flex: 1 1 auto;
+}
+
+/* ---- Pie: fuente y fecha de corte, siempre ------------------------------ */
+/* Principio #2 del proyecto: ningún dato sin fuente ni fecha. Va en el tamaño
+   más pequeño, pero va. */
+
+.punto__pie {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--e1) var(--e2);
+  margin-top: auto;
+  padding-top: var(--e2);
+  border-top: 1px solid var(--borde);
+  font-size: var(--txt-xs);
+  color: var(--tinta-400);
+}
+.punto__pie a {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--e1);
+  color: var(--tinta-500);
+}
+
+/* ==========================================================================
+   3. Tabla (escritorio)
+   ========================================================================== */
+
+.tabla-caja {
+  margin-top: var(--e4);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio-lg);
+  background: var(--superficie);
+  box-shadow: var(--sombra-sm);
+}
+/* El encabezado pegajoso solo funciona si la caja NO es un contenedor de
+   scroll. Por eso el overflow-x se enciende únicamente en el tramo angosto
+   donde la tabla no cabe (la tabla solo se pinta desde 900 px). Ahí se pierde
+   el sticky y se gana que la página no se desborde, que es peor. */
+@media (max-width: 1000px) {
+  .tabla-caja {
+    overflow-x: auto;
+  }
+  .tabla {
+    min-width: 840px;
+  }
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  font-size: var(--txt-sm);
+}
+.tabla th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: var(--e2) var(--e3);
+  border-bottom: 1px solid var(--borde-fuerte);
+  background: var(--superficie-2);
+  color: var(--tinta-500);
+  font-size: var(--txt-xs);
+  font-weight: var(--peso-fuerte);
+  letter-spacing: var(--track-mayus);
+  text-transform: uppercase;
+  text-align: left;
+  white-space: nowrap;
+}
+.tabla thead th:first-child {
+  border-top-left-radius: var(--radio-lg);
+}
+.tabla thead th:last-child {
+  border-top-right-radius: var(--radio-lg);
+}
+.tabla td {
+  padding: var(--e3);
+  border-bottom: 1px solid var(--borde);
+  vertical-align: top;
+  overflow-wrap: anywhere;
+  color: var(--tinta-700);
+}
+.tabla tbody tr:last-child td {
+  border-bottom: 0;
+}
+.tabla tbody tr:hover td {
+  background: var(--superficie-2);
+}
+.tabla__nombre {
+  color: var(--tinta-900);
+  font-size: var(--txt-base);
+  font-weight: var(--peso-fuerte);
+}
+.tabla__sub {
+  display: block;
+  margin-top: var(--e1);
+  color: var(--tinta-400);
+  font-size: var(--txt-xs);
+}
+.tabla__num {
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  color: var(--tinta-900);
+  font-weight: var(--peso-medio);
+}
+.tabla__acciones {
+  display: flex;
+  gap: var(--e1);
+  justify-content: flex-end;
+}
+.tabla__acciones .btn {
+  padding: 0 var(--e2);
+}
+/* La urgencia se lee en el borde de la fila, no tiñendo la fila entera. */
+.tabla tbody tr.fila--urgente td:first-child {
+  box-shadow: inset 3px 0 0 var(--urgente);
+}
+.tabla .sello {
+  white-space: normal;
+}
+.tabla .punto__etqs {
+  gap: var(--e1);
+}
+
+/* ==========================================================================
+   4. Carga
+   ========================================================================== */
+/* Esqueletos con la forma de la tarjeta: la pantalla no salta cuando llegan
+   los datos y se ve de una que lo que viene es una lista, no un error. */
+
+.esq-lista {
+  list-style: none;
+  margin: var(--e4) 0 0;
+  padding: 0;
+  display: grid;
+  gap: var(--e3);
+}
+@media (min-width: 560px) {
+  .esq-lista {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+}
+.esq-tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--e2);
+  padding: var(--e4);
+}
+.esq-linea {
+  height: var(--e3);
+}
+.esq-linea--sello {
+  width: 45%;
+  height: var(--e4);
+}
+.esq-linea--nombre {
+  width: 75%;
+  height: var(--e5);
+  margin-top: var(--e1);
+}
+.esq-linea--corta {
+  width: 60%;
+}
+.esq-linea--accion {
+  height: var(--toque);
+  margin-top: var(--e2);
+  border-radius: var(--radio);
+}
+
+/* ==========================================================================
+   5. Paginación (el "mostrar más" que vive en App)
+   ========================================================================== */
+
+.mas {
+  display: flex;
+  justify-content: center;
+  margin: var(--e5) 0;
+}
+.mas .boton {
+  min-height: var(--toque);
+  padding: 0 var(--e5);
+  border: 1px solid var(--borde-fuerte);
+  border-radius: var(--radio);
+  background: var(--superficie);
+  color: var(--tinta-900);
+  font-size: var(--txt-sm);
+  font-weight: var(--peso-medio);
+}
+.mas .boton:hover {
+  background: var(--superficie-2);
+  border-color: var(--tinta-300);
+}
+
+/* ==========================================================================
+   6. Puente con el App de hoy
+   ==========================================================================
+   App todavía pinta su propio párrafo de "ningún punto coincide". Lo reemplaza
+   el estado vacío de Filtros, que sí dice qué filtro está estorbando y ofrece
+   quitarlo. Cuando ese párrafo salga de App.tsx, esta regla se borra. */
+
+.sin-resultados {
+  display: none;
+}

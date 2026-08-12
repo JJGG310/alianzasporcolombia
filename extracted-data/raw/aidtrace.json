@@ -4,8 +4,8 @@
   "mecanismo": "API propia /api/timeline (actualmente caída) — el Supabase del sitio exige autenticación",
   "ok": true,
   "nota": "endpoint intermitente: alterna 200 con datos y 500 (error de blockchain, viem); el Supabase del sitio exige autenticación (401); hay más páginas (hasMore=true): solo se lee la primera de 100 eventos",
-  "duracion": "8.075373666s",
-  "obtenido": "2026-08-12T20:06:28Z",
+  "duracion": "5.47883775s",
+  "obtenido": "2026-08-12T20:50:04Z",
   "total": 100,
   "puntos": [
     {
@@ -18,7 +18,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T07:11:49Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "ARRIVED",
         "batchId": "AT-1536M5Q-S3GL0U",
@@ -47,7 +47,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T02:03:45Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-1536M5Q-S3GL0U",
@@ -76,7 +76,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-07-01T08:57:25Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -105,7 +105,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-07-01T00:52:09Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "REVIEW",
         "batchId": "AT-CELO-1",
@@ -134,7 +134,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-07-01T00:52:04Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -163,7 +163,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-07-01T00:52:00Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -192,7 +192,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-07-01T00:51:55Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "REVIEW",
         "batchId": "AT-CELO-1",
@@ -221,7 +221,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-07-01T00:51:50Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -250,7 +250,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-07-01T00:51:45Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -279,7 +279,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T22:57:18Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -308,7 +308,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T21:44:40Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -337,7 +337,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T21:44:35Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -366,7 +366,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T21:44:29Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -395,7 +395,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T19:35:50Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "ARRIVED",
         "batchId": "AT-2BVWRT-CG33GH",
@@ -424,7 +424,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T19:34:25Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-2BVWRT-CG33GH",
@@ -453,7 +453,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T19:25:56Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKED_UP",
         "batchId": "AT-1KXGLNF-6RA1Y0",
@@ -482,7 +482,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T19:25:51Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-10RFXD5-76QT8X",
@@ -511,7 +511,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T19:25:47Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "ARRIVED",
         "batchId": "AT-10RFXD5-76QT8X",
@@ -540,7 +540,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T19:23:07Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-1KXGLNF-6RA1Y0",
@@ -569,7 +569,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T19:21:22Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "REVIEW",
         "batchId": "AT-CELO-1",
@@ -598,7 +598,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T19:13:12Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -627,7 +627,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T03:28:58Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -656,7 +656,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T01:56:52Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVERED",
         "batchId": "AT-CELO-1",
@@ -685,7 +685,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T01:08:53Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -714,7 +714,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T01:08:37Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -743,7 +743,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T01:08:31Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -772,7 +772,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T01:08:26Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -801,7 +801,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-30T00:58:41Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -830,7 +830,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-29T23:09:20Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "REVIEW",
         "batchId": "AT-CELO-1",
@@ -859,7 +859,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-29T23:09:16Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -888,7 +888,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-29T23:09:11Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "REVIEW",
         "batchId": "AT-CELO-1",
@@ -917,7 +917,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-29T23:09:05Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -946,7 +946,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-29T23:09:00Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -975,7 +975,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-29T23:05:13Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-K5P3X8-1RHHO64",
@@ -1004,7 +1004,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-29T23:05:08Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "ARRIVED",
         "batchId": "AT-K5P3X8-1RHHO64",
@@ -1033,7 +1033,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-29T23:03:13Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-K5P3X8-1RHHO64",
@@ -1062,7 +1062,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-29T23:03:07Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-K5P3X8-1RHHO64",
@@ -1091,7 +1091,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-29T00:28:51Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -1120,7 +1120,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-29T00:27:13Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-1TPJZAY-1YBVM4J",
@@ -1149,7 +1149,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-29T00:27:09Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKED_UP",
         "batchId": "AT-1TPJZAY-1YBVM4J",
@@ -1178,7 +1178,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-29T00:26:05Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-1TPJZAY-1YBVM4J",
@@ -1207,7 +1207,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-29T00:25:59Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-1TPJZAY-1YBVM4J",
@@ -1236,7 +1236,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T23:03:22Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "ARRIVED",
         "batchId": "AT-1492P4L-UNWYG9",
@@ -1265,7 +1265,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T23:03:16Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "ARRIVED",
         "batchId": "AT-1492P4L-UNWYG9",
@@ -1294,7 +1294,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T23:03:12Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "ARRIVED",
         "batchId": "AT-1492P4L-UNWYG9",
@@ -1323,7 +1323,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T18:14:03Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-1492P4L-UNWYG9",
@@ -1352,7 +1352,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T18:13:58Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-1492P4L-UNWYG9",
@@ -1381,7 +1381,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T18:13:53Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-1492P4L-UNWYG9",
@@ -1410,7 +1410,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:51:08Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "REVIEW",
         "batchId": "AT-CELO-1",
@@ -1439,7 +1439,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:51:04Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -1468,7 +1468,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:50:58Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -1497,7 +1497,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:50:53Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -1526,7 +1526,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:50:47Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "REVIEW",
         "batchId": "AT-CELO-1",
@@ -1555,7 +1555,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:50:42Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -1584,7 +1584,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:50:35Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "REVIEW",
         "batchId": "AT-CELO-1",
@@ -1613,7 +1613,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:50:30Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -1642,7 +1642,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:50:25Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -1671,7 +1671,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:50:21Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -1700,7 +1700,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:33:40Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -1729,7 +1729,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:33:34Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "REVIEW",
         "batchId": "AT-CELO-1",
@@ -1758,7 +1758,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:33:27Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -1787,7 +1787,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:33:20Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -1816,7 +1816,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:33:14Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "REVIEW",
         "batchId": "AT-CELO-1",
@@ -1845,7 +1845,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:33:07Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -1874,7 +1874,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:33:01Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -1903,7 +1903,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:32:53Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -1932,7 +1932,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T10:31:16Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -1961,7 +1961,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T09:17:37Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "REVIEW",
         "batchId": "AT-CELO-1",
@@ -1990,7 +1990,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T09:17:31Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -2019,7 +2019,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T09:17:26Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKUP",
         "batchId": "AT-CELO-1",
@@ -2048,7 +2048,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T09:17:21Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -2077,7 +2077,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T09:17:16Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "REVIEW",
         "batchId": "AT-CELO-1",
@@ -2106,7 +2106,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T09:17:11Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -2135,7 +2135,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T09:17:06Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "REVIEW",
         "batchId": "AT-CELO-1",
@@ -2164,7 +2164,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T09:17:00Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVER",
         "batchId": "AT-CELO-1",
@@ -2193,7 +2193,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T09:15:46Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-RIP3I0-10NI6QB",
@@ -2222,7 +2222,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T09:15:41Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "ARRIVED",
         "batchId": "AT-RIP3I0-10NI6QB",
@@ -2251,7 +2251,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:46:08Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-7MS1G3-XJRG71",
@@ -2280,7 +2280,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:46:03Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVERED",
         "batchId": "AT-7MS1G3-XJRG71",
@@ -2309,7 +2309,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:45:58Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-R3E4AB-EQ3AOD",
@@ -2338,7 +2338,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:45:53Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKED_UP",
         "batchId": "AT-R3E4AB-EQ3AOD",
@@ -2367,7 +2367,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:45:33Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-7MS1G3-XJRG71",
@@ -2396,7 +2396,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:45:28Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-7MS1G3-XJRG71",
@@ -2425,7 +2425,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:45:23Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVERED",
         "batchId": "AT-7MS1G3-XJRG71",
@@ -2454,7 +2454,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:45:18Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-7MS1G3-XJRG71",
@@ -2483,7 +2483,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:45:12Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVERED",
         "batchId": "AT-7MS1G3-XJRG71",
@@ -2512,7 +2512,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:45:06Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-R3E4AB-EQ3AOD",
@@ -2541,7 +2541,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:45:01Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVERED",
         "batchId": "AT-7MS1G3-XJRG71",
@@ -2570,7 +2570,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:44:56Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-R3E4AB-EQ3AOD",
@@ -2599,7 +2599,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:44:50Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKED_UP",
         "batchId": "AT-R3E4AB-EQ3AOD",
@@ -2628,7 +2628,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:44:43Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-R3E4AB-EQ3AOD",
@@ -2657,7 +2657,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:44:38Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-7MS1G3-XJRG71",
@@ -2686,7 +2686,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:44:21Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKED_UP",
         "batchId": "AT-R3E4AB-EQ3AOD",
@@ -2715,7 +2715,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:44:08Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKED_UP",
         "batchId": "AT-R3E4AB-EQ3AOD",
@@ -2744,7 +2744,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:43:49Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "DELIVERED",
         "batchId": "AT-7MS1G3-XJRG71",
@@ -2773,7 +2773,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:43:44Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-R3E4AB-EQ3AOD",
@@ -2802,7 +2802,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T08:43:31Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "PICKED_UP",
         "batchId": "AT-R3E4AB-EQ3AOD",
@@ -2831,7 +2831,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T07:55:08Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "ARRIVED",
         "batchId": "AT-1DR8176-17NED1L",
@@ -2860,7 +2860,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T07:53:24Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-1DR8176-17NED1L",
@@ -2889,7 +2889,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-06-28T07:53:19Z",
-      "fecha_corte": "2026-08-12T20:06:28Z",
+      "fecha_corte": "2026-08-12T20:50:04Z",
       "raw": {
         "actionType": "CREATED",
         "batchId": "AT-1DR8176-17NED1L",

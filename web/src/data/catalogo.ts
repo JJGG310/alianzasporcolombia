@@ -7,28 +7,74 @@ import { esCurado } from './carga';
 export interface TipoUI {
   label: string;
   color: string;
+  /** Grupo con el que se pinta en el mapa. Ver GRUPOS_MAPA. */
+  grupo: GrupoMapa;
 }
 
-/** Colores heredados del index.html original + los tipos nuevos del scraper. */
+/**
+ * Color categórico del mapa.
+ *
+ * Antes había 14 tipos con 14 hues escogidos a ojo. En un mapa cualquier par de
+ * marcadores puede quedar pegado, y con 14 colores la mitad de los pares son
+ * indistinguibles — sobre todo para quien tiene daltonismo, que es 1 de cada 12
+ * hombres.
+ *
+ * Así que los 14 tipos se agrupan en 4 decisiones + un neutro. Cuatro es el
+ * techo real: validado con los 10 pares posibles, estos 4 pasan separación CVD
+ * (peor par ΔE 9,2 deutan) y el piso de visión normal (peor par ΔE 16,3), tanto
+ * sobre las teselas claras como sobre las atenuadas del modo oscuro. Un quinto
+ * hue rompe el piso de visión normal.
+ *
+ * El gris de "otro" queda fuera del set categórico a propósito: no compite como
+ * identidad, marca ausencia de una.
+ *
+ * El rojo NO está acá. El rojo es urgencia y solo urgencia (ver tokens.css).
+ */
+export type GrupoMapa = 'albergue' | 'acopio' | 'atencion' | 'rescate' | 'otro';
+
+export interface GrupoUI {
+  label: string;
+  color: string;
+}
+
+export const GRUPOS_MAPA: Record<GrupoMapa, GrupoUI> = {
+  albergue: { label: 'Dónde dormir', color: '#2a78d6' },
+  acopio: { label: 'Llevar o recoger', color: '#eb6834' },
+  atencion: { label: 'Salud, agua y comida', color: '#1baf7a' },
+  rescate: { label: 'Rescate y emergencia', color: '#4a3aa7' },
+  otro: { label: 'Otro', color: '#3d4149' },
+};
+
+const G = GRUPOS_MAPA;
+
 export const TIPOS_UI: Record<string, TipoUI> = {
-  albergue: { label: 'Albergue', color: '#c0182b' },
-  acopio: { label: 'Punto de acopio', color: '#1d6b2f' },
-  sangre: { label: 'Banco de sangre', color: '#8b0f57' },
-  olla: { label: 'Olla comunitaria', color: '#b45f06' },
-  'donacion-org': { label: 'Recibe donaciones', color: '#0b57d0' },
-  rescate: { label: 'Rescate', color: '#7a2f00' },
-  salud: { label: 'Salud', color: '#0f6e6e' },
-  agua: { label: 'Agua', color: '#1069a8' },
-  veterinario: { label: 'Veterinario / mascotas', color: '#6b4f1d' },
-  psicologico: { label: 'Apoyo psicosocial', color: '#4b2fa8' },
-  necesidad: { label: 'Necesidad reportada', color: '#a5201f' },
-  oferta: { label: 'Ofrece ayuda', color: '#2b6b1d' },
-  info: { label: 'Información', color: '#555a66' },
-  otro: { label: 'Otro', color: '#555a66' },
+  albergue: { label: 'Albergue', color: G.albergue.color, grupo: 'albergue' },
+
+  acopio: { label: 'Punto de acopio', color: G.acopio.color, grupo: 'acopio' },
+  'donacion-org': { label: 'Recibe donaciones', color: G.acopio.color, grupo: 'acopio' },
+  oferta: { label: 'Ofrece ayuda', color: G.acopio.color, grupo: 'acopio' },
+
+  salud: { label: 'Salud', color: G.atencion.color, grupo: 'atencion' },
+  sangre: { label: 'Banco de sangre', color: G.atencion.color, grupo: 'atencion' },
+  agua: { label: 'Agua', color: G.atencion.color, grupo: 'atencion' },
+  olla: { label: 'Olla comunitaria', color: G.atencion.color, grupo: 'atencion' },
+  psicologico: { label: 'Apoyo psicosocial', color: G.atencion.color, grupo: 'atencion' },
+  veterinario: { label: 'Veterinario / mascotas', color: G.atencion.color, grupo: 'atencion' },
+
+  rescate: { label: 'Rescate', color: G.rescate.color, grupo: 'rescate' },
+  necesidad: { label: 'Necesidad reportada', color: G.rescate.color, grupo: 'rescate' },
+
+  info: { label: 'Información', color: G.otro.color, grupo: 'otro' },
+  otro: { label: 'Otro', color: G.otro.color, grupo: 'otro' },
 };
 
 export function tipoUI(tipo: string): TipoUI {
-  return TIPOS_UI[tipo] ?? { label: tipo || 'Otro', color: '#555a66' };
+  return TIPOS_UI[tipo] ?? { label: tipo || 'Otro', color: G.otro.color, grupo: 'otro' };
+}
+
+/** Grupo de mapa al que pertenece un tipo. */
+export function grupoDe(tipo: string): GrupoMapa {
+  return tipoUI(tipo).grupo;
 }
 
 export const ESTADOS_UI: Record<string, string> = {
@@ -158,4 +204,39 @@ export function normalizarBusqueda(txt: string): string {
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .trim();
+}
+
+// ---------------------------------------------------------------------------
+// Cercanía
+//
+// "¿Cuál me queda más cerca?" es la pregunta real de alguien parado en la
+// calle con el celular en la mano. Contestarla bien vale más que cualquier
+// filtro por departamento.
+// ---------------------------------------------------------------------------
+
+export interface Coordenada {
+  lat: number;
+  lon: number;
+}
+
+/** Distancia en kilómetros entre dos puntos (haversine). */
+export function distanciaKm(a: Coordenada, b: Coordenada): number {
+  const R = 6371;
+  const rad = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * rad;
+  const dLon = (b.lon - a.lon) * rad;
+  const s =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(s));
+}
+
+/**
+ * Distancia legible. Bajo un kilómetro se muestra en metros redondeados a 50:
+ * "a 350 m" se camina, "a 0,35 km" hay que traducirlo mentalmente.
+ */
+export function distanciaTexto(km: number): string {
+  if (km < 1) return `${Math.max(50, Math.round((km * 1000) / 50) * 50)} m`;
+  if (km < 10) return `${km.toFixed(1).replace('.', ',')} km`;
+  return `${Math.round(km)} km`;
 }

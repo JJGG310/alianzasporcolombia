@@ -7,8 +7,12 @@ node_modules/
 
 # Binarios compilados del scraper (cada quien construye el suyo)
 scraper/bin/
-# Navegadores que descarga Playwright
+# Navegadores y capturas de Playwright
 .playwright-mcp/
 ms-playwright/
 # Artefactos de build del sitio
 web/dist/
+
+# Capturas y archivos temporales de diagnóstico
+*.png
+.playwright-mcp/

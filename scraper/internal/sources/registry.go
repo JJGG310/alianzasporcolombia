@@ -29,6 +29,7 @@ func Todas() []Fuente {
 		&MapaEmergencia{},
 		&AquiHaceFalta{},
 		&HaciendoComunidad{},
+		&SismoInfo{},
 		&CaliSolidario{},
 		&QueSeNecesita{},
 		&PuntosCriticos{},

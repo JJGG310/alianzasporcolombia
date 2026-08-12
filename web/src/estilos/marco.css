@@ -1,0 +1,430 @@
+/* Marco del sitio: barra, líneas de emergencia, franja de réplicas y pie.
+ *
+ * El marco no es el contenido. Todo lo de acá existe para que el mapa y el
+ * directorio empiecen lo más arriba posible en un celular: la barra mide 52 px
+ * y no crece, la explicación baja a dos renglones, las seis líneas de
+ * emergencia caben detrás de un botón y las réplicas ocupan un renglón.
+ *
+ * Ni un color ni un espacio literal: todo sale de tokens.css. Es la única forma
+ * de que el modo oscuro salga gratis y siga saliendo gratis dentro de un mes.
+ */
+
+/* tokens.css y base.css los carga main.tsx antes que este archivo. */
+
+/* ---- Capas ----------------------------------------------------------- */
+/* Leaflet pinta sus paneles entre 400 y 700 y sus controles en 800/1000. La
+   barra tiene que quedar por encima del mapa, y el enlace de saltar por encima
+   de la barra: si no, al tabular el primer foco del sitio queda invisible. */
+.barra {
+  z-index: 1100;
+}
+.saltar {
+  z-index: 1200;
+}
+
+/* Los anclajes (#ayuda) aterrizan debajo de la barra, no detrás de ella. */
+html {
+  scroll-padding-top: calc(var(--alto-barra) + var(--e4));
+}
+
+/* ---- Barra ----------------------------------------------------------- */
+
+.barra {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid var(--borde);
+  /* Translúcida para que se note que hay contenido debajo, pero con
+     color-mix() sobre la variable en vez de un color literal con alfa: así el
+     modo oscuro sigue funcionando sin escribir el color dos veces. */
+  background: color-mix(in srgb, var(--superficie) 82%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Sin blur, la translucidez deja el texto ilegible sobre el mapa: mejor opaca. */
+@supports not ((backdrop-filter: blur(8px)) or (-webkit-backdrop-filter: blur(8px))) {
+  .barra {
+    background: var(--superficie);
+  }
+}
+
+.barra__interior {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--e3);
+  height: var(--alto-barra);
+}
+
+/* ---- Marca ----------------------------------------------------------- */
+/* En tinta, no en rojo: el rojo de este sistema significa URGENTE. Un nombre
+   propio nunca es una urgencia. */
+
+.marca {
+  min-width: 0;
+  font-size: var(--txt-md);
+  font-weight: var(--peso-fuerte);
+  letter-spacing: var(--track-titulo);
+  color: var(--tinta-900);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Bajo 480 px el nombre completo le quita ancho al botón del 123, que importa
+   más. «Alianzas» solo alcanza para reconocer dónde estás, que es lo que hace
+   un logotipo. */
+.marca__resto {
+  display: none;
+}
+
+@media (min-width: 480px) {
+  .marca__resto {
+    display: inline;
+  }
+}
+
+/* ---- Líneas de emergencia (desplegable de la barra) ------------------ */
+
+.emergencias {
+  position: relative;
+  flex: none;
+}
+
+.emergencias__boton {
+  list-style: none;
+  user-select: none;
+}
+.emergencias__boton::-webkit-details-marker {
+  display: none;
+}
+/* base.css enfoca a, button, input… pero no a summary, y este summary ES el
+   botón: sin esto el foco de teclado cae en el anillo por defecto del
+   navegador, que cambia de forma entre Chrome y Safari. */
+.emergencias__boton:focus-visible {
+  outline: 2px solid var(--foco);
+  outline-offset: 2px;
+}
+
+.emergencias__num {
+  font-size: var(--txt-md);
+  font-weight: var(--peso-recio);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: var(--track-titulo);
+}
+
+/* El rótulo aparece cuando hay ancho; el número nunca se va. Quien abre esto
+   con afán reconoce «123» antes de leer «Emergencias». */
+.emergencias__rotulo {
+  display: none;
+}
+
+@media (min-width: 400px) {
+  .emergencias__rotulo {
+    display: inline;
+  }
+}
+
+.emergencias__flecha {
+  color: var(--tinta-400);
+  transition: transform var(--dur-2) var(--ease);
+}
+.emergencias[open] .emergencias__flecha {
+  transform: rotate(180deg);
+}
+
+.emergencias__panel {
+  position: absolute;
+  top: calc(100% + var(--e2));
+  right: 0;
+  z-index: 1;
+  width: min(320px, calc(100vw - var(--e6)));
+  padding: var(--e2);
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio-lg);
+  box-shadow: var(--sombra-lg);
+}
+
+.emergencias__titulo {
+  padding: var(--e1) var(--e3) var(--e2);
+  font-size: var(--txt-xs);
+  font-weight: var(--peso-fuerte);
+  letter-spacing: var(--track-mayus);
+  text-transform: uppercase;
+  color: var(--tinta-500);
+}
+
+.emergencias__lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.emergencias__lista a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: var(--toque);
+  padding: var(--e2) var(--e3);
+  border-radius: var(--radio);
+  color: var(--tinta-900);
+  text-decoration: none;
+  transition: background var(--dur-1) var(--ease);
+}
+.emergencias__lista a:hover {
+  background: var(--superficie-2);
+}
+.emergencias__lista a:active {
+  background: var(--borde);
+}
+
+.emergencias__linea-num {
+  font-size: var(--txt-md);
+  font-weight: var(--peso-fuerte);
+  font-variant-numeric: tabular-nums;
+  line-height: var(--alto-apretado);
+  letter-spacing: var(--track-titulo);
+}
+
+.emergencias__linea-que {
+  font-size: var(--txt-xs);
+  line-height: var(--alto-apretado);
+  color: var(--tinta-500);
+}
+
+/* ---- Tira de contexto ------------------------------------------------ */
+/* Lo que antes era un bloque rojo de altura de portada. Dice qué es esto y de
+   qué desastre habla, en dos renglones, y hace scroll con la página. */
+
+.contexto {
+  display: grid;
+  gap: var(--e2);
+  padding-block: var(--e3);
+}
+
+.contexto__lede {
+  max-width: var(--ancho-prosa);
+  font-size: var(--txt-sm);
+  color: var(--tinta-500);
+}
+
+.contexto__aviso {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--e2);
+  max-width: var(--ancho-prosa);
+  font-size: var(--txt-xs);
+  line-height: var(--alto-normal);
+  color: var(--tinta-500);
+}
+
+/* Ámbar de «confirma antes», no rojo: es una advertencia de método, no una
+   emergencia. */
+.contexto__aviso svg {
+  color: var(--confirmar);
+}
+
+.contexto__corte {
+  color: var(--tinta-400);
+}
+
+/* ---- Franja de réplicas ---------------------------------------------- */
+/* Antes: una tarjeta con borde rojo y tres párrafos, compitiendo con el mapa.
+   Ahora: un renglón con el dato duro y el resto detrás de «por qué». */
+
+.replicas-franja {
+  margin-block: var(--e3);
+}
+
+.replicas-franja__caja {
+  border-block: 1px solid var(--borde);
+}
+
+.replicas-franja__fila {
+  display: flex;
+  align-items: center;
+  gap: var(--e2);
+  min-height: var(--toque);
+  padding-block: var(--e1);
+  list-style: none;
+  cursor: pointer;
+  font-size: var(--txt-sm);
+  color: var(--tinta-500);
+  transition: background var(--dur-1) var(--ease);
+}
+.replicas-franja__fila::-webkit-details-marker {
+  display: none;
+}
+.replicas-franja__fila:hover {
+  background: var(--superficie-2);
+}
+/* Hacia adentro: la franja va de borde a borde y un anillo por fuera se saldría
+   de la página. */
+.replicas-franja__fila:focus-visible {
+  outline: 2px solid var(--foco);
+  outline-offset: -2px;
+}
+
+.replicas-franja__fila > svg {
+  flex: none;
+  color: var(--tinta-400);
+}
+
+.replicas-franja__rotulo {
+  flex: none;
+}
+
+/* El único énfasis de la franja: la magnitud. Por tamaño y peso, no por color:
+   una M 4,2 no es una emergencia, es un dato. */
+.replicas-franja__mag {
+  flex: none;
+  font-size: var(--txt-base);
+  font-weight: var(--peso-fuerte);
+  font-variant-numeric: tabular-nums;
+  color: var(--tinta-900);
+}
+
+.replicas-franja__sep,
+.replicas-franja__cuando {
+  flex: none;
+}
+
+/* El lugar se recorta antes que romper el renglón; completo queda en el
+   desplegable y en el title. */
+.replicas-franja__lugar {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.replicas-franja__calma {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.replicas-franja__por-que {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--e1);
+  /* Pegado al dato, no empujado al borde: en una pantalla ancha, un control a
+     mil píxeles de lo que controla deja de leerse como suyo. */
+  margin-left: var(--e3);
+  flex: none;
+  color: var(--enlace);
+  font-size: var(--txt-xs);
+  font-weight: var(--peso-medio);
+}
+.replicas-franja__caja[open] .replicas-franja__flecha {
+  transform: rotate(180deg);
+}
+.replicas-franja__flecha {
+  transition: transform var(--dur-2) var(--ease);
+}
+
+.replicas-franja__texto {
+  display: grid;
+  gap: var(--e2);
+  padding: var(--e1) 0 var(--e4);
+  font-size: var(--txt-sm);
+}
+
+/* Skeleton mientras responde el USGS: reserva el renglón para que la página no
+   salte cuando llega el dato. */
+.replicas-franja__cargando {
+  display: block;
+  width: 60%;
+  max-width: 22ch;
+  height: var(--e4);
+}
+
+.replicas-franja__espera {
+  display: flex;
+  align-items: center;
+  gap: var(--e2);
+  min-height: var(--toque);
+  border-block: 1px solid var(--borde);
+  color: var(--tinta-400);
+}
+
+/* ---- Pie ------------------------------------------------------------- */
+
+.pie-marco {
+  margin-top: var(--e7);
+  padding-block: var(--e6);
+  border-top: 1px solid var(--borde);
+  background: var(--superficie-2);
+}
+
+.pie-marco__interior {
+  display: grid;
+  gap: var(--e5);
+}
+
+@media (min-width: 720px) {
+  .pie-marco__interior {
+    grid-template-columns: 1.6fr 1fr 1fr;
+    gap: var(--e6);
+  }
+}
+
+.pie-marco__titulo {
+  margin-bottom: var(--e3);
+  font-size: var(--txt-xs);
+  font-weight: var(--peso-fuerte);
+  letter-spacing: var(--track-mayus);
+  text-transform: uppercase;
+  color: var(--tinta-500);
+}
+
+.pie-marco__texto {
+  max-width: var(--ancho-prosa);
+  font-size: var(--txt-sm);
+  line-height: var(--alto-suelto);
+  color: var(--tinta-500);
+}
+.pie-marco__texto + .pie-marco__texto {
+  margin-top: var(--e3);
+}
+.pie-marco__texto strong {
+  color: var(--tinta-700);
+  font-weight: var(--peso-fuerte);
+}
+
+.pie-marco__enlaces {
+  margin: 0 0 var(--e3);
+  padding: 0;
+  list-style: none;
+}
+
+.pie-marco__enlaces a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: var(--toque);
+  text-decoration: none;
+}
+
+.pie-marco__enlaces a > span {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--e1);
+  font-size: var(--txt-sm);
+  font-weight: var(--peso-medio);
+  color: var(--enlace);
+}
+.pie-marco__enlaces a:hover > span {
+  text-decoration: underline;
+}
+
+/* La ruta literal debajo del nombre: esto es la API pública del proyecto y
+   quien la vaya a usar necesita poder copiarla, no adivinarla. */
+.pie-marco__enlaces code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: var(--txt-xs);
+  color: var(--tinta-400);
+  overflow-wrap: anywhere;
+}

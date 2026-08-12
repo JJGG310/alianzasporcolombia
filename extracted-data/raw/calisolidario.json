@@ -3,8 +3,8 @@
   "url": "https://calisolidario.triadaaliados.com/",
   "mecanismo": "payload RSC de Next.js embebido en el HTML de /necesidades y /ofertas",
   "ok": true,
-  "duracion": "507.417292ms",
-  "obtenido": "2026-08-12T20:06:20Z",
+  "duracion": "478.043708ms",
+  "obtenido": "2026-08-12T20:49:58Z",
   "total": 45,
   "puntos": [
     {
@@ -25,7 +25,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:59:06.00741Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "60ceceb1-0888-4f04-82ff-e2fc1acfc2f5",
         "kind": "need",
@@ -56,7 +56,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:08:09.869624Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "f4a26b11-5eb3-4626-8bba-df59264b8955",
         "kind": "need",
@@ -89,7 +89,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T17:28:07.995326Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "022b3e7a-9438-4301-a3c4-5ab3f057050d",
         "kind": "need",
@@ -120,7 +120,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T17:12:59.847654Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "70c794b0-cbe1-4778-b3a1-3db47d3085f9",
         "kind": "need",
@@ -155,7 +155,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:54:01.931448Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "5d694fbd-29b6-4d63-876b-201b1f0a1540",
         "kind": "need",
@@ -185,7 +185,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:23:43.229178Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "decf9493-337a-47ee-b393-085c476ee48c",
         "kind": "need",
@@ -218,7 +218,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:05:28.11574Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "4779ada2-36b8-4d86-826e-83788f9d8983",
         "kind": "need",
@@ -253,7 +253,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:31:16.524558Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "578507a6-6d89-4647-9e93-5a5c7d1a8dab",
         "kind": "need",
@@ -285,7 +285,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:52:26.626756Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "8d8b464a-d4a5-49c3-be94-f8e9b8bb4128",
         "kind": "need",
@@ -317,7 +317,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:27:46.75875Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "33a797aa-bd5e-458e-9356-361beb9b0938",
         "kind": "need",
@@ -349,7 +349,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:33:10.20949Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "d2c5a6da-d072-4038-9ed2-66d6374d13c7",
         "kind": "need",
@@ -382,7 +382,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:02:01.576285Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "8b8d6d83-9b28-4c5c-8350-f5f17c4a5b47",
         "kind": "need",
@@ -417,7 +417,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:56:13.717984Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "cfc0757d-1069-46bb-89fb-35e6024f0c8d",
         "kind": "need",
@@ -449,7 +449,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:48:46.810986Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "211bf2f0-e2b7-405c-ae0a-a045766bb59c",
         "kind": "need",
@@ -481,7 +481,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:16:00.597913Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "5e0cf83b-0bdc-47bf-9967-25ce43aba8c5",
         "kind": "need",
@@ -514,7 +514,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:42:46.437505Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "434b984e-4560-424c-8258-994c83c9b348",
         "kind": "offer",
@@ -546,7 +546,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:35:21.894799Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "8a2cd4fe-d432-4ad8-930e-b782ea4626c7",
         "kind": "offer",
@@ -580,7 +580,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:18:12.999355Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "611571c3-238c-4ea3-b4dc-4e4390241e30",
         "kind": "offer",
@@ -613,7 +613,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:19:29.678646Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "d7703a44-025b-4975-a6e8-905671b0ce6b",
         "kind": "offer",
@@ -647,7 +647,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T17:35:35.759229Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "60c30673-f8c4-4762-a0c5-427be589be9c",
         "kind": "offer",
@@ -680,7 +680,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T15:55:12.982692Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "ce37c9fc-46d4-4b8e-9000-ac4919cabf6f",
         "kind": "offer",
@@ -711,7 +711,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:43:19.3229Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "73aaa4ed-aeeb-4fd9-9fb0-ec4082b1ca97",
         "kind": "offer",
@@ -743,7 +743,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:19:29.613673Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "84521cee-78ca-464d-8d19-856bac6eb088",
         "kind": "offer",
@@ -776,7 +776,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:42:51.042339Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "1137105b-e902-499a-9bc9-83d74aa03d03",
         "kind": "offer",
@@ -811,7 +811,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:29:52.814157Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "fdc304f5-7ef0-4840-9994-5539cc151ff7",
         "kind": "offer",
@@ -842,7 +842,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:11:47.6773Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "9070058c-7fd6-4ad4-8156-df8f9bb24d59",
         "kind": "offer",
@@ -877,7 +877,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:36:47.514607Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "d573ad61-da91-48d4-9361-4de5e142e2a6",
         "kind": "offer",
@@ -908,7 +908,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T23:58:49.394335Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "3ee04dff-179e-4ba0-9020-9990b2572d33",
         "kind": "offer",
@@ -942,7 +942,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T23:06:03.945603Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "46ed2906-e479-449d-97ff-d56029e523d0",
         "kind": "offer",
@@ -973,7 +973,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:37:04.74991Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "fe2944ff-83c3-47be-a251-5552302b9934",
         "kind": "offer",
@@ -1008,7 +1008,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:36:57.027041Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "366ed70c-d2a7-4ca2-bd59-7a508fa6a69b",
         "kind": "offer",
@@ -1039,7 +1039,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:22:33.46354Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "ec41aecc-6945-482b-994d-aba129c6ab06",
         "kind": "offer",
@@ -1073,7 +1073,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:16:38.568824Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "7f776f3d-17fc-41b1-8f0f-f15ee04fda7d",
         "kind": "offer",
@@ -1105,7 +1105,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:13:38.952643Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "19bb1478-2aad-4746-ba6c-8c7160e8cfca",
         "kind": "offer",
@@ -1136,7 +1136,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:10:44.147263Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "3a6f188d-4419-4360-b509-b00501ad0940",
         "kind": "offer",
@@ -1170,7 +1170,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T21:59:05.44064Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "d760a276-8046-4938-bf7d-8818da60b6e2",
         "kind": "offer",
@@ -1205,7 +1205,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T21:30:25.368079Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "55933e50-4395-470c-9f3e-7dd0624d6cef",
         "kind": "offer",
@@ -1236,7 +1236,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:59:12.669924Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "c581d156-a48d-440e-8cfa-5d376dba86e9",
         "kind": "offer",
@@ -1266,7 +1266,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:24:10.634675Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "329dc371-fa63-41c3-b57f-7c8e40f08d56",
         "kind": "offer",
@@ -1301,7 +1301,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:22:53.036753Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "19b8e609-ab1e-435b-91e3-b53fbe3b75b2",
         "kind": "offer",
@@ -1333,7 +1333,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:12:50.860658Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "5ba8f35a-651a-4b80-b983-a50757464de5",
         "kind": "offer",
@@ -1365,7 +1365,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:24:04.751065Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "933201d7-1ebc-4592-bccb-aae1a5f480d0",
         "kind": "offer",
@@ -1396,7 +1396,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:13:49.277087Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "f6ee27e4-57aa-4210-af3d-06028e3f82b0",
         "kind": "offer",
@@ -1429,7 +1429,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:31:08.835075Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "8b1472bd-3be7-4742-9739-757c1201ba08",
         "kind": "offer",
@@ -1463,7 +1463,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T16:09:16.782252Z",
-      "fecha_corte": "2026-08-12T20:06:20Z",
+      "fecha_corte": "2026-08-12T20:49:58Z",
       "raw": {
         "id": "e7aac81c-b383-4cf7-9a1c-834ae0a71683",
         "kind": "offer",

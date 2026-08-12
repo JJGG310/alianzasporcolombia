@@ -191,6 +191,18 @@ func mePuntoAModelo(mp mePunto, crudo json.RawMessage, corte time.Time) model.Pu
 	case "necesita":
 		p.Prioridad = model.PrioridadAlta
 	}
+	// La fuente marca como "fresco" lo que sigue vigente según su propio reloj.
+	// Republicar como URGENTE un punto que allá ya está vencido es la peor forma
+	// de mentir: manda gente a un sitio que puede llevar horas resuelto, y de
+	// paso quema la señal de urgencia para los puntos que sí lo están. Cuando la
+	// fuente duda, nosotros dudamos.
+	if !mp.Fresco && p.Estado == model.EstadoUrgente {
+		p.Estado = model.EstadoPorConfirmar
+		p.Prioridad = model.PrioridadAlta
+		p.Avisos = append(p.Avisos,
+			"el sitio de origen ya no lo tiene como vigente: confirma antes de ir")
+	}
+
 	model.Normalizar(&p, corte)
 	return p
 }

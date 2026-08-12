@@ -24,11 +24,12 @@ var prioridadFuente = map[string]int{
 	"mapa-emergencia":    1,
 	"aqui-hace-falta":    2,
 	"haciendo-comunidad": 3,
-	"quesenecesita":      4,
-	"puntos-criticos":    5,
-	"calisolidario":      6,
-	"aidtrace":           7,
-	"window-of-hope":     8,
+	"sismoinfo":          4,
+	"quesenecesita":      5,
+	"puntos-criticos":    6,
+	"calisolidario":      7,
+	"aidtrace":           8,
+	"window-of-hope":     9,
 }
 
 // Fusionar recibe los puntos de todas las fuentes y devuelve la lista fusionada

@@ -41,6 +41,7 @@ var sitios = []struct{ Slug, URL string }{
 	{"haciendo-comunidad", "https://personnofound.github.io/HaciendoComunidad/"},
 	{"calisolidario", "https://calisolidario.triadaaliados.com/necesidades"},
 	{"quesenecesita", "https://quesenecesita.org/"},
+	{"sismoinfo", "https://sismoinfo.co/"},
 	{"puntos-criticos", "https://terremoto-cali-puntos-criticos.netlify.app/"},
 	{"aidtrace", "https://aidtrace-rastroayuda.vercel.app/"},
 	{"window-of-hope", "https://window-of-hope-countdown.lovable.app/"},
@@ -62,14 +63,14 @@ type peticion struct {
 }
 
 type informeSitio struct {
-	Slug          string     `json:"slug"`
-	URL           string     `json:"url"`
-	Titulo        string     `json:"titulo"`
-	Error         string     `json:"error,omitempty"`
-	Datos         []peticion `json:"peticiones_de_datos"`
-	WebSockets    []string   `json:"websockets,omitempty"`
-	MensajesWS    []string   `json:"mensajes_websocket,omitempty"`
-	Diagnostico   string     `json:"diagnostico"`
+	Slug        string     `json:"slug"`
+	URL         string     `json:"url"`
+	Titulo      string     `json:"titulo"`
+	Error       string     `json:"error,omitempty"`
+	Datos       []peticion `json:"peticiones_de_datos"`
+	WebSockets  []string   `json:"websockets,omitempty"`
+	MensajesWS  []string   `json:"mensajes_websocket,omitempty"`
+	Diagnostico string     `json:"diagnostico"`
 }
 
 func main() {

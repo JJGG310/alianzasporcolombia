@@ -2,13 +2,34 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#c0182b" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+    <!-- La barra del navegador sigue al tema del sistema. Mucha gente abre esto
+         de noche, en un albergue: un flash blanco molesta. -->
+    <meta name="theme-color" content="#fbfaf9" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#131315" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <!-- La tipografía se precarga: es 25 KB y define la primera impresión. Sin
+         esto el texto salta cuando la fuente llega tarde en una red mala. -->
+    <link
+      rel="preload"
+      href="/fuentes/geist.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- Los datos son lo primero que pide la app: que empiecen a bajar mientras
+         se evalúa el JavaScript, no después. -->
+    <link rel="preload" href="/extracted-data/puntos.json" as="fetch" crossorigin />
+
     <title>Alianzas por Colombia — Terremoto 10 de agosto</title>
     <meta
       name="description"
-      content="Información ciudadana centralizada sobre el terremoto del 10 de agosto de 2026 en Colombia: emergencias, albergues, acopios, donaciones verificadas, desaparecidos y fuentes oficiales. Empezando por Cali y el Valle, creciendo a todo el país."
+      content="Dónde encontrar ayuda tras el terremoto del 10 de agosto de 2026 en Colombia: albergues, puntos de acopio, bancos de sangre y ollas comunitarias, con fuente y fecha de corte. Iniciativa ciudadana."
     />
     <meta property="og:title" content="Alianzas por Colombia — Terremoto 10 de agosto" />
     <meta
@@ -17,12 +38,23 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_CO" />
+    <meta name="twitter:card" content="summary" />
   </head>
   <body>
     <div id="raiz"></div>
     <noscript>
-      Este sitio necesita JavaScript para mostrar el mapa y la tabla de ayuda. Los datos
-      abiertos siguen disponibles en <a href="/datos/ayuda.json">/datos/ayuda.json</a>.
+      <div style="padding: 1rem; max-width: 40rem; margin: 0 auto; font-family: system-ui">
+        <h1>Alianzas por Colombia</h1>
+        <p>
+          <strong>Emergencias: 123</strong> · Cruz Roja 132 · Bomberos 119 · Defensa Civil 144
+        </p>
+        <p>
+          El mapa y el buscador necesitan JavaScript. Los datos siguen disponibles y son
+          abiertos: <a href="/extracted-data/puntos.json">todos los puntos de ayuda</a> ·
+          <a href="/datos/ayuda.json">solo los verificados a mano</a> ·
+          <a href="/extracted-data/puntos.geojson">versión para mapas (GeoJSON)</a>.
+        </p>
+      </div>
     </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>

@@ -1,123 +1,174 @@
-import type { Punto } from '../types';
+import Icono from './Icono';
+import { useOrigen, distanciaDe } from './Filtros';
+import { claseSello, enlaceComoLlegar, etiquetasDe, telefonoDe } from './TarjetaPunto';
 import { esCurado, requiereRevision } from '../data/carga';
 import {
+  distanciaTexto,
   enlaceWhatsApp,
-  estadoClase,
   estadoLabel,
   fechaCorta,
   lugar,
-  queHace,
   tipoUI,
   ubicacion,
+  type Coordenada,
 } from '../data/catalogo';
+import type { Punto } from '../types';
 
 interface Props {
   puntos: Punto[];
+  /** Origen para la columna de distancia. Por defecto, el de "Cerca de mí". */
+  origen?: Coordenada | null;
 }
 
-/** Vista de escritorio. Misma información que las tarjetas, más densa.
- *  Los puntos sin coordenadas viven aquí: nunca se esconden por no ser mapeables. */
-export default function TablaPuntos({ puntos }: Props) {
+/**
+ * Vista de escritorio (>= 900 px).
+ *
+ * Una tabla es lo correcto para barrer 878 filas con los ojos: columnas
+ * alineadas, encabezado que no se va al hacer scroll y una fila por punto. Los
+ * puntos sin coordenadas viven aquí igual que los demás: nunca se esconden por
+ * no ser mapeables.
+ */
+export default function TablaPuntos({ puntos, origen }: Props) {
+  const origenStore = useOrigen();
+  const desde = origen ?? origenStore;
+  const conDistancia = desde !== null;
+
   return (
-    <div className="tabla-wrap">
-      <table className="tabla-puntos">
-        <caption className="sr-solo">
-          Puntos de ayuda filtrados, con su fuente, fecha de corte y estado.
+    <div className="tabla-caja">
+      <table className="tabla">
+        <caption className="solo-lectores">
+          Puntos de ayuda filtrados, con su estado, ubicación, qué necesitan, fuente y
+          fecha de corte.
         </caption>
         <colgroup>
-          <col className="c-tipo" />
-          <col className="c-nombre" />
-          <col className="c-donde" />
-          <col className="c-que" />
-          <col className="c-contacto" />
-          <col className="c-estado" />
-          <col className="c-origen" />
-          <col className="c-fuente" />
-          <col className="c-compartir" />
+          <col style={{ width: conDistancia ? '9%' : '10%' }} />
+          <col style={{ width: conDistancia ? '19%' : '21%' }} />
+          <col style={{ width: conDistancia ? '18%' : '20%' }} />
+          {conDistancia && <col style={{ width: '7%' }} />}
+          <col style={{ width: conDistancia ? '16%' : '17%' }} />
+          <col style={{ width: conDistancia ? '13%' : '13%' }} />
+          <col style={{ width: conDistancia ? '10%' : '11%' }} />
+          <col style={{ width: '8%' }} />
         </colgroup>
         <thead>
           <tr>
-            <th scope="col">Tipo</th>
-            <th scope="col">Nombre</th>
-            <th scope="col">Dónde</th>
-            <th scope="col">Qué</th>
-            <th scope="col">Contacto</th>
             <th scope="col">Estado</th>
-            <th scope="col">Origen</th>
-            <th scope="col">Fuente y corte</th>
+            <th scope="col">Punto</th>
+            <th scope="col">Dónde</th>
+            {conDistancia && (
+              <th scope="col" className="tabla__num">
+                Distancia
+              </th>
+            )}
+            <th scope="col">Necesita / ofrece</th>
+            <th scope="col">Contacto</th>
+            <th scope="col">Fuente</th>
             <th scope="col">
-              <span className="sr-solo">Compartir</span>
+              <span className="solo-lectores">Acciones</span>
             </th>
           </tr>
         </thead>
         <tbody>
           {puntos.map((p) => {
-            const t = tipoUI(p.tipo);
             const curado = esCurado(p);
+            const km = distanciaDe(p, desde);
+            const tel = telefonoDe(p.contacto);
+            const comoLlegar = enlaceComoLlegar(p);
+            const etqs = etiquetasDe(p);
+            const donde = ubicacion(p);
+
             return (
-              <tr key={p.id} className={curado ? 'fila-curado' : 'fila-agregado'}>
+              <tr key={p.id} className={p.estado === 'urgente' ? 'fila--urgente' : undefined}>
                 <td>
-                  <span
-                    className="pill"
-                    style={{ background: `${t.color}18`, color: t.color }}
-                  >
-                    {t.label}
-                  </span>
+                  <span className={claseSello(p.estado)}>{estadoLabel(p.estado)}</span>
                 </td>
-                <td className="nombre">
-                  {p.nombre}
+
+                <td>
+                  <span className="tabla__nombre">{p.nombre}</span>
+                  <span className="tabla__sub">{tipoUI(p.tipo).label}</span>
+                  <span className="tabla__sub">
+                    {curado ? 'Verificado a mano' : `Agregado · ${p.fuente}`}
+                  </span>
                   {requiereRevision(p) && (
-                    <>
-                      <br />
-                      <small>⚠️ requiere revisión: {p.politica_alerta?.join('; ')}</small>
-                    </>
+                    <span className="tabla__sub">
+                      Requiere revisión: {p.politica_alerta?.join('; ')}
+                    </span>
                   )}
                 </td>
+
                 <td>
-                  {ubicacion(p)}
-                  {ubicacion(p) && <br />}
+                  {donde}
+                  {donde && lugar(p) && <br />}
                   {lugar(p)}
-                  {p.horario && (
-                    <>
-                      <br />
-                      <small>{p.horario}</small>
-                    </>
+                  {p.horario && <span className="tabla__sub">{p.horario}</span>}
+                </td>
+
+                {conDistancia && (
+                  <td className="tabla__num">{km === null ? '—' : distanciaTexto(km)}</td>
+                )}
+
+                <td>
+                  {etqs.length > 0 ? (
+                    <ul className="punto__etqs">
+                      {etqs.slice(0, 4).map((e, i) => (
+                        <li key={`${e.clase}-${e.txt}`} className="punto__etq-item">
+                          {(i === 0 || etqs[i - 1].clase !== e.clase) && (
+                            <span className="punto__k">
+                              {e.clase === 'necesita' ? 'Necesita' : 'Ofrece'}{' '}
+                            </span>
+                          )}
+                          <span className="punto__etq">{e.txt}</span>
+                        </li>
+                      ))}
+                      {etqs.length > 4 && (
+                        <li className="punto__k">+{etqs.length - 4}</li>
+                      )}
+                    </ul>
+                  ) : (
+                    p.descripcion
                   )}
                 </td>
-                <td>{queHace(p)}</td>
+
                 <td>{p.contacto}</td>
-                <td>
-                  <span className={estadoClase(p.estado)}>{estadoLabel(p.estado)}</span>
-                </td>
-                <td>
-                  <span className={curado ? 'sello sello-curado' : 'sello sello-agregado'}>
-                    {curado ? '✓ a mano' : '⟳ automático'}
-                  </span>
-                  {!curado && p.fuente && (
-                    <>
-                      <br />
-                      <small>{p.fuente}</small>
-                    </>
-                  )}
-                </td>
+
                 <td>
                   <a href={p.fuente_url} target="_blank" rel="noopener noreferrer">
                     ver
                   </a>
-                  <br />
-                  <small>{fechaCorta(p.fecha_corte)}</small>
+                  <span className="tabla__sub">{fechaCorta(p.fecha_corte)}</span>
                 </td>
-                <td className="col-acciones">
-                  <a
-                    className="boton boton-wa"
-                    href={enlaceWhatsApp(p)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`Compartir ${p.nombre} por WhatsApp`}
-                    title="Compartir por WhatsApp"
-                  >
-                    WA
-                  </a>
+
+                <td>
+                  <span className="tabla__acciones">
+                    {comoLlegar && (
+                      <a
+                        className="btn btn--sm"
+                        href={comoLlegar}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={`Cómo llegar a ${p.nombre}`}
+                      >
+                        <Icono nombre="ruta" titulo={`Cómo llegar a ${p.nombre}`} />
+                      </a>
+                    )}
+                    {tel && (
+                      <a className="btn btn--sm" href={`tel:+57${tel}`} title="Llamar">
+                        <Icono nombre="telefono" titulo={`Llamar a ${p.nombre}`} />
+                      </a>
+                    )}
+                    <a
+                      className="btn btn--sm"
+                      href={enlaceWhatsApp(p)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="Compartir por WhatsApp"
+                    >
+                      <Icono
+                        nombre="whatsapp"
+                        titulo={`Compartir ${p.nombre} por WhatsApp`}
+                      />
+                    </a>
+                  </span>
                 </td>
               </tr>
             );

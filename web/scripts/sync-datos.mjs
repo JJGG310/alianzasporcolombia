@@ -29,6 +29,12 @@ const copias = [
     a: join(web, 'public', 'extracted-data', 'puntos.json'),
     obligatorio: false,
   },
+  {
+    // El pie de página lo enlaza como dato abierto: sin esta copia da 404.
+    de: join(raiz, 'extracted-data', 'puntos.geojson'),
+    a: join(web, 'public', 'extracted-data', 'puntos.geojson'),
+    obligatorio: false,
+  },
 ];
 
 let faltoAlguno = false;

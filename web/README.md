@@ -4,11 +4,9 @@ App de [alianzasporcolombia.com](https://alianzasporcolombia.com): el mismo siti
 del terremoto del 10 de agosto de 2026, migrado del `index.html` vanilla de la raíz a
 **Vite + React 18 + TypeScript**.
 
-Sin framework de UI, sin Tailwind, sin backend. CSS plano que porta la identidad visual
-del sitio original. Mapa con `react-leaflet` sobre OpenStreetMap (sin API key).
-
-> El `index.html`, `recursos.js` y `datos/` de la raíz siguen ahí a propósito: son el sitio
-> en producción hasta que esta migración se valide. No los borres.
+Sin framework de UI, sin Tailwind, sin librería de animación, sin backend. CSS plano
+sobre un sistema de tokens propio. Mapa con `react-leaflet` sobre OpenStreetMap (sin API
+key).
 
 ## Correr en desarrollo
 
@@ -161,3 +159,78 @@ copia), así que hay que desplegar desde la raíz del repo, no desde `web/` aisl
 ## Licencias
 
 Código MIT. Datos CC BY 4.0 — libres de usar citando la fuente de cada ítem.
+
+## El sistema de diseño
+
+Vive en tres archivos y se aplica en ese orden (ver `src/main.tsx`):
+
+| Archivo | Qué contiene |
+|---|---|
+| `src/estilos/tokens.css` | Las variables: color, tipografía, espaciado, forma, movimiento. Modo claro y oscuro |
+| `src/estilos/base.css` | Reset, tipografía base, foco, y las primitivas: `.btn` `.chip` `.campo` `.sello` `.tarjeta` `.esqueleto` |
+| `src/estilos/{marco,lista,app}.css` | Lo específico del marco, del listado y de la página |
+
+**Ningún componente escribe un color literal.** Todo sale de `tokens.css`, y por eso el modo
+oscuro salió gratis. Si vas a agregar un valor y no está en la escala, casi siempre es
+señal de que el problema está mal planteado.
+
+### Las tres reglas que ordenan todo lo demás
+
+**1. El rojo significa urgente. Nada más.** Antes el rojo era la marca, los bordes, los
+títulos y los números; cuando un punto era urgente de verdad, no quedaba con qué decirlo.
+Ahora la marca es tinta, lo interactivo es tinta, y el rojo es una señal. Los estados
+(`--urgente` `--activo` `--confirmar` `--cubierto` `--cerrado`) están pensados como la
+decisión que toma quien mira: ve ya · puedes ir · llama antes · no hace falta · no vayas.
+
+**2. La herramienta va primero.** El orden es buscador → mapa → listado. Todo lo
+explicativo va después. Antes había encabezado, franja de aviso, seis tarjetas de teléfonos
+y un párrafo largo antes del mapa: tres pantallazos de scroll en un celular para llegar a
+lo que la persona vino a buscar.
+
+**3. El movimiento confirma, no decora.** Máximo 260 ms, y `prefers-reduced-motion` apaga
+todo. En una lista de 878 elementos, animar la entrada de cada tarjeta es mareo, no diseño.
+
+### Tipografía
+
+**Geist** variable, autohospedada en `public/fuentes/geist.woff2`. Subseteada al español:
+**25 KB por los nueve pesos**, contra 68 KB del archivo completo. Va autohospedada y no por
+CDN porque un sitio de emergencia no debería depender de que un tercero esté arriba, y va
+precargada en `index.html` porque define la primera impresión.
+
+Para volver a subsetearla si algún día hace falta otro glifo, ver el histórico de git:
+se hizo con `subset-font` en Node, sobre ASCII + acentos y eñes + comillas tipográficas.
+
+### El color del mapa
+
+Los 14 tipos de punto se agrupan en **4 decisiones + un neutro** (`GRUPOS_MAPA` en
+`src/data/catalogo.ts`): dónde dormir · llevar o recoger · salud, agua y comida · rescate y
+emergencia · otro.
+
+Cuatro no es un número estético, es el techo medido. En un mapa cualquier par de marcadores
+puede quedar pegado, así que hay que validar los 10 pares posibles, no solo los adyacentes.
+Con esos 4 hues el peor par da ΔE 9,2 en visión deutan y 16,3 en visión normal — pasa todas
+las compuertas, sobre las teselas claras y sobre las atenuadas del modo oscuro. **Un quinto
+hue rompe el piso de visión normal.** Los 14 colores escogidos a ojo que había antes hacían
+indistinguible la mitad de los pares, sobre todo para quien tiene daltonismo — 1 de cada 12
+hombres.
+
+El gris de "otro" queda fuera del set categórico a propósito: no compite como identidad,
+marca la ausencia de una.
+
+Dos detalles que se ven poco y se notan mucho: cada marcador lleva un anillo blanco de 2 px
+(en el centro de Cali hay decenas encimados; sin el anillo el mapa es una mancha), y el modo
+oscuro **atenúa** las teselas en vez de invertirlas — invertidas, el agua se ve como tierra
+y el mapa deja de ser legible.
+
+### Accesibilidad
+
+Es un sitio de emergencia: se abre en celular, con afán, a veces caminando, a veces por
+alguien con la vista cansada o con lector de pantalla.
+
+- Área táctil mínima de 44 px en todo lo que se toca (`--toque`).
+- Foco visible y consistente en todo el sitio (el del navegador desaparece sobre estas
+  superficies claras).
+- La identidad nunca depende solo del color: el mapa lleva leyenda con texto y el listado
+  completo es la versión accesible de lo mismo.
+- Modo oscuro real, no un filtro. No es estética: la gente abre esto de noche, con el
+  celular en 8 % de batería.
