@@ -4,3 +4,11 @@ node_modules/
 .netlify/
 .claude/
 *.log
+
+# Binarios compilados del scraper (cada quien construye el suyo)
+scraper/bin/
+# Navegadores que descarga Playwright
+.playwright-mcp/
+ms-playwright/
+# Artefactos de build del sitio
+web/dist/

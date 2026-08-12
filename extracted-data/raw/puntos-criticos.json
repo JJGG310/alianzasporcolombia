@@ -1,0 +1,2454 @@
+{
+  "fuente": "puntos-criticos",
+  "url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+  "mecanismo": "arreglos JS embebidos en el HTML (React vía Babel standalone, sin API)",
+  "ok": true,
+  "duracion": "466.718834ms",
+  "obtenido": "2026-08-12T20:06:20Z",
+  "total": 37,
+  "puntos": [
+    {
+      "id": "puntos-criticos-a2f1a5eb0e",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Edif. Colores — Tequendama",
+      "descripcion": "NO más agua; sí bebidas hidratantes (reporte de las 12:51 p. m.)",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "Calle 5D #38A-35",
+      "necesita": [
+        "Alicates",
+        "Baldes",
+        "Bebidas hidratantes",
+        "Cintas de seguridad",
+        "Comida",
+        "Gotas para ojos",
+        "Guantes de carnaza",
+        "Pulidora",
+        "Taladro percutor"
+      ],
+      "estado": "urgente",
+      "prioridad": "critica",
+      "contacto": "Jonathan Gómez — 320 7499522",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "lugar": "Edif. Colores — Tequendama",
+        "direccion": "Calle 5D #38A-35",
+        "coordinador": "Jonathan Gómez",
+        "contacto": "320 7499522",
+        "hora": "12:51 p. m.",
+        "prioridad": true,
+        "nota": "NO más agua; sí bebidas hidratantes",
+        "necesidades": [
+          "Taladro percutor",
+          "Pulidora",
+          "Cintas de seguridad",
+          "Alicates",
+          "Baldes",
+          "Comida",
+          "Guantes de carnaza",
+          "Gotas para ojos",
+          "Bebidas hidratantes"
+        ]
+      }
+    },
+    {
+      "id": "puntos-criticos-699c6b1bbd",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Torres de Limonar",
+      "descripcion": "Reporte de las 12:51 p. m.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "Cra. 72 #10 Bis-141 a 10 Bis-3, Comuna 17",
+      "necesita": [
+        "Alicates",
+        "Baldes",
+        "Cintas de seguridad",
+        "Comida",
+        "Discos de pulidora",
+        "Enfermeros",
+        "Gasolina",
+        "Médicos",
+        "Pulidora",
+        "Sándwiches",
+        "Taladro percutor"
+      ],
+      "estado": "urgente",
+      "prioridad": "critica",
+      "contacto": "María Paula Hernández — 314 7874022",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "lugar": "Torres de Limonar",
+        "direccion": "Cra. 72 #10 Bis-141 a 10 Bis-3, Comuna 17",
+        "coordinador": "María Paula Hernández",
+        "contacto": "314 7874022",
+        "hora": "12:51 p. m.",
+        "prioridad": true,
+        "necesidades": [
+          "Gasolina",
+          "Discos de pulidora",
+          "Médicos",
+          "Enfermeros",
+          "Taladro percutor",
+          "Pulidora",
+          "Cintas de seguridad",
+          "Alicates",
+          "Baldes",
+          "Comida",
+          "Sándwiches"
+        ]
+      }
+    },
+    {
+      "id": "puntos-criticos-85407e71ef",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Calle 8 con 42",
+      "descripcion": "Mila se retiró del lugar (reporte de las 12:51 p. m.)",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "Calle 8 con 42",
+      "necesita": [
+        "Agua",
+        "Cascos",
+        "Discos de corte",
+        "Extensiones",
+        "Gatos eléctricos",
+        "Guantes",
+        "Herramientas pesadas",
+        "Pala",
+        "Picos",
+        "Plantas eléctricas",
+        "Taladros",
+        "Tarros"
+      ],
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "lugar": "Calle 8 con 42",
+        "direccion": "Calle 8 con 42",
+        "coordinador": "",
+        "contacto": "",
+        "hora": "12:51 p. m.",
+        "prioridad": true,
+        "nota": "Mila se retiró del lugar",
+        "necesidades": [
+          "Tarros",
+          "Guantes",
+          "Agua",
+          "Pala",
+          "Herramientas pesadas",
+          "Picos",
+          "Gatos eléctricos",
+          "Discos de corte",
+          "Taladros",
+          "Extensiones",
+          "Plantas eléctricas",
+          "Cascos"
+        ]
+      }
+    },
+    {
+      "id": "puntos-criticos-e82217be30",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Edificio Elvira",
+      "descripcion": "Voluntarios en el lugar: Juan Manuel Almario, Kevin Zárate · Más voluntarios llegan a las 2:00 p. m. (reporte de las 12:51 p. m.)",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "Carrera 4 # 58-18",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "contacto": "Camila Sánchez — 314 8875589",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "lugar": "Edificio Elvira",
+        "direccion": "Carrera 4 # 58-18",
+        "coordinador": "Camila Sánchez",
+        "contacto": "314 8875589",
+        "hora": "12:51 p. m.",
+        "prioridad": true,
+        "nota": "Voluntarios en el lugar: Juan Manuel Almario, Kevin Zárate · Más voluntarios llegan a las 2:00 p. m.",
+        "necesidades": []
+      }
+    },
+    {
+      "id": "puntos-criticos-e85fa1964c",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Edif. Vanessa",
+      "descripcion": "Reporte de las 12:51 p. m.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "Cra. 44 #9-35",
+      "necesita": [
+        "Agujas para canalizar",
+        "Bisturís",
+        "Carros de mercado",
+        "Cascos",
+        "Comida para animales",
+        "Discos de corte",
+        "Extensiones",
+        "Gatos eléctricos",
+        "Guantes",
+        "Herramientas pesadas",
+        "Hielo",
+        "Medicamentos para animales",
+        "Picos",
+        "Plantas eléctricas",
+        "Taladros",
+        "Tijeras",
+        "Zorras"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "lugar": "Edif. Vanessa",
+        "direccion": "Cra. 44 #9-35",
+        "coordinador": "",
+        "contacto": "",
+        "hora": "12:51 p. m.",
+        "prioridad": false,
+        "necesidades": [
+          "Herramientas pesadas",
+          "Picos",
+          "Gatos eléctricos",
+          "Discos de corte",
+          "Taladros",
+          "Extensiones",
+          "Plantas eléctricas",
+          "Cascos",
+          "Guantes",
+          "Hielo",
+          "Carros de mercado",
+          "Zorras",
+          "Bisturís",
+          "Tijeras",
+          "Agujas para canalizar",
+          "Comida para animales",
+          "Medicamentos para animales"
+        ]
+      }
+    },
+    {
+      "id": "puntos-criticos-f176e331e0",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Edificio Pilar",
+      "descripcion": "Reporte de las 12:51 p. m.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "necesita": [
+        "Cascos"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "lugar": "Edificio Pilar",
+        "direccion": "",
+        "coordinador": "",
+        "contacto": "",
+        "hora": "12:51 p. m.",
+        "prioridad": false,
+        "necesidades": [
+          "Cascos"
+        ]
+      }
+    },
+    {
+      "id": "puntos-criticos-0d7b589ad0",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Colegio Adventista",
+      "descripcion": "Reporte de las 12:51 p. m.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "necesita": [
+        "Cascos",
+        "Hielo"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "lugar": "Colegio Adventista",
+        "direccion": "",
+        "coordinador": "",
+        "contacto": "",
+        "hora": "12:51 p. m.",
+        "prioridad": false,
+        "necesidades": [
+          "Cascos",
+          "Hielo"
+        ]
+      }
+    },
+    {
+      "id": "puntos-criticos-0c424f2c11",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Edificio Archinie",
+      "descripcion": "Reporte de las 12:51 p. m.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "necesita": [
+        "Alimentación"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "lugar": "Edificio Archinie",
+        "direccion": "",
+        "coordinador": "",
+        "contacto": "",
+        "hora": "12:51 p. m.",
+        "prioridad": false,
+        "necesidades": [
+          "Alimentación"
+        ]
+      }
+    },
+    {
+      "id": "puntos-criticos-01a9a519c4",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Autopista con 73",
+      "descripcion": "Reporte de las 12:51 p. m.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "necesita": [
+        "Megáfonos"
+      ],
+      "estado": "activo",
+      "contacto": "318 5026611",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "lugar": "Autopista con 73",
+        "direccion": "",
+        "coordinador": "",
+        "contacto": "318 5026611",
+        "hora": "12:51 p. m.",
+        "prioridad": false,
+        "necesidades": [
+          "Megáfonos"
+        ]
+      }
+    },
+    {
+      "id": "puntos-criticos-3bd3de65be",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "⚠️ Evacuación inmediata: Calle 9 con Cra 44",
+      "descripcion": "Se ordenó evacuación inmediata por riesgo de colapso del Hotel y de la edificación contigua al Edificio Vanessa. No ingrese al área.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "punto": "⚠️ Evacuación inmediata: Calle 9 con Cra 44",
+        "nota": "Se ordenó evacuación inmediata por riesgo de colapso del Hotel y de la edificación contigua al Edificio Vanessa. No ingrese al área."
+      }
+    },
+    {
+      "id": "puntos-criticos-02a5b56960",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Coliseo del Pueblo: se necesitan relevos",
+      "descripcion": "Piden relevos de voluntarios a las 2:00 p. m. y a las 6:00 p. m.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "punto": "Coliseo del Pueblo: se necesitan relevos",
+        "nota": "Piden relevos de voluntarios a las 2:00 p. m. y a las 6:00 p. m."
+      }
+    },
+    {
+      "id": "puntos-criticos-1f94e95be1",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Dispositivos Starlink para los topos",
+      "descripcion": "Los rescatistas topos mexicanos piden Starlink para facilitar y agilizar las labores de búsqueda y rescate.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "punto": "Dispositivos Starlink para los topos",
+        "nota": "Los rescatistas topos mexicanos piden Starlink para facilitar y agilizar las labores de búsqueda y rescate."
+      }
+    },
+    {
+      "id": "puntos-criticos-0560ff13c4",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Puntales y andamios en todos los puntos",
+      "descripcion": "No solo en La 56 con 3ra: en todos los puntos se necesitan con urgencia puntales o andamios metálicos para sostener las estructuras y seguir sacando escombros.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "punto": "Puntales y andamios en todos los puntos",
+        "nota": "No solo en La 56 con 3ra: en todos los puntos se necesitan con urgencia puntales o andamios metálicos para sostener las estructuras y seguir sacando escombros."
+      }
+    },
+    {
+      "id": "puntos-criticos-3933b85828",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Escuela Normal Superior",
+      "descripcion": "Necesitan hielo, canastas, cajas de icopor y pañales para niños y adultos.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "punto": "Escuela Normal Superior",
+        "nota": "Necesitan hielo, canastas, cajas de icopor y pañales para niños y adultos."
+      }
+    },
+    {
+      "id": "puntos-criticos-6eb5f43b1e",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Evaluación estructural o de redes eléctricas, gratis",
+      "descripcion": "Samuel Salazar ofrece evaluación estructural o de redes eléctricas sin costo alguno. Contacto: +57 313 7618582.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "punto": "Evaluación estructural o de redes eléctricas, gratis",
+        "nota": "Samuel Salazar ofrece evaluación estructural o de redes eléctricas sin costo alguno. Contacto: +57 313 7618582."
+      }
+    },
+    {
+      "id": "puntos-criticos-6a32154302",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "albergue",
+      "nombre": "Hotel Six Avenue Cali",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "Av. 6a N #17N-73, Santa Mónica Residencial",
+      "estado": "activo",
+      "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "nombre": "Hotel Six Avenue Cali",
+        "direccion": "Av. 6a N #17N-73, Santa Mónica Residencial"
+      }
+    },
+    {
+      "id": "puntos-criticos-df1e6f257f",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "albergue",
+      "nombre": "Cancha de hockey Miguel Calero",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "Calle 9 con Carrera 37A / 39",
+      "estado": "activo",
+      "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "nombre": "Cancha de hockey Miguel Calero",
+        "direccion": "Calle 9 con Carrera 37A / 39"
+      }
+    },
+    {
+      "id": "puntos-criticos-09b0e0f116",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "albergue",
+      "nombre": "Diamante de béisbol",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "activo",
+      "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "nombre": "Diamante de béisbol",
+        "direccion": ""
+      }
+    },
+    {
+      "id": "puntos-criticos-6b5b1162d9",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "albergue",
+      "nombre": "Loft House 14",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "Carrera 26 #2-91",
+      "estado": "activo",
+      "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "nombre": "Loft House 14",
+        "direccion": "Carrera 26 #2-91"
+      }
+    },
+    {
+      "id": "puntos-criticos-56b6bf2da9",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "albergue",
+      "nombre": "Motel California",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "Cl. 10 #30-155, Arroyo Hondo",
+      "estado": "activo",
+      "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "nombre": "Motel California",
+        "direccion": "Cl. 10 #30-155, Arroyo Hondo"
+      }
+    },
+    {
+      "id": "puntos-criticos-3f017833f7",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "albergue",
+      "nombre": "Motel Éxtasis",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "3ra Norte 72 Esquina",
+      "estado": "activo",
+      "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "nombre": "Motel Éxtasis",
+        "direccion": "3ra Norte 72 Esquina"
+      }
+    },
+    {
+      "id": "puntos-criticos-35900a052f",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "albergue",
+      "nombre": "Cristal Palace",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "Enseguida de TQ Tecnoquímicas, Cra. 7a #23-43",
+      "estado": "activo",
+      "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "nombre": "Cristal Palace",
+        "direccion": "Enseguida de TQ Tecnoquímicas, Cra. 7a #23-43"
+      }
+    },
+    {
+      "id": "puntos-criticos-e556f9eb4c",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "albergue",
+      "nombre": "Residencias Ramírez",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "Enseguida de TQ Tecnoquímicas, Cra. 7a #23-43, San Nicolás",
+      "estado": "activo",
+      "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "nombre": "Residencias Ramírez",
+        "direccion": "Enseguida de TQ Tecnoquímicas, Cra. 7a #23-43, San Nicolás"
+      }
+    },
+    {
+      "id": "puntos-criticos-95771420ea",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "albergue",
+      "nombre": "Residencias Bugatier",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "Cra. 25a #14c-09",
+      "estado": "activo",
+      "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "nombre": "Residencias Bugatier",
+        "direccion": "Cra. 25a #14c-09"
+      }
+    },
+    {
+      "id": "puntos-criticos-be3b4f933e",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "albergue",
+      "nombre": "Plaza Real Norte",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "Av. 2 Nte. #21 Norte-99",
+      "estado": "activo",
+      "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "nombre": "Plaza Real Norte",
+        "direccion": "Av. 2 Nte. #21 Norte-99"
+      }
+    },
+    {
+      "id": "puntos-criticos-7ea27b3915",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "albergue",
+      "nombre": "Motel Kamasutra",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": "Cl. 10 #29 A-50, Acopi",
+      "estado": "activo",
+      "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "nombre": "Motel Kamasutra",
+        "direccion": "Cl. 10 #29 A-50, Acopi"
+      }
+    },
+    {
+      "id": "puntos-criticos-a08dec69f9",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "salud",
+      "nombre": "Clínica Alba",
+      "descripcion": "Reportada como afectada y en necesidad de evacuación",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "alta",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "clinica": "Clínica Alba"
+      }
+    },
+    {
+      "id": "puntos-criticos-4de7ff95ee",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "salud",
+      "nombre": "Clínica Rey David",
+      "descripcion": "Reportada como afectada y en necesidad de evacuación",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "alta",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "clinica": "Clínica Rey David"
+      }
+    },
+    {
+      "id": "puntos-criticos-d24bb7b564",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "salud",
+      "nombre": "Clínica Nuestra Señora del Rosario",
+      "descripcion": "Reportada como afectada y en necesidad de evacuación",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "alta",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "clinica": "Clínica Nuestra Señora del Rosario"
+      }
+    },
+    {
+      "id": "puntos-criticos-852dcde377",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "salud",
+      "nombre": "Clínica Sanitas Tequendama",
+      "descripcion": "Reportada como afectada y en necesidad de evacuación",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "alta",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "clinica": "Clínica Sanitas Tequendama"
+      }
+    },
+    {
+      "id": "puntos-criticos-771280b63c",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "salud",
+      "nombre": "Hospital Carlos Holmes Trujillo",
+      "descripcion": "Reportada como afectada y en necesidad de evacuación",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "alta",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "clinica": "Hospital Carlos Holmes Trujillo"
+      }
+    },
+    {
+      "id": "puntos-criticos-6c62c25a25",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "donacion-org",
+      "nombre": "5 mujeres de Olla Comunitaria",
+      "descripcion": "Destino: Poblado · Tiene transporte, falta implementos",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "ofrece": [
+        "5 mujeres de Olla Comunitaria"
+      ],
+      "estado": "activo",
+      "contacto": "Daniela Orjuela",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "recurso": "5 mujeres de Olla Comunitaria",
+        "destino": "Poblado",
+        "coordinador": "Daniela Orjuela",
+        "contacto": "",
+        "obs": "Tiene transporte, falta implementos"
+      }
+    },
+    {
+      "id": "puntos-criticos-34aa7cd0a9",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "donacion-org",
+      "nombre": "Dos equipos de sonido y personal",
+      "descripcion": "Destino: Poblado · Se dirigió a Brigadistas de Sonido",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "ofrece": [
+        "Dos equipos de sonido y personal"
+      ],
+      "estado": "activo",
+      "contacto": "Daniel Centenario — 305 3158708",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "recurso": "Dos equipos de sonido y personal",
+        "destino": "Poblado",
+        "coordinador": "Daniel Centenario",
+        "contacto": "305 3158708",
+        "obs": "Se dirigió a Brigadistas de Sonido"
+      }
+    },
+    {
+      "id": "puntos-criticos-f2bfd32c7d",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "donacion-org",
+      "nombre": "Planta de 6000 y EcoFlows",
+      "descripcion": "Destino: Casa Moisés Wells · Tienda de Modas Samara Wells — Calle 2 #10-16, Barrio San Antonio, Cali",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "ofrece": [
+        "Planta de 6000 y EcoFlows"
+      ],
+      "estado": "activo",
+      "contacto": "Nathalia Varela — 314 7778914",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "recurso": "Planta de 6000 y EcoFlows",
+        "destino": "Casa Moisés Wells",
+        "coordinador": "Nathalia Varela",
+        "contacto": "314 7778914",
+        "obs": "Tienda de Modas Samara Wells — Calle 2 #10-16, Barrio San Antonio, Cali"
+      }
+    },
+    {
+      "id": "puntos-criticos-647a9e5724",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "donacion-org",
+      "nombre": "Maquinaria pesada",
+      "descripcion": "Destino: Sin destino aún",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "ofrece": [
+        "Maquinaria pesada"
+      ],
+      "estado": "activo",
+      "contacto": "Sarah Marín — 302 8525671",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "recurso": "Maquinaria pesada",
+        "destino": "Sin destino aún",
+        "coordinador": "Sarah Marín",
+        "contacto": "302 8525671",
+        "obs": ""
+      }
+    },
+    {
+      "id": "puntos-criticos-17df6b4063",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "donacion-org",
+      "nombre": "Hielo (Kolbitos)",
+      "descripcion": "Destino: Sin destino aún · Transporte y hielo a disposición",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "ofrece": [
+        "Hielo (Kolbitos)"
+      ],
+      "estado": "activo",
+      "contacto": "@hielokolbitos (Instagram) — 317 5154927",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "recurso": "Hielo (Kolbitos)",
+        "destino": "Sin destino aún",
+        "coordinador": "@hielokolbitos (Instagram)",
+        "contacto": "317 5154927",
+        "obs": "Transporte y hielo a disposición"
+      }
+    },
+    {
+      "id": "puntos-criticos-88b6556f49",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "donacion-org",
+      "nombre": "Guantes · 500 almuerzos",
+      "descripcion": "Destino: Por asignar · Contacto de Edif. Cantabria enviado",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "ofrece": [
+        "Guantes · 500 almuerzos"
+      ],
+      "estado": "activo",
+      "contacto": "María Paula — 314 7874022",
+      "verificado": false,
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "recurso": "Guantes · 500 almuerzos",
+        "destino": "Por asignar",
+        "coordinador": "María Paula",
+        "contacto": "314 7874022",
+        "obs": "Contacto de Edif. Cantabria enviado"
+      }
+    }
+  ],
+  "extra": {
+    "actualizaciones": [
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 2:40 p. m.",
+        "punto": "Calle 9 con Cra 44",
+        "texto": "⚠️ EVACUACIÓN INMEDIATA ORDENADA en Calle 9 con Cra 44 por riesgo de colapso del Hotel y de la edificación contigua al Edificio Vanessa. Aléjese del área de inmediato y no ingrese."
+      },
+      {
+        "contacto": "Alejandra, 314 8353553",
+        "fecha": "12 de agosto de 2026, 2:36 p. m.",
+        "punto": "Dagua",
+        "texto": "Pregunta si en Dagua necesitan manos de ayuda; puede desplazarse hasta allá con otras dos personas."
+      },
+      {
+        "contacto": "Cristian Perea Plazas, 301 4841243",
+        "fecha": "12 de agosto de 2026, 1:45 p. m.",
+        "punto": "Centro de Acopio comunitario Comuna 21",
+        "texto": "Centro de acopio comunitario habilitado en Carrera 24F #82B-04 para recibir donaciones para familias afectadas de la Comuna 21: agua potable, alimentos no perecederos, víveres, alimentos preparados, medicamentos, elementos de aseo y de primera necesidad, cobijas, colchonetas y ropa en buen estado. No es un punto crítico, es de recepción y distribución. Reporta además edificios con grietas por colapsar en la zona y pide evacuar a la gente de esos apartamentos."
+      },
+      {
+        "contacto": "Daniela Largo, 305 3299913",
+        "fecha": "12 de agosto de 2026, 1:41 p. m.",
+        "punto": "Cali",
+        "texto": "Busca saber en qué puntos de búsqueda de sobrevivientes se necesitan dispositivos de tecnología para escuchar; tienen disponibles aparatos de escucha y necesitan saber dónde hace falta."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 1:31 p. m.",
+        "punto": "Cali",
+        "texto": "Somos 1 APH y 2 civiles. ¿Dónde necesitan manos para apoyar?"
+      },
+      {
+        "contacto": "David, 316 7385385",
+        "fecha": "12 de agosto de 2026, 1:26 p. m.",
+        "punto": "Cali",
+        "texto": "Tiene alimentos preparados disponibles para damnificados, rescatistas y voluntarios."
+      },
+      {
+        "contacto": "Felipe, 322 2113774",
+        "fecha": "12 de agosto de 2026, 1:26 p. m.",
+        "punto": "Al lado de Cimivet, Calle 5 con 44",
+        "texto": "Se necesitan vigas de madera y bastones de madera."
+      },
+      {
+        "contacto": "Samuel Salazar, +57 313 7618582",
+        "fecha": "12 de agosto de 2026, 1:20 p. m.",
+        "punto": "Evaluación estructural o de redes eléctricas",
+        "texto": "Ofrece evaluación estructural o de redes eléctricas sin costo alguno para quien lo necesite."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 11:30 a. m.",
+        "punto": "Coliseo del Pueblo",
+        "texto": "Se necesitan relevos de voluntarios a las 2:00 p. m. y a las 6:00 p. m."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 11:30 a. m.",
+        "punto": "Escuela Normal Superior",
+        "texto": "Necesitan hielo, canastas, cajas de icopor y pañales para niños y adultos."
+      },
+      {
+        "contacto": "Natalia 3217079520",
+        "fecha": "12 de agosto de 2026, 12:00 p. m.",
+        "punto": "",
+        "texto": "Buenas noches,,, Pertenecemos a una empresa que tiene la posibilidad de realizar una donación de cuñetes para sacar escombros. ¿Con quien podemos comunicarnos para su entrega? Quedamos atentos!!"
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 11:02 a. m.",
+        "punto": "",
+        "texto": "Centro de acopio para animales: Centro de Bienestar Animal Cali (Carrera 56 #7 Oeste-445), desde el 11 de agosto a partir de las 9:00 a. m. Reciben alimento, medicamentos, artículos de aseo y cobijas o camas."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 11:00 a. m.",
+        "punto": "",
+        "texto": "Puntos oficiales de la Alcaldía para disposición de escombros: Estación de Transferencia, Cra. 50 con Av. Simón Bolívar (volquetas y chanas), 24 horas; y Cra. 8va con Cl. 59, barrio La Base (lote de Emcali, contiguo a Talleres del Municipio), solo volquetas, de 6:00 a. m. a 11:59 p. m."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 10:25 a. m.",
+        "punto": "",
+        "texto": "Coliseo del Pueblo: FULL, ya no reciben más civiles para organizar donaciones. Dirige tu apoyo a otro punto."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 10:21 a. m.",
+        "punto": "Clínica Imbanaco",
+        "texto": "En clínica Imbanaco, solo están recibiendo a la hora sangre O-., En cruz roja no están recibiendo a la hora porque están congestionados."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 10:20 a. m.",
+        "punto": "",
+        "texto": "Se reitera: NO se necesita gente en el edificio Ariguaní (Calle 3D con Carrera 67), en el refugio. Si pueden, ayuden en otros puntos."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 10:12 a. m.",
+        "punto": "Cruz roja",
+        "texto": "Cruz roja está full. Por ahora no reciben donaciones de sangre. Se puede hacer donaciones después del jueves."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 10:09 a. m.",
+        "punto": "Todos",
+        "texto": "Buenos días!! Por favor si tienen maquinaria, guantes, picas y toda ayuda posible, poner con Nombre y Teléfono para crear la publicación y subirla a los estados. MIL GRACIAS CALI!!"
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 9:51 a. m.",
+        "punto": "",
+        "texto": "Disponible Camioneta Pickup para traslado de donaciones a municipios afectados, comunicarse al wsap. 3154347455"
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 9:20 a. m.",
+        "punto": "",
+        "texto": "Antigua Licorera del Valle: punto de acopio para enviar ayudas a otros municipios."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 9:15 a. m.",
+        "punto": "",
+        "texto": "Dagua y El Cairo están pidiendo ayuda urgente."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 9:15 a. m.",
+        "punto": "",
+        "texto": "Muchas donaciones se están redireccionando a municipios del Chocó y a Buenaventura."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 9:15 a. m.",
+        "punto": "",
+        "texto": "Los topos mexicanos que llegaron ayer piden dispositivos Starlink para facilitar las labores de rescate."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 9:15 a. m.",
+        "punto": "",
+        "texto": "En varios puntos solo dejan pasar civiles con casco, guantes y zapatos de construcción, idealmente con certificación en uso de herramientas."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 9:15 a. m.",
+        "punto": "",
+        "texto": "La mayor necesidad ahora es maquinaria amarilla, volquetas y grúa pluma."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 9:10 a. m.",
+        "punto": "",
+        "texto": "Conjunto Ariguaní (Calle 3D con Carrera 67): por el momento NO venir personas, NO traer donaciones y absoluto silencio. Están trabajando con maquinaria especializada."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 9:08 a. m.",
+        "punto": "",
+        "texto": "La Flora: hay apartaestudios disponibles para personas que se quedaron sin casa o sin dónde pasar la noche. Escribir al 315 4384271."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 9:05 a. m.",
+        "punto": "",
+        "texto": "Poblado y Manuela Beltrán: requieren de todo."
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 9:05 a. m.",
+        "punto": "",
+        "texto": "Alto Meléndez y Polvorines: necesitan comida, líquidos y colchonetas; hay personas durmiendo en los andenes."
+      },
+      {
+        "contacto": "Juan Camilo 315 8500909",
+        "fecha": "12 de agosto de 2026, 9:00 a. m.",
+        "punto": "Capri",
+        "texto": "Tengo a disposición maquinaria pesada: excavadora oruga y retroexcavadora pájarita. A partir de las 9 am mañana, SE NECESITA OPERARIO, una persona que lo maneje"
+      },
+      {
+        "contacto": "Sofia Ronderos +57 310 2391830",
+        "fecha": "12 de agosto de 2026, 8:55 a. m.",
+        "punto": "EDIFICIO MARÍA ELVIRA",
+        "texto": "Se necesita URGENTE PORFAVOR grúas, ph o Crain 10, 20, o 30 TONELADAS con cables para levantar techos, grúas y vigas"
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 8:27 a. m.",
+        "punto": "Poblado 2",
+        "texto": "Se necesita la presencia de grupos capacitados para desastres cómo los bomberos, la defensa civil porque hay una casa que está de lado después del terremoto y con muchas grietas y hay casas a su alrededor"
+      },
+      {
+        "contacto": "Alcaldía Santiago de Cali",
+        "fecha": "12 de agosto de 2026, 8:00 a. m.",
+        "punto": "Ciudadela Petronio, Unidad alberto galindo",
+        "texto": "Ciudadela Petronio (unidad alberto galindo, panamericanas)Se convierte en punto de acopio, a partir de mañana 12 de agosto a las 8am, se destinará las ayudas para el Valle, Choco, Risaralda, Quindío y caldas"
+      },
+      {
+        "contacto": "Kevin riascos",
+        "fecha": "12 de agosto de 2026, 7:06 a. m.",
+        "punto": "Drogas la rebaja calle 5 con 44",
+        "texto": "Estamos necesitando maquinaria amarilla"
+      },
+      {
+        "contacto": "ESTEFANY",
+        "fecha": "12 de agosto de 2026, 6:48 a. m.",
+        "punto": "Melendez",
+        "texto": "Rescstistas, cobijas, viveres, insumos medicos, colchonetas, linternas"
+      },
+      {
+        "contacto": "Jenny marquez",
+        "fecha": "12 de agosto de 2026, 6:26 a. m.",
+        "punto": "Unidsd residencial danubio",
+        "texto": "Se necesita mercado para dos personas que perdieron su casa y les toco desalojar el lugar escríbame al 300 331 0326"
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 4:39 a. m.",
+        "punto": "Torres del limonar",
+        "texto": "Haciendo prueba de sonido. Todos fuera del punto por ahora. Hasta las 5:20 am"
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 3:45 a. m.",
+        "punto": "Melendez",
+        "texto": "Colchonetas, sábanas, gasas, micropore"
+      },
+      {
+        "contacto": "3113344939",
+        "fecha": "12 de agosto de 2026, 3:45 a. m.",
+        "punto": "Notaría 20",
+        "texto": "Chiminangos 1 están sin luz se necesita linternas, batería, pilas,, Tequendama necesitan herramientas para quitar los escombros, elementos de seguridad,,, Notaría 20, Necesitan linternas, volqueta solo tienen 1"
+      },
+      {
+        "contacto": "",
+        "fecha": "12 de agosto de 2026, 1:52 a. m.",
+        "punto": "Barrio caldas",
+        "texto": "Se necesitan manos con todos los elementos de protección, pulidoras, cascos. Ya no se necesita ni comida ni bebidas"
+      },
+      {
+        "contacto": "Maria Osorio- 3169389230",
+        "fecha": "12 de agosto de 2026, 1:14 a. m.",
+        "punto": "Capri",
+        "texto": "Esparadrapo. Linternas y Tijeras para sutura."
+      },
+      {
+        "contacto": "Royipets",
+        "fecha": "12 de agosto de 2026, 12:30 a. m.",
+        "punto": "CAPRI",
+        "texto": "Se necesitan Guacales para animales de todos los tamaños, toallas para cuerpo, comida húmeda para perro y gato"
+      },
+      {
+        "contacto": "Cali Iniciativas sociales",
+        "fecha": "11 de agosto de 2026, 11:55 p. m.",
+        "punto": "La carrera 44 con 9",
+        "texto": "EN LA 44 CON 9, NECESITAN PERSONAS PARA SACAR ESCOMBROS,, LLEVAR TAPABOCAS, GAFAS Y GUANTES"
+      },
+      {
+        "contacto": "Pati muñoz 3215644443",
+        "fecha": "11 de agosto de 2026, 11:43 p. m.",
+        "punto": "Edificio Ramalí",
+        "texto": "Se necesitan colchonetas, sabanas, toldillos, repelentes, pañales para niños menores de 2 años y alimento"
+      },
+      {
+        "contacto": "Persona encargada en el punto",
+        "fecha": "11 de agosto de 2026, 11:38 p. m.",
+        "punto": "Conjunto Ramalí",
+        "texto": "Se necesitan colchonetas, toldillos, sabanas, repelente, pañales para niños menores de 2 años y alimentos."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 11:21 p. m.",
+        "punto": "Aguama",
+        "texto": "ALGUIEN CERCA AL EDIFICIO AGUAMA? MUJER ATRAPADA CON SUS DOS HIJOS"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 11:17 p. m.",
+        "punto": "Frente al éxito de San Fernando y enseguida de la bomba",
+        "texto": "En la calle 5 al frente del éxito de San Fernando donde habían llegado los 70 personas de la 3 edad ya no están ahí, fueron traslados a otros lados, no reciben comida preparada,, Solo alimentos no perecederos, agua, pañales de adulto y productos de aseo"
+      },
+      {
+        "contacto": "@elpikirey",
+        "fecha": "11 de agosto de 2026, 11:07 p. m.",
+        "punto": "Altos de Santa Elena",
+        "texto": "Se necesitan carpas, cobijas, cosas para que las personas que se quedaron sin hogar puedan dormir ahí"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 10:29 p. m.",
+        "punto": "",
+        "texto": "Hola! Busco albergues pequeños o zonas poco visibilizadas donde estén alojadas familias desplazadas por el terremoto y necesiten voluntarios o recursos. Si conocen alguno, por favor envíenme la información"
+      },
+      {
+        "contacto": "Leidy Chávez",
+        "fecha": "11 de agosto de 2026, 10:21 p. m.",
+        "punto": "Clinica Rey David",
+        "texto": "Clinica Rey David Necesitan, Agua para lavado de manos, Agua para aseo de pacientes, Linternas, Lámparas Led portátiles"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 10:20 p. m.",
+        "punto": "Palmero",
+        "texto": "En puntos cómo palmeto, se necesita alcohol, tapabocas, gazas, medicamentos: acetaminofen, ibuprofeno, vendas. No llevar nada de comida ni preparada."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 10:20 p. m.",
+        "punto": "Edificio Cantabria",
+        "texto": "Se necesita con urgencia escaleras altas"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 10:11 p. m.",
+        "punto": "Chiminangos",
+        "texto": "En chiminangos por fortuna ya hay mucha comida, y suficiente hidratación. Lo que necesitan son repelentes ya que deben acampar en un parque y también mantas, almohadas"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 9:54 p. m.",
+        "punto": "Panadería",
+        "texto": "En la panadería de La quinta están intentando rescatar a una persona"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 9:52 p. m.",
+        "punto": "Edificio de colores",
+        "texto": "Ya hay suficientes manos no se necesita más ayuda y mucha saturación de gente"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 9:50 p. m.",
+        "punto": "Hospital Carlos Holmes Trujillo",
+        "texto": "Están recibiendo todo tipo de ayuda."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 9:41 p. m.",
+        "punto": "Edificio Cantabria Calle 8B#45-17",
+        "texto": "En el edificio Cantabria Calle 8B#45-17 se encuentra Vicky Perea y ha dado señales de vida se ha escuchado gritar su nombre pero hay poco personal"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 9:38 p. m.",
+        "punto": "Edificio Vanessa",
+        "texto": "Se necesita maquinaria pesada para remoción de escombros."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 9:36 p. m.",
+        "punto": "Capri",
+        "texto": "Se necesita ayuda para levantar escombros en capri"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 9:35 p. m.",
+        "punto": "Torres de limonar Capri",
+        "texto": "Torres de limonar en Capri. Solo civiles voluntarios después de las 6:00 am del 12 de agosto. No se necesitan más insumos, necesitan SILENCIO."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 9:27 p. m.",
+        "punto": "Panaderia Quinta Pan",
+        "texto": "Personal profesional sigue verificando si hay personas con vida. Hay suficiente comida y agua"
+      },
+      {
+        "contacto": "Cali",
+        "fecha": "11 de agosto de 2026, 9:23 p. m.",
+        "punto": "",
+        "texto": "Tenemos insumos para bebés donde necesitan???"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 9:20 p. m.",
+        "punto": "Altos de santa elena",
+        "texto": "Se necesitan agua alimentos no perecederos cobijas y ropa artículos de higiene medicamentos el edificio colapso y decretaron completa evacuación el día de hoy. Las personas están refugiadas en el cide los pinos comuna 18"
+      },
+      {
+        "contacto": "Neysbyth Valencia",
+        "fecha": "11 de agosto de 2026, 9:18 p. m.",
+        "punto": "Altos de santa Elena",
+        "texto": "Se necesitan colchonetas, medicamentos, insumos urgente"
+      },
+      {
+        "contacto": "3148353553",
+        "fecha": "11 de agosto de 2026, 9:14 p. m.",
+        "punto": "",
+        "texto": "En algún punto necesitan manos????"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 9:12 p. m.",
+        "punto": "ANA PILAR",
+        "texto": "RESCATISTAS EDIFICIO ANA PILAR POR LA PALZA DE TOROS HAY UN NIÑO UNA MADRE Y ABUELA ESTÁN VIVO"
+      },
+      {
+        "contacto": "Laura",
+        "fecha": "11 de agosto de 2026, 9:11 p. m.",
+        "punto": "Pampalinda",
+        "texto": "Tenemos insumos, dónde podemos llevarlos?"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 9:07 p. m.",
+        "punto": "Chininangos",
+        "texto": "Chininangos, entregar sólo en el parquecito de niños, al frente de los asados. No entregar en el semáforo., Preguntar por Johana., Necesitan productos de aseo personal, carpas, colchonetas y cobijas, sobre todo, requieren repelente, pañitos. NO COMIDA PREPARADA"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 9:01 p. m.",
+        "punto": "Chininangos",
+        "texto": "Chininangos, Productos de aseo personal, carpas, colchonetas, repelente, pañitos.,, Sólo entregar en el parquecito de niños, entrada principal, al frente de los asados. La responsable se llama Johana"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 9:00 p. m.",
+        "punto": "",
+        "texto": "Pampalinda: solo requieren bebidas, baterías, hielo y gasolina."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:54 p. m.",
+        "punto": "",
+        "texto": "Tenemos linternas, por favor informar qué punto necesita. Informar por WhatsApp al 3214563381"
+      },
+      {
+        "contacto": "Sandra Viviana Torres - 3164986329",
+        "fecha": "11 de agosto de 2026, 8:50 p. m.",
+        "punto": "Portal del Alameda 2",
+        "texto": "Se requiere revisión de la estructura por parte de Ingenieros o Bomberos"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:49 p. m.",
+        "punto": "Quintapan",
+        "texto": "Tengo linternas, en qué punto las puedo entregar? Comunicarse por whatsapp al 3214563381"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:48 p. m.",
+        "punto": "Edificio AnaPilar - plaza de toros",
+        "texto": "No más alimentos en pampalinda. Se requieren linternas y pilas doble A o triple A. NO MAS ALIMENTOS NI BEBIDAS. Suficientes manos de obra"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:45 p. m.",
+        "punto": "NOTARÍA 20 - POBLADO 2",
+        "texto": "NOTARÍA 20 - POBLADO 2, Se necesitan:, Insumos médicos., Alimentos no perecederos., Hielo., Cobijas y colchones inflables"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:44 p. m.",
+        "punto": "Altos de Santa Elena",
+        "texto": "Llevamos comida, colchonetas, ropa, cosas para bebés, cobijas, sábanas, cosas de aseo pero confirmar si es necesario en altos de Santa Elena"
+      },
+      {
+        "contacto": "Anne López",
+        "fecha": "11 de agosto de 2026, 8:44 p. m.",
+        "punto": "Autopista sur",
+        "texto": "Hola, alguien que me diga un barrio donde necesiten ayuda mañana temprano estaré comprando y llevamos cosas con mis amigos para ayudar, dónde no haya mucha difusión y falte gente, estaré atenta por favor"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:43 p. m.",
+        "punto": "Edificio Vanessa",
+        "texto": "Se necesita policía para que despejen la zona hay mucha gente que no ayuda porque ya hay mucha gente, y lo que hace es ruido"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:41 p. m.",
+        "punto": "Edificio Vanessa",
+        "texto": "Se necesitan guantes de carnaza, cascos, linternas, cizallas, gatos, cosas para cortar."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:29 p. m.",
+        "punto": "Normal de Varones",
+        "texto": "Se necesitan linternas con pilas o cargadas por traslado de pacientes Clinica Nuestra."
+      },
+      {
+        "contacto": "Rocio",
+        "fecha": "11 de agosto de 2026, 8:28 p. m.",
+        "punto": "",
+        "texto": "Hola, tengo medicamentos, para dolores musculares, para la presión alta, vitaminas, vendas, alcohol, pañitos, tapabocas, guantes quirúrgicos,, Gaseosas, pilas o baterías, sawis para preparar., Dónde las puedo llevar?"
+      },
+      {
+        "contacto": "Maria fernanda",
+        "fecha": "11 de agosto de 2026, 8:27 p. m.",
+        "punto": "Quintapan",
+        "texto": "Se necesitan linternas, guantes, cascos y manos, no hay maquinaria"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:17 p. m.",
+        "punto": "Palmeto por la novena",
+        "texto": "Por palmeto está lleno no llevar comida preparada. Traer alimentos no perecederos, agua, cascos, linternas y bolsas de basura"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:13 p. m.",
+        "punto": "Hospital San Juan de Dios",
+        "texto": "Hospital San Juan de Dios no llevar más pañales ni toallitas ya tienen demasiados y no se puede recibir más"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:11 p. m.",
+        "punto": "Chimangos 2",
+        "texto": "Se solicita voluntarios en chimangos para repartir ayudas"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:09 p. m.",
+        "punto": "Hospital Carlos Holmes Trujillo",
+        "texto": "Que medicamentos o insumos necesitan en el Hospital Carlos Holmes? Necesitan comida preparada? Para llevar mañana."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:07 p. m.",
+        "punto": "Edificio cantabria",
+        "texto": "Edificio cantabria mucha aglomeración no necesitan ayuda. Hay de todo."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:06 p. m.",
+        "punto": "Edificio cantabria",
+        "texto": "Exceso de comunidad"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:05 p. m.",
+        "punto": "Calle 5ta con 44",
+        "texto": "Se necesitan reflectores portátiles en la calle 5ta con 44"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:03 p. m.",
+        "punto": "Ariguani",
+        "texto": "Exceso de comunidad, No se requieren víveres"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:03 p. m.",
+        "punto": "Edificio de los colores",
+        "texto": "En la escuela nacional del deporte tiene herramientas, no hay quien las lleve a los puntos por favor si alguien puede acercarlas."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:01 p. m.",
+        "punto": "Panaderia 5ta con 42",
+        "texto": "Reflectores, cascos, guantes, gafas"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 8:00 p. m.",
+        "punto": "Chiminangos 2",
+        "texto": "Hola Family, estoy en chiminangos II, reciben papel higiénico, medicinas, cobijas, colchonetas. Comida para peludos. Comida no perecedera. Para Cali y B/Tura. Por favor. Gracias"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:59 p. m.",
+        "punto": "",
+        "texto": "Saben dónde están dejando donar sangre?, En tequendama no reciben"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:57 p. m.",
+        "punto": "Chiminangos 2 al frente de olimpica",
+        "texto": "Se necesitan ARROZ, AZUCAR, ACEITE, productos NO PERECEDEROS para albergue"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:57 p. m.",
+        "punto": "Calle. 44 con 5 diagonal al oxx",
+        "texto": "Está necesitando reflectores porque está ya muy oscuro. En esta dirección Calle. 44 con 5 diagonal al oxx"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:50 p. m.",
+        "punto": "Edificio Cantabria",
+        "texto": "En CANTABRIA están ya abastecidos de alimentos, bebidas, herramientas y voluntarios. Redirigir la ayuda a otros puntos."
+      },
+      {
+        "contacto": "IG: @gracopatinaje",
+        "fecha": "11 de agosto de 2026, 7:48 p. m.",
+        "punto": "Pista De Patinaje Los Alamos",
+        "texto": "TE ESPERAMOS DE 6:00 PM A 8:00 PM EN NUESTRAS CARPAS ROJAS DEL CLUB GRACO"
+      },
+      {
+        "contacto": "Karen Muñoz",
+        "fecha": "11 de agosto de 2026, 7:45 p. m.",
+        "punto": "Por la plaza de toros",
+        "texto": "Se requiere ACPM PARA LAS MAQUINARIAS EN LA 5 con 56 en la plaza de toros"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:40 p. m.",
+        "punto": "Edificio",
+        "texto": "Personal de asistencia, linternas, pilas, colchones, colchonetas, sabanas, cobijas,insumos médicos ( gasas, micropore, alcohol, vendas, etc)"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:38 p. m.",
+        "punto": "Edificio Daniela",
+        "texto": "Se necesita presencia de policia o ejercito, edificio con daño estructural y sin seguridad, evacuado y tienen miedo que entren a robar."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:37 p. m.",
+        "punto": "UR Ariguani",
+        "texto": "Unidad Residencial Ariguani, ya tenemos suficiente de todo y hay mucha gente ayudando, no venir más ni traer más comida o bebidas.,, SOLO LINTERNAS TIPO TOPO."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:30 p. m.",
+        "punto": "",
+        "texto": "Capri: están dispersando y sacando las ayudas hacia otras áreas. Dirige tus donaciones a otros puntos."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:16 p. m.",
+        "punto": "Edificio ariguaní",
+        "texto": "Edificio ariguaní refugio: NO vayan más personas, están entorpeciendo las búsquedas de personas atrapadas aún, donar guantes de carnaza, picos, palas y casco, NO MÁS PERSONAS PORFAVOR!!!!"
+      },
+      {
+        "contacto": "Valerie 3173665662",
+        "fecha": "11 de agosto de 2026, 7:16 p. m.",
+        "punto": "",
+        "texto": "Donde se necesitan palas por favor?"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:14 p. m.",
+        "punto": "Meléndez, alto jordan",
+        "texto": "Por favor averiguar acerca de la situación de MELÉNDEZ, ALTO JORDAN vi publicaciones de personas cercanas que no han recibido ayuda por más de 24 horas y hay personas que no tienen donde dormir"
+      },
+      {
+        "contacto": "Dayany 3122146613",
+        "fecha": "11 de agosto de 2026, 7:13 p. m.",
+        "punto": "Calle 5",
+        "texto": "Tenemos sandwich y gaseosa dónde necesitan??"
+      },
+      {
+        "contacto": "Valeria Ruiz. 3117181700",
+        "fecha": "11 de agosto de 2026, 7:07 p. m.",
+        "punto": "Edifico Vanessa",
+        "texto": "Se necesita gasolina para volqueta de remoción de escombros en edificio Vanessa"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:07 p. m.",
+        "punto": "Cenco Limonar",
+        "texto": "Se estan recibiendo donaciones, algunas van dirigidas a Buenaventura"
+      },
+      {
+        "contacto": "Enrique Gutiérrez",
+        "fecha": "11 de agosto de 2026, 7:07 p. m.",
+        "punto": "Quinta Pan",
+        "texto": "Se necesitan cascos, linternas para cascos, linternas manuales, porras y reflectores."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:03 p. m.",
+        "punto": "Torres del Limonar - Capri",
+        "texto": "Se necesitan linternas y baterías"
+      },
+      {
+        "contacto": "3007750122",
+        "fecha": "11 de agosto de 2026, 7:02 p. m.",
+        "punto": "Calle 8#14-35 barrio san bosco",
+        "texto": "Guantes gafas. Linternas"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:00 p. m.",
+        "punto": "",
+        "texto": "Lista oficial del jefe de bomberos: oxicorte, 500 pitos, 50 arneses, 300 porras grandes, 100 pulidoras inalámbricas, 100 reflectores, 1000 tapabocas N95, 100 rotomartillos inalámbricos, 50 gatos hidráulicos, 50 cámaras sensores, 50 scanner para búsqueda en estructuras colapsadas (leader scan), equipos de búsqueda canina para personas vivas, 50 cámaras de búsqueda y 400 gafas."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:00 p. m.",
+        "punto": "CENTRO COMERCIAL UNICO PARA BUENAVENTURA",
+        "texto": "Se necesita alimentos, ropa, cobijas, insumos medicos PARA ENVIAR A BUENAVENTURA"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:00 p. m.",
+        "punto": "Edificio Vanesa los cambulos",
+        "texto": "Los cambios edificio Vanesa se requiere gasolina, pulidoras, hojas de pulidoras, martillos eléctricos, picas, porras,plantas eléctricas, aceite dos tiempos"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 7:00 p. m.",
+        "punto": "Alto de Santa elena",
+        "texto": "No están recibiendo comida, reciben agua, colchonetas, voluntarios, linternas"
+      },
+      {
+        "contacto": "Rasgo",
+        "fecha": "11 de agosto de 2026, 6:56 p. m.",
+        "punto": "Pampalimda",
+        "texto": "Capturado 916, por 904 en apartamento"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:54 p. m.",
+        "punto": "Chiminangos",
+        "texto": "Chiminangos no recibe mas ayudas, ya llegaron las necesarias"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:47 p. m.",
+        "punto": "Edificio de colores",
+        "texto": "Se necesita Hielo, hay mucha hidratación pero con el calor que está haciendo ya están calientes"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:47 p. m.",
+        "punto": "",
+        "texto": "Cuarto de legua o Pampalinda, Necesita gente!!!? Pa ahora en la noche?"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:46 p. m.",
+        "punto": "Charo de legua",
+        "texto": "Se necesita Hielo!!!! Hay mucha hidratación pero con el calor que está haciendo ya están calientes."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:45 p. m.",
+        "punto": "",
+        "texto": "La 56 (Guadalupe) con 3ra, al lado del D1: se requieren puntales o andamios metálicos para sostener la estructura por dentro y seguir sacando escombros."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:43 p. m.",
+        "punto": "Torres del limonar",
+        "texto": "En torres del limonar esta colapsado, no se necesita gasolina. Si linternas ( si se puede de las q se colocan en la cabeza)"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:40 p. m.",
+        "punto": "",
+        "texto": "Puntos que necesitan manos (lleguen con tapabocas, guantes, gafas y casco): Calle 72 #10 Bis-21, OXXO 44 con Novena, Corporación Educativa Adventista (Cra. 44 #9-25), Edificio Elvira (Cra. 4 #58-18), Edificio Vanesa (Cra. 44 #9-35), Carrera 56 con Calle 3A, Calle 4 #66b-52, Carrera 39A #5D-09 y Carrera 58 #3-138."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:36 p. m.",
+        "punto": "Cuarto de legua",
+        "texto": "Se necesitan insumos médicos y medicamentos para animalitos!"
+      },
+      {
+        "contacto": "Guadalupe",
+        "fecha": "11 de agosto de 2026, 6:35 p. m.",
+        "punto": "Cra. 57 #3-102, Cuarto de Legua, Cali, Valle del Cauca",
+        "texto": "Guantes y gafas. Linternas discos diamantada lara concreto y hierro"
+      },
+      {
+        "contacto": "Jp",
+        "fecha": "11 de agosto de 2026, 6:35 p. m.",
+        "punto": "Meléndez",
+        "texto": "En Meléndez hay que sacar escombros pero no sé necesita más comida por hoy no más comida por hoy se necesita gente pa sacar escombros de casas"
+      },
+      {
+        "contacto": "El Lido",
+        "fecha": "11 de agosto de 2026, 6:33 p. m.",
+        "punto": "CALLE 5",
+        "texto": "Herramientas, comida para los de casco ACPM"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:32 p. m.",
+        "punto": "Notaría 20",
+        "texto": "Linterna, Gafas, y tapa bocas"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:32 p. m.",
+        "punto": "",
+        "texto": "Se necesitan colchonetas, alimentos, insumos médicos y de rescate para melendez, hay varios edificios que están colapsando, necesitamos alimento para los animalitos y cobijas, por favor traer lo que puedan"
+      },
+      {
+        "contacto": "Isabella Carabali",
+        "fecha": "11 de agosto de 2026, 6:30 p. m.",
+        "punto": "Conjunto residencial ariguani",
+        "texto": "En la 67 con 4ta no necesitan más ayudas, están full gracias a Dios"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:28 p. m.",
+        "punto": "Edificio Ariguani",
+        "texto": "Ahora estan necesitando: cinta aislante, LINTERNAS, destornilladores, alicates."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:28 p. m.",
+        "punto": "Hospital Universitario Del Valle",
+        "texto": "En HUV Irne diciendo que no necesitan donaciones y la gente está sin ropa, sin pañales y sin como alimentar a los bebés!!!"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:26 p. m.",
+        "punto": "Hospital Juan de Dios",
+        "texto": "Se necesitan pañales para bebés y adultos, tapa bocas, guantes de nitrilo, solución salina, cuello ortopédico."
+      },
+      {
+        "contacto": "Alejandro Pazos",
+        "fecha": "11 de agosto de 2026, 6:24 p. m.",
+        "punto": "Altos de Santa Elena",
+        "texto": "Agua, linternas, pañales, carpas, cobijas, ropa, comid e Hidratación"
+      },
+      {
+        "contacto": "3504429920",
+        "fecha": "11 de agosto de 2026, 6:23 p. m.",
+        "punto": "",
+        "texto": "Tenemos herramientas para levantar escombros. En qué punto las necesitan?"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:21 p. m.",
+        "punto": "",
+        "texto": "Hola, tengo una Van de transporte disponible para movilizar lo que se necesite"
+      },
+      {
+        "contacto": "Karol 3504429920",
+        "fecha": "11 de agosto de 2026, 6:20 p. m.",
+        "punto": "Cali cualquier zona",
+        "texto": "Tenemos discos para cortar, carretillas, seguetas, cuerdas. Donde necesitan cosas así?"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:19 p. m.",
+        "punto": "Tequendama",
+        "texto": "Acabo de estar en Cantabria y había máquina pesada y defensa civil trabajando en el sitio"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:16 p. m.",
+        "punto": "Cuarto de Legua",
+        "texto": "Están recibiendo todo tipo de insumos"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:16 p. m.",
+        "punto": "",
+        "texto": "Hola, donde se requiere ayuda en el norte de Cali ahora en la noche? Para hacer relevo"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:12 p. m.",
+        "punto": "Chiminangos",
+        "texto": "Se necesitan colchonetas y cosas para dormir en chiminanngos"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:09 p. m.",
+        "punto": "Edificio Vanessa",
+        "texto": "Al frente de metrópolis plaza: Hay mucha gente ayudando, tanta que no hacen silencio para escuchar a las personas debajo de los escombros. Hay muchas bebidas y herramientas."
+      },
+      {
+        "contacto": "Lorena Hincapie",
+        "fecha": "11 de agosto de 2026, 6:09 p. m.",
+        "punto": "Pampalinda",
+        "texto": "Tenemos Agua, sándwiches, pañales, jugos en caja, arroz, papel higiénico, comida para perritos, pañitos húmedos, cepillos de dientes... podemos llevarla adonde más lo requieran."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:09 p. m.",
+        "punto": "Torres de limonar",
+        "texto": "Ya no están dejando entrar"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:05 p. m.",
+        "punto": "",
+        "texto": "¿Dónde están necesitando personas para ayudar?"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:04 p. m.",
+        "punto": "Quinta Pan",
+        "texto": "Se necesitan guantes, herramientas para abrir camino en los escombros y hielo"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:04 p. m.",
+        "punto": "Edificio Cantabria",
+        "texto": "Dejar dirección exacta los que necesitan ayudan en el edificio Cantabria. Tenemos insumos para llevar"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:03 p. m.",
+        "punto": "Meléndez",
+        "texto": "Carpas, cobijas,comida, remover escombros"
+      },
+      {
+        "contacto": "Danielle Figueroa",
+        "fecha": "11 de agosto de 2026, 6:01 p. m.",
+        "punto": "",
+        "texto": "Personas, guantes, recursos para bajo Meléndez"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 6:00 p. m.",
+        "punto": "Edificio Vanesa",
+        "texto": "Gasolina, pulidoras,hojas de pulidora, martillos eléctricos,picas, porras,plantas eléctricas, aceite 2 tiempos, no se requiere comida"
+      },
+      {
+        "contacto": "Fundación semillitas cristianas",
+        "fecha": "11 de agosto de 2026, 6:00 p. m.",
+        "punto": "",
+        "texto": "Desde la fundación Emilia's Christiana's y el barrio Santo Domingo, hemos realizado una cena para los rescatistas y voluntarios. Estoy buscando punto para llevarlo ahora a las 6pm"
+      },
+      {
+        "contacto": "Karen Velasco 3215436342-3184038270",
+        "fecha": "11 de agosto de 2026, 5:58 p. m.",
+        "punto": "",
+        "texto": "Hola tenemos más de 100 cajas con comida, guantes, jeringas, pañales a donde podemos llevarlas"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:56 p. m.",
+        "punto": "Escuela Nacional del Deporte",
+        "texto": "Se están recibiendo todo tipo de insumos para ser repartidos al resto de la ciudad. Se necesitan manos para revisar fechas de vencimiento de los productos."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:54 p. m.",
+        "punto": "Hospital Carlos hommes",
+        "texto": "Se necesitan pañales para bebés y personas mayores y medicamentos"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:46 p. m.",
+        "punto": "Edificio CANTABRIA",
+        "texto": "Se necesitan voluntarios, maquinaria pesada, ayuda en general no se ha recibido casi nada de ayuda el dia de hoy"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:45 p. m.",
+        "punto": "notaría 20",
+        "texto": "Tienen suficiente equipos de rescate e insumos, no entra más gente"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:42 p. m.",
+        "punto": "Jairo Varela",
+        "texto": "Pidieron evacuar a los voluntarios. Mucha gente"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:40 p. m.",
+        "punto": "Santa Elena, Bajo Jordan",
+        "texto": "En Santa elena- bajo Jordan, comida tienen pero necesitan colchonetas, carpas, donde dormir, las torres están en riesgo de colapso, necesitan productos de aseo, pañales, toallas higiénicas,, Contacto: +57 322 9467002"
+      },
+      {
+        "contacto": "Mary",
+        "fecha": "11 de agosto de 2026, 5:36 p. m.",
+        "punto": "",
+        "texto": "En el sur de Cali, dónde se requieren apoyo en esta noche? Favor dejar datos de contacto para verificar la información."
+      },
+      {
+        "contacto": "MAR",
+        "fecha": "11 de agosto de 2026, 5:35 p. m.",
+        "punto": "MELENDEZ",
+        "texto": "n Meléndez ya no necesitan más comida preparada. Gracias a Dios y a todas las personas que han aportado, en este momento hay bastante comida.,, Ahora mismo, lo que más se necesita es:,, Colchonetas, gafas de protección, cascos, aceite, cepillos de dientes, cremas dentales, granos, sábanas, almohadas y pañales etapa 5.,, Si pueden aportar alguno de estos elementos, pueden llevarlos a la caseta comunal de Meléndez.,, Gracias a todos los que han respondido al llamado. Dios les multiplique cada ayuda.,, Carrera 92 # 2A-65"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:28 p. m.",
+        "punto": "ESCUELA NORMAL SUPERIOR",
+        "texto": "Escuela normal superior Full abasto de suministros y comida, redirigir a otro punto la ayuda"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:26 p. m.",
+        "punto": "Bajo Meléndez",
+        "texto": "Se necesitan alimentos, agua, cascos, guantes, tapabocas, personas y herramientas para remover escombros, insumos médicos."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:23 p. m.",
+        "punto": "Clínica Colombia",
+        "texto": "Se requiere evacuación, favor informar a secretaría de salud donde se pueden trasladar a los pacientes, la clínica Colombia por dentro está súper afectada,, Podría colapsar"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:23 p. m.",
+        "punto": "Reserva de Meléndez",
+        "texto": "Las personas de reservas de Meléndez necesitan albergues y dónde guardar sus cosas"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:23 p. m.",
+        "punto": "Viva al máximo",
+        "texto": "Tenemos disponibilidad de palas, gafas, guantes, linternas, tapabocas. Comida y refrigerios. Punto de acopio oeste. # de teléfono 3186592719, 3116166169"
+      },
+      {
+        "contacto": "Natalia Narváez",
+        "fecha": "11 de agosto de 2026, 5:23 p. m.",
+        "punto": "Universidad Santiago de Cali",
+        "texto": "En la 66 con tercera por la universidad Santiago no se necesitan más alimentos, solo porras y linternas"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:23 p. m.",
+        "punto": "Ana del pilar",
+        "texto": "Edificio ana del pilar no están dejando pasar, calle 5ta a la altura de la plaza de toros cerrada por wl ejército"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:23 p. m.",
+        "punto": "Clínica valle de lili",
+        "texto": "Ya no se aceptan donaciones de sangre en valle de Lili"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:20 p. m.",
+        "punto": "Notaria 20",
+        "texto": "No se necesita más ayuda en este lugar"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:19 p. m.",
+        "punto": "Chiminangos",
+        "texto": "Hay mucho desorden"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:18 p. m.",
+        "punto": "",
+        "texto": "Se tiene para donar catéter y medicamentos a donde se pueden llevar que los estén necesitando realmente"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:15 p. m.",
+        "punto": "",
+        "texto": "Vendas elásticas x 8 rollos, Gasas estériles x 5 paquetes"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:12 p. m.",
+        "punto": "Panaderia quinta pan",
+        "texto": "Se necesita presencia de bomberos en 5ta con 42 (Panaderia quinta pan) presencia de persona con vida atrapada"
+      },
+      {
+        "contacto": "Erika Sánchez",
+        "fecha": "11 de agosto de 2026, 5:07 p. m.",
+        "punto": "",
+        "texto": "Tenemos picas, palas, gafas, gorros dónde lo podemos dejar"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:05 p. m.",
+        "punto": "Meléndez y ladera",
+        "texto": "Se necesitan pañales etapa 2 y 5, elementos de aseo, alimentos no perecederos, agua, cobijas y colchonetas en sector de Meléndez, alto Jordan y Santa Elena"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 5:04 p. m.",
+        "punto": "",
+        "texto": "NO MÁS PERSONAL EN LA 56 CON 3RA NI EN LA 5TA CON 44!!"
+      },
+      {
+        "contacto": "Valentina Ceballos 3188299544",
+        "fecha": "11 de agosto de 2026, 5:00 p. m.",
+        "punto": "Edificio Cantabria",
+        "texto": "Insumos médicos hacen falta"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:57 p. m.",
+        "punto": "",
+        "texto": "@danielasan.a ofrece guantes, gafas, vendas, comida preparada, electrolitos, bocadillo etc. Requiere saber dónde llevar?"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:56 p. m.",
+        "punto": "Chiminangos",
+        "texto": "Se necesitan carpas, colchonetas y cobijas"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:56 p. m.",
+        "punto": "Panadería peter pan",
+        "texto": "Necesitamos ayuda para sacar escombros, insumos, herramientas, baldes"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:55 p. m.",
+        "punto": "Altos de jordan melendez",
+        "texto": "Guantes linternas hidratación, personal para ayudar"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:50 p. m.",
+        "punto": "Chiminangos 2",
+        "texto": "Cobijas, pañales para bebe, papel higiénico, productos de aseo"
+      },
+      {
+        "contacto": "Yuliana Obando",
+        "fecha": "11 de agosto de 2026, 4:49 p. m.",
+        "punto": "Centro de acopio - Acuaparque de la Caña",
+        "texto": "Se necesitan alimentos, productos de aseo y materiales en el Acuaparque de la Caña hasta las 8pm"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:48 p. m.",
+        "punto": "Chiminangos",
+        "texto": "En chiminangos está demasiado abastecido, de todo y no hay heridos, solo gente que no quiere entrar a sus casas por temor de las mismas edificaciones."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:45 p. m.",
+        "punto": "Hospital Carlos Holmes Trujillo",
+        "texto": "Se necesita de todo no hay nada de insumos, se necesitan con urgencia"
+      },
+      {
+        "contacto": "Contacto: 3224576729",
+        "fecha": "11 de agosto de 2026, 4:44 p. m.",
+        "punto": "",
+        "texto": "Tengo almuerzos disponibles, comida preparada, agua y jugo para los rescatistas o víctimas que lo requieran."
+      },
+      {
+        "contacto": "sofia",
+        "fecha": "11 de agosto de 2026, 4:42 p. m.",
+        "punto": "",
+        "texto": "Tengo gafas, guantes y agua para entregar necesito saber donde 311 6577005"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:36 p. m.",
+        "punto": "Panadería quinta pan",
+        "texto": "Se necesitan hidratación, guantes de construcción, palas, herramientas para poder sacar escombros, extensiones de energía, tapabocas, taladros, discos de corte"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:36 p. m.",
+        "punto": "Santa Helena",
+        "texto": "Se requiere atención de emergencias familia macroproyecto Santa Helena comuna 18."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:36 p. m.",
+        "punto": "",
+        "texto": "Tenemos voluntarios dispuestos ayudar, indiquen a qué sondas pueden ir. Ya sea armar kits, estar pendiente de las víctimas o demás."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:35 p. m.",
+        "punto": "Edificio de colores",
+        "texto": "Se necesita un megafono"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:33 p. m.",
+        "punto": "Antigua Licorera del Valle",
+        "texto": "Punto de acopio: Antigua Licorera del valle llegada factible a la escuela nacional del deporte."
+      },
+      {
+        "contacto": "Nathalia 3136548447",
+        "fecha": "11 de agosto de 2026, 4:31 p. m.",
+        "punto": "",
+        "texto": "Tengo tapabocas jugos croasantts ropa porfavor a donde puedo llevarlos"
+      },
+      {
+        "contacto": "Edgar Correa",
+        "fecha": "11 de agosto de 2026, 4:31 p. m.",
+        "punto": "Cra 56 con Cl 13",
+        "texto": "No están dejando pasar, ni siquiera a pie, muchas personas."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:30 p. m.",
+        "punto": "",
+        "texto": "Se necesita saber a donde necesitan comida y gatorade para voluntarios, por favor!"
+      },
+      {
+        "contacto": "Sur 3113425438",
+        "fecha": "11 de agosto de 2026, 4:28 p. m.",
+        "punto": "",
+        "texto": "Tenemos insumos de comida y aseo donde se requieren?"
+      },
+      {
+        "contacto": "3022971682",
+        "fecha": "11 de agosto de 2026, 4:27 p. m.",
+        "punto": "",
+        "texto": "Buenas tardes., Tengo guantes, tapabocas, linternas, extensiones, discos de corte y seguetas., Me pueden decir donde necesitan!!!!!"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:27 p. m.",
+        "punto": "Notaria 20",
+        "texto": "No se necesita más comida. Se necesitan implementos como Casco, tapabocas, herramientas para poder sacar escombros."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:26 p. m.",
+        "punto": "Edificio colores",
+        "texto": "Tengo bastantes discos de corte ¿A qué punto los llevo? 3158273443"
+      },
+      {
+        "contacto": "Esperanza Bedoya",
+        "fecha": "11 de agosto de 2026, 4:23 p. m.",
+        "punto": "",
+        "texto": "Necesitamos andamios de suma urgencia! Es para una empresa que necesita construir unas paredes que se cayeron en unas casas., 3176935866"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:22 p. m.",
+        "punto": "Clínica Uribe",
+        "texto": "Clínica Uribe Cali necesita donantes O"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:20 p. m.",
+        "punto": "Edificio gurumuani",
+        "texto": "Se necesita alambre 2 2, cinta aislante, destornilladores, herramientas, tijeras industriales"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:19 p. m.",
+        "punto": "44 con 9",
+        "texto": "La gente no está devolviendo los cascos, guantes y demás elementos que se les entregan. Se van con ellos y, cuando llegan nuevas personas a ayudar, se quedan sin herramientas ni elementos de protección para poder realizar su labor."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:15 p. m.",
+        "punto": "Calle 5",
+        "texto": "Volqueta para escombros"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:14 p. m.",
+        "punto": "Chiminangos",
+        "texto": "Chiminangos necesita personal de apoyo, está solo con las mismas personas, necesitan relevo, personal médico, cobijas, colchonetas"
+      },
+      {
+        "contacto": "Sofia. 3104714137",
+        "fecha": "11 de agosto de 2026, 4:14 p. m.",
+        "punto": "",
+        "texto": "Tenemos: picas, palas, tapabocas, guantes de carnaza, sándwiches, electrolitos, linternas. Donde necesitan?"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:13 p. m.",
+        "punto": "Chiminangos",
+        "texto": "Cobijas, Almohadas, Colchonetas, Agua, Pañales, Toallas higiénicas, Hielo, Hielera, Alimentos para perros y gatos"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:12 p. m.",
+        "punto": "Cra 56 con 3ra",
+        "texto": "Se necesita únicamente Electrolit"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:11 p. m.",
+        "punto": "Torres de limonar",
+        "texto": "¿Qué se necesita en Torres de Limona? Voy con un grupo de vecinos."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:11 p. m.",
+        "punto": "",
+        "texto": "De que medida se necesita los discos de corte y en dónde? 3158273443"
+      },
+      {
+        "contacto": "Viejitos",
+        "fecha": "11 de agosto de 2026, 4:10 p. m.",
+        "punto": "Hacienda alférez real 1",
+        "texto": "Se necesita alimentos, ensures y aseo personal"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:08 p. m.",
+        "punto": "Edificio Vanesa",
+        "texto": "Equipo de protección: cascos, guantes, gafas, tapabocas"
+      },
+      {
+        "contacto": "JUAN ORDÓÑEZ 3002571324",
+        "fecha": "11 de agosto de 2026, 4:08 p. m.",
+        "punto": "CERCA A SAN ANTONIO",
+        "texto": "TENEMOS ELEMENTOS DE PROTECCIÓN: CASCOS, GUANTES, GAFAS. LINTERNAS Y BATERIAS.,, EL PUNTO QUE LOS NECESITE POR FAVOR COMUNICARSE CON 3002571324"
+      },
+      {
+        "contacto": "3167336295, Diego Ospina",
+        "fecha": "11 de agosto de 2026, 4:07 p. m.",
+        "punto": "",
+        "texto": "Tenemos comida preparada, pañales y pañitos, comida para preparar y algun recurso para comprar algo especifico y urgente., Indicarnos cual es el punto ideal"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:07 p. m.",
+        "punto": "Edificio colores",
+        "texto": "Alguien sabe donde puedo ir a dejar más suministros"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 4:02 p. m.",
+        "punto": "Notaria 20 de cali, totalmente destruida",
+        "texto": "Se necesitan personas para mover escombros. Agua, comida. Profesionales rescatistas."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:53 p. m.",
+        "punto": "",
+        "texto": "Necesito actualización. Tengo guantes, gafas y lo que requieran pero necesito información para llevar eso"
+      },
+      {
+        "contacto": "Juan Trejos",
+        "fecha": "11 de agosto de 2026, 3:50 p. m.",
+        "punto": "Cuarto de Legua",
+        "texto": "Ya está muy lleno de gente, ambulancias, bomberos, de todo. Hay como 2000 personas en el sitio"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:48 p. m.",
+        "punto": "Poblado",
+        "texto": "En Poblado están necesitando baldes, hielo y extintores. Se puede ingresar pero se recomienda no quedarse en la zona mucho tiempo y hacer silencio. Preguntar qué se necesita."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:48 p. m.",
+        "punto": "Notaría 20",
+        "texto": "Se necesitan cascos y herramientas para remover escombros. Agua y alimento hay suficiente"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:46 p. m.",
+        "punto": "Cuarto de Legua",
+        "texto": "Se necesita ayuda de personas para levantar escombros. Además, se necesita agua y hielo para la protección solar de lxs voluntarixs."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:44 p. m.",
+        "punto": "Chiminangos",
+        "texto": "Se necesita un baño portátil en Chiminangos ( se necesitas manos para formar kits ) ya no más alimentos"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:40 p. m.",
+        "punto": "Altos de Meléndez",
+        "texto": "Se necesitan cascos, agua, insumos primeros auxilios, personas"
+      },
+      {
+        "contacto": "Stefania Rodriguez 3163075395",
+        "fecha": "11 de agosto de 2026, 3:36 p. m.",
+        "punto": "",
+        "texto": "Tenemos disponibles almuerzos para 50 personas si saben dónde se necesitan estamos atentos"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:24 p. m.",
+        "punto": "46 con 8va atras de palmetto",
+        "texto": "Se quiere apoyo con refelctores, linternas, pilas AA, hielo y neveras"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:16 p. m.",
+        "punto": "El Poblado, la Notaría 20",
+        "texto": "Notaría 20 está llena"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:16 p. m.",
+        "punto": "Clínica de colores",
+        "texto": "En la clínica de colores está la defensa civil y está lleno"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:16 p. m.",
+        "punto": "HUV lleno",
+        "texto": "Hospital Universitario del Valle está lleno HUV"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:16 p. m.",
+        "punto": "9na con 44 está llena",
+        "texto": "9na con 44 está llena"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:16 p. m.",
+        "punto": "Clínica Nuestra",
+        "texto": "La Clínica Nuestra está llena"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:11 p. m.",
+        "punto": "Chiminango",
+        "texto": "No agua, no manos.,, Se necesita comida no perecedera,, cobijas, colchonetas."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:07 p. m.",
+        "punto": "Capri",
+        "texto": "Capri, suficiente agua, manos, comidas y bebidas., Requieren cinceles y porras."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 3:00 p. m.",
+        "punto": "Notaria 20",
+        "texto": "Se necesitan personas para relevar, cascos, herramientas, NO se necesita mas comida."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 2:52 p. m.",
+        "punto": "Edificio de colores",
+        "texto": "Al lado del edificio de colores hay comida, agua y palas suficientes. Se necesitan guantes, cascos y seguramente en la noche más linternas"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 2:48 p. m.",
+        "punto": "Veterinaria Mi Cachorrito Barrio San Luis",
+        "texto": "Jeringas, gasas, agua oxigenada. Implementos de veterinaria"
+      },
+      {
+        "contacto": "Todo el barrio chiminangos",
+        "fecha": "11 de agosto de 2026, 2:47 p. m.",
+        "punto": "Chiminangos",
+        "texto": "Se necesita agua cobijas comida medicina para las personas que alojaron sus viviendas en el barrio chiminangos"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 2:47 p. m.",
+        "punto": "barrio melendez",
+        "texto": "organismos de emergencia y toda la ayuda posible"
+      },
+      {
+        "contacto": "Isabella Acosta",
+        "fecha": "11 de agosto de 2026, 2:30 p. m.",
+        "punto": "Pampalinda",
+        "texto": "Ya no están dejando entrar, hay suficientes manos y comida."
+      },
+      {
+        "contacto": "Dra Collazoz 320 8964337",
+        "fecha": "11 de agosto de 2026, 2:22 p. m.",
+        "punto": "Clínica Cali",
+        "texto": "Ya revisaron la estructura y está operando con normalidad."
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 2:19 p. m.",
+        "punto": "",
+        "texto": "La Cruz Roja también está colapsada. Confirma antes de desplazarte si siguen recibiendo personas, donaciones o insumos."
+      },
+      {
+        "contacto": "Leidy",
+        "fecha": "11 de agosto de 2026, 2:15 p. m.",
+        "punto": "",
+        "texto": "Disponible maquinaria pesada tel: 3244339670"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 1:25 p. m.",
+        "punto": "Cra 44",
+        "texto": "Se está llegando a los puntos críticos ayudar y dicen que ya hay mucha gente, entonces que es lo que pasa? Acepten la mano de obra..."
+      },
+      {
+        "contacto": "Sandra Gómez",
+        "fecha": "11 de agosto de 2026, 1:20 p. m.",
+        "punto": "calle 9 con Cra 72",
+        "texto": "Tubos orotraqueales 4-4.5-5.0-5.5, Mascara para dispositivo BVM, Dispositivo BV pediatrico, Hoja de laringo pediatrico"
+      },
+      {
+        "contacto": "",
+        "fecha": "11 de agosto de 2026, 12:00 p. m.",
+        "punto": "Edificio de Colores",
+        "texto": "Edificio de Colores: Se necesita nevera de icopor y hielo."
+      },
+      {
+        "contacto": "Catalina - LA RUTA STUDIO",
+        "fecha": "11 de agosto de 2026, 4:48 a. m.",
+        "punto": "Catalina - LA RUTA STUDIO",
+        "texto": "Si tienes donaciones fisicas y no sabes a donde llevarlas, puedes escribirme al 3158068465, estamos mapeando la información y enviando a los lugares prioritarios"
+      }
+    ],
+    "actualizado": "12 de agosto de 2026, 2:40 p. m.",
+    "albergues_contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
+    "alerta": "En varios puntos solo dejan pasar civiles con casco, guantes y zapatos de construcción, idealmente con certificación en uso de herramientas. Confirma antes de desplazarte; las condiciones cambian muy rápido.",
+    "conteo_por_arreglo": {
+      "ACTUALIZACIONES": 246,
+      "ALBERGUES": 11,
+      "ALTA_PRIORIDAD": 6,
+      "AYUDAS": 6,
+      "CLINICAS": 5,
+      "NECESIDADES_GENERALES": 29,
+      "NO_DESPLAZARSE": 9,
+      "PUNTOS": 9
+    },
+    "necesidades_generales": [
+      "Maquinaria amarilla y volquetas",
+      "Grúa pluma",
+      "Dispositivos Starlink",
+      "Puntales o andamios metálicos",
+      "Oxicorte",
+      "Pulidoras inalámbricas",
+      "Rotomartillos inalámbricos",
+      "Porras grandes",
+      "Cinceles",
+      "Seguetas",
+      "Gatos hidráulicos",
+      "Guantes de construcción",
+      "Cascos de construcción",
+      "Botas de seguridad (punta de acero)",
+      "Gafas de seguridad",
+      "Tapabocas N95",
+      "Arneses",
+      "Reflectores",
+      "Pitos",
+      "Cámaras y scanner de búsqueda (leader scan)",
+      "Equipos de búsqueda canina",
+      "Linternas y pilas AA/AAA",
+      "Linternas de cabeza / tipo topo",
+      "Reflectores portátiles",
+      "Maquinaria pesada (retroexcavadora)",
+      "Escaleras altas",
+      "Discos diamantados (concreto y hierro)",
+      "Gasolina y ACPM para maquinaria",
+      "Cizallas y elementos para cortar"
+    ],
+    "no_desplazarse": [
+      {
+        "nota": "Por el momento NO venir personas, NO traer donaciones y absoluto silencio: están con maquinaria especializada",
+        "sector": "Conjunto Ariguaní (Calle 3D con Carrera 67)"
+      },
+      {
+        "nota": "Solo civiles voluntarios; no más insumos, necesitan SILENCIO",
+        "sector": "Torres de Limonar (Capri)"
+      },
+      {
+        "nota": "Están dispersando la ayuda a otras zonas; dirige tus donaciones a otros puntos",
+        "sector": "Capri"
+      },
+      {
+        "nota": "Suficientes manos y mucha saturación; no se necesita más ayuda",
+        "sector": "Edificio de Colores"
+      },
+      {
+        "nota": "Cerrado por riesgo de caída del edificio contiguo",
+        "sector": "La 56 con Calle 5 (Guadalupe)"
+      },
+      {
+        "nota": "Suficiente mano de obra; solo requieren bebidas, baterías, hielo y gasolina",
+        "sector": "Pampalinda"
+      },
+      {
+        "nota": "Suficientes equipos e insumos; no entra más gente",
+        "sector": "Notaría 20"
+      },
+      {
+        "nota": "Reportado lleno; confirma antes de llevar donaciones",
+        "sector": "HUV"
+      },
+      {
+        "nota": "Colapsada; confirma si reciben personas, donaciones o insumos",
+        "sector": "Cruz Roja"
+      }
+    ],
+    "nota_no_desplazarse": "En algunos puntos solo dejan entrar con casco de seguridad. Las condiciones cambian rápido: confirma que el punto sigue necesitando apoyo antes de movilizarte, y no difundas información falsa."
+  }
+}

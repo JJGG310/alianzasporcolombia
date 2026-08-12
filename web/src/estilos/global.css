@@ -1,0 +1,335 @@
+/* Alianzas por Colombia — base.
+   Porta la identidad del index.html original: mismos colores, misma tipografía
+   de sistema, mismas tarjetas. Mobile-first: la mayoría entra por WhatsApp
+   desde un celular con mala red. */
+
+:root {
+  --rojo: #c0182b;
+  --rojo-osc: #8f1120;
+  --rojo-tenue: #fde2e4;
+  --tinta: #1b1b1f;
+  --gris: #5c5c66;
+  --gris-claro: #7a7a85;
+  --fondo: #f7f6f4;
+  --carta: #ffffff;
+  --borde: #e3e1dc;
+  --azul: #0b57d0;
+  --verde: #1d6b2f;
+  --verde-tenue: #dcefdc;
+  --ambar-fondo: #fff3cd;
+  --ambar-borde: #e8d9a0;
+  --ambar-texto: #5c4a00;
+  --radio: 8px;
+  --ancho-texto: 760px;
+  --ancho-ancho: 1120px;
+  --sombra: 0 1px 2px rgba(27, 27, 31, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  background: var(--fondo);
+  color: var(--tinta);
+  line-height: 1.5;
+}
+
+a {
+  color: var(--azul);
+}
+
+/* Foco visible siempre: el sitio se navega con teclado y lector de pantalla. */
+:focus-visible {
+  outline: 3px solid var(--azul);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ---------- Estructura ---------- */
+
+.saltar {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--carta);
+  color: var(--tinta);
+  padding: 0.6rem 1rem;
+  z-index: 1200;
+  border-radius: 0 0 var(--radio) 0;
+}
+.saltar:focus {
+  left: 0;
+}
+
+.encabezado {
+  background: var(--rojo);
+  color: #fff;
+  padding: 1.25rem 1rem;
+}
+.encabezado .wrap {
+  max-width: var(--ancho-ancho);
+  margin: 0 auto;
+}
+.encabezado h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: -0.01em;
+}
+.encabezado p {
+  margin: 0.35rem 0 0;
+  opacity: 0.92;
+  font-size: 0.95rem;
+  max-width: 62ch;
+}
+
+.aviso {
+  background: var(--ambar-fondo);
+  border-bottom: 1px solid var(--ambar-borde);
+  color: var(--ambar-texto);
+  font-size: 0.9rem;
+  padding: 0.6rem 1rem;
+  text-align: center;
+}
+.aviso a {
+  color: inherit;
+}
+
+main {
+  max-width: var(--ancho-texto);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* La sección de ayuda (mapa + tabla) necesita más aire que el resto del texto. */
+main > .ancha {
+  max-width: var(--ancho-ancho);
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 800px) {
+  main {
+    max-width: var(--ancho-ancho);
+  }
+  /* Medida de lectura corta, pero alineada a la izquierda con el resto:
+     centrarla dejaba el borde izquierdo dentado contra el encabezado. */
+  main > section:not(.ancha),
+  main > .columna-texto {
+    max-width: var(--ancho-texto);
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+
+section {
+  margin: 1.75rem 0;
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin: 0 0 0.25rem;
+  border-bottom: 2px solid var(--rojo);
+  padding-bottom: 0.3rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 1.25rem 0 0.35rem;
+}
+
+.desc {
+  margin: 0.25rem 0 0.75rem;
+  color: var(--gris);
+  font-size: 0.9rem;
+}
+
+.meta {
+  font-size: 0.8rem;
+  color: var(--gris);
+}
+
+.pie {
+  max-width: var(--ancho-ancho);
+  margin: 2rem auto 0;
+  padding: 1rem;
+  border-top: 1px solid var(--borde);
+  font-size: 0.85rem;
+  color: var(--gris);
+}
+.pie p {
+  margin: 0 0 0.6rem;
+  max-width: 80ch;
+}
+.pie ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* ---------- Líneas de emergencia ---------- */
+
+.lineas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.6rem;
+  margin: 0.5rem 0 1rem;
+  padding: 0;
+  list-style: none;
+}
+.lineas a {
+  display: block;
+  background: var(--carta);
+  border: 1px solid var(--borde);
+  border-left: 4px solid var(--rojo);
+  border-radius: var(--radio);
+  padding: 0.6rem 0.8rem;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: var(--sombra);
+}
+.lineas a:hover {
+  border-color: var(--rojo);
+}
+.lineas strong {
+  display: block;
+  font-size: 1.3rem;
+  color: var(--rojo);
+}
+.lineas span {
+  font-size: 0.85rem;
+  color: var(--gris);
+}
+
+/* ---------- Directorio de recursos ---------- */
+
+ul.recursos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.recursos li {
+  background: var(--carta);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: 0.7rem 0.9rem;
+  margin: 0.5rem 0;
+  box-shadow: var(--sombra);
+}
+ul.recursos a {
+  color: var(--azul);
+  font-weight: 600;
+  text-decoration: none;
+  word-break: break-word;
+}
+ul.recursos a:hover {
+  text-decoration: underline;
+}
+ul.recursos p {
+  margin: 0.25rem 0 0;
+  font-size: 0.9rem;
+  color: var(--gris);
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background: #eee;
+  border-radius: 99px;
+  padding: 0.1rem 0.55rem;
+  margin-left: 0.4rem;
+  color: var(--gris);
+  vertical-align: middle;
+}
+.badge.oficial {
+  background: var(--verde-tenue);
+  color: var(--verde);
+}
+.badge.en-vivo {
+  background: var(--rojo-tenue);
+  color: var(--rojo);
+}
+.badge.datos {
+  background: #e3ecfb;
+  color: var(--azul);
+}
+.badge.ciudadano {
+  background: #f0ecff;
+  color: #4b2fa8;
+}
+
+/* ---------- Botones ---------- */
+
+.boton {
+  font: inherit;
+  font-size: 0.85rem;
+  border: 1px solid var(--borde);
+  background: var(--carta);
+  color: var(--tinta);
+  border-radius: 6px;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  text-decoration: none;
+  line-height: 1.3;
+}
+.boton:hover {
+  border-color: var(--gris-claro);
+  background: #fafafa;
+}
+.boton-wa {
+  border-color: #b7e0c2;
+  color: #10632c;
+  background: #eefaf1;
+}
+.boton-wa:hover {
+  background: #dff4e6;
+  border-color: #7cc794;
+}
+
+.cargando,
+.error {
+  background: var(--carta);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: 1rem;
+  color: var(--gris);
+  font-size: 0.95rem;
+}
+.error {
+  border-color: var(--rojo);
+  color: var(--rojo-osc);
+  background: #fff7f7;
+}
+
+.sr-solo {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

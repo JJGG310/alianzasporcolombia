@@ -1,0 +1,2128 @@
+{
+  "fuente": "haciendo-comunidad",
+  "url": "https://personnofound.github.io/HaciendoComunidad/",
+  "mecanismo": "API REST de Firestore con lectura anónima (colecciones reportes_ayuda y comunidad_servicios; la colección desaparecidos se omite a propósito)",
+  "ok": true,
+  "nota": "No se leyó la colección 'desaparecidos' por política de datos personales.",
+  "duracion": "1.50318375s",
+  "obtenido": "2026-08-12T20:06:20Z",
+  "total": 38,
+  "puntos": [
+    {
+      "id": "haciendo-comunidad-592e060967",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "agua",
+      "nombre": "Alto Jordán",
+      "descripcion": "Sin servicio de acueducto",
+      "departamento": "Valle del Cauca",
+      "barrio": "Alto Jordán",
+      "lat": 3.3758903,
+      "lon": -76.5570688,
+      "necesita": [
+        "Agua"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T18:46:14.435Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/0jaJLfkuq3I91G23EN5e",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Sin servicio de acueducto"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.3758903
+          },
+          "lng": {
+            "doubleValue": -76.5570688
+          },
+          "localidad": {
+            "stringValue": "Alto Jordán"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "6"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T18:46:14.435Z"
+          },
+          "tipo": {
+            "stringValue": "agua"
+          }
+        },
+        "createTime": "2026-08-12T18:46:14.451226Z",
+        "updateTime": "2026-08-12T19:43:43.750560Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-67d1b12a68",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Edificio Cantabria",
+      "descripcion": "Edificio derrumbado",
+      "departamento": "Valle del Cauca",
+      "barrio": "Edificio Cantabria",
+      "lat": 3.4147257686667083,
+      "lon": -76.54172524809837,
+      "necesita": [
+        "Colapso de infraestructura"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T02:23:22.692Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/1cTmsXTRPzCFkBtoOt43",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Edificio derrumbado"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4147257686667083
+          },
+          "lng": {
+            "doubleValue": -76.541725248098373
+          },
+          "localidad": {
+            "stringValue": "Edificio Cantabria"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T02:23:22.692Z"
+          },
+          "tipo": {
+            "stringValue": "colapso"
+          }
+        },
+        "createTime": "2026-08-12T02:23:22.710179Z",
+        "updateTime": "2026-08-12T02:57:43.628683Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-0b02ea05e3",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "otro",
+      "nombre": "Carrera 1b # 57-102 torres de comfandi,conjunto h torre10 apto 102o H torre",
+      "descripcion": "Señor con proceso de cáncer en la próstata , sin una pierna, está en sillas de ruedas,están sin alimentos , no pueden entrar al apartamento por qué se averió y hay fuga de gas, están en el parqueadero, necesita pañales y un médico.",
+      "departamento": "Valle del Cauca",
+      "barrio": "Carrera 1b # 57-102 torres de comfandi,conjunto h torre10 apto 102o H torre",
+      "lat": 3.4051135398309214,
+      "lon": -76.57283019740136,
+      "necesita": [
+        "Otro"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T15:06:44.388Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/2IxSCewwAuYmy6zqXhjE",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Señor con proceso de cáncer en la próstata , sin una pierna, está en sillas de ruedas,están sin alimentos , no pueden entrar al apartamento por qué se averió y hay fuga de gas, están en el parqueadero, necesita pañales y un médico."
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4051135398309214
+          },
+          "lng": {
+            "doubleValue": -76.572830197401359
+          },
+          "localidad": {
+            "stringValue": "Carrera 1b # 57-102 torres de comfandi,conjunto h torre10 apto 102o H torre"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T15:06:44.388Z"
+          },
+          "tipo": {
+            "stringValue": "otro"
+          }
+        },
+        "createTime": "2026-08-12T15:06:44.423782Z",
+        "updateTime": "2026-08-12T15:06:44.423782Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-b40e93a48a",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Apartahotel Molino Rojo",
+      "descripcion": "Colapso del lugar",
+      "departamento": "Valle del Cauca",
+      "barrio": "Apartahotel Molino Rojo",
+      "lat": 3.4214595239773224,
+      "lon": -76.53477028012277,
+      "necesita": [
+        "Colapso de infraestructura"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T02:25:21.768Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/BCkQwKwNt4zzQjO7MlTp",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Colapso del lugar"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4214595239773224
+          },
+          "lng": {
+            "doubleValue": -76.534770280122771
+          },
+          "localidad": {
+            "stringValue": "Apartahotel Molino Rojo"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T02:25:21.768Z"
+          },
+          "tipo": {
+            "stringValue": "colapso"
+          }
+        },
+        "createTime": "2026-08-12T02:25:21.790274Z",
+        "updateTime": "2026-08-12T02:58:17.922447Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-91ed92eed5",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Torres del Limonar",
+      "descripcion": "Colapso total del edificio",
+      "departamento": "Valle del Cauca",
+      "barrio": "Torres del Limonar",
+      "lat": 3.3928624930114317,
+      "lon": -76.54350489377977,
+      "necesita": [
+        "Rescate de personas atrapadas"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T00:43:09.555Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/BOWZqgPLF5zUrtjZWHBu",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Colapso total del edificio"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.3928624930114317
+          },
+          "lng": {
+            "doubleValue": -76.543504893779769
+          },
+          "localidad": {
+            "stringValue": "Torres del Limonar"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T00:43:09.555Z"
+          },
+          "tipo": {
+            "stringValue": "rescate"
+          }
+        },
+        "createTime": "2026-08-12T00:43:09.582930Z",
+        "updateTime": "2026-08-12T02:10:45.305167Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-c780a2ac84",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Hospital Universitario",
+      "descripcion": "Caída Parcial del edificio",
+      "departamento": "Valle del Cauca",
+      "barrio": "Hospital Universitario",
+      "lat": 3.430225718123678,
+      "lon": -76.54499351978303,
+      "necesita": [
+        "Colapso de infraestructura"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T02:03:27.12Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/IUPcLglH3TdeiJz4UClR",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Caída Parcial del edificio"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4302257181236779
+          },
+          "lng": {
+            "doubleValue": -76.544993519783034
+          },
+          "localidad": {
+            "stringValue": "Hospital Universitario"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T02:03:27.120Z"
+          },
+          "tipo": {
+            "stringValue": "colapso"
+          }
+        },
+        "createTime": "2026-08-12T02:03:27.201331Z",
+        "updateTime": "2026-08-12T02:58:42.679478Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-d76d67907e",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Edificio Vanessa",
+      "descripcion": "Caída parcial del edificio",
+      "departamento": "Valle del Cauca",
+      "barrio": "Edificio Vanessa",
+      "lat": 3.4018341101260616,
+      "lon": -76.5402513742447,
+      "necesita": [
+        "Colapso de infraestructura"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T03:13:42.144Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/IhR4Rfs3mx9MDXWr7Zv8",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Caída parcial del edificio"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4018341101260616
+          },
+          "lng": {
+            "doubleValue": -76.5402513742447
+          },
+          "localidad": {
+            "stringValue": "Edificio Vanessa"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T03:13:42.144Z"
+          },
+          "tipo": {
+            "stringValue": "colapso"
+          }
+        },
+        "createTime": "2026-08-12T03:13:42.164861Z",
+        "updateTime": "2026-08-12T03:13:42.164861Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-38acd1eb96",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "albergue",
+      "nombre": "Reservas de Meléndez etapa 1 - Comuna 18",
+      "descripcion": "Varias personas han perdido sus viviendas a causa del terremoto y se encuentran durmiendo en carpas. Necesitan linternas, cobijas y ropa (para hombre, mujer, niños y bebés). Entre otros implementos de aseo.",
+      "departamento": "Valle del Cauca",
+      "barrio": "Reservas de Meléndez etapa 1 - Comuna 18",
+      "lat": 3.37467607660152,
+      "lon": -76.55172765276804,
+      "necesita": [
+        "Refugio o techo"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T01:17:59.708Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/IlFkZMnKTD5YNQyyLbnT",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Varias personas han perdido sus viviendas a causa del terremoto y se encuentran durmiendo en carpas. Necesitan linternas, cobijas y ropa (para hombre, mujer, niños y bebés). Entre otros implementos de aseo."
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.37467607660152
+          },
+          "lng": {
+            "doubleValue": -76.551727652768037
+          },
+          "localidad": {
+            "stringValue": "Reservas de Meléndez etapa 1 - Comuna 18"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T01:17:59.708Z"
+          },
+          "tipo": {
+            "stringValue": "refugio"
+          }
+        },
+        "createTime": "2026-08-12T01:17:59.747060Z",
+        "updateTime": "2026-08-12T01:17:59.747060Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-cbac4baf1b",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "acopio",
+      "nombre": "Barrio San Fernando, Restaurante amasa",
+      "descripcion": "Centro de acopio, miércoles 12, de 9am a 8pm",
+      "departamento": "Valle del Cauca",
+      "barrio": "Barrio San Fernando, Restaurante amasa",
+      "lat": 3.436244502403138,
+      "lon": -76.54251515865327,
+      "necesita": [
+        "Alimentos"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T15:42:17.017Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/MwbAMbUWkRgEI7RUQhOT",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Centro de acopio, miércoles 12, de 9am a 8pm"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4362445024031381
+          },
+          "lng": {
+            "doubleValue": -76.542515158653273
+          },
+          "localidad": {
+            "stringValue": "Barrio San Fernando, Restaurante amasa"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "1"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T15:42:17.017Z"
+          },
+          "tipo": {
+            "stringValue": "alimentos"
+          }
+        },
+        "createTime": "2026-08-12T15:42:17.039041Z",
+        "updateTime": "2026-08-12T16:16:39.734164Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-928bedbe0e",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Conjunto Residencial Guadalupe",
+      "descripcion": "Daños en la infraestructura",
+      "departamento": "Valle del Cauca",
+      "barrio": "Conjunto Residencial Guadalupe",
+      "lat": 3.409684457620054,
+      "lon": -76.5497785806656,
+      "necesita": [
+        "Colapso de infraestructura"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T03:15:34.532Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/QMySpMasXpzTGVDVaIMz",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Daños en la infraestructura"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4096844576200538
+          },
+          "lng": {
+            "doubleValue": -76.5497785806656
+          },
+          "localidad": {
+            "stringValue": "Conjunto Residencial Guadalupe"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T03:15:34.532Z"
+          },
+          "tipo": {
+            "stringValue": "colapso"
+          }
+        },
+        "createTime": "2026-08-12T03:15:34.551636Z",
+        "updateTime": "2026-08-12T03:15:34.551636Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-e83dd69de0",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "acopio",
+      "nombre": "Escuela Nacional del Deporte",
+      "descripcion": "Centro de Acopio",
+      "departamento": "Valle del Cauca",
+      "barrio": "Escuela Nacional del Deporte",
+      "lat": 3.426413087830323,
+      "lon": -76.53694689273836,
+      "necesita": [
+        "Alimentos"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T00:40:21.093Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/RZ6e5eGX3LrDSWhZxDK3",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Centro de Acopio"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4264130878303232
+          },
+          "lng": {
+            "doubleValue": -76.536946892738356
+          },
+          "localidad": {
+            "stringValue": "Escuela Nacional del Deporte"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "2"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T00:40:21.093Z"
+          },
+          "tipo": {
+            "stringValue": "alimentos"
+          }
+        },
+        "createTime": "2026-08-12T00:40:21.109334Z",
+        "updateTime": "2026-08-12T00:42:00.497924Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-19d77f55a7",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Bajo jordan",
+      "descripcion": "Caída parcial del edificio",
+      "departamento": "Valle del Cauca",
+      "barrio": "Bajo jordan",
+      "lat": 3.377236432170557,
+      "lon": -76.55419081449509,
+      "necesita": [
+        "Colapso de infraestructura"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T02:29:37.196Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/So268Nuwi2Cy0H8Lftfz",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Caída parcial del edificio"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.377236432170557
+          },
+          "lng": {
+            "doubleValue": -76.554190814495087
+          },
+          "localidad": {
+            "stringValue": "Bajo jordan"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T02:29:37.196Z"
+          },
+          "tipo": {
+            "stringValue": "colapso"
+          }
+        },
+        "createTime": "2026-08-12T02:29:37.221808Z",
+        "updateTime": "2026-08-12T02:59:04.420813Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-e7d2453fd2",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Los cambulos",
+      "descripcion": "Colapso del edificio",
+      "departamento": "Valle del Cauca",
+      "barrio": "Los cambulos",
+      "lat": 3.420222886076343,
+      "lon": -76.54060542583467,
+      "necesita": [
+        "Colapso de infraestructura"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T03:09:59.942Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/UgGqPdoP3WM5b4flJM27",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Colapso del edificio"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4202228860763428
+          },
+          "lng": {
+            "doubleValue": -76.54060542583467
+          },
+          "localidad": {
+            "stringValue": "Los cambulos"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T03:09:59.942Z"
+          },
+          "tipo": {
+            "stringValue": "colapso"
+          }
+        },
+        "createTime": "2026-08-12T03:09:59.957231Z",
+        "updateTime": "2026-08-12T03:09:59.957231Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-57156e3cb6",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Barrio tequendama",
+      "descripcion": "Enfrente de la clínica de los colores colapso de edificación en su totalidad rescate de personas se necesitan cascos de construcción linternas gasolina aceite dos tiempos cinta amarilla peligro pilas AAA para las lámparas de cabeza reflectores planta energía discos de corte de concreto y hierro",
+      "departamento": "Valle del Cauca",
+      "barrio": "Barrio tequendama",
+      "lat": 3.422528660915573,
+      "lon": -76.54309767653105,
+      "necesita": [
+        "Rescate de personas atrapadas"
+      ],
+      "estado": "activo",
+      "contacto": "316 2 11 41 34",
+      "verificado": false,
+      "creado": "2026-08-12T17:02:36.021Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/VBLFS31Y9SOD46ELFJ4H",
+        "fields": {
+          "contacto": {
+            "stringValue": "316 2 11 41 34"
+          },
+          "descripcion": {
+            "stringValue": "Enfrente de la clínica de los colores colapso de edificación en su totalidad rescate de personas se necesitan cascos de construcción linternas gasolina aceite dos tiempos cinta amarilla peligro pilas AAA para las lámparas de cabeza reflectores planta energía discos de corte de concreto y hierro"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4225286609155732
+          },
+          "lng": {
+            "doubleValue": -76.543097676531048
+          },
+          "localidad": {
+            "stringValue": "Barrio tequendama"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "2"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T17:02:36.021Z"
+          },
+          "tipo": {
+            "stringValue": "rescate"
+          }
+        },
+        "createTime": "2026-08-12T17:02:36.037845Z",
+        "updateTime": "2026-08-12T19:40:10.984062Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-8f1213512f",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Notaria 20",
+      "descripcion": "Colapso total del edificio",
+      "departamento": "Valle del Cauca",
+      "barrio": "Notaria 20",
+      "lat": 3.420833340276123,
+      "lon": -76.4902549982071,
+      "necesita": [
+        "Rescate de personas atrapadas"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T00:45:55.778Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/VsRt0ekATFL5j7ELKxOw",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Colapso total del edificio"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4208333402761228
+          },
+          "lng": {
+            "doubleValue": -76.4902549982071
+          },
+          "localidad": {
+            "stringValue": "Notaria 20"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T00:45:55.778Z"
+          },
+          "tipo": {
+            "stringValue": "rescate"
+          }
+        },
+        "createTime": "2026-08-12T00:45:55.794708Z",
+        "updateTime": "2026-08-12T02:11:06.137181Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-050c0caefc",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Antonio Nariño",
+      "descripcion": "Caída del edificio",
+      "departamento": "Valle del Cauca",
+      "barrio": "Antonio Nariño",
+      "lat": 3.4163118199601232,
+      "lon": -76.50420516729356,
+      "necesita": [
+        "Colapso de infraestructura"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T02:48:19.961Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/YqB6zW4XRaADF12UqbMk",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Caída del edificio"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4163118199601232
+          },
+          "lng": {
+            "doubleValue": -76.504205167293563
+          },
+          "localidad": {
+            "stringValue": "Antonio Nariño"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "3"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T02:48:19.961Z"
+          },
+          "tipo": {
+            "stringValue": "colapso"
+          }
+        },
+        "createTime": "2026-08-12T02:48:19.980581Z",
+        "updateTime": "2026-08-12T02:54:56.909890Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-dd2d99746c",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Alameda",
+      "descripcion": "Colapso en la alameda",
+      "departamento": "Valle del Cauca",
+      "barrio": "Alameda",
+      "lat": 3.4335811682643853,
+      "lon": -76.53428345918657,
+      "necesita": [
+        "Colapso de infraestructura"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T03:07:48.133Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/cnRaudkU1bclI1k0zlfy",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Colapso en la alameda"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4335811682643853
+          },
+          "lng": {
+            "doubleValue": -76.534283459186568
+          },
+          "localidad": {
+            "stringValue": "Alameda"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T03:07:48.133Z"
+          },
+          "tipo": {
+            "stringValue": "colapso"
+          }
+        },
+        "createTime": "2026-08-12T03:07:48.149945Z",
+        "updateTime": "2026-08-12T03:07:48.149945Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-9c10176c9d",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "acopio",
+      "nombre": "Plazoleta Jairo Varela",
+      "descripcion": "Centro de Acopio",
+      "departamento": "Valle del Cauca",
+      "barrio": "Plazoleta Jairo Varela",
+      "lat": 3.455007443607486,
+      "lon": -76.53482258319856,
+      "necesita": [
+        "Alimentos"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T00:38:53.662Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/gwAweYQm6y997ceAwnFu",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Centro de Acopio"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.455007443607486
+          },
+          "lng": {
+            "doubleValue": -76.534822583198562
+          },
+          "localidad": {
+            "stringValue": "Plazoleta Jairo Varela"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "1"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T00:38:53.662Z"
+          },
+          "tipo": {
+            "stringValue": "alimentos"
+          }
+        },
+        "createTime": "2026-08-12T00:38:53.682875Z",
+        "updateTime": "2026-08-12T00:41:59.181641Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-28d1ea43a2",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Conjunto Residencial Ariguani",
+      "descripcion": "Se cayó parte del edificio.",
+      "departamento": "Valle del Cauca",
+      "barrio": "Conjunto Residencial Ariguani",
+      "lat": 3.3961129818435403,
+      "lon": -76.54795736074449,
+      "necesita": [
+        "Colapso de infraestructura"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T03:04:29.065Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/j5s7TVzbJqFxc2h0Nd70",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Se cayó parte del edificio."
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.3961129818435403
+          },
+          "lng": {
+            "doubleValue": -76.547957360744491
+          },
+          "localidad": {
+            "stringValue": "Conjunto Residencial Ariguani"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T03:04:29.065Z"
+          },
+          "tipo": {
+            "stringValue": "colapso"
+          }
+        },
+        "createTime": "2026-08-12T03:04:29.090590Z",
+        "updateTime": "2026-08-12T03:04:29.090590Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-41563e8124",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "FRENTE A PALMETTO",
+      "descripcion": "CARRERA 46 #8B. SE requieren: implementos de aseo personal (cepillo de dientes, crema dental, desodorante)",
+      "departamento": "Valle del Cauca",
+      "barrio": "FRENTE A PALMETTO",
+      "lat": 3.4132632345758496,
+      "lon": -76.54115939138138,
+      "necesita": [
+        "Rescate de personas atrapadas"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T03:42:54.792Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/jBqXSz9GZhs7nG0Wd1ap",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "CARRERA 46 #8B. \n\nSE requieren: implementos de aseo personal (cepillo de dientes, crema dental, desodorante)"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4132632345758496
+          },
+          "lng": {
+            "doubleValue": -76.541159391381385
+          },
+          "localidad": {
+            "stringValue": "FRENTE A PALMETTO"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T03:42:54.792Z"
+          },
+          "tipo": {
+            "stringValue": "rescate"
+          }
+        },
+        "createTime": "2026-08-12T03:42:54.825054Z",
+        "updateTime": "2026-08-12T03:42:54.825054Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-9afe0cecb8",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Cerca a las canchas panamericanas",
+      "descripcion": "Colapso total del edificio",
+      "departamento": "Valle del Cauca",
+      "barrio": "Cerca a las canchas panamericanas",
+      "lat": 3.4223005707098153,
+      "lon": -76.53851330280305,
+      "necesita": [
+        "Colapso de infraestructura"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T14:56:03.49Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/lLftWKRnjiK2begw4fFX",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Colapso total del edificio"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4223005707098153
+          },
+          "lng": {
+            "doubleValue": -76.538513302803054
+          },
+          "localidad": {
+            "stringValue": "Cerca a las canchas panamericanas"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "1"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T14:56:03.490Z"
+          },
+          "tipo": {
+            "stringValue": "colapso"
+          }
+        },
+        "createTime": "2026-08-12T14:56:03.507475Z",
+        "updateTime": "2026-08-12T17:46:02.779799Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-2bb91e771b",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Tequendama, Cali",
+      "descripcion": "Colapso total del edificio",
+      "departamento": "Valle del Cauca",
+      "barrio": "Tequendama, Cali",
+      "lat": 3.42004952236759,
+      "lon": -76.54793053865434,
+      "necesita": [
+        "Rescate de personas atrapadas"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T02:13:29.132Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/oZfYEjA9DgihFwUTArNV",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Colapso total del edificio"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.42004952236759
+          },
+          "lng": {
+            "doubleValue": -76.547930538654342
+          },
+          "localidad": {
+            "stringValue": "Tequendama, Cali"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T02:13:29.132Z"
+          },
+          "tipo": {
+            "stringValue": "rescate"
+          }
+        },
+        "createTime": "2026-08-12T02:13:29.150548Z",
+        "updateTime": "2026-08-12T02:13:29.150548Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-5942db6874",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "acopio",
+      "nombre": "Autopista con 39",
+      "descripcion": "Centro de acopio de tropicana",
+      "departamento": "Valle del Cauca",
+      "barrio": "Autopista con 39",
+      "lat": 3.421193454523058,
+      "lon": -76.53560400009157,
+      "necesita": [
+        "Alimentos"
+      ],
+      "estado": "activo",
+      "contacto": "3112222931",
+      "verificado": false,
+      "creado": "2026-08-12T13:31:57.658Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/sleftvvCEYFXyMQji8Oi",
+        "fields": {
+          "contacto": {
+            "stringValue": "3112222931"
+          },
+          "descripcion": {
+            "stringValue": "Centro de acopio de tropicana"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.421193454523058
+          },
+          "lng": {
+            "doubleValue": -76.535604000091567
+          },
+          "localidad": {
+            "stringValue": "Autopista con 39"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T13:31:57.658Z"
+          },
+          "tipo": {
+            "stringValue": "alimentos"
+          }
+        },
+        "createTime": "2026-08-12T13:31:57.687315Z",
+        "updateTime": "2026-08-12T13:31:57.687315Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-ec19c6422a",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "albergue",
+      "nombre": "Vallegrande apartamentos blancos",
+      "descripcion": "Más de 200 personas entre ellas niñ@s, adultos mayores en inmediaciones de los apartamentos de río Cauca y vallegrande se encuentran durmiendo en calles y andenes del sector debido a posibles derrumbes de sus viviendas; se está solicitando ayuda con alimentos, agua, cobijas, colchonetas etc",
+      "departamento": "Valle del Cauca",
+      "barrio": "Vallegrande apartamentos blancos",
+      "lat": 3.4332147802997985,
+      "lon": -76.46752288860716,
+      "necesita": [
+        "Refugio o techo"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T04:50:21.005Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/vx2IblwjAAqU8Xa6dRiZ",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Más de 200 personas entre ellas niñ@s, adultos mayores en inmediaciones de los apartamentos de río Cauca y vallegrande se encuentran durmiendo en calles y andenes del sector debido a posibles derrumbes de sus viviendas; se está solicitando ayuda con alimentos, agua, cobijas, colchonetas etc"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4332147802997985
+          },
+          "lng": {
+            "doubleValue": -76.467522888607164
+          },
+          "localidad": {
+            "stringValue": "Vallegrande apartamentos blancos"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T04:50:21.005Z"
+          },
+          "tipo": {
+            "stringValue": "refugio"
+          }
+        },
+        "createTime": "2026-08-12T04:50:21.019357Z",
+        "updateTime": "2026-08-12T04:50:21.019357Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-303080aede",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Nueva Granada, Cali",
+      "descripcion": "Colapso edificio",
+      "departamento": "Valle del Cauca",
+      "barrio": "Nueva Granada, Cali",
+      "lat": 3.4233608307196444,
+      "lon": -76.54860913753511,
+      "necesita": [
+        "Colapso de infraestructura"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T03:11:45.604Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/x0ukzFze9gYZCVZLvVhG",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Colapso edificio"
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4233608307196444
+          },
+          "lng": {
+            "doubleValue": -76.548609137535109
+          },
+          "localidad": {
+            "stringValue": "Nueva Granada, Cali"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T03:11:45.604Z"
+          },
+          "tipo": {
+            "stringValue": "colapso"
+          }
+        },
+        "createTime": "2026-08-12T03:11:45.712192Z",
+        "updateTime": "2026-08-12T03:11:45.712192Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-a9efc3c3cb",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "rescate",
+      "nombre": "Edificio Ana Pilar, Cali",
+      "descripcion": "Colapso total del edificio.",
+      "departamento": "Valle del Cauca",
+      "barrio": "Edificio Ana Pilar, Cali",
+      "lat": 3.4089595347973414,
+      "lon": -76.54891222715379,
+      "necesita": [
+        "Rescate de personas atrapadas"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T02:20:41.301Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/yendEdO56OsDyQegOjD0",
+        "fields": {
+          "contacto": {
+            "stringValue": ""
+          },
+          "descripcion": {
+            "stringValue": "Colapso total del edificio."
+          },
+          "estado": {
+            "stringValue": "activo"
+          },
+          "lat": {
+            "doubleValue": 3.4089595347973414
+          },
+          "lng": {
+            "doubleValue": -76.548912227153792
+          },
+          "localidad": {
+            "stringValue": "Edificio Ana Pilar, Cali"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T02:20:41.301Z"
+          },
+          "tipo": {
+            "stringValue": "rescate"
+          }
+        },
+        "createTime": "2026-08-12T02:20:41.328348Z",
+        "updateTime": "2026-08-12T03:32:54.049504Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-d5ff805867",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "olla",
+      "nombre": "Olla comunitaria",
+      "descripcion": "Calle 56 i #47a-18. Encargados: Erlendy Cuero y Miguel Angel",
+      "barrio": "Llano verde",
+      "ofrece": [
+        "Alimentos"
+      ],
+      "estado": "activo",
+      "contacto": "3117745703",
+      "verificado": false,
+      "creado": "2026-08-12T03:52:20.137Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/3ODU72ZFi1M6UHhae1v8",
+        "fields": {
+          "categoria": {
+            "stringValue": "alimentos"
+          },
+          "contacto": {
+            "stringValue": "3117745703"
+          },
+          "descripcion": {
+            "stringValue": "Calle 56 i #47a-18. Encargados: Erlendy Cuero y Miguel Angel"
+          },
+          "estado": {
+            "stringValue": "abierto"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "servicio": {
+            "stringValue": "Olla comunitaria"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T03:52:20.137Z"
+          },
+          "tipoPublicacion": {
+            "stringValue": "oferta"
+          },
+          "zona": {
+            "stringValue": "Llano verde"
+          }
+        },
+        "createTime": "2026-08-12T03:52:20.213197Z",
+        "updateTime": "2026-08-12T03:52:20.213197Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-95cf462dc5",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "olla",
+      "nombre": "olla comunitaria",
+      "descripcion": "Calle 70 con autopista. Juan Felipe Collazos",
+      "barrio": "Capri",
+      "ofrece": [
+        "Alimentos"
+      ],
+      "estado": "activo",
+      "contacto": "97343465858",
+      "verificado": false,
+      "creado": "2026-08-12T03:54:05.85Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/DBJlkPu6sFhRP7t14cDZ",
+        "fields": {
+          "categoria": {
+            "stringValue": "alimentos"
+          },
+          "contacto": {
+            "stringValue": "97343465858"
+          },
+          "descripcion": {
+            "stringValue": "Calle 70 con autopista. Juan Felipe Collazos"
+          },
+          "estado": {
+            "stringValue": "abierto"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "servicio": {
+            "stringValue": "olla comunitaria"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T03:54:05.850Z"
+          },
+          "tipoPublicacion": {
+            "stringValue": "oferta"
+          },
+          "zona": {
+            "stringValue": "Capri"
+          }
+        },
+        "createTime": "2026-08-12T03:54:05.878246Z",
+        "updateTime": "2026-08-12T03:54:05.878246Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-cf3a47db8a",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "oferta",
+      "nombre": "Un camión de transporte para llevar varios insumos a una familia afectada",
+      "descripcion": "Camión preferiblemente de mudanza o parecido para llevar colchones, nevera e insumos necesarios",
+      "barrio": "Polideportivo miraflores",
+      "ofrece": [
+        "Transporte"
+      ],
+      "estado": "activo",
+      "contacto": "3145712390",
+      "verificado": false,
+      "creado": "2026-08-12T15:55:56.165Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/E3qHfE6gLsbTVfh0zqv0",
+        "fields": {
+          "categoria": {
+            "stringValue": "transporte"
+          },
+          "contacto": {
+            "stringValue": "3145712390"
+          },
+          "descripcion": {
+            "stringValue": "Camión preferiblemente de mudanza o parecido para llevar colchones, nevera e insumos necesarios"
+          },
+          "estado": {
+            "stringValue": "abierto"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "servicio": {
+            "stringValue": "Un camión de transporte para llevar varios insumos a una familia afectada"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T15:55:56.165Z"
+          },
+          "tipoPublicacion": {
+            "stringValue": "peticion"
+          },
+          "zona": {
+            "stringValue": "Polideportivo miraflores"
+          }
+        },
+        "createTime": "2026-08-12T15:55:56.201992Z",
+        "updateTime": "2026-08-12T15:55:56.201992Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-8ecdf7d483",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "oferta",
+      "nombre": "Megafono sin baterias / Carpa con falla en una varilla pero funcional, saco de dormir.",
+      "descripcion": "Es importante saber que el megafono no tiene baterias, si alguien puede conseguirlas, genial",
+      "barrio": "Ciudadela del Rio",
+      "ofrece": [
+        "Otro"
+      ],
+      "estado": "por-confirmar",
+      "contacto": "3178713693",
+      "verificado": false,
+      "creado": "2026-08-12T17:15:38.138Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/ESANFdxTQ0IJrV8X2rUr",
+        "fields": {
+          "categoria": {
+            "stringValue": "otro"
+          },
+          "contacto": {
+            "stringValue": "3178713693"
+          },
+          "descripcion": {
+            "stringValue": "Es importante saber que el megafono no tiene baterias, si alguien puede conseguirlas, genial"
+          },
+          "estado": {
+            "stringValue": "cubierto"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "servicio": {
+            "stringValue": "Megafono sin baterias / Carpa con falla en una varilla pero funcional, saco de dormir."
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T17:15:38.138Z"
+          },
+          "tipoPublicacion": {
+            "stringValue": "oferta"
+          },
+          "zona": {
+            "stringValue": "Ciudadela del Rio"
+          }
+        },
+        "createTime": "2026-08-12T17:15:38.159663Z",
+        "updateTime": "2026-08-12T17:15:54.509153Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-a62f1d9f28",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "oferta",
+      "nombre": "Se ofrece retroescabadora para la comunidad para apoyar en la recuperación",
+      "descripcion": "Se ofrece retroescabadora pero se necesita conductor para ayudar a la comunidad",
+      "ofrece": [
+        "Herramientas o maquinaria"
+      ],
+      "estado": "activo",
+      "contacto": "3234592829",
+      "verificado": false,
+      "creado": "2026-08-12T02:52:47.823Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/FWLigjlsRs2V10v0rtK9",
+        "fields": {
+          "categoria": {
+            "stringValue": "herramientas"
+          },
+          "contacto": {
+            "stringValue": "3234592829"
+          },
+          "descripcion": {
+            "stringValue": "Se ofrece retroescabadora pero se necesita conductor para ayudar a la comunidad"
+          },
+          "estado": {
+            "stringValue": "abierto"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "servicio": {
+            "stringValue": "Se ofrece retroescabadora para la comunidad para apoyar en la recuperación"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T02:52:47.823Z"
+          },
+          "tipoPublicacion": {
+            "stringValue": "oferta"
+          },
+          "zona": {
+            "stringValue": ""
+          }
+        },
+        "createTime": "2026-08-12T02:52:47.863813Z",
+        "updateTime": "2026-08-12T02:52:47.863813Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-6bb63d56c4",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "oferta",
+      "nombre": "Comida cocinada, almuerzos",
+      "descripcion": "Llevamos comidas cocinadas a los puntos de Cali que necesiten, por favor contactarnos",
+      "barrio": "San Antonio",
+      "ofrece": [
+        "Alimentos"
+      ],
+      "estado": "activo",
+      "contacto": "322 2843984",
+      "verificado": false,
+      "creado": "2026-08-12T04:40:26.68Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/L1PRdVX4MqeKhNfx1XII",
+        "fields": {
+          "categoria": {
+            "stringValue": "alimentos"
+          },
+          "contacto": {
+            "stringValue": "322 2843984"
+          },
+          "descripcion": {
+            "stringValue": "Llevamos comidas cocinadas a los puntos de Cali que necesiten, por favor contactarnos"
+          },
+          "estado": {
+            "stringValue": "abierto"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "servicio": {
+            "stringValue": "Comida cocinada, almuerzos"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T04:40:26.680Z"
+          },
+          "tipoPublicacion": {
+            "stringValue": "oferta"
+          },
+          "zona": {
+            "stringValue": "San Antonio"
+          }
+        },
+        "createTime": "2026-08-12T04:40:26.698974Z",
+        "updateTime": "2026-08-12T04:40:26.698974Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-1f6221c0f7",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "olla",
+      "nombre": "olla comunitaria",
+      "descripcion": "Calle 45 #1E -66 cerca colgate palmolive. Encargado Juan Carlos Chindicue",
+      "barrio": "Salomia",
+      "ofrece": [
+        "Alimentos"
+      ],
+      "estado": "activo",
+      "contacto": "3024172975",
+      "verificado": false,
+      "creado": "2026-08-12T03:50:45.132Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/LyFaLOiY1EpcjAxPs0cf",
+        "fields": {
+          "categoria": {
+            "stringValue": "alimentos"
+          },
+          "contacto": {
+            "stringValue": "3024172975"
+          },
+          "descripcion": {
+            "stringValue": "Calle 45 #1E -66 cerca colgate palmolive. Encargado Juan Carlos Chindicue"
+          },
+          "estado": {
+            "stringValue": "abierto"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "servicio": {
+            "stringValue": "olla comunitaria"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T03:50:45.132Z"
+          },
+          "tipoPublicacion": {
+            "stringValue": "oferta"
+          },
+          "zona": {
+            "stringValue": "Salomia"
+          }
+        },
+        "createTime": "2026-08-12T03:50:45.148017Z",
+        "updateTime": "2026-08-12T03:50:45.148017Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-ffe5df7d2b",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "oferta",
+      "nombre": "PUEDO COMPRAR LO QUE NECESITEN Y LLEVAR",
+      "descripcion": "TODO LO QUE REQUIERAN",
+      "barrio": "EN CUALQUIER ZONA",
+      "ofrece": [
+        "Otro"
+      ],
+      "estado": "activo",
+      "contacto": "3008136957",
+      "verificado": false,
+      "creado": "2026-08-12T03:52:58.827Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/Sqw4EcadqW3Ao4k4OF6C",
+        "fields": {
+          "categoria": {
+            "stringValue": "otro"
+          },
+          "contacto": {
+            "stringValue": "3008136957"
+          },
+          "descripcion": {
+            "stringValue": "TODO LO QUE REQUIERAN"
+          },
+          "estado": {
+            "stringValue": "abierto"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "servicio": {
+            "stringValue": "PUEDO COMPRAR LO QUE NECESITEN Y LLEVAR"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T03:52:58.827Z"
+          },
+          "tipoPublicacion": {
+            "stringValue": "oferta"
+          },
+          "zona": {
+            "stringValue": "EN CUALQUIER ZONA"
+          }
+        },
+        "createTime": "2026-08-12T03:52:58.854687Z",
+        "updateTime": "2026-08-12T03:52:58.854687Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-3ee0155d7e",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "oferta",
+      "nombre": "Transporte",
+      "descripcion": "Tengo una buseta a disposición para acarreo de insumos o ayuda",
+      "barrio": "La sirena",
+      "ofrece": [
+        "Transporte"
+      ],
+      "estado": "activo",
+      "contacto": "3053559145",
+      "verificado": false,
+      "creado": "2026-08-12T11:15:09.706Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/aIzskpiOuy8dIGX21umz",
+        "fields": {
+          "categoria": {
+            "stringValue": "transporte"
+          },
+          "contacto": {
+            "stringValue": "3053559145"
+          },
+          "descripcion": {
+            "stringValue": "Tengo una buseta a disposición para acarreo de insumos o ayuda"
+          },
+          "estado": {
+            "stringValue": "abierto"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "servicio": {
+            "stringValue": "Transporte"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T11:15:09.706Z"
+          },
+          "tipoPublicacion": {
+            "stringValue": "oferta"
+          },
+          "zona": {
+            "stringValue": "La sirena"
+          }
+        },
+        "createTime": "2026-08-12T11:15:09.741665Z",
+        "updateTime": "2026-08-12T11:15:09.741665Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-119153c2d4",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "oferta",
+      "nombre": "Transporte, voluntariado, ropa",
+      "descripcion": "tengo un carro kwid pequeño lo conduzco yo misma, cuento con algunos sacos.",
+      "barrio": "La trinidad Yumbo valle del cauca",
+      "ofrece": [
+        "Transporte"
+      ],
+      "estado": "activo",
+      "contacto": "3117949540",
+      "verificado": false,
+      "creado": "2026-08-12T17:01:29.76Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/vZs5EvqBVuUuZdesh2aL",
+        "fields": {
+          "categoria": {
+            "stringValue": "transporte"
+          },
+          "contacto": {
+            "stringValue": "3117949540"
+          },
+          "descripcion": {
+            "stringValue": "tengo un carro kwid pequeño lo conduzco yo misma, cuento con algunos sacos."
+          },
+          "estado": {
+            "stringValue": "abierto"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "servicio": {
+            "stringValue": "Transporte, voluntariado, ropa"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T17:01:29.760Z"
+          },
+          "tipoPublicacion": {
+            "stringValue": "oferta"
+          },
+          "zona": {
+            "stringValue": "La trinidad Yumbo valle del cauca"
+          }
+        },
+        "createTime": "2026-08-12T17:01:29.777175Z",
+        "updateTime": "2026-08-12T17:01:29.777175Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-bf5a0bc88c",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "oferta",
+      "nombre": "Aportes económicos o donaciones",
+      "descripcion": "Agua, Implemenetos como guantes, cascos, tapabocas, pañales, alimentos no perecederos, carpas y todo lo que se pueda para llevarlo a Roldanillo y el Darién. El [dato de pago retirado — política del sitio]",
+      "barrio": "Cra. 41a #13 - 94 El Guabal",
+      "ofrece": [
+        "Alimentos"
+      ],
+      "estado": "activo",
+      "contacto": "3128748744",
+      "verificado": false,
+      "creado": "2026-08-12T17:20:59.268Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "politica_alerta": [
+        "posible dato de pago en 'descripcion' (billetera digital): redactado, revisar antes de publicar"
+      ],
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/xTlARdGyWCNBqtZtA5un",
+        "fields": {
+          "categoria": {
+            "stringValue": "alimentos"
+          },
+          "contacto": {
+            "stringValue": "3128748744"
+          },
+          "descripcion": {
+            "stringValue": "Agua, Implemenetos como guantes, cascos, tapabocas, pañales, alimentos no perecederos, carpas y todo lo que se pueda para llevarlo a Roldanillo y el Darién. \n\nEl Nequi: 3128748744"
+          },
+          "estado": {
+            "stringValue": "abierto"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "0"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "servicio": {
+            "stringValue": "Aportes económicos o donaciones"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T17:20:59.268Z"
+          },
+          "tipoPublicacion": {
+            "stringValue": "peticion"
+          },
+          "zona": {
+            "stringValue": "Cra. 41a #13 - 94 El Guabal"
+          }
+        },
+        "createTime": "2026-08-12T17:20:59.306723Z",
+        "updateTime": "2026-08-12T17:20:59.306723Z"
+      }
+    },
+    {
+      "id": "haciendo-comunidad-c92cf1d20a",
+      "fuente": "haciendo-comunidad",
+      "fuente_url": "https://personnofound.github.io/HaciendoComunidad/",
+      "tipo": "oferta",
+      "nombre": "GRUA TELESCOPICA DE 80 TONELADAS",
+      "descripcion": "Urgente !!! personas atrapadas posiblemente con vida !!",
+      "barrio": "EDIFICIO ANA PILAR - CUARTO DE LEGUA",
+      "ofrece": [
+        "Herramientas o maquinaria"
+      ],
+      "estado": "activo",
+      "contacto": "3206989880",
+      "verificado": false,
+      "creado": "2026-08-12T16:12:29.916Z",
+      "fecha_corte": "2026-08-12T20:06:20Z",
+      "raw": {
+        "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/zliPdTlK59IdRqesHe6a",
+        "fields": {
+          "categoria": {
+            "stringValue": "herramientas"
+          },
+          "contacto": {
+            "stringValue": "3206989880"
+          },
+          "descripcion": {
+            "stringValue": "Urgente !!! personas atrapadas posiblemente con vida !!"
+          },
+          "estado": {
+            "stringValue": "abierto"
+          },
+          "marcasDesactualizado": {
+            "integerValue": "5"
+          },
+          "reportesAbuso": {
+            "integerValue": "0"
+          },
+          "servicio": {
+            "stringValue": "GRUA TELESCOPICA DE 80 TONELADAS"
+          },
+          "timestamp": {
+            "timestampValue": "2026-08-12T16:12:29.916Z"
+          },
+          "tipoPublicacion": {
+            "stringValue": "peticion"
+          },
+          "zona": {
+            "stringValue": "EDIFICIO ANA PILAR - CUARTO DE LEGUA"
+          }
+        },
+        "createTime": "2026-08-12T16:12:29.955108Z",
+        "updateTime": "2026-08-12T16:59:06.224062Z"
+      }
+    }
+  ],
+  "extra": {
+    "coleccion_omitida": "desaparecidos",
+    "colecciones_leidas": {
+      "comunidad_servicios": 12,
+      "reportes_ayuda": 26
+    },
+    "motivo_de_la_omision": "datos personales: no duplicamos bases de desaparecidos (Ley 1581 y principio #2 del proyecto). Se enlaza a Colombia Te Busca."
+  }
+}

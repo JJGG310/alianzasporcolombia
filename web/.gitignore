@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.vite/
+.vercel/
+.netlify/
+
+# Copias de trabajo de los datos: la fuente de verdad vive en ../datos/ y
+# ../extracted-data/. Las genera `npm run sync-datos` (dev y build).
+public/datos/
+public/extracted-data/
