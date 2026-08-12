@@ -59,6 +59,13 @@
   button.wa{font:inherit;font-size:.78rem;font-weight:600;cursor:pointer;margin-top:.3rem;
     background:#25d366;color:#fff;border:0;border-radius:6px;padding:.25rem .6rem;white-space:nowrap}
   button.wa:hover{filter:brightness(.93)}
+  #necesita{background:#fff8f0;border:1px solid #e8cfa0;border-radius:8px;padding:.8rem 1rem;margin:.75rem 0}
+  #necesita h3{margin:0 0 .4rem;font-size:1rem;color:#8a5200}
+  #necesita ul{margin:0;padding:0;list-style:none;font-size:.9rem}
+  #necesita li{padding:.3rem 0;border-bottom:1px solid #f0e2c8}
+  #necesita li:last-child{border-bottom:0}
+  #necesita .fecha{color:var(--gris);font-size:.8rem;white-space:nowrap}
+  #frescura{color:var(--gris);font-size:.8rem}
 </style>
 </head>
 <body>
@@ -118,6 +125,10 @@
       <select id="f-depto" aria-label="Filtrar por departamento"><option value="">Todos los departamentos</option></select>
       <select id="f-municipio" aria-label="Filtrar por municipio"><option value="">Todos los municipios</option></select>
       <select id="f-tipo" aria-label="Filtrar por tipo"><option value="">Todos los tipos</option></select>
+    </div>
+    <div id="necesita" hidden>
+      <h3>Qué se necesita ahora</h3>
+      <ul></ul>
     </div>
     <div id="map"></div>
     <div class="tabla-wrap">
@@ -200,6 +211,22 @@
           .bindPopup(`<strong>${i.nombre}</strong><br>${t.label} · ${i.municipio}<br>${i.direccion || ''}<br>${i.que}<br><em>${i.contacto || ''}</em>`)
           .addTo(capa);
       }
+      // "Qué se necesita ahora": extrae los pedidos ya presentes en los datos y los pone primero.
+      const nec = vivos.map(i => {
+        const m = (i.que || '').match(/(?:solicitan|insumos solicitados|recibe|piden?)\s*:?\s*(.+)/i);
+        return m ? { i, txt: m[1].replace(/\.$/, '') } : null;
+      }).filter(Boolean).sort((a, b) => (b.i.fecha_corte || '').localeCompare(a.i.fecha_corte || ''));
+      const bloque = document.getElementById('necesita');
+      if (nec.length) {
+        bloque.querySelector('ul').innerHTML = nec.slice(0, 10).map(({ i, txt }) => {
+          const wa = `Se necesita en ${i.nombre} (${i.municipio}): ${txt}\n${i.direccion || ''}\nMás info: alianzasporcolombia.com`;
+          return `<li><strong>${i.nombre}</strong> (${i.municipio}): ${txt}
+            <span class="fecha">· reporte del ${i.fecha_corte}</span>
+            <button class="wa" data-wa="${wa.replace(/"/g, '&quot;')}">Compartir</button></li>`;
+        }).join('');
+        bloque.hidden = false;
+      } else bloque.hidden = true;
+
       tbody.innerHTML = vivos.map(i => {
         const t = TIPOS[i.tipo] || { label: i.tipo, color: '#555' };
         const texto = [`${t.label}: ${i.nombre} (${i.municipio})`, i.direccion, i.que, i.contacto,
@@ -258,6 +285,24 @@
       cont.appendChild(b);
     }
     document.getElementById('donde').hidden = false;
+
+    // Tiempo real: re-consulta los datos cada 5 min mientras la página esté abierta.
+    let consultado = Date.now();
+    setInterval(() => {
+      fetch('datos/ayuda.json?t=' + Date.now()).then(r => r.json()).then(d => {
+        items.length = 0; items.push(...d.items);
+        consultado = Date.now();
+        document.getElementById('ayuda-corte').textContent = `Datos actualizados: ${d.actualizado}.`;
+        pinta();
+      }).catch(() => {});
+    }, 300000);
+    const fresca = document.createElement('span');
+    fresca.id = 'frescura';
+    document.getElementById('ayuda-corte').after(fresca);
+    setInterval(() => {
+      const m = Math.round((Date.now() - consultado) / 60000);
+      fresca.textContent = ` Consultado ${m < 1 ? 'ahora mismo' : 'hace ' + m + ' min'}; se actualiza solo.`;
+    }, 20000);
   }).catch(() => { document.getElementById('ayuda').style.display = 'none'; });
 
   // Compartir por WhatsApp: en Colombia el sitio se difunde por pedazos, no por el enlace entero.
@@ -279,25 +324,29 @@
     const d = Math.round(h / 24);
     return d === 1 ? 'hace 1 día' : `hace ${d} días`;
   }
-  fetch(USGS).then(r => r.json()).then(d => {
-    const qs = d.features.filter(f => {
-      const [lon, lat] = f.geometry.coordinates;
-      return f.properties.mag != null
-        && Math.abs(lat - EPI.lat) < RADIO_GRADOS && Math.abs(lon - EPI.lon) < RADIO_GRADOS;
-    }).sort((a, b) => b.properties.time - a.properties.time);
-    if (!qs.length) return;
-    const ahora = Date.now();
-    const ult = qs[0], p = ult.properties;
-    const ult24 = qs.filter(f => ahora - f.properties.time < 86400000).length;
-    const lista = qs.slice(0, 8).map(f => `<li><b>M ${f.properties.mag.toFixed(1)}</b> ${hace(ahora - f.properties.time)} · ${f.properties.place || ''}</li>`).join('');
-    document.getElementById('replicas-datos').innerHTML = `
-      <div class="replica-ult">
-        <strong>M ${p.mag.toFixed(1)}</strong> — última réplica registrada, ${hace(ahora - p.time)}<br>
-        <span style="color:var(--gris);font-size:.9rem">${p.place || ''} · ${ult24} réplicas en las últimas 24 horas · ${qs.length} desde el sismo</span>
-      </div>
-      <ul class="replica-lista">${lista}</ul>`;
-    document.getElementById('replicas').hidden = false;
-  }).catch(() => {});
+  function cargaReplicas() {
+    fetch(USGS).then(r => r.json()).then(d => {
+      const qs = d.features.filter(f => {
+        const [lon, lat] = f.geometry.coordinates;
+        return f.properties.mag != null
+          && Math.abs(lat - EPI.lat) < RADIO_GRADOS && Math.abs(lon - EPI.lon) < RADIO_GRADOS;
+      }).sort((a, b) => b.properties.time - a.properties.time);
+      if (!qs.length) return;
+      const ahora = Date.now();
+      const ult = qs[0], p = ult.properties;
+      const ult24 = qs.filter(f => ahora - f.properties.time < 86400000).length;
+      const lista = qs.slice(0, 8).map(f => `<li><b>M ${f.properties.mag.toFixed(1)}</b> ${hace(ahora - f.properties.time)} · ${f.properties.place || ''}</li>`).join('');
+      document.getElementById('replicas-datos').innerHTML = `
+        <div class="replica-ult">
+          <strong>M ${p.mag.toFixed(1)}</strong> — última réplica registrada, ${hace(ahora - p.time)}<br>
+          <span style="color:var(--gris);font-size:.9rem">${p.place || ''} · ${ult24} réplicas en las últimas 24 horas · ${qs.length} desde el sismo</span>
+        </div>
+        <ul class="replica-lista">${lista}</ul>`;
+      document.getElementById('replicas').hidden = false;
+    }).catch(() => {});
+  }
+  cargaReplicas();
+  setInterval(cargaReplicas, 300000); // cada 5 min mientras la página esté abierta
 </script>
 </body>
 </html>
