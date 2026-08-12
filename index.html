@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cali S.O.S — Información centralizada · Terremoto 10 de agosto</title>
+<meta name="description" content="Directorio centralizado de información verificada sobre el terremoto del 10 de agosto de 2026 en Colombia: emergencias, albergues, desaparecidos, donaciones y fuentes oficiales para Cali y el Valle del Cauca.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root{
+    --rojo:#c0182b; --tinta:#1b1b1f; --gris:#5c5c66; --fondo:#f7f6f4;
+    --carta:#ffffff; --borde:#e3e1dc;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--fondo);color:var(--tinta);line-height:1.5}
+  header{background:var(--rojo);color:#fff;padding:1.25rem 1rem}
+  header .wrap{max-width:760px;margin:0 auto}
+  header h1{margin:0;font-size:1.5rem}
+  header p{margin:.35rem 0 0;opacity:.92;font-size:.95rem}
+  .aviso{background:#fff3cd;border-bottom:1px solid #e8d9a0;color:#5c4a00;font-size:.9rem;padding:.6rem 1rem;text-align:center}
+  main{max-width:760px;margin:0 auto;padding:1rem}
+  .lineas{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.6rem;margin:.5rem 0 1.5rem}
+  .lineas a{display:block;background:var(--carta);border:1px solid var(--borde);border-left:4px solid var(--rojo);border-radius:8px;padding:.6rem .8rem;text-decoration:none;color:inherit}
+  .lineas a strong{display:block;font-size:1.3rem;color:var(--rojo)}
+  .lineas a span{font-size:.85rem;color:var(--gris)}
+  section{margin:1.75rem 0}
+  h2{font-size:1.15rem;margin:0 0 .25rem;border-bottom:2px solid var(--rojo);padding-bottom:.3rem}
+  .desc{margin:.25rem 0 .75rem;color:var(--gris);font-size:.9rem}
+  ul.recursos{list-style:none;margin:0;padding:0}
+  ul.recursos li{background:var(--carta);border:1px solid var(--borde);border-radius:8px;padding:.7rem .9rem;margin:.5rem 0}
+  ul.recursos a{color:#0b57d0;font-weight:600;text-decoration:none;word-break:break-word}
+  ul.recursos a:hover{text-decoration:underline}
+  ul.recursos p{margin:.25rem 0 0;font-size:.9rem;color:var(--gris)}
+  .badge{display:inline-block;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.03em;background:#eee;border-radius:99px;padding:.1rem .55rem;margin-left:.4rem;color:var(--gris);vertical-align:middle}
+  .badge.oficial{background:#dcefdc;color:#1d6b2f}
+  .badge.en-vivo{background:#fde2e4;color:var(--rojo)}
+  footer{max-width:760px;margin:2rem auto 0;padding:1rem;border-top:1px solid var(--borde);font-size:.85rem;color:var(--gris)}
+  #actualizado{font-size:.85rem;color:var(--gris)}
+  #map{height:380px;border-radius:8px;border:1px solid var(--borde);margin:.75rem 0}
+  .filtros{display:flex;gap:.5rem;flex-wrap:wrap;margin:.5rem 0}
+  .filtros select{padding:.4rem .6rem;border:1px solid var(--borde);border-radius:6px;background:var(--carta);font-size:.9rem}
+  .tabla-wrap{overflow-x:auto;background:var(--carta);border:1px solid var(--borde);border-radius:8px}
+  #tabla-ayuda{width:100%;border-collapse:collapse;font-size:.85rem}
+  #tabla-ayuda th,#tabla-ayuda td{padding:.5rem .6rem;text-align:left;border-bottom:1px solid var(--borde);vertical-align:top}
+  #tabla-ayuda th{background:var(--fondo);position:sticky;top:0}
+  #tabla-ayuda a{color:#0b57d0}
+  .pill{display:inline-block;font-size:.72rem;font-weight:700;border-radius:99px;padding:.1rem .5rem;white-space:nowrap}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Cali S.O.S</h1>
+    <p>Información centralizada · Terremoto M 7,4 — 10 de agosto de 2026 · Cali y Valle del Cauca</p>
+  </div>
+</header>
+<div class="aviso">⚠️ Verifica siempre con las fuentes oficiales. Este sitio recopila y enlaza; las cifras y órdenes de evacuación las emiten las autoridades.</div>
+<main>
+  <section id="emergencias">
+    <h2>Líneas de emergencia</h2>
+    <div class="lineas">
+      <a href="tel:123"><strong>123</strong><span>Emergencias (única nacional)</span></a>
+      <a href="tel:119"><strong>119</strong><span>Bomberos</span></a>
+      <a href="tel:132"><strong>132</strong><span>Cruz Roja</span></a>
+      <a href="tel:144"><strong>144</strong><span>Defensa Civil</span></a>
+      <a href="tel:125"><strong>125</strong><span>Emergencias en salud (Valle)</span></a>
+      <a href="tel:767"><strong>#767</strong><span>Estado de vías (INVÍAS)</span></a>
+    </div>
+    <p id="actualizado"></p>
+  </section>
+  <section id="ayuda">
+    <h2>Mapa de ayuda — Cali y Valle del Cauca</h2>
+    <p class="desc">Albergues, puntos de acopio, bancos de sangre, ollas comunitarias y organizaciones que gestionan donaciones. Cada punto lleva su fuente y fecha de corte. <strong>Nunca publicamos cuentas bancarias:</strong> contacta directamente a la organización y valida con ella antes de entregar dinero. <span id="ayuda-corte"></span></p>
+    <div class="filtros">
+      <select id="f-tipo" aria-label="Filtrar por tipo"><option value="">Todos los tipos</option></select>
+      <select id="f-municipio" aria-label="Filtrar por municipio"><option value="">Todos los municipios</option></select>
+    </div>
+    <div id="map"></div>
+    <div class="tabla-wrap">
+      <table id="tabla-ayuda">
+        <thead><tr><th>Tipo</th><th>Nombre</th><th>Municipio</th><th>Dónde / contacto</th><th>Qué</th><th>Fuente</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+  <div id="contenido"><!-- secciones renderizadas desde recursos.js --></div>
+</main>
+<footer>
+  Cali S.O.S es una iniciativa ciudadana sin ánimo de lucro. No recibimos donaciones directamente: enlazamos a campañas y entidades verificadas.
+</footer>
+<script src="recursos.js"></script>
+<script>
+  document.getElementById('actualizado').textContent = 'Última actualización del directorio: ' + RECURSOS.actualizado;
+  const cont = document.getElementById('contenido');
+  for (const sec of RECURSOS.secciones) {
+    const s = document.createElement('section');
+    s.id = sec.id;
+    const items = sec.items.map(i => `
+      <li>
+        <a href="${i.url}" rel="noopener" target="_blank">${i.nombre}</a>${i.badge ? `<span class="badge ${i.badge.replace(/\s/g,'-').toLowerCase()}">${i.badge}</span>` : ''}
+        <p>${i.desc}</p>
+      </li>`).join('');
+    s.innerHTML = `<h2>${sec.titulo}</h2><p class="desc">${sec.desc}</p><ul class="recursos">${items}</ul>`;
+    cont.appendChild(s);
+  }
+</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  const TIPOS = {
+    "albergue":      { label: "Albergue",          color: "#c0182b" },
+    "acopio":        { label: "Punto de acopio",   color: "#1d6b2f" },
+    "sangre":        { label: "Banco de sangre",   color: "#8b0f57" },
+    "olla":          { label: "Olla comunitaria",  color: "#b45f06" },
+    "donacion-org":  { label: "Recibe donaciones", color: "#0b57d0" },
+  };
+  fetch('datos/ayuda.json').then(r => r.json()).then(data => {
+    const items = data.items;
+    document.getElementById('ayuda-corte').textContent = `Datos actualizados: ${data.actualizado}.`;
+    const mapa = L.map('map').setView([3.9, -76.35], 8);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(mapa);
+    const capa = L.layerGroup().addTo(mapa);
+    const selT = document.getElementById('f-tipo'), selM = document.getElementById('f-municipio');
+    for (const [k, t] of Object.entries(TIPOS)) selT.add(new Option(t.label, k));
+    for (const m of [...new Set(items.map(i => i.municipio))].sort()) selM.add(new Option(m, m));
+    const tbody = document.querySelector('#tabla-ayuda tbody');
+    function pinta() {
+      const ft = selT.value, fm = selM.value;
+      const vivos = items.filter(i => (!ft || i.tipo === ft) && (!fm || i.municipio === fm));
+      capa.clearLayers();
+      for (const i of vivos) {
+        if (i.lat == null || i.lon == null) continue;
+        const t = TIPOS[i.tipo] || { label: i.tipo, color: '#555' };
+        L.circleMarker([i.lat, i.lon], { radius: 8, color: t.color, fillOpacity: .75 })
+          .bindPopup(`<strong>${i.nombre}</strong><br>${t.label} · ${i.municipio}<br>${i.direccion || ''}<br>${i.que}<br><em>${i.contacto || ''}</em>`)
+          .addTo(capa);
+      }
+      tbody.innerHTML = vivos.map(i => {
+        const t = TIPOS[i.tipo] || { label: i.tipo, color: '#555' };
+        return `<tr>
+          <td><span class="pill" style="background:${t.color}18;color:${t.color}">${t.label}</span></td>
+          <td><strong>${i.nombre}</strong></td>
+          <td>${i.municipio}</td>
+          <td>${i.direccion || ''}${i.direccion && i.contacto ? '<br>' : ''}${i.contacto || ''}</td>
+          <td>${i.que}</td>
+          <td><a href="${i.fuente}" rel="noopener" target="_blank">ver</a> · ${i.fecha_corte}</td>
+        </tr>`;
+      }).join('');
+    }
+    selT.onchange = selM.onchange = pinta;
+    pinta();
+  }).catch(() => { document.getElementById('ayuda').style.display = 'none'; });
+</script>
+</body>
+</html>
