@@ -1912,6 +1912,53 @@
       "fecha_corte": "2026-08-12",
       "recibe": [],
       "no_recibe": []
+    },
+    {
+      "tipo": "donacion-org",
+      "nombre": "Corporación Presentes — campaña 'Colombia se levanta'",
+      "departamento": "Nacional",
+      "municipio": "Nacional",
+      "direccion": null,
+      "que": "Campaña nacional de donación económica (desde $10.000) para reforzar y reconstruir viviendas, capital semilla y proyectos productivos en los territorios afectados. Es la corporación que respalda la campaña 'Colombia se levanta' a la que están adscritos varios bancos de alimentos. Dona desde su sitio oficial; no publicamos cuentas.",
+      "contacto": "Sitio oficial de Corporación Presentes",
+      "fuente": "https://telemedellin.tv/presentes-campana-donacion-dinero-afectados-sismo/",
+      "fecha_corte": "2026-08-12",
+      "lat": null,
+      "lon": null,
+      "recibe": [],
+      "no_recibe": []
+    },
+    {
+      "tipo": "donacion-org",
+      "nombre": "Fundación Internacional María Luisa de Moreno — 'Ayuda Colombia'",
+      "departamento": "Nacional",
+      "municipio": "Nacional",
+      "direccion": null,
+      "que": "Canal oficial de donación de la iniciativa 'Ayuda Colombia', con opción de aportar en distintas monedas desde el exterior. Útil para colombianos fuera del país. Valida siempre en su plataforma oficial antes de aportar.",
+      "contacto": "Plataforma oficial de la fundación",
+      "fuente": "https://colombiahub.org/terremoto-colombia-2026-como-ayudar/",
+      "fecha_corte": "2026-08-12",
+      "lat": null,
+      "lon": null,
+      "recibe": [],
+      "no_recibe": []
+    },
+    {
+      "tipo": "donacion-org",
+      "nombre": "Alcaldía de Cali — convocatoria de voluntarios profesionales",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "direccion": null,
+      "que": "Convocatoria a voluntarios profesionales (ingenieros, arquitectos y afines) para apoyar la evaluación de viviendas afectadas por el sismo. No se necesitan donaciones: se necesita gente con formación técnica. Confirma fecha y punto de encuentro vigentes con la Alcaldía antes de presentarte.",
+      "contacto": "Alcaldía de Cali / Cruz Roja Seccional Valle del Cauca",
+      "fuente": "https://www.elpais.com.co/cali/alcaldia-de-cali-busca-voluntarios-para-apoyar-en-la-evaluacion-de-viviendas-afectadas-por-el-sismo-asi-puede-participar-1122.html",
+      "fecha_corte": "2026-08-12",
+      "lat": null,
+      "lon": null,
+      "recibe": [
+        "voluntarios"
+      ],
+      "no_recibe": []
     }
   ]
 }
