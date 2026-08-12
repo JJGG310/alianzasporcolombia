@@ -37,7 +37,13 @@ y abrir http://localhost:8942 (hace falta servidor por el `fetch` de `datos/ayud
 
 ## Deploy
 
-Estático puro: arrastrar la carpeta a Netlify, o `vercel .`. Cada merge a `main` puede desplegar automático conectando el repo a Vercel/Netlify.
+Automático: cada push a `main` dispara [.github/workflows/deploy.yml](.github/workflows/deploy.yml), que publica el sitio a **Cloudflare Pages** (proyecto `alianzasporcolombia`) con `wrangler`. En ~25 segundos el cambio queda en vivo en alianzasporcolombia.com — no hay que hacer nada más que el push.
+
+Para desplegar a mano desde tu máquina (si alguna vez hace falta):
+```bash
+npx wrangler pages deploy . --project-name=alianzasporcolombia --branch=main
+```
+(pide login de Cloudflare la primera vez).
 
 ## Licencias
 
