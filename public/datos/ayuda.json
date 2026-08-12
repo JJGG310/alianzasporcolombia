@@ -1676,8 +1676,8 @@
       "contacto": "Steven González 324 566 6775 / Lorena Tabares 312 833 8340",
       "fuente": "https://www.elpais.com.co/cali/propacifico-activa-campana-de-solidaridad-para-atender-a-damnificados-por-el-terremoto-1129.html",
       "fecha_corte": "2026-08-11",
-      "lat": 4.33546,
-      "lon": -75.82652,
+      "lat": 3.4516,
+      "lon": -76.532,
       "departamento": "Valle del Cauca",
       "recibe": [
         "medicamentos"
@@ -1693,14 +1693,13 @@
       "que": "Activó su Servicio Nacional de Emergencias para recaudar fondos y apoyar directamente a las jurisdicciones eclesiásticas afectadas (incluida la provincia eclesiástica de Cali); recibe aportes en las parroquias de las diócesis y donaciones en línea; canaliza además la ayuda económica enviada por el Papa",
       "direccion": "",
       "contacto": "Web donar.caritascolombiana.org",
-      "lat": 4.33546,
-      "lon": -75.82652,
+      "lat": null,
+      "lon": null,
       "fuente": "https://www.religiondigital.org/america/iglesia-catolica-colombia-moviliza-solidaridad_1_1463404.html",
       "fecha_corte": "2026-08-11",
       "departamento": "Nacional",
       "recibe": [],
       "no_recibe": [],
-      "precision": "aproximada",
       "cobertura": "Todo el país"
     },
     {

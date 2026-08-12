@@ -64,13 +64,44 @@ export function enlaceComoLlegar(p: Punto): string | null {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(consulta)}`;
 }
 
-/** Necesita y ofrece en una sola fila de etiquetas, necesita primero. */
-export function etiquetasDe(p: Punto): { clase: 'necesita' | 'ofrece'; txt: string }[] {
+/** Vocabulario cerrado de `recibe`/`no_recibe` en los puntos curados. */
+const CATEGORIA: Record<string, string> = {
+  agua: 'Agua',
+  alimentos: 'Alimentos',
+  aseo: 'Aseo e higiene',
+  panales: 'Pañales',
+  abrigo: 'Cobijas y colchonetas',
+  ropa: 'Ropa',
+  medicamentos: 'Medicamentos',
+  mascotas: 'Comida de mascotas',
+  sangre: 'Sangre',
+  voluntarios: 'Voluntarios',
+  rescate: 'Rescate y herramientas',
+  bebes: 'Cosas de bebé',
+  ortopedico: 'Ayudas ortopédicas',
+};
+
+export type ClaseEtq = 'necesita' | 'ofrece' | 'recibe' | 'no-recibe';
+
+/**
+ * Etiquetas de la ficha. `no-recibe` va de último pero es la que más ahorra:
+ * evita que alguien cargue media cuadra con ropa a un punto que solo pide agua.
+ */
+export function etiquetasDe(p: Punto): { clase: ClaseEtq; txt: string }[] {
   return [
     ...(p.necesita ?? []).map((t) => ({ clase: 'necesita' as const, txt: t })),
     ...(p.ofrece ?? []).map((t) => ({ clase: 'ofrece' as const, txt: t })),
+    ...(p.recibe ?? []).map((t) => ({ clase: 'recibe' as const, txt: CATEGORIA[t] ?? t })),
+    ...(p.no_recibe ?? []).map((t) => ({ clase: 'no-recibe' as const, txt: CATEGORIA[t] ?? t })),
   ];
 }
+
+const ROTULO: Record<ClaseEtq, string> = {
+  necesita: 'Necesita',
+  ofrece: 'Ofrece',
+  recibe: 'Recibe',
+  'no-recibe': 'NO recibe',
+};
 
 /** Cuántas etiquetas se muestran antes de doblar el resto. */
 const TOPE_ETIQUETAS = 4;
@@ -103,8 +134,13 @@ function TarjetaPunto({ punto: p, origen }: Props) {
   const comoLlegar = enlaceComoLlegar(p);
 
   const etqs = etiquetasDe(p);
-  const visibles = expandido ? etqs : etqs.slice(0, TOPE_ETIQUETAS);
-  const ocultas = etqs.length - visibles.length;
+  // Lo que el punto rechaza nunca se poda: si queda detrás del "+N más" la
+  // persona igual carga la donación hasta allá y se la devuelven.
+  const rechaza = etqs.filter((e) => e.clase === 'no-recibe');
+  const resto = etqs.filter((e) => e.clase !== 'no-recibe');
+  const restoVisible = expandido ? resto : resto.slice(0, TOPE_ETIQUETAS);
+  const visibles = [...restoVisible, ...rechaza];
+  const ocultas = resto.length - restoVisible.length;
 
   // <article> y no <li>: la lista (<ul>) la arma App, que es quien pagina.
   // Así la tarjeta también sirve suelta —en el popup del mapa, por ejemplo—
@@ -166,11 +202,9 @@ function TarjetaPunto({ punto: p, origen }: Props) {
           {visibles.map((e, i) => (
             <li key={`${e.clase}-${e.txt}`} className="punto__etq-item">
               {(i === 0 || visibles[i - 1].clase !== e.clase) && (
-                <span className="punto__k">
-                  {e.clase === 'necesita' ? 'Necesita' : 'Ofrece'}{' '}
-                </span>
+                <span className="punto__k">{ROTULO[e.clase]} </span>
               )}
-              <span className="punto__etq">{e.txt}</span>
+              <span className={`punto__etq punto__etq--${e.clase}`}>{e.txt}</span>
             </li>
           ))}
           {ocultas > 0 && (

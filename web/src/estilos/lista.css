@@ -399,6 +399,13 @@
   color: var(--tinta-700);
   font-size: var(--txt-xs);
 }
+/* Lo que el punto rechaza se lee distinto del resto: es una advertencia, no un
+   dato más. El tachado sobrevive aunque el color no se distinga. */
+.punto__etq--no-recibe {
+  background: color-mix(in srgb, var(--urgente) 12%, transparent);
+  color: var(--urgente);
+  text-decoration: line-through;
+}
 .punto__mas {
   min-height: var(--toque);
   /* El botón necesita 44 px de área táctil sin abrir un hueco en la fila. */

@@ -42,7 +42,15 @@ function Encuadre({ puntos }: { puntos: Array<Punto & { lat: number; lon: number
 }
 
 export default function MapaAyuda({ puntos, miUbicacion }: Props) {
-  const conCoords = useMemo(() => puntos.filter(tieneCoordenadas), [puntos]);
+  // Un punto con precision="aproximada" no tiene dirección geocodificada: su
+  // coordenada es el centro del municipio. Dibujarlo miente dos veces — manda a
+  // la persona a la plaza principal en vez de al lugar, y apila 9 marcadores
+  // idénticos en Cali y 8 en Pereira, de los que solo uno se puede abrir.
+  // Siguen en la lista, con su dirección escrita, que es como sí se llega.
+  const conCoords = useMemo(
+    () => puntos.filter(tieneCoordenadas).filter((p) => p.precision !== 'aproximada'),
+    [puntos],
+  );
   const sinCoords = puntos.length - conCoords.length;
 
   // La leyenda solo muestra lo que de verdad está en pantalla. Una leyenda con

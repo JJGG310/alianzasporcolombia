@@ -63,6 +63,17 @@ function limpiar(s: string | undefined | null): string {
  * Mapeos: `que` → descripcion, `fuente` → fuente_url, fuente = "curado",
  * verificado = true.
  */
+/**
+ * ¿La fuente dijo hasta cuándo iba, y ya pasó?
+ * Se evalúa al cargar, no al generar los datos: así un punto que vence esta
+ * noche aparece cerrado mañana sin que nadie tenga que acordarse de editarlo.
+ */
+export function estaVencido(vigenteHasta?: string, ahora = Date.now()): boolean {
+  if (!vigenteHasta) return false;
+  const fin = new Date(`${vigenteHasta}T23:59:59`).getTime();
+  return !Number.isNaN(fin) && ahora > fin;
+}
+
 export function normalizarCurado(item: ItemCurado): Punto {
   const nombre = limpiar(item.nombre);
   const municipio = limpiar(item.municipio);
@@ -80,7 +91,7 @@ export function normalizarCurado(item: ItemCurado): Punto {
     direccion: limpiar(item.direccion) || undefined,
     lat: typeof item.lat === 'number' ? item.lat : null,
     lon: typeof item.lon === 'number' ? item.lon : null,
-    estado: item.estado || 'activo',
+    estado: estaVencido(item.vigente_hasta) ? 'cerrado' : item.estado || 'activo',
     contacto: limpiar(item.contacto) || undefined,
     organizacion: limpiar(item.organizacion) || undefined,
     horario: limpiar(item.horario) || undefined,
