@@ -45,6 +45,11 @@
   #tabla-ayuda th{background:var(--fondo);position:sticky;top:0}
   #tabla-ayuda a{color:#0b57d0}
   .pill{display:inline-block;font-size:.72rem;font-weight:700;border-radius:99px;padding:.1rem .5rem;white-space:nowrap}
+  .replica-ult{background:var(--carta);border:1px solid var(--borde);border-left:4px solid var(--rojo);border-radius:8px;padding:.7rem .9rem;margin-bottom:.5rem}
+  .replica-ult strong{font-size:1.4rem;color:var(--rojo)}
+  .replica-lista{list-style:none;margin:0;padding:0;font-size:.85rem}
+  .replica-lista li{display:flex;gap:.6rem;padding:.35rem 0;border-bottom:1px solid var(--borde);color:var(--gris)}
+  .replica-lista li b{color:var(--tinta);min-width:2.6rem}
 </style>
 </head>
 <body>
@@ -67,6 +72,11 @@
       <a href="tel:767"><strong>#767</strong><span>Estado de vías (INVÍAS)</span></a>
     </div>
     <p id="actualizado"></p>
+  </section>
+  <section id="replicas" hidden>
+    <h2>Réplicas en tiempo real</h2>
+    <p class="desc">Datos del USGS, consultados en el momento en que abres esta página. Las réplicas son normales después de un sismo fuerte y van disminuyendo con los días. El USGS solo cataloga las más fuertes (M 2,5+); el <a href="https://www.sgc.gov.co/sismos" rel="noopener" target="_blank">Servicio Geológico Colombiano</a> registra muchas más.</p>
+    <div id="replicas-datos"></div>
   </section>
   <section id="ayuda">
     <h2>Mapa de ayuda</h2>
@@ -157,6 +167,38 @@
     selD.onchange = () => { llenaMunicipios(); pinta(); };
     pinta();
   }).catch(() => { document.getElementById('ayuda').style.display = 'none'; });
+
+  // Réplicas: consulta directa al USGS en cada visita — siempre al día, sin servidor propio.
+  // El feed de resúmenes permite CORS (el endpoint FDSN no), así que filtramos la zona aquí.
+  const USGS = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson';
+  const EPI = { lat: 4.844, lon: -76.242 }, RADIO_GRADOS = 3.2;
+  function hace(ms) {
+    const m = Math.round(ms / 60000);
+    if (m < 60) return `hace ${m} min`;
+    const h = Math.round(m / 60);
+    if (h < 24) return `hace ${h} h`;
+    const d = Math.round(h / 24);
+    return d === 1 ? 'hace 1 día' : `hace ${d} días`;
+  }
+  fetch(USGS).then(r => r.json()).then(d => {
+    const qs = d.features.filter(f => {
+      const [lon, lat] = f.geometry.coordinates;
+      return f.properties.mag != null
+        && Math.abs(lat - EPI.lat) < RADIO_GRADOS && Math.abs(lon - EPI.lon) < RADIO_GRADOS;
+    }).sort((a, b) => b.properties.time - a.properties.time);
+    if (!qs.length) return;
+    const ahora = Date.now();
+    const ult = qs[0], p = ult.properties;
+    const ult24 = qs.filter(f => ahora - f.properties.time < 86400000).length;
+    const lista = qs.slice(0, 8).map(f => `<li><b>M ${f.properties.mag.toFixed(1)}</b> ${hace(ahora - f.properties.time)} · ${f.properties.place || ''}</li>`).join('');
+    document.getElementById('replicas-datos').innerHTML = `
+      <div class="replica-ult">
+        <strong>M ${p.mag.toFixed(1)}</strong> — última réplica registrada, ${hace(ahora - p.time)}<br>
+        <span style="color:var(--gris);font-size:.9rem">${p.place || ''} · ${ult24} réplicas en las últimas 24 horas · ${qs.length} desde el sismo</span>
+      </div>
+      <ul class="replica-lista">${lista}</ul>`;
+    document.getElementById('replicas').hidden = false;
+  }).catch(() => {});
 </script>
 </body>
 </html>
