@@ -16,4 +16,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 594c48bfc7fad4b7f22602d3332be1dd
-          command: pages deploy . --project-name=alianzasporcolombia --branch=main --commit-dirty=true
+          command: pages deploy public --project-name=alianzasporcolombia --branch=main --commit-dirty=true

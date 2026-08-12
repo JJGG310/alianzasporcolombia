@@ -13,27 +13,32 @@ Sitio ciudadano que centraliza información verificada sobre el terremoto del 10
 ## Estructura
 
 ```
-index.html        La página completa (HTML + CSS + JS vanilla, sin build)
-recursos.js       Directorio de enlaces por sección — editarlo ES actualizar la página
-datos/ayuda.json  Datos abiertos (CC BY 4.0): albergues, acopios, sangre, ollas, orgs de donación
+public/                  ← LO ÚNICO QUE SE PUBLICA en alianzasporcolombia.com
+  index.html             La página completa (HTML + CSS + JS vanilla, sin build)
+  recursos.js            Directorio de enlaces por sección — editarlo ES actualizar la página
+  datos/ayuda.json       Datos abiertos (CC BY 4.0): albergues, acopios, sangre, ollas, orgs
+
 RECURSOS.md       Inventario completo del barrido de fuentes (incluye caídas y vacíos)
 PLAN.md           Plan de producto por fases
 TRABAJO.md        Ruta de trabajo del equipo (quién hace qué, flujo git)
 docs/aliados.md   Borradores de contacto para los sitios hermanos
+docs/monitoreo.md Bitácora del agente de monitoreo automático
 ```
+
+**Regla:** todo lo que esté fuera de `public/` es interno y NO llega al sitio. Si agregas notas, borradores o documentos de trabajo, van fuera de `public/`.
 
 ## Correr local
 
 ```bash
-python3 -m http.server 8942
+python3 -m http.server 8942 --directory public
 ```
 
 y abrir http://localhost:8942 (hace falta servidor por el `fetch` de `datos/ayuda.json`; abrir el archivo directo no carga el mapa).
 
 ## Editar datos
 
-- **Enlaces del directorio** → `recursos.js` (cada item: nombre, url, desc, badge opcional).
-- **Puntos de ayuda / mapa** → `datos/ayuda.json`. Reglas: `tipo` ∈ albergue|acopio|sangre|olla|donacion-org; `fuente` y `fecha_corte` obligatorios; `lat/lon` solo si son confiables (si no, `null` y sale solo en la tabla); **jamás cuentas bancarias en ningún campo**.
+- **Enlaces del directorio** → `public/recursos.js` (cada item: nombre, url, desc, badge opcional).
+- **Puntos de ayuda / mapa** → `public/datos/ayuda.json`. Reglas: `tipo` ∈ albergue|acopio|sangre|olla|donacion-org; `fuente` y `fecha_corte` obligatorios; `lat/lon` solo si son confiables (si no, `null` y sale solo en la tabla); **jamás cuentas bancarias en ningún campo**.
 
 ## Deploy
 
@@ -41,7 +46,7 @@ Automático: cada push a `main` dispara [.github/workflows/deploy.yml](.github/w
 
 Para desplegar a mano desde tu máquina (si alguna vez hace falta):
 ```bash
-npx wrangler pages deploy . --project-name=alianzasporcolombia --branch=main
+npx wrangler pages deploy public --project-name=alianzasporcolombia --branch=main
 ```
 (pide login de Cloudflare la primera vez).
 
