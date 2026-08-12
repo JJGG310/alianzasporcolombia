@@ -25,6 +25,36 @@ Diseñada para trabajar **en paralelo sin pisarse**: cada persona es dueña de a
 - Difusión por WhatsApp/redes; recoger correcciones de la gente y pasarlas a Persona A.
 - Cuando entre el formulario ciudadano (Fase 2): moderar reportes.
 
+## Trabajar desde varias máquinas / sesiones a la vez
+
+El repo es **público** (github.com/JJGG310/alianzasporcolombia), así que cualquiera lo clona sin permisos. Para *empujar* cambios hace falta estar autenticado en esa máquina:
+
+```bash
+gh auth login          # una sola vez por máquina
+git clone https://github.com/JJGG310/alianzasporcolombia
+```
+
+**La regla que evita el 90% de los problemas:** `git pull` antes de empezar a editar, y `git push` apenas termines un cambio. Nada de acumular trabajo local por horas.
+
+Si dos sesiones tocan el mismo archivo a la vez, git rechaza el segundo push. No es grave — se arregla así:
+
+```bash
+git pull --rebase    # trae lo del otro y pone tus cambios encima
+git push
+```
+
+Si hay conflicto real (ambos editaron la misma línea), git marca el archivo; se edita a mano dejando la versión correcta y luego `git add <archivo> && git rebase --continue`.
+
+Por eso cada persona es dueña de archivos distintos (ver arriba): así el conflicto casi nunca ocurre.
+
+## Monitoreo automático
+
+Cada hora corre un agente en la nube que revisa boletines oficiales y liveblogs, verifica que los enlaces sigan vivos, y escribe lo que encuentre en `docs/monitoreo.md` (solo si hay novedades). **No modifica datos publicados** — solo reporta; Persona A revisa y aplica.
+
+Ver o pausar la rutina: https://claude.ai/code/routines/trig_014Qg4TSWyn1W3vxhGqjTDRo
+
+Lo que cambia minuto a minuto (réplicas) no lo maneja el agente: la página consulta al USGS directamente en cada visita, así que siempre está al día sin depender de nadie.
+
 ## Flujo git (simple, rápido)
 
 - `main` = lo que está publicado. Conectar el repo a Vercel/Netlify para deploy automático en cada push.
