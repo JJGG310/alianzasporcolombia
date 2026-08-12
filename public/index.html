@@ -18,6 +18,12 @@
   header h1{margin:0;font-size:1.5rem}
   header p{margin:.35rem 0 0;opacity:.92;font-size:.95rem}
   .aviso{background:#fff3cd;border-bottom:1px solid #e8d9a0;color:#5c4a00;font-size:.9rem;padding:.6rem 1rem;text-align:center}
+  #avisos{background:#1b1b1f;color:#f4f2ee;font-size:.9rem;padding:.5rem 1rem}
+  #avisos ul{max-width:760px;margin:0 auto;padding:0;list-style:none}
+  #avisos li{padding:.35rem 0}
+  #avisos li+li{border-top:1px solid #3a3a42}
+  #avisos a{color:#ffd7a1}
+  #avisos .fecha{opacity:.7;font-size:.8rem}
   main{max-width:760px;margin:0 auto;padding:1rem}
   .lineas{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.6rem;margin:.5rem 0 1.5rem}
   .lineas a{display:block;background:var(--carta);border:1px solid var(--borde);border-left:4px solid var(--rojo);border-radius:8px;padding:.6rem .8rem;text-decoration:none;color:inherit}
@@ -76,6 +82,7 @@
   </div>
 </header>
 <div class="aviso">⚠️ Verifica siempre con las fuentes oficiales. Este sitio recopila y enlaza; las cifras y órdenes de evacuación las emiten las autoridades.</div>
+<div id="avisos" hidden><ul></ul></div>
 <main>
   <section id="emergencias">
     <h2>Líneas de emergencia</h2>
@@ -183,6 +190,19 @@
       return `<span class="pill" style="background:#b45f0618;color:#b45f06">Sin confirmar hace ${dias} d</span><br><small style="color:var(--gris)">llama antes de ir</small>`;
     return `<span class="pill" style="background:#b45f0618;color:#b45f06">Por confirmar</span>`;
   }
+
+  // Avisos operativos vigentes (toque de queda, aeropuertos, vías) — curados y con fuente.
+  function cargaAvisos() {
+    fetch('datos/avisos.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
+      const its = d.items || [];
+      if (!its.length) return;
+      document.querySelector('#avisos ul').innerHTML = its.map(a =>
+        `<li>📢 ${a.texto} <span class="fecha">(${a.fecha} · <a href="${a.fuente}" rel="noopener" target="_blank">fuente</a>)</span></li>`).join('');
+      document.getElementById('avisos').hidden = false;
+    }).catch(() => {});
+  }
+  cargaAvisos();
+  setInterval(cargaAvisos, 300000);
 
   // Feed de necesidades reportadas (lugar + qué piden + fecha + fuente), curado por el equipo.
   let FEED_NECESIDADES = [];
