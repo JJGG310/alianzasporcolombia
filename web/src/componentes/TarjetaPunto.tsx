@@ -8,6 +8,7 @@ import {
   enlaceWhatsApp,
   estadoLabel,
   fechaCorta,
+  haceCuanto,
   lugar,
   tipoUI,
   ubicacion,
@@ -196,6 +197,16 @@ function TarjetaPunto({ punto: p, origen }: Props) {
       )}
 
       {p.descripcion && <p className="punto__desc">{p.descripcion}</p>}
+
+      {p.en_vivo?.nota && (
+        <p className="punto__vivo">
+          {p.en_vivo.nota}{' '}
+          <span className="punto__vivo-quien">
+            — reportado{p.en_vivo.por ? ` por ${p.en_vivo.por}` : ''}
+            {p.en_vivo.actualizado ? ` ${haceCuanto(p.en_vivo.actualizado)}` : ''}
+          </span>
+        </p>
+      )}
 
       {etqs.length > 0 && (
         <ul className="punto__etqs">

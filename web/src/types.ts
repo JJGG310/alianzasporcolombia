@@ -70,6 +70,15 @@ export interface Punto {
   vigente_hasta?: string;
   precision?: 'exacta' | 'aproximada' | string;
 
+  /** Reporte del equipo desde /equipo.html; más fresco que el archivo. */
+  en_vivo?: {
+    estado?: string;
+    urgente?: string;
+    nota?: string;
+    por?: string;
+    actualizado?: string;
+  };
+
   estado?: Estado | string;
   prioridad?: Prioridad | string;
 

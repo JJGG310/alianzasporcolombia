@@ -13,6 +13,7 @@ import TarjetaPunto from './componentes/TarjetaPunto';
 import Icono from './componentes/Icono';
 
 import { cargarDatos, esCurado } from './data/carga';
+import { aplicarEnVivo, traerEnVivo, type MapaEnVivo } from './data/envivo';
 import { fechaCorta, haceCuanto, normalizarBusqueda, textoBuscable } from './data/catalogo';
 import { FILTRO_VACIO, type DatosApp, type Filtro, type Punto } from './types';
 
@@ -62,6 +63,7 @@ function useAnchoGrande(): boolean {
 
 export default function App() {
   const [datos, setDatos] = useState<DatosApp | null>(null);
+  const [enVivo, setEnVivo] = useState<MapaEnVivo>({});
   const [error, setError] = useState<string | null>(null);
   const [filtro, setFiltro] = useState<Filtro>(FILTRO_VACIO);
   const [visibles, setVisibles] = useState(PAGINA);
@@ -109,11 +111,25 @@ export default function App() {
     setVisibles(PAGINA);
   }, []);
 
+  // Los reportes del equipo se consultan aparte y cada minuto: pesan unos pocos
+  // kilobytes, mientras que volver a bajar los ~979 puntos cada minuto no.
+  useEffect(() => {
+    const ac = new AbortController();
+    const traer = () => traerEnVivo(ac.signal).then(setEnVivo);
+    traer();
+    const id = setInterval(traer, 60000);
+    return () => {
+      clearInterval(id);
+      ac.abort();
+    };
+  }, []);
+
   // El universo cambia si se pide ver la cola de revisión.
   const universo: Punto[] = useMemo(() => {
     if (!datos) return [];
-    return filtro.requiereRevision ? datos.enRevision : datos.puntos;
-  }, [datos, filtro.requiereRevision]);
+    const base = filtro.requiereRevision ? datos.enRevision : datos.puntos;
+    return aplicarEnVivo(base, enVivo);
+  }, [datos, filtro.requiereRevision, enVivo]);
 
   // Índice de búsqueda: se calcula una vez por conjunto, no por tecla.
   const indice = useMemo(() => {

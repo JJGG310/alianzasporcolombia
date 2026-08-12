@@ -643,3 +643,18 @@
   margin-top: var(--e2);
   border-radius: var(--radio);
 }
+
+/* Nota que reportó el equipo desde el celular: es lo más reciente de la ficha,
+   así que se separa del texto publicado en vez de mezclarse con él. */
+.punto__vivo {
+  margin: var(--e2) 0 0;
+  padding: var(--e2);
+  border-left: 3px solid var(--urgente);
+  background: color-mix(in srgb, var(--urgente) 7%, transparent);
+  border-radius: var(--radio-sm);
+  font-size: var(--txt-sm);
+}
+.punto__vivo-quien {
+  color: var(--tinta-400);
+  font-size: var(--txt-xs);
+}
