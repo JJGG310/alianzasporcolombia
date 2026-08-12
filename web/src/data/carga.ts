@@ -87,6 +87,12 @@ export function normalizarCurado(item: ItemCurado): Punto {
     // Los 91 pasaron por revisión humana: ese es justo el punto del archivo.
     verificado: true,
     fecha_corte: item.fecha_corte,
+    // Curaduría que el modelo Go no tiene y por lo tanto el scraper descarta.
+    recibe: item.recibe,
+    no_recibe: item.no_recibe,
+    cobertura: item.cobertura,
+    vigente_hasta: item.vigente_hasta,
+    precision: item.precision,
   };
 }
 
@@ -161,10 +167,14 @@ export async function cargarDatos(señal?: AbortSignal): Promise<DatosApp> {
   // tipo— borraba 88 puntos legítimos, entre ellos un albergue y un banco de
   // sangre que comparten nombre y ciudad.
   //
-  // Por eso, si el archivo del scraper cargó, es la única fuente. Los curados
-  // sueltos solo se usan cuando ese archivo no está (clon recién bajado en el
-  // que nadie ha corrido `cd scraper && make correr`).
-  const todos = agregados.length > 0 ? agregados : curados;
+  // Pero para los CURADOS la autoridad es datos/ayuda.json, no la copia que
+  // lleva el scraper. Su instantánea se genera cada hora y además pasa por el
+  // modelo Go, que no tiene recibe/no_recibe/vigente_hasta/cobertura/precision
+  // y los borra. Usarla dejaba en vivo puntos que ya se habían fusionado y
+  // puntos de sangre vencidos marcados como activos.
+  // Entonces: los curados salen del archivo curado; del scraper solo lo agregado.
+  const todos =
+    agregados.length > 0 ? [...curados, ...agregados.filter((p) => !esCurado(p))] : curados;
 
   // Los que traen alerta de política salen del listado público.
   const publicos = todos.filter((p) => !requiereRevision(p));

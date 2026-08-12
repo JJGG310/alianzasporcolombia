@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Actualizar estado — Alianzas por Colombia</title>
+<style>
+  :root{--rojo:#c0182b;--tinta:#1b1b1f;--gris:#5c5c66;--fondo:#f7f6f4;--carta:#fff;--borde:#e3e1dc}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--fondo);color:var(--tinta);line-height:1.5}
+  header{background:var(--rojo);color:#fff;padding:1rem}
+  header h1{margin:0;font-size:1.15rem}
+  header p{margin:.2rem 0 0;font-size:.85rem;opacity:.92}
+  main{max-width:640px;margin:0 auto;padding:1rem}
+  label{display:block;font-weight:600;font-size:.9rem;margin:.9rem 0 .25rem}
+  input,select,textarea,button{font:inherit;width:100%;padding:.6rem .7rem;border:1px solid var(--borde);
+    border-radius:8px;background:var(--carta);color:inherit}
+  textarea{min-height:70px;resize:vertical}
+  button{background:var(--rojo);color:#fff;border:0;font-weight:700;cursor:pointer;margin-top:1.1rem;padding:.8rem}
+  button:disabled{opacity:.5;cursor:default}
+  .aviso{background:#fff3cd;border:1px solid #e8d9a0;color:#5c4a00;border-radius:8px;padding:.7rem .9rem;font-size:.88rem;margin-bottom:1rem}
+  #salida{margin-top:1rem;padding:.7rem .9rem;border-radius:8px;font-size:.9rem;display:none}
+  #salida.ok{display:block;background:#dcefdc;color:#1d6b2f}
+  #salida.mal{display:block;background:#fde2e4;color:#a01020}
+  .vivos{margin-top:1.75rem;border-top:1px solid var(--borde);padding-top:1rem}
+  .vivos h2{font-size:1rem;margin:0 0 .5rem}
+  .vivo{background:var(--carta);border:1px solid var(--borde);border-radius:8px;padding:.6rem .8rem;margin:.4rem 0;font-size:.88rem}
+  .vivo b{display:block}
+  .vivo small{color:var(--gris)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Actualizar estado de un punto</h1>
+  <p>Lo que marques aquí se ve en el sitio en segundos, sin desplegar nada.</p>
+</header>
+<main>
+  <div class="aviso">Esto <strong>no modifica los datos publicados</strong>: pone una nota encima que el sitio muestra junto al punto. Para corregir la ficha (dirección, teléfono) hay que editar <code>datos/ayuda.json</code>.</div>
+
+  <label for="clave">Clave del equipo</label>
+  <input id="clave" type="password" autocomplete="current-password" placeholder="la que compartieron por WhatsApp">
+
+  <label for="punto">Punto</label>
+  <select id="punto"><option value="">Cargando puntos…</option></select>
+
+  <label for="estado">¿Cómo está?</label>
+  <select id="estado">
+    <option value="abierto">Abierto y recibiendo</option>
+    <option value="lleno">Lleno / ya no recibe más por ahora</option>
+    <option value="cerrado">Cerrado — ya no opera</option>
+  </select>
+
+  <label for="urgente">¿Qué necesita con urgencia? (opcional)</label>
+  <input id="urgente" placeholder="agua, pañales talla 3, colchonetas">
+
+  <label for="nota">Nota corta (opcional)</label>
+  <textarea id="nota" placeholder="Ej: solo reciben hasta las 4 p.m. / se movieron a la sede de al lado"></textarea>
+
+  <label for="por">¿Quién reporta?</label>
+  <input id="por" placeholder="tu nombre, para saber a quién preguntarle">
+
+  <button id="enviar">Publicar</button>
+  <p id="salida"></p>
+
+  <div class="vivos">
+    <h2>Notas activas ahora</h2>
+    <div id="lista"><small>Cargando…</small></div>
+  </div>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const ETIQUETA = { abierto: 'Abierto', lleno: 'Lleno', cerrado: 'Cerrado' };
+
+// La clave queda en este dispositivo para no volver a escribirla en cada reporte.
+$('clave').value = localStorage.getItem('clave') || '';
+$('por').value = localStorage.getItem('por') || '';
+
+fetch('datos/ayuda.json').then(r => r.json()).then(d => {
+  const sel = $('punto');
+  sel.innerHTML = '<option value="">Elige un punto…</option>';
+  for (const i of d.items.slice().sort((a, b) => a.nombre.localeCompare(b.nombre)))
+    sel.add(new Option(`${i.nombre} — ${i.municipio}`, i.nombre));
+}).catch(() => { $('punto').innerHTML = '<option value="">No se pudo cargar la lista</option>'; });
+
+function pinta(o) {
+  const p = (o && o.puntos) || {};
+  const claves = Object.keys(p);
+  $('lista').innerHTML = claves.length
+    ? claves.map(k => {
+        const v = p[k];
+        return `<div class="vivo"><b>${k}</b>${ETIQUETA[v.estado] || v.estado}`
+             + `${v.urgente ? ' · necesita: ' + v.urgente : ''}${v.nota ? '<br>' + v.nota : ''}`
+             + `<br><small>${v.por || 'sin nombre'} · ${new Date(v.actualizado).toLocaleString('es-CO')}</small></div>`;
+      }).join('')
+    : '<small>Ninguna. El sitio muestra los datos publicados tal cual.</small>';
+}
+const cargar = () => fetch('/api/estado').then(r => r.json()).then(pinta)
+  .catch(() => { $('lista').innerHTML = '<small>El endpoint aún no responde: falta configurar KV y la clave.</small>'; });
+cargar();
+
+$('enviar').onclick = async () => {
+  const clave = $('clave').value.trim(), punto = $('punto').value;
+  if (!clave || !punto) return muestra('Falta la clave o el punto.', false);
+  localStorage.setItem('clave', clave);
+  localStorage.setItem('por', $('por').value.trim());
+  $('enviar').disabled = true;
+  try {
+    const r = await fetch('/api/estado', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', authorization: 'Bearer ' + clave },
+      body: JSON.stringify({ punto, estado: $('estado').value, urgente: $('urgente').value,
+                             nota: $('nota').value, por: $('por').value }),
+    });
+    const d = await r.json();
+    if (r.ok) { muestra('Publicado. Ya se ve en el sitio.', true); $('urgente').value = ''; $('nota').value = ''; cargar(); }
+    else muestra(d.error || 'No se pudo publicar.', false);
+  } catch { muestra('Sin conexión con el servidor.', false); }
+  $('enviar').disabled = false;
+};
+
+function muestra(txt, ok) {
+  const s = $('salida');
+  s.textContent = txt;
+  s.className = ok ? 'ok' : 'mal';
+}
+</script>
+</body>
+</html>

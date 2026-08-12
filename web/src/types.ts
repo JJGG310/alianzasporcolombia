@@ -62,6 +62,14 @@ export interface Punto {
   necesita?: string[];
   ofrece?: string[];
 
+  // Curaduría humana: el modelo Go del scraper no los lleva, así que solo
+  // existen en los puntos que vienen de datos/ayuda.json.
+  recibe?: string[];
+  no_recibe?: string[];
+  cobertura?: string;
+  vigente_hasta?: string;
+  precision?: 'exacta' | 'aproximada' | string;
+
   estado?: Estado | string;
   prioridad?: Prioridad | string;
 
@@ -140,6 +148,16 @@ export interface ItemCurado {
   fecha_corte: string;
   lat?: number | null;
   lon?: number | null;
+  /** Categorías de donación que este punto sí recibe (vocabulario cerrado). */
+  recibe?: string[];
+  /** Las que rechaza explícitamente: evita que alguien viaje en vano. */
+  no_recibe?: string[];
+  /** A quién sirve, cuando no coincide con dónde está (municipio = dónde vas). */
+  cobertura?: string;
+  /** Fecha en que la fuente dice que el punto deja de operar (AAAA-MM-DD). */
+  vigente_hasta?: string;
+  /** `aproximada` = centroide del municipio, no la dirección real. */
+  precision?: 'exacta' | 'aproximada' | string;
   // Campos que el JSON curado todavía no usa pero podría empezar a usar.
   estado?: Estado | string;
   horario?: string;
