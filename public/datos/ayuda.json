@@ -952,18 +952,19 @@
     },
     {
       "tipo": "acopio",
-      "nombre": "Banco de Alimentos de Buenaventura — red ABACO",
+      "nombre": "Banco de Alimentos de Buenaventura (red ABACO)",
       "municipio": "Buenaventura",
-      "direccion": "Avenida Simón Bolívar #47C-70",
-      "que": "Recibe: alimentos no perecederos y elementos de primera necesidad. Confirmar recepción antes de ir. No donar productos vencidos ni perecederos.",
+      "direccion": "Avenida Simón Bolívar No. 47C-70, interior Colegio Seminario, Buenaventura",
+      "que": "Recibe alimentos no perecederos, artículos de higiene y primeros auxilios. OJO: su sede (Av. Simón Bolívar No. 47C-70, interior Colegio Seminario) resultó afectada por el sismo y se evalúa un punto alterno de acopio — verificar antes de ir. También recibe elementos de primera necesidad. Confirmar recepción antes de ir; no donar productos vencidos ni perecederos.",
       "contacto": "Instagram: publicación de la red ABACO (https://www.instagram.com/p/Db3yn-LDvL-/)",
-      "fuente": "https://cuidarcolombia.vercel.app/",
+      "fuente": "https://www.semana.com/nacion/articulo/bancos-de-alimentos-activan-ayuda-para-damnificados-por-el-terremoto-en-colombia-asi-puede-donar/202641/",
       "fecha_corte": "2026-08-10",
       "lat": 3.88819,
       "lon": -77.07383,
       "departamento": "Valle del Cauca",
       "recibe": [
-        "alimentos"
+        "alimentos",
+        "aseo"
       ],
       "no_recibe": [],
       "precision": "aproximada"
@@ -971,7 +972,7 @@
     {
       "tipo": "acopio",
       "nombre": "Puntos de acopio en Cali para damnificados de Buenaventura",
-      "municipio": "Buenaventura",
+      "municipio": "Cali",
       "que": "Acopio específico destinado a Buenaventura: elementos de aseo, frazadas, ropa en buen estado, colchones y cobijas. Puntos: Centro Comercial Único y Plazoleta Jairo Varela (Cali).",
       "direccion": "Centro Comercial Único y Plazoleta Jairo Varela, Cali",
       "contacto": "",
@@ -985,7 +986,8 @@
         "abrigo",
         "ropa"
       ],
-      "no_recibe": []
+      "no_recibe": [],
+      "cobertura": "Buenaventura"
     },
     {
       "tipo": "acopio",
@@ -1050,13 +1052,13 @@
       "tipo": "acopio",
       "nombre": "Coliseo de Hockey Miguel Calero (acopio y punto de salud)",
       "municipio": "Cali",
-      "direccion": "",
+      "direccion": "Calle 9 con Carrera 37A/39, Unidad Deportiva Panamericana",
       "que": "Acopio y punto de salud habilitado por la Alcaldía de Cali. Recibe: colchonetas y frazadas, agua, alimentos no perecederos, kits de aseo, elementos de protección para remoción. No donar productos vencidos ni perecederos.",
       "contacto": "",
       "fuente": "https://cuidarcolombia.vercel.app/",
       "fecha_corte": "2026-08-11",
-      "lat": 3.41084,
-      "lon": -76.58121,
+      "lat": 3.4297,
+      "lon": -76.5432,
       "departamento": "Valle del Cauca",
       "recibe": [
         "agua",
@@ -1064,8 +1066,7 @@
         "aseo",
         "abrigo"
       ],
-      "no_recibe": [],
-      "precision": "aproximada"
+      "no_recibe": []
     },
     {
       "tipo": "acopio",
@@ -1349,7 +1350,8 @@
       "recibe": [
         "sangre"
       ],
-      "no_recibe": []
+      "no_recibe": [],
+      "estado": "cerrado"
     },
     {
       "tipo": "sangre",
@@ -1366,7 +1368,8 @@
         "sangre"
       ],
       "no_recibe": [],
-      "precision": "aproximada"
+      "precision": "aproximada",
+      "estado": "cerrado"
     },
     {
       "tipo": "olla",
@@ -1545,25 +1548,6 @@
     },
     {
       "tipo": "donacion-org",
-      "nombre": "Banco de Alimentos de Buenaventura",
-      "municipio": "Buenaventura",
-      "que": "Recibe alimentos no perecederos, artículos de higiene y primeros auxilios. OJO: su sede (Av. Simón Bolívar No. 47C-70, interior Colegio Seminario) resultó afectada por el sismo y se evalúa un punto alterno de acopio — verificar antes de ir.",
-      "direccion": "Avenida Simón Bolívar No. 47C-70, interior Colegio Seminario, Buenaventura",
-      "contacto": "",
-      "fuente": "https://www.semana.com/nacion/articulo/bancos-de-alimentos-activan-ayuda-para-damnificados-por-el-terremoto-en-colombia-asi-puede-donar/202641/",
-      "fecha_corte": "2026-08-10",
-      "lat": 3.88819,
-      "lon": -77.07383,
-      "departamento": "Valle del Cauca",
-      "recibe": [
-        "alimentos",
-        "aseo"
-      ],
-      "no_recibe": [],
-      "precision": "aproximada"
-    },
-    {
-      "tipo": "donacion-org",
       "nombre": "Cruz Roja Colombiana – Seccional Valle del Cauca",
       "municipio": "Cali",
       "que": "Donación de sangre en el banco regional (barrio San Fernando) y puntos móviles en Plaza de Caycedo y Plazoleta del CAM; también recibe alimentos no perecederos y artículos de aseo en el parqueadero de la sede",
@@ -1629,7 +1613,7 @@
       "fecha_corte": "2026-08-11",
       "lat": null,
       "lon": null,
-      "departamento": "Valle del Cauca",
+      "departamento": "Nacional",
       "recibe": [
         "alimentos"
       ],
@@ -1638,7 +1622,7 @@
     {
       "tipo": "donacion-org",
       "nombre": "Cruz Roja Colombiana (respuesta nacional al sismo)",
-      "municipio": "Valle del Cauca",
+      "municipio": "Nacional",
       "que": "Gestiona donaciones económicas por canales oficiales (vía su sitio web), campaña de donación de sangre y servicio de Restablecimiento de Contactos Familiares; desplegó 20 voluntarios de apoyo en el Valle del Cauca",
       "direccion": "",
       "contacto": "Reencuentro familiar: rcf@cruzrojacolombiana.org, WhatsApp 321 213 9525; web www.cruzrojacolombiana.org",
@@ -1646,23 +1630,24 @@
       "lon": -77.07552,
       "fuente": "https://www.cruzrojacolombiana.org/cruz-roja-colombiana-despliega-capacidades-para-dar-respuesta-tras-las-afectaciones-por-sismo-en-colombia/",
       "fecha_corte": "2026-08-10",
-      "departamento": "Valle del Cauca",
+      "departamento": "Nacional",
       "recibe": [
         "sangre",
         "voluntarios"
       ],
       "no_recibe": [],
-      "precision": "exacta"
+      "precision": "exacta",
+      "cobertura": "Todo el país"
     },
     {
       "tipo": "donacion-org",
       "nombre": "Gobernación del Valle del Cauca – Campaña 'Todos Somos Valle'",
-      "municipio": "Valle del Cauca",
+      "municipio": "Cali",
       "que": "Campaña departamental oficial de recolección para damnificados: elementos de aseo personal, frazadas y cobijas, ropa en buen estado, colchones, alimento para mascotas e insumos de seguridad industrial y rescate (NO medicamentos). Centro principal en la Antigua Licorera del Valle (7 a.m.–10 p.m.); punto en el Centro Comercial Único de Cali exclusivo para ayudas a Buenaventura; punto en Bogotá en la Casa del Valle",
       "direccion": "Antiguas bodegas Industria de Licores del Valle, Carrera 1 # 26-85, Cali; Casa del Valle, Calle 34 # 5-50, Bogotá",
       "contacto": "Web www.valledelcauca.gov.co",
-      "lat": 4.33546,
-      "lon": -75.82652,
+      "lat": 3.4516,
+      "lon": -76.532,
       "fuente": "https://www.eltiempo.com/colombia/cali/la-solidaridad-se-moviliza-en-el-valle-del-cauca-habilitan-tres-puntos-clave-en-cali-para-donaciones-tras-el-sismo-de-magnitud-7-3577852",
       "fecha_corte": "2026-08-12",
       "departamento": "Valle del Cauca",
@@ -1677,12 +1662,13 @@
       "no_recibe": [
         "medicamentos"
       ],
-      "precision": "aproximada"
+      "precision": "aproximada",
+      "cobertura": "Todo el Valle del Cauca; también recibe en Casa del Valle, Bogotá"
     },
     {
       "tipo": "donacion-org",
       "nombre": "Propacífico — campaña 'Solidaridad con el Pacífico'",
-      "municipio": "Valle del Cauca",
+      "municipio": "Cali",
       "que": "Recolección de medicamentos e insumos médicos urgentes para hospitales y centros de salud de municipios afectados (incluye Tuluá y Quibdó), en alianza con Fundación Valle del Lili y Hospital Padrino. Coordinan recogida a domicilio.",
       "direccion": "Carrera 4 No. 22-07, barrio San Nicolás, Cali",
       "contacto": "Steven González 324 566 6775 / Lorena Tabares 312 833 8340",
@@ -1695,12 +1681,13 @@
         "medicamentos"
       ],
       "no_recibe": [],
-      "precision": "aproximada"
+      "precision": "aproximada",
+      "cobertura": "Pacífico colombiano"
     },
     {
       "tipo": "donacion-org",
       "nombre": "Secretariado Nacional de Pastoral Social – Cáritas Colombiana",
-      "municipio": "Valle del Cauca",
+      "municipio": "Nacional",
       "que": "Activó su Servicio Nacional de Emergencias para recaudar fondos y apoyar directamente a las jurisdicciones eclesiásticas afectadas (incluida la provincia eclesiástica de Cali); recibe aportes en las parroquias de las diócesis y donaciones en línea; canaliza además la ayuda económica enviada por el Papa",
       "direccion": "",
       "contacto": "Web donar.caritascolombiana.org",
@@ -1708,10 +1695,11 @@
       "lon": -75.82652,
       "fuente": "https://www.religiondigital.org/america/iglesia-catolica-colombia-moviliza-solidaridad_1_1463404.html",
       "fecha_corte": "2026-08-11",
-      "departamento": "Valle del Cauca",
+      "departamento": "Nacional",
       "recibe": [],
       "no_recibe": [],
-      "precision": "aproximada"
+      "precision": "aproximada",
+      "cobertura": "Todo el país"
     },
     {
       "tipo": "donacion-org",
@@ -1731,7 +1719,7 @@
     {
       "tipo": "donacion-org",
       "nombre": "Fundación Éxito / Grupo Éxito",
-      "departamento": "Chocó, Valle del Cauca, Risaralda, Caldas",
+      "departamento": "Nacional",
       "municipio": "Nacional",
       "direccion": "",
       "lat": null,
@@ -1741,12 +1729,13 @@
       "fuente": "https://www.eltiempo.com/amp/economia/empresas/empresas-despliegan-ayuda-humanitaria-para-atender-a-los-afectados-por-el-terremoto-asi-puede-sumarse-a-las-donaciones-3577479",
       "fecha_corte": "2026-08-11",
       "recibe": [],
-      "no_recibe": []
+      "no_recibe": [],
+      "cobertura": "Chocó, Valle del Cauca, Risaralda, Caldas"
     },
     {
       "tipo": "donacion-org",
       "nombre": "Avianca",
-      "departamento": "Valle del Cauca, Quindío, Chocó, Risaralda",
+      "departamento": "Nacional",
       "municipio": "Nacional",
       "direccion": "",
       "lat": null,
@@ -1758,12 +1747,13 @@
       "recibe": [
         "voluntarios"
       ],
-      "no_recibe": []
+      "no_recibe": [],
+      "cobertura": "Valle del Cauca, Quindío, Chocó, Risaralda"
     },
     {
       "tipo": "donacion-org",
       "nombre": "Fundación Grupo Argos",
-      "departamento": "Chocó, Valle del Cauca, Risaralda, Caldas",
+      "departamento": "Nacional",
       "municipio": "Nacional",
       "direccion": "",
       "lat": null,
@@ -1773,7 +1763,8 @@
       "fuente": "https://www.eltiempo.com/amp/economia/empresas/empresas-despliegan-ayuda-humanitaria-para-atender-a-los-afectados-por-el-terremoto-asi-puede-sumarse-a-las-donaciones-3577479",
       "fecha_corte": "2026-08-10",
       "recibe": [],
-      "no_recibe": []
+      "no_recibe": [],
+      "cobertura": "Chocó, Valle del Cauca, Risaralda, Caldas"
     },
     {
       "tipo": "donacion-org",
@@ -1793,7 +1784,7 @@
     {
       "tipo": "donacion-org",
       "nombre": "BBVA Colombia",
-      "departamento": "Chocó, Valle del Cauca, Risaralda, Caldas",
+      "departamento": "Nacional",
       "municipio": "Nacional",
       "direccion": "",
       "lat": null,
@@ -1806,7 +1797,8 @@
         "alimentos",
         "aseo"
       ],
-      "no_recibe": []
+      "no_recibe": [],
+      "cobertura": "Chocó, Valle del Cauca, Risaralda, Caldas"
     },
     {
       "tipo": "donacion-org",
@@ -1826,7 +1818,7 @@
     {
       "tipo": "donacion-org",
       "nombre": "Claro Colombia",
-      "departamento": "Chocó, Valle del Cauca, Risaralda, Quindío, Caldas",
+      "departamento": "Nacional",
       "municipio": "Nacional",
       "direccion": "",
       "lat": null,
@@ -1836,7 +1828,8 @@
       "fuente": "https://www.semana.com/nacion/cali/articulo/avianca-claro-y-la-camara-de-comercio-de-bogota-anunciaron-medidas-de-apoyo-para-las-comunidades-afectadas-por-el-terremoto/202633/",
       "fecha_corte": "2026-08-11",
       "recibe": [],
-      "no_recibe": []
+      "no_recibe": [],
+      "cobertura": "Chocó, Valle del Cauca, Risaralda, Quindío, Caldas"
     },
     {
       "tipo": "donacion-org",
@@ -1925,7 +1918,9 @@
       "fecha_corte": "2026-08-12",
       "lat": null,
       "lon": null,
-      "recibe": [],
+      "recibe": [
+        "alimentos"
+      ],
       "no_recibe": []
     },
     {

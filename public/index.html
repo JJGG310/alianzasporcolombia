@@ -327,7 +327,7 @@
       const vivos = items.filter(i =>
         (!ft || i.tipo === ft) && (!fm || i.municipio === fm) && (!fd || i.departamento === fd) &&
         (!fn || (i.recibe || []).includes(fn)) &&
-        (!q || limpia([i.nombre, i.direccion, i.municipio, i.departamento, i.que].join(' ')).includes(q)));
+        (!q || limpia([i.nombre, i.direccion, i.municipio, i.departamento, i.cobertura, i.que].join(' ')).includes(q)));
       if (miUbic) {
         for (const i of vivos) i._km = (i.lat == null) ? Infinity : distKm(miUbic, i);
         vivos.sort((a, b) => a._km - b._km);
