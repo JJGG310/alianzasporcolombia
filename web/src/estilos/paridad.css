@@ -1,0 +1,367 @@
+/* Paridad con el sitio en vivo — avisos operativos, qué se necesita ahora y
+ * la puerta de «buscar a alguien».
+ *
+ * Tres bloques que hoy solo existen en el HTML vanilla. El CONTENIDO se porta
+ * tal cual; el ESTILO no: allá son cajas de colores literales, acá todo sale de
+ * tokens.css y por eso el modo oscuro sale gratis.
+ *
+ * Reglas que este archivo respeta a rajatabla:
+ *   · el rojo (--urgente) no aparece: nada de esto es una urgencia de un punto;
+ *   · nada de barras de color al costado, degradados, puntos decorativos ni
+ *     animaciones en bucle;
+ *   · el espaciado sale de --e1..--e8 y de ningún otro lado;
+ *   · la jerarquía la hacen el tamaño y el peso, no el color.
+ */
+
+/* ====================================================================== */
+/* Avisos operativos                                                      */
+/* ====================================================================== */
+/* Va arriba del todo. La separación del resto de la página la hace la
+   SUPERFICIE (una tarjeta clara sobre el fondo cálido), no el color: el ámbar
+   de --confirmar se queda en el rótulo y el icono, del tamaño de un sello.
+   Así el bloque se distingue sin gritar y el texto —lo único que hay que
+   leer— conserva todo el contraste de --tinta-900. */
+
+.avisos-op {
+  margin-block: var(--e4);
+  padding: var(--e3) var(--e4);
+  background: var(--superficie);
+  border: 1px solid var(--borde-fuerte);
+  border-radius: var(--radio-lg);
+  box-shadow: var(--sombra-sm);
+}
+
+.avisos-op__rotulo {
+  display: flex;
+  align-items: center;
+  gap: var(--e2);
+  font-size: var(--txt-xs);
+  font-weight: var(--peso-fuerte);
+  letter-spacing: var(--track-mayus);
+  text-transform: uppercase;
+  color: var(--confirmar);
+}
+
+.avisos-op__lista {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.avisos-op__item {
+  padding-block: var(--e3);
+}
+/* Separador entre avisos: una línea, no una barra de color. */
+.avisos-op__item + .avisos-op__item {
+  border-top: 1px solid var(--borde);
+}
+
+.avisos-op__texto {
+  color: var(--tinta-900);
+  line-height: var(--alto-suelto);
+  max-width: var(--ancho-prosa);
+}
+
+.avisos-op__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--e3);
+  min-height: var(--toque);
+  font-size: var(--txt-xs);
+  color: var(--tinta-500);
+}
+
+.avisos-op__fuente {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--e1);
+  min-height: var(--toque);
+  color: var(--enlace);
+  font-weight: var(--peso-medio);
+}
+.avisos-op__fuente:hover {
+  text-decoration-thickness: 2px;
+}
+.avisos-op__fuente:active {
+  color: var(--tinta-700);
+}
+
+/* «ver los otros N»: el resorte ocupa el renglón entero — en un celular, con
+   afán, un renglón se acierta y dos palabras no. */
+.avisos-op__resorte {
+  display: flex;
+  align-items: center;
+  gap: var(--e1);
+  min-height: var(--toque);
+  list-style: none;
+  cursor: pointer;
+  color: var(--enlace);
+  font-size: var(--txt-sm);
+  font-weight: var(--peso-medio);
+  border-top: 1px solid var(--borde);
+  transition: color var(--dur-1) var(--ease);
+}
+.avisos-op__resorte::-webkit-details-marker {
+  display: none;
+}
+.avisos-op__resorte:hover {
+  color: var(--tinta-900);
+}
+.avisos-op__resorte:focus-visible {
+  outline: 2px solid var(--foco);
+  outline-offset: -2px;
+}
+
+.avisos-op__flecha {
+  transition: transform var(--dur-2) var(--ease);
+}
+.avisos-op__mas[open] .avisos-op__flecha {
+  transform: rotate(180deg);
+}
+
+.avisos-op__lista--anidada .avisos-op__item:first-child {
+  border-top: 0;
+}
+
+.avisos-op__esqueleto {
+  display: block;
+  height: var(--e7);
+  margin-top: var(--e2);
+}
+
+/* ====================================================================== */
+/* Qué se necesita ahora                                                  */
+/* ====================================================================== */
+
+.necesidades {
+  margin-top: var(--e7);
+  padding-top: var(--e5);
+  border-top: 1px solid var(--borde);
+}
+
+.necesidades h2 {
+  font-size: var(--txt-lg);
+}
+
+.necesidades__intro {
+  margin-top: var(--e2);
+  font-size: var(--txt-sm);
+}
+
+.necesidades__corte {
+  color: var(--tinta-400);
+}
+
+.necesidades__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--e2);
+  margin-top: var(--e4);
+}
+/* El chip del sistema mide 38; acá sube a la mano completa porque esta fila es
+   lo primero que se toca de la sección. */
+.necesidades__chips .chip {
+  min-height: var(--toque);
+}
+
+.necesidades__lista {
+  display: grid;
+  gap: var(--e3);
+  margin: var(--e4) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.necesidades__item {
+  padding: var(--e4);
+}
+
+.necesidades__lugar {
+  font-size: var(--txt-md);
+  font-weight: var(--peso-fuerte);
+  color: var(--tinta-900);
+}
+
+.necesidades__donde {
+  display: flex;
+  align-items: center;
+  gap: var(--e1);
+  margin-top: var(--e1);
+  font-size: var(--txt-sm);
+  color: var(--tinta-500);
+}
+.necesidades__donde svg {
+  color: var(--tinta-400);
+}
+
+.necesidades__que {
+  margin-top: var(--e3);
+  max-width: var(--ancho-prosa);
+  color: var(--tinta-700);
+  line-height: var(--alto-suelto);
+}
+
+.necesidades__ver {
+  margin-top: var(--e2);
+  padding-inline: 0;
+  color: var(--enlace);
+}
+.necesidades__ver:hover {
+  background: transparent;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.necesidades__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--e3);
+  min-height: var(--toque);
+  margin-top: var(--e1);
+  font-size: var(--txt-xs);
+  color: var(--tinta-500);
+}
+
+.necesidades__fuente {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--e1);
+  min-height: var(--toque);
+  color: var(--enlace);
+  font-weight: var(--peso-medio);
+  /* El dominio puede ser largo; nunca debe romper la fila. */
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.necesidades__fuente:hover {
+  text-decoration-thickness: 2px;
+}
+.necesidades__fuente:active {
+  color: var(--tinta-700);
+}
+
+.necesidades__esqueleto {
+  height: var(--e8);
+  margin-top: var(--e3);
+}
+
+/* Desde tableta hay sitio para dos columnas: la lista es larga y así se ve
+   entera sin tanto pulgar. */
+@media (min-width: 720px) {
+  .necesidades__lista {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* ====================================================================== */
+/* Buscar a alguien                                                       */
+/* ====================================================================== */
+
+.busca {
+  margin-top: var(--e7);
+  padding-top: var(--e5);
+  border-top: 1px solid var(--borde);
+}
+
+.busca h2 {
+  font-size: var(--txt-lg);
+}
+
+.busca__intro {
+  margin-top: var(--e2);
+  font-size: var(--txt-sm);
+}
+
+/* Por qué enlazamos y no duplicamos. Superficie de contraste, sin color de
+   estado: es una explicación, no una alerta. */
+.busca__porque {
+  margin-top: var(--e3);
+  padding: var(--e3);
+  background: var(--superficie-2);
+  border-radius: var(--radio);
+  font-size: var(--txt-sm);
+}
+
+.busca__lista {
+  display: grid;
+  gap: var(--e3);
+  margin: var(--e4) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.busca__item {
+  padding: var(--e4);
+}
+
+.busca__cabeza {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--e2);
+}
+
+.busca__enlace {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--e2);
+  min-height: var(--toque);
+  font-size: var(--txt-md);
+  font-weight: var(--peso-fuerte);
+  letter-spacing: var(--track-titulo);
+  text-decoration: none;
+}
+.busca__enlace:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.busca__enlace:active {
+  color: var(--tinta-700);
+}
+
+/* El número del camino: orden, no decoración. Por eso es tinta apagada y no un
+   círculo de color. */
+.busca__num {
+  font-variant-numeric: tabular-nums;
+  color: var(--tinta-400);
+  font-weight: var(--peso-medio);
+}
+
+.busca__hace {
+  margin-top: var(--e2);
+  max-width: var(--ancho-prosa);
+  color: var(--tinta-700);
+  line-height: var(--alto-suelto);
+}
+
+/* Para qué caso sirve: más pequeño que el «qué hace», porque se lee después. */
+.busca__cuando {
+  margin-top: var(--e2);
+  max-width: var(--ancho-prosa);
+  font-size: var(--txt-sm);
+  color: var(--tinta-500);
+}
+
+.busca__contactos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--e2);
+  margin: var(--e3) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.busca__cifras {
+  margin-top: var(--e4);
+  font-size: var(--txt-sm);
+}
+
+@media (min-width: 720px) {
+  .busca__lista {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+}

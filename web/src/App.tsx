@@ -1,6 +1,9 @@
 import { Suspense, lazy, useCallback, useEffect, useMemo, useState } from 'react';
 
+import Avisos from './componentes/Avisos';
+import BuscarAlguien from './componentes/BuscarAlguien';
 import Directorio from './componentes/Directorio';
+import Necesidades from './componentes/Necesidades';
 import Encabezado from './componentes/Encabezado';
 import Filtros, { ordenarPorCercania, useOrigen } from './componentes/Filtros';
 import PieDePagina from './componentes/PieDePagina';
@@ -18,6 +21,30 @@ const MapaAyuda = lazy(() => import('./componentes/MapaAyuda'));
 
 /** Cuántos puntos se pintan de entrada. El resto, bajo demanda. */
 const PAGINA = 60;
+
+/**
+ * Las cinco secciones, en el orden en que sirven durante una emergencia.
+ *
+ * Se navegan por pestañas y no por scroll: la página completa mide varios
+ * metros en un celular, y quien busca dónde donar no tiene por qué pasar por
+ * 979 puntos de rescate para llegar. La estructura viene del sitio en vivo,
+ * que ya la validó con gente usándolo.
+ */
+const SECCIONES = [
+  { id: 'ahora', titulo: 'Ahora' },
+  { id: 'ayuda', titulo: 'Ayuda cerca' },
+  { id: 'buscar', titulo: 'Buscar a alguien' },
+  { id: 'donar', titulo: 'Donar' },
+  { id: 'fuentes', titulo: 'Fuentes' },
+] as const;
+
+type Seccion = (typeof SECCIONES)[number]['id'];
+
+/** La sección se refleja en el hash para poder compartir un enlace directo. */
+function seccionDelHash(): Seccion {
+  const h = typeof window !== 'undefined' ? window.location.hash.replace('#', '') : '';
+  return (SECCIONES.find((s) => s.id === h)?.id ?? 'ahora') as Seccion;
+}
 
 function useAnchoGrande(): boolean {
   const consulta = '(min-width: 900px)';
@@ -38,7 +65,24 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
   const [filtro, setFiltro] = useState<Filtro>(FILTRO_VACIO);
   const [visibles, setVisibles] = useState(PAGINA);
+  const [seccion, setSeccion] = useState<Seccion>(seccionDelHash);
   const anchoGrande = useAnchoGrande();
+
+  useEffect(() => {
+    if (seccion === 'donar') {
+      setFiltro((f) => (f.tipo === 'donacion-org' ? f : { ...f, tipo: 'donacion-org' }));
+    } else if (seccion === 'ayuda') {
+      setFiltro((f) => (f.tipo === 'donacion-org' ? { ...f, tipo: '' } : f));
+    }
+  }, [seccion]);
+
+  // El botón "atrás" del celular debe devolver a la pestaña anterior, no sacar
+  // del sitio: es el gesto que la gente usa sin pensar.
+  useEffect(() => {
+    const alCambiar = () => setSeccion(seccionDelHash());
+    window.addEventListener('hashchange', alCambiar);
+    return () => window.removeEventListener('hashchange', alCambiar);
+  }, []);
 
   // La ubicación que la persona compartió con "Cerca de mí". Vive solo en
   // memoria del navegador: no se guarda ni se manda a ningún lado.
@@ -134,7 +178,35 @@ export default function App() {
 
       <main className="app__cuerpo">
         <div className="contenedor">
-          <Replicas />
+          <Avisos />
+
+          <nav className="pestanas" aria-label="Secciones del sitio">
+            {SECCIONES.map((s) => (
+              <button
+                key={s.id}
+                type="button"
+                className="chip"
+                aria-pressed={seccion === s.id}
+                onClick={() => {
+                  setSeccion(s.id);
+                  // replaceState y no push: no queremos 20 entradas de historial
+                  // por tocar pestañas, pero sí un enlace compartible.
+                  history.replaceState(null, '', `#${s.id}`);
+                }}
+              >
+                {s.titulo}
+              </button>
+            ))}
+          </nav>
+
+          {seccion === 'ahora' && (
+            <>
+              <Replicas />
+              <Necesidades />
+            </>
+          )}
+
+          {seccion === 'buscar' && <BuscarAlguien />}
 
           {error && (
             <div className="aviso aviso--error" role="alert">
@@ -156,6 +228,7 @@ export default function App() {
             </div>
           )}
 
+          {(seccion === 'ayuda' || seccion === 'donar') && (
           <section id="herramienta" className="herramienta" aria-label="Buscar ayuda">
             {datos && (
               <p className="procedencia">
@@ -252,7 +325,9 @@ export default function App() {
               </>
             )}
           </section>
+          )}
 
+          {seccion === 'donar' && (
           <div className="explicacion">
             <h2>Qué es esto</h2>
             <p className="prosa">
@@ -273,8 +348,9 @@ export default function App() {
               dinero. Si un punto de este sitio te pide plata, no es nuestro.
             </p>
           </div>
+          )}
 
-          <Directorio />
+          {seccion === 'fuentes' && <Directorio />}
         </div>
       </main>
 

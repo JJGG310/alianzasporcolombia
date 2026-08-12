@@ -39,6 +39,19 @@ const copias = [
     a: join(web, 'public', 'extracted-data', 'puntos.geojson'),
     obligatorio: false,
   },
+  {
+    // Avisos operativos (toque de queda, aeropuertos). Sin ellos el componente
+    // simplemente no se pinta, así que no son obligatorios.
+    de: join(raiz, 'public', 'datos', 'avisos.json'),
+    a: join(web, 'public', 'datos', 'avisos.json'),
+    obligatorio: false,
+  },
+  {
+    // «Qué se necesita ahora». Mismo trato: si falta, la sección desaparece.
+    de: join(raiz, 'public', 'datos', 'necesidades.json'),
+    a: join(web, 'public', 'datos', 'necesidades.json'),
+    obligatorio: false,
+  },
 ];
 
 let faltoAlguno = false;

@@ -239,3 +239,25 @@
   justify-content: center;
   margin-top: var(--e5);
 }
+
+/* ---- Pestañas -------------------------------------------------------- */
+/* La página entera mide varios metros en un celular. Quien busca dónde donar
+   no tiene por qué pasar por 979 puntos de rescate para llegar. */
+
+.pestanas {
+  display: flex;
+  gap: var(--e2);
+  margin-bottom: var(--e4);
+  padding-bottom: var(--e1);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.pestanas::-webkit-scrollbar {
+  display: none;
+}
+
+.pestanas .chip {
+  flex: none;
+}
