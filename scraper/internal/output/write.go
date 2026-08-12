@@ -48,6 +48,27 @@ type ResumenFuente struct {
 	Error     string `json:"error,omitempty"`
 }
 
+// EscribirPublico escribe solo lo que va al sitio: el consolidado, el GeoJSON y
+// la ficha de fuentes. Sin raw/ — son varios megas de respuestas originales que
+// sirven para reprocesar, no para que alguien los baje desde un celular.
+func EscribirPublico(dir string, resultados []*model.Resultado, puntos []model.Punto, inf merge.Informe, generado time.Time) error {
+	if err := os.MkdirAll(dir, 0o755); err != nil {
+		return fmt.Errorf("creando %s: %w", dir, err)
+	}
+	cons, resumenes := consolidar(resultados, puntos, inf, generado)
+	if err := escribirJSON(filepath.Join(dir, "puntos.json"), cons); err != nil {
+		return err
+	}
+	if err := escribirJSON(filepath.Join(dir, "fuentes.json"), map[string]any{
+		"generado": cons.Generado,
+		"fuentes":  resumenes,
+		"informe":  inf,
+	}); err != nil {
+		return err
+	}
+	return escribirJSON(filepath.Join(dir, "puntos.geojson"), geojson(cons.Puntos, cons.Generado))
+}
+
 // Escribir vuelca todo a disco bajo dir (normalmente extracted-data/).
 func Escribir(dir string, resultados []*model.Resultado, puntos []model.Punto, inf merge.Informe, generado time.Time) error {
 	if err := os.MkdirAll(filepath.Join(dir, "raw"), 0o755); err != nil {
@@ -66,6 +87,28 @@ func Escribir(dir string, resultados []*model.Resultado, puntos []model.Punto, i
 	}
 
 	// 2) Consolidado normalizado y fusionado.
+	cons, resumenes := consolidar(resultados, puntos, inf, generado)
+
+	if err := escribirJSON(filepath.Join(dir, "puntos.json"), cons); err != nil {
+		return err
+	}
+
+	// 3) Ficha corta de fuentes: útil para el README y para el panel del sitio.
+	if err := escribirJSON(filepath.Join(dir, "fuentes.json"), map[string]any{
+		"generado": cons.Generado,
+		"fuentes":  resumenes,
+		"informe":  inf,
+	}); err != nil {
+		return err
+	}
+
+	// 4) Solo lo mapeable, como GeoJSON: para que prensa y aliados lo consuman
+	//    sin escribir código.
+	return escribirJSON(filepath.Join(dir, "puntos.geojson"), geojson(cons.Puntos, cons.Generado))
+}
+
+// consolidar arma el archivo publicable a partir de los resultados por fuente.
+func consolidar(resultados []*model.Resultado, puntos []model.Punto, inf merge.Informe, generado time.Time) (Consolidado, []ResumenFuente) {
 	resumenes := make([]ResumenFuente, 0, len(resultados))
 	for _, r := range resultados {
 		if r == nil {
@@ -107,22 +150,7 @@ func Escribir(dir string, resultados []*model.Resultado, puntos []model.Punto, i
 		Fuentes:  resumenes,
 		Puntos:   sinCrudo,
 	}
-	if err := escribirJSON(filepath.Join(dir, "puntos.json"), cons); err != nil {
-		return err
-	}
-
-	// 3) Ficha corta de fuentes: útil para el README y para el panel del sitio.
-	if err := escribirJSON(filepath.Join(dir, "fuentes.json"), map[string]any{
-		"generado": cons.Generado,
-		"fuentes":  resumenes,
-		"informe":  inf,
-	}); err != nil {
-		return err
-	}
-
-	// 4) Solo lo mapeable, como GeoJSON: para que prensa y aliados lo consuman
-	//    sin escribir código.
-	return escribirJSON(filepath.Join(dir, "puntos.geojson"), geojson(sinCrudo, cons.Generado))
+	return cons, resumenes
 }
 
 func escribirJSON(ruta string, v any) error {

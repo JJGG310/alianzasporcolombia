@@ -1,0 +1,6 @@
+# Los datos cambian con frecuencia durante la emergencia: nunca servir versiones viejas.
+/datos/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate

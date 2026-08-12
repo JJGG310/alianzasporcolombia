@@ -40,15 +40,17 @@ export default function TablaPuntos({ puntos, origen }: Props) {
           Puntos de ayuda filtrados, con su estado, ubicación, qué necesitan, fuente y
           fecha de corte.
         </caption>
+        {/* Anchos fijos: sin esto la columna de "qué necesita" empuja los
+            botones fuera de la pantalla, y compartir es prioridad del proyecto. */}
         <colgroup>
           <col style={{ width: conDistancia ? '9%' : '10%' }} />
-          <col style={{ width: conDistancia ? '19%' : '21%' }} />
-          <col style={{ width: conDistancia ? '18%' : '20%' }} />
+          <col style={{ width: conDistancia ? '18%' : '19%' }} />
+          <col style={{ width: conDistancia ? '16%' : '18%' }} />
           {conDistancia && <col style={{ width: '7%' }} />}
-          <col style={{ width: conDistancia ? '16%' : '17%' }} />
-          <col style={{ width: conDistancia ? '13%' : '13%' }} />
-          <col style={{ width: conDistancia ? '10%' : '11%' }} />
-          <col style={{ width: '8%' }} />
+          <col style={{ width: conDistancia ? '20%' : '21%' }} />
+          <col style={{ width: '14%' }} />
+          <col style={{ width: conDistancia ? '8%' : '9%' }} />
+          <col style={{ width: '9%' }} />
         </colgroup>
         <thead>
           <tr>
@@ -125,7 +127,7 @@ export default function TablaPuntos({ puntos, origen }: Props) {
                       )}
                     </ul>
                   ) : (
-                    p.descripcion
+                    <span className="tabla__desc">{p.descripcion}</span>
                   )}
                 </td>
 

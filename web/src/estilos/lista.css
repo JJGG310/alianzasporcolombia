@@ -282,28 +282,29 @@
 /* La <ul> la arma App (es quien pagina); acá solo se le quita la viñeta y se
    le pone la rejilla. Dos columnas apenas hay ancho para dos: en un celular
    angosto una tarjeta a media pantalla no cabe con la dirección completa. */
-.lista-puntos,
-.lista-tarjetas {
+.lista-puntos {
   list-style: none;
   margin: var(--e4) 0 0;
   padding: 0;
   display: grid;
+  /* minmax(0, 1fr) y no 1fr: con 1fr basta UN correo largo dentro de una
+     tarjeta para que la columna crezca por encima del ancho de la pantalla y
+     el celular quede con scroll horizontal. */
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--e3);
 }
 @media (min-width: 560px) {
-  .lista-puntos,
-  .lista-tarjetas {
+  .lista-puntos {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   }
 }
 /* Cada <li> es solo el hueco de la rejilla: la tarjeta lo llena entero para
    que dos tarjetas de distinto alto queden parejas. */
-.lista-puntos > li,
-.lista-tarjetas > li {
+.lista-puntos > li {
   display: flex;
+  min-width: 0;
 }
-.lista-puntos > li > .punto,
-.lista-tarjetas > li > .punto {
+.lista-puntos > li > .punto {
   flex: 1;
 }
 
@@ -311,9 +312,13 @@
   display: flex;
   flex-direction: column;
   gap: var(--e2);
+  min-width: 0;
   padding: var(--e4);
   border-left: 1px solid var(--borde);
   background: var(--superficie);
+  /* Los datos vienen de formularios ciudadanos: hay correos, URLs y cadenas
+     sin espacios que hay que partir o se salen de la tarjeta. */
+  overflow-wrap: break-word;
 }
 /* Urgente a un metro de distancia: una banda de 3 px y el sello. Pintar la
    tarjeta entera de rojo haría que 41 urgencias se vean como 878. */
@@ -384,6 +389,8 @@
   letter-spacing: var(--track-mayus);
   text-transform: uppercase;
   color: var(--tinta-400);
+  /* Dentro de la tabla las celdas parten por donde sea; "NECES/ITA" no. */
+  white-space: nowrap;
 }
 .punto__etq {
   padding: 2px var(--e2);
@@ -421,6 +428,8 @@
   display: inline-flex;
   align-items: center;
   gap: var(--e1);
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 .punto__meta svg {
   color: var(--tinta-400);
@@ -503,7 +512,9 @@
 }
 .tabla th {
   position: sticky;
-  top: 0;
+  /* Debajo de la barra del sitio, que también es pegajosa: si se pega a 0 el
+     encabezado queda escondido detrás de ella justo cuando hace falta. */
+  top: var(--alto-barra);
   z-index: 2;
   padding: var(--e2) var(--e3);
   border-bottom: 1px solid var(--borde-fuerte);
@@ -545,6 +556,15 @@
   margin-top: var(--e1);
   color: var(--tinta-400);
   font-size: var(--txt-xs);
+}
+/* La descripción larga se corta a tres líneas: la tabla es para barrer, y una
+   fila de doce renglones rompe el barrido. El texto completo está en la
+   tarjeta y en la fuente. */
+.tabla__desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .tabla__num {
   text-align: right;
@@ -615,39 +635,4 @@
   height: var(--toque);
   margin-top: var(--e2);
   border-radius: var(--radio);
-}
-
-/* ==========================================================================
-   5. Paginación (el "mostrar más" que vive en App)
-   ========================================================================== */
-
-.mas {
-  display: flex;
-  justify-content: center;
-  margin: var(--e5) 0;
-}
-.mas .boton {
-  min-height: var(--toque);
-  padding: 0 var(--e5);
-  border: 1px solid var(--borde-fuerte);
-  border-radius: var(--radio);
-  background: var(--superficie);
-  color: var(--tinta-900);
-  font-size: var(--txt-sm);
-  font-weight: var(--peso-medio);
-}
-.mas .boton:hover {
-  background: var(--superficie-2);
-  border-color: var(--tinta-300);
-}
-
-/* ==========================================================================
-   6. Puente con el App de hoy
-   ==========================================================================
-   App todavía pinta su propio párrafo de "ningún punto coincide". Lo reemplaza
-   el estado vacío de Filtros, que sí dice qué filtro está estorbando y ofrece
-   quitarlo. Cuando ese párrafo salga de App.tsx, esta regla se borra. */
-
-.sin-resultados {
-  display: none;
 }

@@ -135,6 +135,20 @@ La recolección ciudadana **no** se consolidó en hashtags ni cadenas de WhatsAp
 9. **datos.gov.co está vacío de la emergencia** (0 datasets, verificado vía API Socrata). → Transcribir las listas de acopios de El Tiempo/Infobae a un JSON propio es la materia prima inmediata; dejar un poller por si publican censos.
 10. **El SGC no expone API pública de réplicas** — su visor consume un endpoint interno. → Descubrirlo con DevTools o usar USGS FDSN mientras tanto.
 
+## Fuentes nuevas detectadas (barrido de las 4:15 p.m., 12-ago)
+
+**Con RSS confirmado funcionando** (candidatas para la rutina de monitoreo):
+- Pulzo — https://www.pulzo.com/rss
+- Eje21 (Manizales/Eje Cafetero) — https://www.eje21.com.co/feed/
+- Publimetro Colombia — https://www.publimetro.co/arc/outboundfeeds/rss/
+- La Corriente — https://lacorriente.com/feed
+
+**Sin RSS, scraping o revisión manual:** La Patria (lapatria.com — el mejor detalle local de Caldas), Portafolio sección Empresas, La República especial Catástrofe Nacional, El Quindiano, La Crónica del Quindío, CiudadRegión (Valle), Vanguardia, El Colombiano, Fundación Plan (página de emergencia), donahoy.abaco.org.co/colombia2026 (corredor humanitario).
+
+**Bloqueadas a bots (revisar en navegador):** Canal Trece, Cambio Colombia, 90minutos.co, cuenta X @MafeCarrascal (recopila pedidos de ayuda).
+
+**Dataset útil:** Directorio de Juntas de Acción Comunal en datos.gov.co (API Socrata) — para contactar redes comunitarias por municipio.
+
 ## Pendiente
 
 - Verificar a mano (bloqueados para bots, pueden funcionar en navegador): HOT Tasking Manager (tasks.hotosm.org — buscar "Colombia earthquake"), uMap HOT (umap.hotosm.org/en/map/colombia-m-74-earthquake-10-ago-2026_3482), IFRC GO, Canal Trece (cifras UNGRD/Medicina Legal), @numeral767 e @EMCALIoficial en X.

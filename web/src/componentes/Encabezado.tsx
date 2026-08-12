@@ -24,7 +24,7 @@ interface Props {
 export default function Encabezado({ actualizado }: Props) {
   return (
     <>
-      <a className="saltar" href="#ayuda">
+      <a className="saltar" href="#herramienta">
         Saltar al mapa de ayuda
       </a>
 

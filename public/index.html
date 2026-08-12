@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alianzas por Colombia — Terremoto 10 de agosto</title>
+<meta name="description" content="Información ciudadana centralizada sobre el terremoto del 10 de agosto de 2026 en Colombia: emergencias, albergues, acopios, donaciones verificadas, desaparecidos y fuentes oficiales. Empezando por Cali y el Valle, creciendo a todo el país.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root{
+    --rojo:#c0182b; --tinta:#1b1b1f; --gris:#5c5c66; --fondo:#f7f6f4;
+    --carta:#ffffff; --borde:#e3e1dc;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--fondo);color:var(--tinta);line-height:1.5}
+  header{background:var(--rojo);color:#fff;padding:1.25rem 1rem}
+  header .wrap{max-width:760px;margin:0 auto}
+  header h1{margin:0;font-size:1.5rem}
+  header p{margin:.35rem 0 0;opacity:.92;font-size:.95rem}
+  .aviso{background:#fff3cd;border-bottom:1px solid #e8d9a0;color:#5c4a00;font-size:.9rem;padding:.6rem 1rem;text-align:center}
+  #avisos{background:#1b1b1f;color:#f4f2ee;font-size:.9rem;padding:.5rem 1rem}
+  #avisos ul{max-width:760px;margin:0 auto;padding:0;list-style:none}
+  #avisos li{padding:.35rem 0}
+  #avisos li+li{border-top:1px solid #3a3a42}
+  #avisos a{color:#ffd7a1}
+  #avisos .fecha{opacity:.7;font-size:.8rem}
+  main{max-width:760px;margin:0 auto;padding:1rem}
+  .lineas{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.6rem;margin:.5rem 0 1.5rem}
+  .lineas a{display:block;background:var(--carta);border:1px solid var(--borde);border-left:4px solid var(--rojo);border-radius:8px;padding:.6rem .8rem;text-decoration:none;color:inherit}
+  .lineas a strong{display:block;font-size:1.3rem;color:var(--rojo)}
+  .lineas a span{font-size:.85rem;color:var(--gris)}
+  section{margin:1.75rem 0}
+  h2{font-size:1.15rem;margin:0 0 .25rem;border-bottom:2px solid var(--rojo);padding-bottom:.3rem}
+  .desc{margin:.25rem 0 .75rem;color:var(--gris);font-size:.9rem}
+  ul.recursos{list-style:none;margin:0;padding:0}
+  ul.recursos li{background:var(--carta);border:1px solid var(--borde);border-radius:8px;padding:.7rem .9rem;margin:.5rem 0}
+  ul.recursos a{color:#0b57d0;font-weight:600;text-decoration:none;word-break:break-word}
+  ul.recursos a:hover{text-decoration:underline}
+  ul.recursos p{margin:.25rem 0 0;font-size:.9rem;color:var(--gris)}
+  .badge{display:inline-block;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.03em;background:#eee;border-radius:99px;padding:.1rem .55rem;margin-left:.4rem;color:var(--gris);vertical-align:middle}
+  .badge.oficial{background:#dcefdc;color:#1d6b2f}
+  .badge.en-vivo{background:#fde2e4;color:var(--rojo)}
+  footer{max-width:760px;margin:2rem auto 0;padding:1rem;border-top:1px solid var(--borde);font-size:.85rem;color:var(--gris)}
+  #actualizado{font-size:.85rem;color:var(--gris)}
+  #map{height:380px;border-radius:8px;border:1px solid var(--borde);margin:.75rem 0}
+  .filtros{display:flex;gap:.5rem;flex-wrap:wrap;margin:.5rem 0}
+  /* sin max-width el select crece hasta el nombre de municipio más largo y desborda la pantalla */
+  .filtros select,.filtros input{padding:.4rem .6rem;border:1px solid var(--borde);border-radius:6px;background:var(--carta);font-size:.9rem;font-family:inherit;max-width:100%}
+  #f-texto{flex:1 1 100%;min-width:0;font-size:1rem;padding:.55rem .7rem}
+  #btn-cerca{font:inherit;font-size:.9rem;font-weight:600;cursor:pointer;padding:.4rem .8rem;
+    border:1px solid var(--borde);border-radius:6px;background:var(--carta);color:var(--tinta)}
+  #btn-cerca[aria-pressed="true"]{background:var(--rojo);border-color:var(--rojo);color:#fff}
+  #resumen{font-size:.85rem;color:var(--gris);margin:.4rem 0 0}
+  .ets{display:flex;flex-wrap:wrap;gap:.25rem;margin-top:.35rem}
+  .et{font-size:.7rem;font-weight:600;border-radius:5px;padding:.1rem .4rem;background:#e8f0e8;color:#1d6b2f;white-space:nowrap}
+  .et.no{background:#fde2e4;color:#a01020}
+  .tabla-wrap{overflow-x:auto;background:var(--carta);border:1px solid var(--borde);border-radius:8px}
+  #tabla-ayuda{width:100%;border-collapse:collapse;font-size:.85rem}
+  #tabla-ayuda th,#tabla-ayuda td{padding:.5rem .6rem;text-align:left;border-bottom:1px solid var(--borde);vertical-align:top}
+  #tabla-ayuda th{background:var(--fondo);position:sticky;top:0}
+  #tabla-ayuda a{color:#0b57d0}
+  .pill{display:inline-block;font-size:.72rem;font-weight:700;border-radius:99px;padding:.1rem .5rem;white-space:nowrap}
+  .replica-ult{background:var(--carta);border:1px solid var(--borde);border-left:4px solid var(--rojo);border-radius:8px;padding:.7rem .9rem;margin-bottom:.5rem}
+  .replica-ult strong{font-size:1.4rem;color:var(--rojo)}
+  .replica-lista{list-style:none;margin:0;padding:0;font-size:.85rem}
+  .replica-lista li{display:flex;gap:.6rem;padding:.35rem 0;border-bottom:1px solid var(--borde);color:var(--gris)}
+  .replica-lista li b{color:var(--tinta);min-width:2.6rem}
+  .ciudades{display:flex;gap:.5rem;flex-wrap:wrap;margin:.6rem 0}
+  .ciudades button{font:inherit;font-weight:600;cursor:pointer;background:var(--carta);color:var(--tinta);
+    border:1px solid var(--borde);border-radius:99px;padding:.55rem 1rem;font-size:.95rem}
+  .ciudades button:hover{border-color:var(--rojo);color:var(--rojo)}
+  .ciudades button[aria-pressed="true"]{background:var(--rojo);border-color:var(--rojo);color:#fff}
+  .ciudades button small{font-weight:400;opacity:.75;margin-left:.3rem}
+  button.wa{font:inherit;font-size:.78rem;font-weight:600;cursor:pointer;margin-top:.3rem;
+    background:#25d366;color:#fff;border:0;border-radius:6px;padding:.25rem .6rem;white-space:nowrap}
+  button.wa:hover{filter:brightness(.93)}
+  #necesita{background:#fff8f0;border:1px solid #e8cfa0;border-radius:8px;padding:.8rem 1rem;margin:.75rem 0}
+  #necesita h3{margin:0 0 .4rem;font-size:1rem;color:#8a5200}
+  #necesita ul{margin:0;padding:0;list-style:none;font-size:.9rem}
+  #necesita li{padding:.3rem 0;border-bottom:1px solid #f0e2c8}
+  #necesita li:last-child{border-bottom:0}
+  #necesita .fecha{color:var(--gris);font-size:.8rem;white-space:nowrap}
+  #frescura{color:var(--gris);font-size:.8rem}
+  /* En celular la tabla de 7 columnas obliga a arrastrar de lado para llegar al teléfono
+     de un albergue. Cada fila pasa a ser una tarjeta apilada; el orden de las columnas
+     ya se lee solo (tipo, nombre, ciudad, dirección, qué, estado, fuente). */
+  @media (max-width:700px){
+    .tabla-wrap{overflow-x:visible;background:transparent;border:0;border-radius:0}
+    #tabla-ayuda{font-size:.9rem}
+    #tabla-ayuda thead{display:none}
+    #tabla-ayuda,#tabla-ayuda tbody,#tabla-ayuda tr,#tabla-ayuda td{display:block;width:auto}
+    #tabla-ayuda tr{background:var(--carta);border:1px solid var(--borde);border-radius:8px;
+      padding:.75rem .85rem;margin-bottom:.6rem}
+    #tabla-ayuda td{border:0;padding:.12rem 0}
+    #tabla-ayuda td:empty{display:none}
+    #tabla-ayuda td:nth-child(2){font-size:1.05rem;line-height:1.3;margin:.15rem 0}
+    #tabla-ayuda td:nth-child(3),#tabla-ayuda td:nth-child(7){color:var(--gris);font-size:.82rem}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Alianzas por Colombia</h1>
+    <p>Información ciudadana centralizada · Terremoto M 7,4 — 10 de agosto de 2026 · Del Valle del Cauca para todo el país</p>
+  </div>
+</header>
+<div class="aviso">⚠️ Verifica siempre con las fuentes oficiales. Este sitio recopila y enlaza; las cifras y órdenes de evacuación las emiten las autoridades.</div>
+<div id="avisos" hidden><ul></ul></div>
+<main>
+  <section id="emergencias">
+    <h2>Líneas de emergencia</h2>
+    <div class="lineas">
+      <a href="tel:123"><strong>123</strong><span>Emergencias (única nacional)</span></a>
+      <a href="tel:119"><strong>119</strong><span>Bomberos</span></a>
+      <a href="tel:132"><strong>132</strong><span>Cruz Roja</span></a>
+      <a href="tel:144"><strong>144</strong><span>Defensa Civil</span></a>
+      <a href="tel:125"><strong>125</strong><span>Emergencias en salud (Valle)</span></a>
+      <a href="tel:767"><strong>#767</strong><span>Estado de vías (INVÍAS)</span></a>
+    </div>
+    <p id="actualizado"></p>
+  </section>
+  <section id="donde" hidden>
+    <h2>¿En qué ciudad estás?</h2>
+    <p class="desc">Toca tu ciudad para ver ahí mismo los albergues, puntos de acopio, bancos de sangre y ollas comunitarias.</p>
+    <div class="ciudades" id="ciudades"></div>
+  </section>
+  <section id="replicas" hidden>
+    <h2>Réplicas en tiempo real</h2>
+    <p class="desc">Datos del USGS, consultados en el momento en que abres esta página. Las réplicas son normales después de un sismo fuerte y van disminuyendo con los días. El USGS solo cataloga las más fuertes (M 2,5+); el <a href="https://www.sgc.gov.co/sismos" rel="noopener" target="_blank">Servicio Geológico Colombiano</a> registra muchas más.</p>
+    <div id="replicas-datos"></div>
+  </section>
+  <section id="buscar">
+    <h2>¿Estás buscando a alguien?</h2>
+    <p class="desc">Tres canales, cada uno sirve para algo distinto. Puedes usar los tres a la vez.</p>
+    <ul class="recursos">
+      <li>
+        <a href="https://www.colombiatebusca.com" rel="noopener" target="_blank">1. Colombia Te Busca</a><span class="badge ciudadano">reportar y buscar</span>
+        <p>El registro ciudadano más grande (más de 5.100 personas). <strong>Empieza aquí:</strong> busca por nombre o documento, y si no aparece, repórtala. Genera una ficha que puedes compartir por WhatsApp. Ten a mano: nombre completo, edad, documento, último lugar donde se le vio y una foto.</p>
+      </li>
+      <li>
+        <a href="https://encontrados.co" rel="noopener" target="_blank">2. Encontrados.co</a><span class="badge ciudadano">búsqueda por foto</span>
+        <p>Cruza con inteligencia artificial las fotos de personas ya rescatadas contra los reportes de desaparecidos. Útil si la persona pudo haber sido llevada a un hospital o albergue sin identificar.</p>
+      </li>
+      <li>
+        <a href="https://www.cruzrojacolombiana.org/cruz-roja-colombiana-despliega-capacidades-para-dar-respuesta-tras-las-afectaciones-por-sismo-en-colombia/" rel="noopener" target="_blank">3. Cruz Roja — Contactos Familiares</a><span class="badge oficial">canal oficial</span>
+        <p>El canal humanitario oficial. Línea <a href="tel:132">132</a>, WhatsApp <a href="https://wa.me/573212139525" rel="noopener" target="_blank">321 213 9525</a>, correo rcf@cruzrojacolombiana.org. También la Personería de Cali atiende 24/7 en el <a href="tel:3183355722">318 335 5722</a>.</p>
+      </li>
+    </ul>
+    <p class="desc"><strong>Sobre las cifras que ves en las noticias:</strong> los reportes oficiales hablan de unos ~195 desaparecidos y los registros ciudadanos de varios miles. No se contradicen: los primeros son casos verificados por las autoridades y los segundos son reportes abiertos, donde muchas personas ya aparecieron pero nadie ha cerrado el reporte. Si reportaste a alguien y ya apareció, márcalo como localizado — eso ayuda a todos.</p>
+  </section>
+  <section id="ayuda">
+    <h2>Mapa de ayuda</h2>
+    <p class="desc">Albergues, puntos de acopio, bancos de sangre, ollas comunitarias y organizaciones que gestionan donaciones, en las zonas afectadas. <strong>Llama antes de ir:</strong> la columna «Estado» te dice hace cuánto no se confirma cada punto — la situación cambia rápido y un albergue puede llenarse o cerrar. <strong>Nunca publicamos cuentas bancarias:</strong> contacta a la organización y valida con ella antes de entregar dinero. <span id="ayuda-corte"></span></p>
+    <div class="filtros">
+      <input id="f-texto" type="search" placeholder="Buscar por nombre, barrio, dirección…" aria-label="Buscar">
+      <select id="f-depto" aria-label="Filtrar por departamento"><option value="">Todos los departamentos</option></select>
+      <select id="f-municipio" aria-label="Filtrar por municipio"><option value="">Todos los municipios</option></select>
+      <select id="f-tipo" aria-label="Filtrar por tipo"><option value="">Todos los tipos</option></select>
+      <select id="f-necesidad" aria-label="Filtrar por lo que quieres donar"><option value="">¿Qué quieres donar?</option></select>
+      <button id="btn-cerca" type="button" aria-pressed="false">📍 Cerca de mí</button>
+    </div>
+    <div id="necesita" hidden>
+      <h3>Qué se necesita ahora</h3>
+      <ul></ul>
+    </div>
+    <p id="resumen"></p>
+    <div id="map"></div>
+    <div class="tabla-wrap">
+      <table id="tabla-ayuda">
+        <thead><tr><th>Tipo</th><th>Nombre</th><th>Municipio</th><th>Dónde / contacto</th><th>Qué</th><th>Estado</th><th>Fuente</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+  <div id="contenido"><!-- secciones renderizadas desde recursos.js --></div>
+</main>
+<footer>
+  Alianzas por Colombia es una iniciativa ciudadana sin ánimo de lucro. No recibimos donaciones directamente ni publicamos cuentas: enlazamos a organizaciones verificadas — valida siempre con ellas antes de entregar dinero.
+</footer>
+<script src="recursos.js"></script>
+<script>
+  document.getElementById('actualizado').textContent = 'Última actualización del directorio: ' + RECURSOS.actualizado;
+  const cont = document.getElementById('contenido');
+  for (const sec of RECURSOS.secciones) {
+    const s = document.createElement('section');
+    s.id = sec.id;
+    const items = sec.items.map(i => `
+      <li>
+        <a href="${i.url}" rel="noopener" target="_blank">${i.nombre}</a>${i.badge ? `<span class="badge ${i.badge.replace(/\s/g,'-').toLowerCase()}">${i.badge}</span>` : ''}
+        <p>${i.desc}</p>
+      </li>`).join('');
+    s.innerHTML = `<h2>${sec.titulo}</h2><p class="desc">${sec.desc}</p><ul class="recursos">${items}</ul>`;
+    cont.appendChild(s);
+  }
+</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  const TIPOS = {
+    "albergue":      { label: "Albergue",          color: "#c0182b" },
+    "acopio":        { label: "Punto de acopio",   color: "#1d6b2f" },
+    "sangre":        { label: "Banco de sangre",   color: "#8b0f57" },
+    "olla":          { label: "Olla comunitaria",  color: "#b45f06" },
+    "donacion-org":  { label: "Recibe donaciones", color: "#0b57d0" },
+  };
+  // Estado del dato: si nadie lo confirma, envejece solo y lo decimos en vez de fingir que sigue vigente.
+  const ESTADOS = {
+    "vigente":       { texto: "Confirmado",     color: "#1d6b2f" },
+    "por-confirmar": { texto: "Por confirmar",  color: "#b45f06" },
+    "cerrado":       { texto: "Ya no opera",    color: "#8a8a8a" },
+  };
+  function estado(i) {
+    if (i.estado === 'cerrado') return `<span class="pill" style="background:#8a8a8a18;color:#8a8a8a">Ya no opera</span>`;
+    const dias = Math.floor((Date.now() - new Date(i.verificado || i.fecha_corte)) / 86400000);
+    if (i.estado === 'vigente' && dias <= 2)
+      return `<span class="pill" style="background:#1d6b2f18;color:#1d6b2f">Confirmado</span><br><small style="color:var(--gris)">hace ${dias === 0 ? 'hoy' : dias + ' d'}</small>`;
+    if (dias >= 3)
+      return `<span class="pill" style="background:#b45f0618;color:#b45f06">Sin confirmar hace ${dias} d</span><br><small style="color:var(--gris)">llama antes de ir</small>`;
+    return `<span class="pill" style="background:#b45f0618;color:#b45f06">Por confirmar</span>`;
+  }
+
+  // Avisos operativos vigentes (toque de queda, aeropuertos, vías) — curados y con fuente.
+  function cargaAvisos() {
+    fetch('datos/avisos.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
+      const its = d.items || [];
+      if (!its.length) return;
+      document.querySelector('#avisos ul').innerHTML = its.map(a =>
+        `<li>📢 ${a.texto} <span class="fecha">(${a.fecha} · <a href="${a.fuente}" rel="noopener" target="_blank">fuente</a>)</span></li>`).join('');
+      document.getElementById('avisos').hidden = false;
+    }).catch(() => {});
+  }
+  cargaAvisos();
+  setInterval(cargaAvisos, 300000);
+
+  // Feed de necesidades reportadas (lugar + qué piden + fecha + fuente), curado por el equipo.
+  let FEED_NECESIDADES = [];
+  fetch('datos/necesidades.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
+    FEED_NECESIDADES = d.items || [];
+    if (window.__pinta) window.__pinta();
+  }).catch(() => {});
+
+  const NECESIDADES = {
+    agua: "Agua", alimentos: "Alimentos", aseo: "Aseo e higiene", panales: "Pañales",
+    abrigo: "Cobijas y colchonetas", ropa: "Ropa", medicamentos: "Medicamentos",
+    mascotas: "Comida de mascotas", sangre: "Sangre", voluntarios: "Voluntarios",
+    rescate: "Rescate y herramientas", bebes: "Cosas de bebé", ortopedico: "Ayudas ortopédicas",
+  };
+  // Lo que el punto sí recibe y lo que explícitamente no: evita viajes en vano con donaciones que rechazan.
+  function etiquetas(i) {
+    const si = (i.recibe || []).map(k => `<span class="et">${NECESIDADES[k] || k}</span>`);
+    const no = (i.no_recibe || []).map(k => `<span class="et no">No: ${NECESIDADES[k] || k}</span>`);
+    return si.length || no.length ? `<div class="ets">${si.join('')}${no.join('')}</div>` : '';
+  }
+  let miUbic = null;
+  function distKm(a, b) {
+    const R = 6371, r = Math.PI / 180;
+    const dLat = (b.lat - a.lat) * r, dLon = (b.lon - a.lon) * r;
+    const x = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(dLon / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(x));
+  }
+
+  fetch('datos/ayuda.json', { cache: 'no-store' }).then(r => r.json()).then(data => {
+    const items = data.items;
+    document.getElementById('ayuda-corte').textContent = `Datos actualizados: ${data.actualizado}.`;
+    const mapa = L.map('map').setView([3.9, -76.35], 8);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(mapa);
+    const capa = L.layerGroup().addTo(mapa);
+    const selT = document.getElementById('f-tipo'), selM = document.getElementById('f-municipio'), selD = document.getElementById('f-depto');
+    const selN = document.getElementById('f-necesidad'), txt = document.getElementById('f-texto');
+    const btnCerca = document.getElementById('btn-cerca'), resumen = document.getElementById('resumen');
+    for (const [k, t] of Object.entries(TIPOS)) selT.add(new Option(t.label, k));
+    for (const d of [...new Set(items.map(i => i.departamento))].sort()) selD.add(new Option(d, d));
+    const hayNec = new Set(items.flatMap(i => i.recibe || []));
+    for (const [k, l] of Object.entries(NECESIDADES)) if (hayNec.has(k)) selN.add(new Option(l, k));
+    const limpia = s => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    function llenaMunicipios() {
+      selM.length = 1;
+      const fd = selD.value;
+      for (const m of [...new Set(items.filter(i => !fd || i.departamento === fd).map(i => i.municipio))].sort()) selM.add(new Option(m, m));
+    }
+    llenaMunicipios();
+    const tbody = document.querySelector('#tabla-ayuda tbody');
+    function pinta() {
+      const ft = selT.value, fm = selM.value, fd = selD.value, fn = selN.value, q = limpia(txt.value).trim();
+      const vivos = items.filter(i =>
+        (!ft || i.tipo === ft) && (!fm || i.municipio === fm) && (!fd || i.departamento === fd) &&
+        (!fn || (i.recibe || []).includes(fn)) &&
+        (!q || limpia([i.nombre, i.direccion, i.municipio, i.departamento, i.que].join(' ')).includes(q)));
+      if (miUbic) {
+        for (const i of vivos) i._km = (i.lat == null) ? Infinity : distKm(miUbic, i);
+        vivos.sort((a, b) => a._km - b._km);
+      }
+      resumen.textContent = vivos.length === items.length
+        ? `${items.length} puntos de ayuda.`
+        : `${vivos.length} de ${items.length} puntos.` + (fn ? ` Reciben ${NECESIDADES[fn].toLowerCase()}.` : '');
+      capa.clearLayers();
+      for (const i of vivos) {
+        // Las coordenadas aproximadas son el centroide del municipio: varios puntos caerían
+        // exactamente encima y mandarían gente a la dirección equivocada. Van solo en la lista.
+        if (i.lat == null || i.lon == null || i.precision === 'aproximada') continue;
+        const t = TIPOS[i.tipo] || { label: i.tipo, color: '#555' };
+        L.circleMarker([i.lat, i.lon], { radius: 8, color: t.color, fillOpacity: .75 })
+          .bindPopup(`<strong>${i.nombre}</strong><br>${t.label} · ${i.municipio}<br>${i.direccion || ''}<br>${i.que}<br><em>${i.contacto || ''}</em>`)
+          .addTo(capa);
+      }
+      // "Qué se necesita ahora": une el feed curado de necesidades con los pedidos ya presentes en los datos.
+      const delFeed = FEED_NECESIDADES
+        .filter(n => (!fm || (n.municipio || '').includes(fm)) && (!fd || (n.departamento || '').includes(fd)))
+        .map(n => ({ nombre: n.lugar, municipio: n.municipio, txt: n.necesita, fecha: n.fecha, fuente: n.fuente, dir: '' }));
+      const parseados = vivos.map(i => {
+        const m = (i.que || '').match(/(?:solicitan|insumos solicitados|recibe|piden?)\s*:?\s*(.+)/i);
+        return m ? { nombre: i.nombre, municipio: i.municipio, txt: m[1].replace(/\.$/, ''), fecha: i.fecha_corte, fuente: null, dir: i.direccion } : null;
+      }).filter(Boolean);
+      const nec = [...delFeed, ...parseados].sort((a, b) => (b.fecha || '').localeCompare(a.fecha || ''));
+      const bloque = document.getElementById('necesita');
+      if (nec.length) {
+        bloque.querySelector('ul').innerHTML = nec.slice(0, 12).map(n => {
+          const wa = `Se necesita en ${n.nombre} (${n.municipio}): ${n.txt}\n${n.dir || ''}\nMás info: alianzasporcolombia.com`;
+          return `<li><strong>${n.nombre}</strong> (${n.municipio}): ${n.txt}
+            <span class="fecha">· reporte del ${n.fecha}${n.fuente ? ` · <a href="${n.fuente}" rel="noopener" target="_blank">fuente</a>` : ''}</span>
+            <button class="wa" data-wa="${wa.replace(/"/g, '&quot;')}">Compartir</button></li>`;
+        }).join('');
+        bloque.hidden = false;
+      } else bloque.hidden = true;
+
+      tbody.innerHTML = vivos.map(i => {
+        const t = TIPOS[i.tipo] || { label: i.tipo, color: '#555' };
+        const texto = [`${t.label}: ${i.nombre} (${i.municipio})`, i.direccion, i.que, i.contacto,
+          `Más info: alianzasporcolombia.com`].filter(Boolean).join('\n');
+        return `<tr>
+          <td><span class="pill" style="background:${t.color}18;color:${t.color}">${t.label}</span></td>
+          <td><strong>${i.nombre}</strong></td>
+          <td>${i.municipio}${i._km != null && i._km !== Infinity ? `<br><small style="color:var(--gris)">${i.precision === 'aproximada' ? '~' : 'a '}${i._km < 10 ? i._km.toFixed(1) : Math.round(i._km)} km</small>` : ''}</td>
+          <td>${i.direccion || ''}${i.direccion && i.contacto ? '<br>' : ''}${i.contacto || ''}</td>
+          <td>${i.que}${etiquetas(i)}</td>
+          <td>${estado(i)}</td>
+          <td><a href="${i.fuente}" rel="noopener" target="_blank">ver</a> · ${i.fecha_corte}<br>
+            <button class="wa" data-wa="${texto.replace(/"/g, '&quot;')}" title="Compartir por WhatsApp">Compartir</button></td>
+        </tr>`;
+      }).join('');
+    }
+    selT.onchange = selM.onchange = selN.onchange = pinta;
+    selD.onchange = () => { llenaMunicipios(); pinta(); };
+    window.__pinta = pinta;
+    txt.oninput = pinta;
+    btnCerca.onclick = () => {
+      if (miUbic) { miUbic = null; btnCerca.setAttribute('aria-pressed', 'false'); btnCerca.textContent = '📍 Cerca de mí'; return pinta(); }
+      if (!navigator.geolocation) { btnCerca.textContent = 'Sin ubicación'; return; }
+      btnCerca.textContent = 'Ubicando…';
+      navigator.geolocation.getCurrentPosition(p => {
+        miUbic = { lat: p.coords.latitude, lon: p.coords.longitude };
+        btnCerca.setAttribute('aria-pressed', 'true');
+        btnCerca.textContent = '📍 Más cercanos primero';
+        mapa.setView([miUbic.lat, miUbic.lon], 12);
+        pinta();
+      }, () => { btnCerca.textContent = '📍 No se pudo ubicar'; });
+    };
+    pinta();
+
+    // Botones de ciudad: las más golpeadas primero, el resto por cantidad de puntos.
+    const PRIORIDAD = ['Cali', 'Pereira', 'Manizales', 'Armenia', 'Quibdó', 'Buenaventura'];
+    const cuenta = {};
+    for (const i of items) cuenta[i.municipio] = (cuenta[i.municipio] || 0) + 1;
+    const ciudades = Object.keys(cuenta)
+      .filter(m => !/^Nacional|^Valle del Cauca$/.test(m))   // no son ciudades, son ámbitos
+      .sort((a, b) => {
+        const pa = PRIORIDAD.indexOf(a), pb = PRIORIDAD.indexOf(b);
+        if (pa !== -1 || pb !== -1) return (pa === -1 ? 99 : pa) - (pb === -1 ? 99 : pb);
+        return cuenta[b] - cuenta[a];
+      });
+    const cont = document.getElementById('ciudades');
+    function elige(m, btn) {
+      selD.value = ''; llenaMunicipios();
+      selM.value = m; selT.value = '';
+      pinta();
+      for (const b of cont.querySelectorAll('button')) b.setAttribute('aria-pressed', b === btn);
+      const conCoord = items.filter(i => i.municipio === m && i.lat != null);
+      if (conCoord.length) mapa.fitBounds(conCoord.map(i => [i.lat, i.lon]), { padding: [40, 40], maxZoom: 14 });
+      document.getElementById('ayuda').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    const todas = document.createElement('button');
+    todas.innerHTML = 'Todas';
+    todas.setAttribute('aria-pressed', 'true');
+    todas.onclick = () => {
+      selM.value = ''; selD.value = ''; selT.value = ''; llenaMunicipios(); pinta();
+      for (const b of cont.querySelectorAll('button')) b.setAttribute('aria-pressed', b === todas);
+      mapa.setView([3.9, -76.35], 8);
+    };
+    cont.appendChild(todas);
+    for (const m of ciudades) {
+      const b = document.createElement('button');
+      b.innerHTML = `${m} <small>${cuenta[m]}</small>`;
+      b.setAttribute('aria-pressed', 'false');
+      b.onclick = () => elige(m, b);
+      cont.appendChild(b);
+    }
+    document.getElementById('donde').hidden = false;
+
+    // Tiempo real: re-consulta los datos cada 5 min mientras la página esté abierta.
+    let consultado = Date.now();
+    setInterval(() => {
+      fetch('datos/ayuda.json?t=' + Date.now()).then(r => r.json()).then(d => {
+        items.length = 0; items.push(...d.items);
+        consultado = Date.now();
+        document.getElementById('ayuda-corte').textContent = `Datos actualizados: ${d.actualizado}.`;
+        pinta();
+      }).catch(() => {});
+    }, 300000);
+    const fresca = document.createElement('span');
+    fresca.id = 'frescura';
+    document.getElementById('ayuda-corte').after(fresca);
+    setInterval(() => {
+      const m = Math.round((Date.now() - consultado) / 60000);
+      fresca.textContent = ` Consultado ${m < 1 ? 'ahora mismo' : 'hace ' + m + ' min'}; se actualiza solo.`;
+    }, 20000);
+  }).catch(() => { document.getElementById('ayuda').style.display = 'none'; });
+
+  // Compartir por WhatsApp: en Colombia el sitio se difunde por pedazos, no por el enlace entero.
+  document.addEventListener('click', e => {
+    const b = e.target.closest('[data-wa]');
+    if (!b) return;
+    window.open('https://wa.me/?text=' + encodeURIComponent(b.dataset.wa), '_blank', 'noopener');
+  });
+
+  // Réplicas: consulta directa al USGS en cada visita — siempre al día, sin servidor propio.
+  // El feed de resúmenes permite CORS (el endpoint FDSN no), así que filtramos la zona aquí.
+  const USGS = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson';
+  const EPI = { lat: 4.844, lon: -76.242 }, RADIO_GRADOS = 3.2;
+  function hace(ms) {
+    const m = Math.round(ms / 60000);
+    if (m < 60) return `hace ${m} min`;
+    const h = Math.round(m / 60);
+    if (h < 24) return `hace ${h} h`;
+    const d = Math.round(h / 24);
+    return d === 1 ? 'hace 1 día' : `hace ${d} días`;
+  }
+  function cargaReplicas() {
+    fetch(USGS).then(r => r.json()).then(d => {
+      const qs = d.features.filter(f => {
+        const [lon, lat] = f.geometry.coordinates;
+        return f.properties.mag != null
+          && Math.abs(lat - EPI.lat) < RADIO_GRADOS && Math.abs(lon - EPI.lon) < RADIO_GRADOS;
+      }).sort((a, b) => b.properties.time - a.properties.time);
+      if (!qs.length) return;
+      const ahora = Date.now();
+      const ult = qs[0], p = ult.properties;
+      const ult24 = qs.filter(f => ahora - f.properties.time < 86400000).length;
+      const lista = qs.slice(0, 8).map(f => `<li><b>M ${f.properties.mag.toFixed(1)}</b> ${hace(ahora - f.properties.time)} · ${f.properties.place || ''}</li>`).join('');
+      document.getElementById('replicas-datos').innerHTML = `
+        <div class="replica-ult">
+          <strong>M ${p.mag.toFixed(1)}</strong> — última réplica registrada, ${hace(ahora - p.time)}<br>
+          <span style="color:var(--gris);font-size:.9rem">${p.place || ''} · ${ult24} réplicas en las últimas 24 horas · ${qs.length} desde el sismo</span>
+        </div>
+        <ul class="replica-lista">${lista}</ul>`;
+      document.getElementById('replicas').hidden = false;
+    }).catch(() => {});
+  }
+  cargaReplicas();
+  setInterval(cargaReplicas, 300000); // cada 5 min mientras la página esté abierta
+</script>
+</body>
+</html>

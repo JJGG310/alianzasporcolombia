@@ -10,9 +10,6 @@ scraper/bin/
 # Navegadores y capturas de Playwright
 .playwright-mcp/
 ms-playwright/
-# Artefactos de build del sitio
-web/dist/
-
-# Capturas y archivos temporales de diagnóstico
 *.png
-.playwright-mcp/
+# Artefactos de build del sitio en React
+web/dist/

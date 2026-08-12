@@ -1,0 +1,125 @@
+{
+  "actualizado": "12 de agosto de 2026, 4:15 p.m.",
+  "items": [
+    {
+      "lugar": "Casco urbano y veredas de San José del Palmar (epicentro)",
+      "municipio": "San José del Palmar",
+      "departamento": "Chocó",
+      "necesita": "Agua, acceso vial (sin comunicación terrestre), alimentos no perecederos, carpas para albergue, restablecimiento de energía eléctrica y agua potable; habitantes reportan 'falta de ayudas' pese a la asistencia desplegada. Lo reportan líderes comunitarios locales",
+      "fecha": "2026-08-12",
+      "fuente": "https://lalinternaazul2.wordpress.com/2026/08/12/historias-y-noticias-del-terremoto/ y https://www.infobae.com/colombia/2026/08/12/sigue-temblando-en-colombia-habitantes-en-san-jose-del-palmar-en-choco-pasaron-la-noche-en-vela-tras-nuevo-sismo-la-noche-del-martes-11-de-agosto-de-2026/"
+    },
+    {
+      "lugar": "Argelia (más de 400 desplazados que requieren asistencia)",
+      "municipio": "Argelia",
+      "departamento": "Valle del Cauca",
+      "necesita": "Asistencia para más de 400 personas desplazadas por el terremoto",
+      "fecha": "2026-08-12",
+      "fuente": "https://lalinternaazul2.wordpress.com/2026/08/12/historias-y-noticias-del-terremoto/"
+    },
+    {
+      "lugar": "Hospital San Francisco de Asís",
+      "municipio": "Quibdó",
+      "departamento": "Chocó",
+      "necesita": "Nevera especializada para banco de sangre (las unidades deben transfundirse de inmediato al no poder almacenarse), sillas de ruedas pediátricas y de adulto, compresas estériles, gasas y suturas, reactivos de laboratorio, hemoderivados, camas y camillas adicionales. Urgencias al 245% de sobreocupación con pacientes de Istmina y Nóvita. Contacto para donaciones: WhatsApp +57 313 6982755. La fundación del futbolista Jhon Arias ofreció transportar la nevera una vez se consiga.",
+      "fecha": "2026-08-12",
+      "fuente": "https://www.elcolombiano.com/colombia/choco-necesita-nevera-para-almacenar-sangre-heridos-terremotos-MH39857957"
+    },
+    {
+      "lugar": "Casco urbano y albergues",
+      "municipio": "Roldanillo",
+      "departamento": "Valle del Cauca",
+      "necesita": "Agua potable (el sismo rompió la tubería principal que abastece a 8 municipios del norte del Valle; llegan carrotanques desde Palmira pero sigue el desabastecimiento) y alojamiento temporal para ~50 personas desalojadas de viviendas dañadas. Reportes del 11-ago citan además solicitud de plantas eléctricas, combustible y 580 kits de albergue.",
+      "fecha": "2026-08-12",
+      "fuente": "https://www.elcolombiano.com/colombia/afectaciones-terremoto-roldanillo-valle-del-cauca-danos-DF39870021 (kits/plantas: https://www.semana.com/nacion/cali/articulo/caos-en-roldanillo-valle-tras-terremoto-en-colombia-graves-danos-en-la-infraestructura-sin-agua-y-sin-energia/202656/)"
+    },
+    {
+      "lugar": "Casco urbano y zona rural (comunidades indígenas)",
+      "municipio": "San José del Palmar",
+      "departamento": "Chocó",
+      "necesita": "Según el alcalde (epicentro del sismo, 342 viviendas destruidas): suministro de agua, apertura de vías de acceso (24 derrumbes, vía a Cartago bloqueada), alimentos no perecederos, carpas para montar albergues en zona rural —especialmente para comunidades indígenas— y tejas para reparar techos. Sin energía ni agua potable al 11-12 de agosto.",
+      "fecha": "2026-08-12",
+      "fuente": "https://www.elpais.com.co/colombia/exclusivo-habla-el-alcalde-de-san-jose-del-palmar-epicentro-del-terremoto-en-colombia-no-hemos-recibido-recursos-1134.html"
+    },
+    {
+      "lugar": "Centro de acopio Universidad de Caldas (Coliseo, zona Velódromo, Carrera 27 detrás de la Normal Superior, sector Estadio Palogrande)",
+      "municipio": "Manizales",
+      "departamento": "Caldas",
+      "necesita": "Productos no perecederos, productos de aseo personal, pañales de adulto e infantiles, agua potable y ropa en buen estado",
+      "fecha": "2026-08-11",
+      "fuente": "https://www.lapatria.com/manizales/universidad-de-caldas-habilita-centro-de-acopio-en-manizales-para-damnificados-del-sismo"
+    },
+    {
+      "lugar": "Olla Rodante de Artefacto Social, barrio San Antonio (Carrera 9 # 4-25)",
+      "municipio": "Cali",
+      "departamento": "Valle del Cauca",
+      "necesita": "Arroz, aceite, lentejas, pastas, zanahorias, habichuelas, panela, huevos, atunes y recipientes refrigerantes",
+      "fecha": "2026-08-11",
+      "fuente": "https://revistadiners.com.co/gastronomia/donde-comer/ollas-comunitarias-terremoto-cali"
+    },
+    {
+      "lugar": "Olla comunitaria de Puerto Resistencia",
+      "municipio": "Cali",
+      "departamento": "Valle del Cauca",
+      "necesita": "Alimentos y voluntarios para preparación y entrega de comidas",
+      "fecha": "2026-08-11",
+      "fuente": "https://revistadiners.com.co/gastronomia/donde-comer/ollas-comunitarias-terremoto-cali"
+    },
+    {
+      "lugar": "Ollas comunitarias barriales en Salomia, Llano Verde, Capri, La Luna, Refugio y Hospital Carlos Holmes Trujillo (reportadas por la congresista Mafe Carrascal en X)",
+      "municipio": "Cali",
+      "departamento": "Valle del Cauca",
+      "necesita": "Implementos de cocina",
+      "fecha": "2026-08-11",
+      "fuente": "https://revistadiners.com.co/gastronomia/donde-comer/ollas-comunitarias-terremoto-cali"
+    },
+    {
+      "lugar": "Albergues, centros de salud y hospitales del Chocó abastecidos desde el punto de acopio del Banco de Alimentos de Buenaventura (Colegio Seminario Bagno Regio, Av. Simón Bolívar)",
+      "municipio": "Buenaventura",
+      "departamento": "Valle del Cauca",
+      "necesita": "Alimentos y suministros esenciales para albergues, centros de salud y hospitales de la zona afectada",
+      "fecha": "2026-08-11",
+      "fuente": "https://www.religiondigital.org/america/iglesia-catolica-colombia-moviliza-solidaridad_1_1463404.html"
+    },
+    {
+      "lugar": "Puntos de acopio: Hospital, Parque Principal y Alcaldía",
+      "municipio": "Ansermanuevo",
+      "departamento": "Valle del Cauca",
+      "necesita": "Alimentos no perecederos, agua embotellada, kits de primeros auxilios y productos de aseo (lista publicada por la administración municipal para sus tres puntos de acopio).",
+      "fecha": "2026-08-11",
+      "fuente": "https://ciudadregion.com/regiones/valle-del-cauca/cartago/terremoto-cartago-norte-del-valle-el-cairo-argelia-danos-sismo"
+    },
+    {
+      "lugar": "Hospital San Rafael",
+      "municipio": "El Águila",
+      "departamento": "Valle del Cauca",
+      "necesita": "El hospital quedó fuera de servicio por daños graves de infraestructura; el municipio requiere apoyo para reubicar la atención en salud (igual situación en el Hospital Local de Argelia, colapsado).",
+      "fecha": "2026-08-11",
+      "fuente": "https://www.elespectador.com/salud/hospitales-del-valle-enfrentan-danos-tras-el-terremoto-estos-son-los-casos-mas-graves/"
+    },
+    {
+      "lugar": "Hospital San Francisco de Asís (único hospital de segundo nivel de la región, a tope de capacidad)",
+      "municipio": "Quibdó",
+      "departamento": "Chocó",
+      "necesita": "Insumos quirúrgicos y kits de sutura, material para enyesado, líquidos endovenosos e insumos biomédicos básicos, sangre para transfusiones; además kits de alimentos no perecederos, artículos de higiene y ropa de cama (colchonetas, sábanas, toldillos) — solicitud de la Gobernación del Chocó",
+      "fecha": "2026-08-11",
+      "fuente": "https://www.pulzo.com/nacion/terremoto-hoy-colombia-como-donar-que-materiales-necesitan-PP5271224"
+    },
+    {
+      "lugar": "Centros de acopio del corredor humanitario Consejo Gremial Nacional + Red ABACO (Buenaventura, Istmina, Manizales y Pereira; puntos intermedios en Armenia, Bogotá, Bucaramanga, Cali, Ibagué y Medellín)",
+      "municipio": "Buenaventura, Istmina, Manizales, Pereira",
+      "departamento": "Valle del Cauca, Chocó, Caldas, Risaralda",
+      "necesita": "Alimentos: arroz, aceite, pastas, legumbres, enlatados, leche. Higiene: jabón, champú, pañales, toallas, mantas",
+      "fecha": "2026-08-10",
+      "fuente": "https://www.eltiempo.com/amp/economia/empresas/empresas-despliegan-ayuda-humanitaria-para-atender-a-los-afectados-por-el-terremoto-asi-puede-sumarse-a-las-donaciones-3577479"
+    },
+    {
+      "lugar": "Puntos de acopio Alcaldía de Bogotá + Cruz Roja (U. Jorge Tadeo Lozano, Unicentro, Estadio El Campín, sede Cruz Roja Cra 24 #73-38 esta última 24h)",
+      "municipio": "Bogotá",
+      "departamento": "Cundinamarca",
+      "necesita": "Alimentos no perecederos (arroz, aceite, pastas, enlatados de fácil apertura, granos, harina, panela, leche y chocolate en polvo), agua embotellada, cobijas, mantas, almohadas, colchonetas, kit de higiene (jabón, shampoo, pasta y cepillos dentales, pañales todas las tallas, papel higiénico), primeros auxilios (tapabocas, gasas estériles, alcohol, guantes quirúrgicos)",
+      "fecha": "2026-08-10",
+      "fuente": "https://bogota.gov.co/mi-ciudad/seguridad/puntos-de-donacion-en-bogota-para-damnificados-terremoto-en-colombia"
+    }
+  ]
+}

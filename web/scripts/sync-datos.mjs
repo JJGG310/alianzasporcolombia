@@ -1,8 +1,12 @@
 // Copia los datos de la raíz del repo a web/public/ para que Vite los sirva.
 //
 // La fuente de verdad NO vive en web/public/: vive en
-//   ../datos/ayuda.json            (los puntos curados a mano)
-//   ../extracted-data/puntos.json  (lo que genera el scraper en Go)
+//   ../public/datos/           (lo que mantiene el equipo a mano)
+//   ../public/extracted-data/  (lo que genera el scraper en Go)
+//
+// Es la MISMA carpeta que despliega Cloudflare Pages para el sitio en vivo, así
+// que los dos frontends leen exactamente los mismos archivos. Si algún día se
+// decide que React es el sitio, esto deja de hacer falta.
 //
 // web/public/ es copia de trabajo y no se versiona. Este script corre solo en
 // `npm run dev` y `npm run build`.
@@ -20,18 +24,18 @@ const raiz = join(web, '..');
 
 const copias = [
   {
-    de: join(raiz, 'datos', 'ayuda.json'),
+    de: join(raiz, 'public', 'datos', 'ayuda.json'),
     a: join(web, 'public', 'datos', 'ayuda.json'),
     obligatorio: true,
   },
   {
-    de: join(raiz, 'extracted-data', 'puntos.json'),
+    de: join(raiz, 'public', 'extracted-data', 'puntos.json'),
     a: join(web, 'public', 'extracted-data', 'puntos.json'),
     obligatorio: false,
   },
   {
     // El pie de página lo enlaza como dato abierto: sin esta copia da 404.
-    de: join(raiz, 'extracted-data', 'puntos.geojson'),
+    de: join(raiz, 'public', 'extracted-data', 'puntos.geojson'),
     a: join(web, 'public', 'extracted-data', 'puntos.geojson'),
     obligatorio: false,
   },

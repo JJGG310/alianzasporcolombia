@@ -130,10 +130,6 @@ export default function App() {
 
   return (
     <div className="app">
-      <a className="saltar" href="#herramienta">
-        Saltar al buscador de ayuda
-      </a>
-
       <Encabezado actualizado={datos?.actualizadoCurado ?? ''} />
 
       <main className="app__cuerpo">

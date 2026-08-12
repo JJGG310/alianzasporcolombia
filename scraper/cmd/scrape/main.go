@@ -29,8 +29,9 @@ import (
 
 func main() {
 	var (
-		salida    = flag.String("salida", "../extracted-data", "carpeta donde escribir los datos")
-		curados   = flag.String("curados", "../datos/ayuda.json", "JSON curado a mano que se fusiona con lo scrapeado (vacío para omitirlo)")
+		salida    = flag.String("salida", "../extracted-data", "carpeta donde escribir los datos, incluido el crudo por fuente")
+		publico   = flag.String("publico", "../public/extracted-data", "carpeta publicable: solo lo que va al sitio, sin el crudo (vacío para omitirlo)")
+		curados   = flag.String("curados", "../public/datos/ayuda.json", "JSON curado a mano que se fusiona con lo scrapeado (vacío para omitirlo)")
 		soloStr   = flag.String("fuentes", "", "lista separada por comas de fuentes a correr (vacío = todas)")
 		listar    = flag.Bool("listar", false, "listar las fuentes disponibles y salir")
 		timeout   = flag.Duration("timeout", 3*time.Minute, "tiempo máximo total")
@@ -104,6 +105,16 @@ func main() {
 	}
 	abs, _ := filepath.Abs(*salida)
 	fmt.Fprintf(os.Stderr, "\nEscrito en %s\n  puntos.json  puntos.geojson  fuentes.json  raw/*.json\n", abs)
+
+	// Solo public/ llega al sitio, así que la copia publicable va ahí. Sin el
+	// crudo por fuente: son megas que nadie va a descargar desde un celular.
+	if *publico != "" {
+		if err := output.EscribirPublico(*publico, resultados, fusionados, inf, inicio); err != nil {
+			fatal(err)
+		}
+		absPub, _ := filepath.Abs(*publico)
+		fmt.Fprintf(os.Stderr, "\nPublicado en %s\n  puntos.json  puntos.geojson  fuentes.json\n", absPub)
+	}
 
 	// Si TODAS las fuentes fallaron, salimos con error: así una tarea
 	// programada avisa en vez de sobrescribir con silencio.
