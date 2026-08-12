@@ -38,8 +38,8 @@
       "direccion": "Centro Administrativo Municipal (CAM), Dosquebradas",
       "fuente": "https://www.eldiario.com.co/actualidad/dosquebradas-fortalece-atencion-de-la-emergencia-con-apoyo-nacional-y-departamental/",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null,
+      "lat": 4.83377,
+      "lon": -75.67097,
       "contacto": ""
     },
     {
@@ -51,8 +51,8 @@
       "direccion": "Coliseo Mayor, Pereira",
       "fuente": "https://www.eldiario.com.co/actualidad/emergencia-en-pereira-avanzan-labores-de-busqueda-y-rescate/",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null,
+      "lat": 4.81509,
+      "lon": -75.70901,
       "contacto": ""
     },
     {
@@ -64,8 +64,8 @@
       "direccion": "Estadio Mora Mora, Pereira",
       "fuente": "https://www.eldiario.com.co/actualidad/emergencia-en-pereira-avanzan-labores-de-busqueda-y-rescate/",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null,
+      "lat": 4.80699,
+      "lon": -75.67088,
       "contacto": ""
     },
     {
@@ -77,8 +77,8 @@
       "direccion": "Parque El Oso, Pereira",
       "fuente": "https://www.eldiario.com.co/actualidad/emergencia-en-pereira-avanzan-labores-de-busqueda-y-rescate/",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null,
+      "lat": 4.79893,
+      "lon": -75.73271,
       "contacto": ""
     },
     {
@@ -103,8 +103,8 @@
       "direccion": "Parque Olaya Herrera, Pereira",
       "fuente": "https://www.eldiario.com.co/actualidad/emergencia-en-pereira-avanzan-labores-de-busqueda-y-rescate/",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null,
+      "lat": 4.80943,
+      "lon": -75.69628,
       "contacto": ""
     },
     {
@@ -116,8 +116,8 @@
       "direccion": "Plaza de Ferias, Pereira",
       "fuente": "https://www.eldiario.com.co/actualidad/emergencia-en-pereira-avanzan-labores-de-busqueda-y-rescate/",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null,
+      "lat": 4.80665,
+      "lon": -75.84072,
       "contacto": ""
     },
     {
@@ -142,8 +142,8 @@
       "contacto": "",
       "fuente": "https://www.elpais.com.co/cali/alcaldia-habilita-nuevos-espacios-para-recibir-ayudas-y-atender-a-afectados-en-cali-1154.html",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null,
+      "lat": 3.42187,
+      "lon": -76.53698,
       "departamento": "Valle del Cauca"
     },
     {
@@ -155,8 +155,8 @@
       "contacto": "",
       "fuente": "https://www.elpais.com.co/cali/terremoto-en-cali-estos-son-los-lugares-habilitados-para-recibir-a-los-damnificados-1038.html",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null,
+      "lat": 3.4238,
+      "lon": -76.53632,
       "departamento": "Valle del Cauca"
     },
     {
@@ -195,8 +195,8 @@
       "contacto": "",
       "fuente": "https://www.infobae.com/colombia/2026/08/10/centros-de-acopio-habilitados-en-colombia-tras-el-terremoto-guia-por-ciudad-para-donar-y-ayudar-a-las-victimas/",
       "fecha_corte": "2026-08-10",
-      "lat": null,
-      "lon": null
+      "lat": 6.25015,
+      "lon": -75.56962
     },
     {
       "tipo": "acopio",
@@ -208,8 +208,8 @@
       "contacto": "",
       "fuente": "https://www.infobae.com/colombia/2026/08/10/centros-de-acopio-habilitados-en-colombia-tras-el-terremoto-guia-por-ciudad-para-donar-y-ayudar-a-las-victimas/",
       "fecha_corte": "2026-08-10",
-      "lat": null,
-      "lon": null
+      "lat": 6.22936,
+      "lon": -75.5765
     },
     {
       "tipo": "acopio",
@@ -221,8 +221,8 @@
       "contacto": "",
       "fuente": "https://www.eltiempo.com/colombia/medellin/medellin-se-une-por-las-victimas-del-terremoto-en-colombia-conozca-los-10-puntos-para-entregar-sus-donaciones-3577553",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null
+      "lat": 6.22402,
+      "lon": -75.59813
     },
     {
       "tipo": "acopio",
@@ -234,8 +234,8 @@
       "contacto": "",
       "fuente": "https://www.eltiempo.com/colombia/medellin/medellin-se-une-por-las-victimas-del-terremoto-en-colombia-conozca-los-10-puntos-para-entregar-sus-donaciones-3577553",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null
+      "lat": 6.30433,
+      "lon": -75.57776
     },
     {
       "tipo": "acopio",
@@ -247,8 +247,8 @@
       "contacto": "",
       "fuente": "https://www.eltiempo.com/colombia/medellin/medellin-se-une-por-las-victimas-del-terremoto-en-colombia-conozca-los-10-puntos-para-entregar-sus-donaciones-3577553",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null
+      "lat": 6.2515,
+      "lon": -75.55403
     },
     {
       "tipo": "acopio",
@@ -260,8 +260,8 @@
       "contacto": "",
       "fuente": "https://www.eltiempo.com/colombia/medellin/medellin-se-une-por-las-victimas-del-terremoto-en-colombia-conozca-los-10-puntos-para-entregar-sus-donaciones-3577553",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null
+      "lat": 6.25479,
+      "lon": -75.61357
     },
     {
       "tipo": "acopio",
@@ -299,8 +299,8 @@
       "contacto": "www.bancodealimentos.org.co",
       "fuente": "https://www.eltiempo.com/colombia/otras-ciudades/ayudas-tras-terremoto-en-colombia-centros-de-acopio-bancos-de-sangre-bancos-de-alimentos-canales-oficiales-y-puntos-de-donaciones-en-el-pais-3577631",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null
+      "lat": 4.66375,
+      "lon": -74.13451
     },
     {
       "tipo": "acopio",
@@ -338,8 +338,8 @@
       "contacto": "",
       "fuente": "https://www.infobae.com/colombia/2026/08/10/centros-de-acopio-habilitados-en-colombia-tras-el-terremoto-guia-por-ciudad-para-donar-y-ayudar-a-las-victimas/",
       "fecha_corte": "2026-08-10",
-      "lat": null,
-      "lon": null
+      "lat": 4.66086,
+      "lon": -74.0878
     },
     {
       "tipo": "acopio",
@@ -351,8 +351,8 @@
       "contacto": "",
       "fuente": "https://www.infobae.com/colombia/2026/08/10/centros-de-acopio-habilitados-en-colombia-tras-el-terremoto-guia-por-ciudad-para-donar-y-ayudar-a-las-victimas/",
       "fecha_corte": "2026-08-10",
-      "lat": null,
-      "lon": null
+      "lat": 4.62755,
+      "lon": -74.12292
     },
     {
       "tipo": "acopio",
@@ -364,8 +364,8 @@
       "contacto": "www.cruzrojacolombiana.org",
       "fuente": "https://bogota.gov.co/mi-ciudad/seguridad/puntos-de-donacion-en-bogota-para-damnificados-terremoto-en-colombia",
       "fecha_corte": "2026-08-10",
-      "lat": null,
-      "lon": null
+      "lat": 4.61716,
+      "lon": -74.08272
     },
     {
       "tipo": "acopio",
@@ -390,8 +390,8 @@
       "contacto": "",
       "fuente": "https://www.infobae.com/colombia/2026/08/10/centros-de-acopio-habilitados-en-colombia-tras-el-terremoto-guia-por-ciudad-para-donar-y-ayudar-a-las-victimas/",
       "fecha_corte": "2026-08-10",
-      "lat": null,
-      "lon": null
+      "lat": 4.64441,
+      "lon": -74.05462
     },
     {
       "tipo": "acopio",
@@ -429,8 +429,8 @@
       "contacto": "Cruz Roja Seccional Caldas, sede Av. Kevin Ángel (dirección física)",
       "fuente": "https://www.lapatria.com/manizales/ayudas-para-damnificados-en-manizales-por-el-terremoto-que-donar-y-donde-llevarlo",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null
+      "lat": 5.06406,
+      "lon": -75.48769
     },
     {
       "tipo": "acopio",
@@ -441,8 +441,8 @@
       "contacto": "Web: ucaldas.edu.co",
       "fuente": "https://www.lapatria.com/manizales/llueven-ayudas-en-manizales-tras-terremoto-comunidad-se-mueve-para-donar-conozca-puntos",
       "fecha_corte": "2026-08-12",
-      "lat": null,
-      "lon": null,
+      "lat": 5.0556,
+      "lon": -75.49389,
       "direccion": ""
     },
     {
@@ -533,8 +533,8 @@
       "contacto": "",
       "fuente": "https://cronicadelquindio.com/quindio/gobierno-anuncia-ayudas-para-familias-afectadas-por-terremoto-en-quindio/",
       "fecha_corte": "2026-08-12",
-      "lat": null,
-      "lon": null
+      "lat": 4.56129,
+      "lon": -75.65097
     },
     {
       "tipo": "acopio",
@@ -558,8 +558,8 @@
       "direccion": "Carrera 3 con calle 59 A, sector Parque Industrial",
       "fuente": "https://www.eltiempo.com/colombia/otras-ciudades/como-ayudar-tras-terremoto-de-7-4-en-colombia-estos-son-los-centros-de-acopio-bancos-de-sangre-y-alimentos-canales-oficiales-y-puntos-de-donacion-3577631",
       "fecha_corte": "2026-08-11",
-      "lat": null,
-      "lon": null,
+      "lat": 4.82238,
+      "lon": -75.73199,
       "contacto": ""
     },
     {
@@ -777,8 +777,8 @@
       "direccion": "Cra. 8 #39-01",
       "fuente": "https://www.cali.gov.co/gobierno/publicaciones/193607/terremoto-de-cali-repositorio-oficial-de-informacion/",
       "fecha_corte": "2026-08-12",
-      "lat": null,
-      "lon": null,
+      "lat": 3.41084,
+      "lon": -76.58121,
       "departamento": "Valle del Cauca"
     },
     {
@@ -816,8 +816,8 @@
       "contacto": "Alcaldía de Manizales: +57 (606) 892 8000",
       "fuente": "https://www.lapatria.com/manizales/en-manizales-hacen-un-llamado-donar-sangre-tras-terremoto-conozca-los-puntos-habilitados",
       "fecha_corte": "2026-08-10",
-      "lat": null,
-      "lon": null,
+      "lat": 5.05163,
+      "lon": -75.4825,
       "direccion": ""
     },
     {
@@ -1060,8 +1060,8 @@
       "fecha_corte": "2026-08-11",
       "contacto": "",
       "direccion": "",
-      "lat": null,
-      "lon": null
+      "lat": 4.81673,
+      "lon": -75.73713
     },
     {
       "tipo": "donacion-org",
@@ -1083,8 +1083,8 @@
       "que": "Donación de sangre en el banco regional (barrio San Fernando) y puntos móviles en Plaza de Caycedo y Plazoleta del CAM; también recibe alimentos no perecederos y artículos de aseo en el parqueadero de la sede",
       "direccion": "Carrera 38 Bis # 5-91, barrio San Fernando, Cali (banco de sangre); acopio en parqueadero Cruz Roja Valle, Carrera 38 Bis # 5B",
       "contacto": "Tel 311 625 8815; web www.cruzrojacolombiana.org",
-      "lat": null,
-      "lon": null,
+      "lat": 3.42726,
+      "lon": -76.54478,
       "fuente": "https://cwmas.com.co/suroccidente/cali/2026/08/11/donde-donar-sangre-en-cali-tras-terremoto-conozca-puntos-habilitados/",
       "fecha_corte": "2026-08-11",
       "departamento": "Valle del Cauca"
@@ -1096,8 +1096,8 @@
       "que": "Activó red de emergencia: recibe colchonetas, agua potable, cobijas, almohadas, linternas, ropa nueva, gafas de protección y guantes; convoca voluntarios (con ARL al día); las parroquias de la Arquidiócesis funcionan como puntos de recolección. NO recibe ropa usada, medicamentos de fórmula ni alimentos próximos a vencer",
       "direccion": "Calle 24 # 6-103, barrio San Nicolás, Cali",
       "contacto": "Web www.bancodealimentos.org",
-      "lat": null,
-      "lon": null,
+      "lat": 3.454,
+      "lon": -76.52036,
       "fuente": "https://www.elpais.com.co/cali/banco-de-alimentos-activa-red-de-emergencia-tras-sismo-y-lanza-llamado-urgente-a-donantes-y-voluntarios-1132.html",
       "fecha_corte": "2026-08-11",
       "departamento": "Valle del Cauca"

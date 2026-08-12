@@ -50,6 +50,15 @@
   .replica-lista{list-style:none;margin:0;padding:0;font-size:.85rem}
   .replica-lista li{display:flex;gap:.6rem;padding:.35rem 0;border-bottom:1px solid var(--borde);color:var(--gris)}
   .replica-lista li b{color:var(--tinta);min-width:2.6rem}
+  .ciudades{display:flex;gap:.5rem;flex-wrap:wrap;margin:.6rem 0}
+  .ciudades button{font:inherit;font-weight:600;cursor:pointer;background:var(--carta);color:var(--tinta);
+    border:1px solid var(--borde);border-radius:99px;padding:.55rem 1rem;font-size:.95rem}
+  .ciudades button:hover{border-color:var(--rojo);color:var(--rojo)}
+  .ciudades button[aria-pressed="true"]{background:var(--rojo);border-color:var(--rojo);color:#fff}
+  .ciudades button small{font-weight:400;opacity:.75;margin-left:.3rem}
+  button.wa{font:inherit;font-size:.78rem;font-weight:600;cursor:pointer;margin-top:.3rem;
+    background:#25d366;color:#fff;border:0;border-radius:6px;padding:.25rem .6rem;white-space:nowrap}
+  button.wa:hover{filter:brightness(.93)}
 </style>
 </head>
 <body>
@@ -73,14 +82,38 @@
     </div>
     <p id="actualizado"></p>
   </section>
+  <section id="donde" hidden>
+    <h2>¿En qué ciudad estás?</h2>
+    <p class="desc">Toca tu ciudad para ver ahí mismo los albergues, puntos de acopio, bancos de sangre y ollas comunitarias.</p>
+    <div class="ciudades" id="ciudades"></div>
+  </section>
   <section id="replicas" hidden>
     <h2>Réplicas en tiempo real</h2>
     <p class="desc">Datos del USGS, consultados en el momento en que abres esta página. Las réplicas son normales después de un sismo fuerte y van disminuyendo con los días. El USGS solo cataloga las más fuertes (M 2,5+); el <a href="https://www.sgc.gov.co/sismos" rel="noopener" target="_blank">Servicio Geológico Colombiano</a> registra muchas más.</p>
     <div id="replicas-datos"></div>
   </section>
+  <section id="buscar">
+    <h2>¿Estás buscando a alguien?</h2>
+    <p class="desc">Tres canales, cada uno sirve para algo distinto. Puedes usar los tres a la vez.</p>
+    <ul class="recursos">
+      <li>
+        <a href="https://www.colombiatebusca.com" rel="noopener" target="_blank">1. Colombia Te Busca</a><span class="badge ciudadano">reportar y buscar</span>
+        <p>El registro ciudadano más grande (más de 5.100 personas). <strong>Empieza aquí:</strong> busca por nombre o documento, y si no aparece, repórtala. Genera una ficha que puedes compartir por WhatsApp. Ten a mano: nombre completo, edad, documento, último lugar donde se le vio y una foto.</p>
+      </li>
+      <li>
+        <a href="https://encontrados.co" rel="noopener" target="_blank">2. Encontrados.co</a><span class="badge ciudadano">búsqueda por foto</span>
+        <p>Cruza con inteligencia artificial las fotos de personas ya rescatadas contra los reportes de desaparecidos. Útil si la persona pudo haber sido llevada a un hospital o albergue sin identificar.</p>
+      </li>
+      <li>
+        <a href="https://www.cruzrojacolombiana.org/cruz-roja-colombiana-despliega-capacidades-para-dar-respuesta-tras-las-afectaciones-por-sismo-en-colombia/" rel="noopener" target="_blank">3. Cruz Roja — Contactos Familiares</a><span class="badge oficial">canal oficial</span>
+        <p>El canal humanitario oficial. Línea <a href="tel:132">132</a>, WhatsApp <a href="https://wa.me/573212139525" rel="noopener" target="_blank">321 213 9525</a>, correo rcf@cruzrojacolombiana.org. También la Personería de Cali atiende 24/7 en el <a href="tel:3183355722">318 335 5722</a>.</p>
+      </li>
+    </ul>
+    <p class="desc"><strong>Sobre las cifras que ves en las noticias:</strong> los reportes oficiales hablan de unos ~195 desaparecidos y los registros ciudadanos de varios miles. No se contradicen: los primeros son casos verificados por las autoridades y los segundos son reportes abiertos, donde muchas personas ya aparecieron pero nadie ha cerrado el reporte. Si reportaste a alguien y ya apareció, márcalo como localizado — eso ayuda a todos.</p>
+  </section>
   <section id="ayuda">
     <h2>Mapa de ayuda</h2>
-    <p class="desc">Albergues, puntos de acopio, bancos de sangre, ollas comunitarias y organizaciones que gestionan donaciones. Empezamos por Cali y el Valle; Pereira, Manizales, Armenia y Quibdó vienen en camino. Cada punto lleva su fuente y fecha de corte. <strong>Nunca publicamos cuentas bancarias:</strong> contacta directamente a la organización y valida con ella antes de entregar dinero. <span id="ayuda-corte"></span></p>
+    <p class="desc">Albergues, puntos de acopio, bancos de sangre, ollas comunitarias y organizaciones que gestionan donaciones, en las zonas afectadas. <strong>Llama antes de ir:</strong> la columna «Estado» te dice hace cuánto no se confirma cada punto — la situación cambia rápido y un albergue puede llenarse o cerrar. <strong>Nunca publicamos cuentas bancarias:</strong> contacta a la organización y valida con ella antes de entregar dinero. <span id="ayuda-corte"></span></p>
     <div class="filtros">
       <select id="f-depto" aria-label="Filtrar por departamento"><option value="">Todos los departamentos</option></select>
       <select id="f-municipio" aria-label="Filtrar por municipio"><option value="">Todos los municipios</option></select>
@@ -89,7 +122,7 @@
     <div id="map"></div>
     <div class="tabla-wrap">
       <table id="tabla-ayuda">
-        <thead><tr><th>Tipo</th><th>Nombre</th><th>Municipio</th><th>Dónde / contacto</th><th>Qué</th><th>Fuente</th></tr></thead>
+        <thead><tr><th>Tipo</th><th>Nombre</th><th>Municipio</th><th>Dónde / contacto</th><th>Qué</th><th>Estado</th><th>Fuente</th></tr></thead>
         <tbody></tbody>
       </table>
     </div>
@@ -124,6 +157,22 @@
     "olla":          { label: "Olla comunitaria",  color: "#b45f06" },
     "donacion-org":  { label: "Recibe donaciones", color: "#0b57d0" },
   };
+  // Estado del dato: si nadie lo confirma, envejece solo y lo decimos en vez de fingir que sigue vigente.
+  const ESTADOS = {
+    "vigente":       { texto: "Confirmado",     color: "#1d6b2f" },
+    "por-confirmar": { texto: "Por confirmar",  color: "#b45f06" },
+    "cerrado":       { texto: "Ya no opera",    color: "#8a8a8a" },
+  };
+  function estado(i) {
+    if (i.estado === 'cerrado') return `<span class="pill" style="background:#8a8a8a18;color:#8a8a8a">Ya no opera</span>`;
+    const dias = Math.floor((Date.now() - new Date(i.verificado || i.fecha_corte)) / 86400000);
+    if (i.estado === 'vigente' && dias <= 2)
+      return `<span class="pill" style="background:#1d6b2f18;color:#1d6b2f">Confirmado</span><br><small style="color:var(--gris)">hace ${dias === 0 ? 'hoy' : dias + ' d'}</small>`;
+    if (dias >= 3)
+      return `<span class="pill" style="background:#b45f0618;color:#b45f06">Sin confirmar hace ${dias} d</span><br><small style="color:var(--gris)">llama antes de ir</small>`;
+    return `<span class="pill" style="background:#b45f0618;color:#b45f06">Por confirmar</span>`;
+  }
+
   fetch('datos/ayuda.json').then(r => r.json()).then(data => {
     const items = data.items;
     document.getElementById('ayuda-corte').textContent = `Datos actualizados: ${data.actualizado}.`;
@@ -153,20 +202,70 @@
       }
       tbody.innerHTML = vivos.map(i => {
         const t = TIPOS[i.tipo] || { label: i.tipo, color: '#555' };
+        const texto = [`${t.label}: ${i.nombre} (${i.municipio})`, i.direccion, i.que, i.contacto,
+          `Más info: alianzasporcolombia.com`].filter(Boolean).join('\n');
         return `<tr>
           <td><span class="pill" style="background:${t.color}18;color:${t.color}">${t.label}</span></td>
           <td><strong>${i.nombre}</strong></td>
           <td>${i.municipio}</td>
           <td>${i.direccion || ''}${i.direccion && i.contacto ? '<br>' : ''}${i.contacto || ''}</td>
           <td>${i.que}</td>
-          <td><a href="${i.fuente}" rel="noopener" target="_blank">ver</a> · ${i.fecha_corte}</td>
+          <td>${estado(i)}</td>
+          <td><a href="${i.fuente}" rel="noopener" target="_blank">ver</a> · ${i.fecha_corte}<br>
+            <button class="wa" data-wa="${texto.replace(/"/g, '&quot;')}" title="Compartir por WhatsApp">Compartir</button></td>
         </tr>`;
       }).join('');
     }
     selT.onchange = selM.onchange = pinta;
     selD.onchange = () => { llenaMunicipios(); pinta(); };
     pinta();
+
+    // Botones de ciudad: las más golpeadas primero, el resto por cantidad de puntos.
+    const PRIORIDAD = ['Cali', 'Pereira', 'Manizales', 'Armenia', 'Quibdó', 'Buenaventura'];
+    const cuenta = {};
+    for (const i of items) cuenta[i.municipio] = (cuenta[i.municipio] || 0) + 1;
+    const ciudades = Object.keys(cuenta)
+      .filter(m => !/^Nacional|^Valle del Cauca$/.test(m))   // no son ciudades, son ámbitos
+      .sort((a, b) => {
+        const pa = PRIORIDAD.indexOf(a), pb = PRIORIDAD.indexOf(b);
+        if (pa !== -1 || pb !== -1) return (pa === -1 ? 99 : pa) - (pb === -1 ? 99 : pb);
+        return cuenta[b] - cuenta[a];
+      });
+    const cont = document.getElementById('ciudades');
+    function elige(m, btn) {
+      selD.value = ''; llenaMunicipios();
+      selM.value = m; selT.value = '';
+      pinta();
+      for (const b of cont.querySelectorAll('button')) b.setAttribute('aria-pressed', b === btn);
+      const conCoord = items.filter(i => i.municipio === m && i.lat != null);
+      if (conCoord.length) mapa.fitBounds(conCoord.map(i => [i.lat, i.lon]), { padding: [40, 40], maxZoom: 14 });
+      document.getElementById('ayuda').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    const todas = document.createElement('button');
+    todas.innerHTML = 'Todas';
+    todas.setAttribute('aria-pressed', 'true');
+    todas.onclick = () => {
+      selM.value = ''; selD.value = ''; selT.value = ''; llenaMunicipios(); pinta();
+      for (const b of cont.querySelectorAll('button')) b.setAttribute('aria-pressed', b === todas);
+      mapa.setView([3.9, -76.35], 8);
+    };
+    cont.appendChild(todas);
+    for (const m of ciudades) {
+      const b = document.createElement('button');
+      b.innerHTML = `${m} <small>${cuenta[m]}</small>`;
+      b.setAttribute('aria-pressed', 'false');
+      b.onclick = () => elige(m, b);
+      cont.appendChild(b);
+    }
+    document.getElementById('donde').hidden = false;
   }).catch(() => { document.getElementById('ayuda').style.display = 'none'; });
+
+  // Compartir por WhatsApp: en Colombia el sitio se difunde por pedazos, no por el enlace entero.
+  document.addEventListener('click', e => {
+    const b = e.target.closest('[data-wa]');
+    if (!b) return;
+    window.open('https://wa.me/?text=' + encodeURIComponent(b.dataset.wa), '_blank', 'noopener');
+  });
 
   // Réplicas: consulta directa al USGS en cada visita — siempre al día, sin servidor propio.
   // El feed de resúmenes permite CORS (el endpoint FDSN no), así que filtramos la zona aquí.

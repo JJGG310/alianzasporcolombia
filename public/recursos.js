@@ -32,17 +32,7 @@ const RECURSOS = {
         { nombre: "Ollas comunitarias en Cali (Revista Diners)", url: "https://revistadiners.com.co/gastronomia/donde-comer/ollas-comunitarias-terremoto-cali", desc: "Puntos de comida comunitaria: San Antonio, Puerto Resistencia, Salomía, Llano Verde, Capri y más.", badge: "ciudadano" },
       ],
     },
-    {
-      id: "desaparecidos",
-      titulo: "Personas desaparecidas",
-      desc: "Registros y búsqueda de personas no localizadas. Las cifras ciudadanas y oficiales difieren porque cuentan cosas distintas: reportes abiertos vs. casos verificados.",
-      items: [
-        { nombre: "Colombia Te Busca", url: "https://www.colombiatebusca.com", desc: "El registro ciudadano principal: más de 5.100 personas reportadas, búsqueda por nombre o documento, fichas compartibles por WhatsApp. Las autoridades lo señalan como canal.", badge: "ciudadano" },
-        { nombre: "Encontrados.co", url: "https://encontrados.co", desc: "Reunificación con IA: rescatistas suben fotos de personas recuperadas y el sistema las cruza con reportes de desaparecidos. Código abierto.", badge: "ciudadano" },
-        { nombre: "Cruz Roja — Restablecimiento de Contactos Familiares", url: "https://www.cruzrojacolombiana.org/cruz-roja-colombiana-despliega-capacidades-para-dar-respuesta-tras-las-afectaciones-por-sismo-en-colombia/", desc: "Canales oficiales: línea 132, WhatsApp +57 321 213 9525, línea 01 8000 519 8534 y correo rcf@cruzrojacolombiana.org.", badge: "oficial" },
-        { nombre: "Cómo reportar a una persona desaparecida (El País)", url: "https://www.elpais.com.co/colombia/asi-puede-reportar-a-una-persona-desaparecida-y-ayudar-a-encontrarla-tras-el-terremoto-en-colombia-1107.html", desc: "Guía práctica: qué datos preparar y todos los canales disponibles." },
-      ],
-    },
+    // Personas desaparecidas: tiene su propia sección destacada arriba, en index.html.
     {
       id: "donaciones",
       titulo: "Donaciones verificadas",
