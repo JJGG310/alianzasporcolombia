@@ -1,4 +1,4 @@
-// Directorio de recursos de Cali S.O.S — editar este archivo es actualizar la página.
+// Directorio de recursos de Alianzas por Colombia — editar este archivo es actualizar la página.
 // Todos los enlaces fueron verificados en vivo el 12 de agosto de 2026 (barrido de 14 agentes).
 // Inventario completo con fuentes descartadas y análisis de vacíos: ver RECURSOS.md.
 const RECURSOS = {

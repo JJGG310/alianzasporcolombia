@@ -1,6 +1,8 @@
-# Cali S.O.S
+# Alianzas por Colombia — alianzasporcolombia.com
 
-Sitio ciudadano que centraliza información verificada sobre el terremoto del 10 de agosto de 2026 para **Cali y todo el Valle del Cauca**: líneas de emergencia, albergues, puntos de acopio, bancos de sangre, ollas comunitarias, dónde donar, desaparecidos, cobertura en vivo y datos abiertos.
+Sitio ciudadano que centraliza información verificada sobre el terremoto del 10 de agosto de 2026: líneas de emergencia, albergues, puntos de acopio, bancos de sangre, ollas comunitarias, dónde donar, desaparecidos, cobertura en vivo y datos abiertos.
+
+**Alcance:** empezamos por Cali y el Valle del Cauca (las primeras horas), y crecemos por regiones a todo el país: Pereira/Risaralda, Manizales/Caldas, Armenia/Quindío, Quibdó/Chocó.
 
 **Principios innegociables:**
 1. **Nunca recibimos ni publicamos cuentas bancarias.** Solo el contacto de la organización, con la advertencia de validar con ella antes de entregar dinero.

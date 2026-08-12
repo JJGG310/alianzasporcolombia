@@ -1,4 +1,6 @@
-# Cali S.O.S — Plan de producto
+# Alianzas por Colombia — Plan de producto
+
+> **Actualización de alcance (12-ago, tarde):** marca definitiva **Alianzas por Colombia** (alianzasporcolombia.com). Foco del Valle en las primeras horas; expansión por regiones a todo el país (Pereira, Manizales, Armenia, Quibdó ya en barrido). Las menciones a "Cali S.O.S" abajo son el nombre de trabajo original.
 
 ## La tesis
 

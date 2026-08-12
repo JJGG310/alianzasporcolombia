@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cali S.O.S — Información centralizada · Terremoto 10 de agosto</title>
-<meta name="description" content="Directorio centralizado de información verificada sobre el terremoto del 10 de agosto de 2026 en Colombia: emergencias, albergues, desaparecidos, donaciones y fuentes oficiales para Cali y el Valle del Cauca.">
+<title>Alianzas por Colombia — Terremoto 10 de agosto</title>
+<meta name="description" content="Información ciudadana centralizada sobre el terremoto del 10 de agosto de 2026 en Colombia: emergencias, albergues, acopios, donaciones verificadas, desaparecidos y fuentes oficiales. Empezando por Cali y el Valle, creciendo a todo el país.">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
   :root{
@@ -50,8 +50,8 @@
 <body>
 <header>
   <div class="wrap">
-    <h1>Cali S.O.S</h1>
-    <p>Información centralizada · Terremoto M 7,4 — 10 de agosto de 2026 · Cali y Valle del Cauca</p>
+    <h1>Alianzas por Colombia</h1>
+    <p>Información ciudadana centralizada · Terremoto M 7,4 — 10 de agosto de 2026 · Del Valle del Cauca para todo el país</p>
   </div>
 </header>
 <div class="aviso">⚠️ Verifica siempre con las fuentes oficiales. Este sitio recopila y enlaza; las cifras y órdenes de evacuación las emiten las autoridades.</div>
@@ -69,11 +69,12 @@
     <p id="actualizado"></p>
   </section>
   <section id="ayuda">
-    <h2>Mapa de ayuda — Cali y Valle del Cauca</h2>
-    <p class="desc">Albergues, puntos de acopio, bancos de sangre, ollas comunitarias y organizaciones que gestionan donaciones. Cada punto lleva su fuente y fecha de corte. <strong>Nunca publicamos cuentas bancarias:</strong> contacta directamente a la organización y valida con ella antes de entregar dinero. <span id="ayuda-corte"></span></p>
+    <h2>Mapa de ayuda</h2>
+    <p class="desc">Albergues, puntos de acopio, bancos de sangre, ollas comunitarias y organizaciones que gestionan donaciones. Empezamos por Cali y el Valle; Pereira, Manizales, Armenia y Quibdó vienen en camino. Cada punto lleva su fuente y fecha de corte. <strong>Nunca publicamos cuentas bancarias:</strong> contacta directamente a la organización y valida con ella antes de entregar dinero. <span id="ayuda-corte"></span></p>
     <div class="filtros">
-      <select id="f-tipo" aria-label="Filtrar por tipo"><option value="">Todos los tipos</option></select>
+      <select id="f-depto" aria-label="Filtrar por departamento"><option value="">Todos los departamentos</option></select>
       <select id="f-municipio" aria-label="Filtrar por municipio"><option value="">Todos los municipios</option></select>
+      <select id="f-tipo" aria-label="Filtrar por tipo"><option value="">Todos los tipos</option></select>
     </div>
     <div id="map"></div>
     <div class="tabla-wrap">
@@ -86,7 +87,7 @@
   <div id="contenido"><!-- secciones renderizadas desde recursos.js --></div>
 </main>
 <footer>
-  Cali S.O.S es una iniciativa ciudadana sin ánimo de lucro. No recibimos donaciones directamente: enlazamos a campañas y entidades verificadas.
+  Alianzas por Colombia es una iniciativa ciudadana sin ánimo de lucro. No recibimos donaciones directamente ni publicamos cuentas: enlazamos a organizaciones verificadas — valida siempre con ellas antes de entregar dinero.
 </footer>
 <script src="recursos.js"></script>
 <script>
@@ -119,13 +120,19 @@
     const mapa = L.map('map').setView([3.9, -76.35], 8);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(mapa);
     const capa = L.layerGroup().addTo(mapa);
-    const selT = document.getElementById('f-tipo'), selM = document.getElementById('f-municipio');
+    const selT = document.getElementById('f-tipo'), selM = document.getElementById('f-municipio'), selD = document.getElementById('f-depto');
     for (const [k, t] of Object.entries(TIPOS)) selT.add(new Option(t.label, k));
-    for (const m of [...new Set(items.map(i => i.municipio))].sort()) selM.add(new Option(m, m));
+    for (const d of [...new Set(items.map(i => i.departamento))].sort()) selD.add(new Option(d, d));
+    function llenaMunicipios() {
+      selM.length = 1;
+      const fd = selD.value;
+      for (const m of [...new Set(items.filter(i => !fd || i.departamento === fd).map(i => i.municipio))].sort()) selM.add(new Option(m, m));
+    }
+    llenaMunicipios();
     const tbody = document.querySelector('#tabla-ayuda tbody');
     function pinta() {
-      const ft = selT.value, fm = selM.value;
-      const vivos = items.filter(i => (!ft || i.tipo === ft) && (!fm || i.municipio === fm));
+      const ft = selT.value, fm = selM.value, fd = selD.value;
+      const vivos = items.filter(i => (!ft || i.tipo === ft) && (!fm || i.municipio === fm) && (!fd || i.departamento === fd));
       capa.clearLayers();
       for (const i of vivos) {
         if (i.lat == null || i.lon == null) continue;
@@ -147,6 +154,7 @@
       }).join('');
     }
     selT.onchange = selM.onchange = pinta;
+    selD.onchange = () => { llenaMunicipios(); pinta(); };
     pinta();
   }).catch(() => { document.getElementById('ayuda').style.display = 'none'; });
 </script>
