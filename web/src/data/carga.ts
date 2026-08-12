@@ -21,6 +21,24 @@ import type {
 /** Slug que marca un punto verificado a mano. */
 export const FUENTE_CURADO = 'curado';
 
+/** El sismo. Nada anterior puede ser una respuesta a él. */
+export const FECHA_SISMO = '2026-08-10';
+
+/**
+ * ¿Este reporte agregado es anterior al terremoto?
+ *
+ * Los sitios ciudadanos que federamos existían antes y traen su historia: el
+ * volcado incluía 98 registros de logística de junio ("22 cajas losantan a
+ * Refugio Venezuela", con números de lote), que aquí se leían como puntos de
+ * ayuda vigentes porque `fecha_corte` es la hora del scrape, no la del reporte.
+ * Se comparan contra `creado`, que sí es del reporte. Sin `creado` se conserva:
+ * no se descarta por falta de dato.
+ */
+export function esAnteriorAlSismo(p: Punto): boolean {
+  const creado = (p.creado ?? '').slice(0, 10);
+  return creado !== '' && creado < FECHA_SISMO;
+}
+
 export const RUTA_CURADOS = '/datos/ayuda.json';
 export const RUTA_SCRAPEADOS = '/extracted-data/puntos.json';
 
@@ -156,7 +174,7 @@ export async function cargarDatos(señal?: AbortSignal): Promise<DatosApp> {
 
   if (scrapeRes.status === 'fulfilled') {
     const scrape = scrapeRes.value;
-    agregados = (scrape.puntos ?? []).map(normalizarScrapeado);
+    agregados = (scrape.puntos ?? []).map(normalizarScrapeado).filter((p) => !esAnteriorAlSismo(p));
     generadoScrape = scrape.generado ?? null;
     fuentes = scrape.fuentes ?? [];
     esMuestra = scrape.muestra === true;

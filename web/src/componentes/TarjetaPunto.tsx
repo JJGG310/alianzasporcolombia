@@ -280,7 +280,13 @@ function TarjetaPunto({ punto: p, origen }: Props) {
           <Icono nombre="enlace" tam="1em" />
           Fuente
         </a>
-        <span>datos al {fechaCorta(p.fecha_corte)}</span>
+        {/* En lo agregado, fecha_corte es cuando el recolector miró, no cuando
+            alguien reportó. Mostrarla dice que el dato es más fresco de lo que
+            es; la fecha del propio reporte es la que responde "¿esto sigue en
+            pie?". Para lo curado, fecha_corte sí es la fecha de revisión. */}
+        <span>
+          datos al {fechaCorta(curado ? p.fecha_corte : (p.actualizado ?? p.creado ?? p.fecha_corte))}
+        </span>
         {!curado && p.fuente && <span>vía {p.fuente}</span>}
       </p>
     </article>
