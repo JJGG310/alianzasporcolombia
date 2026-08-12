@@ -81,6 +81,12 @@
   #necesita li:last-child{border-bottom:0}
   #necesita .fecha{color:var(--gris);font-size:.8rem;white-space:nowrap}
   #frescura{color:var(--gris);font-size:.8rem}
+  #tabs{position:sticky;top:0;z-index:1100;background:var(--carta);border-bottom:1px solid var(--borde);
+    display:flex;gap:.3rem;padding:.45rem .6rem;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  #tabs button{font:inherit;font-size:.92rem;font-weight:600;cursor:pointer;white-space:nowrap;
+    background:transparent;color:var(--tinta);border:1px solid var(--borde);border-radius:99px;padding:.45rem .9rem}
+  #tabs button[aria-pressed="true"]{background:var(--rojo);border-color:var(--rojo);color:#fff}
+  .tab-oculta{display:none !important}
   /* En celular la tabla de 7 columnas obliga a arrastrar de lado para llegar al teléfono
      de un albergue. Cada fila pasa a ser una tarjeta apilada; el orden de las columnas
      ya se lee solo (tipo, nombre, ciudad, dirección, qué, estado, fuente). */
@@ -107,6 +113,13 @@
 </header>
 <div class="aviso">⚠️ Verifica siempre con las fuentes oficiales. Este sitio recopila y enlaza; las cifras y órdenes de evacuación las emiten las autoridades.</div>
 <div id="avisos" hidden><ul></ul></div>
+<nav id="tabs" aria-label="Secciones">
+  <button data-tab="ahora" aria-pressed="true">🚨 Ahora</button>
+  <button data-tab="ayuda" aria-pressed="false">🗺️ Ayuda cerca</button>
+  <button data-tab="buscar" aria-pressed="false">🔍 Buscar a alguien</button>
+  <button data-tab="donar" aria-pressed="false">🤝 Donar</button>
+  <button data-tab="fuentes" aria-pressed="false">📰 Fuentes</button>
+</nav>
 <main>
   <section id="emergencias">
     <h2>Líneas de emergencia</h2>
@@ -278,6 +291,7 @@
     const items = data.items;
     document.getElementById('ayuda-corte').textContent = `Datos actualizados: ${data.actualizado}.`;
     const mapa = L.map('map').setView([3.9, -76.35], 8);
+    window.__mapa = mapa; // para re-dibujar al mostrar la pestaña (Leaflet queda gris si nace oculto)
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(mapa);
     const capa = L.layerGroup().addTo(mapa);
     const selT = document.getElementById('f-tipo'), selM = document.getElementById('f-municipio'), selD = document.getElementById('f-depto');
@@ -486,6 +500,20 @@
   }
   cargaReplicas();
   setInterval(cargaReplicas, 300000); // cada 5 min mientras la página esté abierta
+
+  // Pestañas por tema: adiós al scroll eterno. Hash en la URL para compartir la pestaña exacta.
+  const TAB_DE = { emergencias: 'ahora', replicas: 'ahora', donde: 'ayuda', ayuda: 'ayuda', buscar: 'buscar',
+    donaciones: 'donar', alivios: 'donar' }; // el resto del directorio cae en 'fuentes'
+  const TABS_VALIDAS = ['ahora', 'ayuda', 'buscar', 'donar', 'fuentes'];
+  function muestraTab(t, primeraVez) {
+    for (const s of document.querySelectorAll('main section')) s.classList.toggle('tab-oculta', (TAB_DE[s.id] || 'fuentes') !== t);
+    for (const b of document.querySelectorAll('#tabs button')) b.setAttribute('aria-pressed', String(b.dataset.tab === t));
+    if (!primeraVez) { history.replaceState(null, '', '#' + t); window.scrollTo({ top: 0 }); }
+    if (t === 'ayuda' && window.__mapa) setTimeout(() => window.__mapa.invalidateSize(), 60);
+  }
+  document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => muestraTab(b.dataset.tab));
+  const inicial = location.hash.slice(1);
+  muestraTab(TABS_VALIDAS.includes(inicial) ? inicial : 'ahora', true);
 </script>
 </body>
 </html>
