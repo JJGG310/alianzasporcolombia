@@ -81,6 +81,12 @@
   #necesita li:last-child{border-bottom:0}
   #necesita .fecha{color:var(--gris);font-size:.8rem;white-space:nowrap}
   #frescura{color:var(--gris);font-size:.8rem}
+  #tabs{position:sticky;top:0;z-index:1100;background:var(--carta);border-bottom:1px solid var(--borde);
+    display:flex;gap:.3rem;padding:.45rem .6rem;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  #tabs button{font:inherit;font-size:.92rem;font-weight:600;cursor:pointer;white-space:nowrap;
+    background:transparent;color:var(--tinta);border:1px solid var(--borde);border-radius:99px;padding:.45rem .9rem}
+  #tabs button[aria-pressed="true"]{background:var(--rojo);border-color:var(--rojo);color:#fff}
+  .tab-oculta{display:none !important}
   /* En celular la tabla de 7 columnas obliga a arrastrar de lado para llegar al teléfono
      de un albergue. Cada fila pasa a ser una tarjeta apilada; el orden de las columnas
      ya se lee solo (tipo, nombre, ciudad, dirección, qué, estado, fuente). */
@@ -107,6 +113,13 @@
 </header>
 <div class="aviso">⚠️ Verifica siempre con las fuentes oficiales. Este sitio recopila y enlaza; las cifras y órdenes de evacuación las emiten las autoridades.</div>
 <div id="avisos" hidden><ul></ul></div>
+<nav id="tabs" aria-label="Secciones">
+  <button data-tab="ahora" aria-pressed="true">🚨 Ahora</button>
+  <button data-tab="ayuda" aria-pressed="false">🗺️ Ayuda cerca</button>
+  <button data-tab="buscar" aria-pressed="false">🔍 Buscar a alguien</button>
+  <button data-tab="donar" aria-pressed="false">🤝 Donar</button>
+  <button data-tab="fuentes" aria-pressed="false">📰 Fuentes</button>
+</nav>
 <main>
   <section id="emergencias">
     <h2>Líneas de emergencia</h2>
@@ -203,6 +216,21 @@
     "olla":          { label: "Olla comunitaria",  color: "#b45f06" },
     "donacion-org":  { label: "Recibe donaciones", color: "#0b57d0" },
   };
+  // Centros de municipio para ubicar aproximadamente los puntos cuya dirección exacta
+  // no se pudo geocodificar (se dibujan distintos y el popup lo aclara).
+  const CENTROS = {
+    "Cali": [3.4516, -76.532], "Buenaventura": [3.8801, -77.0312], "Palmira": [3.5394, -76.3036],
+    "Tuluá": [4.0847, -76.1954], "Buga": [3.9006, -76.2977], "Cartago": [4.7467, -75.9117],
+    "Yumbo": [3.5847, -76.4956], "Jamundí": [3.2611, -76.5386], "El Águila": [4.9078, -76.0208],
+    "El Cairo": [4.7625, -76.2222], "Roldanillo": [4.4131, -76.1519], "Zarzal": [4.3931, -76.0708],
+    "Sevilla": [4.2703, -75.9394], "Calima-El Darién": [3.9264, -76.4894],
+    "Pereira": [4.8087, -75.6906], "Dosquebradas": [4.835, -75.67], "Santa Rosa de Cabal": [4.8694, -75.6222],
+    "Manizales": [5.0689, -75.5174], "Chinchiná": [4.9825, -75.6069], "Villamaría": [5.0428, -75.5083],
+    "Armenia": [4.5339, -75.6811], "Calarcá": [4.5261, -75.6394], "Quimbaya": [4.6242, -75.7654],
+    "Quibdó": [5.6947, -76.6611], "Istmina": [5.1594, -76.6844],
+    "Bogotá": [4.711, -74.0721], "Medellín": [6.2442, -75.5812],
+  };
+
   // Estado del dato: si nadie lo confirma, envejece solo y lo decimos en vez de fingir que sigue vigente.
   const ESTADOS = {
     "vigente":       { texto: "Confirmado",     color: "#1d6b2f" },
@@ -263,6 +291,7 @@
     const items = data.items;
     document.getElementById('ayuda-corte').textContent = `Datos actualizados: ${data.actualizado}.`;
     const mapa = L.map('map').setView([3.9, -76.35], 8);
+    window.__mapa = mapa; // para re-dibujar al mostrar la pestaña (Leaflet queda gris si nace oculto)
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(mapa);
     const capa = L.layerGroup().addTo(mapa);
     const selT = document.getElementById('f-tipo'), selM = document.getElementById('f-municipio'), selD = document.getElementById('f-depto');
@@ -294,13 +323,26 @@
         ? `${items.length} puntos de ayuda.`
         : `${vivos.length} de ${items.length} puntos.` + (fn ? ` Reciben ${NECESIDADES[fn].toLowerCase()}.` : '');
       capa.clearLayers();
+      let k = 0; // separa en espiral los puntos aproximados del mismo municipio
       for (const i of vivos) {
-        // Las coordenadas aproximadas son el centroide del municipio: varios puntos caerían
-        // exactamente encima y mandarían gente a la dirección equivocada. Van solo en la lista.
-        if (i.lat == null || i.lon == null || i.precision === 'aproximada') continue;
+        // Aproximados (centroide del municipio): se dibujan punteados, en espiral para no
+        // encimarse, y el popup manda a la dirección escrita — mejor visible que invisible.
+        let lat = i.lat, lon = i.lon, aprox = i.precision === 'aproximada';
+        if (lat == null || lon == null) {
+          const c = CENTROS[i.municipio];
+          if (!c) continue;
+          lat = c[0]; lon = c[1]; aprox = true;
+        }
+        if (aprox) {
+          const ang = k * 2.4, r = 0.0015 + 0.0005 * k;
+          lat += r * Math.cos(ang); lon += r * Math.sin(ang); k++;
+        }
         const t = TIPOS[i.tipo] || { label: i.tipo, color: '#555' };
-        L.circleMarker([i.lat, i.lon], { radius: 8, color: t.color, fillOpacity: .75 })
-          .bindPopup(`<strong>${i.nombre}</strong><br>${t.label} · ${i.municipio}<br>${i.direccion || ''}<br>${i.que}<br><em>${i.contacto || ''}</em>`)
+        const nota = aprox ? `<em>📍 Ubicación aproximada (centro del municipio) — guíate por la dirección:</em><br>` : '';
+        L.circleMarker([lat, lon], aprox
+          ? { radius: 8, color: t.color, fillOpacity: .12, dashArray: '3 4', weight: 1.5 }
+          : { radius: 8, color: t.color, fillOpacity: .75 })
+          .bindPopup(`<strong>${i.nombre}</strong><br>${t.label} · ${i.municipio}<br>${nota}${i.direccion || ''}<br>${i.que}<br><em>${i.contacto || ''}</em>`)
           .addTo(capa);
       }
       // "Qué se necesita ahora": une el feed curado de necesidades con los pedidos ya presentes en los datos.
@@ -362,7 +404,7 @@
     const cuenta = {};
     for (const i of items) cuenta[i.municipio] = (cuenta[i.municipio] || 0) + 1;
     const ciudades = Object.keys(cuenta)
-      .filter(m => !/^Nacional|^Valle del Cauca$/.test(m))   // no son ciudades, son ámbitos
+      .filter(m => !/,|\(|^Nacional|^Zonas|^Departamentos|^Valle del Cauca$/.test(m))   // solo ciudades reales
       .sort((a, b) => {
         const pa = PRIORIDAD.indexOf(a), pb = PRIORIDAD.indexOf(b);
         if (pa !== -1 || pb !== -1) return (pa === -1 ? 99 : pa) - (pb === -1 ? 99 : pb);
@@ -376,6 +418,7 @@
       for (const b of cont.querySelectorAll('button')) b.setAttribute('aria-pressed', b === btn);
       const conCoord = items.filter(i => i.municipio === m && i.lat != null);
       if (conCoord.length) mapa.fitBounds(conCoord.map(i => [i.lat, i.lon]), { padding: [40, 40], maxZoom: 14 });
+      else if (CENTROS[m]) mapa.setView(CENTROS[m], 14);
       document.getElementById('ayuda').scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
     const todas = document.createElement('button');
@@ -457,6 +500,20 @@
   }
   cargaReplicas();
   setInterval(cargaReplicas, 300000); // cada 5 min mientras la página esté abierta
+
+  // Pestañas por tema: adiós al scroll eterno. Hash en la URL para compartir la pestaña exacta.
+  const TAB_DE = { emergencias: 'ahora', replicas: 'ahora', donde: 'ayuda', ayuda: 'ayuda', buscar: 'buscar',
+    donaciones: 'donar', alivios: 'donar' }; // el resto del directorio cae en 'fuentes'
+  const TABS_VALIDAS = ['ahora', 'ayuda', 'buscar', 'donar', 'fuentes'];
+  function muestraTab(t, primeraVez) {
+    for (const s of document.querySelectorAll('main section')) s.classList.toggle('tab-oculta', (TAB_DE[s.id] || 'fuentes') !== t);
+    for (const b of document.querySelectorAll('#tabs button')) b.setAttribute('aria-pressed', String(b.dataset.tab === t));
+    if (!primeraVez) { history.replaceState(null, '', '#' + t); window.scrollTo({ top: 0 }); }
+    if (t === 'ayuda' && window.__mapa) setTimeout(() => window.__mapa.invalidateSize(), 60);
+  }
+  document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => muestraTab(b.dataset.tab));
+  const inicial = location.hash.slice(1);
+  muestraTab(TABS_VALIDAS.includes(inicial) ? inicial : 'ahora', true);
 </script>
 </body>
 </html>
