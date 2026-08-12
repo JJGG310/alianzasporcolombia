@@ -320,11 +320,11 @@
      sin espacios que hay que partir o se salen de la tarjeta. */
   overflow-wrap: break-word;
 }
-/* Urgente a un metro de distancia: una banda de 3 px y el sello. Pintar la
-   tarjeta entera de rojo haría que 41 urgencias se vean como 878. */
+/* Lo urgente lo dice el sello, arriba y en palabras. Sin barra de color al
+   costado: con 402 urgentes de 979 la lista se volvía una cortina de rayas, y
+   una raya que aparece en casi todo deja de significar algo. */
 .punto--urgente.tarjeta {
-  border-left: 3px solid var(--urgente);
-  padding-left: calc(var(--e4) - 2px);
+  border-color: var(--urgente-borde);
 }
 
 .punto__sellos {

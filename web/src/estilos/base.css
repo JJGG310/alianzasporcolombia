@@ -254,15 +254,6 @@ svg {
   text-transform: uppercase;
   white-space: nowrap;
 }
-.sello::before {
-  content: '';
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: currentColor;
-  flex: none;
-}
-
 .sello--urgente {
   background: var(--urgente-tenue);
   color: var(--urgente);
@@ -291,10 +282,6 @@ svg {
   letter-spacing: 0;
   font-weight: var(--peso-medio);
 }
-.sello--verificado::before,
-.sello--agregado::before {
-  display: none;
-}
 .sello--verificado {
   background: var(--activo-tenue);
   color: var(--activo);
@@ -318,24 +305,8 @@ svg {
    "esto es lo que va a llegar" y la pantalla no salta cuando llega. */
 
 .esqueleto {
-  background: linear-gradient(
-    90deg,
-    var(--superficie-2) 25%,
-    var(--borde) 37%,
-    var(--superficie-2) 63%
-  );
-  background-size: 400% 100%;
-  animation: brillo 1.4s ease infinite;
+  background: var(--superficie-2);
   border-radius: var(--radio-sm);
-}
-
-@keyframes brillo {
-  0% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
 }
 
 /* ---- Aparición ------------------------------------------------------ */

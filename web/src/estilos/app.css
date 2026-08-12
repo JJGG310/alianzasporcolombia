@@ -224,10 +224,10 @@
    y en el lugar donde alguien está a punto de donar. */
 .regla-dinero {
   margin-top: var(--e4);
-  padding: var(--e3) var(--e4);
-  border-left: 3px solid var(--urgente);
+  padding: var(--e4);
+  border: 1px solid var(--urgente-borde);
+  border-radius: var(--radio);
   background: var(--urgente-tenue);
-  border-radius: 0 var(--radio) var(--radio) 0;
   color: var(--tinta-900);
   font-size: var(--txt-sm);
 }
