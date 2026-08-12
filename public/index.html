@@ -252,6 +252,11 @@
   };
   function estado(i) {
     if (i.estado === 'cerrado') return `<span class="pill" style="background:#8a8a8a18;color:#8a8a8a">Ya no opera</span>`;
+    // Cuando la fuente dice hasta cuándo va algo, el punto se cierra solo el día que vence.
+    // Sin esto alguien tendría que acordarse a mano, y es justo lo que falla al quinto día.
+    if (i.vigente_hasta && Date.now() > new Date(i.vigente_hasta + 'T23:59:59').getTime())
+      return `<span class="pill" style="background:#8a8a8a18;color:#8a8a8a">Ya no opera</span>`
+           + `<br><small style="color:var(--gris)">terminó el ${i.vigente_hasta}</small>`;
     const dias = Math.floor((Date.now() - new Date(i.verificado || i.fecha_corte)) / 86400000);
     if (i.estado === 'vigente' && dias <= 2)
       return `<span class="pill" style="background:#1d6b2f18;color:#1d6b2f">Confirmado</span><br><small style="color:var(--gris)">hace ${dias === 0 ? 'hoy' : dias + ' d'}</small>`;
