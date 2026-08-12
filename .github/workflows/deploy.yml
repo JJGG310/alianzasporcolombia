@@ -12,8 +12,41 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      # El build corre desde la raíz del repo, no desde web/: sync-datos.mjs
+      # lee public/datos/ y public/extracted-data/, que están afuera de web/.
+      # Así los datos siguen siendo de quien los mantiene a mano y del scraper,
+      # no copias sueltas dentro del front.
+      - name: Construir el sitio
+        working-directory: web
+        run: |
+          npm ci
+          npm run build
+
+      # Las reglas de caché y CORS son las mismas para cualquier frontend, así
+      # que viven en public/_headers y se copian; no se duplican.
+      - name: Copiar reglas de caché y CORS
+        run: cp public/_headers web/dist/_headers
+
+      # Red de seguridad: si el build sale sin datos, el sitio queda mudo en
+      # plena emergencia. Mejor que falle el deploy y quede la versión anterior.
+      - name: Verificar que los datos quedaron en el build
+        run: |
+          set -e
+          for f in datos/ayuda.json datos/avisos.json datos/necesidades.json \
+                   extracted-data/puntos.json extracted-data/puntos.geojson; do
+            test -s "web/dist/$f" || { echo "FALTA web/dist/$f"; exit 1; }
+          done
+          echo "Datos completos en el build."
+
       - uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 594c48bfc7fad4b7f22602d3332be1dd
-          command: pages deploy public --project-name=alianzasporcolombia --branch=main --commit-dirty=true
+          command: pages deploy web/dist --project-name=alianzasporcolombia --branch=main --commit-dirty=true
