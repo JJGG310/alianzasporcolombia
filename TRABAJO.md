@@ -5,14 +5,14 @@ Diseñada para trabajar **en paralelo sin pisarse**: cada persona es dueña de a
 ## Frentes (dueño por archivo = cero conflictos de merge)
 
 ### Persona A — Datos y verificación 📊
-**Dueña de:** `datos/ayuda.json`, `recursos.js`, `RECURSOS.md`
+**Dueña de:** `public/datos/ayuda.json`, `public/recursos.js`, `RECURSOS.md`
 - Mantener cada punto con fuente + fecha de corte; marcar vencidos.
 - Procesar los diffs que producen los barridos de agentes (revisar → aprobar → merge).
 - Re-verificar liveblogs a diario (rotan de URL) y boletines oficiales.
 - Llamar/escribir a albergues y acopios para confirmar que siguen activos (el dato más valioso del sitio).
 
 ### Persona B — Producto y frontend 🛠
-**Dueña de:** `index.html`
+**Dueña de:** `public/index.html`
 - Mapa y tabla (hecho — pulir), botón compartir por WhatsApp por tarjeta.
 - Panel de cifras con fuente + hora.
 - Widget de réplicas en vivo (feed USGS ya verificado, `fetch` directo).
@@ -57,7 +57,7 @@ Lo que cambia minuto a minuto (réplicas) no lo maneja el agente: la página con
 
 ## Flujo git (simple, rápido)
 
-- `main` = lo que está publicado. Conectar el repo a Vercel/Netlify para deploy automático en cada push.
+- `main` = lo que está publicado. Repo conectado a Cloudflare Pages con deploy automático en cada push (ver `.github/workflows/deploy.yml`); solo se despliega `public/`.
 - Cambios chicos y frecuentes directo a `main` (somos 3 y cada quien toca sus archivos). Rama + PR solo para cambios grandes de `index.html`.
 - Mensajes de commit en español, cortos: `datos: 4 acopios nuevos Palmira (fuente El País)`.
 - Regla de oro: **si tocas un archivo del que no eres dueño, avisa por WhatsApp antes.**
@@ -75,7 +75,7 @@ Publicable solo si tiene: fuente (URL) + fecha de corte + municipio + tipo. Si e
 ## Esta semana (en orden)
 
 1. ~~Estructura, directorio verificado, mapa+tabla, datos abiertos~~ ✅
-2. Comprar dominio → conectar repo a Vercel/Netlify → publicar (Persona B, 1 h)
+2. ~~Conectar repo a Cloudflare Pages → publicar~~ ✅ — falta comprar dominio propio (Persona B)
 3. Aprobar el JSON del barrido Valle-wide de fundaciones y puntos (Persona A, hoy)
 4. Enviar mensajes a los 4 sitios aliados (Persona C, hoy)
 5. Compartir por WhatsApp + panel de cifras + réplicas en vivo (Persona B, 1-2 días)
