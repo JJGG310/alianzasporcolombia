@@ -184,7 +184,14 @@
     return `<span class="pill" style="background:#b45f0618;color:#b45f06">Por confirmar</span>`;
   }
 
-  fetch('datos/ayuda.json').then(r => r.json()).then(data => {
+  // Feed de necesidades reportadas (lugar + qué piden + fecha + fuente), curado por el equipo.
+  let FEED_NECESIDADES = [];
+  fetch('datos/necesidades.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
+    FEED_NECESIDADES = d.items || [];
+    if (window.__pinta) window.__pinta();
+  }).catch(() => {});
+
+  fetch('datos/ayuda.json', { cache: 'no-store' }).then(r => r.json()).then(data => {
     const items = data.items;
     document.getElementById('ayuda-corte').textContent = `Datos actualizados: ${data.actualizado}.`;
     const mapa = L.map('map').setView([3.9, -76.35], 8);
@@ -211,17 +218,21 @@
           .bindPopup(`<strong>${i.nombre}</strong><br>${t.label} · ${i.municipio}<br>${i.direccion || ''}<br>${i.que}<br><em>${i.contacto || ''}</em>`)
           .addTo(capa);
       }
-      // "Qué se necesita ahora": extrae los pedidos ya presentes en los datos y los pone primero.
-      const nec = vivos.map(i => {
+      // "Qué se necesita ahora": une el feed curado de necesidades con los pedidos ya presentes en los datos.
+      const delFeed = FEED_NECESIDADES
+        .filter(n => (!fm || (n.municipio || '').includes(fm)) && (!fd || (n.departamento || '').includes(fd)))
+        .map(n => ({ nombre: n.lugar, municipio: n.municipio, txt: n.necesita, fecha: n.fecha, fuente: n.fuente, dir: '' }));
+      const parseados = vivos.map(i => {
         const m = (i.que || '').match(/(?:solicitan|insumos solicitados|recibe|piden?)\s*:?\s*(.+)/i);
-        return m ? { i, txt: m[1].replace(/\.$/, '') } : null;
-      }).filter(Boolean).sort((a, b) => (b.i.fecha_corte || '').localeCompare(a.i.fecha_corte || ''));
+        return m ? { nombre: i.nombre, municipio: i.municipio, txt: m[1].replace(/\.$/, ''), fecha: i.fecha_corte, fuente: null, dir: i.direccion } : null;
+      }).filter(Boolean);
+      const nec = [...delFeed, ...parseados].sort((a, b) => (b.fecha || '').localeCompare(a.fecha || ''));
       const bloque = document.getElementById('necesita');
       if (nec.length) {
-        bloque.querySelector('ul').innerHTML = nec.slice(0, 10).map(({ i, txt }) => {
-          const wa = `Se necesita en ${i.nombre} (${i.municipio}): ${txt}\n${i.direccion || ''}\nMás info: alianzasporcolombia.com`;
-          return `<li><strong>${i.nombre}</strong> (${i.municipio}): ${txt}
-            <span class="fecha">· reporte del ${i.fecha_corte}</span>
+        bloque.querySelector('ul').innerHTML = nec.slice(0, 12).map(n => {
+          const wa = `Se necesita en ${n.nombre} (${n.municipio}): ${n.txt}\n${n.dir || ''}\nMás info: alianzasporcolombia.com`;
+          return `<li><strong>${n.nombre}</strong> (${n.municipio}): ${n.txt}
+            <span class="fecha">· reporte del ${n.fecha}${n.fuente ? ` · <a href="${n.fuente}" rel="noopener" target="_blank">fuente</a>` : ''}</span>
             <button class="wa" data-wa="${wa.replace(/"/g, '&quot;')}">Compartir</button></li>`;
         }).join('');
         bloque.hidden = false;
@@ -245,6 +256,7 @@
     }
     selT.onchange = selM.onchange = pinta;
     selD.onchange = () => { llenaMunicipios(); pinta(); };
+    window.__pinta = pinta;
     pinta();
 
     // Botones de ciudad: las más golpeadas primero, el resto por cantidad de puntos.

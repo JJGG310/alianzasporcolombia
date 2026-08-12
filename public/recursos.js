@@ -39,12 +39,24 @@ const RECURSOS = {
       desc: "Campañas y entidades confirmadas. Desconfía de cuentas personales sin respaldo y de cadenas de WhatsApp.",
       items: [
         { nombre: "Cruz Roja Colombiana — Donación en línea", url: "https://ayuda.cruzrojacolombiana.org/emergencia-colombia-terremoto", desc: "Landing oficial de recaudo para la emergencia (tarjeta, Daviplata, transferencia).", badge: "oficial" },
+        { nombre: "Dona Hoy — corredor humanitario ABACO", url: "https://donahoy.abaco.org.co/colombia2026", desc: "El corredor del Consejo Gremial y la red de bancos de alimentos: qué se necesita y dónde donar en especie, con puntos en 10 ciudades.", badge: "ciudadano" },
         { nombre: "El Valle Somos Todos — Gobernación del Valle", url: "https://www.valledelcauca.gov.co/publicaciones/90172/campana-el-valle-somos-todos-estos-son-los-elementos-que-se-pueden-donar-para-los-damnificados-por-el-sismo/", desc: "Campaña oficial departamental: donaciones en especie en puntos verificados.", badge: "oficial" },
         { nombre: "Propacífico — Solidaridad con el Pacífico", url: "https://www.elpais.com.co/cali/propacifico-activa-campana-de-solidaridad-para-atender-a-damnificados-por-el-terremoto-1129.html", desc: "Enfocada en insumos médicos. Punto físico en San Nicolás (Cali), transferencia, PSE y tarjeta." },
         { nombre: "UNICEF Colombia", url: "https://unicef.org.co/terremoto-colombia", desc: "Donaciones en pesos (Nequi, tarjeta, cuenta bancaria) para agua, saneamiento y protección de niñez en Chocó y Buenaventura." },
         { nombre: "Vaki — Yo Tengo Fe por el Pacífico", url: "https://vaki.co/vaki/yo-tengo-fe-por-el-pacifico", desc: "Recaudo para damnificados de Buenaventura y Chocó.", badge: "ciudadano" },
         { nombre: "GoFundMe — Colombia Earthquake Relief", url: "https://www.gofundme.com/c/act/colombia-earthquake-relief", desc: "Hub de campañas internacionales verificadas por GoFundMe (Airlink, Americares, Direct Relief y más). Para donar desde el exterior." },
         { nombre: "Direct Relief — Colombia Earthquake Response", url: "https://www.directrelief.org/emergency/colombia-earthquake-2026/", desc: "Fondo internacional 100% destinado a la respuesta médica." },
+      ],
+    },
+    {
+      id: "alivios",
+      titulo: "Alivios para damnificados",
+      desc: "Beneficios ya activos que quizás no sabías que tienes.",
+      items: [
+        { nombre: "Claro — paquete gratis automático", url: "https://www.claro.com.co", desc: "Si eres prepago en Chocó, Valle, Risaralda, Quindío o Caldas: 7 días de servicio, 2 GB y minutos ilimitados gratis, sin hacer ningún trámite.", badge: "oficial" },
+        { nombre: "Avianca — cambios de tiquete sin penalidad", url: "https://www.avianca.com", desc: "Hasta el 16 de agosto: cambio de fecha (hasta 15 días), cambio de ruta o reembolso de trayectos no volados. Además ~2.500 sillas extra hacia Cali, Armenia y Quibdó.", badge: "oficial" },
+        { nombre: "Subsidios del Gobierno Nacional", url: "https://www.elespectador.com/ciencia/en-vivo-asi-amanece-colombia-tras-el-terremoto-balance-de-victimas-y-afectaciones/", desc: "Anunciados: subsidio de arriendo para damnificados y pago de servicios públicos por 3 meses. Detalles por confirmar en los boletines oficiales." },
+        { nombre: "Universidad de Caldas — servicios gratuitos (Manizales)", url: "https://www.lapatria.com/manizales/universidad-de-caldas-habilita-centro-de-acopio-en-manizales-para-damnificados-del-sismo", desc: "En su coliseo (zona Velódromo): atención veterinaria, consultas de salud, primeros auxilios psicológicos y asesoría jurídica sobre pólizas. Tel. (606) 893 2880, WhatsApp 320 727 3645." },
       ],
     },
     {
@@ -60,6 +72,8 @@ const RECURSOS = {
         { nombre: "El Espectador — En vivo", url: "https://www.elespectador.com/ciencia/en-vivo-asi-amanece-colombia-tras-el-terremoto-balance-de-victimas-y-afectaciones/", desc: "El único con detalle de las medidas de alivio: subsidios de arriendo y pago de servicios públicos por 3 meses.", badge: "en vivo" },
         { nombre: "Blu Radio — En vivo", url: "https://www.bluradio.com/nacion/terremoto-hoy-en-colombia-en-vivo-victimas-reportes-y-ultimas-noticias-de-la-tragedia-so35", desc: "Liveblog nacional con énfasis en Cali y el Valle.", badge: "en vivo" },
         { nombre: "90 Minutos", url: "https://90minutos.co/", desc: "El noticiero regional del suroccidente: transmisión en vivo digital (8 a.m.) y emisión central (1 p.m.) por Telepacífico, Facebook y YouTube.", badge: "en vivo" },
+        { nombre: "La Patria — Manizales y Eje Cafetero", url: "https://www.lapatria.com", desc: "El diario del Eje Cafetero: detalle local de acopios, necesidades y daños en Caldas que los medios nacionales no cubren.", badge: "en vivo" },
+        { nombre: "La República — especial Catástrofe Nacional", url: "https://www.larepublica.co/especiales/catastrofe-nacional", desc: "Los anuncios de ayuda del sector empresarial, consolidados." },
       ],
     },
     {

@@ -75,7 +75,7 @@ Publicable solo si tiene: fuente (URL) + fecha de corte + municipio + tipo. Si e
 ## Esta semana (en orden)
 
 1. ~~Estructura, directorio verificado, mapa+tabla, datos abiertos~~ ✅
-2. ~~Conectar repo a Cloudflare Pages → publicar~~ ✅ — falta comprar dominio propio (Persona B)
+2. ~~Conectar repo a Cloudflare Pages → publicar en alianzasporcolombia.com~~ ✅ (dominio comprado, DNS y HTTPS activos, deploy automático en cada push)
 3. Aprobar el JSON del barrido Valle-wide de fundaciones y puntos (Persona A, hoy)
 4. Enviar mensajes a los 4 sitios aliados (Persona C, hoy)
 5. Compartir por WhatsApp + panel de cifras + réplicas en vivo (Persona B, 1-2 días)
