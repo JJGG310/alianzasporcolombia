@@ -74,6 +74,25 @@ Lo que cambia minuto a minuto (réplicas) no lo maneja el agente: la página con
 
 Publicable solo si tiene: fuente (URL) + fecha de corte + municipio + tipo. Si es organización de donación: además contacto verificado y **cero datos de pago**.
 
+## Deuda técnica conocida
+
+- **El scraper reescribe `fecha_corte` de TODOS los puntos en cada corrida** (no
+  solo los que cambiaron). Efecto medido en el commit `2b81793`: 1.844 cambios de
+  `fecha_corte` contra ~40 cambios reales de contenido → cada corrida (cada ~90
+  min por throttling de GitHub) commitea ~18k líneas. Rompe el principio "el diff
+  es el control de calidad" (los cambios reales quedan enterrados) e infla el
+  repo público. **Causa:** `scraper/internal/model/punto.go:159` pone
+  `time.Now()` cuando la fuente no trae timestamp, así que los puntos agregados
+  sin fecha de origen se re-sellan cada vez. **Arreglo propuesto** (necesita Go
+  local para probar, por eso queda para quien tenga el toolchain): que el scraper
+  lea su salida anterior y conserve `fecha_corte` para los puntos cuyo contenido
+  (todo menos el timestamp) no cambió; solo bumpea cuando el dato de verdad
+  cambia. Alternativa barata si urge: redondear el fallback a día
+  (`Format("2006-01-02")`) — baja el ruido ~16x pero sigue habiendo un diff
+  grande al pasar la medianoche UTC. Validable rápido con `gh workflow run
+  scraper.yml` y viendo si el diff encoge. No lo toqué porque no puedo compilar
+  Go en esta sesión y es el pipeline autónomo de un sitio en vivo.
+
 ## Esta semana (en orden)
 
 1. ~~Estructura, directorio verificado, mapa+tabla, datos abiertos~~ ✅
@@ -81,7 +100,7 @@ Publicable solo si tiene: fuente (URL) + fecha de corte + municipio + tipo. Si e
 3. ~~Scraper que federa 9 sitios ciudadanos → 957 puntos, publicados en `public/extracted-data/`~~ ✅
 4. ~~Decidir cuál frontend queda~~ ✅ **React.** El deploy publica `web/dist`; el vanilla (`public/index.html`) se retiró. Quien edite HTML ahora trabaja en `web/src/`, no en `public/`.
 5. ~~Pasarle al sitio en vivo los puntos agregados~~ ✅ (729 reportes en mapa y tabla, marcados «sin verificación propia», con tipos nuevos: 🆘 pide ayuda, ofrece ayuda, salud; excluidos los de `politica_alerta`)
-6. Revisar los 8 puntos con `politica_alerta` (Persona A, hoy). Ojo: el mismo Nequi repetido en 4 puntos de mapa-emergencia — puede ser recaudo legítimo o puede no serlo.
+6. Revisar los **10** puntos con `politica_alerta` (Persona A, hoy). Ojo: el mismo Nequi repetido en varios puntos de mapa-emergencia — puede ser recaudo legítimo o puede no serlo. (El render los excluye hasta que alguien los mire, así que no hay urgencia de que se publiquen mal, pero sí de decidir si entran.)
 7. Enviar mensajes a los sitios aliados (Persona C, hoy). Ahora hay algo concreto que ofrecer: **ya los estamos federando** y los datos están en CC BY 4.0 para que ellos nos consuman de vuelta. El ing. de Univalle de Haciendo Comunidad ya escribió pidiendo justamente esto.
 8. ~~Panel de cifras con fuente + hora~~ ✅ (balance UNGRD 12-ago en pestaña Ahora, con la brecha oficial/ciudadano explicada)
 9. Rutina automática de monitoreo: `cd scraper && make correr` cada 30-60 min, diff a revisión humana
