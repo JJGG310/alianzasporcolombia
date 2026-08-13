@@ -163,6 +163,12 @@ export const RECURSOS: Directorio = {
           "badge": "oficial"
         },
         {
+          "nombre": "Fondo Milagro — Gobierno Nacional",
+          "url": "https://www.eltiempo.com/colombia/otras-ciudades/presidente-abelardo-de-la-espriella-anuncio-la-creacion-del-fondo-milagro-para-atender-emergencia-tras-terremoto-de-7-4-en-colombia-asi-funcionara-3577993",
+          "desc": "Recién creado (12-ago) para canalizar aportes nacionales e internacionales a la reconstrucción. Aún no anuncia canales de donación: por ahora, infórmate aquí y espera los canales oficiales.",
+          "badge": "oficial"
+        },
+        {
           "nombre": "El Valle Somos Todos — Gobernación del Valle",
           "url": "https://www.valledelcauca.gov.co/publicaciones/90172/campana-el-valle-somos-todos-estos-son-los-elementos-que-se-pueden-donar-para-los-damnificados-por-el-sismo/",
           "desc": "Campaña oficial departamental: donaciones en especie en puntos verificados.",

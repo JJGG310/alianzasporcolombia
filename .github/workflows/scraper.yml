@@ -27,7 +27,7 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version-file: scraper/go.mod
-          cache-dependency-path: scraper/go.sum
+          cache: false # stdlib puro, no hay go.sum que cachear
 
       - name: Correr el scraper
         working-directory: scraper

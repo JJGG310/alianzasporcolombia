@@ -70,6 +70,15 @@ const CAMINOS: Camino[] = [
       { texto: 'Personería de Cali, 24/7: 318 335 5722', href: 'tel:3183355722' },
     ],
   },
+  {
+    n: 4,
+    nombre: 'Medicina Legal — listado oficial',
+    url: 'https://www.semana.com/nacion/articulo/medicina-legal-ha-recibido-202-cuerpos-de-victimas-del-terremoto-en-colombia-este-es-el-listado/202626/',
+    clase: 'oficial',
+    hace: 'El Instituto de Medicina Legal publica el listado de las personas fallecidas que ha recibido, para que las familias puedan saber con certeza.',
+    cuando:
+      'Es el paso más duro y solo tuyo de decidir. Si los demás caminos no han dado razón, aquí está el listado oficial, actualizado por la entidad. Ve acompañado si puedes.',
+  },
 ];
 
 export default function BuscarAlguien() {
