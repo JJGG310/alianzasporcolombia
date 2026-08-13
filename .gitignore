@@ -13,3 +13,10 @@ ms-playwright/
 *.png
 # Artefactos de build del sitio en React
 web/dist/
+
+# Secretos y estado local de las CLIs de deploy — nunca al repo
+.env
+.env.local
+.env.*.local
+.wrangler/
+.vercel/
