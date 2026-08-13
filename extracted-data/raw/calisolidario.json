@@ -3,10 +3,449 @@
   "url": "https://calisolidario.triadaaliados.com/",
   "mecanismo": "payload RSC de Next.js embebido en el HTML de /necesidades y /ofertas",
   "ok": true,
-  "duracion": "631.333791ms",
-  "obtenido": "2026-08-12T20:57:41Z",
-  "total": 45,
+  "duracion": "302.634046ms",
+  "obtenido": "2026-08-13T01:53:46Z",
+  "total": 58,
   "puntos": [
+    {
+      "id": "calisolidario-77a489a9d3",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/a77df0ae-ef3a-4314-b737-d7753626b6bc",
+      "tipo": "necesidad",
+      "nombre": "Vivienda afectada",
+      "descripcion": "Necesito ayuda para saber donde puedo reportar mi vivienda la cual tuvo daños muy grabes por el terremoto del 10 de agosto de 2026",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 7",
+      "barrio": "Alfonso lopez primera etapa",
+      "direccion": "Carrera 7B #82-18",
+      "necesita": [
+        "Mano de obra"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-13T01:47:56.659194Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
+      "raw": {
+        "id": "a77df0ae-ef3a-4314-b737-d7753626b6bc",
+        "kind": "need",
+        "category": "mano_de_obra",
+        "title": "Vivienda afectada",
+        "description": "Necesito ayuda para saber donde puedo reportar mi vivienda la cual tuvo daños muy grabes por el terremoto del 10 de agosto de 2026",
+        "quantity_text": null,
+        "comuna": "Comuna 7",
+        "barrio": "Alfonso lopez primera etapa",
+        "address": "Carrera 7B #82-18",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-13T01:47:56.659194+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-eb2d820e05",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/7f186a26-e4a4-42fd-bde2-ec45ed51e81e",
+      "tipo": "necesidad",
+      "nombre": "CASA EN ALQUILER",
+      "descripcion": "Por favor si alguien puede arrendar una casa por un mes mientras encontramos un lugar definitivo, somos 4 personas, 2 perros y 2 gatos",
+      "barrio": "Donde sea",
+      "direccion": "Dónde sea",
+      "necesita": [
+        "Albergue"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-13T01:45:06.721356Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
+      "raw": {
+        "id": "7f186a26-e4a4-42fd-bde2-ec45ed51e81e",
+        "kind": "need",
+        "category": "albergue",
+        "title": "CASA EN ALQUILER",
+        "description": "Por favor si alguien puede arrendar una casa por un mes mientras encontramos un lugar definitivo, somos 4 personas, 2 perros y 2 gatos",
+        "quantity_text": null,
+        "comuna": null,
+        "barrio": "Donde sea",
+        "address": "Dónde sea",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-13T01:45:06.721356+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-31959e0117",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/6de60f16-77ec-432f-a865-0dc3cfff2d48",
+      "tipo": "necesidad",
+      "nombre": "Asesoría para hacer reclamaciones al seguro de propiedad horizontal y ayudas del gobierno",
+      "descripcion": "Edificio donde vivía muy afectado, no habitable, se necesita evaluación para tener registro ante entes del Estado y presentar reclamaciones a aseguradoras",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 17",
+      "barrio": "Santa Anita Cali",
+      "direccion": "Calle 12 A con 56",
+      "necesita": [
+        "Otro"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-13T01:05:32.641867Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
+      "raw": {
+        "id": "6de60f16-77ec-432f-a865-0dc3cfff2d48",
+        "kind": "need",
+        "category": "otro",
+        "title": "Asesoría para hacer reclamaciones al seguro de propiedad horizontal y ayudas del gobierno",
+        "description": "Edificio donde vivía muy afectado, no habitable, se necesita evaluación para tener registro ante entes del Estado y presentar reclamaciones a aseguradoras",
+        "quantity_text": null,
+        "comuna": "Comuna 17",
+        "barrio": "Santa Anita Cali",
+        "address": "Calle 12 A con 56",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-13T01:05:32.641867+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-3924124cef",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/4da057da-ee51-4504-9b33-96ccdac93d8d",
+      "tipo": "necesidad",
+      "nombre": "Ayuda para dos niños y un adulto mayor",
+      "descripcion": "En el momento no podemos trabajar y no tengo para alimentarlos y no tengo ni para poder movilizar nos para ir a buscar les agradezco de todo corazón su ayuda vivimos en una vivienda k se nos cayó la parte del techo del baño y tenemos sosteniéndolo con un larguero",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 14",
+      "barrio": "Manuela Beltrán",
+      "direccion": "Cra26c1#118-39",
+      "necesita": [
+        "Alimentos",
+        "Lo k deseen lo k Dios ponga en sus corazones"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-13T00:28:32.024024Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
+      "raw": {
+        "id": "4da057da-ee51-4504-9b33-96ccdac93d8d",
+        "kind": "need",
+        "category": "alimentos",
+        "title": "Ayuda para dos niños y un adulto mayor",
+        "description": "En el momento no podemos trabajar y no tengo para alimentarlos y no tengo ni para poder movilizar nos para ir a buscar les agradezco de todo corazón su ayuda vivimos en una vivienda k se nos cayó la parte del techo del baño y tenemos sosteniéndolo con un larguero",
+        "quantity_text": "Lo k deseen lo k Dios ponga en sus corazones",
+        "comuna": "Comuna 14",
+        "barrio": "Manuela Beltrán",
+        "address": "Cra26c1#118-39",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-13T00:28:32.024024+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-2c6f3ddb98",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/c89e0732-818b-4358-99c6-0604fd6060d7",
+      "tipo": "necesidad",
+      "nombre": "Necesito pañales comida para tres niños",
+      "descripcion": "Buenas Necesito ayuda mi esposo trabaja en el centro pero evacuaron el edificio y yo tengo tres niños gemelos de 3 años y un animal de 6 años Mi casa está agrietada es un segundo piso No puedo entrar con mis niños estoy en una casa de una vecina Necesitamos comida no perecedora pañales etapa 4 cosas de aseo por favor 🙏🏻🙏🏻🙏🏻🙏🏻",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 14",
+      "barrio": "Manuela Beltrán",
+      "direccion": "Carrera26c1#118-51",
+      "necesita": [
+        "Alimentos",
+        "Lo que puedan"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-13T00:10:51.8511Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
+      "raw": {
+        "id": "c89e0732-818b-4358-99c6-0604fd6060d7",
+        "kind": "need",
+        "category": "alimentos",
+        "title": "Necesito pañales comida para tres niños",
+        "description": "Buenas \r\nNecesito ayuda mi esposo trabaja en el centro pero evacuaron el edificio y yo tengo tres niños gemelos de 3 años y un animal de 6 años \r\nMi casa está agrietada es un segundo piso \r\nNo puedo entrar con mis niños estoy en una casa de una vecina \r\nNecesitamos comida no perecedora pañales etapa 4 cosas de aseo por favor 🙏🏻🙏🏻🙏🏻🙏🏻",
+        "quantity_text": "Lo que puedan",
+        "comuna": "Comuna 14",
+        "barrio": "Manuela Beltrán",
+        "address": "Carrera26c1#118-51",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-13T00:10:51.8511+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-c9b6c3bb96",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/fc4b82a9-32e7-4ac2-8ecc-8380a8bda19f",
+      "tipo": "necesidad",
+      "nombre": "Ayuda por desastre de casa por el terremoto del 10 agosto de 2026",
+      "descripcion": "Tengo una casa en el barrio terron colorado de cali, la cual fue afectada por el terremoto estructuralmente",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 1",
+      "barrio": "Terrón colorado",
+      "direccion": "Avenida 6 oeste #31-25",
+      "necesita": [
+        "Otro"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T23:31:47.780127Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
+      "raw": {
+        "id": "fc4b82a9-32e7-4ac2-8ecc-8380a8bda19f",
+        "kind": "need",
+        "category": "otro",
+        "title": "Ayuda por desastre de casa por el terremoto del 10 agosto de 2026",
+        "description": "Tengo una casa en el barrio terron colorado de cali, la cual fue afectada por el terremoto estructuralmente",
+        "quantity_text": null,
+        "comuna": "Comuna 1",
+        "barrio": "Terrón colorado",
+        "address": "Avenida 6 oeste #31-25",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-12T23:31:47.780127+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-da5c695c38",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/5e2303c9-ed8d-44e4-8122-a17424b3a951",
+      "tipo": "necesidad",
+      "nombre": "Asesoría Jurídica Gratuita",
+      "descripcion": "El apto. que alquilo con mi mamá presentó muchos daños y la arrendataria insiste en hacer el cobro de la multa por no continuidad del contrato",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 17",
+      "barrio": "UNIDAD RESIDENCIAL PALMAR DE COOMEVA I",
+      "direccion": "Cra 57 # 11A 50",
+      "necesita": [
+        "Otro"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T23:24:34.918475Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
+      "raw": {
+        "id": "5e2303c9-ed8d-44e4-8122-a17424b3a951",
+        "kind": "need",
+        "category": "otro",
+        "title": "Asesoría Jurídica Gratuita",
+        "description": "El apto. que alquilo con mi mamá presentó muchos daños y la arrendataria insiste en hacer el cobro de la multa por no continuidad del contrato",
+        "quantity_text": null,
+        "comuna": "Comuna 17",
+        "barrio": "UNIDAD RESIDENCIAL PALMAR DE COOMEVA I",
+        "address": "Cra 57 # 11A 50",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-12T23:24:34.918475+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-c4d83a2ea5",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/451fd232-7a36-4ddb-9434-4c3e4851ca3a",
+      "tipo": "necesidad",
+      "nombre": "Necesito vivienda para 4 personas 2 niños y dos adultos",
+      "descripcion": "Una casa en 1 primer piso para 4 personas 2 niños y 2 adultos Hasta el mes de septiembre mientras consigo casa en arriendo",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 18",
+      "barrio": "Napoles",
+      "direccion": "Cra 77 # 1C-140 urbanización el Danubio torre 1 apto 201",
+      "necesita": [
+        "1 mercado",
+        "Albergue"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T23:23:07.473486Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
+      "raw": {
+        "id": "451fd232-7a36-4ddb-9434-4c3e4851ca3a",
+        "kind": "need",
+        "category": "albergue",
+        "title": "Necesito vivienda para 4 personas 2 niños y dos adultos",
+        "description": "Una casa en 1 primer piso para 4 personas 2 niños y 2 adultos Hasta el mes de septiembre mientras consigo casa en arriendo",
+        "quantity_text": "1 mercado",
+        "comuna": "Comuna 18",
+        "barrio": "Napoles",
+        "address": "Cra 77 # 1C-140 urbanización el Danubio torre 1 apto 201",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-12T23:23:07.473486+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-8d1ab63325",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/745189c0-5d52-426c-973e-1f1d8fd1733d",
+      "tipo": "necesidad",
+      "nombre": "Unidad de riesgos nos visiten la Unidad El saman en cra 53#13A-155",
+      "descripcion": "La habitantes de la unidad necesitamos saber si podemos seguir habitando los aptos y debemos desalojar y eso solo lo hace la unidad de riesgos para que nso sensen y nos caractericen",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 17",
+      "barrio": "Primero de mayo",
+      "direccion": "Cra 53#13A-155",
+      "necesita": [
+        "Otro"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T23:02:24.257878Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
+      "raw": {
+        "id": "745189c0-5d52-426c-973e-1f1d8fd1733d",
+        "kind": "need",
+        "category": "otro",
+        "title": "Unidad de riesgos nos visiten la Unidad El saman en cra 53#13A-155",
+        "description": "La habitantes de la unidad necesitamos saber si podemos seguir habitando los aptos y debemos desalojar y eso solo lo hace la unidad de riesgos para que nso sensen y nos caractericen",
+        "quantity_text": null,
+        "comuna": "Comuna 17",
+        "barrio": "Primero de mayo",
+        "address": "Cra 53#13A-155",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-12T23:02:24.257878+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-abec130e15",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/46ef2e83-2fc9-4d15-ab89-547cf213ebcb",
+      "tipo": "necesidad",
+      "nombre": "Punto de Acopio en el Sur de Cali",
+      "descripcion": "En Quantum Infinity Technologies estamos reuniendo donaciones para llevar a Roldanillo y Dagua, ya tenemos gestionado el tema del transporte. Estamos recibiendo agua, medicamentos, colchonetas, comida no perecedera, medicamentos y elementos de aseo personal",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 17",
+      "barrio": "El limonar",
+      "direccion": "Calle 13 #65b-16 local 301",
+      "necesita": [
+        "Agua",
+        "Todas las donaciones posibles"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T22:53:07.514902Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
+      "raw": {
+        "id": "46ef2e83-2fc9-4d15-ab89-547cf213ebcb",
+        "kind": "need",
+        "category": "agua",
+        "title": "Punto de Acopio en el Sur de Cali",
+        "description": "En Quantum Infinity Technologies estamos reuniendo donaciones para llevar a Roldanillo y Dagua, ya tenemos gestionado el tema del transporte.  Estamos recibiendo agua, medicamentos, colchonetas, comida no perecedera, medicamentos y elementos de aseo personal",
+        "quantity_text": "Todas las donaciones posibles",
+        "comuna": "Comuna 17",
+        "barrio": "El limonar",
+        "address": "Calle 13 #65b-16 local 301",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-12T22:53:07.514902+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-c36bc33e62",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/c68f004b-681d-498d-b7a2-182496cdd9ca",
+      "tipo": "necesidad",
+      "nombre": "Asesoría en caso de desalojo",
+      "descripcion": "Buenas tardes. Nos gustaría saber si alguien puede ayudarnos con el procedimiento del revisión del apartamento. Después de evacuar no volvimos y no sabemos cuál es la ruta. Todo el edificio evacuó sus cosas, menos nosotros",
+      "barrio": "Edificio el canelo",
+      "necesita": [
+        "1",
+        "Otro"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T21:58:44.882529Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
+      "raw": {
+        "id": "c68f004b-681d-498d-b7a2-182496cdd9ca",
+        "kind": "need",
+        "category": "otro",
+        "title": "Asesoría en caso de desalojo",
+        "description": "Buenas tardes. Nos gustaría saber si alguien puede ayudarnos con el procedimiento del revisión del apartamento. Después de evacuar no volvimos y no sabemos cuál es la ruta. Todo el edificio evacuó sus cosas, menos nosotros",
+        "quantity_text": "1",
+        "comuna": null,
+        "barrio": "Edificio el canelo",
+        "address": null,
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-12T21:58:44.882529+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-841dee91df",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/abf90f71-3ab3-4aa4-b6b4-33cbb6b986a0",
+      "tipo": "necesidad",
+      "nombre": "Ayuda humanitaria Cairo",
+      "descripcion": "🙏 RECOLECCIÓN DE DONACIONES 🇨🇴 Estamos recolectando ayudas para las comunidades afectadas por la emergencia en El Cairo. Parte de lo recolectado también será enviado a Meléndez y Alto de Jordán, donde se necesita apoyo urgentemente. 🧥 Ropa para niños y adultos 🛏️ Colchonetas, cobijas y frazadas ⛺ Carpas y elementos de refugio 🥫 Alimentos no perecederos y agua 🧼 Elementos de aseo e higiene 🍼 Pañales y alimentos infantiles 🔦 Linternas, pilas y baterías 🩹 Botiquines e insumos básicos de primeros auxilios 🗑️ Bolsas plásticas, nylon y cinta adhesiva 🍽️ Ollas, platos, cubiertos y vasos reutilizables 🧰 Herramientas básicas para emergencias",
+      "barrio": "El guabal",
+      "direccion": "Carrera 40B #13A-39",
+      "necesita": [
+        "Cobijas y colchones",
+        "La cantidad que puedan donar"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T21:32:36.730743Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
+      "raw": {
+        "id": "abf90f71-3ab3-4aa4-b6b4-33cbb6b986a0",
+        "kind": "need",
+        "category": "cobijas_colchones",
+        "title": "Ayuda humanitaria Cairo",
+        "description": "🙏 RECOLECCIÓN DE DONACIONES 🇨🇴\r\n\r\nEstamos recolectando ayudas para las comunidades afectadas por la emergencia en El Cairo. Parte de lo recolectado también será enviado a Meléndez y Alto de Jordán, donde se necesita apoyo urgentemente.\r\n\r\n🧥 Ropa para niños y adultos\r\n🛏️ Colchonetas, cobijas y frazadas\r\n⛺ Carpas y elementos de refugio\r\n🥫 Alimentos no perecederos y agua\r\n🧼 Elementos de aseo e higiene\r\n🍼 Pañales y alimentos infantiles\r\n🔦 Linternas, pilas y baterías\r\n🩹 Botiquines e insumos básicos de primeros auxilios\r\n🗑️ Bolsas plásticas, nylon y cinta adhesiva\r\n🍽️ Ollas, platos, cubiertos y vasos reutilizables\r\n🧰 Herramientas básicas para emergencias",
+        "quantity_text": "La cantidad que puedan donar",
+        "comuna": null,
+        "barrio": "El guabal",
+        "address": "Carrera 40B #13A-39",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-12T21:32:36.730743+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-e273fc19ec",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/50f3eacf-ff13-45a1-8aa6-e87dddcfc4a8",
+      "tipo": "necesidad",
+      "nombre": "Evacuación",
+      "descripcion": "Vivo en chiminangos 2 sector 6 , nos tocó evacuar, ya que la unidad está muy afectada ,necesitamos alguien nos ayude para saber que hacer para arreglar las escaleras, antes que colapse",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 5",
+      "barrio": "Chiminangos 2",
+      "direccion": "Chiminangos II",
+      "necesita": [
+        "Cali",
+        "Mano de obra"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T21:05:55.901757Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
+      "raw": {
+        "id": "50f3eacf-ff13-45a1-8aa6-e87dddcfc4a8",
+        "kind": "need",
+        "category": "mano_de_obra",
+        "title": "Evacuación",
+        "description": "Vivo en chiminangos 2 sector 6 , nos tocó evacuar, ya que la unidad está muy afectada ,necesitamos alguien nos ayude para saber que hacer para arreglar las escaleras, antes que colapse",
+        "quantity_text": "Cali",
+        "comuna": "Comuna 5",
+        "barrio": "Chiminangos 2",
+        "address": "Chiminangos II",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-12T21:05:55.901757+00:00"
+      }
+    },
     {
       "id": "calisolidario-643d5ed558",
       "fuente": "calisolidario",
@@ -25,7 +464,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:59:06.00741Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "60ceceb1-0888-4f04-82ff-e2fc1acfc2f5",
         "kind": "need",
@@ -56,7 +495,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:08:09.869624Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "f4a26b11-5eb3-4626-8bba-df59264b8955",
         "kind": "need",
@@ -89,7 +528,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T17:28:07.995326Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "022b3e7a-9438-4301-a3c4-5ab3f057050d",
         "kind": "need",
@@ -120,7 +559,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T17:12:59.847654Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "70c794b0-cbe1-4778-b3a1-3db47d3085f9",
         "kind": "need",
@@ -155,7 +594,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:54:01.931448Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "5d694fbd-29b6-4d63-876b-201b1f0a1540",
         "kind": "need",
@@ -185,7 +624,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:23:43.229178Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "decf9493-337a-47ee-b393-085c476ee48c",
         "kind": "need",
@@ -218,7 +657,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:05:28.11574Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "4779ada2-36b8-4d86-826e-83788f9d8983",
         "kind": "need",
@@ -253,7 +692,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:31:16.524558Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "578507a6-6d89-4647-9e93-5a5c7d1a8dab",
         "kind": "need",
@@ -285,7 +724,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:52:26.626756Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "8d8b464a-d4a5-49c3-be94-f8e9b8bb4128",
         "kind": "need",
@@ -317,7 +756,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:27:46.75875Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "33a797aa-bd5e-458e-9356-361beb9b0938",
         "kind": "need",
@@ -349,7 +788,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:33:10.20949Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "d2c5a6da-d072-4038-9ed2-66d6374d13c7",
         "kind": "need",
@@ -382,7 +821,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:02:01.576285Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "8b8d6d83-9b28-4c5c-8350-f5f17c4a5b47",
         "kind": "need",
@@ -417,7 +856,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:56:13.717984Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "cfc0757d-1069-46bb-89fb-35e6024f0c8d",
         "kind": "need",
@@ -449,7 +888,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:48:46.810986Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "211bf2f0-e2b7-405c-ae0a-a045766bb59c",
         "kind": "need",
@@ -481,7 +920,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:16:00.597913Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "5e0cf83b-0bdc-47bf-9967-25ce43aba8c5",
         "kind": "need",
@@ -495,6 +934,36 @@
         "status": "open",
         "warning_count": 0,
         "created_at": "2026-08-11T17:16:00.597913+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-33cb036ed3",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/f40baf50-2a2f-4383-b2f9-1eafa5df52a1",
+      "tipo": "oferta",
+      "nombre": "Asesoría jurídica indemnizaciones",
+      "descripcion": "Ofrezco asesoría para reclamar indemnización por familiares fallecidos o daños a bienes asegurados.",
+      "direccion": "Mi correo es sara@savant.legal",
+      "ofrece": [
+        "Otro"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-12T21:33:34.867849Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
+      "raw": {
+        "id": "f40baf50-2a2f-4383-b2f9-1eafa5df52a1",
+        "kind": "offer",
+        "category": "otro",
+        "title": "Asesoría jurídica indemnizaciones",
+        "description": "Ofrezco asesoría para reclamar indemnización por familiares fallecidos o daños a bienes asegurados.",
+        "quantity_text": null,
+        "comuna": null,
+        "barrio": null,
+        "address": "Mi correo es sara@savant.legal",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-12T21:33:34.867849+00:00"
       }
     },
     {
@@ -514,7 +983,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:42:46.437505Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "434b984e-4560-424c-8258-994c83c9b348",
         "kind": "offer",
@@ -546,7 +1015,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:35:21.894799Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "8a2cd4fe-d432-4ad8-930e-b782ea4626c7",
         "kind": "offer",
@@ -580,7 +1049,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:18:12.999355Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "611571c3-238c-4ea3-b4dc-4e4390241e30",
         "kind": "offer",
@@ -613,7 +1082,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:19:29.678646Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "d7703a44-025b-4975-a6e8-905671b0ce6b",
         "kind": "offer",
@@ -627,40 +1096,6 @@
         "status": "open",
         "warning_count": 0,
         "created_at": "2026-08-12T18:19:29.678646+00:00"
-      }
-    },
-    {
-      "id": "calisolidario-17b555220c",
-      "fuente": "calisolidario",
-      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/60c30673-f8c4-4762-a0c5-427be589be9c",
-      "tipo": "oferta",
-      "nombre": "Cocinar, cuidar niños/adultos mayores",
-      "descripcion": "No tengo recursos económicos pero quiero colaborar, tengo experiencia dando clase de arte. Soy artista plástica, sé inglés y francés. También cocino y limpio",
-      "departamento": "Valle del Cauca",
-      "municipio": "Cali",
-      "comuna": "Comuna 2",
-      "barrio": "San vicente",
-      "direccion": "Av 2BN #30N10",
-      "ofrece": [
-        "Mano de obra"
-      ],
-      "estado": "activo",
-      "verificado": false,
-      "creado": "2026-08-12T17:35:35.759229Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
-      "raw": {
-        "id": "60c30673-f8c4-4762-a0c5-427be589be9c",
-        "kind": "offer",
-        "category": "mano_de_obra",
-        "title": "Cocinar, cuidar niños/adultos mayores",
-        "description": "No tengo recursos económicos pero quiero colaborar, tengo experiencia dando clase de arte. Soy artista plástica, sé inglés y francés. También cocino y limpio",
-        "quantity_text": null,
-        "comuna": "Comuna 2",
-        "barrio": "San vicente",
-        "address": "Av 2BN #30N10",
-        "status": "open",
-        "warning_count": 0,
-        "created_at": "2026-08-12T17:35:35.759229+00:00"
       }
     },
     {
@@ -680,7 +1115,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T15:55:12.982692Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "ce37c9fc-46d4-4b8e-9000-ac4919cabf6f",
         "kind": "offer",
@@ -711,7 +1146,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:43:19.3229Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "73aaa4ed-aeeb-4fd9-9fb0-ec4082b1ca97",
         "kind": "offer",
@@ -743,7 +1178,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:19:29.613673Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "84521cee-78ca-464d-8d19-856bac6eb088",
         "kind": "offer",
@@ -776,7 +1211,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:42:51.042339Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "1137105b-e902-499a-9bc9-83d74aa03d03",
         "kind": "offer",
@@ -811,7 +1246,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:29:52.814157Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "fdc304f5-7ef0-4840-9994-5539cc151ff7",
         "kind": "offer",
@@ -842,7 +1277,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:11:47.6773Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "9070058c-7fd6-4ad4-8156-df8f9bb24d59",
         "kind": "offer",
@@ -877,7 +1312,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:36:47.514607Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "d573ad61-da91-48d4-9361-4de5e142e2a6",
         "kind": "offer",
@@ -908,7 +1343,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T23:58:49.394335Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "3ee04dff-179e-4ba0-9020-9990b2572d33",
         "kind": "offer",
@@ -942,7 +1377,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T23:06:03.945603Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "46ed2906-e479-449d-97ff-d56029e523d0",
         "kind": "offer",
@@ -973,7 +1408,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:37:04.74991Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "fe2944ff-83c3-47be-a251-5552302b9934",
         "kind": "offer",
@@ -1008,7 +1443,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:36:57.027041Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "366ed70c-d2a7-4ca2-bd59-7a508fa6a69b",
         "kind": "offer",
@@ -1039,7 +1474,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:22:33.46354Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "ec41aecc-6945-482b-994d-aba129c6ab06",
         "kind": "offer",
@@ -1073,7 +1508,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:16:38.568824Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "7f776f3d-17fc-41b1-8f0f-f15ee04fda7d",
         "kind": "offer",
@@ -1105,7 +1540,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:13:38.952643Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "19bb1478-2aad-4746-ba6c-8c7160e8cfca",
         "kind": "offer",
@@ -1136,7 +1571,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:10:44.147263Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "3a6f188d-4419-4360-b509-b00501ad0940",
         "kind": "offer",
@@ -1170,7 +1605,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T21:59:05.44064Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "d760a276-8046-4938-bf7d-8818da60b6e2",
         "kind": "offer",
@@ -1205,7 +1640,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T21:30:25.368079Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "55933e50-4395-470c-9f3e-7dd0624d6cef",
         "kind": "offer",
@@ -1236,7 +1671,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:59:12.669924Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "c581d156-a48d-440e-8cfa-5d376dba86e9",
         "kind": "offer",
@@ -1266,7 +1701,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:24:10.634675Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "329dc371-fa63-41c3-b57f-7c8e40f08d56",
         "kind": "offer",
@@ -1301,7 +1736,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:22:53.036753Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "19b8e609-ab1e-435b-91e3-b53fbe3b75b2",
         "kind": "offer",
@@ -1333,7 +1768,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:12:50.860658Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "5ba8f35a-651a-4b80-b983-a50757464de5",
         "kind": "offer",
@@ -1365,7 +1800,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:24:04.751065Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "933201d7-1ebc-4592-bccb-aae1a5f480d0",
         "kind": "offer",
@@ -1396,7 +1831,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:13:49.277087Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "f6ee27e4-57aa-4210-af3d-06028e3f82b0",
         "kind": "offer",
@@ -1429,7 +1864,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:31:08.835075Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "8b1472bd-3be7-4742-9739-757c1201ba08",
         "kind": "offer",
@@ -1463,7 +1898,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T16:09:16.782252Z",
-      "fecha_corte": "2026-08-12T20:57:40Z",
+      "fecha_corte": "2026-08-13T01:53:46Z",
       "raw": {
         "id": "e7aac81c-b383-4cf7-9a1c-834ae0a71683",
         "kind": "offer",
@@ -1482,26 +1917,26 @@
   ],
   "extra": {
     "por_categoria": {
-      "agua": 2,
-      "albergue": 1,
-      "alimentos": 6,
+      "agua": 3,
+      "albergue": 3,
+      "alimentos": 8,
       "aseo": 1,
-      "cobijas_colchones": 4,
+      "cobijas_colchones": 5,
       "herramientas": 4,
-      "mano_de_obra": 11,
+      "mano_de_obra": 12,
       "medicamentos": 1,
-      "otro": 5,
+      "otro": 11,
       "panales": 1,
       "ropa": 3,
       "salud": 2,
       "transporte": 4
     },
     "por_kind": {
-      "need": 15,
+      "need": 28,
       "offer": 30
     },
     "por_pagina": {
-      "https://calisolidario.triadaaliados.com/necesidades": 15,
+      "https://calisolidario.triadaaliados.com/necesidades": 28,
       "https://calisolidario.triadaaliados.com/ofertas": 30
     }
   }
