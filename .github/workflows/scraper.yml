@@ -1,0 +1,58 @@
+name: Scraper federado
+
+# La federación no puede depender de que alguien del equipo esté despierto:
+# corre sola cada ~30 min. Los puntos con politica_alerta quedan en cuarentena
+# en la capa de render (ambos frontends los excluyen), así que el commit
+# directo no publica nada sin revisar.
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: scraper
+  cancel-in-progress: false
+
+jobs:
+  correr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: scraper/go.mod
+          cache-dependency-path: scraper/go.sum
+
+      - name: Correr el scraper
+        working-directory: scraper
+        run: go run ./cmd/scrape -salida ../extracted-data
+
+      - name: Commit del diff (si lo hay)
+        id: commit
+        run: |
+          git config user.name "scraper-bot"
+          git config user.email "scraper@alianzasporcolombia.com"
+          git add extracted-data public/extracted-data
+          if git diff --cached --quiet; then
+            echo "hay_cambios=no" >> "$GITHUB_OUTPUT"
+            echo "Sin cambios en los datos federados."
+          else
+            git commit -m "datos: corrida automática del scraper $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
+            git push origin main
+            echo "hay_cambios=si" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Los push hechos con GITHUB_TOKEN no disparan otros workflows (regla de
+      # GitHub contra bucles), así que el deploy se dispara explícito.
+      - name: Disparar deploy
+        if: steps.commit.outputs.hay_cambios == 'si'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
