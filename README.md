@@ -25,6 +25,7 @@ extracted-data/           Salida completa del scraper, incluido el crudo por fue
 RECURSOS.md               Inventario del barrido de fuentes (incluye caídas y vacíos)
 PLAN.md                   Plan de producto por fases
 TRABAJO.md                Ruta de trabajo del equipo (quién hace qué, flujo git)
+CLAUDE.md                 Orientación para agentes: estado del frontend y las reglas que no son obvias
 docs/aliados.md           Borradores de contacto para los sitios hermanos
 docs/monitoreo.md         Bitácora del agente de monitoreo automático
 ```
