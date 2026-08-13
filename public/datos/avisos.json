@@ -1,13 +1,23 @@
 {
-  "actualizado": "12 de agosto de 2026, 4:45 p.m.",
+  "actualizado": "12 de agosto de 2026, 8:50 p.m.",
   "items": [
     {
-      "texto": "Cali: la Alcaldía ha decretado toque de queda nocturno cada noche desde el sismo (el último: martes 11, de 9:00 p.m. a 6:00 a.m., con excepciones para rescatistas y Fuerza Pública). Antes de salir de noche, verifica el boletín del día.",
-      "fecha": "2026-08-11",
-      "fuente": "https://www.cali.gov.co/boletines/publicaciones/193616/para-garantizar-la-seguridad-de-las-labores-de-busqueda-y-rescate-alcaldia-de-cali-decreta-toque-de-queda"
+      "texto": "Cali: toque de queda ESTA NOCHE (miércoles 12), de 9:00 p.m. a 6:00 a.m. del jueves. Excepciones: rescatistas, voluntarios en puntos de rescate, Fuerza Pública y funcionarios atendiendo la emergencia.",
+      "fecha": "2026-08-12",
+      "fuente": "https://www.elpais.com.co/cali/alcaldia-de-cali-decreto-nuevo-toque-de-queda-para-la-noche-de-este-miercoles-estas-son-las-recomendaciones-1235.html"
     },
     {
-      "texto": "Aeropuerto Matecaña (Pereira): vuelos comerciales suspendidos y sin fecha confirmada de reapertura; se estudia operar vuelos nacionales por la zona internacional en ~10 días. Avianca reforzó rutas a Cali, Armenia y Quibdó.",
+      "texto": "Manizales: se mantiene el toque de queda esta noche, de 12:00 a.m. a 5:00 a.m.",
+      "fecha": "2026-08-12",
+      "fuente": "https://centrodeinformacion.manizales.gov.co/se-mantiene-el-toque-de-queda-en-manizales-2/"
+    },
+    {
+      "texto": "Vía Cali–Buenaventura: SIN PASO por varios derrumbes, confirmado por la Gobernación del Valle. Consulta rutas alternas y el estado de vías en la línea #767 de INVÍAS antes de viajar.",
+      "fecha": "2026-08-12",
+      "fuente": "https://www.elpais.com.co/cali/terremoto-en-colombia-gobernadora-del-valle-confirma-que-no-hay-paso-en-la-via-entre-cali-y-buenaventura-por-varios-derrumbes-hay-tres-fallecidos-en-los-tuneles-1010.html"
+    },
+    {
+      "texto": "Aeropuerto Matecaña (Pereira): vuelos comerciales suspendidos y sin fecha confirmada de reapertura; se estudia operar vuelos nacionales por la zona internacional. Avianca reforzó rutas a Cali, Armenia y Quibdó.",
       "fecha": "2026-08-12",
       "fuente": "https://www.semana.com/nacion/articulo/semana-recorrio-las-ruinas-que-dejo-el-terremoto-en-el-aeropuerto-matecana-y-confirmo-como-podria-entrar-en-operacion-proximamente-pese-a-la-tragedia/202621/"
     }

@@ -1,5 +1,5 @@
 {
-  "actualizado": "12 de agosto de 2026, 4:00 p.m.",
+  "actualizado": "12 de agosto de 2026, 8:50 p.m.",
   "nota": "Cada cifra con su fuente y su hora. Los números varían entre fuentes porque se consolidan a ritmos distintos — eso es normal, no es señal de ocultamiento.",
   "metricas": [
     {
@@ -45,11 +45,11 @@
       "url": "https://www.eluniversal.com.co/colombia/2026/08/12/emergencia-por-terremoto-en-colombia-239-muertos-y-mas-de-49000-afectados/"
     },
     {
-      "nombre": "Víctimas identificadas",
-      "valor": "93 de 180",
-      "detalle": "Cuerpos recibidos e identificados por Medicina Legal (Chocó, Caldas, Risaralda, Valle)",
-      "fuente": "Medicina Legal, 12-ago",
-      "url": "https://www.radionacional.co/actualidad/terremoto-en-colombia-asciende-240-la-cifra-de-muertos"
+      "nombre": "Cuerpos recibidos por Medicina Legal",
+      "valor": "202",
+      "detalle": "Con listado público para familias que buscan a alguien (Chocó, Caldas, Risaralda, Valle)",
+      "fuente": "Medicina Legal vía Semana, 12-ago tarde",
+      "url": "https://www.semana.com/nacion/articulo/medicina-legal-ha-recibido-202-cuerpos-de-victimas-del-terremoto-en-colombia-este-es-el-listado/202626/"
     }
   ]
 }
