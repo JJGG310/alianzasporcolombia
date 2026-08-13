@@ -3,10 +3,182 @@
   "url": "https://calisolidario.triadaaliados.com/",
   "mecanismo": "payload RSC de Next.js embebido en el HTML de /necesidades y /ofertas",
   "ok": true,
-  "duracion": "278.380446ms",
-  "obtenido": "2026-08-13T14:19:32Z",
-  "total": 79,
+  "duracion": "411.742309ms",
+  "obtenido": "2026-08-13T15:29:47Z",
+  "total": 85,
   "puntos": [
+    {
+      "id": "calisolidario-1b4f5c55d9",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/70e50e58-6ded-4f47-83ea-dfd31b2093f4",
+      "tipo": "necesidad",
+      "nombre": "ayuda",
+      "descripcion": "necesito alimentos",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 1",
+      "barrio": "terron colorado",
+      "direccion": "AV 7 Oeste #28 A -12 Oeste",
+      "necesita": [
+        "8 personas",
+        "Alimentos"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-13T15:04:01.777901Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
+      "raw": {
+        "id": "70e50e58-6ded-4f47-83ea-dfd31b2093f4",
+        "kind": "need",
+        "category": "alimentos",
+        "title": "ayuda",
+        "description": "necesito alimentos",
+        "quantity_text": "8 personas",
+        "comuna": "Comuna 1",
+        "barrio": "terron colorado",
+        "address": "AV 7 Oeste #28 A -12 Oeste",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-13T15:04:01.777901+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-1eca867308",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/0338db34-0ec7-40cf-b4c5-cee31a78d602",
+      "tipo": "necesidad",
+      "nombre": "CASA AFECTADA EN RIESGO DE COLAPSO EN SAN FERNANDO",
+      "descripcion": "Somos una familia la cual resulto afectada directamente por el sismo, especificamente en la infraestructura de la casa. El sector, barrio san fernando, tiene edificos que estan a punto de colapsar, lo que en consecuencia generara la caida total de nuetro hogar. Es por esto, que solicitamos amablemente ayuda para evacuar los objetos de nuestro hogar y recoleccion de escobros, ademas de encontrar un lugar para 5 personas, mientras solucionamos los problemas.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 19",
+      "barrio": "San Fernando Nuevo",
+      "direccion": "carrera 36b numero 5b2-69",
+      "necesita": [
+        "Mano de obra"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-13T15:02:57.214438Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
+      "raw": {
+        "id": "0338db34-0ec7-40cf-b4c5-cee31a78d602",
+        "kind": "need",
+        "category": "mano_de_obra",
+        "title": "CASA AFECTADA EN RIESGO DE COLAPSO EN SAN FERNANDO",
+        "description": "Somos una familia la cual resulto afectada directamente por el sismo, especificamente en la infraestructura de la casa. El sector, barrio san fernando, tiene edificos que estan a punto de colapsar, lo que en consecuencia generara la caida total de nuetro hogar. \r\nEs por esto, que solicitamos amablemente ayuda para evacuar los objetos de nuestro hogar y recoleccion de escobros, ademas de encontrar un lugar para 5 personas, mientras solucionamos los problemas.",
+        "quantity_text": "Mano de obra",
+        "comuna": "Comuna 19",
+        "barrio": "San Fernando Nuevo",
+        "address": "carrera 36b numero 5b2-69",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-13T15:02:57.214438+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-3b2eecc410",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/d8b68cdf-829f-414b-9304-eaa1b78f9e68",
+      "tipo": "necesidad",
+      "nombre": "Ayuda economica",
+      "descripcion": "Me ha tocado salir de la casa porque el edificio de al frente está que colapsa y dañaría el predio donde vivo. No han dicho que salgamos Pero nadie dice como voy a pagar mis cuentas. Arriendo,servicios y allí está mi taller y herramientas. Dónde me dirijo para esas ayudas?",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 9",
+      "barrio": "Bretaña",
+      "direccion": "Carrera 23C numero 10-14, Carrera 23C número 10-16",
+      "necesita": [
+        "5",
+        "Otro"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-13T14:52:38.519256Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
+      "raw": {
+        "id": "d8b68cdf-829f-414b-9304-eaa1b78f9e68",
+        "kind": "need",
+        "category": "otro",
+        "title": "Ayuda economica",
+        "description": "Me ha tocado salir de la casa porque el edificio de al frente está que colapsa y dañaría el predio donde vivo. No han dicho que salgamos Pero nadie dice como voy a pagar mis cuentas. Arriendo,servicios y allí está mi taller y herramientas. Dónde me dirijo para esas ayudas?",
+        "quantity_text": "5",
+        "comuna": "Comuna 9",
+        "barrio": "Bretaña",
+        "address": "Carrera 23C numero 10-14, Carrera 23C número 10-16",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-13T14:52:38.519256+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-e283fbb9be",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/15d43ae0-9e9c-441d-a19e-f15f2c637cda",
+      "tipo": "necesidad",
+      "nombre": "Auxilió de vivienda y alimentos",
+      "descripcion": "Mi nombre Sandra Sáenz cédula 67007511 de cali, dónde vivo el edificio quedó afectado y necesitamos desocupar lo más pronto posible ya que está con grietas , mi apt por ejemplo el cuarto quedó horrible.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 19",
+      "barrio": "San Fernando",
+      "direccion": "Cra 36b 5b3 -78",
+      "necesita": [
+        "Otro"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-13T14:40:40.994941Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
+      "raw": {
+        "id": "15d43ae0-9e9c-441d-a19e-f15f2c637cda",
+        "kind": "need",
+        "category": "otro",
+        "title": "Auxilió de vivienda y alimentos",
+        "description": "Mi nombre Sandra Sáenz cédula 67007511 de cali, dónde vivo el edificio quedó afectado y necesitamos desocupar lo más pronto posible ya que está con grietas , mi apt por ejemplo el cuarto quedó horrible.",
+        "quantity_text": null,
+        "comuna": "Comuna 19",
+        "barrio": "San Fernando",
+        "address": "Cra 36b 5b3 -78",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-13T14:40:40.994941+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-50b2d656ec",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/7dfa131e-98c2-4416-a101-fa5b7366c262",
+      "tipo": "necesidad",
+      "nombre": "Necesito ingenieros para verificación",
+      "descripcion": "Mi casa sufrió muchas grietas en las paredes y necesito saber si aún es habitable y también ayudas de factor económico para su posible reparacion",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 1",
+      "barrio": "Terron colorado",
+      "direccion": "Av 6 oeste # 31-23",
+      "necesita": [
+        "Otro"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-13T14:32:35.634701Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
+      "raw": {
+        "id": "7dfa131e-98c2-4416-a101-fa5b7366c262",
+        "kind": "need",
+        "category": "otro",
+        "title": "Necesito ingenieros para verificación",
+        "description": "Mi casa sufrió muchas grietas en las paredes y necesito saber si aún es habitable y también ayudas de factor económico para su posible reparacion",
+        "quantity_text": null,
+        "comuna": "Comuna 1",
+        "barrio": "Terron colorado",
+        "address": "Av 6 oeste # 31-23",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-13T14:32:35.634701+00:00"
+      }
+    },
     {
       "id": "calisolidario-53a8c70d8d",
       "fuente": "calisolidario",
@@ -26,7 +198,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:18:12.673612Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "54a15467-f15b-4974-a7a4-ed16bcac2a30",
         "kind": "need",
@@ -61,7 +233,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:14:26.282743Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "c39051da-36d7-4beb-9703-090d0a19ec5d",
         "kind": "need",
@@ -96,7 +268,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:00:22.641538Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "6cd8096b-641d-4882-bf47-1543ecd0850c",
         "kind": "need",
@@ -130,7 +302,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:41:22.775128Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "8aab4b33-1ddc-4218-9ece-48e5072ccbb5",
         "kind": "need",
@@ -165,7 +337,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:30:55.598544Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "983c7ceb-d1e2-4466-a580-a9d636a59ede",
         "kind": "need",
@@ -198,7 +370,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:24:27.3573Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "d4a8b0f2-5b67-44fa-bc07-c5e0179d9286",
         "kind": "need",
@@ -232,7 +404,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:04:49.314434Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "2d2a78c7-eecb-4260-a313-85134cf97d9c",
         "kind": "need",
@@ -266,7 +438,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:02:22.139555Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "a9c3d6e7-0f7b-43f4-bff0-887f4caf9f4b",
         "kind": "need",
@@ -301,7 +473,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T12:35:24.560326Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "aac9f6b4-3581-4b0f-9403-1cbf39e24609",
         "kind": "need",
@@ -336,7 +508,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T12:02:22.948584Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "fc652186-25dc-487c-b69d-c88aef21acee",
         "kind": "need",
@@ -371,7 +543,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T11:59:19.773579Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "9bf4b2de-93bf-4eab-9af8-bfe702ba268a",
         "kind": "need",
@@ -405,7 +577,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T11:51:17.985936Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "061b813b-a05d-4ca3-b86c-25bddde84087",
         "kind": "need",
@@ -439,7 +611,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T11:40:44.526917Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "09bb3e28-39c5-4414-a45f-39dd9fdd7337",
         "kind": "need",
@@ -470,7 +642,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T10:25:48.389321Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "b67b8b34-7533-42d1-9543-753344bd5e47",
         "kind": "need",
@@ -502,7 +674,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T09:41:52.529295Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "540cdcf2-0fec-4c3e-8fa4-bdb81786ebdf",
         "kind": "need",
@@ -536,7 +708,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T06:32:47.464107Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "d5ecf39b-6e73-460a-a60c-2525c906bca2",
         "kind": "need",
@@ -570,7 +742,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T03:09:54.007892Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "91f49938-84ea-4449-9217-4acc830f9287",
         "kind": "need",
@@ -600,7 +772,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T03:08:56.636228Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "901cecf5-6742-4309-8ee8-2185158e200c",
         "kind": "need",
@@ -634,7 +806,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T02:42:39.048398Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "bb034282-b43d-4f77-8137-5ecd5febcef7",
         "kind": "need",
@@ -668,7 +840,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T02:25:58.551772Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "7006889e-07e9-46fb-928d-daf43a3d5e5e",
         "kind": "need",
@@ -700,7 +872,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:55:17.569774Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "f1a14e5e-cc16-4cba-96ca-eea0d6968315",
         "kind": "need",
@@ -734,7 +906,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:47:56.659194Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "a77df0ae-ef3a-4314-b737-d7753626b6bc",
         "kind": "need",
@@ -765,7 +937,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:45:06.721356Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "7f186a26-e4a4-42fd-bde2-ec45ed51e81e",
         "kind": "need",
@@ -799,7 +971,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:05:32.641867Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "6de60f16-77ec-432f-a865-0dc3cfff2d48",
         "kind": "need",
@@ -834,7 +1006,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T00:28:32.024024Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "4da057da-ee51-4504-9b33-96ccdac93d8d",
         "kind": "need",
@@ -869,7 +1041,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T00:10:51.8511Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "c89e0732-818b-4358-99c6-0604fd6060d7",
         "kind": "need",
@@ -903,7 +1075,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:31:47.780127Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "fc4b82a9-32e7-4ac2-8ecc-8380a8bda19f",
         "kind": "need",
@@ -937,7 +1109,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:24:34.918475Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "5e2303c9-ed8d-44e4-8122-a17424b3a951",
         "kind": "need",
@@ -972,7 +1144,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:23:07.473486Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "451fd232-7a36-4ddb-9434-4c3e4851ca3a",
         "kind": "need",
@@ -1006,7 +1178,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:02:24.257878Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "745189c0-5d52-426c-973e-1f1d8fd1733d",
         "kind": "need",
@@ -1041,7 +1213,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T22:53:07.514902Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "46ef2e83-2fc9-4d15-ab89-547cf213ebcb",
         "kind": "need",
@@ -1072,7 +1244,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:58:44.882529Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "c68f004b-681d-498d-b7a2-182496cdd9ca",
         "kind": "need",
@@ -1104,7 +1276,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:32:36.730743Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "abf90f71-3ab3-4aa4-b6b4-33cbb6b986a0",
         "kind": "need",
@@ -1139,7 +1311,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:05:55.901757Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "50f3eacf-ff13-45a1-8aa6-e87dddcfc4a8",
         "kind": "need",
@@ -1173,7 +1345,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:59:06.00741Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "60ceceb1-0888-4f04-82ff-e2fc1acfc2f5",
         "kind": "need",
@@ -1204,7 +1376,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:08:09.869624Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "f4a26b11-5eb3-4626-8bba-df59264b8955",
         "kind": "need",
@@ -1237,7 +1409,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T17:28:07.995326Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "022b3e7a-9438-4301-a3c4-5ab3f057050d",
         "kind": "need",
@@ -1268,7 +1440,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T17:12:59.847654Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "70c794b0-cbe1-4778-b3a1-3db47d3085f9",
         "kind": "need",
@@ -1303,7 +1475,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:54:01.931448Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "5d694fbd-29b6-4d63-876b-201b1f0a1540",
         "kind": "need",
@@ -1333,7 +1505,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:23:43.229178Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "decf9493-337a-47ee-b393-085c476ee48c",
         "kind": "need",
@@ -1366,7 +1538,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:05:28.11574Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "4779ada2-36b8-4d86-826e-83788f9d8983",
         "kind": "need",
@@ -1401,7 +1573,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:31:16.524558Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "578507a6-6d89-4647-9e93-5a5c7d1a8dab",
         "kind": "need",
@@ -1433,7 +1605,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:52:26.626756Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "8d8b464a-d4a5-49c3-be94-f8e9b8bb4128",
         "kind": "need",
@@ -1465,7 +1637,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:27:46.75875Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "33a797aa-bd5e-458e-9356-361beb9b0938",
         "kind": "need",
@@ -1497,7 +1669,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:33:10.20949Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "d2c5a6da-d072-4038-9ed2-66d6374d13c7",
         "kind": "need",
@@ -1530,7 +1702,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:02:01.576285Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "8b8d6d83-9b28-4c5c-8350-f5f17c4a5b47",
         "kind": "need",
@@ -1565,7 +1737,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:56:13.717984Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "cfc0757d-1069-46bb-89fb-35e6024f0c8d",
         "kind": "need",
@@ -1597,7 +1769,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:48:46.810986Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "211bf2f0-e2b7-405c-ae0a-a045766bb59c",
         "kind": "need",
@@ -1629,7 +1801,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:16:00.597913Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "5e0cf83b-0bdc-47bf-9967-25ce43aba8c5",
         "kind": "need",
@@ -1646,6 +1818,39 @@
       }
     },
     {
+      "id": "calisolidario-c018676f8b",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/0912be41-0217-4e74-8476-f0fee36f49c8",
+      "tipo": "oferta",
+      "nombre": "Ofrezco asesoría jurídica Gratuita - Abogada Cali",
+      "descripcion": "Para reclamaciones con aseguradoras, inscripción en la UNGRD, registro de damnificados, tutelas y reclamación de medicamentos.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 22",
+      "barrio": "Bochalema",
+      "ofrece": [
+        "Otro"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-13T15:07:13.093865Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
+      "raw": {
+        "id": "0912be41-0217-4e74-8476-f0fee36f49c8",
+        "kind": "offer",
+        "category": "otro",
+        "title": "Ofrezco asesoría jurídica Gratuita - Abogada Cali",
+        "description": "Para reclamaciones con aseguradoras, inscripción en la UNGRD, registro de damnificados, tutelas y reclamación de medicamentos.",
+        "quantity_text": null,
+        "comuna": "Comuna 22",
+        "barrio": "Bochalema",
+        "address": null,
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-13T15:07:13.093865+00:00"
+      }
+    },
+    {
       "id": "calisolidario-33cb036ed3",
       "fuente": "calisolidario",
       "fuente_url": "https://calisolidario.triadaaliados.com/aviso/f40baf50-2a2f-4383-b2f9-1eafa5df52a1",
@@ -1659,7 +1864,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:33:34.867849Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "f40baf50-2a2f-4383-b2f9-1eafa5df52a1",
         "kind": "offer",
@@ -1692,7 +1897,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:42:46.437505Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "434b984e-4560-424c-8258-994c83c9b348",
         "kind": "offer",
@@ -1724,7 +1929,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:35:21.894799Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "8a2cd4fe-d432-4ad8-930e-b782ea4626c7",
         "kind": "offer",
@@ -1758,7 +1963,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:18:12.999355Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "611571c3-238c-4ea3-b4dc-4e4390241e30",
         "kind": "offer",
@@ -1791,7 +1996,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:19:29.678646Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "d7703a44-025b-4975-a6e8-905671b0ce6b",
         "kind": "offer",
@@ -1824,7 +2029,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T15:55:12.982692Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "ce37c9fc-46d4-4b8e-9000-ac4919cabf6f",
         "kind": "offer",
@@ -1855,7 +2060,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:43:19.3229Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "73aaa4ed-aeeb-4fd9-9fb0-ec4082b1ca97",
         "kind": "offer",
@@ -1887,7 +2092,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:19:29.613673Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "84521cee-78ca-464d-8d19-856bac6eb088",
         "kind": "offer",
@@ -1920,7 +2125,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:42:51.042339Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "1137105b-e902-499a-9bc9-83d74aa03d03",
         "kind": "offer",
@@ -1955,7 +2160,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:29:52.814157Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "fdc304f5-7ef0-4840-9994-5539cc151ff7",
         "kind": "offer",
@@ -1986,7 +2191,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:11:47.6773Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "9070058c-7fd6-4ad4-8156-df8f9bb24d59",
         "kind": "offer",
@@ -2021,7 +2226,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:36:47.514607Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "d573ad61-da91-48d4-9361-4de5e142e2a6",
         "kind": "offer",
@@ -2052,7 +2257,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T23:58:49.394335Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "3ee04dff-179e-4ba0-9020-9990b2572d33",
         "kind": "offer",
@@ -2086,7 +2291,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T23:06:03.945603Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "46ed2906-e479-449d-97ff-d56029e523d0",
         "kind": "offer",
@@ -2117,7 +2322,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:37:04.74991Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "fe2944ff-83c3-47be-a251-5552302b9934",
         "kind": "offer",
@@ -2152,7 +2357,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:36:57.027041Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "366ed70c-d2a7-4ca2-bd59-7a508fa6a69b",
         "kind": "offer",
@@ -2183,7 +2388,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:22:33.46354Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "ec41aecc-6945-482b-994d-aba129c6ab06",
         "kind": "offer",
@@ -2217,7 +2422,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:16:38.568824Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "7f776f3d-17fc-41b1-8f0f-f15ee04fda7d",
         "kind": "offer",
@@ -2249,7 +2454,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:13:38.952643Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "19bb1478-2aad-4746-ba6c-8c7160e8cfca",
         "kind": "offer",
@@ -2280,7 +2485,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:10:44.147263Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "3a6f188d-4419-4360-b509-b00501ad0940",
         "kind": "offer",
@@ -2314,7 +2519,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T21:59:05.44064Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "d760a276-8046-4938-bf7d-8818da60b6e2",
         "kind": "offer",
@@ -2349,7 +2554,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T21:30:25.368079Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "55933e50-4395-470c-9f3e-7dd0624d6cef",
         "kind": "offer",
@@ -2380,7 +2585,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:59:12.669924Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "c581d156-a48d-440e-8cfa-5d376dba86e9",
         "kind": "offer",
@@ -2410,7 +2615,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:24:10.634675Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "329dc371-fa63-41c3-b57f-7c8e40f08d56",
         "kind": "offer",
@@ -2445,7 +2650,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:22:53.036753Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "19b8e609-ab1e-435b-91e3-b53fbe3b75b2",
         "kind": "offer",
@@ -2477,7 +2682,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:12:50.860658Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "5ba8f35a-651a-4b80-b983-a50757464de5",
         "kind": "offer",
@@ -2509,7 +2714,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:24:04.751065Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "933201d7-1ebc-4592-bccb-aae1a5f480d0",
         "kind": "offer",
@@ -2540,7 +2745,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:13:49.277087Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "f6ee27e4-57aa-4210-af3d-06028e3f82b0",
         "kind": "offer",
@@ -2573,7 +2778,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:31:08.835075Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "8b1472bd-3be7-4742-9739-757c1201ba08",
         "kind": "offer",
@@ -2607,7 +2812,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T16:09:16.782252Z",
-      "fecha_corte": "2026-08-13T14:19:31Z",
+      "fecha_corte": "2026-08-13T15:29:46Z",
       "raw": {
         "id": "e7aac81c-b383-4cf7-9a1c-834ae0a71683",
         "kind": "offer",
@@ -2628,25 +2833,25 @@
     "por_categoria": {
       "agua": 3,
       "albergue": 4,
-      "alimentos": 9,
+      "alimentos": 10,
       "aseo": 1,
       "cobijas_colchones": 5,
       "herramientas": 5,
-      "mano_de_obra": 14,
+      "mano_de_obra": 15,
       "medicamentos": 1,
-      "otro": 27,
+      "otro": 31,
       "panales": 1,
       "ropa": 3,
       "salud": 2,
       "transporte": 4
     },
     "por_kind": {
-      "need": 49,
-      "offer": 30
+      "need": 54,
+      "offer": 31
     },
     "por_pagina": {
-      "https://calisolidario.triadaaliados.com/necesidades": 49,
-      "https://calisolidario.triadaaliados.com/ofertas": 30
+      "https://calisolidario.triadaaliados.com/necesidades": 54,
+      "https://calisolidario.triadaaliados.com/ofertas": 31
     }
   }
 }
