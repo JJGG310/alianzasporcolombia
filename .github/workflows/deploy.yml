@@ -40,6 +40,7 @@ jobs:
         run: |
           set -e
           for f in datos/ayuda.json datos/avisos.json datos/necesidades.json \
+                   datos/cifras.json lite.html \
                    extracted-data/puntos.json extracted-data/puntos.geojson; do
             test -s "web/dist/$f" || { echo "FALTA web/dist/$f"; exit 1; }
           done

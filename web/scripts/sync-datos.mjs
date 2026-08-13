@@ -52,6 +52,18 @@ const copias = [
     a: join(web, 'public', 'datos', 'necesidades.json'),
     obligatorio: false,
   },
+  {
+    // Cifras oficiales con fuente + hora. Si falta, el panel no se pinta.
+    de: join(raiz, 'public', 'datos', 'cifras.json'),
+    a: join(web, 'public', 'datos', 'cifras.json'),
+    obligatorio: false,
+  },
+  {
+    // La versión de 27 KB para 2G. El pie la enlaza: sin esta copia da 404.
+    de: join(raiz, 'public', 'lite.html'),
+    a: join(web, 'public', 'lite.html'),
+    obligatorio: false,
+  },
 ];
 
 let faltoAlguno = false;

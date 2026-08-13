@@ -1,6 +1,7 @@
 import { Suspense, lazy, useCallback, useEffect, useMemo, useState } from 'react';
 
 import Avisos from './componentes/Avisos';
+import Cifras from './componentes/Cifras';
 import BuscarAlguien from './componentes/BuscarAlguien';
 import Directorio from './componentes/Directorio';
 import Necesidades from './componentes/Necesidades';
@@ -218,6 +219,7 @@ export default function App() {
           {seccion === 'ahora' && (
             <>
               <Replicas />
+              <Cifras />
               <Necesidades />
             </>
           )}

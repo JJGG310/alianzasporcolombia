@@ -35,6 +35,11 @@ export default function PieDePagina({ licencia, politica }: Props) {
             dato vencido o equivocado, escríbenos: corregirlo rápido es la mitad del
             trabajo.
           </p>
+          <p className="pie-marco__texto">
+            📶 <strong>¿Poca señal?</strong>{' '}
+            <a href="/lite.html">Versión liviana de solo texto (27&nbsp;KB)</a> — carga
+            hasta en 2G y se puede guardar para leer sin conexión.
+          </p>
         </section>
 
         <section className="pie-marco__col">

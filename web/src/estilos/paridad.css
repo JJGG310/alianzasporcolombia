@@ -377,3 +377,65 @@
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
 }
+
+/* ── Cifras oficiales ─────────────────────────────────────────────────────
+   Tablero de balance: el valor grande arriba (se lee con afán), la fuente y
+   la hora abajo (se consulta con dudas). El rojo de urgencia NO se usa aquí:
+   estas tarjetas son contexto, no llamada a la acción — mismo criterio que
+   los avisos. */
+.cifras {
+  margin-top: var(--e5);
+}
+
+.cifras__titulo {
+  font-size: var(--txt-lg);
+  margin: 0 0 var(--e2);
+}
+
+.cifras__nota {
+  max-width: var(--ancho-prosa);
+  font-size: var(--txt-sm);
+  color: var(--tinta-700);
+  margin: 0 0 var(--e3);
+}
+
+.cifras__rejilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: var(--e3);
+}
+
+.cifras__tarjeta {
+  background: var(--superficie);
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
+  padding: var(--e3);
+}
+
+.cifras__valor {
+  display: block;
+  font-size: var(--txt-2xl, 1.5rem);
+  line-height: 1.15;
+}
+
+.cifras__nombre {
+  font-weight: 600;
+  font-size: var(--txt-sm);
+}
+
+.cifras__detalle {
+  margin: var(--e1) 0 0;
+  font-size: var(--txt-sm);
+  color: var(--tinta-700);
+}
+
+.cifras__fuente {
+  margin: var(--e2) 0 0;
+  font-size: var(--txt-xs, 0.75rem);
+  color: var(--tinta-500);
+}
+
+.cifras__cargando {
+  height: 6rem;
+  border-radius: var(--radio);
+}
