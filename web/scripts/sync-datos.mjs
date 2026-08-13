@@ -58,12 +58,8 @@ const copias = [
     a: join(web, 'public', 'datos', 'cifras.json'),
     obligatorio: false,
   },
-  {
-    // La versión de 27 KB para 2G. El pie la enlaza: sin esta copia da 404.
-    de: join(raiz, 'public', 'lite.html'),
-    a: join(web, 'public', 'lite.html'),
-    obligatorio: false,
-  },
+  // lite.html vive directo en web/public/lite.html (tracked). Ya no se copia
+  // desde la raíz: el frontend vanilla se retiró y con él public/lite.html.
 ];
 
 let faltoAlguno = false;

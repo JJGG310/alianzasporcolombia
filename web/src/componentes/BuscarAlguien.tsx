@@ -70,16 +70,13 @@ const CAMINOS: Camino[] = [
       { texto: 'Personería de Cali, 24/7: 318 335 5722', href: 'tel:3183355722' },
     ],
   },
-  {
-    n: 4,
-    nombre: 'Medicina Legal — listado oficial',
-    url: 'https://www.semana.com/nacion/articulo/medicina-legal-ha-recibido-202-cuerpos-de-victimas-del-terremoto-en-colombia-este-es-el-listado/202626/',
-    clase: 'oficial',
-    hace: 'El Instituto de Medicina Legal publica el listado de las personas fallecidas que ha recibido, para que las familias puedan saber con certeza.',
-    cuando:
-      'Es el paso más duro y solo tuyo de decidir. Si los demás caminos no han dado razón, aquí está el listado oficial, actualizado por la entidad. Ve acompañado si puedes.',
-  },
 ];
+
+/** El listado de Medicina Legal se muestra aparte, no como un «camino» más:
+ *  no es buscar a alguien vivo, y ponerlo numerado junto a «empieza aquí» sería
+ *  brutal. Va al final, con su propio tono. */
+const MEDICINA_LEGAL_URL =
+  'https://www.semana.com/nacion/articulo/medicina-legal-ha-recibido-202-cuerpos-de-victimas-del-terremoto-en-colombia-este-es-el-listado/202626/';
 
 export default function BuscarAlguien() {
   return (
@@ -147,6 +144,16 @@ export default function BuscarAlguien() {
         son reportes abiertos, donde muchas personas ya aparecieron pero nadie ha cerrado
         el reporte. Si reportaste a alguien y ya apareció, márcalo como localizado: eso
         ayuda a todos.
+      </p>
+
+      {/* Aparte, al final y en voz baja: es el paso más duro y no es «buscar». */}
+      <p className="prosa busca__legal">
+        Si los caminos de arriba no han dado razón, el Instituto de{' '}
+        <a href={MEDICINA_LEGAL_URL} target="_blank" rel="noopener noreferrer">
+          Medicina Legal publica el listado de las personas que ha recibido
+        </a>
+        . Es el paso más difícil y solo tuyo de decidir cuándo darlo. Si puedes, ve
+        acompañado.
       </p>
     </section>
   );

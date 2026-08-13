@@ -439,3 +439,12 @@
   height: 6rem;
   border-radius: var(--radio);
 }
+
+/* El listado de Medicina Legal: apagado a propósito, para que no compita con
+   los caminos de búsqueda ni grite. Es información, no una llamada a la acción. */
+.busca__legal {
+  margin-top: var(--e3);
+  max-width: var(--ancho-prosa);
+  font-size: var(--txt-sm);
+  color: var(--tinta-500);
+}
