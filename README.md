@@ -13,15 +13,13 @@ Sitio ciudadano que centraliza información verificada sobre el terremoto del 10
 ## Estructura
 
 ```
-public/                   ← LO ÚNICO QUE SE PUBLICA hoy en alianzasporcolombia.com
-  index.html              El sitio en HTML + CSS + JS vanilla, sin build
-  recursos.js             Directorio de enlaces por sección
+web/                      El sitio, en React + TypeScript (Vite). Es lo que se despliega
+public/                   Los datos que consume el sitio (se copian al build)
   datos/ayuda.json        Los puntos verificados a mano por el equipo (CC BY 4.0)
   datos/avisos.json       Avisos operativos vigentes (toque de queda, vías, aeropuertos)
   datos/necesidades.json  Qué se necesita ahora
   extracted-data/         Lo que produce el scraper, publicado como datos abiertos
-
-web/                      El MISMO sitio en React + TypeScript (Vite). Todavía no desplegado
+  _headers                Reglas de caché y CORS (se copian al build)
 scraper/                  Agregador en Go: lee otros sitios ciudadanos y normaliza sus datos
 extracted-data/           Salida completa del scraper, incluido el crudo por fuente
 RECURSOS.md               Inventario del barrido de fuentes (incluye caídas y vacíos)
@@ -31,12 +29,8 @@ docs/aliados.md           Borradores de contacto para los sitios hermanos
 docs/monitoreo.md         Bitácora del agente de monitoreo automático
 ```
 
-**Regla:** todo lo que esté fuera de `public/` es interno y NO llega al sitio.
-
-> **Hay dos frontends y todavía no se ha decidido cuál queda.** `public/index.html` es el
-> que está en vivo. `web/` es la misma cosa en React, con un sistema de diseño propio, y
-> está listo para desplegarse pero **no** desplegado — no le cambies el deploy a nadie sin
-> hablarlo por WhatsApp. Ver "Los dos frontends" abajo.
+El sitio se construye desde `web/` y lee sus datos de `public/datos/` y
+`public/extracted-data/`: por eso `public/` se queda, aunque ya no tenga HTML.
 
 Hay **dos orígenes de datos y son distintos a propósito**: `public/datos/ayuda.json` son
 los puntos que alguien del equipo confirmó (`verificado: true`), y `extracted-data/` es lo
@@ -46,13 +40,7 @@ tiene que poder distinguirlos de un vistazo.
 
 ## Correr local
 
-El sitio que está en vivo (vanilla, sin build):
-
-```bash
-python3 -m http.server 8942 --directory public
-```
-
-El sitio en React:
+El sitio:
 
 ```bash
 cd web && npm install && npm run dev
@@ -89,33 +77,29 @@ Esto es federación, no apropiación: cada punto conserva el enlace a su sitio d
 
 ## Editar datos
 
-- **Enlaces del directorio** → `public/recursos.js` (el sitio en vivo) y `web/src/data/recursos.ts` (el de React). Hoy son dos copias del mismo directorio: si tocas una, toca la otra, hasta que se decida cuál frontend queda.
+- **Enlaces del directorio** → `web/src/data/recursos.ts`.
 - **Puntos de ayuda / mapa** → `public/datos/ayuda.json`. Reglas: `tipo` ∈ albergue|acopio|sangre|olla|donacion-org; `fuente` y `fecha_corte` obligatorios; `lat/lon` solo si son confiables (si no, `null` y sale solo en la tabla); **jamás cuentas bancarias en ningún campo**.
 - **`extracted-data/` no se edita.** Lo genera el scraper. Si un punto agregado está mal, se corrige en el adaptador de esa fuente o se le escribe al sitio de origen.
 
 Un punto agregado que traiga `politica_alerta` **no se publica sin que alguien lo mire**: es la marca que deja el saneamiento cuando detecta algo que parece dato de pago, o cuando el sitio de origen lo tiene reportado.
 
-## Los dos frontends
-
-| | `public/index.html` (en vivo) | `web/` (React, sin desplegar) |
-|---|---|---|
-| Stack | HTML + CSS + JS vanilla, sin build | Vite + React 18 + TypeScript |
-| Estado | **Desplegado** en alianzasporcolombia.com | Construye y corre, no desplegado |
-| Tiene de más | Avisos operativos, "qué se necesita ahora", desaparecidos, filtro por ciudad | Sistema de diseño, modo oscuro, los 957 puntos agregados, "cerca de mí" con distancias, esqueletos de carga |
-
-Los dos leen los mismos datos. **La decisión de cuál queda es del equipo, no de quien tocó el código de último**, y mientras no se decida el deploy no se cambia. Lo que sí conviene es que lo que le falta a uno se le pase al otro: los avisos operativos son lo más valioso que tiene el sitio en vivo, y no están en React.
-
 ## Deploy
 
-Automático: cada push a `main` dispara [.github/workflows/deploy.yml](.github/workflows/deploy.yml), que publica **`public/`** a **Cloudflare Pages** (proyecto `alianzasporcolombia`) con `wrangler`. En ~25 segundos el cambio queda en vivo — no hay que hacer nada más que el push.
+El sitio en vivo es **`web/`** (React). El sitio vanilla que hubo al principio
+se retiró cuando React quedó a la par; sigue en el historial de git
+(`git show HEAD~1:public/index.html`) por si alguna vez hace falta consultarlo.
 
-Para desplegar a mano desde tu máquina (si alguna vez hace falta):
-```bash
-npx wrangler pages deploy public --project-name=alianzasporcolombia --branch=main
-```
-(pide login de Cloudflare la primera vez).
+Automático: cada push a `main` dispara [.github/workflows/deploy.yml](.github/workflows/deploy.yml),
+que construye `web/`, copia `public/_headers` al build y publica `web/dist` en
+**Cloudflare Pages** (proyecto `alianzasporcolombia`). El build corre desde la
+raíz del repo, no desde `web/`: `sync-datos.mjs` lee `public/datos/` y
+`public/extracted-data/`, que están afuera de `web/`. Si algún archivo de datos
+no queda en el build, el deploy **falla** a propósito — mejor la versión
+anterior que un sitio mudo en plena emergencia.
 
-`public/extracted-data/` y `public/datos/` se sirven como archivos estáticos, así que también son la API pública del proyecto. La prensa y los sitios aliados pueden consumirlos sin pedir permiso.
+`/extracted-data/` y `/datos/` se sirven como archivos estáticos con CORS
+abierto: son también la API pública del proyecto. La prensa y los sitios
+aliados pueden consumirlos sin pedir permiso.
 
 ## Licencias
 

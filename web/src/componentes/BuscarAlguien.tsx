@@ -19,7 +19,7 @@ import '../estilos/paridad.css';
  * enlazamos. Nada más.
  *
  * Las URLs y los teléfonos salen de RECURSOS.md y del sitio en vivo
- * (public/index.html). Ninguno es inventado.
+ * (RECURSOS.md). Ninguno es inventado.
  */
 
 interface Camino {

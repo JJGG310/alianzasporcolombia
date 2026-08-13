@@ -14,9 +14,8 @@ Diseñada para trabajar **en paralelo sin pisarse**: cada persona es dueña de a
 - Llamar/escribir a albergues y acopios para confirmar que siguen activos (el dato más valioso del sitio).
 
 ### Persona B — Producto y frontend 🛠
-**Dueña de:** `public/index.html` (el sitio en vivo) y `web/src/` (la versión en React)
+**Dueña de:** `web/src/` (el sitio, en React — es lo que se despliega)
 - Mapa y tabla (hecho), compartir por WhatsApp (hecho), réplicas en vivo del USGS (hecho).
-- **Decidir cuál frontend queda** y pasarle al ganador lo que tenga el otro. Ver README.
 - Panel de cifras con fuente + hora.
 - Versión `/lite` de solo texto (<50 KB) y luego PWA offline.
 - El scraper (`scraper/`) es de quien lo toque: si una fuente se rompe, `go run ./cmd/husmear <url>` dice de dónde saca sus datos ahora.
@@ -80,7 +79,7 @@ Publicable solo si tiene: fuente (URL) + fecha de corte + municipio + tipo. Si e
 1. ~~Estructura, directorio verificado, mapa+tabla, datos abiertos~~ ✅
 2. ~~Conectar repo a Cloudflare Pages → publicar en alianzasporcolombia.com~~ ✅ (dominio comprado, DNS y HTTPS activos, deploy automático en cada push)
 3. ~~Scraper que federa 9 sitios ciudadanos → 957 puntos, publicados en `public/extracted-data/`~~ ✅
-4. **Decidir cuál frontend queda**: el vanilla que está en vivo o el de React (Persona B + equipo). Ver la tabla comparativa en el README. Mientras no se decida, el deploy NO se cambia.
+4. ~~Decidir cuál frontend queda~~ ✅ **React.** El deploy publica `web/dist`; el vanilla (`public/index.html`) se retiró. Quien edite HTML ahora trabaja en `web/src/`, no en `public/`.
 5. ~~Pasarle al sitio en vivo los puntos agregados~~ ✅ (729 reportes en mapa y tabla, marcados «sin verificación propia», con tipos nuevos: 🆘 pide ayuda, ofrece ayuda, salud; excluidos los de `politica_alerta`)
 6. Revisar los 8 puntos con `politica_alerta` (Persona A, hoy). Ojo: el mismo Nequi repetido en 4 puntos de mapa-emergencia — puede ser recaudo legítimo o puede no serlo.
 7. Enviar mensajes a los sitios aliados (Persona C, hoy). Ahora hay algo concreto que ofrecer: **ya los estamos federando** y los datos están en CC BY 4.0 para que ellos nos consuman de vuelta. El ing. de Univalle de Haciendo Comunidad ya escribió pidiendo justamente esto.
