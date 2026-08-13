@@ -3,10 +3,89 @@
   "url": "https://aqui-hace-falta.web.app/",
   "mecanismo": "Convex HTTP query API (udf needs:list; descubierto interceptando el WebSocket)",
   "ok": true,
-  "duracion": "418.579244ms",
-  "obtenido": "2026-08-13T15:29:46Z",
-  "total": 55,
+  "duracion": "153.19442ms",
+  "obtenido": "2026-08-13T16:26:56Z",
+  "total": 56,
   "puntos": [
+    {
+      "id": "aqui-hace-falta-7e2e4db3f7",
+      "fuente": "aqui-hace-falta",
+      "fuente_url": "https://aqui-hace-falta.web.app/",
+      "tipo": "rescate",
+      "nombre": "Pulidoras y herramientas - Edificio Cantabria",
+      "descripcion": "Se necesita con urgencia pulidoras y herramientas.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "barrio": "Nueva Tequendama",
+      "direccion": "Cl. 8b #45-17",
+      "lat": 3.4145059279286407,
+      "lon": -76.54176950454713,
+      "necesita": [
+        "Herramientas (faltan 50 unidades)",
+        "Pulidoras (faltan 50 unidades)"
+      ],
+      "estado": "urgente",
+      "prioridad": "critica",
+      "contacto": "Laura Arango — 3041415813",
+      "verificado": true,
+      "creado": "2026-08-12T00:07:33.789Z",
+      "actualizado": "2026-08-13T16:24:09.28Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
+      "raw": {
+        "_creationTime": 1786493253789.8918,
+        "_id": "j57a21psmhe76sk7kgzxagsq498ca035",
+        "address": "Cl. 8b #45-17",
+        "categories": [
+          "HERRAMIENTAS"
+        ],
+        "cityId": "cali",
+        "contactEmail": "",
+        "contactName": "Laura Arango",
+        "contactPhone": "3041415813",
+        "contactWhatsapp": "3041415813",
+        "createdAt": "2026-08-12T00:07:33.789Z",
+        "description": "Se necesita con urgencia pulidoras y herramientas.",
+        "emergencyId": "terremoto-cali-2026",
+        "isDemoData": false,
+        "lastUpdatedBy": "[MOD] Miguel Bernal",
+        "latitude": 3.4145059279286407,
+        "longitude": -76.54176950454713,
+        "neighborhood": "Nueva Tequendama",
+        "operatingHours": "",
+        "organizationName": "",
+        "placeType": "EDIFICIO_AFECTADO",
+        "priority": "CRITICAL",
+        "requesterType": "COMUNIDAD",
+        "resources": [
+          {
+            "description": "Pulidoras",
+            "fulfilledQuantity": 0.0,
+            "id": "res-1786493253789-0",
+            "requestedQuantity": 50.0,
+            "status": "PENDING",
+            "type": "HERRAMIENTAS",
+            "unit": "unidades"
+          },
+          {
+            "description": "Herramientas",
+            "fulfilledQuantity": 0.0,
+            "id": "res-1786493253789-1",
+            "requestedQuantity": 50.0,
+            "status": "PENDING",
+            "type": "HERRAMIENTAS",
+            "unit": "unidades"
+          }
+        ],
+        "source": "Reporte ciudadano en línea",
+        "status": "NEED_HELP_NOW",
+        "title": "Pulidoras y herramientas - Edificio Cantabria",
+        "updatedAt": "2026-08-13T16:24:09.280Z",
+        "verificationNotes": "Aprobado por moderación",
+        "verificationStatus": "VERIFIED",
+        "verifiedAt": "2026-08-12T00:08:07.968Z",
+        "verifiedBy": "Miguel Bernal"
+      }
+    },
     {
       "id": "aqui-hace-falta-43e9959c0b",
       "fuente": "aqui-hace-falta",
@@ -42,7 +121,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:32:21.655Z",
       "actualizado": "2026-08-13T15:22:02.201Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786491141655.4287,
         "_id": "j5741ef7w4ek63r65626r2w7098c9hp8",
@@ -203,7 +282,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:31:38.614Z",
       "actualizado": "2026-08-12T00:35:39.557Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786483898613.98,
         "_id": "j5783cma91j3jw83gc27z884zx8c9cvy",
@@ -291,87 +370,6 @@
       }
     },
     {
-      "id": "aqui-hace-falta-7e2e4db3f7",
-      "fuente": "aqui-hace-falta",
-      "fuente_url": "https://aqui-hace-falta.web.app/",
-      "tipo": "rescate",
-      "nombre": "Urgen linternas y chalecos reflectivos - Edificio Cantabria",
-      "descripcion": "Se necesita con urgencia linternas y chalecos reflectivos, edificio Cantabria, barrio Nueva Tequendama.",
-      "departamento": "Valle del Cauca",
-      "municipio": "Cali",
-      "barrio": "Nueva Tequendama",
-      "direccion": "Cl. 8b #45-17",
-      "lat": 3.4145059279286407,
-      "lon": -76.54176950454713,
-      "necesita": [
-        "Apoyo logístico",
-        "Chalecos reflectivos (faltan 50 unidades)",
-        "Linternas (faltan 50 unidades)",
-        "Otras necesidades"
-      ],
-      "estado": "urgente",
-      "prioridad": "critica",
-      "contacto": "Anon",
-      "verificado": true,
-      "creado": "2026-08-12T00:07:33.789Z",
-      "actualizado": "2026-08-12T00:08:07.968Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
-      "raw": {
-        "_creationTime": 1786493253789.8918,
-        "_id": "j57a21psmhe76sk7kgzxagsq498ca035",
-        "address": "Cl. 8b #45-17",
-        "categories": [
-          "OTRO",
-          "LOGISTICA"
-        ],
-        "cityId": "cali",
-        "contactEmail": "",
-        "contactName": "Anon",
-        "contactPhone": "",
-        "contactWhatsapp": "",
-        "createdAt": "2026-08-12T00:07:33.789Z",
-        "description": "Se necesita con urgencia linternas y chalecos reflectivos, edificio Cantabria, barrio Nueva Tequendama.",
-        "emergencyId": "terremoto-cali-2026",
-        "isDemoData": false,
-        "latitude": 3.4145059279286407,
-        "longitude": -76.54176950454713,
-        "neighborhood": "Nueva Tequendama",
-        "operatingHours": "",
-        "organizationName": "",
-        "placeType": "EDIFICIO_AFECTADO",
-        "priority": "CRITICAL",
-        "requesterType": "COMUNIDAD",
-        "resources": [
-          {
-            "description": "Linternas",
-            "fulfilledQuantity": 0.0,
-            "id": "res-1786493253789-0",
-            "requestedQuantity": 50.0,
-            "status": "PENDING",
-            "type": "OTRO",
-            "unit": "unidades"
-          },
-          {
-            "description": "Chalecos reflectivos",
-            "fulfilledQuantity": 0.0,
-            "id": "res-1786493253789-1",
-            "requestedQuantity": 50.0,
-            "status": "PENDING",
-            "type": "OTRO",
-            "unit": "unidades"
-          }
-        ],
-        "source": "Reporte ciudadano en línea",
-        "status": "NEED_HELP_NOW",
-        "title": "Urgen linternas y chalecos reflectivos - Edificio Cantabria",
-        "updatedAt": "2026-08-12T00:08:07.968Z",
-        "verificationNotes": "Aprobado por moderación",
-        "verificationStatus": "VERIFIED",
-        "verifiedAt": "2026-08-12T00:08:07.968Z",
-        "verifiedBy": "Miguel Bernal"
-      }
-    },
-    {
       "id": "aqui-hace-falta-aba82e6ddb",
       "fuente": "aqui-hace-falta",
       "fuente_url": "https://aqui-hace-falta.web.app/",
@@ -401,7 +399,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:18:57.917Z",
       "actualizado": "2026-08-11T23:43:46.616Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786486737917.0684,
         "_id": "j577r0y3bwawss7dz8cmcyv2a18c9k1d",
@@ -541,7 +539,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:09:34.698Z",
       "actualizado": "2026-08-11T23:34:43.995Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786489774698.8909,
         "_id": "j578eyt4wnzcf9zz36hwtvbp798c9bv6",
@@ -643,7 +641,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:35:06.201Z",
       "actualizado": "2026-08-11T22:53:02.951Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786487706201.074,
         "_id": "j5793904fzfzenhycqt8rnhgkx8c87rx",
@@ -748,7 +746,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:37:40.432Z",
       "actualizado": "2026-08-11T22:07:37.315Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786484260432.6821,
         "_id": "j574cx9sxscw3f6jqxn3q19cbn8c9vr4",
@@ -816,6 +814,188 @@
       }
     },
     {
+      "id": "aqui-hace-falta-d7d165eabf",
+      "fuente": "aqui-hace-falta",
+      "fuente_url": "https://aqui-hace-falta.web.app/",
+      "tipo": "albergue",
+      "nombre": "Fundación Alfonso lopez",
+      "descripcion": "Necesitan insumos para prepararse alimentos para personas 3 edad de un asilo que están albergando",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "barrio": "Alfonso lopez fundación esperanza color arcoiris",
+      "direccion": "Calle 70 N7m-09",
+      "lat": 3.4516,
+      "lon": -76.532,
+      "necesita": [
+        "Alimentos",
+        "Medicamentos",
+        "Remoción de escombros",
+        "Remover escombros (faltan 5 unidades)",
+        "Ropa"
+      ],
+      "estado": "urgente",
+      "prioridad": "critica",
+      "contacto": "Alexandra — 3002161652",
+      "horario": "24 horas ",
+      "verificado": false,
+      "creado": "2026-08-13T16:04:53.885Z",
+      "actualizado": "2026-08-13T16:04:53.885Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
+      "raw": {
+        "_creationTime": 1786637093885.4055,
+        "_id": "j57ffv9nsy26dmpd0w8mtjgb2x8ccdyx",
+        "address": "Calle 70  N7m-09",
+        "categories": [
+          "ESCOMBROS",
+          "ALIMENTOS",
+          "ROPA",
+          "MEDICAMENTOS"
+        ],
+        "cityId": "cali",
+        "contactEmail": "",
+        "contactName": "Alexandra ",
+        "contactPhone": "3002161652",
+        "contactWhatsapp": "",
+        "createdAt": "2026-08-13T16:04:53.885Z",
+        "description": "Necesitan insumos para prepararse alimentos para personas 3 edad de un asilo que están albergando ",
+        "emergencyId": "terremoto-cali-2026",
+        "isDemoData": false,
+        "latitude": 3.4516,
+        "longitude": -76.532,
+        "neighborhood": "Alfonso lopez fundación esperanza color arcoiris ",
+        "operatingHours": "24 horas ",
+        "organizationName": "",
+        "placeType": "REFUGIO",
+        "priority": "CRITICAL",
+        "requesterType": "OTRO",
+        "resources": [
+          {
+            "description": "Remover escombros",
+            "fulfilledQuantity": 0.0,
+            "id": "res-1786637093885-0",
+            "requestedQuantity": 5.0,
+            "status": "PENDING",
+            "type": "ESCOMBROS",
+            "unit": "unidades"
+          },
+          {
+            "description": "Remover escombros",
+            "fulfilledQuantity": 0.0,
+            "id": "res-1786637093885-1",
+            "requestedQuantity": 5.0,
+            "status": "PENDING",
+            "type": "ESCOMBROS",
+            "unit": "unidades"
+          },
+          {
+            "description": "Remover escombros",
+            "fulfilledQuantity": 0.0,
+            "id": "res-1786637093885-2",
+            "requestedQuantity": 5.0,
+            "status": "PENDING",
+            "type": "ESCOMBROS",
+            "unit": "unidades"
+          }
+        ],
+        "source": "Reporte ciudadano en línea",
+        "status": "NEED_HELP_NOW",
+        "title": "Fundación Alfonso lopez",
+        "updatedAt": "2026-08-13T16:04:53.885Z",
+        "verificationStatus": "PENDING_VERIFICATION"
+      }
+    },
+    {
+      "id": "aqui-hace-falta-cc64364da0",
+      "fuente": "aqui-hace-falta",
+      "fuente_url": "https://aqui-hace-falta.web.app/",
+      "tipo": "albergue",
+      "nombre": "Fundación Alfonso lopez",
+      "descripcion": "Necesitan insumos para prepararse alimentos para personas 3 edad de un asilo que están albergando",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "barrio": "Alfonso lopez fundación esperanza color arcoiris",
+      "direccion": "Calle 70 N7m-09",
+      "lat": 3.4516,
+      "lon": -76.532,
+      "necesita": [
+        "Alimentos",
+        "Medicamentos",
+        "Remoción de escombros",
+        "Remover escombros (faltan 5 unidades)",
+        "Ropa"
+      ],
+      "estado": "urgente",
+      "prioridad": "critica",
+      "contacto": "Alexandra — 3002161652",
+      "horario": "24 horas ",
+      "verificado": false,
+      "creado": "2026-08-13T15:56:11.391Z",
+      "actualizado": "2026-08-13T15:56:11.391Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
+      "raw": {
+        "_creationTime": 1786636571391.795,
+        "_id": "j573tjne0n9fcm1pbc4jj21m8h8cc2qj",
+        "address": "Calle 70  N7m-09",
+        "categories": [
+          "ESCOMBROS",
+          "ALIMENTOS",
+          "ROPA",
+          "MEDICAMENTOS"
+        ],
+        "cityId": "cali",
+        "contactEmail": "",
+        "contactName": "Alexandra ",
+        "contactPhone": "3002161652",
+        "contactWhatsapp": "",
+        "createdAt": "2026-08-13T15:56:11.391Z",
+        "description": "Necesitan insumos para prepararse alimentos para personas 3 edad de un asilo que están albergando ",
+        "emergencyId": "terremoto-cali-2026",
+        "isDemoData": false,
+        "latitude": 3.4516,
+        "longitude": -76.532,
+        "neighborhood": "Alfonso lopez fundación esperanza color arcoiris ",
+        "operatingHours": "24 horas ",
+        "organizationName": "",
+        "placeType": "REFUGIO",
+        "priority": "CRITICAL",
+        "requesterType": "OTRO",
+        "resources": [
+          {
+            "description": "Remover escombros",
+            "fulfilledQuantity": 0.0,
+            "id": "res-1786636571391-0",
+            "requestedQuantity": 5.0,
+            "status": "PENDING",
+            "type": "ESCOMBROS",
+            "unit": "unidades"
+          },
+          {
+            "description": "Remover escombros",
+            "fulfilledQuantity": 0.0,
+            "id": "res-1786636571391-1",
+            "requestedQuantity": 5.0,
+            "status": "PENDING",
+            "type": "ESCOMBROS",
+            "unit": "unidades"
+          },
+          {
+            "description": "Remover escombros",
+            "fulfilledQuantity": 0.0,
+            "id": "res-1786636571391-2",
+            "requestedQuantity": 5.0,
+            "status": "PENDING",
+            "type": "ESCOMBROS",
+            "unit": "unidades"
+          }
+        ],
+        "source": "Reporte ciudadano en línea",
+        "status": "NEED_HELP_NOW",
+        "title": "Fundación Alfonso lopez",
+        "updatedAt": "2026-08-13T15:56:11.391Z",
+        "verificationStatus": "PENDING_VERIFICATION"
+      }
+    },
+    {
       "id": "aqui-hace-falta-72c9c2dd40",
       "fuente": "aqui-hace-falta",
       "fuente_url": "https://aqui-hace-falta.web.app/",
@@ -839,7 +1019,7 @@
       "verificado": false,
       "creado": "2026-08-13T10:01:32.561Z",
       "actualizado": "2026-08-13T15:28:25.645Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786615292561.7737,
         "_id": "j57dghzese5r1cj8e50j00ab3d8cc2yk",
@@ -908,7 +1088,7 @@
       "verificado": false,
       "creado": "2026-08-13T10:09:58.5Z",
       "actualizado": "2026-08-13T10:09:58.5Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786615798499.9617,
         "_id": "j574snv0jjedaa6m1dn1dc1qq98cd9ct",
@@ -975,7 +1155,7 @@
       "verificado": false,
       "creado": "2026-08-13T05:35:30.049Z",
       "actualizado": "2026-08-13T05:35:30.049Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786599330049.711,
         "_id": "j570e2tkvncrjznng2h53ydcj18cdx47",
@@ -1040,7 +1220,7 @@
       "verificado": false,
       "creado": "2026-08-13T05:32:55.883Z",
       "actualizado": "2026-08-13T05:32:55.883Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786599175883.4412,
         "_id": "j5773hjqnktykcrzsbn65s5kv18ccs2c",
@@ -1103,7 +1283,7 @@
       "verificado": true,
       "creado": "2026-08-12T23:26:30.826Z",
       "actualizado": "2026-08-13T15:26:08.747Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786577190826.2837,
         "_id": "j5779mxh0t86ep5ky4cef5d6rx8cbsnp",
@@ -1179,7 +1359,7 @@
       "verificado": true,
       "creado": "2026-08-12T23:31:22.496Z",
       "actualizado": "2026-08-13T00:36:24.16Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786577482496.1282,
         "_id": "j57d9f0vv469wt1761p9ye49jd8cag3m",
@@ -1242,7 +1422,7 @@
       "verificado": true,
       "creado": "2026-08-12T03:28:40.837Z",
       "actualizado": "2026-08-13T00:36:03.611Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786505320837.2754,
         "_id": "j576s2qsr6gje26x8qh6nk0q258cbnnh",
@@ -1321,7 +1501,7 @@
       "verificado": true,
       "creado": "2026-08-13T00:09:36.528Z",
       "actualizado": "2026-08-13T00:09:40.2Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786579776528.4773,
         "_id": "j57frzyb6a2nw3m8bg8nry7qw58cdzwb",
@@ -1384,7 +1564,7 @@
       "verificado": true,
       "creado": "2026-08-12T23:31:18.444Z",
       "actualizado": "2026-08-12T23:31:28.338Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786577478444.3972,
         "_id": "j577fmh7fmgcse9vxhjys41ge98cac10",
@@ -1480,7 +1660,7 @@
       "verificado": true,
       "creado": "2026-08-12T23:05:00.45Z",
       "actualizado": "2026-08-12T23:05:12.626Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786575900450.5342,
         "_id": "j57f3g5rn81n37815v3n32bhy98caawz",
@@ -1600,7 +1780,7 @@
       "verificado": true,
       "creado": "2026-08-12T19:58:00.273Z",
       "actualizado": "2026-08-12T20:39:06.267Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786564680273.7483,
         "_id": "j57cekf5vnwmaazdw4e17ygsdx8cacqe",
@@ -1668,7 +1848,7 @@
       "verificado": true,
       "creado": "2026-08-12T19:23:25.075Z",
       "actualizado": "2026-08-12T19:23:29.076Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786562605075.24,
         "_id": "j57cth4vm6tmy8d75frbc5x7zh8cb63h",
@@ -1772,7 +1952,7 @@
       "verificado": true,
       "creado": "2026-08-12T19:18:12.389Z",
       "actualizado": "2026-08-12T19:18:17.014Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786562292389.7358,
         "_id": "j57fy6wra25rhd1kyx2ssd092s8cb6r6",
@@ -1875,7 +2055,7 @@
       "verificado": true,
       "creado": "2026-08-12T05:20:10.543Z",
       "actualizado": "2026-08-12T05:58:55.104Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786512010543.0168,
         "_id": "j57cfste6yrcpy73rne8vnbb318ca0w8",
@@ -1949,7 +2129,7 @@
       "verificado": true,
       "creado": "2026-08-12T02:41:12.848Z",
       "actualizado": "2026-08-12T04:16:44.763Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786502472848.8545,
         "_id": "j573mthvebfphavgnbdmzyb78d8ca7mj",
@@ -2021,7 +2201,7 @@
       "verificado": true,
       "creado": "2026-08-12T03:52:58.412Z",
       "actualizado": "2026-08-12T04:16:35.965Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786506778412.3071,
         "_id": "j578pz455wy3z3mbde4y8p8hyx8caz5b",
@@ -2101,7 +2281,7 @@
       "verificado": true,
       "creado": "2026-08-12T01:03:16.743Z",
       "actualizado": "2026-08-12T01:05:41.917Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786496596743.0527,
         "_id": "j577edt10szejzc7ypq0tdck9n8ca6ea",
@@ -2182,7 +2362,7 @@
       "verificado": true,
       "creado": "2026-08-12T00:42:12.348Z",
       "actualizado": "2026-08-12T00:43:07.348Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786495332348.4417,
         "_id": "j576ws5q3cfenp56a5hd2t1ded8cbapf",
@@ -2284,7 +2464,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:00:39.321Z",
       "actualizado": "2026-08-12T00:19:40.999Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786485639321.4592,
         "_id": "j573zm8htdwyf9x40ha24a866d8c8vhh",
@@ -2387,7 +2567,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:19:27.433Z",
       "actualizado": "2026-08-12T00:19:30.232Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786483167433.216,
         "_id": "j57bg140zev8b90f47zkpa9fjs8c8r8v",
@@ -2470,7 +2650,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:26:46.951Z",
       "actualizado": "2026-08-11T23:49:32.668Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786490806951.425,
         "_id": "j579zg73dtkt2j2zmttwej096s8c8eyn",
@@ -2545,7 +2725,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:25:48.811Z",
       "actualizado": "2026-08-11T23:26:07.192Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786490748810.966,
         "_id": "j57292rbg4jqzqzcnax3pa8mfd8c9x6s",
@@ -2659,7 +2839,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:09:11.638Z",
       "actualizado": "2026-08-11T23:10:37.405Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786489751638.9255,
         "_id": "j576yyhwyxvnxhs075b5cyf6yh8c80s8",
@@ -2737,7 +2917,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:34:58.707Z",
       "actualizado": "2026-08-11T22:37:00.485Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786487698707.1492,
         "_id": "j57145t136945tvcef4c1d0eg18c9qm4",
@@ -2840,7 +3020,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:25:17.923Z",
       "actualizado": "2026-08-11T22:26:24.077Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786487117923.451,
         "_id": "j5778xc1yprt9qzfthx2msyzv18c82yc",
@@ -2934,7 +3114,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:14:23.013Z",
       "actualizado": "2026-08-11T22:14:39.912Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786486463013.8313,
         "_id": "j570wngge6jn3z1e4s98m95kj18c8rej",
@@ -3018,7 +3198,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:50:43.611Z",
       "actualizado": "2026-08-11T21:57:36.561Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786485043611.0762,
         "_id": "j570kbm0s91j3eg6b3at2y48a98c8e4r",
@@ -3107,7 +3287,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:39:45.623Z",
       "actualizado": "2026-08-11T21:45:34.982Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786484385623.0396,
         "_id": "j57c80kwrbpsfqrh4da03nmdxx8c8da5",
@@ -3177,7 +3357,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:42:17.134Z",
       "actualizado": "2026-08-11T21:45:33.905Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786484537134.8933,
         "_id": "j573rm94h2wp60yh0ks1g53cys8c986b",
@@ -3247,7 +3427,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:43:09.558Z",
       "actualizado": "2026-08-11T21:45:33.128Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786484589558.8015,
         "_id": "j570x2qz7fgg8jbk4cjzda4wtd8c9etr",
@@ -3321,7 +3501,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:28:03.209Z",
       "actualizado": "2026-08-11T21:28:10.24Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786483683209.605,
         "_id": "j5717ck0ah0d8g2ya0snxw9bm18c9esa",
@@ -3419,7 +3599,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:22:30.263Z",
       "actualizado": "2026-08-11T21:23:03.227Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786483350263.7568,
         "_id": "j57arjt7xap3n324rk25yxs23h8c8vfw",
@@ -3489,7 +3669,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:20:47.822Z",
       "actualizado": "2026-08-11T21:21:06.873Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786483247822.3757,
         "_id": "j570ztpyhqbwgc6n4k2ksv2ed98c9h5x",
@@ -3561,7 +3741,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:13:07.919Z",
       "actualizado": "2026-08-11T21:13:11.172Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786482787919.281,
         "_id": "j57czex1eetqw8tp1gw2r1dcnh8c82jn",
@@ -3643,7 +3823,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:01:07.759Z",
       "actualizado": "2026-08-11T21:10:31.567Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786482067758.9922,
         "_id": "j57015fjmqspmgnav85a6htrr98c8m4d",
@@ -3725,7 +3905,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:09:38.529Z",
       "actualizado": "2026-08-11T21:09:42.845Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786482578529.6008,
         "_id": "j57drv0wfzn62gdq0vzyf2ge8d8c9r1n",
@@ -3804,7 +3984,7 @@
       "verificado": false,
       "creado": "2026-08-13T10:12:56.846Z",
       "actualizado": "2026-08-13T10:12:56.846Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786615976846.6863,
         "_id": "j57723s6zg6kv9xbtxfc09r41d8ccqgs",
@@ -3884,7 +4064,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:12:57.509Z",
       "actualizado": "2026-08-12T00:44:32.928Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786486377509.5364,
         "_id": "j574x4mrvtgkw9wzmdd3w3qkvx8c82ec",
@@ -4023,7 +4203,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:45:21.7Z",
       "actualizado": "2026-08-12T00:30:12.329Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786484721700.538,
         "_id": "j575ff1n4qdn1cnatfpfgfhcah8c8q2z",
@@ -4095,7 +4275,7 @@
       "verificado": false,
       "creado": "2026-08-13T03:58:09.586Z",
       "actualizado": "2026-08-13T03:58:09.586Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786593489586.1309,
         "_id": "j579sje1w4ss3t0s6neqa46n2x8cdh5j",
@@ -4153,7 +4333,7 @@
       "verificado": false,
       "creado": "2026-08-13T02:30:12.925Z",
       "actualizado": "2026-08-13T02:30:12.925Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786588212925.0796,
         "_id": "j574jp9zf42ryj3hmh1536t18n8cdx7w",
@@ -4212,7 +4392,7 @@
       "verificado": false,
       "creado": "2026-08-12T22:51:21.972Z",
       "actualizado": "2026-08-12T22:51:21.972Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786575081972.5115,
         "_id": "j5746wkxhn1bd4tqp9g775n8x18cag41",
@@ -4276,7 +4456,7 @@
       "verificado": false,
       "creado": "2026-08-12T17:11:25.973Z",
       "actualizado": "2026-08-12T17:11:25.973Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786554685973.0059,
         "_id": "j5757qy457cz83hrhkxk62p8ed8ca98s",
@@ -4348,7 +4528,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:41:27.801Z",
       "actualizado": "2026-08-12T16:41:27.801Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786552887801.1382,
         "_id": "j570rsefdb4fbfntr5x1sxbqp18cahnw",
@@ -4422,7 +4602,7 @@
       "verificado": false,
       "creado": "2026-08-12T15:36:52.771Z",
       "actualizado": "2026-08-12T15:36:52.771Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786549012771.4758,
         "_id": "j57dr878zwqh96qee0753fd6j58cas9y",
@@ -4496,7 +4676,7 @@
       "verificado": false,
       "creado": "2026-08-12T14:29:34.272Z",
       "actualizado": "2026-08-12T14:29:34.272Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786544974272.5803,
         "_id": "j575hev9bw7z8m9x18xs2z5hx18cajw5",
@@ -4566,7 +4746,7 @@
       "verificado": false,
       "creado": "2026-08-12T04:45:31.581Z",
       "actualizado": "2026-08-12T04:45:31.581Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
+      "fecha_corte": "2026-08-13T16:26:56Z",
       "raw": {
         "_creationTime": 1786509931581.0012,
         "_id": "j574dswfw8x765mkcetf905fw18ca0j2",
@@ -4610,74 +4790,6 @@
         "updatedAt": "2026-08-12T04:45:31.581Z",
         "verificationStatus": "PENDING_VERIFICATION"
       }
-    },
-    {
-      "id": "aqui-hace-falta-ac604b0e86",
-      "fuente": "aqui-hace-falta",
-      "fuente_url": "https://aqui-hace-falta.web.app/",
-      "tipo": "necesidad",
-      "nombre": "Calle 5 carrera 44",
-      "descripcion": "Se necesita madera para sostener casas en riesgo.",
-      "departamento": "Valle del Cauca",
-      "municipio": "Cali",
-      "barrio": "San Fernando",
-      "direccion": "Calle 5 carrera 44",
-      "lat": 3.4329452,
-      "lon": -76.5425513,
-      "necesita": [
-        "Herramientas",
-        "Mano de obra",
-        "Voluntarios de apoyo (faltan 10 personas)"
-      ],
-      "estado": "activo",
-      "prioridad": "media",
-      "contacto": "Anon",
-      "verificado": false,
-      "creado": "2026-08-12T00:56:30.422Z",
-      "actualizado": "2026-08-12T00:56:30.422Z",
-      "fecha_corte": "2026-08-13T15:29:46Z",
-      "raw": {
-        "_creationTime": 1786496190422.3894,
-        "_id": "j571xzgbpcvbm0ywtq3mqepeq58cbhbr",
-        "address": "Calle 5 carrera 44",
-        "categories": [
-          "MANO_OBRA",
-          "HERRAMIENTAS"
-        ],
-        "cityId": "cali",
-        "contactEmail": "",
-        "contactName": "Anon",
-        "contactPhone": "",
-        "contactWhatsapp": "",
-        "createdAt": "2026-08-12T00:56:30.422Z",
-        "description": "Se necesita madera para sostener casas en riesgo.",
-        "emergencyId": "terremoto-cali-2026",
-        "isDemoData": false,
-        "latitude": 3.4329452,
-        "longitude": -76.5425513,
-        "neighborhood": "San Fernando",
-        "operatingHours": "",
-        "organizationName": "",
-        "placeType": "COMUNIDAD_AFECTADA",
-        "priority": "MEDIUM",
-        "requesterType": "COMUNIDAD",
-        "resources": [
-          {
-            "description": "Voluntarios de apoyo",
-            "fulfilledQuantity": 0.0,
-            "id": "res-1786496190422-0",
-            "requestedQuantity": 10.0,
-            "status": "PENDING",
-            "type": "MANO_OBRA",
-            "unit": "personas"
-          }
-        ],
-        "source": "Reporte ciudadano en línea",
-        "status": "NEED_HELP_NOW",
-        "title": "Calle 5 carrera 44",
-        "updatedAt": "2026-08-12T00:56:30.422Z",
-        "verificationStatus": "PENDING_VERIFICATION"
-      }
     }
   ],
   "extra": {
@@ -4688,38 +4800,38 @@
     },
     "por_categoria": {
       "AGUA": 20,
-      "ALIMENTOS": 25,
+      "ALIMENTOS": 27,
       "ALOJAMIENTO": 9,
       "ANIMALES": 2,
       "APOYO_PSICOLOGICO": 1,
       "ATENCION_MEDICA": 2,
       "CLASIFICACION_DONACIONES": 2,
       "DINERO": 7,
-      "ESCOMBROS": 16,
+      "ESCOMBROS": 18,
       "HERRAMIENTAS": 14,
-      "LOGISTICA": 10,
-      "MANO_OBRA": 11,
+      "LOGISTICA": 9,
+      "MANO_OBRA": 10,
       "MAQUINARIA": 1,
-      "MEDICAMENTOS": 19,
+      "MEDICAMENTOS": 21,
       "OPERARIOS_MAQUINARIA": 2,
-      "OTRO": 11,
-      "ROPA": 16,
+      "OTRO": 10,
+      "ROPA": 18,
       "TRANSPORTE": 2,
       "VOLUNTARIADO_GENERAL": 13
     },
     "por_place_type": {
       "CENTRO_ACOPIO": 16,
       "CENTRO_DISTRIBUCION": 1,
-      "COMUNIDAD_AFECTADA": 12,
+      "COMUNIDAD_AFECTADA": 11,
       "EDIFICIO_AFECTADO": 20,
       "OTRO": 1,
       "PUNTO_LOGISTICO": 4,
-      "REFUGIO": 1
+      "REFUGIO": 3
     },
     "por_prioridad": {
-      "CRITICAL": 11,
+      "CRITICAL": 13,
       "HIGH": 33,
-      "MEDIUM": 11
+      "MEDIUM": 10
     }
   }
 }
