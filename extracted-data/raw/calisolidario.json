@@ -3,10 +3,113 @@
   "url": "https://calisolidario.triadaaliados.com/",
   "mecanismo": "payload RSC de Next.js embebido en el HTML de /necesidades y /ofertas",
   "ok": true,
-  "duracion": "344.832788ms",
-  "obtenido": "2026-08-13T23:34:35Z",
-  "total": 119,
+  "duracion": "228.275228ms",
+  "obtenido": "2026-08-14T01:20:43Z",
+  "total": 121,
   "puntos": [
+    {
+      "id": "calisolidario-69bf009923",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/72320a70-c448-48b7-98e3-3b6a60cda750",
+      "tipo": "necesidad",
+      "nombre": "Necesito alimentos para 22personas",
+      "descripcion": "Cali valle",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "barrio": "Ciudad de cali mío",
+      "direccion": "Calle 84 4n57",
+      "necesita": [
+        "3 mercados",
+        "Alimentos"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-14T00:27:55.836558Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
+      "raw": {
+        "id": "72320a70-c448-48b7-98e3-3b6a60cda750",
+        "kind": "need",
+        "category": "alimentos",
+        "title": "Necesito alimentos para 22personas",
+        "description": "Cali valle",
+        "quantity_text": "3 mercados",
+        "comuna": null,
+        "barrio": "Ciudad de cali mío",
+        "address": "Calle 84 4n57",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-14T00:27:55.836558+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-ab3cf06374",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/99b2eae6-26ba-4188-a717-2d6c457a61e3",
+      "tipo": "necesidad",
+      "nombre": "Hola. Tengo una situación con el terremo no e podido trabajar,tenun niño con discapacidad",
+      "descripcion": "Mercado y aseo Somos 5 personas 3 adultos 1 abuelita 1 niño con discapacidad",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 8",
+      "barrio": "Atanasio Girardot",
+      "direccion": "Cra 16#33 h17",
+      "necesita": [
+        "1 mercado y 1 aseo",
+        "Alimentos"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-14T00:24:57.688234Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
+      "raw": {
+        "id": "99b2eae6-26ba-4188-a717-2d6c457a61e3",
+        "kind": "need",
+        "category": "alimentos",
+        "title": "Hola.  Tengo una situación con el terremo no e podido trabajar,tenun niño con discapacidad",
+        "description": "Mercado y aseo\r\nSomos 5 personas \r\n3 adultos \r\n1 abuelita\r\n1 niño con discapacidad",
+        "quantity_text": "1 mercado y 1 aseo",
+        "comuna": "Comuna 8",
+        "barrio": "Atanasio Girardot",
+        "address": "Cra 16#33 h17",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-14T00:24:57.688234+00:00"
+      }
+    },
+    {
+      "id": "calisolidario-50047c56ca",
+      "fuente": "calisolidario",
+      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/45a79738-da84-40f2-bcd6-fc1953eb79c0",
+      "tipo": "necesidad",
+      "nombre": "Materiales para mi techo",
+      "descripcion": "Colaboración para ayudar a reparar daño en mi apartamento que fue afectado, 5to piso por fui perjudicada, la dueña temporalmente me permitio pasar los días en el segundo piso del mismo edificio",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "comuna": "Comuna 3",
+      "barrio": "Centenario",
+      "direccion": "Av 4N #9-55",
+      "necesita": [
+        "Albergue"
+      ],
+      "estado": "activo",
+      "verificado": false,
+      "creado": "2026-08-13T23:52:07.15246Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
+      "raw": {
+        "id": "45a79738-da84-40f2-bcd6-fc1953eb79c0",
+        "kind": "need",
+        "category": "albergue",
+        "title": "Materiales para mi techo",
+        "description": "Colaboración para ayudar a reparar daño en mi apartamento que fue afectado, 5to piso por fui perjudicada, la dueña temporalmente me permitio pasar los días en el segundo piso del mismo edificio",
+        "quantity_text": null,
+        "comuna": "Comuna 3",
+        "barrio": "Centenario",
+        "address": "Av 4N #9-55",
+        "status": "open",
+        "warning_count": 0,
+        "created_at": "2026-08-13T23:52:07.15246+00:00"
+      }
+    },
     {
       "id": "calisolidario-c0609d7c22",
       "fuente": "calisolidario",
@@ -26,7 +129,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T23:22:03.651417Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "42608b10-09a6-4ac2-9055-fa9622cbc7b9",
         "kind": "need",
@@ -57,7 +160,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T22:51:40.89908Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "15cf0c67-190e-4854-9be4-8dc9e4c76527",
         "kind": "need",
@@ -92,7 +195,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T22:13:39.167951Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "3d1dee63-ec4a-4bf7-adf5-03870c36694e",
         "kind": "need",
@@ -127,7 +230,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T22:11:06.522862Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "5097cfbe-7112-4033-b2d2-285510a01527",
         "kind": "need",
@@ -162,7 +265,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T21:50:36.22754Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "0efc617b-0ad0-4782-b7a4-17ed0fb38e7d",
         "kind": "need",
@@ -197,7 +300,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:52:07.481915Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "b314ea58-b07d-4a6c-b236-9e2bf3ee8db7",
         "kind": "need",
@@ -228,7 +331,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:46:33.767354Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "fa8dabf3-ce3a-4fbd-94d0-c2fd25f0cf5c",
         "kind": "need",
@@ -258,7 +361,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:42:20.528145Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "ce7a32ab-f200-406a-bb69-37a5c3e6c124",
         "kind": "need",
@@ -292,7 +395,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:25:46.444994Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "f59d7034-d91a-4962-b946-3594e793a526",
         "kind": "need",
@@ -324,7 +427,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:11:18.711024Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "58029daf-25ec-45a8-a06b-18f33461a123",
         "kind": "need",
@@ -359,7 +462,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T19:55:57.767122Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "542e2c69-a0a6-4b05-bd80-b29f5ae54d36",
         "kind": "need",
@@ -394,7 +497,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T19:22:56.95903Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "7d9247f8-03cb-4627-8c82-3e57b689bc65",
         "kind": "need",
@@ -426,7 +529,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T19:16:07.488209Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "5accade4-8a89-4879-8b86-08ac8f7c968f",
         "kind": "need",
@@ -461,7 +564,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T18:23:21.29013Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "0fa67ceb-8473-4588-b917-5d20bfb0cca7",
         "kind": "need",
@@ -495,7 +598,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T18:00:37.087638Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "4b0294b7-2536-49a8-b32a-64fdfe0786c5",
         "kind": "need",
@@ -530,7 +633,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:59:51.775029Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "900904d6-1bc9-4838-920d-ecb0390c4780",
         "kind": "need",
@@ -565,7 +668,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:52:03.409721Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "8328a86e-4995-416d-8f71-c75a3ff5ea73",
         "kind": "need",
@@ -600,7 +703,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:45:05.935785Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "805fb196-aa76-420a-8b4e-494145e9a122",
         "kind": "need",
@@ -632,7 +735,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:43:50.185056Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "972dc6d4-f83d-4904-82f6-d48d115ae1e4",
         "kind": "need",
@@ -664,7 +767,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:02:34.692377Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "d868e5d8-49db-4ec6-8994-d0694cc383b2",
         "kind": "need",
@@ -699,7 +802,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:47:11.385985Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "7089e2ee-046e-4ebc-8bde-51c59b5d9b72",
         "kind": "need",
@@ -733,7 +836,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:44:33.111329Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "dbc1dc87-dfdf-43be-98e7-1cb0c2436ee8",
         "kind": "need",
@@ -768,7 +871,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:38:59.569582Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "1e1f7f37-6d8d-43c4-9948-b90aaf8e64ae",
         "kind": "need",
@@ -803,7 +906,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:38:30.895313Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "3738a456-9a73-4bea-a734-b416e3537a27",
         "kind": "need",
@@ -835,7 +938,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:04:21.396035Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "5779cdc5-1d42-4e84-864d-4bc37cba3403",
         "kind": "need",
@@ -870,7 +973,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:56:51.856866Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "c510407f-895f-4bad-9e9a-cf58af0491ee",
         "kind": "need",
@@ -902,7 +1005,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:56:09.717105Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "9894a5d4-b91f-4cba-8f61-eebcc63b5804",
         "kind": "need",
@@ -936,7 +1039,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:51:41.037389Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "00c03ee6-0493-4871-9559-32320c0e3c28",
         "kind": "need",
@@ -970,7 +1073,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:50:11.555301Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "d0a8f164-2621-4807-b7a8-35b1a388acf3",
         "kind": "need",
@@ -1002,7 +1105,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:42:53.304675Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "afedadd7-1941-4f6b-aeb3-a7127d7401ed",
         "kind": "need",
@@ -1034,7 +1137,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:34:21.306164Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "7236162c-03b7-43ab-8733-e22503a6c205",
         "kind": "need",
@@ -1069,7 +1172,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:04:01.777901Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "70e50e58-6ded-4f47-83ea-dfd31b2093f4",
         "kind": "need",
@@ -1103,7 +1206,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:02:57.214438Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "0338db34-0ec7-40cf-b4c5-cee31a78d602",
         "kind": "need",
@@ -1138,7 +1241,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:52:38.519256Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "d8b68cdf-829f-414b-9304-eaa1b78f9e68",
         "kind": "need",
@@ -1172,7 +1275,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:40:40.994941Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "15d43ae0-9e9c-441d-a19e-f15f2c637cda",
         "kind": "need",
@@ -1206,7 +1309,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:32:35.634701Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "7dfa131e-98c2-4416-a101-fa5b7366c262",
         "kind": "need",
@@ -1241,7 +1344,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:18:12.673612Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "54a15467-f15b-4974-a7a4-ed16bcac2a30",
         "kind": "need",
@@ -1276,7 +1379,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:14:26.282743Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "c39051da-36d7-4beb-9703-090d0a19ec5d",
         "kind": "need",
@@ -1311,7 +1414,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:00:22.641538Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "6cd8096b-641d-4882-bf47-1543ecd0850c",
         "kind": "need",
@@ -1345,7 +1448,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:41:22.775128Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "8aab4b33-1ddc-4218-9ece-48e5072ccbb5",
         "kind": "need",
@@ -1380,7 +1483,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:30:55.598544Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "983c7ceb-d1e2-4466-a580-a9d636a59ede",
         "kind": "need",
@@ -1413,7 +1516,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:24:27.3573Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "d4a8b0f2-5b67-44fa-bc07-c5e0179d9286",
         "kind": "need",
@@ -1447,7 +1550,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:04:49.314434Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "2d2a78c7-eecb-4260-a313-85134cf97d9c",
         "kind": "need",
@@ -1481,7 +1584,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:02:22.139555Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "a9c3d6e7-0f7b-43f4-bff0-887f4caf9f4b",
         "kind": "need",
@@ -1516,7 +1619,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T12:35:24.560326Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "aac9f6b4-3581-4b0f-9403-1cbf39e24609",
         "kind": "need",
@@ -1551,7 +1654,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T12:02:22.948584Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "fc652186-25dc-487c-b69d-c88aef21acee",
         "kind": "need",
@@ -1586,7 +1689,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T11:59:19.773579Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "9bf4b2de-93bf-4eab-9af8-bfe702ba268a",
         "kind": "need",
@@ -1620,7 +1723,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T11:51:17.985936Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "061b813b-a05d-4ca3-b86c-25bddde84087",
         "kind": "need",
@@ -1654,7 +1757,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T11:40:44.526917Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "09bb3e28-39c5-4414-a45f-39dd9fdd7337",
         "kind": "need",
@@ -1685,7 +1788,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T10:25:48.389321Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "b67b8b34-7533-42d1-9543-753344bd5e47",
         "kind": "need",
@@ -1717,7 +1820,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T09:41:52.529295Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "540cdcf2-0fec-4c3e-8fa4-bdb81786ebdf",
         "kind": "need",
@@ -1751,7 +1854,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T06:32:47.464107Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "d5ecf39b-6e73-460a-a60c-2525c906bca2",
         "kind": "need",
@@ -1785,7 +1888,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T03:09:54.007892Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "91f49938-84ea-4449-9217-4acc830f9287",
         "kind": "need",
@@ -1815,7 +1918,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T03:08:56.636228Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "901cecf5-6742-4309-8ee8-2185158e200c",
         "kind": "need",
@@ -1849,7 +1952,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T02:42:39.048398Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "bb034282-b43d-4f77-8137-5ecd5febcef7",
         "kind": "need",
@@ -1883,7 +1986,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T02:25:58.551772Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "7006889e-07e9-46fb-928d-daf43a3d5e5e",
         "kind": "need",
@@ -1915,7 +2018,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:55:17.569774Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "f1a14e5e-cc16-4cba-96ca-eea0d6968315",
         "kind": "need",
@@ -1949,7 +2052,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:47:56.659194Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "a77df0ae-ef3a-4314-b737-d7753626b6bc",
         "kind": "need",
@@ -1980,7 +2083,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:45:06.721356Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "7f186a26-e4a4-42fd-bde2-ec45ed51e81e",
         "kind": "need",
@@ -2014,7 +2117,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:05:32.641867Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "6de60f16-77ec-432f-a865-0dc3cfff2d48",
         "kind": "need",
@@ -2049,7 +2152,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T00:28:32.024024Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "4da057da-ee51-4504-9b33-96ccdac93d8d",
         "kind": "need",
@@ -2084,7 +2187,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T00:10:51.8511Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "c89e0732-818b-4358-99c6-0604fd6060d7",
         "kind": "need",
@@ -2118,7 +2221,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:31:47.780127Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "fc4b82a9-32e7-4ac2-8ecc-8380a8bda19f",
         "kind": "need",
@@ -2152,7 +2255,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:24:34.918475Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "5e2303c9-ed8d-44e4-8122-a17424b3a951",
         "kind": "need",
@@ -2187,7 +2290,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:23:07.473486Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "451fd232-7a36-4ddb-9434-4c3e4851ca3a",
         "kind": "need",
@@ -2221,7 +2324,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:02:24.257878Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "745189c0-5d52-426c-973e-1f1d8fd1733d",
         "kind": "need",
@@ -2256,7 +2359,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T22:53:07.514902Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "46ef2e83-2fc9-4d15-ab89-547cf213ebcb",
         "kind": "need",
@@ -2287,7 +2390,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:58:44.882529Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "c68f004b-681d-498d-b7a2-182496cdd9ca",
         "kind": "need",
@@ -2319,7 +2422,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:32:36.730743Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "abf90f71-3ab3-4aa4-b6b4-33cbb6b986a0",
         "kind": "need",
@@ -2354,7 +2457,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:05:55.901757Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "50f3eacf-ff13-45a1-8aa6-e87dddcfc4a8",
         "kind": "need",
@@ -2388,7 +2491,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:59:06.00741Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "60ceceb1-0888-4f04-82ff-e2fc1acfc2f5",
         "kind": "need",
@@ -2419,7 +2522,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:08:09.869624Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "f4a26b11-5eb3-4626-8bba-df59264b8955",
         "kind": "need",
@@ -2452,7 +2555,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T17:28:07.995326Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "022b3e7a-9438-4301-a3c4-5ab3f057050d",
         "kind": "need",
@@ -2483,7 +2586,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T17:12:59.847654Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "70c794b0-cbe1-4778-b3a1-3db47d3085f9",
         "kind": "need",
@@ -2518,7 +2621,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:54:01.931448Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "5d694fbd-29b6-4d63-876b-201b1f0a1540",
         "kind": "need",
@@ -2548,7 +2651,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:23:43.229178Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "decf9493-337a-47ee-b393-085c476ee48c",
         "kind": "need",
@@ -2581,7 +2684,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:05:28.11574Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "4779ada2-36b8-4d86-826e-83788f9d8983",
         "kind": "need",
@@ -2616,7 +2719,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:31:16.524558Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "578507a6-6d89-4647-9e93-5a5c7d1a8dab",
         "kind": "need",
@@ -2648,7 +2751,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:52:26.626756Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "8d8b464a-d4a5-49c3-be94-f8e9b8bb4128",
         "kind": "need",
@@ -2680,7 +2783,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:27:46.75875Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "33a797aa-bd5e-458e-9356-361beb9b0938",
         "kind": "need",
@@ -2712,7 +2815,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:33:10.20949Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "d2c5a6da-d072-4038-9ed2-66d6374d13c7",
         "kind": "need",
@@ -2745,7 +2848,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:02:01.576285Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "8b8d6d83-9b28-4c5c-8350-f5f17c4a5b47",
         "kind": "need",
@@ -2780,7 +2883,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:56:13.717984Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "cfc0757d-1069-46bb-89fb-35e6024f0c8d",
         "kind": "need",
@@ -2812,7 +2915,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:48:46.810986Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "211bf2f0-e2b7-405c-ae0a-a045766bb59c",
         "kind": "need",
@@ -2844,7 +2947,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:16:00.597913Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "5e0cf83b-0bdc-47bf-9967-25ce43aba8c5",
         "kind": "need",
@@ -2878,7 +2981,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:13:31.985345Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "d58914a5-a3c1-43f6-a280-42fbcca70ca9",
         "kind": "offer",
@@ -2910,7 +3013,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:03:31.97957Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "4903abd4-7b6d-4f88-85ed-9b1f07f0be86",
         "kind": "offer",
@@ -2941,7 +3044,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:55:35.415346Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "a00239b2-7698-476f-b384-bf57d3c32366",
         "kind": "offer",
@@ -2974,7 +3077,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:07:13.093865Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "0912be41-0217-4e74-8476-f0fee36f49c8",
         "kind": "offer",
@@ -3004,7 +3107,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:33:34.867849Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "f40baf50-2a2f-4383-b2f9-1eafa5df52a1",
         "kind": "offer",
@@ -3037,7 +3140,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:42:46.437505Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "434b984e-4560-424c-8258-994c83c9b348",
         "kind": "offer",
@@ -3069,7 +3172,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:35:21.894799Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "8a2cd4fe-d432-4ad8-930e-b782ea4626c7",
         "kind": "offer",
@@ -3103,7 +3206,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:18:12.999355Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "611571c3-238c-4ea3-b4dc-4e4390241e30",
         "kind": "offer",
@@ -3136,7 +3239,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:19:29.678646Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "d7703a44-025b-4975-a6e8-905671b0ce6b",
         "kind": "offer",
@@ -3169,7 +3272,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T15:55:12.982692Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "ce37c9fc-46d4-4b8e-9000-ac4919cabf6f",
         "kind": "offer",
@@ -3200,7 +3303,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:43:19.3229Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "73aaa4ed-aeeb-4fd9-9fb0-ec4082b1ca97",
         "kind": "offer",
@@ -3232,7 +3335,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:19:29.613673Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "84521cee-78ca-464d-8d19-856bac6eb088",
         "kind": "offer",
@@ -3265,7 +3368,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:42:51.042339Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "1137105b-e902-499a-9bc9-83d74aa03d03",
         "kind": "offer",
@@ -3300,7 +3403,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:29:52.814157Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "fdc304f5-7ef0-4840-9994-5539cc151ff7",
         "kind": "offer",
@@ -3331,7 +3434,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:11:47.6773Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "9070058c-7fd6-4ad4-8156-df8f9bb24d59",
         "kind": "offer",
@@ -3366,7 +3469,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:36:47.514607Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "d573ad61-da91-48d4-9361-4de5e142e2a6",
         "kind": "offer",
@@ -3397,7 +3500,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T23:58:49.394335Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "3ee04dff-179e-4ba0-9020-9990b2572d33",
         "kind": "offer",
@@ -3431,7 +3534,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T23:06:03.945603Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "46ed2906-e479-449d-97ff-d56029e523d0",
         "kind": "offer",
@@ -3462,7 +3565,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:37:04.74991Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "fe2944ff-83c3-47be-a251-5552302b9934",
         "kind": "offer",
@@ -3497,7 +3600,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:36:57.027041Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "366ed70c-d2a7-4ca2-bd59-7a508fa6a69b",
         "kind": "offer",
@@ -3528,7 +3631,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:22:33.46354Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "ec41aecc-6945-482b-994d-aba129c6ab06",
         "kind": "offer",
@@ -3562,7 +3665,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:16:38.568824Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "7f776f3d-17fc-41b1-8f0f-f15ee04fda7d",
         "kind": "offer",
@@ -3594,7 +3697,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:13:38.952643Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "19bb1478-2aad-4746-ba6c-8c7160e8cfca",
         "kind": "offer",
@@ -3625,7 +3728,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:10:44.147263Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "3a6f188d-4419-4360-b509-b00501ad0940",
         "kind": "offer",
@@ -3659,7 +3762,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T21:59:05.44064Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "d760a276-8046-4938-bf7d-8818da60b6e2",
         "kind": "offer",
@@ -3694,7 +3797,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T21:30:25.368079Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "55933e50-4395-470c-9f3e-7dd0624d6cef",
         "kind": "offer",
@@ -3725,7 +3828,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:59:12.669924Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "c581d156-a48d-440e-8cfa-5d376dba86e9",
         "kind": "offer",
@@ -3755,7 +3858,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:24:10.634675Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "329dc371-fa63-41c3-b57f-7c8e40f08d56",
         "kind": "offer",
@@ -3790,7 +3893,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:22:53.036753Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "19b8e609-ab1e-435b-91e3-b53fbe3b75b2",
         "kind": "offer",
@@ -3822,7 +3925,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:12:50.860658Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "5ba8f35a-651a-4b80-b983-a50757464de5",
         "kind": "offer",
@@ -3854,7 +3957,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:24:04.751065Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "933201d7-1ebc-4592-bccb-aae1a5f480d0",
         "kind": "offer",
@@ -3885,7 +3988,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T18:13:49.277087Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "f6ee27e4-57aa-4210-af3d-06028e3f82b0",
         "kind": "offer",
@@ -3918,7 +4021,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:31:08.835075Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
+      "fecha_corte": "2026-08-14T01:20:43Z",
       "raw": {
         "id": "8b1472bd-3be7-4742-9739-757c1201ba08",
         "kind": "offer",
@@ -3933,51 +4036,17 @@
         "warning_count": 0,
         "created_at": "2026-08-11T17:31:08.835075+00:00"
       }
-    },
-    {
-      "id": "calisolidario-7adeccf400",
-      "fuente": "calisolidario",
-      "fuente_url": "https://calisolidario.triadaaliados.com/aviso/e7aac81c-b383-4cf7-9a1c-834ae0a71683",
-      "tipo": "oferta",
-      "nombre": "Equipo De trabajo",
-      "descripcion": "Somos un equipo de trabajo de la zona sur de Cali, estamos dispuestos a ayudar con lo que haga falta, cualquier cosa porfavor nos llaman",
-      "departamento": "Valle del Cauca",
-      "municipio": "Cali",
-      "barrio": "Valle del Lili",
-      "direccion": "Jardín Plaza",
-      "ofrece": [
-        "10 Personas",
-        "Mano de obra"
-      ],
-      "estado": "activo",
-      "verificado": false,
-      "creado": "2026-08-11T16:09:16.782252Z",
-      "fecha_corte": "2026-08-13T23:34:34Z",
-      "raw": {
-        "id": "e7aac81c-b383-4cf7-9a1c-834ae0a71683",
-        "kind": "offer",
-        "category": "mano_de_obra",
-        "title": "Equipo De trabajo",
-        "description": "Somos un equipo de trabajo de la zona sur de Cali, estamos dispuestos a ayudar con lo que haga falta, cualquier cosa porfavor nos llaman",
-        "quantity_text": "10 Personas",
-        "comuna": null,
-        "barrio": "Valle del Lili",
-        "address": "Jardín Plaza",
-        "status": "open",
-        "warning_count": 0,
-        "created_at": "2026-08-11T16:09:16.782252+00:00"
-      }
     }
   ],
   "extra": {
     "por_categoria": {
       "agua": 3,
-      "albergue": 8,
-      "alimentos": 16,
+      "albergue": 9,
+      "alimentos": 18,
       "aseo": 2,
       "cobijas_colchones": 7,
       "herramientas": 6,
-      "mano_de_obra": 16,
+      "mano_de_obra": 15,
       "medicamentos": 3,
       "otro": 45,
       "panales": 1,
@@ -3986,12 +4055,12 @@
       "transporte": 4
     },
     "por_kind": {
-      "need": 85,
-      "offer": 34
+      "need": 88,
+      "offer": 33
     },
     "por_pagina": {
-      "https://calisolidario.triadaaliados.com/necesidades": 85,
-      "https://calisolidario.triadaaliados.com/ofertas": 34
+      "https://calisolidario.triadaaliados.com/necesidades": 88,
+      "https://calisolidario.triadaaliados.com/ofertas": 33
     }
   }
 }
