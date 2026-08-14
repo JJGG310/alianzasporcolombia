@@ -4,8 +4,8 @@
   "mecanismo": "página informativa estática (sin dataset; no hace peticiones de datos)",
   "ok": true,
   "nota": "sin dataset estructurado; se conserva como fuente informativa/editorial",
-  "duracion": "538.306865ms",
-  "obtenido": "2026-08-14T20:54:41Z",
+  "duracion": "708.797933ms",
+  "obtenido": "2026-08-14T21:19:36Z",
   "total": 1,
   "puntos": [
     {
@@ -18,7 +18,7 @@
       "departamento": "Chocó",
       "estado": "activo",
       "verificado": false,
-      "fecha_corte": "2026-08-14T20:54:41Z",
+      "fecha_corte": "2026-08-14T21:19:36Z",
       "raw": {
         "texto": "Emergencia activa Todavía estamos en la ventana de vida Probabilidad de rescatar con vida a personas atrapadas bajo los escombros Sismo de magnitud 7.4 el 10 de agosto de 2026, 7:34 a.m. (hora de Colombia), con epicentro en San José del Palmar, Chocó. ¿Qué es la ventana de vida? Es el periodo de las primeras 48 a 72 horas después de un terremoto. Durante ese tiempo, la mayoría de las personas atrapadas bajo los escombros todavía pueden ser rescatadas con vida. Pasadas esas horas, la deshidratación, el frío, las heridas sin atender y la falta de aire hacen que las probabilidades de supervivencia caigan de forma muy pronunciada. Por eso cada minuto de búsqueda organizada cuenta más que el anterior. No es una sentencia: se han registrado rescates después de las 72 horas. Pero mientras el reloj sigue corriendo, la mejor ayuda es la que permite que los equipos trabajen rápido y sin obstáculos. Cómo ayudar de forma responsable Reporta información verificada a los organismos oficiales: Cruz Roja Colombiana, UNGRD y Bomberos. Evita difundir rumores, audios o cadenas sin confirmar: la desinformación retrasa los rescates. Mantén despejadas las vías de acceso a las zonas afectadas para que pasen las máquinas y ambulancias. No satures las líneas de emergencia: úsalas solo si tienes una emergencia real o información útil. Canaliza cualquier ayuda a través de entidades oficiales. Esta página no recibe dinero ni datos personales. Líneas de atención de emergencia — y cuándo llamar a cada una ☎ 119 Bomberos ¿Ves a alguien bajo los escombros o hay fuego cerca? ☎ 132 Cruz Roja ¿Alguien está herido y necesita ayuda médica ahora? ☎ 144 Defensa Civil ¿Necesitas que te ayuden a buscar, rescatar o encontrar refugio? ☎ 112 Policía Nacional ¿Sientes que la zona no es segura o las vías están cerradas? ☎ 123 Línea Única ¿No estás seguro a quién llamar? Ellos te orientan. ABACO — el canal oficial para donar alimentos La Asociación de Bancos de Alimentos de Colombia (ABACO) es la entidad autorizada para recepcionar y enviar toneladas de alimentos desde distintos lugares del país hacia las zonas afectadas por el terremoto. Si quieres donar alimentos, este es el canal verificado — evita intermediarios no oficiales. Donar a través de ABACO Si el enlace no carga, ingresa a abaco.org.co . Fuentes oficiales Consulta siempre la información en los canales institucionales. UNGRD Gestión del Riesgo de Desastres → Cruz Roja Colombiana Atención humanitaria → Servicio Geológico Colombiano Datos sísmicos oficiales → Esta página es informativa y puede actualizarse a medida que avanza la emergencia. Verifica siempre los datos con fuentes oficiales. No solicitamos donaciones, voluntarios ni datos personales. Hora de referencia: Colombia (COT, UTC−5). Contador calculado desde el 10 de agosto de 2026, 7:34 a.m. Edit with",
         "titulo": "Ventana de Vida — 72 horas tras el sismo 7.4 en Chocó"
