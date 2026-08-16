@@ -3,10 +3,231 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "845.387209ms",
-  "obtenido": "2026-08-16T03:26:03Z",
-  "total": 393,
+  "duracion": "767.042499ms",
+  "obtenido": "2026-08-16T04:07:34Z",
+  "total": 385,
   "puntos": [
+    {
+      "id": "mapa-emergencia-aaf04b9e16",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=tditxxjx29cf",
+      "tipo": "rescate",
+      "nombre": "Puente aranda",
+      "direccion": "Puente aranda",
+      "lat": 4.6344035,
+      "lon": -74.1083568,
+      "estado": "por-confirmar",
+      "prioridad": "alta",
+      "voluntarios_hay": 1,
+      "voluntarios_faltan": 1,
+      "verificado": false,
+      "creado": "2026-08-15T17:28:44.865Z",
+      "actualizado": "2026-08-16T04:03:12.18Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
+      "raw": {
+        "id": "tditxxjx29cf",
+        "nombre": "Puente aranda",
+        "tipo": "rescate",
+        "lat": 4.6344035,
+        "lng": -74.1083568,
+        "direccion": "Puente aranda",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [],
+        "voluntarios_hay": 1,
+        "voluntarios_faltan": 1,
+        "contacto": "",
+        "notas": "",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "",
+        "creado": 1786814924865,
+        "actualizado": 1786852992180,
+        "confirmado": 1786814924865,
+        "ubicado": true,
+        "fresco": false,
+        "saturacion": "faltan",
+        "confirma": 0,
+        "desmiente": 0,
+        "media": [],
+        "media_total": 0
+      }
+    },
+    {
+      "id": "mapa-emergencia-464f9eef2f",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=b78c5mdnjxbp",
+      "tipo": "rescate",
+      "nombre": "Carrera 6A #116-17",
+      "direccion": "Carrera 6A #116-17",
+      "lat": 4.693722859530194,
+      "lon": -74.0320122241974,
+      "estado": "urgente",
+      "prioridad": "critica",
+      "voluntarios_hay": 53,
+      "voluntarios_faltan": 3,
+      "organizacion": "Diego Bula Salamanca - 3138159504",
+      "verificado": false,
+      "confirmaciones": 6,
+      "desmentidos": 1,
+      "creado": "2026-08-15T02:51:21.053Z",
+      "actualizado": "2026-08-16T03:54:09.543Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
+      "raw": {
+        "id": "b78c5mdnjxbp",
+        "nombre": "Carrera 6A #116-17",
+        "tipo": "rescate",
+        "lat": 4.693722859530194,
+        "lng": -74.0320122241974,
+        "direccion": "Carrera 6A #116-17",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [],
+        "voluntarios_hay": 53,
+        "voluntarios_faltan": 3,
+        "contacto": "",
+        "notas": "",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "Diego Bula Salamanca - 3138159504",
+        "creado": 1786762281053,
+        "actualizado": 1786852449543,
+        "confirmado": 1786850307414,
+        "ubicado": true,
+        "fresco": true,
+        "saturacion": "faltan",
+        "confirma": 6,
+        "desmiente": 1,
+        "media": [],
+        "media_total": 0
+      }
+    },
+    {
+      "id": "mapa-emergencia-fc471046b9",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=8sqjr5kyxncd",
+      "tipo": "acopio",
+      "nombre": "Estadio el campin",
+      "descripcion": "Avena azúcar sal almohadas carpas sábanas cobijas desodorantes, jabón y shampoo es sobre no en pote",
+      "direccion": "Estadio el campin",
+      "lat": 4.6459495,
+      "lon": -74.0776054,
+      "necesita": [
+        "Almohadas",
+        "Avena azúcar sal almohadas carpas sábanas cobijas desodorantes",
+        "Azúcar",
+        "Café",
+        "Canela",
+        "Chocolate",
+        "Crema dental",
+        "Sábanas",
+        "jabón y shampoo es sobre no en pote"
+      ],
+      "estado": "activo",
+      "prioridad": "alta",
+      "voluntarios_hay": 47,
+      "voluntarios_faltan": 8,
+      "verificado": false,
+      "confirmaciones": 1,
+      "creado": "2026-08-13T17:03:20.289Z",
+      "actualizado": "2026-08-16T03:43:33.623Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
+      "raw": {
+        "id": "8sqjr5kyxncd",
+        "nombre": "Estadio el campin",
+        "tipo": "acopio",
+        "lat": 4.6459495,
+        "lng": -74.0776054,
+        "direccion": "Estadio el campin",
+        "barrio": "",
+        "estado": "necesita",
+        "necesidades": [
+          "Café",
+          "Chocolate",
+          "Azúcar",
+          "Canela",
+          "Crema dental",
+          "Sábanas",
+          "Almohadas",
+          "Avena azúcar sal almohadas carpas sábanas cobijas   desodorantes",
+          "jabón y shampoo es sobre no en pote"
+        ],
+        "voluntarios_hay": 47,
+        "voluntarios_faltan": 8,
+        "contacto": "",
+        "notas": "Avena azúcar sal almohadas carpas sábanas cobijas \n\ndesodorantes, jabón y shampoo es sobre no en pote",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "",
+        "creado": 1786640600289,
+        "actualizado": 1786851813623,
+        "confirmado": 1786830510678,
+        "ubicado": true,
+        "fresco": false,
+        "saturacion": "faltan",
+        "confirma": 1,
+        "desmiente": 0,
+        "media": [],
+        "media_total": 0
+      }
+    },
+    {
+      "id": "mapa-emergencia-2c9328dffd",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=utp4468eiazr",
+      "tipo": "albergue",
+      "nombre": "Casa Esther",
+      "direccion": "Casa Esther - Fundación",
+      "lat": 6.105202903960215,
+      "lon": -75.64020395278932,
+      "estado": "por-confirmar",
+      "prioridad": "alta",
+      "voluntarios_hay": 100,
+      "contacto": "3044730447, 3142695802",
+      "organizacion": "Casa Esther - Fundación",
+      "verificado": false,
+      "creado": "2026-08-15T14:26:11.459Z",
+      "actualizado": "2026-08-16T03:32:40.153Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
+      "raw": {
+        "id": "utp4468eiazr",
+        "nombre": "Casa Esther",
+        "tipo": "albergue",
+        "lat": 6.105202903960215,
+        "lng": -75.64020395278932,
+        "direccion": "Casa Esther - Fundación",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [],
+        "voluntarios_hay": 100,
+        "voluntarios_faltan": 0,
+        "contacto": "3044730447, 3142695802",
+        "notas": "",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "Casa Esther - Fundación",
+        "creado": 1786803971459,
+        "actualizado": 1786851160153,
+        "confirmado": 1786804007817,
+        "ubicado": true,
+        "fresco": false,
+        "saturacion": "exceso",
+        "confirma": 0,
+        "desmiente": 0,
+        "media": [],
+        "media_total": 0
+      }
+    },
     {
       "id": "mapa-emergencia-9ca624f570",
       "fuente": "mapa-emergencia",
@@ -42,9 +263,10 @@
       "prioridad": "critica",
       "organizacion": "WhatsApp 3151751861",
       "verificado": false,
+      "confirmaciones": 1,
       "creado": "2026-08-16T03:24:24.439Z",
       "actualizado": "2026-08-16T03:24:24.439Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "biuxmmzkdjm8",
         "nombre": "Cda Los Bucaros",
@@ -86,11 +308,11 @@
         "autor": "WhatsApp 3151751861",
         "creado": 1786850664439,
         "actualizado": 1786850664439,
-        "confirmado": 1786850664439,
+        "confirmado": 1786853090548,
         "ubicado": true,
         "fresco": true,
         "saturacion": "sin_dato",
-        "confirma": 0,
+        "confirma": 1,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -117,7 +339,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-16T03:20:29.994Z",
       "actualizado": "2026-08-16T03:21:05.065Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "rhwssn9ku8tt",
         "nombre": "Complex ditaires",
@@ -188,7 +410,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:20:05.869Z",
       "actualizado": "2026-08-16T03:20:05.869Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "sjfmcbzzqa87",
         "nombre": "Cda La Aguacatala",
@@ -281,7 +503,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-16T01:44:16.773Z",
       "actualizado": "2026-08-16T03:19:42.825Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "kr6wu2dedvgu",
         "nombre": "Carrera 72 j bis",
@@ -363,7 +585,7 @@
       "verificado": false,
       "creado": "2026-08-12T21:13:36.92Z",
       "actualizado": "2026-08-16T03:19:36.163Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "8hx7hbggadip",
         "nombre": "Calle 84 1a1-258 Ramali",
@@ -457,7 +679,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:16:05.059Z",
       "actualizado": "2026-08-16T03:17:44.029Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "hv6asck9mfyt",
         "nombre": "CDA AUTOSUR Calle 8B 65-295 detrás de la terminal del sur",
@@ -529,7 +751,7 @@
       "desmentidos": 4,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-16T03:09:42.273Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "hw9w7cj26vwh",
         "nombre": "Campin, Bogotá",
@@ -631,7 +853,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:09:33.023Z",
       "actualizado": "2026-08-16T03:09:33.023Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "qhbr5aja3wdf",
         "nombre": "Calle 8b 65 -295 medellin",
@@ -716,7 +938,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-12T19:31:55.848Z",
       "actualizado": "2026-08-16T03:09:21.239Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "gbunmyn2xzq3",
         "nombre": "Districhocolo",
@@ -783,7 +1005,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:15:53.728Z",
       "actualizado": "2026-08-16T02:58:42.085Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -841,7 +1063,7 @@
       "confirmaciones": 3,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-16T02:56:47.185Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "knp859rnx2cb",
         "nombre": "Centro comercial parque La Colina Bogota",
@@ -890,7 +1112,7 @@
       "verificado": false,
       "creado": "2026-08-16T02:52:43.443Z",
       "actualizado": "2026-08-16T02:52:43.443Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "mrj5fy9npbp3",
         "nombre": "Génova",
@@ -943,7 +1165,7 @@
       "verificado": false,
       "creado": "2026-08-16T02:32:50.425Z",
       "actualizado": "2026-08-16T02:32:50.425Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "u3y6tvscmwyb",
         "nombre": "Morelia roldanillo valle del cauca",
@@ -1002,7 +1224,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-14T23:06:08.054Z",
       "actualizado": "2026-08-16T02:26:12.988Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "6d2rrk6jg9g4",
         "nombre": "Carrera 56 # 13C-29",
@@ -1041,76 +1263,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-fc471046b9",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=8sqjr5kyxncd",
-      "tipo": "acopio",
-      "nombre": "Estadio el campin",
-      "descripcion": "Avena azúcar sal almohadas carpas sábanas cobijas desodorantes, jabón y shampoo es sobre no en pote",
-      "direccion": "Estadio el campin",
-      "lat": 4.6459495,
-      "lon": -74.0776054,
-      "necesita": [
-        "Almohadas",
-        "Avena azúcar sal almohadas carpas sábanas cobijas desodorantes",
-        "Azúcar",
-        "Café",
-        "Canela",
-        "Chocolate",
-        "Crema dental",
-        "Sábanas",
-        "jabón y shampoo es sobre no en pote"
-      ],
-      "estado": "activo",
-      "prioridad": "alta",
-      "voluntarios_hay": 47,
-      "voluntarios_faltan": 21,
-      "verificado": false,
-      "confirmaciones": 1,
-      "creado": "2026-08-13T17:03:20.289Z",
-      "actualizado": "2026-08-16T02:24:42.843Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
-      "raw": {
-        "id": "8sqjr5kyxncd",
-        "nombre": "Estadio el campin",
-        "tipo": "acopio",
-        "lat": 4.6459495,
-        "lng": -74.0776054,
-        "direccion": "Estadio el campin",
-        "barrio": "",
-        "estado": "necesita",
-        "necesidades": [
-          "Café",
-          "Chocolate",
-          "Azúcar",
-          "Canela",
-          "Crema dental",
-          "Sábanas",
-          "Almohadas",
-          "Avena azúcar sal almohadas carpas sábanas cobijas   desodorantes",
-          "jabón y shampoo es sobre no en pote"
-        ],
-        "voluntarios_hay": 47,
-        "voluntarios_faltan": 21,
-        "contacto": "",
-        "notas": "Avena azúcar sal almohadas carpas sábanas cobijas \n\ndesodorantes, jabón y shampoo es sobre no en pote",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786640600289,
-        "actualizado": 1786847082843,
-        "confirmado": 1786830510678,
-        "ubicado": true,
-        "fresco": true,
-        "saturacion": "faltan",
-        "confirma": 1,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-d8295e3b94",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=rdaf3j2f3wxd",
@@ -1125,7 +1277,7 @@
       "verificado": false,
       "creado": "2026-08-16T01:47:04.089Z",
       "actualizado": "2026-08-16T02:11:07.807Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "rdaf3j2f3wxd",
         "nombre": "Chiminangos 1 cancha mara",
@@ -1175,7 +1327,7 @@
       "verificado": false,
       "creado": "2026-08-14T21:15:02.734Z",
       "actualizado": "2026-08-16T02:04:35.145Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1230,7 +1382,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-16T01:27:55.235Z",
       "actualizado": "2026-08-16T01:29:04.715Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "2h8qw9c3emr3",
         "nombre": "Bogotá",
@@ -1294,7 +1446,7 @@
       "verificado": false,
       "creado": "2026-08-14T21:03:43.455Z",
       "actualizado": "2026-08-16T01:19:46.176Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1358,11 +1510,11 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "confirmaciones": 19,
+      "confirmaciones": 16,
       "desmentidos": 6,
       "creado": "2026-08-13T00:09:40.917Z",
       "actualizado": "2026-08-16T01:13:06.024Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "7ge5s5kg5ist",
         "nombre": "Carrera62#70b-16",
@@ -1389,7 +1541,7 @@
         "ubicado": true,
         "fresco": true,
         "saturacion": "sin_dato",
-        "confirma": 19,
+        "confirma": 16,
         "desmiente": 6,
         "media": [],
         "media_total": 0
@@ -1426,7 +1578,7 @@
       "confirmaciones": 11,
       "creado": "2026-08-15T18:21:37.922Z",
       "actualizado": "2026-08-16T01:03:04.771Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "sdznvek56naf",
         "nombre": "Cra 60 A #4",
@@ -1498,124 +1650,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-07c06543db",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=bqrbm8b9t628",
-      "tipo": "rescate",
-      "nombre": "Carrera 94B 1, 2-10",
-      "descripcion": "Se necesitan implementado de aseo",
-      "direccion": "Carrera 94B 1, 2-10",
-      "lat": 3.3752132,
-      "lon": -76.5511572,
-      "necesita": [
-        "Agua",
-        "Botiquín",
-        "Carpas",
-        "Colchonetas",
-        "Comida",
-        "Comida para animales",
-        "Pañales"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_hay": 6,
-      "voluntarios_faltan": 9,
-      "verificado": false,
-      "creado": "2026-08-12T01:56:14.999Z",
-      "actualizado": "2026-08-16T00:51:55.705Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "bqrbm8b9t628",
-        "nombre": "Carrera 94B 1, 2-10",
-        "tipo": "rescate",
-        "lat": 3.3752132,
-        "lng": -76.5511572,
-        "direccion": "Carrera 94B 1, 2-10",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Agua",
-          "Comida",
-          "Botiquín",
-          "Carpas",
-          "Colchonetas",
-          "Comida para animales",
-          "Pañales"
-        ],
-        "voluntarios_hay": 6,
-        "voluntarios_faltan": 9,
-        "contacto": "",
-        "notas": "Se necesitan implementado de aseo",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786499774999,
-        "actualizado": 1786841515705,
-        "confirmado": 1786678930160,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "faltan",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
-      "id": "mapa-emergencia-464f9eef2f",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=b78c5mdnjxbp",
-      "tipo": "rescate",
-      "nombre": "Carrera 6A #116-17",
-      "direccion": "Carrera 6A #116-17",
-      "lat": 4.693722859530194,
-      "lon": -74.0320122241974,
-      "estado": "urgente",
-      "prioridad": "critica",
-      "voluntarios_hay": 53,
-      "voluntarios_faltan": 6,
-      "organizacion": "Diego Bula Salamanca - 3138159504",
-      "verificado": false,
-      "confirmaciones": 6,
-      "desmentidos": 1,
-      "creado": "2026-08-15T02:51:21.053Z",
-      "actualizado": "2026-08-16T00:45:48.775Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
-      "raw": {
-        "id": "b78c5mdnjxbp",
-        "nombre": "Carrera 6A #116-17",
-        "tipo": "rescate",
-        "lat": 4.693722859530194,
-        "lng": -74.0320122241974,
-        "direccion": "Carrera 6A #116-17",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [],
-        "voluntarios_hay": 53,
-        "voluntarios_faltan": 6,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Diego Bula Salamanca - 3138159504",
-        "creado": 1786762281053,
-        "actualizado": 1786841148775,
-        "confirmado": 1786850307414,
-        "ubicado": true,
-        "fresco": true,
-        "saturacion": "faltan",
-        "confirma": 6,
-        "desmiente": 1,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-fb6fd8c35c",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=xcw64he2srg8",
@@ -1632,7 +1666,7 @@
       "verificado": false,
       "creado": "2026-08-12T04:02:20.594Z",
       "actualizado": "2026-08-16T00:33:14.561Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1689,7 +1723,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-14T23:15:01.968Z",
       "actualizado": "2026-08-16T00:19:02.12Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1756,7 +1790,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-12T20:01:36.893Z",
       "actualizado": "2026-08-16T00:10:51.116Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "wyiexgg56whr",
         "nombre": "Chiminangos cali",
@@ -1865,7 +1899,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-14T14:04:23.281Z",
       "actualizado": "2026-08-16T00:09:07.711Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1930,7 +1964,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-14T23:10:56.379Z",
       "actualizado": "2026-08-15T23:55:16.445Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "hz9fyksusajn",
         "nombre": "FUNZA Interpark",
@@ -1988,7 +2022,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-12T13:07:28.372Z",
       "actualizado": "2026-08-15T23:53:23.084Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2090,7 +2124,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T17:13:46.872Z",
       "actualizado": "2026-08-15T23:43:38.675Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "kz4urfbj6v7i",
         "nombre": "Los rincones",
@@ -2167,7 +2201,7 @@
       "desmentidos": 1,
       "creado": "2026-08-15T03:16:21.508Z",
       "actualizado": "2026-08-15T23:39:39.155Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2229,7 +2263,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T22:34:08.645Z",
       "actualizado": "2026-08-15T23:39:01.093Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "bqi8pjxwjgtb",
         "nombre": "Cl. 62b #1a 9-145 a 1a 9-1",
@@ -2317,7 +2351,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:28:26.603Z",
       "actualizado": "2026-08-15T23:37:43.191Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2365,54 +2399,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-aaf04b9e16",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=tditxxjx29cf",
-      "tipo": "rescate",
-      "nombre": "Puente aranda",
-      "direccion": "Puente aranda",
-      "lat": 4.6344035,
-      "lon": -74.1083568,
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "verificado": false,
-      "creado": "2026-08-15T17:28:44.865Z",
-      "actualizado": "2026-08-15T23:36:28.274Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "tditxxjx29cf",
-        "nombre": "Puente aranda",
-        "tipo": "rescate",
-        "lat": 4.6344035,
-        "lng": -74.1083568,
-        "direccion": "Puente aranda",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786814924865,
-        "actualizado": 1786836988274,
-        "confirmado": 1786814924865,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-6d4bc8d0bb",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=t3x546qhs28y",
@@ -2447,7 +2433,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-13T16:37:19.899Z",
       "actualizado": "2026-08-15T23:36:05.576Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "t3x546qhs28y",
         "nombre": "Torres de limonar",
@@ -2510,7 +2496,7 @@
       "verificado": false,
       "creado": "2026-08-15T13:27:06.879Z",
       "actualizado": "2026-08-15T23:34:46.469Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "mdas8zu93hgd",
         "nombre": "Calle 8b #45-17  Edificio CANTERA CALI",
@@ -2577,7 +2563,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-11T22:24:50.401Z",
       "actualizado": "2026-08-15T23:29:26.619Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "znnkr4b5ejmi",
         "nombre": "FUNDACIÓN SER PARA SER",
@@ -2670,7 +2656,7 @@
       "verificado": false,
       "creado": "2026-08-15T23:24:00.26Z",
       "actualizado": "2026-08-15T23:24:00.26Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "5k6qdpzjehzd",
         "nombre": "Corregimiento bitaco",
@@ -2726,7 +2712,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-13T20:07:50.424Z",
       "actualizado": "2026-08-15T23:23:32.499Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2797,7 +2783,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T16:20:34.688Z",
       "actualizado": "2026-08-15T23:18:26.495Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "7dh8mxhr7uy5",
         "nombre": "Calle 9d 40a 93",
@@ -2845,13 +2831,16 @@
         "Comida",
         "Electrolitos"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-13T18:47:06.641Z",
       "actualizado": "2026-08-15T23:10:50.601Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "am8xpbk7yrk5",
         "nombre": "Carrera 77 # 1C-140, barrio Las Farallones, Cali, Valle del Cauca.",
@@ -2881,7 +2870,7 @@
         "actualizado": 1786835450601,
         "confirmado": 1786830654452,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 1,
         "desmiente": 0,
@@ -2923,7 +2912,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-14T21:02:48.791Z",
       "actualizado": "2026-08-15T22:56:47.936Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "qne8dag62gke",
         "nombre": "Sede Comunal Barrio Calima",
@@ -3012,7 +3001,7 @@
       "verificado": false,
       "creado": "2026-08-13T15:58:54.306Z",
       "actualizado": "2026-08-15T22:45:58.526Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3083,10 +3072,9 @@
       "contacto": "3053235118",
       "organizacion": "Centro de Acopio universidad del Vlle",
       "verificado": false,
-      "confirmaciones": 1,
       "creado": "2026-08-14T11:16:01.386Z",
       "actualizado": "2026-08-15T22:26:47.135Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3124,7 +3112,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "sin_dato",
-        "confirma": 1,
+        "confirma": 0,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -3152,7 +3140,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T22:07:25.029Z",
       "actualizado": "2026-08-15T22:07:25.029Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "zz9abxngwrqn",
         "nombre": "Transversal 53 bis No. 1-15",
@@ -3221,7 +3209,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-12T22:58:40.01Z",
       "actualizado": "2026-08-15T21:52:06.514Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3292,7 +3280,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-15T15:51:14.117Z",
       "actualizado": "2026-08-15T21:45:00.402Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3342,14 +3330,17 @@
         "Pañales",
         "sábanas"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "voluntarios_hay": 15,
       "verificado": false,
       "confirmaciones": 2,
       "creado": "2026-08-13T14:38:18.509Z",
       "actualizado": "2026-08-15T21:34:03.894Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "rtffu659pjmx",
         "nombre": "Carrera 5 calle 34 Unidad Bueno Madrid Cali",
@@ -3378,7 +3369,7 @@
         "actualizado": 1786829643894,
         "confirmado": 1786830327621,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "exceso",
         "confirma": 2,
         "desmiente": 0,
@@ -3427,7 +3418,7 @@
       "desmentidos": 1,
       "creado": "2026-08-14T05:07:10.436Z",
       "actualizado": "2026-08-15T21:33:16.434Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3484,12 +3475,15 @@
         "Comida",
         "Voluntarios"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "verificado": false,
       "creado": "2026-08-15T21:28:05.862Z",
       "actualizado": "2026-08-15T21:28:05.862Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "azcgd7g9j34y",
         "nombre": "Bellavista cartago",
@@ -3516,7 +3510,7 @@
         "actualizado": 1786829285862,
         "confirmado": 1786829285862,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 0,
         "desmiente": 0,
@@ -3548,7 +3542,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:01:12.876Z",
       "actualizado": "2026-08-15T21:24:12.369Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3609,7 +3603,7 @@
       "verificado": false,
       "creado": "2026-08-15T21:15:06.551Z",
       "actualizado": "2026-08-15T21:15:06.551Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3669,7 +3663,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:02:05.982Z",
       "actualizado": "2026-08-15T21:12:14.604Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3734,7 +3728,7 @@
       "verificado": false,
       "creado": "2026-08-13T05:53:42.397Z",
       "actualizado": "2026-08-15T21:07:27.17Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3814,7 +3808,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:39:26.067Z",
       "actualizado": "2026-08-15T21:03:16.749Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3891,7 +3885,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:10:58.333Z",
       "actualizado": "2026-08-15T20:58:50.563Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3951,7 +3945,7 @@
       "verificado": false,
       "creado": "2026-08-12T09:44:10.987Z",
       "actualizado": "2026-08-15T20:48:48.056Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4018,7 +4012,7 @@
       "desmentidos": 1,
       "creado": "2026-08-12T22:41:01.343Z",
       "actualizado": "2026-08-15T20:41:35.028Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4113,7 +4107,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-12T22:02:47.809Z",
       "actualizado": "2026-08-15T20:35:50.035Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4187,7 +4181,7 @@
       "verificado": false,
       "creado": "2026-08-12T05:18:42.859Z",
       "actualizado": "2026-08-15T20:33:39.288Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4247,7 +4241,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-14T00:20:01.812Z",
       "actualizado": "2026-08-15T20:20:42.244Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4331,7 +4325,7 @@
       "confirmaciones": 3,
       "creado": "2026-08-13T09:59:00.236Z",
       "actualizado": "2026-08-15T20:18:39.209Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4385,7 +4379,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T15:27:13.144Z",
       "actualizado": "2026-08-15T20:15:23.169Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4431,62 +4425,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-2c9328dffd",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=utp4468eiazr",
-      "tipo": "albergue",
-      "nombre": "Casa Esther",
-      "direccion": "Casa Esther - Fundación",
-      "lat": 6.105202903960215,
-      "lon": -75.64020395278932,
-      "necesita": [
-        "Hay ayudas para trasladar hasta Medellín donde está ubicado"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_hay": 100,
-      "contacto": "3044730447, 3142695802",
-      "organizacion": "Casa Esther - Fundación",
-      "verificado": false,
-      "creado": "2026-08-15T14:26:11.459Z",
-      "actualizado": "2026-08-15T20:08:27.014Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "utp4468eiazr",
-        "nombre": "Casa Esther",
-        "tipo": "albergue",
-        "lat": 6.105202903960215,
-        "lng": -75.64020395278932,
-        "direccion": "Casa Esther - Fundación",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Hay ayudas para trasladar hasta Medellín donde está ubicado"
-        ],
-        "voluntarios_hay": 100,
-        "voluntarios_faltan": 0,
-        "contacto": "3044730447, 3142695802",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Casa Esther - Fundación",
-        "creado": 1786803971459,
-        "actualizado": 1786824507014,
-        "confirmado": 1786804007817,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "exceso",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-36b4eb632e",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=z9vrss396j7x",
@@ -4517,7 +4455,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T20:03:35.211Z",
       "actualizado": "2026-08-15T20:04:22.056Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4583,10 +4521,10 @@
       "estado": "por-confirmar",
       "prioridad": "alta",
       "verificado": false,
-      "confirmaciones": 2,
+      "confirmaciones": 1,
       "creado": "2026-08-15T15:51:32.31Z",
       "actualizado": "2026-08-15T20:01:35.154Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4618,7 +4556,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "sin_dato",
-        "confirma": 2,
+        "confirma": 1,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -4646,7 +4584,7 @@
       "verificado": false,
       "creado": "2026-08-15T19:21:30.468Z",
       "actualizado": "2026-08-15T19:47:17.749Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4724,7 +4662,7 @@
       "verificado": false,
       "creado": "2026-08-14T17:00:23.37Z",
       "actualizado": "2026-08-15T19:44:23.799Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4792,7 +4730,7 @@
       "verificado": false,
       "creado": "2026-08-14T02:40:38.956Z",
       "actualizado": "2026-08-15T19:35:48.258Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4857,7 +4795,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:27:24.255Z",
       "actualizado": "2026-08-15T19:35:36.404Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4944,7 +4882,7 @@
       "verificado": false,
       "creado": "2026-08-14T04:09:37.373Z",
       "actualizado": "2026-08-15T19:35:08.945Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5022,7 +4960,7 @@
       "verificado": false,
       "creado": "2026-08-14T18:29:10.506Z",
       "actualizado": "2026-08-15T19:34:02.394Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "z3ezsq4rucv7",
         "nombre": "BOG - Calle 116 #71A 49",
@@ -5105,7 +5043,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-12T20:41:12.903Z",
       "actualizado": "2026-08-15T19:32:28.375Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5183,7 +5121,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-13T22:36:02.255Z",
       "actualizado": "2026-08-15T19:31:43.183Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5270,7 +5208,7 @@
       "confirmaciones": 3,
       "creado": "2026-08-15T16:55:04.512Z",
       "actualizado": "2026-08-15T19:06:39.917Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "w9pqqxbubufn",
         "nombre": "Corregimiento de Pavas del Municipio de Pavas.",
@@ -5349,7 +5287,7 @@
       "verificado": false,
       "creado": "2026-08-15T17:11:45.188Z",
       "actualizado": "2026-08-15T18:57:25.899Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5426,7 +5364,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T17:36:26.533Z",
       "actualizado": "2026-08-15T18:52:35.35Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5534,7 +5472,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:05:45.017Z",
       "actualizado": "2026-08-15T18:50:30.096Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "t7iibkceipps",
         "nombre": "Inversiones acosta S.A.S",
@@ -5597,7 +5535,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:13:28.317Z",
       "actualizado": "2026-08-15T18:26:18.737Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5668,7 +5606,7 @@
       "verificado": false,
       "creado": "2026-08-15T00:55:51.278Z",
       "actualizado": "2026-08-15T18:25:09.966Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "h94ywfzn3qi5",
         "nombre": "Banco de ropas Minuto de Dios",
@@ -5749,7 +5687,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-13T19:26:32.33Z",
       "actualizado": "2026-08-15T18:24:22.91Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "e63ydrayx3b9",
         "nombre": "Parroquia jesus misionero barrio prados del sur comuna 18 cali",
@@ -5817,7 +5755,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-15T18:14:38.045Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5861,70 +5799,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-85f522349c",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=sdu3qxz424sz",
-      "tipo": "rescate",
-      "nombre": "La Cecilia Armenia Manzana 25",
-      "direccion": "La Cecilia Armenia Manzana 25",
-      "lat": 4.5270693,
-      "lon": -75.7148216,
-      "necesita": [
-        "Agua",
-        "Carpas",
-        "Colchonetas",
-        "Comida",
-        "Invasión en Barrio La Cecilia",
-        "riesgo de colapso"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "Katherine Ocampo- 3136349808",
-      "verificado": false,
-      "creado": "2026-08-14T03:43:59.42Z",
-      "actualizado": "2026-08-15T18:10:29.533Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "sdu3qxz424sz",
-        "nombre": "La Cecilia Armenia Manzana 25",
-        "tipo": "rescate",
-        "lat": 4.5270693,
-        "lng": -75.7148216,
-        "direccion": "La Cecilia Armenia Manzana 25",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Colchonetas",
-          "Carpas",
-          "Agua",
-          "Comida",
-          "Invasión en Barrio La Cecilia",
-          "riesgo de colapso"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Katherine Ocampo- 3136349808",
-        "creado": 1786679039420,
-        "actualizado": 1786817429533,
-        "confirmado": 1786679039420,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-899366a63d",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=qrt2b4reccu6",
@@ -5957,7 +5831,7 @@
       "desmentidos": 1,
       "creado": "2026-08-15T17:33:31.056Z",
       "actualizado": "2026-08-15T17:44:05.392Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "qrt2b4reccu6",
         "nombre": "ELCIELO HOTEL",
@@ -6022,7 +5896,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:14:54.926Z",
       "actualizado": "2026-08-15T17:38:48.634Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6075,7 +5949,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T17:37:50.745Z",
       "actualizado": "2026-08-15T17:37:50.745Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6130,7 +6004,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:20:40.951Z",
       "actualizado": "2026-08-15T17:22:35.061Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "9k328zcmqx24",
         "nombre": "La campiña SUBA",
@@ -6190,7 +6064,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T17:19:10.871Z",
       "actualizado": "2026-08-15T17:19:45.795Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6247,7 +6121,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:36:19.851Z",
       "actualizado": "2026-08-15T17:10:58.626Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "c2unw9sg4dzf",
         "nombre": "Universidad Nacional",
@@ -6296,7 +6170,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:52:03.46Z",
       "actualizado": "2026-08-15T16:52:03.46Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6347,7 +6221,7 @@
       "desmentidos": 1,
       "creado": "2026-08-15T03:41:05.796Z",
       "actualizado": "2026-08-15T16:47:49.748Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6412,7 +6286,7 @@
       "verificado": false,
       "creado": "2026-08-12T13:46:24.843Z",
       "actualizado": "2026-08-15T16:43:07.63Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6479,7 +6353,7 @@
       "verificado": false,
       "creado": "2026-08-14T12:28:16.539Z",
       "actualizado": "2026-08-15T16:42:56.399Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6531,7 +6405,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T16:40:06.926Z",
       "actualizado": "2026-08-15T16:40:06.926Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6589,7 +6463,7 @@
       "verificado": false,
       "creado": "2026-08-14T19:27:01.692Z",
       "actualizado": "2026-08-15T16:38:32.793Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6644,10 +6518,9 @@
       ],
       "estado": "descartado",
       "verificado": false,
-      "confirmaciones": 1,
       "creado": "2026-08-15T15:55:18.923Z",
       "actualizado": "2026-08-15T16:32:50.873Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "9u83przqbjf3",
         "nombre": "Barrio alto bonito en buga",
@@ -6675,7 +6548,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "cerrado",
-        "confirma": 1,
+        "confirma": 0,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -6714,7 +6587,7 @@
       "verificado": false,
       "creado": "2026-08-12T09:42:57.776Z",
       "actualizado": "2026-08-15T16:20:31.623Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6791,7 +6664,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:05:31.697Z",
       "actualizado": "2026-08-15T16:20:13.91Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6872,7 +6745,7 @@
       "verificado": false,
       "creado": "2026-08-14T04:02:33.13Z",
       "actualizado": "2026-08-15T16:09:25.403Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6946,7 +6819,7 @@
       "verificado": false,
       "creado": "2026-08-14T20:36:37.548Z",
       "actualizado": "2026-08-15T15:55:04.868Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7002,7 +6875,7 @@
       "verificado": false,
       "creado": "2026-08-15T15:49:12.909Z",
       "actualizado": "2026-08-15T15:49:12.909Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7072,10 +6945,9 @@
       "prioridad": "alta",
       "organizacion": "Lina Marcela 3185575916 Hay un camión que va para los corregimientos Golondrinas La paz La Elvira El Rosario",
       "verificado": false,
-      "confirmaciones": 1,
       "creado": "2026-08-15T15:14:11.681Z",
       "actualizado": "2026-08-15T15:43:37.293Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7123,7 +6995,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "sin_dato",
-        "confirma": 1,
+        "confirma": 0,
         "desmiente": 0,
         "media": [
           {
@@ -7167,7 +7039,7 @@
       "verificado": false,
       "creado": "2026-08-15T14:57:09.587Z",
       "actualizado": "2026-08-15T15:35:00.956Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7251,10 +7123,9 @@
       "voluntarios_hay": 18,
       "organizacion": "hoja del grupo",
       "verificado": false,
-      "confirmaciones": 1,
       "creado": "2026-08-11T17:18:25.815Z",
       "actualizado": "2026-08-15T15:34:46.107Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7302,7 +7173,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "exceso",
-        "confirma": 1,
+        "confirma": 0,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -7337,7 +7208,7 @@
       "verificado": false,
       "creado": "2026-08-15T15:23:52.946Z",
       "actualizado": "2026-08-15T15:23:52.946Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7411,7 +7282,7 @@
       "verificado": false,
       "creado": "2026-08-13T21:51:58.937Z",
       "actualizado": "2026-08-15T15:14:52.585Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7478,7 +7349,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:18:14.235Z",
       "actualizado": "2026-08-15T15:12:30.811Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "4gukrpiz7dxs",
         "nombre": "Calle 59d #2a17 — ¡Sumemos fuerzas por Rodalnillo! 🚨",
@@ -7552,7 +7423,7 @@
       "verificado": false,
       "creado": "2026-08-13T22:57:00.113Z",
       "actualizado": "2026-08-15T15:05:58.771Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7612,7 +7483,7 @@
       "verificado": false,
       "creado": "2026-08-15T13:06:02.779Z",
       "actualizado": "2026-08-15T14:57:00.458Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7666,7 +7537,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:30:53.206Z",
       "actualizado": "2026-08-15T14:48:34.905Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7718,7 +7589,7 @@
       "verificado": false,
       "creado": "2026-08-15T14:40:05.496Z",
       "actualizado": "2026-08-15T14:46:01.39Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "wfhwfvmb7bmj",
         "nombre": "cra",
@@ -7770,7 +7641,7 @@
       "verificado": false,
       "creado": "2026-08-15T14:35:00.275Z",
       "actualizado": "2026-08-15T14:35:16.598Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7822,7 +7693,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T14:22:56.575Z",
       "actualizado": "2026-08-15T14:29:57.034Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7891,7 +7762,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:30:42.975Z",
       "actualizado": "2026-08-15T14:22:41.612Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7964,7 +7835,7 @@
       "verificado": false,
       "creado": "2026-08-15T06:48:22.658Z",
       "actualizado": "2026-08-15T14:21:08.681Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8024,7 +7895,7 @@
       "verificado": false,
       "creado": "2026-08-15T12:10:14.989Z",
       "actualizado": "2026-08-15T14:20:35.284Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8079,7 +7950,7 @@
       "verificado": false,
       "creado": "2026-08-14T13:34:06.214Z",
       "actualizado": "2026-08-15T13:47:07.624Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8143,7 +8014,7 @@
       "verificado": false,
       "creado": "2026-08-15T13:33:13.257Z",
       "actualizado": "2026-08-15T13:35:42.426Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "kw86gej68rrw",
         "nombre": "Carrera 32 #30a87",
@@ -8234,7 +8105,7 @@
       "verificado": false,
       "creado": "2026-08-15T12:49:10.57Z",
       "actualizado": "2026-08-15T12:49:10.57Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8306,7 +8177,7 @@
       "verificado": false,
       "creado": "2026-08-15T12:46:17.702Z",
       "actualizado": "2026-08-15T12:46:17.702Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8374,7 +8245,7 @@
       "verificado": false,
       "creado": "2026-08-15T12:43:31.602Z",
       "actualizado": "2026-08-15T12:43:31.602Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8446,7 +8317,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:47:25.63Z",
       "actualizado": "2026-08-15T11:29:27.017Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8510,7 +8381,7 @@
       "desmentidos": 1,
       "creado": "2026-08-13T16:01:49.57Z",
       "actualizado": "2026-08-15T11:18:11.363Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8575,7 +8446,7 @@
       "verificado": false,
       "creado": "2026-08-11T17:18:24.312Z",
       "actualizado": "2026-08-15T08:30:10.593Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "wvv7s4gw",
         "nombre": "Edificio de Colores55",
@@ -8659,7 +8530,7 @@
       "verificado": false,
       "creado": "2026-08-13T15:33:14.972Z",
       "actualizado": "2026-08-15T06:54:46.653Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8712,7 +8583,7 @@
       "verificado": false,
       "creado": "2026-08-12T17:24:33.385Z",
       "actualizado": "2026-08-15T06:26:03.925Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8782,7 +8653,7 @@
       "verificado": false,
       "creado": "2026-08-15T06:12:03.951Z",
       "actualizado": "2026-08-15T06:12:03.951Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8864,7 +8735,7 @@
       "verificado": false,
       "creado": "2026-08-15T06:02:48.975Z",
       "actualizado": "2026-08-15T06:02:48.975Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "8qbt77tth264",
         "nombre": "Punto guaduales",
@@ -8942,7 +8813,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-14T14:24:15.305Z",
       "actualizado": "2026-08-15T05:59:45.361Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "53v86k9us7ds",
         "nombre": "BOG - Vive Claro puerta 10",
@@ -9000,7 +8871,7 @@
       "verificado": false,
       "creado": "2026-08-13T21:05:16.483Z",
       "actualizado": "2026-08-15T05:55:15.089Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9070,7 +8941,7 @@
       "verificado": false,
       "creado": "2026-08-15T05:39:42.324Z",
       "actualizado": "2026-08-15T05:39:42.324Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9128,7 +8999,7 @@
       "verificado": false,
       "creado": "2026-08-15T05:39:00.392Z",
       "actualizado": "2026-08-15T05:39:00.392Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9176,7 +9047,7 @@
       "verificado": false,
       "creado": "2026-08-13T19:47:51.802Z",
       "actualizado": "2026-08-15T05:26:00.572Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "xh77h4j4mpbq",
         "nombre": "Santa rosa de cabal",
@@ -9245,7 +9116,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:10:32.007Z",
       "actualizado": "2026-08-15T05:11:04.262Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "gxmpvj3an5ws",
         "nombre": "CANCHA SOCCER Y PADEL cola del zorro",
@@ -9317,7 +9188,7 @@
       "verificado": false,
       "creado": "2026-08-15T05:01:33.42Z",
       "actualizado": "2026-08-15T05:01:33.42Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9382,7 +9253,7 @@
       "verificado": false,
       "creado": "2026-08-14T06:17:09.161Z",
       "actualizado": "2026-08-15T04:55:34.452Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9442,7 +9313,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:55:53.69Z",
       "actualizado": "2026-08-15T04:51:51.84Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9490,7 +9361,7 @@
       "verificado": false,
       "creado": "2026-08-15T04:33:57.738Z",
       "actualizado": "2026-08-15T04:33:57.738Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9551,7 +9422,7 @@
       "verificado": false,
       "creado": "2026-08-12T02:30:27.19Z",
       "actualizado": "2026-08-15T04:31:27.769Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9623,7 +9494,7 @@
       "verificado": false,
       "creado": "2026-08-15T04:00:45.515Z",
       "actualizado": "2026-08-15T04:18:21.653Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9691,7 +9562,7 @@
       "verificado": false,
       "creado": "2026-08-14T12:42:43.163Z",
       "actualizado": "2026-08-15T04:18:18.155Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9758,7 +9629,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-14T03:21:39.283Z",
       "actualizado": "2026-08-15T04:10:26.895Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9805,7 +9676,7 @@
       "verificado": false,
       "creado": "2026-08-14T19:06:18.777Z",
       "actualizado": "2026-08-15T03:39:26.383Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9857,7 +9728,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:32:24.664Z",
       "actualizado": "2026-08-15T03:32:14.753Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "t4xca923z2dn",
         "nombre": "Calle 13B No. 66B - 60 C.R. Bosques de la Fontana",
@@ -9907,7 +9778,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T03:28:47.177Z",
       "actualizado": "2026-08-15T03:29:06.68Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "59mvwpmtjijs",
         "nombre": "Medellín",
@@ -9964,7 +9835,7 @@
       "verificado": false,
       "creado": "2026-08-13T14:54:36.718Z",
       "actualizado": "2026-08-15T03:24:12.72Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -10034,7 +9905,7 @@
       "verificado": false,
       "creado": "2026-08-15T03:22:51.813Z",
       "actualizado": "2026-08-15T03:22:51.813Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -10096,7 +9967,7 @@
       "verificado": false,
       "creado": "2026-08-15T03:08:52.309Z",
       "actualizado": "2026-08-15T03:10:24.347Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -10186,7 +10057,7 @@
       "verificado": false,
       "creado": "2026-08-13T14:59:11.109Z",
       "actualizado": "2026-08-15T03:06:23.066Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -10248,7 +10119,7 @@
       "verificado": false,
       "creado": "2026-08-15T03:05:47.998Z",
       "actualizado": "2026-08-15T03:05:47.998Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -10317,7 +10188,7 @@
       "verificado": false,
       "creado": "2026-08-15T02:23:09.927Z",
       "actualizado": "2026-08-15T03:05:36.341Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -10392,7 +10263,7 @@
       "verificado": false,
       "creado": "2026-08-13T21:34:22.512Z",
       "actualizado": "2026-08-15T03:05:16.26Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -10445,7 +10316,7 @@
       "verificado": false,
       "creado": "2026-08-14T20:59:43.649Z",
       "actualizado": "2026-08-15T03:04:44.903Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "coordenadas fuera de Colombia: descartadas"
       ],
@@ -10519,7 +10390,7 @@
       "verificado": false,
       "creado": "2026-08-11T17:18:24.715Z",
       "actualizado": "2026-08-15T03:02:50.63Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "zqpbt8z5",
         "nombre": "Edificio Vanessa",
@@ -10620,7 +10491,7 @@
       "verificado": false,
       "creado": "2026-08-13T15:15:56.605Z",
       "actualizado": "2026-08-15T02:53:56.567Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -10686,7 +10557,7 @@
       "verificado": false,
       "creado": "2026-08-15T02:52:36.888Z",
       "actualizado": "2026-08-15T02:52:38.01Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -10758,7 +10629,7 @@
       "verificado": false,
       "creado": "2026-08-15T02:47:49.871Z",
       "actualizado": "2026-08-15T02:50:55.161Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -10824,7 +10695,7 @@
       "verificado": false,
       "creado": "2026-08-14T03:31:46.027Z",
       "actualizado": "2026-08-15T02:49:37.611Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -10893,7 +10764,7 @@
       "verificado": false,
       "creado": "2026-08-15T02:49:03.061Z",
       "actualizado": "2026-08-15T02:49:04.281Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -10962,7 +10833,7 @@
       "verificado": false,
       "creado": "2026-08-12T12:26:53.089Z",
       "actualizado": "2026-08-15T02:44:28.561Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -11035,7 +10906,7 @@
       "verificado": false,
       "creado": "2026-08-15T02:44:00.469Z",
       "actualizado": "2026-08-15T02:44:00.469Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -11109,7 +10980,7 @@
       "verificado": false,
       "creado": "2026-08-15T02:42:59.964Z",
       "actualizado": "2026-08-15T02:42:59.964Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -11183,7 +11054,7 @@
       "verificado": false,
       "creado": "2026-08-15T02:41:59.405Z",
       "actualizado": "2026-08-15T02:41:59.405Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -11250,7 +11121,7 @@
       "verificado": false,
       "creado": "2026-08-15T02:38:03.06Z",
       "actualizado": "2026-08-15T02:38:03.06Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -11317,7 +11188,7 @@
       "verificado": false,
       "creado": "2026-08-13T13:46:06.7Z",
       "actualizado": "2026-08-15T02:36:49.672Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -11381,7 +11252,7 @@
       "verificado": false,
       "creado": "2026-08-12T01:30:32.879Z",
       "actualizado": "2026-08-15T02:36:34.804Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "k436mddij4sq",
         "nombre": "Hotel metrópolis",
@@ -11427,7 +11298,7 @@
       "verificado": false,
       "creado": "2026-08-15T02:21:08.125Z",
       "actualizado": "2026-08-15T02:21:09.301Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "9imibmyu",
         "nombre": "Coliseo de Hocky Miguel Calero",
@@ -11480,7 +11351,7 @@
       "verificado": false,
       "creado": "2026-08-15T02:17:13.474Z",
       "actualizado": "2026-08-15T02:17:13.474Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -11532,7 +11403,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:18:38.281Z",
       "actualizado": "2026-08-15T02:07:21.739Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -11595,7 +11466,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:50:11.052Z",
       "actualizado": "2026-08-15T01:52:44.718Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -11660,7 +11531,7 @@
       "verificado": false,
       "creado": "2026-08-14T02:06:20.01Z",
       "actualizado": "2026-08-15T01:46:39.732Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -11717,7 +11588,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:40:39.206Z",
       "actualizado": "2026-08-15T01:40:39.206Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -11777,7 +11648,7 @@
       "desmentidos": 1,
       "creado": "2026-08-15T01:40:07.467Z",
       "actualizado": "2026-08-15T01:40:07.467Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "q5nxtmihb3ry",
         "nombre": "Hola alguien que vaya camino a Jamundi y pueda llevar un paquete de ayuda hacia esta dirección Senderos de las Mercedes, casa 45 es para un adulto mayor afectado por el terremoto",
@@ -11849,7 +11720,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:35:06.404Z",
       "actualizado": "2026-08-15T01:35:06.404Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -11920,7 +11791,7 @@
       "verificado": false,
       "creado": "2026-08-13T19:46:22.087Z",
       "actualizado": "2026-08-15T01:09:04.993Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -11983,7 +11854,7 @@
       "verificado": false,
       "creado": "2026-08-14T06:23:46.966Z",
       "actualizado": "2026-08-15T01:07:18.543Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -12045,7 +11916,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:12:14.828Z",
       "actualizado": "2026-08-15T01:06:23.645Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "kkcmqreq36pq",
         "nombre": "Carulla Calle 85 - Unidos por Colombia",
@@ -12109,7 +11980,7 @@
       "verificado": false,
       "creado": "2026-08-13T19:24:10.569Z",
       "actualizado": "2026-08-15T01:02:03.625Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -12173,7 +12044,7 @@
       "verificado": false,
       "creado": "2026-08-15T00:52:03.579Z",
       "actualizado": "2026-08-15T00:52:03.579Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -12221,7 +12092,7 @@
       "verificado": false,
       "creado": "2026-08-15T00:45:12.718Z",
       "actualizado": "2026-08-15T00:45:12.718Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -12285,7 +12156,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:36:46.864Z",
       "actualizado": "2026-08-15T00:41:49.91Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -12365,7 +12236,7 @@
       "verificado": false,
       "creado": "2026-08-15T00:36:19.311Z",
       "actualizado": "2026-08-15T00:36:19.311Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -12437,7 +12308,7 @@
       "verificado": false,
       "creado": "2026-08-12T20:49:49.011Z",
       "actualizado": "2026-08-15T00:33:12.046Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -12517,7 +12388,7 @@
       "verificado": false,
       "creado": "2026-08-15T00:31:41.048Z",
       "actualizado": "2026-08-15T00:31:41.048Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -12582,7 +12453,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-14T02:52:20.671Z",
       "actualizado": "2026-08-15T00:26:45.645Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -12650,7 +12521,7 @@
       "verificado": false,
       "creado": "2026-08-15T00:22:05.168Z",
       "actualizado": "2026-08-15T00:24:22.284Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -12726,7 +12597,7 @@
       "verificado": false,
       "creado": "2026-08-13T18:24:52.549Z",
       "actualizado": "2026-08-15T00:10:30.97Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -12830,7 +12701,7 @@
       "verificado": false,
       "creado": "2026-08-14T20:35:56.869Z",
       "actualizado": "2026-08-14T23:57:28.157Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "rh5vq24eekdr",
         "nombre": "Calle 27 #36 10 el jardin",
@@ -12895,7 +12766,7 @@
       "verificado": false,
       "creado": "2026-08-14T04:29:27.375Z",
       "actualizado": "2026-08-14T23:53:29.502Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -12989,7 +12860,7 @@
       "verificado": false,
       "creado": "2026-08-13T03:28:35.171Z",
       "actualizado": "2026-08-14T23:52:47.725Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -13051,7 +12922,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:38:55.963Z",
       "actualizado": "2026-08-14T23:38:55.963Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -13105,7 +12976,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:24:45.697Z",
       "actualizado": "2026-08-14T23:31:56.076Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "chpa4dysuzq7",
         "nombre": "GALERÍA ABORIGEN",
@@ -13158,7 +13029,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:29:44.073Z",
       "actualizado": "2026-08-14T23:29:44.073Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -13213,7 +13084,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:27:18.066Z",
       "actualizado": "2026-08-14T23:27:51.656Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -13281,7 +13152,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:25:51.981Z",
       "actualizado": "2026-08-14T23:27:50.386Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "5rvy3sfc62hm",
         "nombre": "7 MESAS - CARRERA 81 #33AA-08",
@@ -13343,7 +13214,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:26:22.675Z",
       "actualizado": "2026-08-14T23:27:06.438Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "9vy4venjzp8w",
         "nombre": "CASA AZUL",
@@ -13387,7 +13258,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:23:20.301Z",
       "actualizado": "2026-08-14T23:24:19.617Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "xv22reiygwvb",
         "nombre": "CASA PCN",
@@ -13433,7 +13304,7 @@
       "verificado": false,
       "creado": "2026-08-12T03:00:35.118Z",
       "actualizado": "2026-08-14T23:19:38.794Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -13483,7 +13354,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:17:09.649Z",
       "actualizado": "2026-08-14T23:18:04.458Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "fmsd97dxcjzw",
         "nombre": "FUNDACIÓN EL COMBO",
@@ -13532,7 +13403,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:16:02.506Z",
       "actualizado": "2026-08-14T23:17:49.184Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "b9ygmbqykntq",
         "nombre": "COMPENSAR CRA 60",
@@ -13585,7 +13456,7 @@
       "verificado": false,
       "creado": "2026-08-12T02:43:28.304Z",
       "actualizado": "2026-08-14T23:15:58.017Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -13647,7 +13518,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:14:55.701Z",
       "actualizado": "2026-08-14T23:15:41.474Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "k78sguz79dqg",
         "nombre": "Espacio en Blanco (Frecuencias que ayudan)",
@@ -13706,7 +13577,7 @@
       "verificado": false,
       "creado": "2026-08-11T17:18:23.451Z",
       "actualizado": "2026-08-14T23:12:47.914Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "u4fj9yhr",
         "nombre": "Torres de Limonar",
@@ -13772,7 +13643,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-14T23:09:13.295Z",
       "actualizado": "2026-08-14T23:09:56.24Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "fimf5ertp7t9",
         "nombre": "SOS JUNTOS POR EL CHOCÓ Cra 22",
@@ -13821,7 +13692,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:07:40.95Z",
       "actualizado": "2026-08-14T23:08:23.772Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "7ky57ux98be2",
         "nombre": "Ávila Gourmet - CEDRITOS",
@@ -13879,7 +13750,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:22:00.883Z",
       "actualizado": "2026-08-14T23:05:43.755Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "uby64xiwtetz",
         "nombre": "FUNDACIÓN TRANSFORMANDO VIDAS CRA 80 - JAC CALARCÁ",
@@ -13940,7 +13811,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:24:29.271Z",
       "actualizado": "2026-08-14T23:03:08.028Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "a82xmqj4fs84",
         "nombre": "ESTADIO EL CAMPIN",
@@ -13991,7 +13862,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:33:39.587Z",
       "actualizado": "2026-08-14T23:01:43.947Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "qgxp3znctgnj",
         "nombre": "Ávila Gourmet - CEDRITOS",
@@ -14040,7 +13911,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:35:12.275Z",
       "actualizado": "2026-08-14T23:01:12.116Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "yeyeammpfsrd",
         "nombre": "SOS JUNTOS POR EL CHOCÓ Cra 22",
@@ -14092,7 +13963,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:19:07.723Z",
       "actualizado": "2026-08-14T23:00:29.644Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "9w9ch7343snx",
         "nombre": "Carulla Calle 85 - Unidos por Colombia",
@@ -14149,7 +14020,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:28:39.678Z",
       "actualizado": "2026-08-14T22:48:38.994Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "fx2295tkphii",
         "nombre": "C.C GRAN PLAZA - BOSA",
@@ -14206,7 +14077,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:31:26.348Z",
       "actualizado": "2026-08-14T22:47:26.746Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "dm9pyb8e83v4",
         "nombre": "MATCHACHÁ Y AMARÍA HAIRSPA",
@@ -14254,7 +14125,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:33:07.941Z",
       "actualizado": "2026-08-14T22:45:59.183Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "wkwvin5ic8ss",
         "nombre": "JIT LOGISTIC - FUNDACIÓN TAAP",
@@ -14300,7 +14171,7 @@
       "verificado": false,
       "creado": "2026-08-14T00:58:44.034Z",
       "actualizado": "2026-08-14T22:41:35.716Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -14353,7 +14224,7 @@
       "verificado": false,
       "creado": "2026-08-14T00:22:09.66Z",
       "actualizado": "2026-08-14T22:39:21.7Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -14417,7 +14288,7 @@
       "verificado": false,
       "creado": "2026-08-12T03:19:25.217Z",
       "actualizado": "2026-08-14T22:36:23.524Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -14502,7 +14373,7 @@
       "verificado": false,
       "creado": "2026-08-12T09:45:15.53Z",
       "actualizado": "2026-08-14T22:32:59.102Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "mkikfje2v8az",
         "nombre": "El águila, valle",
@@ -14577,7 +14448,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:23:54.079Z",
       "actualizado": "2026-08-14T22:23:54.079Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -14651,7 +14522,7 @@
       "verificado": false,
       "creado": "2026-08-12T14:48:07.594Z",
       "actualizado": "2026-08-14T22:19:51.769Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -14723,7 +14594,7 @@
       "verificado": false,
       "creado": "2026-08-12T04:32:59.304Z",
       "actualizado": "2026-08-14T22:07:39.4Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -14777,7 +14648,7 @@
       "verificado": false,
       "creado": "2026-08-12T15:32:22.361Z",
       "actualizado": "2026-08-14T22:00:28.414Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -14826,7 +14697,7 @@
       "verificado": false,
       "creado": "2026-08-14T21:56:17.326Z",
       "actualizado": "2026-08-14T21:56:17.326Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -14874,7 +14745,7 @@
       "verificado": false,
       "creado": "2026-08-14T21:47:02.476Z",
       "actualizado": "2026-08-14T21:47:02.476Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -14922,7 +14793,7 @@
       "verificado": false,
       "creado": "2026-08-14T21:01:53.508Z",
       "actualizado": "2026-08-14T21:22:50.236Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -14991,7 +14862,7 @@
       "verificado": false,
       "creado": "2026-08-12T15:18:05.253Z",
       "actualizado": "2026-08-14T21:18:26.999Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15063,7 +14934,7 @@
       "verificado": false,
       "creado": "2026-08-14T21:17:40.529Z",
       "actualizado": "2026-08-14T21:17:40.529Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15129,7 +15000,7 @@
       "verificado": false,
       "creado": "2026-08-12T19:58:44.965Z",
       "actualizado": "2026-08-14T21:17:29.334Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15226,7 +15097,7 @@
       "verificado": false,
       "creado": "2026-08-11T17:18:25.384Z",
       "actualizado": "2026-08-14T21:16:24.207Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15277,7 +15148,7 @@
       "verificado": false,
       "creado": "2026-08-14T20:57:57.137Z",
       "actualizado": "2026-08-14T21:01:32.19Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15329,7 +15200,7 @@
       "verificado": false,
       "creado": "2026-08-14T20:48:11.529Z",
       "actualizado": "2026-08-14T20:52:13.478Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15390,7 +15261,7 @@
       "verificado": false,
       "creado": "2026-08-13T02:33:23.151Z",
       "actualizado": "2026-08-14T20:41:34.118Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15453,7 +15324,7 @@
       "verificado": false,
       "creado": "2026-08-14T12:59:38.838Z",
       "actualizado": "2026-08-14T20:38:49.018Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15518,7 +15389,7 @@
       "verificado": false,
       "creado": "2026-08-14T12:04:10.1Z",
       "actualizado": "2026-08-14T20:38:42.262Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15589,7 +15460,7 @@
       "verificado": false,
       "creado": "2026-08-14T17:02:06.577Z",
       "actualizado": "2026-08-14T20:28:22.391Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15638,7 +15509,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:11:03.411Z",
       "actualizado": "2026-08-14T20:25:34.775Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15686,7 +15557,7 @@
       "verificado": false,
       "creado": "2026-08-14T04:08:40.738Z",
       "actualizado": "2026-08-14T20:18:52.718Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15737,7 +15608,7 @@
       "verificado": false,
       "creado": "2026-08-12T21:52:36.919Z",
       "actualizado": "2026-08-14T20:04:57.295Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15793,7 +15664,7 @@
       "verificado": false,
       "creado": "2026-08-12T01:56:22.301Z",
       "actualizado": "2026-08-14T20:00:29.887Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15856,7 +15727,7 @@
       "verificado": false,
       "creado": "2026-08-12T01:03:10.838Z",
       "actualizado": "2026-08-14T19:51:21.089Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "dcdfdy3r9nre",
         "nombre": "Ramali casta comunal",
@@ -15925,7 +15796,7 @@
       "verificado": true,
       "creado": "2026-08-14T14:26:48.367Z",
       "actualizado": "2026-08-14T19:51:02.31Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -15993,7 +15864,7 @@
       "verificado": false,
       "creado": "2026-08-13T03:18:06.745Z",
       "actualizado": "2026-08-14T19:48:10.398Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -16053,7 +15924,7 @@
       "verificado": false,
       "creado": "2026-08-14T19:47:48.964Z",
       "actualizado": "2026-08-14T19:47:48.964Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -16119,7 +15990,7 @@
       "verificado": false,
       "creado": "2026-08-14T19:45:31.997Z",
       "actualizado": "2026-08-14T19:45:31.997Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -16184,7 +16055,7 @@
       "verificado": false,
       "creado": "2026-08-11T17:46:21.811Z",
       "actualizado": "2026-08-14T19:43:28.159Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -16246,7 +16117,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:27:44.119Z",
       "actualizado": "2026-08-14T19:41:41.435Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -16314,7 +16185,7 @@
       "verificado": false,
       "creado": "2026-08-13T17:06:26.158Z",
       "actualizado": "2026-08-14T19:31:44.747Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "i57k43f5ewe3",
         "nombre": "Carrera 41 #13c14",
@@ -16383,7 +16254,7 @@
       "verificado": false,
       "creado": "2026-08-14T19:21:26.61Z",
       "actualizado": "2026-08-14T19:21:26.61Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -16439,7 +16310,7 @@
       "verificado": false,
       "creado": "2026-08-14T18:04:11.06Z",
       "actualizado": "2026-08-14T19:11:00.909Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -16498,7 +16369,7 @@
       "verificado": false,
       "creado": "2026-08-14T19:10:18.216Z",
       "actualizado": "2026-08-14T19:10:29.539Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "hpw9j9w9upaj",
         "nombre": "Punto de acopio Unidad Guaraní",
@@ -16561,7 +16432,7 @@
       "verificado": false,
       "creado": "2026-08-13T18:27:32.172Z",
       "actualizado": "2026-08-14T19:08:28.984Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -16625,7 +16496,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:11:16.916Z",
       "actualizado": "2026-08-14T19:06:50.969Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -16701,7 +16572,7 @@
       "verificado": false,
       "creado": "2026-08-14T19:05:19.94Z",
       "actualizado": "2026-08-14T19:05:19.94Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -16780,7 +16651,7 @@
       "verificado": true,
       "creado": "2026-08-12T22:01:31.48Z",
       "actualizado": "2026-08-14T18:37:55.056Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "4ihihyqc",
         "nombre": "Envíos a Norte del Valle, Chocó y Buenaventura — Barrio Libertadores",
@@ -16848,7 +16719,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:50:42.78Z",
       "actualizado": "2026-08-14T18:32:37.768Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -16919,7 +16790,7 @@
       "verificado": false,
       "creado": "2026-08-14T18:29:45.931Z",
       "actualizado": "2026-08-14T18:29:45.931Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -16981,7 +16852,7 @@
       "verificado": false,
       "creado": "2026-08-14T18:15:25.158Z",
       "actualizado": "2026-08-14T18:15:25.158Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -17049,7 +16920,7 @@
       "verificado": false,
       "creado": "2026-08-12T00:20:54.112Z",
       "actualizado": "2026-08-14T18:13:25.604Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -17115,7 +16986,7 @@
       "verificado": false,
       "creado": "2026-08-14T18:11:15.123Z",
       "actualizado": "2026-08-14T18:11:15.123Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -17192,7 +17063,7 @@
       "verificado": false,
       "creado": "2026-08-14T18:05:35.662Z",
       "actualizado": "2026-08-14T18:10:49.185Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "bupbaf9ne2gw",
         "nombre": "Punto acopio para Sevilla valle",
@@ -17283,7 +17154,7 @@
       "verificado": false,
       "creado": "2026-08-14T17:17:11.207Z",
       "actualizado": "2026-08-14T18:04:02.379Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -17360,7 +17231,7 @@
       "verificado": false,
       "creado": "2026-08-14T17:50:10.522Z",
       "actualizado": "2026-08-14T17:57:26.671Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -17432,7 +17303,7 @@
       "verificado": false,
       "creado": "2026-08-14T17:47:53.231Z",
       "actualizado": "2026-08-14T17:47:53.231Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -17500,7 +17371,7 @@
       "verificado": false,
       "creado": "2026-08-14T17:30:48.775Z",
       "actualizado": "2026-08-14T17:32:07.01Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -17562,10 +17433,10 @@
       "prioridad": "alta",
       "organizacion": "+57 3225871137 - maria camila",
       "verificado": false,
-      "confirmaciones": 2,
+      "confirmaciones": 1,
       "creado": "2026-08-14T03:35:28.166Z",
       "actualizado": "2026-08-14T17:27:28.026Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -17593,7 +17464,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "sin_dato",
-        "confirma": 2,
+        "confirma": 1,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -17618,7 +17489,7 @@
       "verificado": false,
       "creado": "2026-08-14T17:23:24.404Z",
       "actualizado": "2026-08-14T17:23:24.404Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -17694,7 +17565,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-14T15:44:27.047Z",
       "actualizado": "2026-08-14T17:22:48.603Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -17770,7 +17641,7 @@
       "verificado": false,
       "creado": "2026-08-14T12:03:53.707Z",
       "actualizado": "2026-08-14T17:15:40.225Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "qmeyayen5prd",
         "nombre": "Barrio frailes,dos quebradas risaralda",
@@ -17836,7 +17707,7 @@
       "verificado": false,
       "creado": "2026-08-14T17:14:39.076Z",
       "actualizado": "2026-08-14T17:14:39.076Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -17910,7 +17781,7 @@
       "verificado": false,
       "creado": "2026-08-14T13:59:31.383Z",
       "actualizado": "2026-08-14T17:14:13.73Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -17968,7 +17839,7 @@
       "verificado": false,
       "creado": "2026-08-14T17:11:58.634Z",
       "actualizado": "2026-08-14T17:13:57.759Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -18026,7 +17897,7 @@
       "verificado": false,
       "creado": "2026-08-14T13:33:51.419Z",
       "actualizado": "2026-08-14T17:12:35.941Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -18107,7 +17978,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:56:31.651Z",
       "actualizado": "2026-08-14T17:10:32.273Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -18194,7 +18065,7 @@
       "verificado": false,
       "creado": "2026-08-14T01:55:02.431Z",
       "actualizado": "2026-08-14T17:08:20.62Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -18264,7 +18135,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:10:58.754Z",
       "actualizado": "2026-08-14T17:01:00.164Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "r8xgvjfkgnnt",
         "nombre": "Tenemos almuerzo (arroz mixto) para 100 personas, un punto que lo necesite escribir al 3136990765",
@@ -18316,7 +18187,7 @@
       "verificado": false,
       "creado": "2026-08-13T15:22:44.933Z",
       "actualizado": "2026-08-14T17:00:26.515Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -18393,7 +18264,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:59:27.195Z",
       "actualizado": "2026-08-14T17:00:03.694Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "qnt3rvw73tck",
         "nombre": "CALLE 7SUR #51A-02 GUAYABAL",
@@ -18484,7 +18355,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:49:13.121Z",
       "actualizado": "2026-08-14T16:52:32.812Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -18563,7 +18434,7 @@
       "verificado": false,
       "creado": "2026-08-13T15:55:33.843Z",
       "actualizado": "2026-08-14T16:44:25.308Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -18621,7 +18492,7 @@
       "verificado": false,
       "creado": "2026-08-12T03:01:35.203Z",
       "actualizado": "2026-08-14T16:42:27.897Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "quhfzdesfg9g",
         "nombre": "Acopio Ciudadela Petronio — Coliseo El Pueblo",
@@ -18689,7 +18560,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:42:18.261Z",
       "actualizado": "2026-08-14T16:42:18.261Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -18760,7 +18631,7 @@
       "verificado": false,
       "creado": "2026-08-11T22:46:15.718Z",
       "actualizado": "2026-08-14T16:40:57.911Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -18853,7 +18724,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:21:36.462Z",
       "actualizado": "2026-08-14T16:22:19.364Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "nyt832e7ehg6",
         "nombre": "SON OF SON",
@@ -18932,7 +18803,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-13T04:41:06.28Z",
       "actualizado": "2026-08-14T16:20:50.98Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -18996,7 +18867,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:17:06.121Z",
       "actualizado": "2026-08-14T16:17:31.561Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "i26y397js53v",
         "nombre": "Bodega punto de ACOPIO y recoleccion",
@@ -19049,7 +18920,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:13:29.892Z",
       "actualizado": "2026-08-14T16:13:29.892Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -19110,7 +18981,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:09:50.598Z",
       "actualizado": "2026-08-14T16:09:50.598Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -19186,7 +19057,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:56:05.377Z",
       "actualizado": "2026-08-14T16:02:49.114Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "2uka7595e8gk",
         "nombre": "Los guamos",
@@ -19257,7 +19128,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:59:11.687Z",
       "actualizado": "2026-08-14T15:59:11.687Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -19314,7 +19185,7 @@
       "verificado": false,
       "creado": "2026-08-12T23:43:49.327Z",
       "actualizado": "2026-08-14T15:43:32.239Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -19362,7 +19233,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:33:59.8Z",
       "actualizado": "2026-08-14T15:35:24.276Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -19410,7 +19281,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:27:16.07Z",
       "actualizado": "2026-08-14T15:27:16.07Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -19469,7 +19340,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:25:47.112Z",
       "actualizado": "2026-08-14T15:25:47.112Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -19533,7 +19404,7 @@
       "verificado": false,
       "creado": "2026-08-14T13:49:55.281Z",
       "actualizado": "2026-08-14T15:23:41.899Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -19590,7 +19461,7 @@
       "verificado": false,
       "creado": "2026-08-13T15:39:05.394Z",
       "actualizado": "2026-08-14T15:21:25.619Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -19655,7 +19526,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:02:20.687Z",
       "actualizado": "2026-08-14T15:19:55.946Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -19735,7 +19606,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-13T16:10:54.228Z",
       "actualizado": "2026-08-14T15:19:18.545Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "g2i344bz7exq",
         "nombre": "Ganko",
@@ -19801,7 +19672,7 @@
       "verificado": false,
       "creado": "2026-08-13T19:20:19.058Z",
       "actualizado": "2026-08-14T15:17:45.47Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -19858,7 +19729,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:14:42.139Z",
       "actualizado": "2026-08-14T15:15:32.096Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -19922,7 +19793,7 @@
       "verificado": false,
       "creado": "2026-08-14T03:17:04.832Z",
       "actualizado": "2026-08-14T14:56:52.507Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -19977,7 +19848,7 @@
       "verificado": false,
       "creado": "2026-08-14T14:52:30.996Z",
       "actualizado": "2026-08-14T14:52:30.996Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -20041,7 +19912,7 @@
       "verificado": false,
       "creado": "2026-08-12T00:30:19.37Z",
       "actualizado": "2026-08-14T14:48:32.388Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -20120,7 +19991,7 @@
       "verificado": false,
       "creado": "2026-08-14T13:59:17.44Z",
       "actualizado": "2026-08-14T14:47:36.406Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -20202,7 +20073,7 @@
       "verificado": false,
       "creado": "2026-08-14T14:40:45.506Z",
       "actualizado": "2026-08-14T14:40:45.506Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -20270,7 +20141,7 @@
       "verificado": false,
       "creado": "2026-08-14T14:38:41.71Z",
       "actualizado": "2026-08-14T14:38:41.71Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -20322,7 +20193,7 @@
       "verificado": false,
       "creado": "2026-08-14T03:31:38.271Z",
       "actualizado": "2026-08-14T14:37:06.518Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -20377,7 +20248,7 @@
       "verificado": false,
       "creado": "2026-08-14T14:27:38.395Z",
       "actualizado": "2026-08-14T14:27:38.395Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -20434,7 +20305,7 @@
       "verificado": false,
       "creado": "2026-08-14T14:21:22.748Z",
       "actualizado": "2026-08-14T14:21:22.748Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -20485,7 +20356,7 @@
       "desmentidos": 1,
       "creado": "2026-08-13T23:14:02.363Z",
       "actualizado": "2026-08-14T14:17:21.895Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -20543,7 +20414,7 @@
       "verificado": false,
       "creado": "2026-08-14T14:16:04.704Z",
       "actualizado": "2026-08-14T14:16:04.704Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "efbpg5j2",
         "nombre": "Acopio Fuerza Valle — San Antonio (secundario)",
@@ -20614,7 +20485,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:00:13.917Z",
       "actualizado": "2026-08-14T14:15:51.086Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "tz5iptfdp4ma",
         "nombre": "Salón comunal barrio Rojas Pinilla",
@@ -20685,7 +20556,7 @@
       "verificado": false,
       "creado": "2026-08-14T14:15:31.508Z",
       "actualizado": "2026-08-14T14:15:31.508Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "jvf2zakk",
         "nombre": "Acopio Fuerza Valle — CC La Estación (principal)",
@@ -20752,7 +20623,7 @@
       "verificado": false,
       "creado": "2026-08-14T14:08:09.319Z",
       "actualizado": "2026-08-14T14:08:09.319Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "h3kedx56",
         "nombre": "Acopio Escuela Popular de la Guadua — hogares provisionales",
@@ -20817,7 +20688,7 @@
       "verificado": false,
       "creado": "2026-08-14T14:07:38.089Z",
       "actualizado": "2026-08-14T14:07:38.089Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -20898,7 +20769,7 @@
       "verificado": false,
       "creado": "2026-08-14T14:00:29.875Z",
       "actualizado": "2026-08-14T14:00:29.875Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -20968,7 +20839,7 @@
       "verificado": false,
       "creado": "2026-08-12T00:18:49.323Z",
       "actualizado": "2026-08-14T13:50:37.86Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21025,7 +20896,7 @@
       "verificado": false,
       "creado": "2026-08-14T04:01:34.696Z",
       "actualizado": "2026-08-14T13:49:33.272Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21087,7 +20958,7 @@
       "verificado": false,
       "creado": "2026-08-12T18:59:59.39Z",
       "actualizado": "2026-08-14T13:36:51.149Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21142,7 +21013,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:03:02.589Z",
       "actualizado": "2026-08-14T13:34:35.068Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21191,7 +21062,7 @@
       "verificado": false,
       "creado": "2026-08-13T18:53:13.646Z",
       "actualizado": "2026-08-14T13:33:15.283Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21242,7 +21113,7 @@
       "verificado": false,
       "creado": "2026-08-14T12:29:50.102Z",
       "actualizado": "2026-08-14T13:31:33.068Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21304,7 +21175,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-14T13:26:56.015Z",
       "actualizado": "2026-08-14T13:26:56.015Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "he7t72zkergb",
         "nombre": "Vane",
@@ -21368,7 +21239,7 @@
       "verificado": false,
       "creado": "2026-08-11T23:25:37.466Z",
       "actualizado": "2026-08-14T13:21:23.483Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21451,7 +21322,7 @@
       "verificado": false,
       "creado": "2026-08-14T13:08:18.433Z",
       "actualizado": "2026-08-14T13:08:18.433Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21506,7 +21377,7 @@
       "verificado": false,
       "creado": "2026-08-14T12:41:47.917Z",
       "actualizado": "2026-08-14T12:41:47.917Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21563,7 +21434,7 @@
       "verificado": false,
       "creado": "2026-08-14T12:41:16.353Z",
       "actualizado": "2026-08-14T12:41:16.353Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21619,7 +21490,7 @@
       "verificado": false,
       "creado": "2026-08-13T18:32:10.124Z",
       "actualizado": "2026-08-14T12:31:42.562Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21680,7 +21551,7 @@
       "verificado": false,
       "creado": "2026-08-13T17:14:30.974Z",
       "actualizado": "2026-08-14T12:21:12.287Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21748,7 +21619,7 @@
       "verificado": false,
       "creado": "2026-08-12T15:40:05.309Z",
       "actualizado": "2026-08-14T11:56:30.511Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21811,7 +21682,7 @@
       "verificado": false,
       "creado": "2026-08-13T13:06:34.499Z",
       "actualizado": "2026-08-14T11:38:31.743Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21887,7 +21758,7 @@
       "verificado": false,
       "creado": "2026-08-14T11:36:03.913Z",
       "actualizado": "2026-08-14T11:36:03.913Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -21957,7 +21828,7 @@
       "verificado": false,
       "creado": "2026-08-13T02:57:49.854Z",
       "actualizado": "2026-08-14T11:35:29.648Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -22024,7 +21895,7 @@
       "verificado": false,
       "creado": "2026-08-12T19:18:27.656Z",
       "actualizado": "2026-08-14T11:20:11.931Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "kphmd69kkh5a",
         "nombre": "Punto de acopio hacia el norte del valle carrera 38 #6-50 barrio eucarístico",
@@ -22087,7 +21958,7 @@
       "verificado": false,
       "creado": "2026-08-14T11:09:54.495Z",
       "actualizado": "2026-08-14T11:09:54.495Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -22151,7 +22022,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:46:04.453Z",
       "actualizado": "2026-08-14T11:09:40.992Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -22214,7 +22085,7 @@
       "verificado": false,
       "creado": "2026-08-12T04:54:22.917Z",
       "actualizado": "2026-08-14T10:08:34.683Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -22272,7 +22143,7 @@
       "verificado": false,
       "creado": "2026-08-14T06:04:05.35Z",
       "actualizado": "2026-08-14T09:50:18.51Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "esfvrknugewp",
         "nombre": "Casa cultural Alfonso López",
@@ -22342,7 +22213,7 @@
       "verificado": false,
       "creado": "2026-08-12T01:41:28.012Z",
       "actualizado": "2026-08-14T09:14:22.233Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -22450,7 +22321,7 @@
       "verificado": false,
       "creado": "2026-08-13T21:10:50.685Z",
       "actualizado": "2026-08-14T08:10:54Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -22536,7 +22407,7 @@
       "verificado": false,
       "creado": "2026-08-14T07:52:35.689Z",
       "actualizado": "2026-08-14T07:52:35.689Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -22608,7 +22479,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:56:09.053Z",
       "actualizado": "2026-08-14T06:55:09.451Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "gc4zxbbk9p8x",
         "nombre": "GYM CASA ESTUDIO",
@@ -22684,7 +22555,7 @@
       "verificado": false,
       "creado": "2026-08-13T00:34:59.865Z",
       "actualizado": "2026-08-14T06:21:32.209Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -22744,7 +22615,7 @@
       "verificado": false,
       "creado": "2026-08-13T22:26:00.574Z",
       "actualizado": "2026-08-14T05:42:37.199Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -22806,7 +22677,7 @@
       "verificado": false,
       "creado": "2026-08-12T20:21:55.145Z",
       "actualizado": "2026-08-14T05:41:25.706Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -22872,7 +22743,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:40:07.237Z",
       "actualizado": "2026-08-14T05:40:07.237Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -22943,7 +22814,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:21:19.382Z",
       "actualizado": "2026-08-14T05:21:19.382Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23016,7 +22887,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:18:18.32Z",
       "actualizado": "2026-08-14T05:18:18.32Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23078,7 +22949,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:16:38.405Z",
       "actualizado": "2026-08-14T05:17:38.578Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23143,7 +23014,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:14:14.805Z",
       "actualizado": "2026-08-14T05:14:14.805Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23214,7 +23085,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:13:50.373Z",
       "actualizado": "2026-08-14T05:13:50.373Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23283,7 +23154,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:12:15.447Z",
       "actualizado": "2026-08-14T05:12:52.94Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23353,7 +23224,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:10:13.274Z",
       "actualizado": "2026-08-14T05:10:13.274Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23411,7 +23282,7 @@
       "verificado": false,
       "creado": "2026-08-14T03:28:46.629Z",
       "actualizado": "2026-08-14T05:08:05.998Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23458,10 +23329,9 @@
       "estado": "cubierto",
       "contacto": "Buscan motobomba",
       "verificado": false,
-      "confirmaciones": 1,
       "creado": "2026-08-12T16:40:47.598Z",
       "actualizado": "2026-08-14T05:07:58.985Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "s2k8rv92iy48",
         "nombre": "Calle novena con 44 edificio Vanessa",
@@ -23486,7 +23356,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "sin_dato",
-        "confirma": 1,
+        "confirma": 0,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -23509,7 +23379,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:07:35.797Z",
       "actualizado": "2026-08-14T05:07:35.797Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23570,7 +23440,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:06:12.986Z",
       "actualizado": "2026-08-14T05:06:12.986Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23636,7 +23506,7 @@
       "verificado": false,
       "creado": "2026-08-13T22:11:50.563Z",
       "actualizado": "2026-08-14T05:05:34.563Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23709,7 +23579,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:05:03.461Z",
       "actualizado": "2026-08-14T05:05:03.461Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23773,7 +23643,7 @@
       "verificado": false,
       "creado": "2026-08-14T04:53:26.811Z",
       "actualizado": "2026-08-14T04:58:53.499Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23833,7 +23703,7 @@
       "verificado": false,
       "creado": "2026-08-14T04:50:19.155Z",
       "actualizado": "2026-08-14T04:57:27.598Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23891,7 +23761,7 @@
       "verificado": false,
       "creado": "2026-08-14T04:39:20.299Z",
       "actualizado": "2026-08-14T04:40:32.668Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -23950,7 +23820,7 @@
       "verificado": false,
       "creado": "2026-08-12T01:18:48.022Z",
       "actualizado": "2026-08-14T04:35:00.461Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -24023,7 +23893,7 @@
       "verificado": false,
       "creado": "2026-08-13T14:35:29.348Z",
       "actualizado": "2026-08-14T04:32:57.957Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -24085,7 +23955,7 @@
       "verificado": false,
       "creado": "2026-08-12T06:43:15.369Z",
       "actualizado": "2026-08-14T04:30:01.362Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -24163,7 +24033,7 @@
       "verificado": false,
       "creado": "2026-08-11T18:59:22.68Z",
       "actualizado": "2026-08-14T04:18:38.664Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -24231,7 +24101,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-13T16:46:04.733Z",
       "actualizado": "2026-08-14T04:15:45.695Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -24295,7 +24165,7 @@
       "verificado": false,
       "creado": "2026-08-14T04:12:45.939Z",
       "actualizado": "2026-08-14T04:12:45.939Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -24367,7 +24237,7 @@
       "verificado": false,
       "creado": "2026-08-14T04:09:10.827Z",
       "actualizado": "2026-08-14T04:09:10.827Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -24454,7 +24324,7 @@
       "verificado": false,
       "creado": "2026-08-14T04:02:31.691Z",
       "actualizado": "2026-08-14T04:02:31.691Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -24510,92 +24380,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-b95ea84222",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=f4dxswj5hrf8",
-      "tipo": "rescate",
-      "nombre": "La unión valle",
-      "direccion": "La unión valle",
-      "lat": 4.5373411,
-      "lon": -76.104472,
-      "necesita": [
-        "Agua",
-        "Botiquín",
-        "Carpas",
-        "Cementerio",
-        "Cinceles",
-        "Colchonetas",
-        "Comida",
-        "Comida para animales",
-        "Electrolitos",
-        "Gafas de seguridad",
-        "Guantes de obra",
-        "Linternas",
-        "Palas",
-        "Picas",
-        "Porras",
-        "Seguetas",
-        "varillas"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "Geraldine Chaparro Osorio",
-      "verificado": false,
-      "creado": "2026-08-14T03:56:30.583Z",
-      "actualizado": "2026-08-14T03:56:49.946Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "f4dxswj5hrf8",
-        "nombre": "La unión valle",
-        "tipo": "rescate",
-        "lat": 4.5373411,
-        "lng": -76.104472,
-        "direccion": "La unión valle",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Agua",
-          "Comida",
-          "Palas",
-          "Picas",
-          "Electrolitos",
-          "Botiquín",
-          "Seguetas",
-          "Colchonetas",
-          "Cinceles",
-          "Carpas",
-          "Gafas de seguridad",
-          "Linternas",
-          "Porras",
-          "Guantes de obra",
-          "Comida para animales",
-          "Cementerio",
-          "varillas"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Geraldine Chaparro Osorio",
-        "creado": 1786679790583,
-        "actualizado": 1786679809946,
-        "confirmado": 1786679790583,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-43aeb06e3e",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=ndrjrgsbmuph",
@@ -24631,7 +24415,7 @@
       "verificado": false,
       "creado": "2026-08-12T19:45:45.316Z",
       "actualizado": "2026-08-14T03:51:11.278Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -24684,258 +24468,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-1ab1cc8f46",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=hhvaiqfqndws",
-      "tipo": "rescate",
-      "nombre": "5ta con 56 la sevillana",
-      "direccion": "5ta con 56 la sevillana",
-      "necesita": [
-        "Discos de pulidora",
-        "Les urge extensiones industriales",
-        "Picas",
-        "Reportaron que no necesitan más voluntarios pero sí los insumos que aparecen en las fotos adjuntas",
-        "discos diamantados de 14 y una volqueta pequeña"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "verificado": false,
-      "creado": "2026-08-14T00:33:06.323Z",
-      "actualizado": "2026-08-14T03:43:14.169Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "hhvaiqfqndws",
-        "nombre": "5ta con 56 la sevillana",
-        "tipo": "rescate",
-        "lat": null,
-        "lng": null,
-        "direccion": "5ta con 56 la sevillana",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "discos diamantados de 14 y una volqueta pequeña",
-          "Reportaron que no necesitan más voluntarios pero sí los insumos que aparecen en las fotos adjuntas",
-          "Discos de pulidora",
-          "Picas",
-          "Les urge extensiones industriales"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786667586323,
-        "actualizado": 1786678994169,
-        "confirmado": 1786678981572,
-        "ubicado": false,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [
-          {
-            "id": "yhnqpbc5ma",
-            "url": "/media/hhvaiqfqndws/1786678140831-uyakam.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786678141416
-          },
-          {
-            "id": "q6e8fjp7p8",
-            "url": "/media/hhvaiqfqndws/1786678139345-7npxes.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786678139857
-          }
-        ],
-        "media_total": 2
-      }
-    },
-    {
-      "id": "mapa-emergencia-eacd831dc0",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=avf2twd5df8i",
-      "tipo": "rescate",
-      "nombre": "Se requieren médicos y paramédicos en Carrera 67 con 3era B, barrio El Refugio. Para relevo porfa",
-      "descripcion": "16:38 (confirmado en el momento) — Faltan CASCOS, agua, suturas y gasas. Guantes, gafas, tapabocas y comida YA SUFICIENTES: no llevar más. Pista de cascos: fábrica en Villacolombia (alguien del grupo va a confirmar).",
-      "direccion": "Se requieren médicos y paramédicos en Carrera 67 con 3era B, barrio El Refugio. Para relevo porfa",
-      "lat": 3.395721473620146,
-      "lon": -76.54893879633242,
-      "necesita": [
-        "50 y 75",
-        "Botiquín",
-        "CASCOS de construcción",
-        "Colchonetas",
-        "Comida",
-        "Comida para animales",
-        "Dextrosa de 5 y 10",
-        "Electrolitos",
-        "Gasas",
-        "Pañales",
-        "Suturas",
-        "algodón para yesos",
-        "corticoides",
-        "dexametazona",
-        "glulicina",
-        "hidrocortisona de 5 y 10",
-        "insulina",
-        "levotiroxina de 25",
-        "mometazona",
-        "tópicos"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_hay": 30,
-      "verificado": false,
-      "creado": "2026-08-12T11:38:36.241Z",
-      "actualizado": "2026-08-14T03:41:24.805Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "avf2twd5df8i",
-        "nombre": "Se requieren médicos y paramédicos en Carrera 67 con 3era B, barrio El Refugio. Para relevo porfa",
-        "tipo": "rescate",
-        "lat": 3.395721473620146,
-        "lng": -76.54893879633242,
-        "direccion": "Se requieren médicos y paramédicos en Carrera 67 con 3era B, barrio El Refugio. Para relevo porfa",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "CASCOS de construcción",
-          "Suturas",
-          "Gasas",
-          "Comida",
-          "Electrolitos",
-          "Botiquín",
-          "Pañales",
-          "Colchonetas",
-          "Comida para animales",
-          "Dextrosa de 5 y 10",
-          "algodón para yesos",
-          "corticoides",
-          "tópicos",
-          "mometazona",
-          "hidrocortisona de 5 y 10",
-          "dexametazona",
-          "levotiroxina de 25",
-          "50 y 75",
-          "insulina",
-          "glulicina"
-        ],
-        "voluntarios_hay": 30,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "16:38 (confirmado en el momento) — Faltan CASCOS, agua, suturas y gasas. Guantes, gafas, tapabocas y comida YA SUFICIENTES: no llevar más. Pista de cascos: fábrica en Villacolombia (alguien del grupo va a confirmar).",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786534716241,
-        "actualizado": 1786678884805,
-        "confirmado": 1786678639237,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "exceso",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
-      "id": "mapa-emergencia-e1b637a7b4",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=7hfaiw6bkezd",
-      "tipo": "rescate",
-      "nombre": "Florida versalles",
-      "direccion": "Florida versalles",
-      "lat": 4.646863417106341,
-      "lon": -76.13845825195314,
-      "necesita": [
-        "Agua",
-        "Botiquín",
-        "Carpas",
-        "Colchonetas",
-        "Comida",
-        "Comida para animales",
-        "Electrolitos",
-        "Gafas de seguridad",
-        "Guantes de obra",
-        "Linternas",
-        "Palas",
-        "Pañales",
-        "Picas",
-        "Seguetas",
-        "Tapabocas",
-        "Voluntarios"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_faltan": 22,
-      "organizacion": "3188449763",
-      "verificado": false,
-      "creado": "2026-08-13T12:02:25.101Z",
-      "actualizado": "2026-08-14T03:32:57.025Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "7hfaiw6bkezd",
-        "nombre": "Florida versalles",
-        "tipo": "rescate",
-        "lat": 4.646863417106341,
-        "lng": -76.13845825195314,
-        "direccion": "Florida versalles",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Voluntarios",
-          "Comida",
-          "Guantes de obra",
-          "Gafas de seguridad",
-          "Tapabocas",
-          "Palas",
-          "Picas",
-          "Botiquín",
-          "Colchonetas",
-          "Seguetas",
-          "Agua",
-          "Pañales",
-          "Comida para animales",
-          "Linternas",
-          "Electrolitos",
-          "Carpas"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 22,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "3188449763",
-        "creado": 1786622545101,
-        "actualizado": 1786678377025,
-        "confirmado": 1786678378993,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "faltan",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-d63ed1f5a7",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=7dxs67w3ydnw",
@@ -24965,7 +24497,7 @@
       "verificado": false,
       "creado": "2026-08-14T03:18:09.18Z",
       "actualizado": "2026-08-14T03:25:03.92Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "7dxs67w3ydnw",
         "nombre": "Fundapre ( fundación para el desarrollo de la educación)",
@@ -25059,7 +24591,7 @@
       "verificado": false,
       "creado": "2026-08-12T17:14:36.478Z",
       "actualizado": "2026-08-13T23:16:52.1Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -25127,7 +24659,7 @@
       "verificado": false,
       "creado": "2026-08-12T17:11:21.202Z",
       "actualizado": "2026-08-13T21:22:28.177Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -25212,7 +24744,7 @@
       "verificado": false,
       "creado": "2026-08-13T08:27:24.865Z",
       "actualizado": "2026-08-13T21:10:57.185Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -25273,7 +24805,7 @@
       "verificado": false,
       "creado": "2026-08-13T07:38:58.497Z",
       "actualizado": "2026-08-13T20:58:31.051Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -25364,7 +24896,7 @@
       "verificado": false,
       "creado": "2026-08-13T20:19:13.468Z",
       "actualizado": "2026-08-13T20:19:13.468Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -25433,7 +24965,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-12T21:22:30.145Z",
       "actualizado": "2026-08-13T19:35:18.956Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "duzuw6ccsihq",
         "nombre": "Calle 4 carrera 60a",
@@ -25506,7 +25038,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-12T04:44:50.485Z",
       "actualizado": "2026-08-13T19:32:46.118Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "raw": {
         "id": "fep3dbvv7zyr",
         "nombre": "Gato atrapado al frente de palmetto",
@@ -25567,61 +25099,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-74d8bca3f2",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=mi4v2mx88bnb",
-      "tipo": "rescate",
-      "nombre": "Carrera 56 edificio ana pilar",
-      "descripcion": "Ya están organizándos los equipos de rescate. No dejan pasar sino a autorizados y médicos",
-      "direccion": "Cra. 56 #3-88, Cuarto de Legua, Cali, Valle del Cauca",
-      "lat": 3.3942245,
-      "lon": -76.5461137,
-      "necesita": [
-        "Hielo"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "Angela",
-      "verificado": false,
-      "creado": "2026-08-12T05:45:11.295Z",
-      "actualizado": "2026-08-13T17:49:31.788Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "mi4v2mx88bnb",
-        "nombre": "Carrera 56 edificio ana pilar",
-        "tipo": "rescate",
-        "lat": 3.3942245,
-        "lng": -76.5461137,
-        "direccion": "Cra. 56 #3-88, Cuarto de Legua, Cali, Valle del Cauca",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Hielo"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "Ya están organizándos los equipos de rescate. No dejan pasar sino a autorizados y médicos",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Angela",
-        "creado": 1786513511295,
-        "actualizado": 1786643371788,
-        "confirmado": 1786678024887,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-4946ba3415",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=mv7xctmvchph",
@@ -25653,7 +25130,7 @@
       "verificado": false,
       "creado": "2026-08-12T20:11:45.706Z",
       "actualizado": "2026-08-13T13:57:11.966Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -25726,7 +25203,7 @@
       "verificado": false,
       "creado": "2026-08-12T18:33:59.702Z",
       "actualizado": "2026-08-13T13:29:44.372Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -25798,7 +25275,7 @@
       "verificado": false,
       "creado": "2026-08-12T17:41:26.156Z",
       "actualizado": "2026-08-13T00:58:58.219Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -25868,7 +25345,7 @@
       "verificado": false,
       "creado": "2026-08-12T01:49:45.115Z",
       "actualizado": "2026-08-12T22:40:03.132Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -25951,7 +25428,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-11T22:30:52.48Z",
       "actualizado": "2026-08-12T21:30:54.176Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -26026,7 +25503,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:30:45.136Z",
       "actualizado": "2026-08-12T21:13:15.5Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -26085,7 +25562,7 @@
       "verificado": false,
       "creado": "2026-08-12T18:08:27.108Z",
       "actualizado": "2026-08-12T21:12:16.265Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -26120,65 +25597,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-6ea2756876",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=ytrfqjbke9ss",
-      "tipo": "rescate",
-      "nombre": "Dagua valle",
-      "direccion": "Dagua valle",
-      "lat": 3.4469374565855597,
-      "lon": -76.52746466305679,
-      "necesita": [
-        "Guantes de obra",
-        "Linternas",
-        "Palas",
-        "Picas"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "verificado": false,
-      "creado": "2026-08-12T17:54:21.766Z",
-      "actualizado": "2026-08-12T19:33:16.072Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "ytrfqjbke9ss",
-        "nombre": "Dagua valle",
-        "tipo": "rescate",
-        "lat": 3.4469374565855597,
-        "lng": -76.52746466305679,
-        "direccion": "Dagua valle",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Guantes de obra",
-          "Palas",
-          "Picas",
-          "Linternas"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786557261766,
-        "actualizado": 1786563196072,
-        "confirmado": 1786678525389,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-2249bf3166",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=cgnknpuc9bb2",
@@ -26192,7 +25610,7 @@
       "verificado": false,
       "creado": "2026-08-12T00:52:02.362Z",
       "actualizado": "2026-08-12T18:39:53.504Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -26255,7 +25673,7 @@
       "verificado": false,
       "creado": "2026-08-12T18:01:14.16Z",
       "actualizado": "2026-08-12T18:03:40.873Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -26349,7 +25767,7 @@
       "verificado": false,
       "creado": "2026-08-12T17:24:17.622Z",
       "actualizado": "2026-08-12T17:24:17.622Z",
-      "fecha_corte": "2026-08-16T03:26:03Z",
+      "fecha_corte": "2026-08-16T04:07:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -26397,9 +25815,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 33.44838,
-        "lng": -112.07404,
-        "ciudad": "Phoenix",
+        "lat": 37.33939,
+        "lng": -121.89496,
+        "ciudad": "San Jose",
         "pais": "US"
       },
       "tipos": [
@@ -26427,6 +25845,153 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1786853090548,
+          "nombre": "Cda Los Bucaros",
+          "punto_id": "biuxmmzkdjm8"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1786853074154,
+          "nombre": "Cda Los Bucaros",
+          "punto_id": "biuxmmzkdjm8"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786852992180,
+          "nombre": "Puente aranda",
+          "punto_id": "tditxxjx29cf"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1786852991628,
+          "nombre": "Puente aranda",
+          "punto_id": "tditxxjx29cf"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786852449543,
+          "nombre": "Carrera 6A #116-17",
+          "punto_id": "b78c5mdnjxbp"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786852449099,
+          "nombre": "Carrera 6A #116-17",
+          "punto_id": "b78c5mdnjxbp"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786852448356,
+          "nombre": "Carrera 6A #116-17",
+          "punto_id": "b78c5mdnjxbp"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786851813623,
+          "nombre": "Estadio el campin",
+          "punto_id": "8sqjr5kyxncd"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786851813353,
+          "nombre": "Estadio el campin",
+          "punto_id": "8sqjr5kyxncd"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786851812836,
+          "nombre": "Estadio el campin",
+          "punto_id": "8sqjr5kyxncd"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786851812547,
+          "nombre": "Estadio el campin",
+          "punto_id": "8sqjr5kyxncd"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786851812121,
+          "nombre": "Estadio el campin",
+          "punto_id": "8sqjr5kyxncd"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786851809388,
+          "nombre": "Estadio el campin",
+          "punto_id": "8sqjr5kyxncd"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786851809120,
+          "nombre": "Estadio el campin",
+          "punto_id": "8sqjr5kyxncd"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786851808381,
+          "nombre": "Estadio el campin",
+          "punto_id": "8sqjr5kyxncd"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786851807870,
+          "nombre": "Estadio el campin",
+          "punto_id": "8sqjr5kyxncd"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786851805425,
+          "nombre": "Estadio el campin",
+          "punto_id": "8sqjr5kyxncd"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786851805280,
+          "nombre": "Estadio el campin",
+          "punto_id": "8sqjr5kyxncd"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786851805093,
+          "nombre": "Estadio el campin",
+          "punto_id": "8sqjr5kyxncd"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786851804900,
+          "nombre": "Estadio el campin",
+          "punto_id": "8sqjr5kyxncd"
+        },
+        {
+          "texto": "Necesidades: ninguna",
+          "autor": "WhatsApp 3151751861",
+          "ts": 1786851160153,
+          "nombre": "Casa Esther",
+          "punto_id": "utp4468eiazr"
+        },
         {
           "texto": "Punto creado.",
           "autor": "WhatsApp 3151751861",
@@ -26559,165 +26124,18 @@
           "ts": 1786849781139,
           "nombre": "Campin, Bogotá",
           "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849779333,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849779150,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849778936,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849778852,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849778375,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849778204,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849777974,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849777746,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849777401,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849777192,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849776890,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849776669,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849776575,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849776286,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849776106,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849775920,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849775691,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849775487,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849775391,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1786849775049,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "Punto creado.",
-          "autor": "Juliana 3151751861",
-          "ts": 1786849773023,
-          "nombre": "Calle 8b 65 -295 medellin",
-          "punto_id": "qhbr5aja3wdf"
         }
       ]
     },
     "resumen": {
-      "total": 393,
-      "urgentes": 322,
-      "faltan_manos": 57,
-      "exceso": 75,
-      "sin_ubicar": 44,
-      "sin_confirmar": 358,
-      "voluntarios_faltan": 1175,
-      "voluntarios_hay": 1569
+      "total": 385,
+      "urgentes": 314,
+      "faltan_manos": 56,
+      "exceso": 74,
+      "sin_ubicar": 43,
+      "sin_confirmar": 354,
+      "voluntarios_faltan": 1129,
+      "voluntarios_hay": 1534
     }
   }
 }
