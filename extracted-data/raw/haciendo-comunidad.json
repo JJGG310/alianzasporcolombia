@@ -4,8 +4,8 @@
   "mecanismo": "API REST de Firestore con lectura anónima (colecciones reportes_ayuda y comunidad_servicios; la colección desaparecidos se omite a propósito)",
   "ok": true,
   "nota": "No se leyó la colección 'desaparecidos' por política de datos personales.",
-  "duracion": "1.351818636s",
-  "obtenido": "2026-08-16T00:55:24Z",
+  "duracion": "1.19036966s",
+  "obtenido": "2026-08-16T02:21:38Z",
   "total": 72,
   "puntos": [
     {
@@ -25,7 +25,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:46:14.435Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/0jaJLfkuq3I91G23EN5e",
         "fields": {
@@ -81,7 +81,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:23:22.692Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/1cTmsXTRPzCFkBtoOt43",
         "fields": {
@@ -137,7 +137,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T15:06:44.388Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/2IxSCewwAuYmy6zqXhjE",
         "fields": {
@@ -193,7 +193,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T22:10:46.397Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/6GC8wnwx8rJuBc7DFbA4",
         "fields": {
@@ -267,7 +267,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T23:59:14.937Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/7aDfxxV0RAfwIAW41VQY",
         "fields": {
@@ -342,7 +342,7 @@
       "contacto": "3157264681",
       "verificado": false,
       "creado": "2026-08-14T19:12:18.102Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/7zbTKMamrs8ydmvL6BBk",
         "fields": {
@@ -416,7 +416,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:25:21.768Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/BCkQwKwNt4zzQjO7MlTp",
         "fields": {
@@ -472,7 +472,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:43:09.555Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/BOWZqgPLF5zUrtjZWHBu",
         "fields": {
@@ -528,7 +528,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T18:58:55.947Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/DoMX3Iqna01gdjt2n3Jw",
         "fields": {
@@ -602,7 +602,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T21:51:00.532Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/FMdsJ2LAJOefgQWfxIag",
         "fields": {
@@ -682,7 +682,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T16:18:30.189Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/Gl7URlJ9YxvyPBx5JSAU",
         "fields": {
@@ -757,7 +757,7 @@
       "contacto": "3163979091",
       "verificado": false,
       "creado": "2026-08-14T20:33:11.105Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/IICxjixVybD2nW1zUCmS",
         "fields": {
@@ -837,7 +837,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:03:27.12Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/IUPcLglH3TdeiJz4UClR",
         "fields": {
@@ -893,7 +893,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T03:13:42.144Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/IhR4Rfs3mx9MDXWr7Zv8",
         "fields": {
@@ -949,7 +949,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:17:59.708Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/IlFkZMnKTD5YNQyyLbnT",
         "fields": {
@@ -1005,7 +1005,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T00:39:59.875Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/JNUKlEn7pQZ4AwBfnwU4",
         "fields": {
@@ -1068,7 +1068,7 @@
       "contacto": "‪3172868989‬",
       "verificado": false,
       "creado": "2026-08-13T01:32:27.04Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/LaDLVDW6JvvZiELPGonV",
         "fields": {
@@ -1130,7 +1130,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T15:42:17.017Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/MwbAMbUWkRgEI7RUQhOT",
         "fields": {
@@ -1186,7 +1186,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T03:15:34.532Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/QMySpMasXpzTGVDVaIMz",
         "fields": {
@@ -1243,7 +1243,7 @@
       "contacto": "3157264681",
       "verificado": false,
       "creado": "2026-08-15T22:53:57.812Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/QqlUSXLrlaR68zAQAUuO",
         "fields": {
@@ -1324,7 +1324,7 @@
       "contacto": "3183355722",
       "verificado": false,
       "creado": "2026-08-13T02:18:38.993Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/R8gVBmMbmMxCwcS9QbK9",
         "fields": {
@@ -1386,7 +1386,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:40:21.093Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/RZ6e5eGX3LrDSWhZxDK3",
         "fields": {
@@ -1443,7 +1443,7 @@
       "contacto": "3183355722",
       "verificado": false,
       "creado": "2026-08-13T02:21:48.698Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/STttBUMyQFBJzg9e8KHx",
         "fields": {
@@ -1505,7 +1505,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:29:37.196Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/So268Nuwi2Cy0H8Lftfz",
         "fields": {
@@ -1561,7 +1561,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T03:09:59.942Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/UgGqPdoP3WM5b4flJM27",
         "fields": {
@@ -1618,7 +1618,7 @@
       "contacto": "316 2 11 41 34",
       "verificado": false,
       "creado": "2026-08-12T17:02:36.021Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/VBLFS31Y9SOD46ELFJ4H",
         "fields": {
@@ -1674,7 +1674,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:45:55.778Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/VsRt0ekATFL5j7ELKxOw",
         "fields": {
@@ -1731,7 +1731,7 @@
       "contacto": "3244041115",
       "verificado": false,
       "creado": "2026-08-13T15:05:34.282Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/XqHI5mF5j7SzuJdseJLs",
         "fields": {
@@ -1793,7 +1793,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T23:56:32.544Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/YcRhz8VBtMoYI5OLbusq",
         "fields": {
@@ -1867,7 +1867,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:48:19.961Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/YqB6zW4XRaADF12UqbMk",
         "fields": {
@@ -1923,7 +1923,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T03:07:48.133Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/cnRaudkU1bclI1k0zlfy",
         "fields": {
@@ -1980,7 +1980,7 @@
       "contacto": "3134223235",
       "verificado": false,
       "creado": "2026-08-15T22:48:40.689Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/dqmSn8Z6U6mAJcKjysm1",
         "fields": {
@@ -2060,7 +2060,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T20:50:07.7Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/e5j1wajp4HuhQ5WzfyHD",
         "fields": {
@@ -2116,7 +2116,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T16:47:02.857Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/elQy2dcY1Vx0WLaVyEE7",
         "fields": {
@@ -2190,7 +2190,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T18:08:01.683Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/gGiSjw0ciU7YiI5ARxFn",
         "fields": {
@@ -2261,7 +2261,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:38:53.662Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/gwAweYQm6y997ceAwnFu",
         "fields": {
@@ -2317,7 +2317,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T03:04:29.065Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/j5s7TVzbJqFxc2h0Nd70",
         "fields": {
@@ -2373,7 +2373,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T03:28:59.606Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/j6000QSXiPnztHIBcgk8",
         "fields": {
@@ -2447,7 +2447,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T03:42:54.792Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/jBqXSz9GZhs7nG0Wd1ap",
         "fields": {
@@ -2504,7 +2504,7 @@
       "contacto": "3167412350",
       "verificado": false,
       "creado": "2026-08-13T19:30:07.19Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/kUuuHg0dpYj912LZpU5D",
         "fields": {
@@ -2578,7 +2578,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:56:03.49Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/lLftWKRnjiK2begw4fFX",
         "fields": {
@@ -2634,7 +2634,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:14:26.434Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/nVnuCzErPZ1jDAIbfmlh",
         "fields": {
@@ -2696,7 +2696,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:13:29.132Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/oZfYEjA9DgihFwUTArNV",
         "fields": {
@@ -2752,7 +2752,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:06:19.663Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/ovKftPllj96sK6AuTdmD",
         "fields": {
@@ -2814,7 +2814,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:48:18.098Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/p9YkDQOAAmiGUjM3KxEY",
         "fields": {
@@ -2898,7 +2898,7 @@
       "contacto": "3052659796",
       "verificado": false,
       "creado": "2026-08-13T17:26:26.512Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/qf46IeL3W3YGlJY0TkB5",
         "fields": {
@@ -2960,7 +2960,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T17:21:51.77Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/sD9qdQVwvHvKfM2cCWKT",
         "fields": {
@@ -3035,7 +3035,7 @@
       "contacto": "3112222931",
       "verificado": false,
       "creado": "2026-08-12T13:31:57.658Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/sleftvvCEYFXyMQji8Oi",
         "fields": {
@@ -3091,7 +3091,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T04:29:09.285Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/tXm33YLcqlMIHNP0sWIh",
         "fields": {
@@ -3166,7 +3166,7 @@
       "contacto": "3229087370",
       "verificado": false,
       "creado": "2026-08-15T23:06:49.121Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/uzgSwdKO1We3imDJqKha",
         "fields": {
@@ -3241,7 +3241,7 @@
       "contacto": "3148088270",
       "verificado": false,
       "creado": "2026-08-14T21:48:42.52Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/v9rxwtgnCIeolE7D5oHV",
         "fields": {
@@ -3315,7 +3315,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T04:50:21.005Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/vx2IblwjAAqU8Xa6dRiZ",
         "fields": {
@@ -3371,7 +3371,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T03:11:45.604Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/x0ukzFze9gYZCVZLvVhG",
         "fields": {
@@ -3427,7 +3427,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T03:03:49.026Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/xIbxLwJ7QGiFScXEzbrQ",
         "fields": {
@@ -3501,7 +3501,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:20:41.301Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/reportes_ayuda/yendEdO56OsDyQegOjD0",
         "fields": {
@@ -3555,7 +3555,7 @@
       "contacto": "3117745703",
       "verificado": false,
       "creado": "2026-08-12T03:52:20.137Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/3ODU72ZFi1M6UHhae1v8",
         "fields": {
@@ -3609,7 +3609,7 @@
       "contacto": "97343465858",
       "verificado": false,
       "creado": "2026-08-12T03:54:05.85Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/DBJlkPu6sFhRP7t14cDZ",
         "fields": {
@@ -3663,7 +3663,7 @@
       "contacto": "3145712390",
       "verificado": false,
       "creado": "2026-08-12T15:55:56.165Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/E3qHfE6gLsbTVfh0zqv0",
         "fields": {
@@ -3717,7 +3717,7 @@
       "contacto": "3178713693",
       "verificado": false,
       "creado": "2026-08-12T17:15:38.138Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/ESANFdxTQ0IJrV8X2rUr",
         "fields": {
@@ -3770,7 +3770,7 @@
       "contacto": "3234592829",
       "verificado": false,
       "creado": "2026-08-12T02:52:47.823Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/FWLigjlsRs2V10v0rtK9",
         "fields": {
@@ -3824,7 +3824,7 @@
       "contacto": "3168459434",
       "verificado": false,
       "creado": "2026-08-14T16:21:28.857Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/FsxV2mgzLdZL9vSOq9VK",
         "fields": {
@@ -3884,7 +3884,7 @@
       "contacto": "3244041115",
       "verificado": false,
       "creado": "2026-08-13T14:58:38.012Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/IVx4MovhhORU4znnxeGA",
         "fields": {
@@ -3944,7 +3944,7 @@
       "contacto": "322 2843984",
       "verificado": false,
       "creado": "2026-08-12T04:40:26.68Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/L1PRdVX4MqeKhNfx1XII",
         "fields": {
@@ -3998,7 +3998,7 @@
       "contacto": "3024172975",
       "verificado": false,
       "creado": "2026-08-12T03:50:45.132Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/LyFaLOiY1EpcjAxPs0cf",
         "fields": {
@@ -4052,7 +4052,7 @@
       "contacto": "3008136957",
       "verificado": false,
       "creado": "2026-08-12T03:52:58.827Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/Sqw4EcadqW3Ao4k4OF6C",
         "fields": {
@@ -4106,7 +4106,7 @@
       "contacto": "3192791756",
       "verificado": false,
       "creado": "2026-08-14T21:48:42.498Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/TwArdikVzjUH0YBX6l7Z",
         "fields": {
@@ -4166,7 +4166,7 @@
       "contacto": "3053559145",
       "verificado": false,
       "creado": "2026-08-12T11:15:09.706Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/aIzskpiOuy8dIGX21umz",
         "fields": {
@@ -4220,7 +4220,7 @@
       "contacto": "0",
       "verificado": false,
       "creado": "2026-08-15T22:29:35.841Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/h8dZg1CsbW1YlAnuHOSo",
         "fields": {
@@ -4280,7 +4280,7 @@
       "contacto": "3192791756",
       "verificado": false,
       "creado": "2026-08-14T21:48:42.462Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/szWVE3wNHXITDISFJLJC",
         "fields": {
@@ -4340,7 +4340,7 @@
       "contacto": "3117949540",
       "verificado": false,
       "creado": "2026-08-12T17:01:29.76Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/vZs5EvqBVuUuZdesh2aL",
         "fields": {
@@ -4394,7 +4394,7 @@
       "contacto": "3128748744",
       "verificado": false,
       "creado": "2026-08-12T17:20:59.268Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "politica_alerta": [
         "posible dato de pago en 'descripcion' (billetera digital): redactado, revisar antes de publicar"
       ],
@@ -4451,7 +4451,7 @@
       "contacto": "3206989880",
       "verificado": false,
       "creado": "2026-08-12T16:12:29.916Z",
-      "fecha_corte": "2026-08-16T00:55:24Z",
+      "fecha_corte": "2026-08-16T02:21:38Z",
       "raw": {
         "name": "projects/haciendo-comunidad-db/databases/(default)/documents/comunidad_servicios/zliPdTlK59IdRqesHe6a",
         "fields": {
