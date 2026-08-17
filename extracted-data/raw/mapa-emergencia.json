@@ -3,10 +3,120 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "352.153052ms",
-  "obtenido": "2026-08-17T17:53:16Z",
-  "total": 99,
+  "duracion": "545.270228ms",
+  "obtenido": "2026-08-17T18:29:19Z",
+  "total": 96,
   "puntos": [
+    {
+      "id": "mapa-emergencia-464f9eef2f",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=b78c5mdnjxbp",
+      "tipo": "rescate",
+      "nombre": "Carrera 6A #116-17",
+      "direccion": "Carrera 6A #116-17",
+      "lat": 4.693722859530194,
+      "lon": -74.0320122241974,
+      "estado": "por-confirmar",
+      "prioridad": "alta",
+      "voluntarios_hay": 54,
+      "organizacion": "Diego Bula Salamanca - 3138159504",
+      "verificado": false,
+      "creado": "2026-08-15T02:51:21.053Z",
+      "actualizado": "2026-08-17T18:22:12.342Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
+      "raw": {
+        "id": "b78c5mdnjxbp",
+        "nombre": "Carrera 6A #116-17",
+        "tipo": "rescate",
+        "lat": 4.693722859530194,
+        "lng": -74.0320122241974,
+        "direccion": "Carrera 6A #116-17",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [],
+        "voluntarios_hay": 54,
+        "voluntarios_faltan": 0,
+        "contacto": "",
+        "notas": "",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "Diego Bula Salamanca - 3138159504",
+        "creado": 1786762281053,
+        "actualizado": 1786990932342,
+        "confirmado": 1786927034033,
+        "ubicado": true,
+        "fresco": false,
+        "saturacion": "exceso",
+        "confirma": 0,
+        "desmiente": 0,
+        "media": [],
+        "media_total": 0
+      }
+    },
+    {
+      "id": "mapa-emergencia-5c6263ca86",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=wxwv22bk9qab",
+      "tipo": "rescate",
+      "nombre": "Vereda coconuco, Valle, finca la aldea",
+      "direccion": "Vereda coconuco, Valle, finca la aldea",
+      "necesita": [
+        "Agua",
+        "Carpas",
+        "Colchonetas",
+        "Comida",
+        "Electrolitos",
+        "Guantes de obra"
+      ],
+      "estado": "urgente",
+      "prioridad": "critica",
+      "voluntarios_faltan": 9,
+      "verificado": false,
+      "confirmaciones": 1,
+      "creado": "2026-08-17T03:40:11.384Z",
+      "actualizado": "2026-08-17T18:18:06.949Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
+      "raw": {
+        "id": "wxwv22bk9qab",
+        "nombre": "Vereda coconuco, Valle,  finca la aldea",
+        "tipo": "rescate",
+        "lat": null,
+        "lng": null,
+        "direccion": "Vereda coconuco, Valle,  finca la aldea",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [
+          "Agua",
+          "Comida",
+          "Guantes de obra",
+          "Colchonetas",
+          "Carpas",
+          "Electrolitos"
+        ],
+        "voluntarios_hay": 0,
+        "voluntarios_faltan": 9,
+        "contacto": "",
+        "notas": "",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "",
+        "creado": 1786938011384,
+        "actualizado": 1786990686949,
+        "confirmado": 1786989579804,
+        "ubicado": false,
+        "fresco": true,
+        "saturacion": "faltan",
+        "confirma": 1,
+        "desmiente": 0,
+        "media": [],
+        "media_total": 0
+      }
+    },
     {
       "id": "mapa-emergencia-1a2c066de4",
       "fuente": "mapa-emergencia",
@@ -30,7 +140,7 @@
       "verificado": false,
       "creado": "2026-08-15T03:16:21.508Z",
       "actualizado": "2026-08-17T17:47:50.071Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -86,7 +196,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-17T17:32:42.86Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "knp859rnx2cb",
         "nombre": "Centro comercial parque La Colina Bogota",
@@ -143,7 +253,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-17T17:10:51.176Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "vanx56e8e6tg",
         "nombre": "Av 6 oeste #22 -40",
@@ -200,7 +310,7 @@
       "desmentidos": 1,
       "creado": "2026-08-13T16:46:04.733Z",
       "actualizado": "2026-08-17T17:05:33.185Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "fg9p2kmrh2tj",
         "nombre": "Edificio Vanesa",
@@ -288,7 +398,7 @@
       "verificado": false,
       "creado": "2026-08-16T21:59:45.406Z",
       "actualizado": "2026-08-17T16:52:45.308Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -356,7 +466,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-17T16:03:57.403Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "hw9w7cj26vwh",
         "nombre": "Campin, Bogotá",
@@ -417,65 +527,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-5c6263ca86",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=wxwv22bk9qab",
-      "tipo": "rescate",
-      "nombre": "Vereda coconuco, Valle, finca la aldea",
-      "direccion": "Vereda coconuco, Valle, finca la aldea",
-      "necesita": [
-        "Agua",
-        "Carpas",
-        "Colchonetas",
-        "Comida",
-        "Electrolitos",
-        "Guantes de obra"
-      ],
-      "estado": "urgente",
-      "prioridad": "critica",
-      "verificado": false,
-      "confirmaciones": 1,
-      "creado": "2026-08-17T03:40:11.384Z",
-      "actualizado": "2026-08-17T15:35:50.678Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
-      "raw": {
-        "id": "wxwv22bk9qab",
-        "nombre": "Vereda coconuco, Valle,  finca la aldea",
-        "tipo": "rescate",
-        "lat": null,
-        "lng": null,
-        "direccion": "Vereda coconuco, Valle,  finca la aldea",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Agua",
-          "Comida",
-          "Guantes de obra",
-          "Colchonetas",
-          "Carpas",
-          "Electrolitos"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786938011384,
-        "actualizado": 1786980950678,
-        "confirmado": 1786975291598,
-        "ubicado": false,
-        "fresco": true,
-        "saturacion": "sin_dato",
-        "confirma": 1,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-badd57c3d0",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=eda87k7tcer3",
@@ -488,7 +539,7 @@
       "verificado": false,
       "creado": "2026-08-17T14:03:33.734Z",
       "actualizado": "2026-08-17T14:04:25.466Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "eda87k7tcer3",
         "nombre": "CL 3 # 71-03 edificio mariana",
@@ -549,7 +600,7 @@
       "verificado": false,
       "creado": "2026-08-12T22:41:01.343Z",
       "actualizado": "2026-08-17T12:42:28.352Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -642,7 +693,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:16:05.059Z",
       "actualizado": "2026-08-17T12:34:40.257Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -728,7 +779,7 @@
       "verificado": false,
       "creado": "2026-08-12T19:31:55.848Z",
       "actualizado": "2026-08-17T12:06:48.363Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -791,7 +842,7 @@
       "verificado": false,
       "creado": "2026-08-16T17:23:27.838Z",
       "actualizado": "2026-08-17T11:37:39.163Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -857,7 +908,7 @@
       "verificado": false,
       "creado": "2026-08-12T13:07:28.372Z",
       "actualizado": "2026-08-17T07:55:24.284Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -965,7 +1016,7 @@
       "verificado": false,
       "creado": "2026-08-16T16:17:40.812Z",
       "actualizado": "2026-08-17T06:07:22.525Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1053,7 +1104,7 @@
       "verificado": false,
       "creado": "2026-08-17T02:28:40.726Z",
       "actualizado": "2026-08-17T04:58:25.418Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1109,7 +1160,7 @@
       "verificado": false,
       "creado": "2026-08-17T04:09:29.31Z",
       "actualizado": "2026-08-17T04:54:06.971Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1192,7 +1243,7 @@
       "verificado": false,
       "creado": "2026-08-12T22:58:40.01Z",
       "actualizado": "2026-08-17T04:48:17.132Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1287,7 +1338,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:55:04.512Z",
       "actualizado": "2026-08-17T03:24:56.567Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1381,7 +1432,7 @@
       "verificado": false,
       "creado": "2026-08-16T01:44:16.773Z",
       "actualizado": "2026-08-17T01:03:51.272Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1458,7 +1509,7 @@
       "verificado": false,
       "creado": "2026-08-13T14:38:18.509Z",
       "actualizado": "2026-08-16T23:47:34.876Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1533,7 +1584,7 @@
       "verificado": false,
       "creado": "2026-08-16T21:31:11.541Z",
       "actualizado": "2026-08-16T23:45:34.252Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1602,7 +1653,7 @@
       "verificado": false,
       "creado": "2026-08-16T11:11:43.402Z",
       "actualizado": "2026-08-16T23:27:35.152Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1691,7 +1742,7 @@
       "verificado": false,
       "creado": "2026-08-13T17:03:20.289Z",
       "actualizado": "2026-08-16T23:26:11.458Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "8sqjr5kyxncd",
         "nombre": "Estadio el campin",
@@ -1748,7 +1799,7 @@
       "verificado": false,
       "creado": "2026-08-15T17:28:44.865Z",
       "actualizado": "2026-08-16T23:23:10.631Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1811,7 +1862,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:06:08.054Z",
       "actualizado": "2026-08-16T22:11:17.567Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1858,56 +1909,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-464f9eef2f",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=b78c5mdnjxbp",
-      "tipo": "rescate",
-      "nombre": "Carrera 6A #116-17",
-      "direccion": "Carrera 6A #116-17",
-      "lat": 4.693722859530194,
-      "lon": -74.0320122241974,
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_hay": 54,
-      "organizacion": "Diego Bula Salamanca - 3138159504",
-      "verificado": false,
-      "creado": "2026-08-15T02:51:21.053Z",
-      "actualizado": "2026-08-16T22:05:40.846Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "b78c5mdnjxbp",
-        "nombre": "Carrera 6A #116-17",
-        "tipo": "rescate",
-        "lat": 4.693722859530194,
-        "lng": -74.0320122241974,
-        "direccion": "Carrera 6A #116-17",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [],
-        "voluntarios_hay": 54,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Diego Bula Salamanca - 3138159504",
-        "creado": 1786762281053,
-        "actualizado": 1786917940846,
-        "confirmado": 1786927034033,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "exceso",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-2eb695f983",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=38p5f49dfnuj",
@@ -1928,7 +1929,7 @@
       "verificado": false,
       "creado": "2026-08-14T19:47:48.964Z",
       "actualizado": "2026-08-16T21:59:04.18Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1982,7 +1983,7 @@
       "verificado": false,
       "creado": "2026-08-16T21:27:09.189Z",
       "actualizado": "2026-08-16T21:27:09.189Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2045,7 +2046,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-16T21:15:10.229Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "9xtitashddwm",
         "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
@@ -2115,7 +2116,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-13T16:01:49.57Z",
       "actualizado": "2026-08-16T20:15:57.451Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2179,7 +2180,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:56:09.053Z",
       "actualizado": "2026-08-16T19:57:25.17Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "gc4zxbbk9p8x",
         "nombre": "GYM CASA ESTUDIO",
@@ -2257,7 +2258,7 @@
       "verificado": false,
       "creado": "2026-08-12T18:33:59.702Z",
       "actualizado": "2026-08-16T18:32:20.894Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2334,7 +2335,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:09:33.023Z",
       "actualizado": "2026-08-16T18:29:09.152Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2414,7 +2415,7 @@
       "verificado": false,
       "creado": "2026-08-16T14:58:25.098Z",
       "actualizado": "2026-08-16T18:27:49.607Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "ppjaagt9gx52",
         "nombre": "AGUAS FIERAS",
@@ -2480,7 +2481,7 @@
       "verificado": false,
       "creado": "2026-08-16T17:50:36.47Z",
       "actualizado": "2026-08-16T18:14:54.879Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "ssjqbxb2ugrf",
         "nombre": "Veredas Barata, calle larga, cantores, el castillo, el cuzco, el gigante, el silencio, la ceiba, la montaña, macho negro y san José.",
@@ -2538,7 +2539,7 @@
       "verificado": false,
       "creado": "2026-08-16T18:04:58.388Z",
       "actualizado": "2026-08-16T18:05:25.82Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2598,7 +2599,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:27:44.119Z",
       "actualizado": "2026-08-16T17:55:31.546Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "xm5ej5x6b6t9",
         "nombre": "Ayuda para Roldanillo",
@@ -2652,7 +2653,7 @@
       "verificado": false,
       "creado": "2026-08-16T12:36:04.69Z",
       "actualizado": "2026-08-16T16:56:59.148Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2716,7 +2717,7 @@
       "verificado": false,
       "creado": "2026-08-16T16:48:38.116Z",
       "actualizado": "2026-08-16T16:48:38.116Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2779,7 +2780,7 @@
       "verificado": false,
       "creado": "2026-08-14T02:40:38.956Z",
       "actualizado": "2026-08-16T15:49:10.693Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2827,7 +2828,7 @@
       "verificado": false,
       "creado": "2026-08-13T00:09:40.917Z",
       "actualizado": "2026-08-16T15:41:31.909Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2887,7 +2888,7 @@
       "verificado": false,
       "creado": "2026-08-16T15:38:31.454Z",
       "actualizado": "2026-08-16T15:39:03.692Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2957,7 +2958,7 @@
       "verificado": false,
       "creado": "2026-08-16T13:53:44.615Z",
       "actualizado": "2026-08-16T13:59:31.399Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3019,7 +3020,7 @@
       "verificado": false,
       "creado": "2026-08-16T13:36:20.113Z",
       "actualizado": "2026-08-16T13:36:20.113Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3067,14 +3068,17 @@
       "necesita": [
         "Voluntarios"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "voluntarios_hay": 1,
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-16T01:27:55.235Z",
       "actualizado": "2026-08-16T13:11:37.335Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "2h8qw9c3emr3",
         "nombre": "Bogotá",
@@ -3099,7 +3103,7 @@
         "actualizado": 1786885897335,
         "confirmado": 1786968936995,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "exceso",
         "confirma": 1,
         "desmiente": 0,
@@ -3133,7 +3137,7 @@
       "verificado": false,
       "creado": "2026-08-14T07:52:35.689Z",
       "actualizado": "2026-08-16T11:28:29.959Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3191,7 +3195,7 @@
       "verificado": false,
       "creado": "2026-08-16T06:46:50.102Z",
       "actualizado": "2026-08-16T06:46:50.102Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "etrxxdvh",
         "nombre": "Alcaldía municipal Riofrío",
@@ -3239,7 +3243,7 @@
       "verificado": false,
       "creado": "2026-08-15T21:15:06.551Z",
       "actualizado": "2026-08-16T05:45:12.888Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3304,7 +3308,7 @@
       "verificado": false,
       "creado": "2026-08-12T20:01:36.893Z",
       "actualizado": "2026-08-16T05:05:21.906Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3397,7 +3401,7 @@
       "verificado": false,
       "creado": "2026-08-16T04:52:11.058Z",
       "actualizado": "2026-08-16T04:52:18.213Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3461,7 +3465,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:28:26.603Z",
       "actualizado": "2026-08-16T04:45:41.307Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3545,7 +3549,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:24:24.439Z",
       "actualizado": "2026-08-16T03:24:24.439Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3620,7 +3624,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:20:29.994Z",
       "actualizado": "2026-08-16T03:21:05.065Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "rhwssn9ku8tt",
         "nombre": "Complex ditaires",
@@ -3691,7 +3695,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:20:05.869Z",
       "actualizado": "2026-08-16T03:20:05.869Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3764,7 +3768,7 @@
       "verificado": false,
       "creado": "2026-08-16T02:52:43.443Z",
       "actualizado": "2026-08-16T02:52:43.443Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3820,7 +3824,7 @@
       "verificado": false,
       "creado": "2026-08-16T02:32:50.425Z",
       "actualizado": "2026-08-16T02:32:50.425Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3872,7 +3876,7 @@
       "verificado": false,
       "creado": "2026-08-16T01:47:04.089Z",
       "actualizado": "2026-08-16T02:11:07.807Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3936,7 +3940,7 @@
       "verificado": false,
       "creado": "2026-08-15T18:21:37.922Z",
       "actualizado": "2026-08-16T01:03:04.771Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4024,7 +4028,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:15:01.968Z",
       "actualizado": "2026-08-16T00:19:02.12Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4090,7 +4094,7 @@
       "verificado": false,
       "creado": "2026-08-14T14:04:23.281Z",
       "actualizado": "2026-08-16T00:09:07.711Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4154,7 +4158,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:10:56.379Z",
       "actualizado": "2026-08-15T23:55:16.445Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "hz9fyksusajn",
         "nombre": "FUNZA Interpark",
@@ -4221,7 +4225,7 @@
       "verificado": false,
       "creado": "2026-08-15T17:13:46.872Z",
       "actualizado": "2026-08-15T23:43:38.675Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4298,7 +4302,7 @@
       "verificado": false,
       "creado": "2026-08-15T22:34:08.645Z",
       "actualizado": "2026-08-15T23:39:01.093Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4374,7 +4378,7 @@
       "verificado": false,
       "creado": "2026-08-15T13:27:06.879Z",
       "actualizado": "2026-08-15T23:34:46.469Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4443,7 +4447,7 @@
       "verificado": false,
       "creado": "2026-08-11T22:24:50.401Z",
       "actualizado": "2026-08-15T23:29:26.619Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4539,7 +4543,7 @@
       "verificado": false,
       "creado": "2026-08-15T23:24:00.26Z",
       "actualizado": "2026-08-15T23:24:00.26Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4598,7 +4602,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-13T20:07:50.424Z",
       "actualizado": "2026-08-15T23:23:32.499Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "wdpdxxapebm8",
         "nombre": "Polideportivo colina del sur al lado del cai de napoles comuna 18  se nesesitan carpas agua comida las personas esta utilizando la cancha como albergue",
@@ -4665,7 +4669,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:20:34.688Z",
       "actualizado": "2026-08-15T23:18:26.495Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4721,7 +4725,7 @@
       "verificado": false,
       "creado": "2026-08-13T18:47:06.641Z",
       "actualizado": "2026-08-15T23:10:50.601Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4795,7 +4799,7 @@
       "verificado": false,
       "creado": "2026-08-14T21:02:48.791Z",
       "actualizado": "2026-08-15T22:56:47.936Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4879,7 +4883,7 @@
       "verificado": false,
       "creado": "2026-08-15T22:07:25.029Z",
       "actualizado": "2026-08-15T22:07:25.029Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4939,7 +4943,7 @@
       "verificado": false,
       "creado": "2026-08-15T21:28:05.862Z",
       "actualizado": "2026-08-15T21:28:05.862Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5016,7 +5020,7 @@
       "verificado": false,
       "creado": "2026-08-12T22:02:47.809Z",
       "actualizado": "2026-08-15T20:35:50.035Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5096,7 +5100,7 @@
       "verificado": false,
       "creado": "2026-08-14T00:20:01.812Z",
       "actualizado": "2026-08-15T20:20:42.244Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5179,7 +5183,7 @@
       "verificado": false,
       "creado": "2026-08-13T09:59:00.236Z",
       "actualizado": "2026-08-15T20:18:39.209Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5233,7 +5237,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T15:27:13.144Z",
       "actualizado": "2026-08-15T20:15:23.169Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "nac5jzspmu53",
         "nombre": "parque el oso",
@@ -5305,7 +5309,7 @@
       "verificado": false,
       "creado": "2026-08-15T20:03:35.211Z",
       "actualizado": "2026-08-15T20:04:22.056Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5376,7 +5380,7 @@
       "verificado": false,
       "creado": "2026-08-15T19:21:30.468Z",
       "actualizado": "2026-08-15T19:47:17.749Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5442,7 +5446,7 @@
       "verificado": false,
       "creado": "2026-08-12T20:41:12.903Z",
       "actualizado": "2026-08-15T19:32:28.375Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5510,7 +5514,7 @@
       "verificado": false,
       "creado": "2026-08-13T19:26:32.33Z",
       "actualizado": "2026-08-15T18:24:22.91Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "e63ydrayx3b9",
         "nombre": "Parroquia jesus misionero barrio prados del sur comuna 18 cali",
@@ -5552,58 +5556,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-9895f0bfb6",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=hf6t9jhcyjp7",
-      "tipo": "rescate",
-      "nombre": "Medicina Legal. HUV (Entrada de medicina legal al HUV)",
-      "direccion": "Medicina Legal. HUV (Entrada de medicina legal al HUV)",
-      "necesita": [
-        "Cascos y Hielo"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "Juan Manuel - 311 4645362",
-      "verificado": false,
-      "creado": "2026-08-15T17:37:50.745Z",
-      "actualizado": "2026-08-15T17:37:50.745Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "hf6t9jhcyjp7",
-        "nombre": "Medicina Legal. HUV (Entrada de medicina legal al HUV)",
-        "tipo": "rescate",
-        "lat": null,
-        "lng": null,
-        "direccion": "Medicina Legal. HUV (Entrada de medicina legal al HUV)",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Cascos y Hielo"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Juan Manuel -  311 4645362",
-        "creado": 1786815470745,
-        "actualizado": 1786815470745,
-        "confirmado": 1786816406984,
-        "ubicado": false,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-8b936d73f2",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=ecurxfgce646",
@@ -5628,7 +5580,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T17:19:10.871Z",
       "actualizado": "2026-08-15T17:19:45.795Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "ecurxfgce646",
         "nombre": "Refugio siempreatulado , Av. Del pollo, vereda la esmeralda , lote 2",
@@ -5687,7 +5639,7 @@
       "verificado": false,
       "creado": "2026-08-15T06:48:22.658Z",
       "actualizado": "2026-08-15T14:21:08.681Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5751,7 +5703,7 @@
       "verificado": false,
       "creado": "2026-08-14T14:24:15.305Z",
       "actualizado": "2026-08-15T05:59:45.361Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "53v86k9us7ds",
         "nombre": "BOG - Vive Claro puerta 10",
@@ -5807,7 +5759,7 @@
       "verificado": false,
       "creado": "2026-08-15T03:28:47.177Z",
       "actualizado": "2026-08-15T03:29:06.68Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5858,7 +5810,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:09:13.295Z",
       "actualizado": "2026-08-14T23:09:56.24Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "fimf5ertp7t9",
         "nombre": "SOS JUNTOS POR EL CHOCÓ Cra 22",
@@ -5911,7 +5863,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:28:39.678Z",
       "actualizado": "2026-08-14T22:48:38.994Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "fx2295tkphii",
         "nombre": "C.C GRAN PLAZA - BOSA",
@@ -5961,7 +5913,7 @@
       "verificado": false,
       "creado": "2026-08-12T15:32:22.361Z",
       "actualizado": "2026-08-14T22:00:28.414Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6030,7 +5982,7 @@
       "verificado": false,
       "creado": "2026-08-12T15:18:05.253Z",
       "actualizado": "2026-08-14T21:18:26.999Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6112,7 +6064,7 @@
       "verificado": false,
       "creado": "2026-08-12T19:58:44.965Z",
       "actualizado": "2026-08-14T21:17:29.334Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6219,7 +6171,7 @@
       "verificado": false,
       "creado": "2026-08-14T17:17:11.207Z",
       "actualizado": "2026-08-14T18:04:02.379Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6268,125 +6220,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-4ee99dc109",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=m433cb8vc2ky",
-      "tipo": "rescate",
-      "nombre": "Calle 98 A #80 39 drogueria farmadoce",
-      "direccion": "Calle 98 A #80 39 drogueria farmadoce",
-      "lat": 6.297656233861715,
-      "lon": -75.58088532898083,
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "+57 3225871137 - maria camila",
-      "verificado": false,
-      "creado": "2026-08-14T03:35:28.166Z",
-      "actualizado": "2026-08-14T17:27:28.026Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "m433cb8vc2ky",
-        "nombre": "Calle 98 A #80 39 drogueria farmadoce",
-        "tipo": "rescate",
-        "lat": 6.297656233861715,
-        "lng": -75.58088532898083,
-        "direccion": "Calle 98 A #80 39 drogueria farmadoce",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "+57 3225871137 - maria camila",
-        "creado": 1786678528166,
-        "actualizado": 1786728448026,
-        "confirmado": 1786817948692,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
-      "id": "mapa-emergencia-01d15e2021",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=73prvyyrfhcg",
-      "tipo": "rescate",
-      "nombre": "Calle 62b 1a9-250",
-      "direccion": "Calle 62b 1a9-250",
-      "lat": 3.4777373,
-      "lon": -76.4932337,
-      "necesita": [
-        "Botiquín",
-        "Carpas",
-        "Cobijas",
-        "Colchonetas",
-        "Linternas",
-        "Pañales",
-        "Tapers",
-        "carpa"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_hay": 1,
-      "organizacion": "Paula Guerrero",
-      "verificado": false,
-      "creado": "2026-08-13T04:41:06.28Z",
-      "actualizado": "2026-08-14T16:20:50.98Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "73prvyyrfhcg",
-        "nombre": "Calle 62b 1a9-250",
-        "tipo": "rescate",
-        "lat": 3.4777373,
-        "lng": -76.4932337,
-        "direccion": "Calle 62b 1a9-250",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Carpas",
-          "Tapers",
-          "Botiquín",
-          "Pañales",
-          "Colchonetas",
-          "Linternas",
-          "Cobijas",
-          "colchonetas",
-          "carpa"
-        ],
-        "voluntarios_hay": 1,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Paula Guerrero",
-        "creado": 1786596066280,
-        "actualizado": 1786724450980,
-        "confirmado": 1786817588542,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "exceso",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-70c0118a30",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=8npjih38zh2r",
@@ -6400,7 +6233,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:33:59.8Z",
       "actualizado": "2026-08-14T15:35:24.276Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6466,7 +6299,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:10:54.228Z",
       "actualizado": "2026-08-14T15:19:18.545Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6533,7 +6366,7 @@
       "verificado": false,
       "creado": "2026-08-14T13:26:56.015Z",
       "actualizado": "2026-08-14T13:26:56.015Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6584,7 +6417,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:40:47.598Z",
       "actualizado": "2026-08-14T05:07:58.985Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "s2k8rv92iy48",
         "nombre": "Calle novena con 44 edificio Vanessa",
@@ -6629,7 +6462,7 @@
       "verificado": false,
       "creado": "2026-08-12T00:52:02.362Z",
       "actualizado": "2026-08-12T18:39:53.504Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6693,7 +6526,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-12T18:01:14.16Z",
       "actualizado": "2026-08-12T18:03:40.873Z",
-      "fecha_corte": "2026-08-17T17:53:16Z",
+      "fecha_corte": "2026-08-17T18:29:18Z",
       "raw": {
         "id": "bjkvi2btaamc",
         "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
@@ -6772,9 +6605,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 39.03761,
-        "lng": -77.41582,
-        "ciudad": "Dulles Town Center",
+        "lat": 47.13014,
+        "lng": -119.27808,
+        "ciudad": "Moses Lake",
         "pais": "US"
       },
       "tipos": [
@@ -6802,6 +6635,167 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786990932342,
+          "nombre": "Carrera 6A #116-17",
+          "punto_id": "b78c5mdnjxbp"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786990931911,
+          "nombre": "Carrera 6A #116-17",
+          "punto_id": "b78c5mdnjxbp"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786990929485,
+          "nombre": "Carrera 6A #116-17",
+          "punto_id": "b78c5mdnjxbp"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786990928862,
+          "nombre": "Carrera 6A #116-17",
+          "punto_id": "b78c5mdnjxbp"
+        },
+        {
+          "texto": "1 persona menos ayudando",
+          "autor": "",
+          "ts": 1786990924817,
+          "nombre": "Carrera 6A #116-17",
+          "punto_id": "b78c5mdnjxbp"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1786990923336,
+          "nombre": "Carrera 6A #116-17",
+          "punto_id": "b78c5mdnjxbp"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786990686949,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786990684861,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786990683404,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1786989579804,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1786989576141,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786989573132,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786989572624,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1786989572208,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786989570525,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786989570033,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786989568945,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786989568509,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786989567873,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786989567234,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786989566495,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786989564004,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1786989563820,
+          "nombre": "Vereda coconuco, Valle,  finca la aldea",
+          "punto_id": "wxwv22bk9qab"
+        },
         {
           "texto": "1 mano menos por cubrir",
           "autor": "",
@@ -6920,179 +6914,18 @@
           "ts": 1786986523364,
           "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
           "punto_id": "9xtitashddwm"
-        },
-        {
-          "texto": "Confirmado sin cambios.",
-          "autor": "",
-          "ts": 1786986333185,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1786985565308,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1786985456306,
-          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-          "punto_id": "9xtitashddwm"
-        },
-        {
-          "texto": "Desmentido: la información no cuadra.",
-          "autor": "",
-          "ts": 1786984829055,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "Confirmado sin cambios.",
-          "autor": "",
-          "ts": 1786984817503,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984716575,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984716078,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984715479,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984715261,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984715116,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984714915,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984714722,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984714572,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984714410,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984714235,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984714070,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984713905,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984713712,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984713559,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984713376,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984713222,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984713072,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786984712844,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
         }
       ]
     },
     "resumen": {
-      "total": 99,
-      "urgentes": 85,
-      "faltan_manos": 18,
-      "exceso": 19,
-      "sin_ubicar": 9,
-      "sin_confirmar": 87,
-      "voluntarios_faltan": 234,
-      "voluntarios_hay": 593
+      "total": 96,
+      "urgentes": 82,
+      "faltan_manos": 19,
+      "exceso": 18,
+      "sin_ubicar": 8,
+      "sin_confirmar": 85,
+      "voluntarios_faltan": 243,
+      "voluntarios_hay": 592
     }
   }
 }
