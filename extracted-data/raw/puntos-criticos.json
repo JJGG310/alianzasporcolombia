@@ -3,9 +3,9 @@
   "url": "https://terremoto-cali-puntos-criticos.netlify.app/",
   "mecanismo": "arreglos JS embebidos en el HTML (React vía Babel standalone, sin API)",
   "ok": true,
-  "duracion": "483.136614ms",
-  "obtenido": "2026-08-17T15:20:00Z",
-  "total": 40,
+  "duracion": "3.279340563s",
+  "obtenido": "2026-08-17T15:48:31Z",
+  "total": 46,
   "puntos": [
     {
       "id": "puntos-criticos-a2f1a5eb0e",
@@ -32,7 +32,7 @@
       "prioridad": "critica",
       "contacto": "Jonathan Gómez — 320 7499522",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "lugar": "Edif. Colores — Tequendama",
         "direccion": "Calle 5D #38A-35",
@@ -81,7 +81,7 @@
       "prioridad": "critica",
       "contacto": "María Paula Hernández — 314 7874022",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "lugar": "Torres de Limonar",
         "direccion": "Cra. 72 #10 Bis-141 a 10 Bis-3, Comuna 17",
@@ -131,7 +131,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "lugar": "Calle 8 con 42",
         "direccion": "Calle 8 con 42",
@@ -170,7 +170,7 @@
       "prioridad": "critica",
       "contacto": "Camila Sánchez — 314 8875589",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "lugar": "Edificio Elvira",
         "direccion": "Carrera 4 # 58-18",
@@ -213,7 +213,7 @@
       ],
       "estado": "activo",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "lugar": "Edif. Vanessa",
         "direccion": "Cra. 44 #9-35",
@@ -256,7 +256,7 @@
       ],
       "estado": "activo",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "lugar": "Edificio Pilar",
         "direccion": "",
@@ -284,7 +284,7 @@
       ],
       "estado": "activo",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "lugar": "Colegio Adventista",
         "direccion": "",
@@ -312,7 +312,7 @@
       ],
       "estado": "activo",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "lugar": "Edificio Archinie",
         "direccion": "",
@@ -340,7 +340,7 @@
       "estado": "activo",
       "contacto": "318 5026611",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "lugar": "Autopista con 73",
         "direccion": "",
@@ -351,6 +351,28 @@
         "necesidades": [
           "Megáfonos"
         ]
+      }
+    },
+    {
+      "id": "puntos-criticos-d8fb5d9183",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "🔴 Edificio Vanessa · sigue activa la búsqueda de vida",
+      "descripcion": "La Alcaldía mantiene activa la operación de búsqueda e intervención en el edificio Vanessa (Calle 9 con Cra. 44), bajo coordinación técnica de Bomberos de Cali. Se amplió el perímetro de seguridad y se reforzaron estructuras cercanas (Los Laureles, vaciado de la piscina del Hotel Metrópolis). Por riesgo estructural y biológico se restringe el ingreso a quien no tenga función asignada, formación y equipo de protección. Las familias reciben información oficial tres veces al día.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-17T15:48:31Z",
+      "raw": {
+        "critico": true,
+        "fecha": "17 ago · 10:30 a. m.",
+        "punto": "🔴 Edificio Vanessa · sigue activa la búsqueda de vida",
+        "nota": "La Alcaldía mantiene activa la operación de búsqueda e intervención en el edificio Vanessa (Calle 9 con Cra. 44), bajo coordinación técnica de Bomberos de Cali. Se amplió el perímetro de seguridad y se reforzaron estructuras cercanas (Los Laureles, vaciado de la piscina del Hotel Metrópolis). Por riesgo estructural y biológico se restringe el ingreso a quien no tenga función asignada, formación y equipo de protección. Las familias reciben información oficial tres veces al día.",
+        "link": "https://www.cali.gov.co/boletines/publicaciones/193741/cali-refuerza-la-seguridad-en-el-edificio-vanessa-y-mantiene-activa-la-operacion-de-busqueda/",
+        "linkTexto": "Boletín Alcaldía"
       }
     },
     {
@@ -365,7 +387,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "critico": true,
         "fecha": "16 ago · 8:45 a. m.",
@@ -387,7 +409,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "critico": true,
         "fecha": "16 ago · 8:45 a. m.",
@@ -407,12 +429,117 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "critico": true,
         "fecha": "15 ago · 9:45 a. m.",
         "punto": "Homecenter de Mall Plaza · suministros para donación",
         "nota": "En el Homecenter de Mall Plaza hay suficientes suministros disponibles para donar. Está abierto; evita ir en carro."
+      }
+    },
+    {
+      "id": "puntos-criticos-8b9f659f3c",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Rutas de atención · líneas de emergencia y RUFE",
+      "descripcion": "La Alcaldía reunió en una sola página las líneas de emergencia (Bomberos 119, Defensa Civil 144, Cruz Roja 132, Policía 123, Movilidad 127), el RUFE (reporta por WhatsApp 310 229 9708; sin costo, no llenes formularios ni escanees QR, espera la visita oficial) y las rutas para mujeres, personas con discapacidad, habitantes de calle y población LGBTIQ+.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-17T15:48:31Z",
+      "raw": {
+        "fecha": "17 ago · 10:30 a. m.",
+        "punto": "Rutas de atención · líneas de emergencia y RUFE",
+        "nota": "La Alcaldía reunió en una sola página las líneas de emergencia (Bomberos 119, Defensa Civil 144, Cruz Roja 132, Policía 123, Movilidad 127), el RUFE (reporta por WhatsApp 310 229 9708; sin costo, no llenes formularios ni escanees QR, espera la visita oficial) y las rutas para mujeres, personas con discapacidad, habitantes de calle y población LGBTIQ+.",
+        "link": "https://www.cali.gov.co/gobierno/publicaciones/193729/rutas-de-atencion-damnificados-terremoto/",
+        "linkTexto": "Rutas de atención oficial"
+      }
+    },
+    {
+      "id": "puntos-criticos-cd8a3b2eb4",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Nueva plataforma para reportar afectaciones",
+      "descripcion": "La Alcaldía habilitó una plataforma para registrar afectaciones (datos, ubicación, tipo de inmueble, descripción y hasta 3 fotos). Los reportes que ya hiciste por WhatsApp (310 229 9708) fueron migrados y no se pierden: no necesitas repetirlos. La línea de WhatsApp sigue activa y responde con el enlace a la plataforma.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-17T15:48:31Z",
+      "raw": {
+        "fecha": "17 ago · 10:25 a. m.",
+        "punto": "Nueva plataforma para reportar afectaciones",
+        "nota": "La Alcaldía habilitó una plataforma para registrar afectaciones (datos, ubicación, tipo de inmueble, descripción y hasta 3 fotos). Los reportes que ya hiciste por WhatsApp (310 229 9708) fueron migrados y no se pierden: no necesitas repetirlos. La línea de WhatsApp sigue activa y responde con el enlace a la plataforma.",
+        "link": "https://www.cali.gov.co/boletines/publicaciones/193735/alcaldia-de-cali-habilita-nueva-plataforma-para-reportar-afectaciones-por-el-sismo/",
+        "linkTexto": "Boletín plataforma"
+      }
+    },
+    {
+      "id": "puntos-criticos-5d87160c0a",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Inmuebles de la Alcaldía · estado tras el sismo",
+      "descripcion": "Segunda jornada de inspección a bienes del Distrito. Bulevar de la Sexta: reutilizable tras limpieza (acceso por Av. Sexta restringido). Fuentes de Versalles: mayores daños, se recomienda mantener cerrado y estudio de vulnerabilidad. Centro Cultural: solo hemiciclo del Concejo habilitado. Teatro Municipal: cerramiento por la cúpula. Torre Alcaldía: sin daño estructural preliminar, resultados el 19/08. Torre EMCALI se inspecciona el 18/08.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-17T15:48:31Z",
+      "raw": {
+        "fecha": "17 ago · 10:20 a. m.",
+        "punto": "Inmuebles de la Alcaldía · estado tras el sismo",
+        "nota": "Segunda jornada de inspección a bienes del Distrito. Bulevar de la Sexta: reutilizable tras limpieza (acceso por Av. Sexta restringido). Fuentes de Versalles: mayores daños, se recomienda mantener cerrado y estudio de vulnerabilidad. Centro Cultural: solo hemiciclo del Concejo habilitado. Teatro Municipal: cerramiento por la cúpula. Torre Alcaldía: sin daño estructural preliminar, resultados el 19/08. Torre EMCALI se inspecciona el 18/08.",
+        "link": "https://www.cali.gov.co/boletines/publicaciones/193732/estas-son-las-afectaciones-de-los-inmuebles-de-la-alcaldia-de-cali-luego-del-terremoto/",
+        "linkTexto": "Boletín inmuebles"
+      }
+    },
+    {
+      "id": "puntos-criticos-5c3d8c29e4",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Animales · termina la búsqueda, sigue el reencuentro",
+      "descripcion": "La UAEPA cerró la etapa de búsqueda en los puntos críticos: más de 500 animales atendidos, 123 ingresados con vida al Centro de Bienestar Animal, 37 adoptados y 28 fallecidos. Si buscas a tu compañero, llama al 318 275 0101 con nombre del responsable, contacto, características, dirección y foto.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-17T15:48:31Z",
+      "raw": {
+        "fecha": "17 ago · 10:15 a. m.",
+        "punto": "Animales · termina la búsqueda, sigue el reencuentro",
+        "nota": "La UAEPA cerró la etapa de búsqueda en los puntos críticos: más de 500 animales atendidos, 123 ingresados con vida al Centro de Bienestar Animal, 37 adoptados y 28 fallecidos. Si buscas a tu compañero, llama al 318 275 0101 con nombre del responsable, contacto, características, dirección y foto.",
+        "link": "https://www.cali.gov.co/boletines/publicaciones/193737/se-culmina-etapa-de-busqueda-de-animales-en-puntos-criticos-ahora-sigue-la-recuperacion-y-el-reencuentro-de-los-afectados/",
+        "linkTexto": "Boletín UAEPA"
+      }
+    },
+    {
+      "id": "puntos-criticos-71f26649bc",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Educación · 217 sedes evaluadas, clases desde el 24 ago",
+      "descripcion": "217 sedes de 89 instituciones oficiales reportaron afectaciones. 10 cuadrillas de ingenieros revisan las 338 sedes y las clasifican (habitables, con afectaciones de 2–3 meses, o mayores). El regreso gradual a clases presenciales inicia el 24 de agosto con condiciones verificadas. Reportes: 314 723 5975 · todossomoseducacion@cali.edu.co.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-17T15:48:31Z",
+      "raw": {
+        "fecha": "17 ago · 10:10 a. m.",
+        "punto": "Educación · 217 sedes evaluadas, clases desde el 24 ago",
+        "nota": "217 sedes de 89 instituciones oficiales reportaron afectaciones. 10 cuadrillas de ingenieros revisan las 338 sedes y las clasifican (habitables, con afectaciones de 2–3 meses, o mayores). El regreso gradual a clases presenciales inicia el 24 de agosto con condiciones verificadas. Reportes: 314 723 5975 · todossomoseducacion@cali.edu.co.",
+        "link": "https://www.cali.gov.co/boletines/publicaciones/193734/secretaria-de-educacion-de-cali-avanza-en-la-evaluacion-tecnica-de-217-sedes-educativas-esta-es-la-ruta-definida-por-la-alcaldia-para-la-recuperacion-de-la-infraestructura-escolar-oficial/",
+        "linkTexto": "Boletín Educación"
       }
     },
     {
@@ -427,7 +554,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "fecha": "15 ago · 8:55 a. m.",
         "punto": "Estadio Pascual Guerrero · sin daños estructurales",
@@ -448,7 +575,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "fecha": "15 ago · 8:55 a. m.",
         "punto": "Respaldo legal · 7 decretos de la emergencia",
@@ -469,7 +596,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "fecha": "15 ago · 8:55 a. m.",
         "punto": "Trámites de la Alcaldía por canales virtuales",
@@ -490,7 +617,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "nombre": "Centro Comercial Bochalema",
         "direccion": "Cali · Habilitado por Fundación Esperanza Color Arcoíris y Pañalera Angie · Contacto: Viviana, WhatsApp 301 834 1033",
@@ -509,7 +636,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "nombre": "Reserva Natural Anáhuac",
         "direccion": "Pueblo Pance, Cali · Techo sin costo para damnificados · Contacto: 304 453 3506"
@@ -527,7 +654,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "nombre": "Karen Agudelo · Airbnb sin costo",
         "direccion": "Granada, Cali · Amoblado, cama doble y sofá cama · Del 13 al 20 de agosto (8 días) · 3.er piso sin ascensor, sin parqueadero · WhatsApp: 312 209 7085",
@@ -546,7 +673,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "nombre": "Hotel Six Avenue Cali",
         "direccion": "Av. 6a N #17N-73, Santa Mónica Residencial"
@@ -564,7 +691,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "nombre": "Cancha de hockey Miguel Calero",
         "direccion": "Calle 9 con Carrera 37A / 39"
@@ -581,7 +708,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "nombre": "Diamante de béisbol",
         "direccion": ""
@@ -599,7 +726,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "nombre": "Loft House 14",
         "direccion": "Carrera 26 #2-91"
@@ -617,7 +744,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "nombre": "Motel California",
         "direccion": "Cl. 10 #30-155, Arroyo Hondo"
@@ -635,7 +762,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "nombre": "Motel Éxtasis",
         "direccion": "3ra Norte 72 Esquina"
@@ -653,7 +780,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "nombre": "Cristal Palace",
         "direccion": "Enseguida de TQ Tecnoquímicas, Cra. 7a #23-43"
@@ -671,7 +798,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "nombre": "Residencias Ramírez",
         "direccion": "Enseguida de TQ Tecnoquímicas, Cra. 7a #23-43, San Nicolás"
@@ -689,7 +816,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "nombre": "Residencias Bugatier",
         "direccion": "Cra. 25a #14c-09"
@@ -707,7 +834,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "nombre": "Plaza Real Norte",
         "direccion": "Av. 2 Nte. #21 Norte-99"
@@ -725,7 +852,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "nombre": "Motel Kamasutra",
         "direccion": "Cl. 10 #29 A-50, Acopi"
@@ -743,7 +870,7 @@
       "estado": "urgente",
       "prioridad": "alta",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "clinica": "Clínica Alba"
       }
@@ -760,7 +887,7 @@
       "estado": "urgente",
       "prioridad": "alta",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "clinica": "Clínica Rey David"
       }
@@ -777,7 +904,7 @@
       "estado": "urgente",
       "prioridad": "alta",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "clinica": "Clínica Nuestra Señora del Rosario"
       }
@@ -794,7 +921,7 @@
       "estado": "urgente",
       "prioridad": "alta",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "clinica": "Clínica Sanitas Tequendama"
       }
@@ -811,7 +938,7 @@
       "estado": "urgente",
       "prioridad": "alta",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "clinica": "Hospital Carlos Holmes Trujillo"
       }
@@ -831,7 +958,7 @@
       "estado": "activo",
       "contacto": "Daniela Orjuela",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "recurso": "5 mujeres de Olla Comunitaria",
         "destino": "Poblado",
@@ -855,7 +982,7 @@
       "estado": "activo",
       "contacto": "Daniel Centenario — 305 3158708",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "recurso": "Dos equipos de sonido y personal",
         "destino": "Poblado",
@@ -879,7 +1006,7 @@
       "estado": "activo",
       "contacto": "Nathalia Varela — 314 7778914",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "recurso": "Planta de 6000 y EcoFlows",
         "destino": "Casa Moisés Wells",
@@ -903,7 +1030,7 @@
       "estado": "activo",
       "contacto": "Sarah Marín — 302 8525671",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "recurso": "Maquinaria pesada",
         "destino": "Sin destino aún",
@@ -927,7 +1054,7 @@
       "estado": "activo",
       "contacto": "@hielokolbitos (Instagram) — 317 5154927",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "recurso": "Hielo (Kolbitos)",
         "destino": "Sin destino aún",
@@ -951,7 +1078,7 @@
       "estado": "activo",
       "contacto": "María Paula — 314 7874022",
       "verificado": false,
-      "fecha_corte": "2026-08-17T15:20:00Z",
+      "fecha_corte": "2026-08-17T15:48:31Z",
       "raw": {
         "recurso": "Guantes · 500 almuerzos",
         "destino": "Por asignar",
@@ -2452,12 +2579,12 @@
         "texto": "Si tienes donaciones fisicas y no sabes a donde llevarlas, puedes escribirme al 3158068465, estamos mapeando la información y enviando a los lugares prioritarios"
       }
     ],
-    "actualizado": "16 de agosto de 2026, 9:00 a. m.",
+    "actualizado": "17 de agosto de 2026, 10:39 a. m.",
     "albergues_contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
     "conteo_por_arreglo": {
       "ACTUALIZACIONES": 248,
       "ALBERGUES": 14,
-      "ALTA_PRIORIDAD": 6,
+      "ALTA_PRIORIDAD": 12,
       "AYUDAS": 6,
       "CLINICAS": 5,
       "NECESIDADES_GENERALES": 13,
