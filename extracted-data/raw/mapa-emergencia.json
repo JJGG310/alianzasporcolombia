@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "593.784886ms",
-  "obtenido": "2026-08-17T09:07:14Z",
+  "duracion": "625.279398ms",
+  "obtenido": "2026-08-17T10:03:56Z",
   "total": 145,
   "puntos": [
     {
@@ -40,7 +40,7 @@
       "confirmaciones": 3,
       "creado": "2026-08-12T13:07:28.372Z",
       "actualizado": "2026-08-17T07:55:24.284Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -148,7 +148,7 @@
       "verificado": false,
       "creado": "2026-08-16T16:17:40.812Z",
       "actualizado": "2026-08-17T06:07:22.525Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -244,8 +244,8 @@
         "Tapabocas",
         "Un veterinario"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "voluntarios_hay": 27,
       "voluntarios_faltan": 5,
       "organizacion": "Beatriz",
@@ -253,7 +253,10 @@
       "confirmaciones": 4,
       "creado": "2026-08-16T21:59:45.406Z",
       "actualizado": "2026-08-17T05:57:46.934Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "be6c5q828jpg",
         "nombre": "Cra 60 con 4 casa de Lucky",
@@ -293,7 +296,7 @@
         "actualizado": 1786946266934,
         "confirmado": 1786937916398,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "faltan",
         "confirma": 4,
         "desmiente": 0,
@@ -315,10 +318,9 @@
       "prioridad": "alta",
       "voluntarios_hay": 20,
       "verificado": false,
-      "confirmaciones": 1,
       "creado": "2026-08-13T16:46:04.733Z",
       "actualizado": "2026-08-17T05:03:21.208Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -346,16 +348,9 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "exceso",
-        "confirma": 1,
+        "confirma": 0,
         "desmiente": 0,
         "media": [
-          {
-            "id": "p7epiiwxxx",
-            "url": "/media/fg9p2kmrh2tj/1786922822041-k3p4r5.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786922822545
-          },
           {
             "id": "kcvhv2m2vq",
             "url": "/media/fg9p2kmrh2tj/1786911913209-4e5xf5.jpeg",
@@ -378,7 +373,7 @@
             "ts": 1786672263758
           }
         ],
-        "media_total": 4
+        "media_total": 3
       }
     },
     {
@@ -401,7 +396,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-17T02:28:40.726Z",
       "actualizado": "2026-08-17T04:58:25.418Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -457,7 +452,7 @@
       "verificado": false,
       "creado": "2026-08-17T04:09:29.31Z",
       "actualizado": "2026-08-17T04:54:06.971Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "63a28jt3u7dv",
         "nombre": "Albergue avivamiento cali",
@@ -539,7 +534,7 @@
       "desmentidos": 1,
       "creado": "2026-08-12T22:58:40.01Z",
       "actualizado": "2026-08-17T04:48:17.132Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -613,7 +608,7 @@
       "desmentidos": 1,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-17T04:35:08.266Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -714,7 +709,7 @@
       "verificado": false,
       "creado": "2026-08-11T17:18:25.815Z",
       "actualizado": "2026-08-17T04:29:03.168Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -784,12 +779,15 @@
         "Guantes de obra",
         "Voluntarios"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "verificado": false,
       "creado": "2026-08-17T03:40:11.384Z",
       "actualizado": "2026-08-17T03:40:11.384Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "wxwv22bk9qab",
         "nombre": "Vereda coconuco, Valle,  finca la aldea",
@@ -820,7 +818,7 @@
         "actualizado": 1786938011384,
         "confirmado": 1786938011384,
         "ubicado": false,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 0,
         "desmiente": 0,
@@ -866,7 +864,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:55:04.512Z",
       "actualizado": "2026-08-17T03:24:56.567Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -936,7 +934,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-17T01:48:08.318Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1011,7 +1009,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-16T01:44:16.773Z",
       "actualizado": "2026-08-17T01:03:51.272Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1088,7 +1086,7 @@
       "verificado": false,
       "creado": "2026-08-13T14:38:18.509Z",
       "actualizado": "2026-08-16T23:47:34.876Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1163,7 +1161,7 @@
       "verificado": false,
       "creado": "2026-08-16T21:31:11.541Z",
       "actualizado": "2026-08-16T23:45:34.252Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1232,7 +1230,7 @@
       "verificado": false,
       "creado": "2026-08-16T11:11:43.402Z",
       "actualizado": "2026-08-16T23:27:35.152Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1284,20 +1282,6 @@
             "ts": 1786922855152
           },
           {
-            "id": "pvewqka8sj",
-            "url": "/media/ny7zt74ttu5a/1786881475477-xazk23.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786881475999
-          },
-          {
-            "id": "fjatbm33xn",
-            "url": "/media/ny7zt74ttu5a/1786881474143-jw7vq7.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786881474719
-          },
-          {
             "id": "ufmxxeyk4i",
             "url": "/media/ny7zt74ttu5a/1786878843271-dzuzg7.jpeg",
             "mime": "image/jpeg",
@@ -1305,7 +1289,7 @@
             "ts": 1786878843920
           }
         ],
-        "media_total": 4
+        "media_total": 2
       }
     },
     {
@@ -1336,7 +1320,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-13T17:03:20.289Z",
       "actualizado": "2026-08-16T23:26:11.458Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "8sqjr5kyxncd",
         "nombre": "Estadio el campin",
@@ -1391,10 +1375,9 @@
       "voluntarios_hay": 1,
       "voluntarios_faltan": 2,
       "verificado": false,
-      "confirmaciones": 1,
       "creado": "2026-08-15T17:28:44.865Z",
       "actualizado": "2026-08-16T23:23:10.631Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1422,7 +1405,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "faltan",
-        "confirma": 1,
+        "confirma": 0,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -1451,7 +1434,7 @@
       "verificado": false,
       "creado": "2026-08-15T03:16:21.508Z",
       "actualizado": "2026-08-16T22:15:23.535Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1520,7 +1503,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-14T23:06:08.054Z",
       "actualizado": "2026-08-16T22:11:17.567Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1583,7 +1566,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-15T02:51:21.053Z",
       "actualizado": "2026-08-16T22:05:40.846Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1638,7 +1621,7 @@
       "verificado": false,
       "creado": "2026-08-14T19:47:48.964Z",
       "actualizado": "2026-08-16T21:59:04.18Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1701,7 +1684,7 @@
       "verificado": false,
       "creado": "2026-08-15T12:43:31.602Z",
       "actualizado": "2026-08-16T21:56:44.054Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1758,7 +1741,7 @@
       "verificado": false,
       "creado": "2026-08-16T21:27:09.189Z",
       "actualizado": "2026-08-16T21:27:09.189Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1820,7 +1803,7 @@
       "verificado": false,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-16T21:15:10.229Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1892,7 +1875,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:01:49.57Z",
       "actualizado": "2026-08-16T20:15:57.451Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1955,7 +1938,7 @@
       "verificado": false,
       "creado": "2026-08-12T22:41:01.343Z",
       "actualizado": "2026-08-16T20:12:00.062Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2040,7 +2023,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:56:09.053Z",
       "actualizado": "2026-08-16T19:57:25.17Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "gc4zxbbk9p8x",
         "nombre": "GYM CASA ESTUDIO",
@@ -2118,7 +2101,7 @@
       "verificado": false,
       "creado": "2026-08-12T18:33:59.702Z",
       "actualizado": "2026-08-16T18:32:20.894Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2195,7 +2178,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:09:33.023Z",
       "actualizado": "2026-08-16T18:29:09.152Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2275,7 +2258,7 @@
       "verificado": false,
       "creado": "2026-08-16T14:58:25.098Z",
       "actualizado": "2026-08-16T18:27:49.607Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "ppjaagt9gx52",
         "nombre": "AGUAS FIERAS",
@@ -2341,7 +2324,7 @@
       "verificado": false,
       "creado": "2026-08-16T17:50:36.47Z",
       "actualizado": "2026-08-16T18:14:54.879Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "ssjqbxb2ugrf",
         "nombre": "Veredas Barata, calle larga, cantores, el castillo, el cuzco, el gigante, el silencio, la ceiba, la montaña, macho negro y san José.",
@@ -2399,7 +2382,7 @@
       "verificado": false,
       "creado": "2026-08-16T18:04:58.388Z",
       "actualizado": "2026-08-16T18:05:25.82Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2459,7 +2442,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:27:44.119Z",
       "actualizado": "2026-08-16T17:55:31.546Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "xm5ej5x6b6t9",
         "nombre": "Ayuda para Roldanillo",
@@ -2516,7 +2499,7 @@
       "verificado": false,
       "creado": "2026-08-16T17:23:27.838Z",
       "actualizado": "2026-08-16T17:23:27.838Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2567,7 +2550,7 @@
       "verificado": false,
       "creado": "2026-08-16T12:36:04.69Z",
       "actualizado": "2026-08-16T16:56:59.148Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2631,7 +2614,7 @@
       "verificado": false,
       "creado": "2026-08-16T16:48:38.116Z",
       "actualizado": "2026-08-16T16:48:38.116Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2694,7 +2677,7 @@
       "verificado": false,
       "creado": "2026-08-14T02:40:38.956Z",
       "actualizado": "2026-08-16T15:49:10.693Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2743,7 +2726,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-13T00:09:40.917Z",
       "actualizado": "2026-08-16T15:41:31.909Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2803,7 +2786,7 @@
       "verificado": false,
       "creado": "2026-08-16T15:38:31.454Z",
       "actualizado": "2026-08-16T15:39:03.692Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2878,7 +2861,7 @@
       "verificado": false,
       "creado": "2026-08-15T17:33:31.056Z",
       "actualizado": "2026-08-16T14:40:48.717Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "qrt2b4reccu6",
         "nombre": "ELCIELO HOTEL",
@@ -2952,7 +2935,7 @@
       "verificado": false,
       "creado": "2026-08-16T13:53:44.615Z",
       "actualizado": "2026-08-16T13:59:31.399Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3014,7 +2997,7 @@
       "verificado": false,
       "creado": "2026-08-16T13:36:20.113Z",
       "actualizado": "2026-08-16T13:36:20.113Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3068,7 +3051,7 @@
       "verificado": false,
       "creado": "2026-08-16T01:27:55.235Z",
       "actualizado": "2026-08-16T13:11:37.335Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3130,7 +3113,7 @@
       "verificado": false,
       "creado": "2026-08-14T07:52:35.689Z",
       "actualizado": "2026-08-16T11:28:29.959Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3188,7 +3171,7 @@
       "verificado": false,
       "creado": "2026-08-16T06:46:50.102Z",
       "actualizado": "2026-08-16T06:46:50.102Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "etrxxdvh",
         "nombre": "Alcaldía municipal Riofrío",
@@ -3236,7 +3219,7 @@
       "verificado": false,
       "creado": "2026-08-15T21:15:06.551Z",
       "actualizado": "2026-08-16T05:45:12.888Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3301,7 +3284,7 @@
       "verificado": false,
       "creado": "2026-08-12T20:01:36.893Z",
       "actualizado": "2026-08-16T05:05:21.906Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3394,7 +3377,7 @@
       "verificado": false,
       "creado": "2026-08-16T04:52:11.058Z",
       "actualizado": "2026-08-16T04:52:18.213Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3458,7 +3441,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:28:26.603Z",
       "actualizado": "2026-08-16T04:45:41.307Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3522,7 +3505,7 @@
       "verificado": false,
       "creado": "2026-08-15T14:26:11.459Z",
       "actualizado": "2026-08-16T03:32:40.153Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3593,7 +3576,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:24:24.439Z",
       "actualizado": "2026-08-16T03:24:24.439Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3668,7 +3651,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:20:29.994Z",
       "actualizado": "2026-08-16T03:21:05.065Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "rhwssn9ku8tt",
         "nombre": "Complex ditaires",
@@ -3739,7 +3722,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:20:05.869Z",
       "actualizado": "2026-08-16T03:20:05.869Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3832,7 +3815,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:16:05.059Z",
       "actualizado": "2026-08-16T03:17:44.029Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3918,7 +3901,7 @@
       "verificado": false,
       "creado": "2026-08-12T19:31:55.848Z",
       "actualizado": "2026-08-16T03:09:21.239Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3984,7 +3967,7 @@
       "verificado": false,
       "creado": "2026-08-16T02:52:43.443Z",
       "actualizado": "2026-08-16T02:52:43.443Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4040,7 +4023,7 @@
       "verificado": false,
       "creado": "2026-08-16T02:32:50.425Z",
       "actualizado": "2026-08-16T02:32:50.425Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4092,7 +4075,7 @@
       "verificado": false,
       "creado": "2026-08-16T01:47:04.089Z",
       "actualizado": "2026-08-16T02:11:07.807Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4156,7 +4139,7 @@
       "verificado": false,
       "creado": "2026-08-15T18:21:37.922Z",
       "actualizado": "2026-08-16T01:03:04.771Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4244,7 +4227,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:15:01.968Z",
       "actualizado": "2026-08-16T00:19:02.12Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4310,7 +4293,7 @@
       "verificado": false,
       "creado": "2026-08-14T14:04:23.281Z",
       "actualizado": "2026-08-16T00:09:07.711Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4374,7 +4357,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:10:56.379Z",
       "actualizado": "2026-08-15T23:55:16.445Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "hz9fyksusajn",
         "nombre": "FUNZA Interpark",
@@ -4441,7 +4424,7 @@
       "verificado": false,
       "creado": "2026-08-15T17:13:46.872Z",
       "actualizado": "2026-08-15T23:43:38.675Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4518,7 +4501,7 @@
       "verificado": false,
       "creado": "2026-08-15T22:34:08.645Z",
       "actualizado": "2026-08-15T23:39:01.093Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4613,7 +4596,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:37:19.899Z",
       "actualizado": "2026-08-15T23:36:05.576Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "t3x546qhs28y",
         "nombre": "Torres de limonar",
@@ -4676,7 +4659,7 @@
       "verificado": false,
       "creado": "2026-08-15T13:27:06.879Z",
       "actualizado": "2026-08-15T23:34:46.469Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4743,10 +4726,9 @@
       "contacto": "Carlos Rendón 3156694806",
       "organizacion": "Carlos Rendón 3156694806",
       "verificado": false,
-      "confirmaciones": 1,
       "creado": "2026-08-11T22:24:50.401Z",
       "actualizado": "2026-08-15T23:29:26.619Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4789,7 +4771,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "exceso",
-        "confirma": 1,
+        "confirma": 0,
         "desmiente": 0,
         "media": [
           {
@@ -4842,7 +4824,7 @@
       "verificado": false,
       "creado": "2026-08-15T23:24:00.26Z",
       "actualizado": "2026-08-15T23:24:00.26Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4900,7 +4882,7 @@
       "verificado": false,
       "creado": "2026-08-13T20:07:50.424Z",
       "actualizado": "2026-08-15T23:23:32.499Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4970,7 +4952,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:20:34.688Z",
       "actualizado": "2026-08-15T23:18:26.495Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5026,7 +5008,7 @@
       "verificado": false,
       "creado": "2026-08-13T18:47:06.641Z",
       "actualizado": "2026-08-15T23:10:50.601Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5100,7 +5082,7 @@
       "verificado": false,
       "creado": "2026-08-14T21:02:48.791Z",
       "actualizado": "2026-08-15T22:56:47.936Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5192,7 +5174,7 @@
       "verificado": false,
       "creado": "2026-08-13T15:58:54.306Z",
       "actualizado": "2026-08-15T22:45:58.526Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5265,7 +5247,7 @@
       "verificado": false,
       "creado": "2026-08-14T11:16:01.386Z",
       "actualizado": "2026-08-15T22:26:47.135Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5330,7 +5312,7 @@
       "verificado": false,
       "creado": "2026-08-15T22:07:25.029Z",
       "actualizado": "2026-08-15T22:07:25.029Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5386,7 +5368,7 @@
       "verificado": false,
       "creado": "2026-08-15T15:51:14.117Z",
       "actualizado": "2026-08-15T21:45:00.402Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5439,7 +5421,7 @@
       "verificado": false,
       "creado": "2026-08-15T21:28:05.862Z",
       "actualizado": "2026-08-15T21:28:05.862Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5501,7 +5483,7 @@
       "verificado": false,
       "creado": "2026-08-13T05:53:42.397Z",
       "actualizado": "2026-08-15T21:07:27.17Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5583,7 +5565,7 @@
       "verificado": false,
       "creado": "2026-08-12T22:02:47.809Z",
       "actualizado": "2026-08-15T20:35:50.035Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5663,7 +5645,7 @@
       "verificado": false,
       "creado": "2026-08-14T00:20:01.812Z",
       "actualizado": "2026-08-15T20:20:42.244Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5746,7 +5728,7 @@
       "verificado": false,
       "creado": "2026-08-13T09:59:00.236Z",
       "actualizado": "2026-08-15T20:18:39.209Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5799,7 +5781,7 @@
       "verificado": false,
       "creado": "2026-08-15T15:27:13.144Z",
       "actualizado": "2026-08-15T20:15:23.169Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5874,7 +5856,7 @@
       "verificado": false,
       "creado": "2026-08-15T20:03:35.211Z",
       "actualizado": "2026-08-15T20:04:22.056Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5942,7 +5924,7 @@
       "verificado": false,
       "creado": "2026-08-15T15:51:32.31Z",
       "actualizado": "2026-08-15T20:01:35.154Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6002,7 +5984,7 @@
       "verificado": false,
       "creado": "2026-08-15T19:21:30.468Z",
       "actualizado": "2026-08-15T19:47:17.749Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6074,7 +6056,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:27:24.255Z",
       "actualizado": "2026-08-15T19:35:36.404Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6160,7 +6142,7 @@
       "verificado": false,
       "creado": "2026-08-12T20:41:12.903Z",
       "actualizado": "2026-08-15T19:32:28.375Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6237,7 +6219,7 @@
       "verificado": false,
       "creado": "2026-08-13T22:36:02.255Z",
       "actualizado": "2026-08-15T19:31:43.183Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6315,7 +6297,7 @@
       "verificado": false,
       "creado": "2026-08-15T17:11:45.188Z",
       "actualizado": "2026-08-15T18:57:25.899Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6391,7 +6373,7 @@
       "verificado": false,
       "creado": "2026-08-15T17:36:26.533Z",
       "actualizado": "2026-08-15T18:52:35.35Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6488,7 +6470,7 @@
       "desmentidos": 1,
       "creado": "2026-08-15T16:13:28.317Z",
       "actualizado": "2026-08-15T18:26:18.737Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6559,7 +6541,7 @@
       "verificado": false,
       "creado": "2026-08-15T00:55:51.278Z",
       "actualizado": "2026-08-15T18:25:09.966Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "h94ywfzn3qi5",
         "nombre": "Banco de ropas Minuto de Dios",
@@ -6639,7 +6621,7 @@
       "verificado": false,
       "creado": "2026-08-13T19:26:32.33Z",
       "actualizado": "2026-08-15T18:24:22.91Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "e63ydrayx3b9",
         "nombre": "Parroquia jesus misionero barrio prados del sur comuna 18 cali",
@@ -6706,7 +6688,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-15T18:14:38.045Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6765,7 +6747,7 @@
       "verificado": false,
       "creado": "2026-08-15T17:37:50.745Z",
       "actualizado": "2026-08-15T17:37:50.745Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6825,7 +6807,7 @@
       "verificado": false,
       "creado": "2026-08-15T17:19:10.871Z",
       "actualizado": "2026-08-15T17:19:45.795Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6884,7 +6866,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:52:03.46Z",
       "actualizado": "2026-08-15T16:52:03.46Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6934,7 +6916,7 @@
       "verificado": false,
       "creado": "2026-08-15T03:41:05.796Z",
       "actualizado": "2026-08-15T16:47:49.748Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -6983,7 +6965,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:40:06.926Z",
       "actualizado": "2026-08-15T16:40:06.926Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7036,7 +7018,7 @@
       "verificado": false,
       "creado": "2026-08-15T15:55:18.923Z",
       "actualizado": "2026-08-15T16:32:50.873Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "9u83przqbjf3",
         "nombre": "Barrio alto bonito en buga",
@@ -7097,7 +7079,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:05:31.697Z",
       "actualizado": "2026-08-15T16:20:13.91Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7159,7 +7141,7 @@
       "verificado": false,
       "creado": "2026-08-15T15:49:12.909Z",
       "actualizado": "2026-08-15T15:49:12.909Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7231,7 +7213,7 @@
       "verificado": false,
       "creado": "2026-08-15T15:14:11.681Z",
       "actualizado": "2026-08-15T15:43:37.293Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7323,7 +7305,7 @@
       "verificado": false,
       "creado": "2026-08-15T14:57:09.587Z",
       "actualizado": "2026-08-15T15:35:00.956Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7400,7 +7382,7 @@
       "verificado": false,
       "creado": "2026-08-15T15:23:52.946Z",
       "actualizado": "2026-08-15T15:23:52.946Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7474,7 +7456,7 @@
       "verificado": false,
       "creado": "2026-08-13T21:51:58.937Z",
       "actualizado": "2026-08-15T15:14:52.585Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7546,7 +7528,7 @@
       "verificado": false,
       "creado": "2026-08-13T22:57:00.113Z",
       "actualizado": "2026-08-15T15:05:58.771Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7606,7 +7588,7 @@
       "verificado": false,
       "creado": "2026-08-15T13:06:02.779Z",
       "actualizado": "2026-08-15T14:57:00.458Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7660,7 +7642,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:30:53.206Z",
       "actualizado": "2026-08-15T14:48:34.905Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7712,7 +7694,7 @@
       "verificado": false,
       "creado": "2026-08-15T14:40:05.496Z",
       "actualizado": "2026-08-15T14:46:01.39Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "wfhwfvmb7bmj",
         "nombre": "cra",
@@ -7764,7 +7746,7 @@
       "verificado": false,
       "creado": "2026-08-15T14:35:00.275Z",
       "actualizado": "2026-08-15T14:35:16.598Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7815,7 +7797,7 @@
       "verificado": false,
       "creado": "2026-08-15T14:22:56.575Z",
       "actualizado": "2026-08-15T14:29:57.034Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7884,7 +7866,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:30:42.975Z",
       "actualizado": "2026-08-15T14:22:41.612Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -7958,7 +7940,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T06:48:22.658Z",
       "actualizado": "2026-08-15T14:21:08.681Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8018,7 +8000,7 @@
       "verificado": false,
       "creado": "2026-08-15T12:10:14.989Z",
       "actualizado": "2026-08-15T14:20:35.284Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8088,7 +8070,7 @@
       "verificado": false,
       "creado": "2026-08-15T13:33:13.257Z",
       "actualizado": "2026-08-15T13:35:42.426Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "kw86gej68rrw",
         "nombre": "Carrera 32 #30a87",
@@ -8179,7 +8161,7 @@
       "verificado": false,
       "creado": "2026-08-15T12:49:10.57Z",
       "actualizado": "2026-08-15T12:49:10.57Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8251,7 +8233,7 @@
       "verificado": false,
       "creado": "2026-08-15T12:46:17.702Z",
       "actualizado": "2026-08-15T12:46:17.702Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8321,7 +8303,7 @@
       "verificado": false,
       "creado": "2026-08-14T14:24:15.305Z",
       "actualizado": "2026-08-15T05:59:45.361Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "53v86k9us7ds",
         "nombre": "BOG - Vive Claro puerta 10",
@@ -8376,7 +8358,7 @@
       "verificado": false,
       "creado": "2026-08-14T03:21:39.283Z",
       "actualizado": "2026-08-15T04:10:26.895Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8423,11 +8405,9 @@
       "prioridad": "alta",
       "organizacion": "Carolina Mosquera- 3225401208",
       "verificado": false,
-      "confirmaciones": 1,
-      "desmentidos": 1,
       "creado": "2026-08-15T03:28:47.177Z",
       "actualizado": "2026-08-15T03:29:06.68Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8455,8 +8435,8 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "sin_dato",
-        "confirma": 1,
-        "desmiente": 1,
+        "confirma": 0,
+        "desmiente": 0,
         "media": [],
         "media_total": 0
       }
@@ -8482,7 +8462,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:40:07.467Z",
       "actualizado": "2026-08-15T01:40:07.467Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "q5nxtmihb3ry",
         "nombre": "Hola alguien que vaya camino a Jamundi y pueda llevar un paquete de ayuda hacia esta dirección Senderos de las Mercedes, casa 45 es para un adulto mayor afectado por el terremoto",
@@ -8543,7 +8523,7 @@
       "verificado": false,
       "creado": "2026-08-14T02:52:20.671Z",
       "actualizado": "2026-08-15T00:26:45.645Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8603,7 +8583,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:09:13.295Z",
       "actualizado": "2026-08-14T23:09:56.24Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "fimf5ertp7t9",
         "nombre": "SOS JUNTOS POR EL CHOCÓ Cra 22",
@@ -8656,7 +8636,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:28:39.678Z",
       "actualizado": "2026-08-14T22:48:38.994Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "fx2295tkphii",
         "nombre": "C.C GRAN PLAZA - BOSA",
@@ -8720,7 +8700,7 @@
       "verificado": false,
       "creado": "2026-08-12T03:19:25.217Z",
       "actualizado": "2026-08-14T22:36:23.524Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8780,7 +8760,7 @@
       "verificado": false,
       "creado": "2026-08-12T15:32:22.361Z",
       "actualizado": "2026-08-14T22:00:28.414Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8849,7 +8829,7 @@
       "verificado": false,
       "creado": "2026-08-12T15:18:05.253Z",
       "actualizado": "2026-08-14T21:18:26.999Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -8931,7 +8911,7 @@
       "verificado": false,
       "creado": "2026-08-12T19:58:44.965Z",
       "actualizado": "2026-08-14T21:17:29.334Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9038,7 +9018,7 @@
       "verificado": false,
       "creado": "2026-08-14T17:17:11.207Z",
       "actualizado": "2026-08-14T18:04:02.379Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9101,7 +9081,7 @@
       "verificado": false,
       "creado": "2026-08-14T03:35:28.166Z",
       "actualizado": "2026-08-14T17:27:28.026Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9172,7 +9152,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:44:27.047Z",
       "actualizado": "2026-08-14T17:22:48.603Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9253,7 +9233,7 @@
       "verificado": false,
       "creado": "2026-08-13T04:41:06.28Z",
       "actualizado": "2026-08-14T16:20:50.98Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9311,7 +9291,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:33:59.8Z",
       "actualizado": "2026-08-14T15:35:24.276Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9377,7 +9357,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:10:54.228Z",
       "actualizado": "2026-08-14T15:19:18.545Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9444,7 +9424,7 @@
       "verificado": false,
       "creado": "2026-08-14T13:26:56.015Z",
       "actualizado": "2026-08-14T13:26:56.015Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9501,7 +9481,7 @@
       "verificado": false,
       "creado": "2026-08-13T13:06:34.499Z",
       "actualizado": "2026-08-14T11:38:31.743Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9567,7 +9547,7 @@
       "verificado": false,
       "creado": "2026-08-14T05:21:19.382Z",
       "actualizado": "2026-08-14T05:21:19.382Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9630,7 +9610,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:40:47.598Z",
       "actualizado": "2026-08-14T05:07:58.985Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "s2k8rv92iy48",
         "nombre": "Calle novena con 44 edificio Vanessa",
@@ -9687,7 +9667,7 @@
       "verificado": false,
       "creado": "2026-08-12T21:22:30.145Z",
       "actualizado": "2026-08-13T19:35:18.956Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "duzuw6ccsihq",
         "nombre": "Calle 4 carrera 60a",
@@ -9759,7 +9739,7 @@
       "verificado": false,
       "creado": "2026-08-12T04:44:50.485Z",
       "actualizado": "2026-08-13T19:32:46.118Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "raw": {
         "id": "fep3dbvv7zyr",
         "nombre": "Gato atrapado al frente de palmetto",
@@ -9859,7 +9839,7 @@
       "verificado": false,
       "creado": "2026-08-11T22:30:52.48Z",
       "actualizado": "2026-08-12T21:30:54.176Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9928,7 +9908,7 @@
       "verificado": false,
       "creado": "2026-08-12T00:52:02.362Z",
       "actualizado": "2026-08-12T18:39:53.504Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -9992,7 +9972,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-12T18:01:14.16Z",
       "actualizado": "2026-08-12T18:03:40.873Z",
-      "fecha_corte": "2026-08-17T09:07:14Z",
+      "fecha_corte": "2026-08-17T10:03:56Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -10074,9 +10054,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 41.60054,
-        "lng": -93.60911,
-        "ciudad": "Des Moines",
+        "lat": 33.44838,
+        "lng": -112.07404,
+        "ciudad": "Phoenix",
         "pais": "US"
       },
       "tipos": [
@@ -10392,7 +10372,7 @@
       "faltan_manos": 23,
       "exceso": 30,
       "sin_ubicar": 13,
-      "sin_confirmar": 142,
+      "sin_confirmar": 144,
       "voluntarios_faltan": 294,
       "voluntarios_hay": 830
     }
