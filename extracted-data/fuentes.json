@@ -6,8 +6,8 @@
       "mecanismo": "API propia /api/timeline (actualmente caída) — el Supabase del sitio exige autenticación",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-08-18T10:54:57Z",
-      "duracion": "8.407082829s",
+      "obtenido": "2026-08-18T11:19:47Z",
+      "duracion": "8.245675509s",
       "nota": "endpoint público caído (500, error de blockchain); el Supabase del sitio exige autenticación (401). Sin datos públicos disponibles — se reintenta en cada corrida.",
       "error": "timeline: tras 4 intentos: https://aidtrace-rastroayuda.vercel.app/api/timeline?limit=100\u0026cursor=0 devolvió 500"
     },
@@ -17,8 +17,8 @@
       "mecanismo": "Convex HTTP query API (udf needs:list; descubierto interceptando el WebSocket)",
       "ok": true,
       "total": 73,
-      "obtenido": "2026-08-18T10:54:48Z",
-      "duracion": "261.229794ms"
+      "obtenido": "2026-08-18T11:19:39Z",
+      "duracion": "123.132708ms"
     },
     {
       "fuente": "calisolidario",
@@ -26,8 +26,8 @@
       "mecanismo": "payload RSC de Next.js embebido en el HTML de /necesidades y /ofertas",
       "ok": true,
       "total": 153,
-      "obtenido": "2026-08-18T10:54:48Z",
-      "duracion": "370.032009ms"
+      "obtenido": "2026-08-18T11:19:39Z",
+      "duracion": "374.101326ms"
     },
     {
       "fuente": "haciendo-comunidad",
@@ -35,8 +35,8 @@
       "mecanismo": "API REST de Firestore con lectura anónima (colecciones reportes_ayuda y comunidad_servicios; la colección desaparecidos se omite a propósito)",
       "ok": true,
       "total": 82,
-      "obtenido": "2026-08-18T10:54:48Z",
-      "duracion": "1.244154639s",
+      "obtenido": "2026-08-18T11:19:39Z",
+      "duracion": "1.146500602s",
       "nota": "No se leyó la colección 'desaparecidos' por política de datos personales."
     },
     {
@@ -44,9 +44,9 @@
       "url": "https://mapa-emergencia.artefactofilms.workers.dev",
       "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
       "ok": true,
-      "total": 62,
-      "obtenido": "2026-08-18T10:54:49Z",
-      "duracion": "496.925392ms"
+      "total": 61,
+      "obtenido": "2026-08-18T11:19:39Z",
+      "duracion": "349.179832ms"
     },
     {
       "fuente": "puntos-criticos",
@@ -54,8 +54,8 @@
       "mecanismo": "arreglos JS embebidos en el HTML (React vía Babel standalone, sin API)",
       "ok": true,
       "total": 45,
-      "obtenido": "2026-08-18T10:54:49Z",
-      "duracion": "341.028688ms"
+      "obtenido": "2026-08-18T11:19:39Z",
+      "duracion": "82.163014ms"
     },
     {
       "fuente": "quesenecesita",
@@ -63,8 +63,8 @@
       "mecanismo": "Google Sheets publicado como CSV (descubierto en SHEET_CSV_URL del HTML)",
       "ok": true,
       "total": 50,
-      "obtenido": "2026-08-18T10:54:48Z",
-      "duracion": "492.395064ms"
+      "obtenido": "2026-08-18T11:19:40Z",
+      "duracion": "820.658792ms"
     },
     {
       "fuente": "sismoinfo",
@@ -72,8 +72,8 @@
       "mecanismo": "API REST propia (/api/buildings y /api/anuncios; /api/disappeared se omite a propósito)",
       "ok": true,
       "total": 60,
-      "obtenido": "2026-08-18T10:54:49Z",
-      "duracion": "652.189702ms",
+      "obtenido": "2026-08-18T11:19:39Z",
+      "duracion": "564.868918ms",
       "nota": "no se leyó /api/disappeared por política de datos personales"
     },
     {
@@ -82,17 +82,17 @@
       "mecanismo": "página informativa estática (sin dataset; no hace peticiones de datos)",
       "ok": true,
       "total": 1,
-      "obtenido": "2026-08-18T10:54:48Z",
-      "duracion": "493.783804ms",
+      "obtenido": "2026-08-18T11:19:39Z",
+      "duracion": "517.319161ms",
       "nota": "sin dataset estructurado; se conserva como fuente informativa/editorial"
     }
   ],
-  "generado": "2026-08-18T10:54:48Z",
+  "generado": "2026-08-18T11:19:39Z",
   "informe": {
-    "entrada": 632,
-    "salida": 617,
+    "entrada": 631,
+    "salida": 616,
     "fusionados": 15,
-    "con_coordenadas": 298,
+    "con_coordenadas": 297,
     "requieren_revision": 1,
     "corroborados_por_2_o_mas_fuentes": 12,
     "por_fuente": {
@@ -100,7 +100,7 @@
       "calisolidario": 153,
       "curado": 106,
       "haciendo-comunidad": 72,
-      "mapa-emergencia": 61,
+      "mapa-emergencia": 60,
       "puntos-criticos": 45,
       "quesenecesita": 47,
       "sismoinfo": 59,
@@ -116,7 +116,7 @@
       "oferta": 68,
       "olla": 7,
       "otro": 6,
-      "rescate": 143,
+      "rescate": 142,
       "salud": 5,
       "sangre": 11,
       "veterinario": 1
