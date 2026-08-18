@@ -5,8 +5,8 @@
   "ok": false,
   "error": "timeline: tras 4 intentos: https://aidtrace-rastroayuda.vercel.app/api/timeline?limit=100\u0026cursor=0 devolvió 500",
   "nota": "endpoint público caído (500, error de blockchain); el Supabase del sitio exige autenticación (401). Sin datos públicos disponibles — se reintenta en cada corrida.",
-  "duracion": "12.11499521s",
-  "obtenido": "2026-08-18T10:24:54Z",
+  "duracion": "8.407082829s",
+  "obtenido": "2026-08-18T10:54:57Z",
   "total": 0,
   "puntos": null,
   "extra": {
