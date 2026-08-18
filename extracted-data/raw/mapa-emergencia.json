@@ -3,10 +3,226 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "339.005104ms",
-  "obtenido": "2026-08-18T00:51:25Z",
-  "total": 76,
+  "duracion": "340.922328ms",
+  "obtenido": "2026-08-18T02:12:19Z",
+  "total": 74,
   "puntos": [
+    {
+      "id": "mapa-emergencia-da423d181c",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=myjvsrjr9jju",
+      "tipo": "albergue",
+      "nombre": "Albergue temporal para damnificados sur",
+      "descripcion": "Albergue disponible temporal para damnificados",
+      "barrio": "Capri",
+      "direccion": "Calle 10A # 78A-05 en el barrio Capri cali",
+      "lat": 3.388444987011278,
+      "lon": -76.54178011408604,
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "creado": "2026-08-18T01:11:25.156Z",
+      "actualizado": "2026-08-18T01:41:43.94Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
+      "raw": {
+        "id": "myjvsrjr9jju",
+        "nombre": "Albergue temporal para damnificados sur",
+        "tipo": "albergue",
+        "lat": 3.388444987011278,
+        "lng": -76.54178011408604,
+        "direccion": "Calle 10A # 78A-05 en el barrio Capri cali",
+        "barrio": "Capri",
+        "estado": "urgente",
+        "necesidades": [],
+        "voluntarios_hay": 0,
+        "voluntarios_faltan": 0,
+        "contacto": "",
+        "notas": "Albergue disponible temporal para damnificados",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "",
+        "creado": 1787015485156,
+        "actualizado": 1787017303940,
+        "confirmado": 1787015951210,
+        "ubicado": true,
+        "fresco": true,
+        "saturacion": "sin_dato",
+        "confirma": 0,
+        "desmiente": 0,
+        "media": [
+          {
+            "id": "drfpuijuea",
+            "url": "/media/myjvsrjr9jju/1787015949686-jqtnxw.mp4",
+            "mime": "video/mp4",
+            "pie": "",
+            "ts": 1787015951210
+          }
+        ],
+        "media_total": 1
+      }
+    },
+    {
+      "id": "mapa-emergencia-b6b92147e6",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=eiij3v6ew25v",
+      "tipo": "rescate",
+      "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+      "descripcion": "Los voluntarios estamos esperando un levantamiento de cuerpos para seguir sacando escombros",
+      "direccion": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+      "lat": 3.4091410073640573,
+      "lon": -76.54909344406266,
+      "necesita": [
+        "ACMP",
+        "Alcohol",
+        "Cascos",
+        "Comida",
+        "Comida para animales",
+        "Electrolitos",
+        "ExtintorROJO",
+        "Gafas de seguridad",
+        "Gasolina",
+        "Guantes de obra",
+        "Hidratación",
+        "Linternas",
+        "Voluntarios"
+      ],
+      "estado": "por-confirmar",
+      "prioridad": "alta",
+      "voluntarios_hay": 30,
+      "voluntarios_faltan": 28,
+      "verificado": false,
+      "creado": "2026-08-12T13:07:28.372Z",
+      "actualizado": "2026-08-18T01:20:46.847Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
+      "raw": {
+        "id": "eiij3v6ew25v",
+        "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+        "tipo": "rescate",
+        "lat": 3.4091410073640573,
+        "lng": -76.54909344406266,
+        "direccion": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [
+          "Linternas",
+          "Electrolitos",
+          "Comida",
+          "Hidratación",
+          "Gasolina",
+          "Alcohol",
+          "ACMP",
+          "ExtintorROJO",
+          "Gafas de seguridad",
+          "Cascos",
+          "Voluntarios",
+          "Comida para animales",
+          "Guantes de obra"
+        ],
+        "voluntarios_hay": 30,
+        "voluntarios_faltan": 28,
+        "contacto": "",
+        "notas": "Los voluntarios estamos esperando un levantamiento de cuerpos para seguir sacando escombros",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "",
+        "creado": 1786540048372,
+        "actualizado": 1787016046847,
+        "confirmado": 1786924885153,
+        "ubicado": true,
+        "fresco": false,
+        "saturacion": "faltan",
+        "confirma": 0,
+        "desmiente": 0,
+        "media": [
+          {
+            "id": "mc9juckdkw",
+            "url": "/media/eiij3v6ew25v/1786812070571-ci4ufd.jpeg",
+            "mime": "image/jpeg",
+            "pie": "",
+            "ts": 1786812071153
+          },
+          {
+            "id": "i867fe4is9",
+            "url": "/media/eiij3v6ew25v/1786703549214-r5tykj.jpeg",
+            "mime": "image/jpeg",
+            "pie": "",
+            "ts": 1786703550240
+          },
+          {
+            "id": "tcvvirj3qe",
+            "url": "/media/eiij3v6ew25v/1786543865633-45m87f.jpeg",
+            "mime": "image/jpeg",
+            "pie": "",
+            "ts": 1786543866010
+          }
+        ],
+        "media_total": 3
+      }
+    },
+    {
+      "id": "mapa-emergencia-b8145d398a",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=6d2rrk6jg9g4",
+      "tipo": "acopio",
+      "nombre": "Carrera 56 # 13C-29",
+      "descripcion": "Insumos para Municipios del Norte del Valle como El Dovio, El Cairo, Argelia, Versalles, La Unión, entre otros; e incluso Buenaventura",
+      "direccion": "Carrera 56 # 13C-29",
+      "lat": 3.4049515961971393,
+      "lon": -76.53413464762254,
+      "necesita": [
+        "Aceite",
+        "Café",
+        "Chocolate",
+        "Panela"
+      ],
+      "estado": "urgente",
+      "prioridad": "critica",
+      "organizacion": "Punto de Acopio Instalaciones Auxiliares de CVC",
+      "verificado": false,
+      "confirmaciones": 1,
+      "creado": "2026-08-14T23:06:08.054Z",
+      "actualizado": "2026-08-18T00:56:56.77Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
+      "raw": {
+        "id": "6d2rrk6jg9g4",
+        "nombre": "Carrera 56 # 13C-29",
+        "tipo": "acopio",
+        "lat": 3.4049515961971393,
+        "lng": -76.53413464762254,
+        "direccion": "Carrera 56 # 13C-29",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [
+          "Panela",
+          "Café",
+          "Chocolate",
+          "Aceite"
+        ],
+        "voluntarios_hay": 0,
+        "voluntarios_faltan": 0,
+        "contacto": "",
+        "notas": "Insumos para Municipios del Norte del Valle como El Dovio, El Cairo, Argelia, Versalles, La Unión, entre otros; e incluso Buenaventura",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
+        "creado": 1786748768054,
+        "actualizado": 1787014616770,
+        "confirmado": 1787014386975,
+        "ubicado": true,
+        "fresco": true,
+        "saturacion": "sin_dato",
+        "confirma": 1,
+        "desmiente": 0,
+        "media": [],
+        "media_total": 0
+      }
+    },
     {
       "id": "mapa-emergencia-25e9d28e0f",
       "fuente": "mapa-emergencia",
@@ -24,7 +240,7 @@
       "desmentidos": 1,
       "creado": "2026-08-13T16:46:04.733Z",
       "actualizado": "2026-08-17T23:20:28.951Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "fg9p2kmrh2tj",
         "nombre": "Edificio Vanesa",
@@ -47,7 +263,7 @@
         "actualizado": 1787008828951,
         "confirmado": 1786997423023,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "exceso",
         "confirma": 1,
         "desmiente": 1,
@@ -91,7 +307,7 @@
       "verificado": false,
       "creado": "2026-08-17T21:27:13.648Z",
       "actualizado": "2026-08-17T22:30:26.948Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "swdifw55c6tz",
         "nombre": "Cl. 12a #56-4, panamericano, Cali, Valle del Cauca",
@@ -157,7 +373,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-16T21:59:45.406Z",
       "actualizado": "2026-08-17T22:23:50.737Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "be6c5q828jpg",
         "nombre": "Cra 60 con 4 casa de Lucky",
@@ -235,7 +451,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T18:21:37.922Z",
       "actualizado": "2026-08-17T22:23:29.746Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "sdznvek56naf",
         "nombre": "Cra 60 A #4",
@@ -321,7 +537,7 @@
       "verificado": false,
       "creado": "2026-08-16T17:23:27.838Z",
       "actualizado": "2026-08-17T21:21:35.219Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "m52qenb5xh47",
         "nombre": "Av 3 i NOrte #49-52",
@@ -367,7 +583,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:40:47.598Z",
       "actualizado": "2026-08-17T21:19:54.175Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "s2k8rv92iy48",
         "nombre": "Calle novena con 44 edificio Vanessa",
@@ -423,13 +639,16 @@
         "Tapabocas",
         "Tapers"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "organizacion": "3205163851",
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-17T20:10:08.582Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "2kzk3b8unask",
         "nombre": "Riofrio valle",
@@ -467,7 +686,7 @@
         "actualizado": 1786997408582,
         "confirmado": 1786997408582,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 0,
         "desmiente": 0,
@@ -510,7 +729,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:09:33.023Z",
       "actualizado": "2026-08-17T20:00:27.561Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -585,15 +804,18 @@
         "Pañales",
         "Tapers"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "contacto": "3108421875",
       "organizacion": "SANTIAGO 3108421875",
       "verificado": false,
       "confirmaciones": 2,
       "creado": "2026-08-12T18:01:14.16Z",
       "actualizado": "2026-08-17T19:54:00.741Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "bjkvi2btaamc",
         "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
@@ -626,7 +848,7 @@
         "actualizado": 1786996440741,
         "confirmado": 1786995326812,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 2,
         "desmiente": 0,
@@ -676,12 +898,15 @@
       "necesita": [
         "Albergue temporal para damnificados"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "verificado": false,
       "creado": "2026-08-17T19:22:04.164Z",
       "actualizado": "2026-08-17T19:23:57.936Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "ythbnzuca5g3",
         "nombre": "Albergue temporal para damnificados",
@@ -706,7 +931,7 @@
         "actualizado": 1786994637936,
         "confirmado": 1786994524164,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 0,
         "desmiente": 0,
@@ -738,10 +963,10 @@
       "voluntarios_hay": 3,
       "voluntarios_faltan": 7,
       "verificado": false,
-      "confirmaciones": 3,
+      "confirmaciones": 4,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-17T18:55:21.639Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "9xtitashddwm",
         "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
@@ -771,11 +996,11 @@
         "autor": "",
         "creado": 1786887048937,
         "actualizado": 1786992921639,
-        "confirmado": 1786994726752,
+        "confirmado": 1787015130449,
         "ubicado": true,
         "fresco": true,
         "saturacion": "faltan",
-        "confirma": 3,
+        "confirma": 4,
         "desmiente": 0,
         "media": [
           {
@@ -810,7 +1035,7 @@
       "verificado": false,
       "creado": "2026-08-17T18:40:07.679Z",
       "actualizado": "2026-08-17T18:40:07.679Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -860,7 +1085,7 @@
       "verificado": false,
       "creado": "2026-08-15T02:51:21.053Z",
       "actualizado": "2026-08-17T18:22:12.342Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -916,7 +1141,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-17T03:40:11.384Z",
       "actualizado": "2026-08-17T18:18:06.949Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -980,7 +1205,7 @@
       "verificado": false,
       "creado": "2026-08-15T03:16:21.508Z",
       "actualizado": "2026-08-17T17:47:50.071Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1036,7 +1261,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-17T17:32:42.86Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1096,7 +1321,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-17T17:10:51.176Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1155,7 +1380,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-17T16:03:57.403Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1231,7 +1456,7 @@
       "verificado": false,
       "creado": "2026-08-17T14:03:33.734Z",
       "actualizado": "2026-08-17T14:04:25.466Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "eda87k7tcer3",
         "nombre": "CL 3 # 71-03 edificio mariana",
@@ -1300,7 +1525,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:16:05.059Z",
       "actualizado": "2026-08-17T12:34:40.257Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1386,7 +1611,7 @@
       "verificado": false,
       "creado": "2026-08-12T19:31:55.848Z",
       "actualizado": "2026-08-17T12:06:48.363Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1435,108 +1660,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-b6b92147e6",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=eiij3v6ew25v",
-      "tipo": "rescate",
-      "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-      "descripcion": "Los voluntarios estamos esperando un levantamiento de cuerpos para seguir sacando escombros",
-      "direccion": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-      "lat": 3.4091410073640573,
-      "lon": -76.54909344406266,
-      "necesita": [
-        "ACMP",
-        "Alcohol",
-        "Cascos",
-        "Comida",
-        "Comida para animales",
-        "Electrolitos",
-        "ExtintorROJO",
-        "Gafas de seguridad",
-        "Gasolina",
-        "Guantes de obra",
-        "Hidratación",
-        "Linternas",
-        "Voluntarios"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_hay": 30,
-      "voluntarios_faltan": 28,
-      "verificado": false,
-      "creado": "2026-08-12T13:07:28.372Z",
-      "actualizado": "2026-08-17T07:55:24.284Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "eiij3v6ew25v",
-        "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-        "tipo": "rescate",
-        "lat": 3.4091410073640573,
-        "lng": -76.54909344406266,
-        "direccion": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Linternas",
-          "Electrolitos",
-          "Comida",
-          "Hidratación",
-          "Gasolina",
-          "Alcohol",
-          "ACMP",
-          "ExtintorROJO",
-          "Gafas de seguridad",
-          "Cascos",
-          "Voluntarios",
-          "Comida para animales",
-          "Guantes de obra"
-        ],
-        "voluntarios_hay": 30,
-        "voluntarios_faltan": 28,
-        "contacto": "",
-        "notas": "Los voluntarios estamos esperando un levantamiento de cuerpos para seguir sacando escombros",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786540048372,
-        "actualizado": 1786953324284,
-        "confirmado": 1786924885153,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "faltan",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [
-          {
-            "id": "mc9juckdkw",
-            "url": "/media/eiij3v6ew25v/1786812070571-ci4ufd.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786812071153
-          },
-          {
-            "id": "i867fe4is9",
-            "url": "/media/eiij3v6ew25v/1786703549214-r5tykj.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786703550240
-          },
-          {
-            "id": "tcvvirj3qe",
-            "url": "/media/eiij3v6ew25v/1786543865633-45m87f.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786543866010
-          }
-        ],
-        "media_total": 3
-      }
-    },
-    {
       "id": "mapa-emergencia-7189107988",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=eit9idndyf4v",
@@ -1574,7 +1697,7 @@
       "verificado": false,
       "creado": "2026-08-16T16:17:40.812Z",
       "actualizado": "2026-08-17T06:07:22.525Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1662,7 +1785,7 @@
       "verificado": false,
       "creado": "2026-08-17T02:28:40.726Z",
       "actualizado": "2026-08-17T04:58:25.418Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1718,7 +1841,7 @@
       "verificado": false,
       "creado": "2026-08-17T04:09:29.31Z",
       "actualizado": "2026-08-17T04:54:06.971Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1801,7 +1924,7 @@
       "verificado": false,
       "creado": "2026-08-12T22:58:40.01Z",
       "actualizado": "2026-08-17T04:48:17.132Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1898,7 +2021,7 @@
       "verificado": false,
       "creado": "2026-08-16T01:44:16.773Z",
       "actualizado": "2026-08-17T01:03:51.272Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1973,7 +2096,7 @@
       "verificado": false,
       "creado": "2026-08-16T21:31:11.541Z",
       "actualizado": "2026-08-16T23:45:34.252Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2042,7 +2165,7 @@
       "verificado": false,
       "creado": "2026-08-16T11:11:43.402Z",
       "actualizado": "2026-08-16T23:27:35.152Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2131,7 +2254,7 @@
       "verificado": false,
       "creado": "2026-08-13T17:03:20.289Z",
       "actualizado": "2026-08-16T23:26:11.458Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "8sqjr5kyxncd",
         "nombre": "Estadio el campin",
@@ -2188,7 +2311,7 @@
       "verificado": false,
       "creado": "2026-08-15T17:28:44.865Z",
       "actualizado": "2026-08-16T23:23:10.631Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2223,81 +2346,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-b8145d398a",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=6d2rrk6jg9g4",
-      "tipo": "acopio",
-      "nombre": "Carrera 56 # 13C-29",
-      "descripcion": "Insumos para Municipios del Norte del Valle como El Dovio, El Cairo, Argelia, Versalles, La Unión, entre otros; e incluso Buenaventura",
-      "direccion": "Carrera 56 # 13C-29",
-      "lat": 3.4049515961971393,
-      "lon": -76.53413464762254,
-      "necesita": [
-        "Aceite",
-        "Ahora se necesita: Leche en polvo",
-        "Alimentos No Perecederos",
-        "Aseo Personal",
-        "Atún y Sal",
-        "Azúcar",
-        "Botiquín",
-        "Comida",
-        "Granos",
-        "Harina",
-        "Pastas"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "Punto de Acopio Instalaciones Auxiliares de CVC",
-      "verificado": false,
-      "creado": "2026-08-14T23:06:08.054Z",
-      "actualizado": "2026-08-16T22:11:17.567Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "6d2rrk6jg9g4",
-        "nombre": "Carrera 56 # 13C-29",
-        "tipo": "acopio",
-        "lat": 3.4049515961971393,
-        "lng": -76.53413464762254,
-        "direccion": "Carrera 56 # 13C-29",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Alimentos No Perecederos",
-          "Aseo Personal",
-          "Comida",
-          "Botiquín",
-          "Ahora se necesita: Leche en polvo",
-          "Azúcar",
-          "Aceite",
-          "Pastas",
-          "Harina",
-          "Granos",
-          "Atún y Sal"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "Insumos para Municipios del Norte del Valle como El Dovio, El Cairo, Argelia, Versalles, La Unión, entre otros; e incluso Buenaventura",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
-        "creado": 1786748768054,
-        "actualizado": 1786918277567,
-        "confirmado": 1786925056509,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-2eb695f983",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=38p5f49dfnuj",
@@ -2318,7 +2366,7 @@
       "verificado": false,
       "creado": "2026-08-14T19:47:48.964Z",
       "actualizado": "2026-08-16T21:59:04.18Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2372,7 +2420,7 @@
       "verificado": false,
       "creado": "2026-08-16T21:27:09.189Z",
       "actualizado": "2026-08-16T21:27:09.189Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2422,7 +2470,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:01:49.57Z",
       "actualizado": "2026-08-16T20:15:57.451Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2486,7 +2534,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:56:09.053Z",
       "actualizado": "2026-08-16T19:57:25.17Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "gc4zxbbk9p8x",
         "nombre": "GYM CASA ESTUDIO",
@@ -2564,7 +2612,7 @@
       "verificado": false,
       "creado": "2026-08-12T18:33:59.702Z",
       "actualizado": "2026-08-16T18:32:20.894Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2633,7 +2681,7 @@
       "verificado": false,
       "creado": "2026-08-16T14:58:25.098Z",
       "actualizado": "2026-08-16T18:27:49.607Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "ppjaagt9gx52",
         "nombre": "AGUAS FIERAS",
@@ -2699,7 +2747,7 @@
       "verificado": false,
       "creado": "2026-08-16T17:50:36.47Z",
       "actualizado": "2026-08-16T18:14:54.879Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "ssjqbxb2ugrf",
         "nombre": "Veredas Barata, calle larga, cantores, el castillo, el cuzco, el gigante, el silencio, la ceiba, la montaña, macho negro y san José.",
@@ -2757,7 +2805,7 @@
       "verificado": false,
       "creado": "2026-08-16T18:04:58.388Z",
       "actualizado": "2026-08-16T18:05:25.82Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2817,7 +2865,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:27:44.119Z",
       "actualizado": "2026-08-16T17:55:31.546Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "xm5ej5x6b6t9",
         "nombre": "Ayuda para Roldanillo",
@@ -2871,7 +2919,7 @@
       "verificado": false,
       "creado": "2026-08-16T12:36:04.69Z",
       "actualizado": "2026-08-16T16:56:59.148Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2935,7 +2983,7 @@
       "verificado": false,
       "creado": "2026-08-16T16:48:38.116Z",
       "actualizado": "2026-08-16T16:48:38.116Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2998,7 +3046,7 @@
       "verificado": false,
       "creado": "2026-08-14T02:40:38.956Z",
       "actualizado": "2026-08-16T15:49:10.693Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3046,7 +3094,7 @@
       "verificado": false,
       "creado": "2026-08-13T00:09:40.917Z",
       "actualizado": "2026-08-16T15:41:31.909Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3106,7 +3154,7 @@
       "verificado": false,
       "creado": "2026-08-16T15:38:31.454Z",
       "actualizado": "2026-08-16T15:39:03.692Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3176,7 +3224,7 @@
       "verificado": false,
       "creado": "2026-08-16T13:53:44.615Z",
       "actualizado": "2026-08-16T13:59:31.399Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3238,7 +3286,7 @@
       "verificado": false,
       "creado": "2026-08-16T13:36:20.113Z",
       "actualizado": "2026-08-16T13:36:20.113Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3292,7 +3340,7 @@
       "verificado": false,
       "creado": "2026-08-16T01:27:55.235Z",
       "actualizado": "2026-08-16T13:11:37.335Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3354,7 +3402,7 @@
       "verificado": false,
       "creado": "2026-08-14T07:52:35.689Z",
       "actualizado": "2026-08-16T11:28:29.959Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3412,7 +3460,7 @@
       "verificado": false,
       "creado": "2026-08-16T06:46:50.102Z",
       "actualizado": "2026-08-16T06:46:50.102Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "etrxxdvh",
         "nombre": "Alcaldía municipal Riofrío",
@@ -3460,7 +3508,7 @@
       "verificado": false,
       "creado": "2026-08-15T21:15:06.551Z",
       "actualizado": "2026-08-16T05:45:12.888Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3525,7 +3573,7 @@
       "verificado": false,
       "creado": "2026-08-12T20:01:36.893Z",
       "actualizado": "2026-08-16T05:05:21.906Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3618,7 +3666,7 @@
       "verificado": false,
       "creado": "2026-08-16T04:52:11.058Z",
       "actualizado": "2026-08-16T04:52:18.213Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3682,7 +3730,7 @@
       "verificado": false,
       "creado": "2026-08-14T16:28:26.603Z",
       "actualizado": "2026-08-16T04:45:41.307Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3766,7 +3814,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:24:24.439Z",
       "actualizado": "2026-08-16T03:24:24.439Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3841,7 +3889,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:20:29.994Z",
       "actualizado": "2026-08-16T03:21:05.065Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "rhwssn9ku8tt",
         "nombre": "Complex ditaires",
@@ -3912,7 +3960,7 @@
       "verificado": false,
       "creado": "2026-08-16T03:20:05.869Z",
       "actualizado": "2026-08-16T03:20:05.869Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -3985,7 +4033,7 @@
       "verificado": false,
       "creado": "2026-08-16T02:52:43.443Z",
       "actualizado": "2026-08-16T02:52:43.443Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4042,7 +4090,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-16T02:32:50.425Z",
       "actualizado": "2026-08-16T02:32:50.425Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "u3y6tvscmwyb",
         "nombre": "Morelia roldanillo valle del cauca",
@@ -4071,55 +4119,6 @@
         "fresco": true,
         "saturacion": "sin_dato",
         "confirma": 1,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
-      "id": "mapa-emergencia-d8295e3b94",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=rdaf3j2f3wxd",
-      "tipo": "rescate",
-      "nombre": "Chiminangos 1 cancha mara",
-      "direccion": "Chiminangos 1 cancha mara",
-      "lat": 3.4771337,
-      "lon": -76.4901908,
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "Dayana Caicedo 3001249634",
-      "verificado": false,
-      "creado": "2026-08-16T01:47:04.089Z",
-      "actualizado": "2026-08-16T02:11:07.807Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "rdaf3j2f3wxd",
-        "nombre": "Chiminangos 1 cancha mara",
-        "tipo": "rescate",
-        "lat": 3.4771337,
-        "lng": -76.4901908,
-        "direccion": "Chiminangos 1 cancha mara",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Dayana Caicedo  3001249634",
-        "creado": 1786844824089,
-        "actualizado": 1786846267807,
-        "confirmado": 1786844824089,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -4161,7 +4160,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-11T22:24:50.401Z",
       "actualizado": "2026-08-15T23:29:26.619Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4262,7 +4261,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-13T20:07:50.424Z",
       "actualizado": "2026-08-15T23:23:32.499Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4337,7 +4336,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T15:27:13.144Z",
       "actualizado": "2026-08-15T20:15:23.169Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4407,7 +4406,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T17:19:10.871Z",
       "actualizado": "2026-08-15T17:19:45.795Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4469,7 +4468,7 @@
       "verificado": false,
       "creado": "2026-08-15T06:48:22.658Z",
       "actualizado": "2026-08-15T14:21:08.681Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4523,7 +4522,7 @@
       "verificado": false,
       "creado": "2026-08-15T03:28:47.177Z",
       "actualizado": "2026-08-15T03:29:06.68Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4577,7 +4576,7 @@
       "verificado": false,
       "creado": "2026-08-14T22:28:39.678Z",
       "actualizado": "2026-08-14T22:48:38.994Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "raw": {
         "id": "fx2295tkphii",
         "nombre": "C.C GRAN PLAZA - BOSA",
@@ -4627,7 +4626,7 @@
       "verificado": false,
       "creado": "2026-08-12T15:32:22.361Z",
       "actualizado": "2026-08-14T22:00:28.414Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4696,7 +4695,7 @@
       "verificado": false,
       "creado": "2026-08-12T15:18:05.253Z",
       "actualizado": "2026-08-14T21:18:26.999Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4778,7 +4777,7 @@
       "verificado": false,
       "creado": "2026-08-12T19:58:44.965Z",
       "actualizado": "2026-08-14T21:17:29.334Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4885,7 +4884,7 @@
       "verificado": false,
       "creado": "2026-08-14T17:17:11.207Z",
       "actualizado": "2026-08-14T18:04:02.379Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4947,7 +4946,7 @@
       "verificado": false,
       "creado": "2026-08-14T15:33:59.8Z",
       "actualizado": "2026-08-14T15:35:24.276Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -4982,142 +4981,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-6904af6c8b",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=g2i344bz7exq",
-      "tipo": "acopio",
-      "nombre": "Ganko",
-      "barrio": "Valle del Lili",
-      "direccion": "CRA 86 bis #48-40 local 5",
-      "lat": 3.378811808516477,
-      "lon": -76.51582694019568,
-      "necesita": [
-        "Agua",
-        "Carpas",
-        "Colchonetas",
-        "Comida",
-        "Comida para animales",
-        "Pañales",
-        "Ropa en buen estado para niños y adultos",
-        "almohadas",
-        "chanclas",
-        "cobijas",
-        "pañales para adulto",
-        "pañales para bebé",
-        "pañitos",
-        "zapatos"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "3017841351",
-      "verificado": false,
-      "desmentidos": 1,
-      "creado": "2026-08-13T16:10:54.228Z",
-      "actualizado": "2026-08-14T15:19:18.545Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "g2i344bz7exq",
-        "nombre": "Ganko",
-        "tipo": "acopio",
-        "lat": 3.378811808516477,
-        "lng": -76.51582694019568,
-        "direccion": "CRA 86 bis #48-40 local 5",
-        "barrio": "Valle del Lili",
-        "estado": "urgente",
-        "necesidades": [
-          "Agua",
-          "Comida",
-          "Pañales",
-          "Colchonetas",
-          "Comida para animales",
-          "Carpas",
-          "Ropa en buen estado para niños y adultos",
-          "zapatos",
-          "chanclas",
-          "pañales para adulto",
-          "pañales para bebé",
-          "pañitos",
-          "agua",
-          "almohadas",
-          "cobijas"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "3017841351",
-        "creado": 1786637454228,
-        "actualizado": 1786720758545,
-        "confirmado": 1786842969338,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 1,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
-      "id": "mapa-emergencia-e0338d713a",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=he7t72zkergb",
-      "tipo": "rescate",
-      "nombre": "Vane",
-      "direccion": "Vane",
-      "lat": 3.4381146551821784,
-      "lon": -76.52904510498048,
-      "necesita": [
-        "Voluntarios"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "verificado": false,
-      "creado": "2026-08-14T13:26:56.015Z",
-      "actualizado": "2026-08-14T13:26:56.015Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "he7t72zkergb",
-        "nombre": "Vane",
-        "tipo": "rescate",
-        "lat": 3.4381146551821784,
-        "lng": -76.52904510498048,
-        "direccion": "Vane",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Voluntarios"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786714016015,
-        "actualizado": 1786714016015,
-        "confirmado": 1786842288415,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-2249bf3166",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=cgnknpuc9bb2",
@@ -5131,7 +4994,7 @@
       "verificado": false,
       "creado": "2026-08-12T00:52:02.362Z",
       "actualizado": "2026-08-12T18:39:53.504Z",
-      "fecha_corte": "2026-08-18T00:51:24Z",
+      "fecha_corte": "2026-08-18T02:12:19Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -5205,6 +5068,216 @@
     "novedades": {
       "novedades": [
         {
+          "texto": "Necesidades: ninguna",
+          "autor": "",
+          "ts": 1787017303940,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787016046847,
+          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+          "punto_id": "eiij3v6ew25v"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787016045968,
+          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+          "punto_id": "eiij3v6ew25v"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787016045182,
+          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+          "punto_id": "eiij3v6ew25v"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787016034277,
+          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+          "punto_id": "eiij3v6ew25v"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787016033444,
+          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+          "punto_id": "eiij3v6ew25v"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787016032668,
+          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+          "punto_id": "eiij3v6ew25v"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787016032219,
+          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+          "punto_id": "eiij3v6ew25v"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787016030665,
+          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+          "punto_id": "eiij3v6ew25v"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787016029796,
+          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+          "punto_id": "eiij3v6ew25v"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787016029322,
+          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+          "punto_id": "eiij3v6ew25v"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787016028666,
+          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+          "punto_id": "eiij3v6ew25v"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787016027811,
+          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
+          "punto_id": "eiij3v6ew25v"
+        },
+        {
+          "texto": "Vídeo añadido.",
+          "autor": "",
+          "ts": 1787015951210,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sin cambios.",
+          "autor": "",
+          "ts": 1787015585154,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Punto creado.",
+          "autor": "",
+          "ts": 1787015485156,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787015130449,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "Necesidades: Panela, Café, Chocolate, Aceite",
+          "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
+          "ts": 1787014616770,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "Necesidades: ninguna",
+          "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
+          "ts": 1787014578640,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "Necesidades: Aseo Personal",
+          "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
+          "ts": 1787014576272,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "Necesidades: Aseo Personal, Azúcar",
+          "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
+          "ts": 1787014574157,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "Necesidades: Aseo Personal, Comida, Azúcar",
+          "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
+          "ts": 1787014572474,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "Necesidades: Aseo Personal, Comida, Botiquín, Azúcar",
+          "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
+          "ts": 1787014569312,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "Necesidades: Aseo Personal, Comida, Botiquín, Ahora se necesita: Leche en polvo, Azúcar",
+          "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
+          "ts": 1787014566407,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "Necesidades: Aseo Personal, Comida, Botiquín, Ahora se necesita: Leche en polvo, Azúcar, Aceite",
+          "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
+          "ts": 1787014564523,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "Necesidades: Aseo Personal, Comida, Botiquín, Ahora se necesita: Leche en polvo, Azúcar, Aceite, Pastas",
+          "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
+          "ts": 1787014562553,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "Necesidades: Aseo Personal, Comida, Botiquín, Ahora se necesita: Leche en polvo, Azúcar, Aceite, Pastas, Harina",
+          "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
+          "ts": 1787014560618,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "Necesidades: Aseo Personal, Comida, Botiquín, Ahora se necesita: Leche en polvo, Azúcar, Aceite, Pastas, Harina, Granos",
+          "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
+          "ts": 1787014558593,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "Necesidades: Aseo Personal, Comida, Botiquín, Ahora se necesita: Leche en polvo, Azúcar, Aceite, Pastas, Harina, Granos, Atún y Sal",
+          "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
+          "ts": 1787014492262,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "Punto de Acopio Instalaciones Auxiliares de CVC",
+          "ts": 1787014386975,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
           "texto": "Confirmado sobre el terreno.",
           "autor": "3205163851",
           "ts": 1787011762563,
@@ -5273,222 +5346,12 @@
           "ts": 1787005283891,
           "nombre": "Cra 60 A #4",
           "punto_id": "sdznvek56naf"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787005038447,
-          "nombre": "Cra 60 A #4",
-          "punto_id": "sdznvek56naf"
-        },
-        {
-          "texto": "Foto añadida.",
-          "autor": "",
-          "ts": 1787005000736,
-          "nombre": "Cra 60 A #4",
-          "punto_id": "sdznvek56naf"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1787002341926,
-          "nombre": "Cl. 12a #56-4, panamericano, Cali, Valle del Cauca",
-          "punto_id": "swdifw55c6tz"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1787002338426,
-          "nombre": "Cl. 12a #56-4, panamericano, Cali, Valle del Cauca",
-          "punto_id": "swdifw55c6tz"
-        },
-        {
-          "texto": "Necesidades: Picas, Barras de demolición, Discos de pulidora, Cinceles, Seguetas, Baldes, Costales, Tapabocas, Electrolitos, Agua, Un veterinario, Comida, Gafas de seguridad, Guantes de obra, Comida para animales, Gato hidráulico 3 toneladas estilo caiman",
-          "autor": "",
-          "ts": 1787002077554,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "Necesidades: Picas, Barras de demolición, Discos de pulidora, Cinceles, Seguetas, Baldes, Costales, Tapabocas, Electrolitos, Agua, Un veterinario, Comida, Gafas de seguridad, Guantes de obra, Comida para animales, Gato hidráulico 3 toneladas estilo caiman",
-          "autor": "",
-          "ts": 1787002076788,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "Punto creado.",
-          "autor": "",
-          "ts": 1787002033648,
-          "nombre": "Cl. 12a #56-4, panamericano, Cali, Valle del Cauca",
-          "punto_id": "swdifw55c6tz"
-        },
-        {
-          "texto": "Ubicación corregida en el mapa.",
-          "autor": "",
-          "ts": 1787001695219,
-          "nombre": "Av 3 i NOrte #49-52",
-          "punto_id": "m52qenb5xh47"
-        },
-        {
-          "texto": "Ubicación corregida en el mapa.",
-          "autor": "",
-          "ts": 1787001594175,
-          "nombre": "Calle novena con 44 edificio Vanessa",
-          "punto_id": "s2k8rv92iy48"
-        },
-        {
-          "texto": "Desmentido: la información no cuadra.",
-          "autor": "",
-          "ts": 1787001030904,
-          "nombre": "Ganko",
-          "punto_id": "g2i344bz7exq"
-        },
-        {
-          "texto": "Desmentido: la información no cuadra.",
-          "autor": "",
-          "ts": 1787001021905,
-          "nombre": "Ganko",
-          "punto_id": "g2i344bz7exq"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787000053382,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1786997423023,
-          "nombre": "Edificio Vanesa",
-          "punto_id": "fg9p2kmrh2tj"
-        },
-        {
-          "texto": "Punto creado.",
-          "autor": "3205163851",
-          "ts": 1786997408582,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1786996827561,
-          "nombre": "Calle 8b 65 -295 medellin",
-          "punto_id": "qhbr5aja3wdf"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1786996826318,
-          "nombre": "Calle 8b 65 -295 medellin",
-          "punto_id": "qhbr5aja3wdf"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786996823668,
-          "nombre": "Calle 8b 65 -295 medellin",
-          "punto_id": "qhbr5aja3wdf"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1786996440741,
-          "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
-          "punto_id": "bjkvi2btaamc"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1786996440043,
-          "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
-          "punto_id": "bjkvi2btaamc"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1786996439372,
-          "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
-          "punto_id": "bjkvi2btaamc"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1786996438953,
-          "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
-          "punto_id": "bjkvi2btaamc"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1786996438270,
-          "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
-          "punto_id": "bjkvi2btaamc"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786996435813,
-          "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
-          "punto_id": "bjkvi2btaamc"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786996435381,
-          "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
-          "punto_id": "bjkvi2btaamc"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786996433996,
-          "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
-          "punto_id": "bjkvi2btaamc"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786996433399,
-          "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
-          "punto_id": "bjkvi2btaamc"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1786996431265,
-          "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
-          "punto_id": "bjkvi2btaamc"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1786996430039,
-          "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
-          "punto_id": "bjkvi2btaamc"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1786995326812,
-          "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
-          "punto_id": "bjkvi2btaamc"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1786995303664,
-          "nombre": "Carrera 17a #9a - 39 las Américas comuna 1",
-          "punto_id": "bjkvi2btaamc"
         }
       ]
     },
     "resumen": {
-      "total": 76,
-      "urgentes": 64,
+      "total": 74,
+      "urgentes": 62,
       "faltan_manos": 14,
       "exceso": 14,
       "sin_ubicar": 3,
