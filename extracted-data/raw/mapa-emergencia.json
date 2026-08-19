@@ -3,10 +3,91 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "395.215984ms",
-  "obtenido": "2026-08-19T00:52:06Z",
-  "total": 36,
+  "duracion": "273.101188ms",
+  "obtenido": "2026-08-19T02:15:03Z",
+  "total": 34,
   "puntos": [
+    {
+      "id": "mapa-emergencia-a3821c29a7",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=9xtitashddwm",
+      "tipo": "acopio",
+      "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+      "direccion": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+      "lat": 4.704674634461918,
+      "lon": -74.0501927299403,
+      "necesita": [
+        "Agua",
+        "Cajas que se pueden cerrar (con aletas)",
+        "Comida",
+        "Granos",
+        "Linternas",
+        "Pañales",
+        "harina",
+        "pañales para adultos"
+      ],
+      "estado": "urgente",
+      "prioridad": "critica",
+      "voluntarios_faltan": 21,
+      "verificado": false,
+      "confirmaciones": 3,
+      "creado": "2026-08-16T13:30:48.937Z",
+      "actualizado": "2026-08-19T02:03:25.679Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
+      "raw": {
+        "id": "9xtitashddwm",
+        "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+        "tipo": "acopio",
+        "lat": 4.704674634461918,
+        "lng": -74.0501927299403,
+        "direccion": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [
+          "Pañales",
+          "Linternas",
+          "Comida",
+          "Granos",
+          "harina",
+          "pañales para adultos",
+          "Agua",
+          "Cajas que se pueden cerrar (con aletas)"
+        ],
+        "voluntarios_hay": 0,
+        "voluntarios_faltan": 21,
+        "contacto": "",
+        "notas": "",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "",
+        "creado": 1786887048937,
+        "actualizado": 1787105005679,
+        "confirmado": 1787105006912,
+        "ubicado": true,
+        "fresco": true,
+        "saturacion": "faltan",
+        "confirma": 3,
+        "desmiente": 0,
+        "media": [
+          {
+            "id": "h33wshtxbn",
+            "url": "/media/9xtitashddwm/1786891285475-amf8t7.jpeg",
+            "mime": "image/jpeg",
+            "pie": "",
+            "ts": 1786891286188
+          },
+          {
+            "id": "89846q7kut",
+            "url": "/media/9xtitashddwm/1786887106817-v3hgqs.jpeg",
+            "mime": "image/jpeg",
+            "pie": "",
+            "ts": 1786887107874
+          }
+        ],
+        "media_total": 2
+      }
+    },
     {
       "id": "mapa-emergencia-2f225a94ff",
       "fuente": "mapa-emergencia",
@@ -16,16 +97,21 @@
       "direccion": "Campin, Bogotá",
       "lat": 4.6459495,
       "lon": -74.0776054,
+      "necesita": [
+        "Carpas",
+        "Colchonetas",
+        "Linternas",
+        "شقحش فهح 52 اعاعشا"
+      ],
       "estado": "urgente",
       "prioridad": "critica",
-      "voluntarios_hay": 7,
-      "voluntarios_faltan": 4,
+      "voluntarios_hay": 10,
       "verificado": false,
-      "confirmaciones": 2,
+      "confirmaciones": 3,
       "desmentidos": 1,
       "creado": "2026-08-15T20:42:53.924Z",
-      "actualizado": "2026-08-18T22:31:00.783Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "actualizado": "2026-08-19T01:51:23.863Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "raw": {
         "id": "hw9w7cj26vwh",
         "nombre": "Campin, Bogotá",
@@ -35,9 +121,14 @@
         "direccion": "Campin, Bogotá",
         "barrio": "",
         "estado": "urgente",
-        "necesidades": [],
-        "voluntarios_hay": 7,
-        "voluntarios_faltan": 4,
+        "necesidades": [
+          "Carpas",
+          "Colchonetas",
+          "Linternas",
+          "شقحش فهح  52 اعاعشا"
+        ],
+        "voluntarios_hay": 10,
+        "voluntarios_faltan": 0,
         "contacto": "",
         "notas": "",
         "fuente": "app",
@@ -45,12 +136,12 @@
         "verificado_por": "",
         "autor": "",
         "creado": 1786826573924,
-        "actualizado": 1787092260783,
-        "confirmado": 1787086066149,
+        "actualizado": 1787104283863,
+        "confirmado": 1787104223923,
         "ubicado": true,
         "fresco": true,
-        "saturacion": "faltan",
-        "confirma": 2,
+        "saturacion": "exceso",
+        "confirma": 3,
         "desmiente": 1,
         "media": [
           {
@@ -100,7 +191,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:40:47.598Z",
       "actualizado": "2026-08-18T21:53:49.183Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "raw": {
         "id": "s2k8rv92iy48",
         "nombre": "Calle novena con 44 edificio Vanessa",
@@ -148,7 +239,7 @@
       "verificado": false,
       "creado": "2026-08-16T01:27:55.235Z",
       "actualizado": "2026-08-18T21:29:28.968Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -208,7 +299,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -273,17 +364,14 @@
         "Tapabocas",
         "Tapers"
       ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
+      "estado": "urgente",
+      "prioridad": "critica",
       "organizacion": "3205163851",
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-18T18:30:19.575Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "raw": {
         "id": "2kzk3b8unask",
         "nombre": "Riofrio valle",
@@ -319,9 +407,9 @@
         "autor": "3205163851",
         "creado": 1786997408582,
         "actualizado": 1787077819575,
-        "confirmado": 1787077796960,
+        "confirmado": 1787102885271,
         "ubicado": true,
-        "fresco": false,
+        "fresco": true,
         "saturacion": "sin_dato",
         "confirma": 1,
         "desmiente": 0,
@@ -350,7 +438,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-18T18:24:36.441Z",
       "actualizado": "2026-08-18T18:24:53.801Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "raw": {
         "id": "97tfc5ceezji",
         "nombre": "Cl 43 #33-41",
@@ -398,7 +486,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:46:18.32Z",
       "actualizado": "2026-08-18T17:46:18.32Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -448,7 +536,7 @@
       "verificado": false,
       "creado": "2026-08-18T04:05:46.232Z",
       "actualizado": "2026-08-18T12:16:18.533Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -520,7 +608,7 @@
       "verificado": false,
       "creado": "2026-08-16T16:17:40.812Z",
       "actualizado": "2026-08-18T05:48:40.48Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -605,13 +693,16 @@
         "Tapabocas",
         "kit de aseo"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-18T01:11:25.156Z",
       "actualizado": "2026-08-18T03:32:46.208Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "myjvsrjr9jju",
         "nombre": "Albergue temporal para damnificados sur",
@@ -638,7 +729,7 @@
         "actualizado": 1787023966208,
         "confirmado": 1787080760800,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 1,
         "desmiente": 0,
@@ -669,7 +760,7 @@
       "verificado": false,
       "creado": "2026-08-16T17:23:27.838Z",
       "actualizado": "2026-08-18T03:17:05.28Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -725,7 +816,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:06:08.054Z",
       "actualizado": "2026-08-18T00:56:56.77Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -779,7 +870,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:46:04.733Z",
       "actualizado": "2026-08-17T23:20:28.951Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "raw": {
         "id": "fg9p2kmrh2tj",
         "nombre": "Edificio Vanesa",
@@ -846,7 +937,7 @@
       "verificado": false,
       "creado": "2026-08-17T21:27:13.648Z",
       "actualizado": "2026-08-17T22:30:26.948Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -914,7 +1005,7 @@
       "verificado": false,
       "creado": "2026-08-16T21:59:45.406Z",
       "actualizado": "2026-08-17T22:23:50.737Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -994,7 +1085,7 @@
       "verificado": false,
       "creado": "2026-08-15T18:21:37.922Z",
       "actualizado": "2026-08-17T22:23:29.746Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "raw": {
         "id": "sdznvek56naf",
         "nombre": "Cra 60 A #4",
@@ -1094,7 +1185,7 @@
       "verificado": false,
       "creado": "2026-08-12T18:01:14.16Z",
       "actualizado": "2026-08-17T19:54:00.741Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1180,13 +1271,16 @@
       "necesita": [
         "Albergue temporal para damnificados"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-17T19:22:04.164Z",
       "actualizado": "2026-08-17T19:23:57.936Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "ythbnzuca5g3",
         "nombre": "Albergue temporal para damnificados",
@@ -1211,94 +1305,12 @@
         "actualizado": 1786994637936,
         "confirmado": 1787080699180,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 1,
         "desmiente": 0,
         "media": [],
         "media_total": 0
-      }
-    },
-    {
-      "id": "mapa-emergencia-a3821c29a7",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=9xtitashddwm",
-      "tipo": "acopio",
-      "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-      "direccion": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-      "lat": 4.704674634461918,
-      "lon": -74.0501927299403,
-      "necesita": [
-        "Agua",
-        "Cajas que se pueden cerrar (con aletas)",
-        "Comida",
-        "Granos",
-        "Linternas",
-        "Pañales",
-        "harina",
-        "pañales para adultos"
-      ],
-      "estado": "urgente",
-      "prioridad": "critica",
-      "voluntarios_hay": 3,
-      "voluntarios_faltan": 7,
-      "verificado": false,
-      "confirmaciones": 2,
-      "creado": "2026-08-16T13:30:48.937Z",
-      "actualizado": "2026-08-17T18:55:21.639Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
-      "raw": {
-        "id": "9xtitashddwm",
-        "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-        "tipo": "acopio",
-        "lat": 4.704674634461918,
-        "lng": -74.0501927299403,
-        "direccion": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Pañales",
-          "Linternas",
-          "Comida",
-          "Granos",
-          "harina",
-          "pañales para adultos",
-          "Agua",
-          "Cajas que se pueden cerrar (con aletas)"
-        ],
-        "voluntarios_hay": 3,
-        "voluntarios_faltan": 7,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786887048937,
-        "actualizado": 1786992921639,
-        "confirmado": 1787094750844,
-        "ubicado": true,
-        "fresco": true,
-        "saturacion": "faltan",
-        "confirma": 2,
-        "desmiente": 0,
-        "media": [
-          {
-            "id": "h33wshtxbn",
-            "url": "/media/9xtitashddwm/1786891285475-amf8t7.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786891286188
-          },
-          {
-            "id": "89846q7kut",
-            "url": "/media/9xtitashddwm/1786887106817-v3hgqs.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786887107874
-          }
-        ],
-        "media_total": 2
       }
     },
     {
@@ -1315,7 +1327,7 @@
       "verificado": false,
       "creado": "2026-08-17T18:40:07.679Z",
       "actualizado": "2026-08-17T18:40:07.679Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1370,7 +1382,7 @@
       "verificado": false,
       "creado": "2026-08-17T03:40:11.384Z",
       "actualizado": "2026-08-17T18:18:06.949Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1427,7 +1439,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-17T17:32:42.86Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1486,7 +1498,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-17T17:10:51.176Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1541,7 +1553,7 @@
       "verificado": false,
       "creado": "2026-08-17T14:03:33.734Z",
       "actualizado": "2026-08-17T14:04:25.466Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "raw": {
         "id": "eda87k7tcer3",
         "nombre": "CL 3 # 71-03 edificio mariana",
@@ -1591,7 +1603,7 @@
       "verificado": false,
       "creado": "2026-08-17T02:28:40.726Z",
       "actualizado": "2026-08-17T04:58:25.418Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1642,13 +1654,16 @@
       "necesita": [
         "Albergue temporal para damnificados"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-17T04:09:29.31Z",
       "actualizado": "2026-08-17T04:54:06.971Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "63a28jt3u7dv",
         "nombre": "Albergue avivamiento cali",
@@ -1673,7 +1688,7 @@
         "actualizado": 1786942446971,
         "confirmado": 1787080669047,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 1,
         "desmiente": 0,
@@ -1729,7 +1744,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-12T22:58:40.01Z",
       "actualizado": "2026-08-17T04:48:17.132Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1787,101 +1802,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-38ca077d6f",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=kr6wu2dedvgu",
-      "tipo": "rescate",
-      "nombre": "Carrera 72 j bis",
-      "barrio": "Boita",
-      "direccion": "Carrera 72 j bis #43-36",
-      "lat": 4.604083770446555,
-      "lon": -74.1509701618966,
-      "necesita": [
-        "Agua",
-        "Baldes",
-        "Barras de demolición",
-        "Botiquín",
-        "Carpas",
-        "Cinceles",
-        "Cintas de seguridad",
-        "Comida",
-        "Costales",
-        "Discos de pulidora",
-        "Electrolitos",
-        "Gafas de seguridad",
-        "Linternas",
-        "Palas",
-        "Percutores",
-        "Picas",
-        "Porras",
-        "Seguetas",
-        "Tapabocas",
-        "Tapers"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_faltan": 19,
-      "contacto": "3156363427",
-      "organizacion": "Joan Matheus 3156363427",
-      "verificado": false,
-      "creado": "2026-08-16T01:44:16.773Z",
-      "actualizado": "2026-08-17T01:03:51.272Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "kr6wu2dedvgu",
-        "nombre": "Carrera 72 j bis",
-        "tipo": "rescate",
-        "lat": 4.604083770446555,
-        "lng": -74.1509701618966,
-        "direccion": "Carrera 72 j bis #43-36",
-        "barrio": "Boita",
-        "estado": "urgente",
-        "necesidades": [
-          "Agua",
-          "Comida",
-          "Gafas de seguridad",
-          "Tapabocas",
-          "Linternas",
-          "Palas",
-          "Picas",
-          "Porras",
-          "Barras de demolición",
-          "Percutores",
-          "Cinceles",
-          "Seguetas",
-          "Discos de pulidora",
-          "Costales",
-          "Baldes",
-          "Electrolitos",
-          "Botiquín",
-          "Cintas de seguridad",
-          "Tapers",
-          "Carpas"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 19,
-        "contacto": "3156363427",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Joan Matheus 3156363427",
-        "creado": 1786844656773,
-        "actualizado": 1786928631272,
-        "confirmado": 1786929081022,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "faltan",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-3966b290a5",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=ny7zt74ttu5a",
@@ -1913,7 +1833,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-16T11:11:43.402Z",
       "actualizado": "2026-08-16T23:27:35.152Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1989,7 +1909,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:01:49.57Z",
       "actualizado": "2026-08-16T20:15:57.451Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2042,7 +1962,7 @@
       "verificado": false,
       "creado": "2026-08-16T02:32:50.425Z",
       "actualizado": "2026-08-16T02:32:50.425Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2114,7 +2034,7 @@
       "verificado": false,
       "creado": "2026-08-11T22:24:50.401Z",
       "actualizado": "2026-08-15T23:29:26.619Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2208,14 +2128,17 @@
         "cobijas",
         "toldos. Casetas."
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "organizacion": "Preguntar por LUISA 323-796-8138",
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-13T20:07:50.424Z",
       "actualizado": "2026-08-15T23:23:32.499Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "wdpdxxapebm8",
         "nombre": "Polideportivo colina del sur al lado del cai de napoles comuna 18  se nesesitan carpas agua comida las personas esta utilizando la cancha como albergue",
@@ -2244,7 +2167,7 @@
         "actualizado": 1786836212499,
         "confirmado": 1787080710636,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 1,
         "desmiente": 0,
@@ -2286,7 +2209,7 @@
       "verificado": false,
       "creado": "2026-08-15T15:27:13.144Z",
       "actualizado": "2026-08-15T20:15:23.169Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2355,7 +2278,7 @@
       "verificado": false,
       "creado": "2026-08-15T17:19:10.871Z",
       "actualizado": "2026-08-15T17:19:45.795Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
+      "fecha_corte": "2026-08-19T02:15:03Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2395,66 +2318,6 @@
         "media": [],
         "media_total": 0
       }
-    },
-    {
-      "id": "mapa-emergencia-29343a80b3",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=wpu3setq92km",
-      "tipo": "rescate",
-      "nombre": "El triunfo Pereira",
-      "direccion": "El triunfo Pereira",
-      "lat": 4.812807852883764,
-      "lon": -75.69602966308595,
-      "necesita": [
-        "Agua",
-        "Comida",
-        "Pañales",
-        "muchas gracias 🙏🏼‼️🥹"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "301 3899183 Diana",
-      "verificado": false,
-      "creado": "2026-08-15T06:48:22.658Z",
-      "actualizado": "2026-08-15T14:21:08.681Z",
-      "fecha_corte": "2026-08-19T00:52:05Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "wpu3setq92km",
-        "nombre": "El triunfo Pereira",
-        "tipo": "rescate",
-        "lat": 4.812807852883764,
-        "lng": -75.69602966308595,
-        "direccion": "El triunfo Pereira",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Comida",
-          "Pañales",
-          "Agua",
-          "muchas gracias 🙏🏼‼️🥹"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "301 3899183 Diana",
-        "creado": 1786776502658,
-        "actualizado": 1786803668681,
-        "confirmado": 1786930020988,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
     }
   ],
   "extra": {
@@ -2465,9 +2328,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 41.85003,
-        "lng": -87.65005,
-        "ciudad": "Chicago",
+        "lat": 39.03761,
+        "lng": -77.41582,
+        "ciudad": "Dulles Town Center",
         "pais": "US"
       },
       "tipos": [
@@ -2495,6 +2358,216 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105006912,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105005679,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105005523,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105005372,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105005214,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105005065,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "1 persona menos ayudando",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105004401,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "1 persona menos ayudando",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105004266,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105003631,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105003449,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105003267,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105003116,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105002892,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105002250,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105001968,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105001830,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105001654,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "1 persona menos ayudando",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105001098,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "1 persona menos ayudando",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105000545,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "1 persona menos ayudando",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787105000339,
+          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
+          "punto_id": "9xtitashddwm"
+        },
+        {
+          "texto": "Necesidades: Carpas, Colchonetas, Linternas, شقحش فهح  52 اعاعشا",
+          "autor": "ِمماشةيعممهمشا",
+          "ts": 1787104283863,
+          "nombre": "Campin, Bogotá",
+          "punto_id": "hw9w7cj26vwh"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1787104231537,
+          "nombre": "Campin, Bogotá",
+          "punto_id": "hw9w7cj26vwh"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1787104231384,
+          "nombre": "Campin, Bogotá",
+          "punto_id": "hw9w7cj26vwh"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1787104231234,
+          "nombre": "Campin, Bogotá",
+          "punto_id": "hw9w7cj26vwh"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787104230416,
+          "nombre": "Campin, Bogotá",
+          "punto_id": "hw9w7cj26vwh"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787104230225,
+          "nombre": "Campin, Bogotá",
+          "punto_id": "hw9w7cj26vwh"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787104230061,
+          "nombre": "Campin, Bogotá",
+          "punto_id": "hw9w7cj26vwh"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787104229542,
+          "nombre": "Campin, Bogotá",
+          "punto_id": "hw9w7cj26vwh"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787104223923,
+          "nombre": "Campin, Bogotá",
+          "punto_id": "hw9w7cj26vwh"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "3205163851",
+          "ts": 1787102885271,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
@@ -2564,227 +2637,17 @@
           "ts": 1787089930095,
           "nombre": "Campin, Bogotá",
           "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787089923356,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1787088568968,
-          "nombre": "Bogotá",
-          "punto_id": "2h8qw9c3emr3"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787086066149,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787080760800,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787080710636,
-          "nombre": "Polideportivo colina del sur al lado del cai de napoles comuna 18  se nesesitan carpas agua comida las personas esta utilizando la cancha como albergue",
-          "punto_id": "wdpdxxapebm8"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787080699180,
-          "nombre": "Albergue temporal para damnificados",
-          "punto_id": "ythbnzuca5g3"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787080669047,
-          "nombre": "Albergue avivamiento cali",
-          "punto_id": "63a28jt3u7dv"
-        },
-        {
-          "texto": "Confirmado sin cambios.",
-          "autor": "",
-          "ts": 1787079906712,
-          "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
-          "punto_id": "zimkegz2agg5"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787078644772,
-          "nombre": "Parques del Río por el lado de la torre de piedras de colores",
-          "punto_id": "ny7zt74ttu5a"
-        },
-        {
-          "texto": "Confirmado sin cambios.",
-          "autor": "3205163851",
-          "ts": 1787077819575,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "3205163851",
-          "ts": 1787077796960,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "Suzan 3225912756",
-          "ts": 1787077500048,
-          "nombre": "Cl 43 #33-41",
-          "punto_id": "97tfc5ceezji"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "Suzan 3225912756",
-          "ts": 1787077493801,
-          "nombre": "Cl 43 #33-41",
-          "punto_id": "97tfc5ceezji"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "Suzan 3225912756",
-          "ts": 1787077482435,
-          "nombre": "Cl 43 #33-41",
-          "punto_id": "97tfc5ceezji"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "Suzan 3225912756",
-          "ts": 1787077481872,
-          "nombre": "Cl 43 #33-41",
-          "punto_id": "97tfc5ceezji"
-        },
-        {
-          "texto": "Punto creado.",
-          "autor": "Suzan 3225912756",
-          "ts": 1787077476441,
-          "nombre": "Cl 43 #33-41",
-          "punto_id": "97tfc5ceezji"
-        },
-        {
-          "texto": "Punto creado.",
-          "autor": "",
-          "ts": 1787075178320,
-          "nombre": "Medellin",
-          "punto_id": "n5ekh5rjw9am"
-        },
-        {
-          "texto": "Confirmado sin cambios.",
-          "autor": "Garec GPS , Red de apoyo SIC - (Recolecta Norte del Valle)",
-          "ts": 1787073011354,
-          "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
-          "punto_id": "zimkegz2agg5"
-        },
-        {
-          "texto": "Punto creado.",
-          "autor": "Garec GPS , Red de apoyo SIC - (Recolecta Norte del Valle)",
-          "ts": 1787072916150,
-          "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
-          "punto_id": "zimkegz2agg5"
-        },
-        {
-          "texto": "Desmentido: la información no cuadra.",
-          "autor": "",
-          "ts": 1787070410426,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "Desmentido: la información no cuadra.",
-          "autor": "",
-          "ts": 1787070285875,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787069104096,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787069100094,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787063954452,
-          "nombre": "Torres de limonar, capri",
-          "punto_id": "fj8tfv25v64s"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787055378533,
-          "nombre": "Bogotá",
-          "punto_id": "rd4eiwi6nznp"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787055378408,
-          "nombre": "Bogotá",
-          "punto_id": "rd4eiwi6nznp"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787055378235,
-          "nombre": "Bogotá",
-          "punto_id": "rd4eiwi6nznp"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787055378080,
-          "nombre": "Bogotá",
-          "punto_id": "rd4eiwi6nznp"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787055377853,
-          "nombre": "Bogotá",
-          "punto_id": "rd4eiwi6nznp"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787055376876,
-          "nombre": "Bogotá",
-          "punto_id": "rd4eiwi6nznp"
         }
       ]
     },
     "resumen": {
-      "total": 36,
-      "urgentes": 31,
-      "faltan_manos": 9,
-      "exceso": 7,
+      "total": 34,
+      "urgentes": 29,
+      "faltan_manos": 7,
+      "exceso": 8,
       "sin_ubicar": 2,
-      "sin_confirmar": 30,
-      "voluntarios_faltan": 150,
+      "sin_confirmar": 31,
+      "voluntarios_faltan": 141,
       "voluntarios_hay": 216
     }
   }
