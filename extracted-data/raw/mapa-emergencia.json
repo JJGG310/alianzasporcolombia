@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "324.355658ms",
-  "obtenido": "2026-08-19T05:01:07Z",
+  "duracion": "468.553293ms",
+  "obtenido": "2026-08-19T05:54:16Z",
   "total": 35,
   "puntos": [
     {
@@ -29,7 +29,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:06:08.054Z",
       "actualizado": "2026-08-19T04:17:31.065Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -91,7 +91,7 @@
       "verificado": false,
       "creado": "2026-08-15T17:19:10.871Z",
       "actualizado": "2026-08-19T03:59:17.065Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -146,7 +146,7 @@
       "desmentidos": 1,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "raw": {
         "id": "g2idddxmw5j2",
         "nombre": "Los Naranjos, jamundi",
@@ -200,7 +200,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-19T02:35:30.796Z",
       "actualizado": "2026-08-19T02:38:34.841Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "raw": {
         "id": "5p4qb5hrw5pk",
         "nombre": "Casa Cultural Freire - Fe y alegría",
@@ -262,7 +262,7 @@
       "confirmaciones": 3,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-19T02:03:25.679Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "raw": {
         "id": "9xtitashddwm",
         "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
@@ -339,7 +339,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-19T01:51:23.863Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "raw": {
         "id": "hw9w7cj26vwh",
         "nombre": "Campin, Bogotá",
@@ -419,7 +419,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:40:47.598Z",
       "actualizado": "2026-08-18T21:53:49.183Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "raw": {
         "id": "s2k8rv92iy48",
         "nombre": "Calle novena con 44 edificio Vanessa",
@@ -467,7 +467,7 @@
       "verificado": false,
       "creado": "2026-08-16T01:27:55.235Z",
       "actualizado": "2026-08-18T21:29:28.968Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -527,7 +527,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -599,7 +599,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-18T18:30:19.575Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "raw": {
         "id": "2kzk3b8unask",
         "nombre": "Riofrio valle",
@@ -667,7 +667,7 @@
       "desmentidos": 1,
       "creado": "2026-08-18T18:24:36.441Z",
       "actualizado": "2026-08-18T18:24:53.801Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "raw": {
         "id": "97tfc5ceezji",
         "nombre": "Cl 43 #33-41",
@@ -715,7 +715,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:46:18.32Z",
       "actualizado": "2026-08-18T17:46:18.32Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -765,7 +765,7 @@
       "verificado": false,
       "creado": "2026-08-18T04:05:46.232Z",
       "actualizado": "2026-08-18T12:16:18.533Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -837,7 +837,7 @@
       "verificado": false,
       "creado": "2026-08-16T16:17:40.812Z",
       "actualizado": "2026-08-18T05:48:40.48Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -928,7 +928,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-18T01:11:25.156Z",
       "actualizado": "2026-08-18T03:32:46.208Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -989,7 +989,7 @@
       "verificado": false,
       "creado": "2026-08-16T17:23:27.838Z",
       "actualizado": "2026-08-18T03:17:05.28Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1038,7 +1038,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:46:04.733Z",
       "actualizado": "2026-08-17T23:20:28.951Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "raw": {
         "id": "fg9p2kmrh2tj",
         "nombre": "Edificio Vanesa",
@@ -1105,7 +1105,7 @@
       "verificado": false,
       "creado": "2026-08-17T21:27:13.648Z",
       "actualizado": "2026-08-17T22:30:26.948Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1173,7 +1173,7 @@
       "verificado": false,
       "creado": "2026-08-16T21:59:45.406Z",
       "actualizado": "2026-08-17T22:23:50.737Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1253,7 +1253,7 @@
       "verificado": false,
       "creado": "2026-08-15T18:21:37.922Z",
       "actualizado": "2026-08-17T22:23:29.746Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "raw": {
         "id": "sdznvek56naf",
         "nombre": "Cra 60 A #4",
@@ -1353,7 +1353,7 @@
       "verificado": false,
       "creado": "2026-08-12T18:01:14.16Z",
       "actualizado": "2026-08-17T19:54:00.741Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1445,7 +1445,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-17T19:22:04.164Z",
       "actualizado": "2026-08-17T19:23:57.936Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1495,7 +1495,7 @@
       "verificado": false,
       "creado": "2026-08-17T18:40:07.679Z",
       "actualizado": "2026-08-17T18:40:07.679Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1550,7 +1550,7 @@
       "verificado": false,
       "creado": "2026-08-17T03:40:11.384Z",
       "actualizado": "2026-08-17T18:18:06.949Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1607,7 +1607,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-17T17:32:42.86Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1667,7 +1667,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-17T17:10:51.176Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "raw": {
         "id": "vanx56e8e6tg",
         "nombre": "Av 6 oeste #22 -40",
@@ -1719,7 +1719,7 @@
       "verificado": false,
       "creado": "2026-08-17T14:03:33.734Z",
       "actualizado": "2026-08-17T14:04:25.466Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "raw": {
         "id": "eda87k7tcer3",
         "nombre": "CL 3 # 71-03 edificio mariana",
@@ -1769,7 +1769,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-17T04:09:29.31Z",
       "actualizado": "2026-08-17T04:54:06.971Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1852,7 +1852,7 @@
       "verificado": false,
       "creado": "2026-08-12T22:58:40.01Z",
       "actualizado": "2026-08-17T04:48:17.132Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1941,7 +1941,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-16T11:11:43.402Z",
       "actualizado": "2026-08-16T23:27:35.152Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2017,7 +2017,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:01:49.57Z",
       "actualizado": "2026-08-16T20:15:57.451Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2070,7 +2070,7 @@
       "verificado": false,
       "creado": "2026-08-16T02:32:50.425Z",
       "actualizado": "2026-08-16T02:32:50.425Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2142,7 +2142,7 @@
       "verificado": false,
       "creado": "2026-08-11T22:24:50.401Z",
       "actualizado": "2026-08-15T23:29:26.619Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2243,7 +2243,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-13T20:07:50.424Z",
       "actualizado": "2026-08-15T23:23:32.499Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2317,7 +2317,7 @@
       "verificado": false,
       "creado": "2026-08-15T15:27:13.144Z",
       "actualizado": "2026-08-15T20:15:23.169Z",
-      "fecha_corte": "2026-08-19T05:01:07Z",
+      "fecha_corte": "2026-08-19T05:54:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2371,9 +2371,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 39.03761,
-        "lng": -77.41582,
-        "ciudad": "Dulles Town Center",
+        "lat": 37.33939,
+        "lng": -121.89496,
+        "ciudad": "San Jose",
         "pais": "US"
       },
       "tipos": [
