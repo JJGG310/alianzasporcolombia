@@ -3,9 +3,9 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "463.235342ms",
-  "obtenido": "2026-08-19T18:24:15Z",
-  "total": 29,
+  "duracion": "583.137616ms",
+  "obtenido": "2026-08-19T19:01:45Z",
+  "total": 27,
   "puntos": [
     {
       "id": "mapa-emergencia-653dceef87",
@@ -39,7 +39,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "raw": {
         "id": "2kzk3b8unask",
         "nombre": "Riofrio valle",
@@ -101,7 +101,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-19T11:45:34.394Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -153,7 +153,7 @@
       "verificado": false,
       "creado": "2026-08-17T19:22:04.164Z",
       "actualizado": "2026-08-19T09:47:51.295Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -211,7 +211,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:06:08.054Z",
       "actualizado": "2026-08-19T04:17:31.065Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -264,7 +264,7 @@
       "verificado": false,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -321,7 +321,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-19T02:35:30.796Z",
       "actualizado": "2026-08-19T02:38:34.841Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "raw": {
         "id": "5p4qb5hrw5pk",
         "nombre": "Casa Cultural Freire - Fe y alegría",
@@ -382,7 +382,7 @@
       "verificado": false,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-19T02:03:25.679Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -461,7 +461,7 @@
       "verificado": false,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-19T01:51:23.863Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -544,7 +544,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:40:47.598Z",
       "actualizado": "2026-08-18T21:53:49.183Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "raw": {
         "id": "s2k8rv92iy48",
         "nombre": "Calle novena con 44 edificio Vanessa",
@@ -600,7 +600,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -660,7 +660,7 @@
       "verificado": false,
       "creado": "2026-08-18T18:24:36.441Z",
       "actualizado": "2026-08-18T18:24:53.801Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "raw": {
         "id": "97tfc5ceezji",
         "nombre": "Cl 43 #33-41",
@@ -708,7 +708,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:46:18.32Z",
       "actualizado": "2026-08-18T17:46:18.32Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -758,7 +758,7 @@
       "verificado": false,
       "creado": "2026-08-18T04:05:46.232Z",
       "actualizado": "2026-08-18T12:16:18.533Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -830,7 +830,7 @@
       "verificado": false,
       "creado": "2026-08-16T16:17:40.812Z",
       "actualizado": "2026-08-18T05:48:40.48Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -920,7 +920,7 @@
       "verificado": false,
       "creado": "2026-08-18T01:11:25.156Z",
       "actualizado": "2026-08-18T03:32:46.208Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -981,7 +981,7 @@
       "verificado": false,
       "creado": "2026-08-16T17:23:27.838Z",
       "actualizado": "2026-08-18T03:17:05.28Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1030,7 +1030,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:46:04.733Z",
       "actualizado": "2026-08-17T23:20:28.951Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "raw": {
         "id": "fg9p2kmrh2tj",
         "nombre": "Edificio Vanesa",
@@ -1097,7 +1097,7 @@
       "verificado": false,
       "creado": "2026-08-17T21:27:13.648Z",
       "actualizado": "2026-08-17T22:30:26.948Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1165,7 +1165,7 @@
       "verificado": false,
       "creado": "2026-08-16T21:59:45.406Z",
       "actualizado": "2026-08-17T22:23:50.737Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1245,7 +1245,7 @@
       "verificado": false,
       "creado": "2026-08-15T18:21:37.922Z",
       "actualizado": "2026-08-17T22:23:29.746Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "raw": {
         "id": "sdznvek56naf",
         "nombre": "Cra 60 A #4",
@@ -1345,7 +1345,7 @@
       "verificado": false,
       "creado": "2026-08-12T18:01:14.16Z",
       "actualizado": "2026-08-17T19:54:00.741Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1419,54 +1419,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-702dbf5e13",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=7ni7fhgfzh8s",
-      "tipo": "rescate",
-      "nombre": "Pereira",
-      "direccion": "Pereira",
-      "lat": 4.8170285,
-      "lon": -75.7065181,
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "verificado": false,
-      "creado": "2026-08-17T18:40:07.679Z",
-      "actualizado": "2026-08-17T18:40:07.679Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "7ni7fhgfzh8s",
-        "nombre": "Pereira",
-        "tipo": "rescate",
-        "lat": 4.8170285,
-        "lng": -75.7065181,
-        "direccion": "Pereira",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786992007679,
-        "actualizado": 1786992007679,
-        "confirmado": 1786992007679,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-aacec036e0",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=vanx56e8e6tg",
@@ -1491,7 +1443,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-17T17:10:51.176Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1551,7 +1503,7 @@
       "verificado": false,
       "creado": "2026-08-17T04:09:29.31Z",
       "actualizado": "2026-08-17T04:54:06.971Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1634,7 +1586,7 @@
       "verificado": false,
       "creado": "2026-08-12T22:58:40.01Z",
       "actualizado": "2026-08-17T04:48:17.132Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1722,7 +1674,7 @@
       "verificado": false,
       "creado": "2026-08-16T11:11:43.402Z",
       "actualizado": "2026-08-16T23:27:35.152Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1803,7 +1755,7 @@
       "verificado": false,
       "creado": "2026-08-16T02:32:50.425Z",
       "actualizado": "2026-08-16T02:32:50.425Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1841,119 +1793,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-53c2d4d5ce",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=znnkr4b5ejmi",
-      "tipo": "acopio",
-      "nombre": "FUNDACIÓN SER PARA SER",
-      "descripcion": "Punto de la Fundación Ser Para Ser. El mapa no publica cuentas de dinero; para donaciones materiales, acudir al punto.",
-      "barrio": "El Limonar",
-      "direccion": "Cl. 11 #65 A -75",
-      "lat": 3.3989772969305476,
-      "lon": -76.54004752635957,
-      "necesita": [
-        "Agua",
-        "Botiquín",
-        "Colchonetas",
-        "Comida",
-        "Comida para animales",
-        "Costales",
-        "Electrolitos",
-        "Linternas",
-        "Palas",
-        "Pañales",
-        "Picas",
-        "Porras",
-        "Ropa",
-        "Tapabocas"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_hay": 6,
-      "contacto": "Carlos Rendón 3156694806",
-      "organizacion": "Carlos Rendón 3156694806",
-      "verificado": false,
-      "creado": "2026-08-11T22:24:50.401Z",
-      "actualizado": "2026-08-15T23:29:26.619Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "znnkr4b5ejmi",
-        "nombre": "FUNDACIÓN SER PARA SER",
-        "tipo": "acopio",
-        "lat": 3.3989772969305476,
-        "lng": -76.54004752635957,
-        "direccion": "Cl. 11 #65 A -75",
-        "barrio": "El Limonar",
-        "estado": "urgente",
-        "necesidades": [
-          "Pañales",
-          "Colchonetas",
-          "Botiquín",
-          "Electrolitos",
-          "Ropa",
-          "Comida",
-          "Agua",
-          "Comida para animales",
-          "Tapabocas",
-          "Linternas",
-          "Palas",
-          "Picas",
-          "Porras",
-          "Costales"
-        ],
-        "voluntarios_hay": 6,
-        "voluntarios_faltan": 0,
-        "contacto": "Carlos Rendón 3156694806",
-        "notas": "Punto de la Fundación Ser Para Ser. El mapa no publica cuentas de dinero; para donaciones materiales, acudir al punto.",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Carlos Rendón 3156694806",
-        "creado": 1786487090401,
-        "actualizado": 1786836566619,
-        "confirmado": 1786991483518,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "exceso",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [
-          {
-            "id": "f5y2qca6ek",
-            "url": "/media/znnkr4b5ejmi/1786663048035-xkpn35.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786663048464
-          },
-          {
-            "id": "cdsxr7bcp5",
-            "url": "/media/znnkr4b5ejmi/1786663046224-57swui.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786663046762
-          },
-          {
-            "id": "irkkt6yzz4",
-            "url": "/media/znnkr4b5ejmi/1786663044357-7frcjr.mp4",
-            "mime": "video/mp4",
-            "pie": "",
-            "ts": 1786663045275
-          },
-          {
-            "id": "gbxh68x8eb",
-            "url": "/media/znnkr4b5ejmi/1786663042821-3jds4x.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786663043319
-          }
-        ],
-        "media_total": 10
-      }
-    },
-    {
       "id": "mapa-emergencia-44766772be",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=wdpdxxapebm8",
@@ -1975,7 +1814,7 @@
       "verificado": false,
       "creado": "2026-08-13T20:07:50.424Z",
       "actualizado": "2026-08-15T23:23:32.499Z",
-      "fecha_corte": "2026-08-19T18:24:14Z",
+      "fecha_corte": "2026-08-19T19:01:45Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2039,9 +1878,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 37.33939,
-        "lng": -121.89496,
-        "ciudad": "San Jose",
+        "lat": 41.13998,
+        "lng": -104.82025,
+        "ciudad": "Cheyenne",
         "pais": "US"
       },
       "tipos": [
@@ -2352,14 +2191,14 @@
       ]
     },
     "resumen": {
-      "total": 29,
-      "urgentes": 25,
+      "total": 27,
+      "urgentes": 23,
       "faltan_manos": 4,
-      "exceso": 9,
+      "exceso": 8,
       "sin_ubicar": 1,
-      "sin_confirmar": 27,
+      "sin_confirmar": 25,
       "voluntarios_faltan": 128,
-      "voluntarios_hay": 216
+      "voluntarios_hay": 210
     }
   }
 }
