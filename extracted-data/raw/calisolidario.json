@@ -3,8 +3,8 @@
   "url": "https://calisolidario.triadaaliados.com/",
   "mecanismo": "payload RSC de Next.js embebido en el HTML de /necesidades y /ofertas",
   "ok": true,
-  "duracion": "619.533847ms",
-  "obtenido": "2026-08-19T09:57:19Z",
+  "duracion": "261.322023ms",
+  "obtenido": "2026-08-19T10:27:04Z",
   "total": 162,
   "puntos": [
     {
@@ -23,7 +23,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T02:31:26.703677Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "966174e7-d16f-449c-ac95-4d7e8b00062d",
         "kind": "need",
@@ -57,7 +57,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T01:10:51.792064Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "a179d9bc-29df-41b4-a270-6f4ce774f5a9",
         "kind": "need",
@@ -91,7 +91,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T01:08:14.72085Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "abca65a3-8a14-4d16-93a7-febde9324a81",
         "kind": "need",
@@ -125,7 +125,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T01:01:41.263554Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "5327e79e-6eb5-4aa0-9358-f1cc0a6ab3f4",
         "kind": "need",
@@ -159,7 +159,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T01:00:00.292653Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "00844160-fa0f-4210-a9a0-ca2704b213f7",
         "kind": "need",
@@ -191,7 +191,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-18T22:08:16.016509Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "45603195-f241-4961-859e-a6c41e424fd7",
         "kind": "need",
@@ -222,7 +222,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-18T20:50:55.329108Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "3085eb79-a144-4642-81d5-dc31f2baec32",
         "kind": "need",
@@ -257,7 +257,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-18T18:46:14.236486Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "772d70a6-a1d2-431d-ab67-0e4b1fac0392",
         "kind": "need",
@@ -292,7 +292,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-17T18:54:16.573213Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "9e978e10-1fe0-4413-b31b-b82294ff7d18",
         "kind": "need",
@@ -327,7 +327,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T19:04:04.169444Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "9cbbbb03-1830-48f6-bde0-f117a587f3ed",
         "kind": "need",
@@ -362,7 +362,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T16:43:21.921203Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "36c66f0f-849d-4298-8b5b-cd81bc51b684",
         "kind": "need",
@@ -397,7 +397,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T16:38:20.188803Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "35d597f0-b748-45cf-9211-d691acd28d8d",
         "kind": "need",
@@ -432,7 +432,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T16:37:42.533262Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "423eb171-2813-42af-91dd-2d225f46fab3",
         "kind": "need",
@@ -464,7 +464,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T16:24:38.657293Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "222b5f60-1345-42c5-b7e9-b03993508239",
         "kind": "need",
@@ -499,7 +499,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T13:03:47.845079Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "b78a2ebd-2337-4cac-b659-2e73c5880474",
         "kind": "need",
@@ -529,7 +529,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T04:42:27.168951Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "11567fe3-3577-4f9f-914e-40413184e669",
         "kind": "need",
@@ -561,7 +561,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T02:20:33.677574Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "fb0b5f5d-c9cb-49c6-80ff-bf0236810f74",
         "kind": "need",
@@ -593,7 +593,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T02:15:07.292944Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "e50b15b6-858c-462c-86f5-813b0b53c3f8",
         "kind": "need",
@@ -625,7 +625,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T02:10:53.341609Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "8fa58235-7838-4367-ba03-4cd068454bdb",
         "kind": "need",
@@ -660,7 +660,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T22:43:59.958107Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "a924928c-274b-47f9-adfd-850cf14f0581",
         "kind": "need",
@@ -695,7 +695,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T16:53:33.715431Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "7fb2de0e-83a3-42f4-8bdc-7524c2360c44",
         "kind": "need",
@@ -728,7 +728,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T15:54:25.198174Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "de174731-117f-4578-82de-76ba74ee0c0a",
         "kind": "need",
@@ -759,7 +759,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T13:38:27.11933Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "3e3cc2d2-2e04-4fcb-a4dd-25a14e5076a2",
         "kind": "need",
@@ -791,7 +791,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T13:10:10.076549Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "c90fe2e0-57a4-4e86-b4fe-b2c72ae7de2d",
         "kind": "need",
@@ -824,7 +824,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T04:45:06.643814Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "d612a3b4-2cfb-44cc-b272-3542f208ea95",
         "kind": "need",
@@ -854,7 +854,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T01:54:44.982524Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "9920ca35-ffee-49c6-a83c-d714e4aa4613",
         "kind": "need",
@@ -886,7 +886,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T01:52:36.016088Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "ae2ecf36-2e9a-4246-aa2a-25f411557b26",
         "kind": "need",
@@ -917,7 +917,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T23:41:36.324301Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "d5d3aa24-9c39-4218-8371-aa0128e58911",
         "kind": "need",
@@ -952,7 +952,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T23:30:10.540229Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "fc9a81ba-972d-4388-9ee8-56cb2c94af80",
         "kind": "need",
@@ -986,7 +986,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T22:52:11.439093Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "35193b83-0ea7-45e4-aa95-5941d6933d8f",
         "kind": "need",
@@ -1017,7 +1017,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T21:42:43.330239Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "5c4fabb9-4cc7-4656-9c37-49806befd133",
         "kind": "need",
@@ -1052,7 +1052,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T21:33:46.014415Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "0c599d3f-7474-42f9-9eec-fbdf04843343",
         "kind": "need",
@@ -1083,7 +1083,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T20:36:35.893475Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "b599ecb9-d096-481a-8150-4dbbb1a2dd0d",
         "kind": "need",
@@ -1117,7 +1117,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T20:18:55.324478Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "b6cdcd13-3c38-4e02-8a5c-acae850b4c80",
         "kind": "need",
@@ -1149,7 +1149,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T19:59:53.542549Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "5275a67c-195d-419b-992f-187712173870",
         "kind": "need",
@@ -1182,7 +1182,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T19:33:07.05769Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "52f8a17d-a4f1-4580-92fd-a52a1a3e7a1a",
         "kind": "need",
@@ -1216,7 +1216,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T19:32:55.218525Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "2b356fb4-5e1f-4fdb-b7af-68773e815d62",
         "kind": "need",
@@ -1250,7 +1250,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T19:23:32.892718Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "4df58c69-60ad-4f1f-b05e-13fd97f687ae",
         "kind": "need",
@@ -1284,7 +1284,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T17:29:05.519885Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "bb10c617-d9e7-4d89-9d7e-d250e7480db9",
         "kind": "need",
@@ -1315,7 +1315,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T17:22:51.814705Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "2b42059b-1e82-4cbf-ac89-979d4cd34a50",
         "kind": "need",
@@ -1346,7 +1346,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T17:08:47.508354Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "282ce2e7-6917-4eb7-ba0b-384b96c52699",
         "kind": "need",
@@ -1381,7 +1381,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T17:05:19.957231Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "d618a5f6-eddc-4a1b-a726-a0517c74c4fe",
         "kind": "need",
@@ -1416,7 +1416,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T16:54:53.154509Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "13958728-c2f0-433c-9fb3-8d21f3ced13e",
         "kind": "need",
@@ -1448,7 +1448,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T16:47:14.949249Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "5555dc60-63a6-450d-8a9b-e9ca86610cf4",
         "kind": "need",
@@ -1478,7 +1478,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T14:24:45.411475Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "3e863636-5c0d-4792-be66-1920919f8b2c",
         "kind": "need",
@@ -1509,7 +1509,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T13:32:53.404504Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "0a3a687c-5d55-4ad1-9123-357fc7b74844",
         "kind": "need",
@@ -1543,7 +1543,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T13:25:28.865829Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "b4eff7cf-ebbd-45b8-90a2-cf47a88a9aad",
         "kind": "need",
@@ -1577,7 +1577,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T11:49:51.482551Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "44a941cb-df56-4c83-9be3-3955e028509c",
         "kind": "need",
@@ -1612,7 +1612,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T05:05:54.361432Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "93838194-3b12-4d4a-a761-491567a50b5a",
         "kind": "need",
@@ -1643,7 +1643,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T03:17:46.582303Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "1ab8b5e3-47b8-4afe-8b2f-a3fdff2ddb1b",
         "kind": "need",
@@ -1674,7 +1674,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T03:13:56.358391Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "ea042234-481a-40fa-b5bd-140e87125cfa",
         "kind": "need",
@@ -1709,7 +1709,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T03:11:32.868501Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "059f787e-6387-4fa9-b5cd-c9f834e8dc4f",
         "kind": "need",
@@ -1743,7 +1743,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T02:51:42.579512Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "542d6cad-4a3d-44b7-84e7-46cd98aa16ea",
         "kind": "need",
@@ -1777,7 +1777,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T00:27:55.836558Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "72320a70-c448-48b7-98e3-3b6a60cda750",
         "kind": "need",
@@ -1812,7 +1812,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T00:24:57.688234Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "99b2eae6-26ba-4188-a717-2d6c457a61e3",
         "kind": "need",
@@ -1846,7 +1846,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T23:52:07.15246Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "45a79738-da84-40f2-bcd6-fc1953eb79c0",
         "kind": "need",
@@ -1881,7 +1881,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T23:22:03.651417Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "42608b10-09a6-4ac2-9055-fa9622cbc7b9",
         "kind": "need",
@@ -1912,7 +1912,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T22:51:40.89908Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "15cf0c67-190e-4854-9be4-8dc9e4c76527",
         "kind": "need",
@@ -1947,7 +1947,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T22:13:39.167951Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "3d1dee63-ec4a-4bf7-adf5-03870c36694e",
         "kind": "need",
@@ -1982,7 +1982,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T22:11:06.522862Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "5097cfbe-7112-4033-b2d2-285510a01527",
         "kind": "need",
@@ -2017,7 +2017,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T21:50:36.22754Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "0efc617b-0ad0-4782-b7a4-17ed0fb38e7d",
         "kind": "need",
@@ -2052,7 +2052,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:52:07.481915Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "b314ea58-b07d-4a6c-b236-9e2bf3ee8db7",
         "kind": "need",
@@ -2083,7 +2083,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:46:33.767354Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "fa8dabf3-ce3a-4fbd-94d0-c2fd25f0cf5c",
         "kind": "need",
@@ -2113,7 +2113,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:42:20.528145Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "ce7a32ab-f200-406a-bb69-37a5c3e6c124",
         "kind": "need",
@@ -2147,7 +2147,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:25:46.444994Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "f59d7034-d91a-4962-b946-3594e793a526",
         "kind": "need",
@@ -2179,7 +2179,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:11:18.711024Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "58029daf-25ec-45a8-a06b-18f33461a123",
         "kind": "need",
@@ -2214,7 +2214,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T19:55:57.767122Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "542e2c69-a0a6-4b05-bd80-b29f5ae54d36",
         "kind": "need",
@@ -2249,7 +2249,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T19:22:56.95903Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "7d9247f8-03cb-4627-8c82-3e57b689bc65",
         "kind": "need",
@@ -2281,7 +2281,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T19:16:07.488209Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "5accade4-8a89-4879-8b86-08ac8f7c968f",
         "kind": "need",
@@ -2316,7 +2316,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T18:23:21.29013Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "0fa67ceb-8473-4588-b917-5d20bfb0cca7",
         "kind": "need",
@@ -2350,7 +2350,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T18:00:37.087638Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "4b0294b7-2536-49a8-b32a-64fdfe0786c5",
         "kind": "need",
@@ -2385,7 +2385,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:59:51.775029Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "900904d6-1bc9-4838-920d-ecb0390c4780",
         "kind": "need",
@@ -2420,7 +2420,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:52:03.409721Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "8328a86e-4995-416d-8f71-c75a3ff5ea73",
         "kind": "need",
@@ -2455,7 +2455,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:45:05.935785Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "805fb196-aa76-420a-8b4e-494145e9a122",
         "kind": "need",
@@ -2487,7 +2487,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:43:50.185056Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "972dc6d4-f83d-4904-82f6-d48d115ae1e4",
         "kind": "need",
@@ -2519,7 +2519,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:02:34.692377Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "d868e5d8-49db-4ec6-8994-d0694cc383b2",
         "kind": "need",
@@ -2554,7 +2554,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:47:11.385985Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "7089e2ee-046e-4ebc-8bde-51c59b5d9b72",
         "kind": "need",
@@ -2588,7 +2588,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:44:33.111329Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "dbc1dc87-dfdf-43be-98e7-1cb0c2436ee8",
         "kind": "need",
@@ -2623,7 +2623,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:38:59.569582Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "1e1f7f37-6d8d-43c4-9948-b90aaf8e64ae",
         "kind": "need",
@@ -2658,7 +2658,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:38:30.895313Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "3738a456-9a73-4bea-a734-b416e3537a27",
         "kind": "need",
@@ -2690,7 +2690,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:04:21.396035Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "5779cdc5-1d42-4e84-864d-4bc37cba3403",
         "kind": "need",
@@ -2725,7 +2725,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:56:51.856866Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "c510407f-895f-4bad-9e9a-cf58af0491ee",
         "kind": "need",
@@ -2757,7 +2757,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:56:09.717105Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "9894a5d4-b91f-4cba-8f61-eebcc63b5804",
         "kind": "need",
@@ -2791,7 +2791,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:51:41.037389Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "00c03ee6-0493-4871-9559-32320c0e3c28",
         "kind": "need",
@@ -2825,7 +2825,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:50:11.555301Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "d0a8f164-2621-4807-b7a8-35b1a388acf3",
         "kind": "need",
@@ -2857,7 +2857,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:42:53.304675Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "afedadd7-1941-4f6b-aeb3-a7127d7401ed",
         "kind": "need",
@@ -2889,7 +2889,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:34:21.306164Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "7236162c-03b7-43ab-8733-e22503a6c205",
         "kind": "need",
@@ -2924,7 +2924,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:04:01.777901Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "70e50e58-6ded-4f47-83ea-dfd31b2093f4",
         "kind": "need",
@@ -2958,7 +2958,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:02:57.214438Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "0338db34-0ec7-40cf-b4c5-cee31a78d602",
         "kind": "need",
@@ -2993,7 +2993,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:52:38.519256Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "d8b68cdf-829f-414b-9304-eaa1b78f9e68",
         "kind": "need",
@@ -3027,7 +3027,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:40:40.994941Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "15d43ae0-9e9c-441d-a19e-f15f2c637cda",
         "kind": "need",
@@ -3061,7 +3061,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:32:35.634701Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "7dfa131e-98c2-4416-a101-fa5b7366c262",
         "kind": "need",
@@ -3096,7 +3096,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:18:12.673612Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "54a15467-f15b-4974-a7a4-ed16bcac2a30",
         "kind": "need",
@@ -3131,7 +3131,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:14:26.282743Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "c39051da-36d7-4beb-9703-090d0a19ec5d",
         "kind": "need",
@@ -3166,7 +3166,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:00:22.641538Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "6cd8096b-641d-4882-bf47-1543ecd0850c",
         "kind": "need",
@@ -3200,7 +3200,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:41:22.775128Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "8aab4b33-1ddc-4218-9ece-48e5072ccbb5",
         "kind": "need",
@@ -3235,7 +3235,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:30:55.598544Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "983c7ceb-d1e2-4466-a580-a9d636a59ede",
         "kind": "need",
@@ -3268,7 +3268,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:24:27.3573Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "d4a8b0f2-5b67-44fa-bc07-c5e0179d9286",
         "kind": "need",
@@ -3302,7 +3302,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:04:49.314434Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "2d2a78c7-eecb-4260-a313-85134cf97d9c",
         "kind": "need",
@@ -3336,7 +3336,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:02:22.139555Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "a9c3d6e7-0f7b-43f4-bff0-887f4caf9f4b",
         "kind": "need",
@@ -3371,7 +3371,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T12:35:24.560326Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "aac9f6b4-3581-4b0f-9403-1cbf39e24609",
         "kind": "need",
@@ -3406,7 +3406,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T12:02:22.948584Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "fc652186-25dc-487c-b69d-c88aef21acee",
         "kind": "need",
@@ -3441,7 +3441,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T11:59:19.773579Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "9bf4b2de-93bf-4eab-9af8-bfe702ba268a",
         "kind": "need",
@@ -3475,7 +3475,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T11:51:17.985936Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "061b813b-a05d-4ca3-b86c-25bddde84087",
         "kind": "need",
@@ -3509,7 +3509,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T11:40:44.526917Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "09bb3e28-39c5-4414-a45f-39dd9fdd7337",
         "kind": "need",
@@ -3540,7 +3540,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T10:25:48.389321Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "b67b8b34-7533-42d1-9543-753344bd5e47",
         "kind": "need",
@@ -3572,7 +3572,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T09:41:52.529295Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "540cdcf2-0fec-4c3e-8fa4-bdb81786ebdf",
         "kind": "need",
@@ -3606,7 +3606,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T06:32:47.464107Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "d5ecf39b-6e73-460a-a60c-2525c906bca2",
         "kind": "need",
@@ -3640,7 +3640,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T03:09:54.007892Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "91f49938-84ea-4449-9217-4acc830f9287",
         "kind": "need",
@@ -3670,7 +3670,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T03:08:56.636228Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "901cecf5-6742-4309-8ee8-2185158e200c",
         "kind": "need",
@@ -3704,7 +3704,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T02:42:39.048398Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "bb034282-b43d-4f77-8137-5ecd5febcef7",
         "kind": "need",
@@ -3738,7 +3738,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T02:25:58.551772Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "7006889e-07e9-46fb-928d-daf43a3d5e5e",
         "kind": "need",
@@ -3770,7 +3770,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:55:17.569774Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "f1a14e5e-cc16-4cba-96ca-eea0d6968315",
         "kind": "need",
@@ -3804,7 +3804,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:47:56.659194Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "a77df0ae-ef3a-4314-b737-d7753626b6bc",
         "kind": "need",
@@ -3835,7 +3835,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:45:06.721356Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "7f186a26-e4a4-42fd-bde2-ec45ed51e81e",
         "kind": "need",
@@ -3869,7 +3869,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:05:32.641867Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "6de60f16-77ec-432f-a865-0dc3cfff2d48",
         "kind": "need",
@@ -3904,7 +3904,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T00:28:32.024024Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "4da057da-ee51-4504-9b33-96ccdac93d8d",
         "kind": "need",
@@ -3939,7 +3939,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T00:10:51.8511Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "c89e0732-818b-4358-99c6-0604fd6060d7",
         "kind": "need",
@@ -3973,7 +3973,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:31:47.780127Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "fc4b82a9-32e7-4ac2-8ecc-8380a8bda19f",
         "kind": "need",
@@ -4007,7 +4007,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:24:34.918475Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "5e2303c9-ed8d-44e4-8122-a17424b3a951",
         "kind": "need",
@@ -4042,7 +4042,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:23:07.473486Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "451fd232-7a36-4ddb-9434-4c3e4851ca3a",
         "kind": "need",
@@ -4076,7 +4076,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:02:24.257878Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "745189c0-5d52-426c-973e-1f1d8fd1733d",
         "kind": "need",
@@ -4111,7 +4111,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T22:53:07.514902Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "46ef2e83-2fc9-4d15-ab89-547cf213ebcb",
         "kind": "need",
@@ -4142,7 +4142,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:58:44.882529Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "c68f004b-681d-498d-b7a2-182496cdd9ca",
         "kind": "need",
@@ -4174,7 +4174,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:32:36.730743Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "abf90f71-3ab3-4aa4-b6b4-33cbb6b986a0",
         "kind": "need",
@@ -4209,7 +4209,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:05:55.901757Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "50f3eacf-ff13-45a1-8aa6-e87dddcfc4a8",
         "kind": "need",
@@ -4243,7 +4243,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:59:06.00741Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "60ceceb1-0888-4f04-82ff-e2fc1acfc2f5",
         "kind": "need",
@@ -4274,7 +4274,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T17:12:59.847654Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "70c794b0-cbe1-4778-b3a1-3db47d3085f9",
         "kind": "need",
@@ -4309,7 +4309,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:54:01.931448Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "5d694fbd-29b6-4d63-876b-201b1f0a1540",
         "kind": "need",
@@ -4339,7 +4339,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:23:43.229178Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "decf9493-337a-47ee-b393-085c476ee48c",
         "kind": "need",
@@ -4374,7 +4374,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:31:16.524558Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "578507a6-6d89-4647-9e93-5a5c7d1a8dab",
         "kind": "need",
@@ -4406,7 +4406,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:52:26.626756Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "8d8b464a-d4a5-49c3-be94-f8e9b8bb4128",
         "kind": "need",
@@ -4438,7 +4438,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:27:46.75875Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "33a797aa-bd5e-458e-9356-361beb9b0938",
         "kind": "need",
@@ -4470,7 +4470,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:48:46.810986Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "211bf2f0-e2b7-405c-ae0a-a045766bb59c",
         "kind": "need",
@@ -4502,7 +4502,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:16:00.597913Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "5e0cf83b-0bdc-47bf-9967-25ce43aba8c5",
         "kind": "need",
@@ -4536,7 +4536,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T02:36:54.695217Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "cf64a711-f5ac-44e1-bb10-d342bf459eb1",
         "kind": "offer",
@@ -4568,7 +4568,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T13:31:38.744944Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "faa2ba33-ace9-44b5-9a38-092203d5276e",
         "kind": "offer",
@@ -4600,7 +4600,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T19:22:55.760636Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "fa2e97fa-e795-4954-ba69-81a5d0cf000e",
         "kind": "offer",
@@ -4632,7 +4632,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T02:27:52.115574Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "360a3b89-0141-48a4-82f9-d36a0990553b",
         "kind": "offer",
@@ -4663,7 +4663,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T02:03:49.663827Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "6cde023d-cd02-403f-800a-953a1e91d704",
         "kind": "offer",
@@ -4697,7 +4697,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:13:31.985345Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "d58914a5-a3c1-43f6-a280-42fbcca70ca9",
         "kind": "offer",
@@ -4729,7 +4729,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:03:31.97957Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "4903abd4-7b6d-4f88-85ed-9b1f07f0be86",
         "kind": "offer",
@@ -4760,7 +4760,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:55:35.415346Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "a00239b2-7698-476f-b384-bf57d3c32366",
         "kind": "offer",
@@ -4793,7 +4793,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:07:13.093865Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "0912be41-0217-4e74-8476-f0fee36f49c8",
         "kind": "offer",
@@ -4823,7 +4823,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:33:34.867849Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "f40baf50-2a2f-4383-b2f9-1eafa5df52a1",
         "kind": "offer",
@@ -4856,7 +4856,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:42:46.437505Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "434b984e-4560-424c-8258-994c83c9b348",
         "kind": "offer",
@@ -4888,7 +4888,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:35:21.894799Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "8a2cd4fe-d432-4ad8-930e-b782ea4626c7",
         "kind": "offer",
@@ -4922,7 +4922,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:18:12.999355Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "611571c3-238c-4ea3-b4dc-4e4390241e30",
         "kind": "offer",
@@ -4953,7 +4953,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:43:19.3229Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "73aaa4ed-aeeb-4fd9-9fb0-ec4082b1ca97",
         "kind": "offer",
@@ -4985,7 +4985,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:19:29.613673Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "84521cee-78ca-464d-8d19-856bac6eb088",
         "kind": "offer",
@@ -5018,7 +5018,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:42:51.042339Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "1137105b-e902-499a-9bc9-83d74aa03d03",
         "kind": "offer",
@@ -5053,7 +5053,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:29:52.814157Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "fdc304f5-7ef0-4840-9994-5539cc151ff7",
         "kind": "offer",
@@ -5084,7 +5084,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:11:47.6773Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "9070058c-7fd6-4ad4-8156-df8f9bb24d59",
         "kind": "offer",
@@ -5115,7 +5115,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T23:58:49.394335Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "3ee04dff-179e-4ba0-9020-9990b2572d33",
         "kind": "offer",
@@ -5149,7 +5149,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T23:06:03.945603Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "46ed2906-e479-449d-97ff-d56029e523d0",
         "kind": "offer",
@@ -5180,7 +5180,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:37:04.74991Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "fe2944ff-83c3-47be-a251-5552302b9934",
         "kind": "offer",
@@ -5215,7 +5215,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:36:57.027041Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "366ed70c-d2a7-4ca2-bd59-7a508fa6a69b",
         "kind": "offer",
@@ -5249,7 +5249,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:16:38.568824Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "7f776f3d-17fc-41b1-8f0f-f15ee04fda7d",
         "kind": "offer",
@@ -5281,7 +5281,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:13:38.952643Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "19bb1478-2aad-4746-ba6c-8c7160e8cfca",
         "kind": "offer",
@@ -5315,7 +5315,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T21:59:05.44064Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "d760a276-8046-4938-bf7d-8818da60b6e2",
         "kind": "offer",
@@ -5347,7 +5347,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:12:50.860658Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "5ba8f35a-651a-4b80-b983-a50757464de5",
         "kind": "offer",
@@ -5380,7 +5380,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:31:08.835075Z",
-      "fecha_corte": "2026-08-19T09:57:18Z",
+      "fecha_corte": "2026-08-19T10:27:03Z",
       "raw": {
         "id": "8b1472bd-3be7-4742-9739-757c1201ba08",
         "kind": "offer",
