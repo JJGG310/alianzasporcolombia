@@ -3,10 +3,88 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "539.222516ms",
-  "obtenido": "2026-08-19T13:39:15Z",
-  "total": 33,
+  "duracion": "621.584455ms",
+  "obtenido": "2026-08-19T14:26:08Z",
+  "total": 32,
   "puntos": [
+    {
+      "id": "mapa-emergencia-653dceef87",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=2kzk3b8unask",
+      "tipo": "rescate",
+      "nombre": "Riofrio valle",
+      "direccion": "Riofrio valle",
+      "lat": 4.1071481,
+      "lon": -76.3839423,
+      "necesita": [
+        "Agua",
+        "Botiquín",
+        "Carpas",
+        "Colchonetas",
+        "Comida",
+        "Comida para animales",
+        "Electrolitos",
+        "Gafas de seguridad",
+        "Guantes de obra",
+        "Linternas",
+        "Palas",
+        "Picas",
+        "Tapabocas",
+        "Tapers"
+      ],
+      "estado": "urgente",
+      "prioridad": "critica",
+      "organizacion": "3205163851",
+      "verificado": false,
+      "confirmaciones": 1,
+      "creado": "2026-08-17T20:10:08.582Z",
+      "actualizado": "2026-08-19T14:21:58.186Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
+      "raw": {
+        "id": "2kzk3b8unask",
+        "nombre": "Riofrio valle",
+        "tipo": "rescate",
+        "lat": 4.1071481,
+        "lng": -76.3839423,
+        "direccion": "Riofrio valle",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [
+          "Agua",
+          "Guantes de obra",
+          "Comida",
+          "Gafas de seguridad",
+          "Tapabocas",
+          "Linternas",
+          "Palas",
+          "Picas",
+          "Botiquín",
+          "Tapers",
+          "Electrolitos",
+          "Carpas",
+          "Colchonetas",
+          "Comida para animales"
+        ],
+        "voluntarios_hay": 0,
+        "voluntarios_faltan": 0,
+        "contacto": "",
+        "notas": "",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "3205163851",
+        "creado": 1786997408582,
+        "actualizado": 1787149318186,
+        "confirmado": 1787149331757,
+        "ubicado": true,
+        "fresco": true,
+        "saturacion": "sin_dato",
+        "confirma": 1,
+        "desmiente": 0,
+        "media": [],
+        "media_total": 0
+      }
+    },
     {
       "id": "mapa-emergencia-b114800209",
       "fuente": "mapa-emergencia",
@@ -23,7 +101,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-19T11:45:34.394Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "raw": {
         "id": "knp859rnx2cb",
         "nombre": "Centro comercial parque La Colina Bogota",
@@ -72,7 +150,7 @@
       "verificado": false,
       "creado": "2026-08-17T19:22:04.164Z",
       "actualizado": "2026-08-19T09:47:51.295Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -130,7 +208,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:06:08.054Z",
       "actualizado": "2026-08-19T04:17:31.065Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -192,7 +270,7 @@
       "verificado": false,
       "creado": "2026-08-15T17:19:10.871Z",
       "actualizado": "2026-08-19T03:59:17.065Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -247,7 +325,7 @@
       "desmentidos": 1,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -304,7 +382,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-19T02:35:30.796Z",
       "actualizado": "2026-08-19T02:38:34.841Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "raw": {
         "id": "5p4qb5hrw5pk",
         "nombre": "Casa Cultural Freire - Fe y alegría",
@@ -363,10 +441,9 @@
       "prioridad": "alta",
       "voluntarios_faltan": 21,
       "verificado": false,
-      "confirmaciones": 1,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-19T02:03:25.679Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -403,7 +480,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "faltan",
-        "confirma": 1,
+        "confirma": 0,
         "desmiente": 0,
         "media": [
           {
@@ -443,10 +520,9 @@
       "prioridad": "alta",
       "voluntarios_hay": 10,
       "verificado": false,
-      "confirmaciones": 1,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-19T01:51:23.863Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -479,7 +555,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "exceso",
-        "confirma": 1,
+        "confirma": 0,
         "desmiente": 0,
         "media": [
           {
@@ -529,7 +605,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:40:47.598Z",
       "actualizado": "2026-08-18T21:53:49.183Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "raw": {
         "id": "s2k8rv92iy48",
         "nombre": "Calle novena con 44 edificio Vanessa",
@@ -585,7 +661,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "raw": {
         "id": "zimkegz2agg5",
         "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
@@ -623,86 +699,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-653dceef87",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=2kzk3b8unask",
-      "tipo": "rescate",
-      "nombre": "Riofrio valle",
-      "direccion": "Riofrio valle",
-      "lat": 4.1071481,
-      "lon": -76.3839423,
-      "necesita": [
-        "Agua",
-        "Botiquín",
-        "Carpas",
-        "Colchonetas",
-        "Comida",
-        "Comida para animales",
-        "Electrolitos",
-        "Gafas de seguridad",
-        "Guantes de obra",
-        "Linternas",
-        "Palas",
-        "Picas",
-        "Tapabocas",
-        "Tapers"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "3205163851",
-      "verificado": false,
-      "creado": "2026-08-17T20:10:08.582Z",
-      "actualizado": "2026-08-18T18:30:19.575Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "2kzk3b8unask",
-        "nombre": "Riofrio valle",
-        "tipo": "rescate",
-        "lat": 4.1071481,
-        "lng": -76.3839423,
-        "direccion": "Riofrio valle",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Agua",
-          "Guantes de obra",
-          "Comida",
-          "Gafas de seguridad",
-          "Tapabocas",
-          "Linternas",
-          "Palas",
-          "Picas",
-          "Botiquín",
-          "Tapers",
-          "Electrolitos",
-          "Carpas",
-          "Colchonetas",
-          "Comida para animales"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "3205163851",
-        "creado": 1786997408582,
-        "actualizado": 1787077819575,
-        "confirmado": 1787102885271,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-cdeac44431",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=97tfc5ceezji",
@@ -723,7 +719,7 @@
       "desmentidos": 1,
       "creado": "2026-08-18T18:24:36.441Z",
       "actualizado": "2026-08-18T18:24:53.801Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "raw": {
         "id": "97tfc5ceezji",
         "nombre": "Cl 43 #33-41",
@@ -771,7 +767,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:46:18.32Z",
       "actualizado": "2026-08-18T17:46:18.32Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -821,7 +817,7 @@
       "verificado": false,
       "creado": "2026-08-18T04:05:46.232Z",
       "actualizado": "2026-08-18T12:16:18.533Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -893,7 +889,7 @@
       "verificado": false,
       "creado": "2026-08-16T16:17:40.812Z",
       "actualizado": "2026-08-18T05:48:40.48Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -983,7 +979,7 @@
       "verificado": false,
       "creado": "2026-08-18T01:11:25.156Z",
       "actualizado": "2026-08-18T03:32:46.208Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1044,7 +1040,7 @@
       "verificado": false,
       "creado": "2026-08-16T17:23:27.838Z",
       "actualizado": "2026-08-18T03:17:05.28Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1093,7 +1089,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:46:04.733Z",
       "actualizado": "2026-08-17T23:20:28.951Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "raw": {
         "id": "fg9p2kmrh2tj",
         "nombre": "Edificio Vanesa",
@@ -1160,7 +1156,7 @@
       "verificado": false,
       "creado": "2026-08-17T21:27:13.648Z",
       "actualizado": "2026-08-17T22:30:26.948Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1228,7 +1224,7 @@
       "verificado": false,
       "creado": "2026-08-16T21:59:45.406Z",
       "actualizado": "2026-08-17T22:23:50.737Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1308,7 +1304,7 @@
       "verificado": false,
       "creado": "2026-08-15T18:21:37.922Z",
       "actualizado": "2026-08-17T22:23:29.746Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "raw": {
         "id": "sdznvek56naf",
         "nombre": "Cra 60 A #4",
@@ -1408,7 +1404,7 @@
       "verificado": false,
       "creado": "2026-08-12T18:01:14.16Z",
       "actualizado": "2026-08-17T19:54:00.741Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1495,7 +1491,7 @@
       "verificado": false,
       "creado": "2026-08-17T18:40:07.679Z",
       "actualizado": "2026-08-17T18:40:07.679Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1550,7 +1546,7 @@
       "verificado": false,
       "creado": "2026-08-17T03:40:11.384Z",
       "actualizado": "2026-08-17T18:18:06.949Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1617,7 +1613,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-17T17:10:51.176Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1660,50 +1656,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-badd57c3d0",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=eda87k7tcer3",
-      "tipo": "otro",
-      "nombre": "CL 3 # 71-03 edificio mariana",
-      "direccion": "CL 3 # 71-03 edificio mariana",
-      "lat": 3.392934324949642,
-      "lon": -76.54923485194176,
-      "estado": "cubierto",
-      "verificado": false,
-      "creado": "2026-08-17T14:03:33.734Z",
-      "actualizado": "2026-08-17T14:04:25.466Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
-      "raw": {
-        "id": "eda87k7tcer3",
-        "nombre": "CL 3 # 71-03 edificio mariana",
-        "tipo": "otro",
-        "lat": 3.392934324949642,
-        "lng": -76.54923485194176,
-        "direccion": "CL 3 # 71-03 edificio mariana",
-        "barrio": "",
-        "estado": "cubierto",
-        "necesidades": [],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786975413734,
-        "actualizado": 1786975465466,
-        "confirmado": 1786975465466,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-52b7d7b155",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=63a28jt3u7dv",
@@ -1721,7 +1673,7 @@
       "verificado": false,
       "creado": "2026-08-17T04:09:29.31Z",
       "actualizado": "2026-08-17T04:54:06.971Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1804,7 +1756,7 @@
       "verificado": false,
       "creado": "2026-08-12T22:58:40.01Z",
       "actualizado": "2026-08-17T04:48:17.132Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1892,7 +1844,7 @@
       "verificado": false,
       "creado": "2026-08-16T11:11:43.402Z",
       "actualizado": "2026-08-16T23:27:35.152Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1973,7 +1925,7 @@
       "verificado": false,
       "creado": "2026-08-16T02:32:50.425Z",
       "actualizado": "2026-08-16T02:32:50.425Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2045,7 +1997,7 @@
       "verificado": false,
       "creado": "2026-08-11T22:24:50.401Z",
       "actualizado": "2026-08-15T23:29:26.619Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2145,7 +2097,7 @@
       "verificado": false,
       "creado": "2026-08-13T20:07:50.424Z",
       "actualizado": "2026-08-15T23:23:32.499Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2219,7 +2171,7 @@
       "verificado": false,
       "creado": "2026-08-15T15:27:13.144Z",
       "actualizado": "2026-08-15T20:15:23.169Z",
-      "fecha_corte": "2026-08-19T13:39:15Z",
+      "fecha_corte": "2026-08-19T14:26:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2273,9 +2225,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 33.44838,
-        "lng": -112.07404,
-        "ciudad": "Phoenix",
+        "lat": 41.13998,
+        "lng": -104.82025,
+        "ciudad": "Cheyenne",
         "pais": "US"
       },
       "tipos": [
@@ -2303,6 +2255,90 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787149331757,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787149326143,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "1 persona menos ayudando",
+          "autor": "",
+          "ts": 1787149318186,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "1 persona menos ayudando",
+          "autor": "",
+          "ts": 1787149316750,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787149316007,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787149313997,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787149313327,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787149313017,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787149312320,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787149308716,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787149308302,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1787149306404,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "Lucia Orozco - Yadira Zuñiga",
@@ -2498,100 +2534,16 @@
           "ts": 1787106930796,
           "nombre": "Casa Cultural Freire - Fe y alegría",
           "punto_id": "5p4qb5hrw5pk"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "ِمماشةيعممهمشا",
-          "ts": 1787105006912,
-          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-          "punto_id": "9xtitashddwm"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "ِمماشةيعممهمشا",
-          "ts": 1787105005679,
-          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-          "punto_id": "9xtitashddwm"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "ِمماشةيعممهمشا",
-          "ts": 1787105005523,
-          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-          "punto_id": "9xtitashddwm"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "ِمماشةيعممهمشا",
-          "ts": 1787105005372,
-          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-          "punto_id": "9xtitashddwm"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "ِمماشةيعممهمشا",
-          "ts": 1787105005214,
-          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-          "punto_id": "9xtitashddwm"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "ِمماشةيعممهمشا",
-          "ts": 1787105005065,
-          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-          "punto_id": "9xtitashddwm"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "ِمماشةيعممهمشا",
-          "ts": 1787105004401,
-          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-          "punto_id": "9xtitashddwm"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "ِمماشةيعممهمشا",
-          "ts": 1787105004266,
-          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-          "punto_id": "9xtitashddwm"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "ِمماشةيعممهمشا",
-          "ts": 1787105003631,
-          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-          "punto_id": "9xtitashddwm"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "ِمماشةيعممهمشا",
-          "ts": 1787105003449,
-          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-          "punto_id": "9xtitashddwm"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "ِمماشةيعممهمشا",
-          "ts": 1787105003267,
-          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-          "punto_id": "9xtitashddwm"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "ِمماشةيعممهمشا",
-          "ts": 1787105003116,
-          "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
-          "punto_id": "9xtitashddwm"
         }
       ]
     },
     "resumen": {
-      "total": 33,
+      "total": 32,
       "urgentes": 28,
       "faltan_manos": 6,
       "exceso": 9,
       "sin_ubicar": 2,
-      "sin_confirmar": 30,
+      "sin_confirmar": 28,
       "voluntarios_faltan": 140,
       "voluntarios_hay": 216
     }
