@@ -3,9 +3,9 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "439.418181ms",
-  "obtenido": "2026-08-18T23:44:52Z",
-  "total": 39,
+  "duracion": "395.215984ms",
+  "obtenido": "2026-08-19T00:52:06Z",
+  "total": 36,
   "puntos": [
     {
       "id": "mapa-emergencia-2f225a94ff",
@@ -25,7 +25,7 @@
       "desmentidos": 1,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-18T22:31:00.783Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "raw": {
         "id": "hw9w7cj26vwh",
         "nombre": "Campin, Bogotá",
@@ -100,7 +100,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:40:47.598Z",
       "actualizado": "2026-08-18T21:53:49.183Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "raw": {
         "id": "s2k8rv92iy48",
         "nombre": "Calle novena con 44 edificio Vanessa",
@@ -132,94 +132,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-b6b92147e6",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=eiij3v6ew25v",
-      "tipo": "rescate",
-      "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-      "descripcion": "Los voluntarios estamos esperando un levantamiento de cuerpos para seguir sacando escombros",
-      "direccion": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-      "lat": 3.4091410073640573,
-      "lon": -76.54909344406266,
-      "necesita": [
-        "6 gafas con elástico",
-        "7 overoles",
-        "Cascos",
-        "Electrolitos",
-        "Gasolina",
-        "Voluntarios"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_hay": 30,
-      "voluntarios_faltan": 28,
-      "verificado": false,
-      "creado": "2026-08-12T13:07:28.372Z",
-      "actualizado": "2026-08-18T21:37:52.611Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "eiij3v6ew25v",
-        "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-        "tipo": "rescate",
-        "lat": 3.4091410073640573,
-        "lng": -76.54909344406266,
-        "direccion": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Electrolitos",
-          "Gasolina",
-          "Cascos",
-          "Voluntarios",
-          "6 gafas con elástico",
-          "7 overoles"
-        ],
-        "voluntarios_hay": 30,
-        "voluntarios_faltan": 28,
-        "contacto": "",
-        "notas": "Los voluntarios estamos esperando un levantamiento de cuerpos para seguir sacando escombros",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786540048372,
-        "actualizado": 1787089072611,
-        "confirmado": 1786924885153,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "faltan",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [
-          {
-            "id": "mc9juckdkw",
-            "url": "/media/eiij3v6ew25v/1786812070571-ci4ufd.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786812071153
-          },
-          {
-            "id": "i867fe4is9",
-            "url": "/media/eiij3v6ew25v/1786703549214-r5tykj.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786703550240
-          },
-          {
-            "id": "tcvvirj3qe",
-            "url": "/media/eiij3v6ew25v/1786543865633-45m87f.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786543866010
-          }
-        ],
-        "media_total": 3
-      }
-    },
-    {
       "id": "mapa-emergencia-2df922c478",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=2h8qw9c3emr3",
@@ -236,7 +148,7 @@
       "verificado": false,
       "creado": "2026-08-16T01:27:55.235Z",
       "actualizado": "2026-08-18T21:29:28.968Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -296,7 +208,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -361,14 +273,17 @@
         "Tapabocas",
         "Tapers"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "organizacion": "3205163851",
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-18T18:30:19.575Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "2kzk3b8unask",
         "nombre": "Riofrio valle",
@@ -406,7 +321,7 @@
         "actualizado": 1787077819575,
         "confirmado": 1787077796960,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 1,
         "desmiente": 0,
@@ -435,7 +350,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-18T18:24:36.441Z",
       "actualizado": "2026-08-18T18:24:53.801Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "raw": {
         "id": "97tfc5ceezji",
         "nombre": "Cl 43 #33-41",
@@ -460,7 +375,7 @@
         "actualizado": 1787077493801,
         "confirmado": 1787077500048,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "faltan",
         "confirma": 1,
         "desmiente": 0,
@@ -478,12 +393,15 @@
       "necesita": [
         "Voluntarios"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "verificado": false,
       "creado": "2026-08-18T17:46:18.32Z",
       "actualizado": "2026-08-18T17:46:18.32Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "n5ekh5rjw9am",
         "nombre": "Medellin",
@@ -508,7 +426,7 @@
         "actualizado": 1787075178320,
         "confirmado": 1787075178320,
         "ubicado": false,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 0,
         "desmiente": 0,
@@ -530,7 +448,7 @@
       "verificado": false,
       "creado": "2026-08-18T04:05:46.232Z",
       "actualizado": "2026-08-18T12:16:18.533Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -602,7 +520,7 @@
       "verificado": false,
       "creado": "2026-08-16T16:17:40.812Z",
       "actualizado": "2026-08-18T05:48:40.48Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -693,7 +611,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-18T01:11:25.156Z",
       "actualizado": "2026-08-18T03:32:46.208Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "raw": {
         "id": "myjvsrjr9jju",
         "nombre": "Albergue temporal para damnificados sur",
@@ -751,7 +669,7 @@
       "verificado": false,
       "creado": "2026-08-16T17:23:27.838Z",
       "actualizado": "2026-08-18T03:17:05.28Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -807,7 +725,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:06:08.054Z",
       "actualizado": "2026-08-18T00:56:56.77Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -861,7 +779,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:46:04.733Z",
       "actualizado": "2026-08-17T23:20:28.951Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "raw": {
         "id": "fg9p2kmrh2tj",
         "nombre": "Edificio Vanesa",
@@ -928,7 +846,7 @@
       "verificado": false,
       "creado": "2026-08-17T21:27:13.648Z",
       "actualizado": "2026-08-17T22:30:26.948Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -996,7 +914,7 @@
       "verificado": false,
       "creado": "2026-08-16T21:59:45.406Z",
       "actualizado": "2026-08-17T22:23:50.737Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1076,7 +994,7 @@
       "verificado": false,
       "creado": "2026-08-15T18:21:37.922Z",
       "actualizado": "2026-08-17T22:23:29.746Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "raw": {
         "id": "sdznvek56naf",
         "nombre": "Cra 60 A #4",
@@ -1176,7 +1094,7 @@
       "verificado": false,
       "creado": "2026-08-12T18:01:14.16Z",
       "actualizado": "2026-08-17T19:54:00.741Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1268,7 +1186,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-17T19:22:04.164Z",
       "actualizado": "2026-08-17T19:23:57.936Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "raw": {
         "id": "ythbnzuca5g3",
         "nombre": "Albergue temporal para damnificados",
@@ -1328,7 +1246,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-17T18:55:21.639Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "raw": {
         "id": "9xtitashddwm",
         "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
@@ -1397,7 +1315,7 @@
       "verificado": false,
       "creado": "2026-08-17T18:40:07.679Z",
       "actualizado": "2026-08-17T18:40:07.679Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1432,56 +1350,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-464f9eef2f",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=b78c5mdnjxbp",
-      "tipo": "rescate",
-      "nombre": "Carrera 6A #116-17",
-      "direccion": "Carrera 6A #116-17",
-      "lat": 4.693722859530194,
-      "lon": -74.0320122241974,
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_hay": 54,
-      "organizacion": "Diego Bula Salamanca - 3138159504",
-      "verificado": false,
-      "creado": "2026-08-15T02:51:21.053Z",
-      "actualizado": "2026-08-17T18:22:12.342Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "b78c5mdnjxbp",
-        "nombre": "Carrera 6A #116-17",
-        "tipo": "rescate",
-        "lat": 4.693722859530194,
-        "lng": -74.0320122241974,
-        "direccion": "Carrera 6A #116-17",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [],
-        "voluntarios_hay": 54,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Diego Bula Salamanca - 3138159504",
-        "creado": 1786762281053,
-        "actualizado": 1786990932342,
-        "confirmado": 1786927034033,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "exceso",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-5c6263ca86",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=wxwv22bk9qab",
@@ -1502,7 +1370,7 @@
       "verificado": false,
       "creado": "2026-08-17T03:40:11.384Z",
       "actualizado": "2026-08-17T18:18:06.949Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1559,7 +1427,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-17T17:32:42.86Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1618,7 +1486,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-17T17:10:51.176Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1673,7 +1541,7 @@
       "verificado": false,
       "creado": "2026-08-17T14:03:33.734Z",
       "actualizado": "2026-08-17T14:04:25.466Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "raw": {
         "id": "eda87k7tcer3",
         "nombre": "CL 3 # 71-03 edificio mariana",
@@ -1723,7 +1591,7 @@
       "verificado": false,
       "creado": "2026-08-17T02:28:40.726Z",
       "actualizado": "2026-08-17T04:58:25.418Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1780,7 +1648,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-17T04:09:29.31Z",
       "actualizado": "2026-08-17T04:54:06.971Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "raw": {
         "id": "63a28jt3u7dv",
         "nombre": "Albergue avivamiento cali",
@@ -1861,7 +1729,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-12T22:58:40.01Z",
       "actualizado": "2026-08-17T04:48:17.132Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1958,7 +1826,7 @@
       "verificado": false,
       "creado": "2026-08-16T01:44:16.773Z",
       "actualizado": "2026-08-17T01:03:51.272Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2036,8 +1904,8 @@
         "libros",
         "medicamentos para animales"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "voluntarios_hay": 21,
       "contacto": "3117868776",
       "organizacion": "Valeria, Nana en Casa - 3176919121",
@@ -2045,7 +1913,10 @@
       "confirmaciones": 1,
       "creado": "2026-08-16T11:11:43.402Z",
       "actualizado": "2026-08-16T23:27:35.152Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "ny7zt74ttu5a",
         "nombre": "Parques del Río por el lado de la torre de piedras de colores",
@@ -2081,7 +1952,7 @@
         "actualizado": 1786922855152,
         "confirmado": 1787078644772,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "exceso",
         "confirma": 1,
         "desmiente": 0,
@@ -2105,74 +1976,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-fc471046b9",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=8sqjr5kyxncd",
-      "tipo": "acopio",
-      "nombre": "Estadio el campin",
-      "descripcion": "Avena azúcar sal almohadas carpas sábanas cobijas desodorantes, jabón y shampoo es sobre no en pote",
-      "direccion": "Estadio el campin",
-      "lat": 4.6459495,
-      "lon": -74.0776054,
-      "necesita": [
-        "Almohadas",
-        "Avena azúcar sal almohadas carpas sábanas cobijas desodorantes",
-        "Azúcar",
-        "Café",
-        "Canela",
-        "Chocolate",
-        "Crema dental",
-        "Sábanas",
-        "jabón y shampoo es sobre no en pote"
-      ],
-      "estado": "activo",
-      "prioridad": "alta",
-      "voluntarios_hay": 47,
-      "verificado": false,
-      "creado": "2026-08-13T17:03:20.289Z",
-      "actualizado": "2026-08-16T23:26:11.458Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
-      "raw": {
-        "id": "8sqjr5kyxncd",
-        "nombre": "Estadio el campin",
-        "tipo": "acopio",
-        "lat": 4.6459495,
-        "lng": -74.0776054,
-        "direccion": "Estadio el campin",
-        "barrio": "",
-        "estado": "necesita",
-        "necesidades": [
-          "Café",
-          "Chocolate",
-          "Azúcar",
-          "Canela",
-          "Crema dental",
-          "Sábanas",
-          "Almohadas",
-          "Avena azúcar sal almohadas carpas sábanas cobijas   desodorantes",
-          "jabón y shampoo es sobre no en pote"
-        ],
-        "voluntarios_hay": 47,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "Avena azúcar sal almohadas carpas sábanas cobijas \n\ndesodorantes, jabón y shampoo es sobre no en pote",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786640600289,
-        "actualizado": 1786922771458,
-        "confirmado": 1786924005361,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "exceso",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-00b7ce1eb1",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=m4cnyzqm6fus",
@@ -2186,7 +1989,7 @@
       "verificado": false,
       "creado": "2026-08-13T16:01:49.57Z",
       "actualizado": "2026-08-16T20:15:57.451Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2239,7 +2042,7 @@
       "verificado": false,
       "creado": "2026-08-16T02:32:50.425Z",
       "actualizado": "2026-08-16T02:32:50.425Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2311,7 +2114,7 @@
       "verificado": false,
       "creado": "2026-08-11T22:24:50.401Z",
       "actualizado": "2026-08-15T23:29:26.619Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2412,7 +2215,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-13T20:07:50.424Z",
       "actualizado": "2026-08-15T23:23:32.499Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "raw": {
         "id": "wdpdxxapebm8",
         "nombre": "Polideportivo colina del sur al lado del cai de napoles comuna 18  se nesesitan carpas agua comida las personas esta utilizando la cancha como albergue",
@@ -2483,7 +2286,7 @@
       "verificado": false,
       "creado": "2026-08-15T15:27:13.144Z",
       "actualizado": "2026-08-15T20:15:23.169Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2552,7 +2355,7 @@
       "verificado": false,
       "creado": "2026-08-15T17:19:10.871Z",
       "actualizado": "2026-08-15T17:19:45.795Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2614,7 +2417,7 @@
       "verificado": false,
       "creado": "2026-08-15T06:48:22.658Z",
       "actualizado": "2026-08-15T14:21:08.681Z",
-      "fecha_corte": "2026-08-18T23:44:52Z",
+      "fecha_corte": "2026-08-19T00:52:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -2662,9 +2465,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 41.60054,
-        "lng": -93.60911,
-        "ciudad": "Des Moines",
+        "lat": 41.85003,
+        "lng": -87.65005,
+        "ciudad": "Chicago",
         "pais": "US"
       },
       "tipos": [
@@ -2768,90 +2571,6 @@
           "ts": 1787089923356,
           "nombre": "Campin, Bogotá",
           "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "Necesidades: Electrolitos, Gasolina, Cascos, Voluntarios, 6 gafas con elástico, 7 overoles",
-          "autor": "Linternas de minero",
-          "ts": 1787089072611,
-          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-          "punto_id": "eiij3v6ew25v"
-        },
-        {
-          "texto": "Necesidades: Electrolitos, Hidratación, Gasolina, Cascos, Voluntarios, 6 gafas con elástico, 7 overoles",
-          "autor": "Linternas de minero",
-          "ts": 1787089060319,
-          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-          "punto_id": "eiij3v6ew25v"
-        },
-        {
-          "texto": "Necesidades: Electrolitos, Hidratación, Gasolina, Cascos, Voluntarios, Guantes de obra, 6 gafas con elástico, 7 overoles",
-          "autor": "Linternas de minero",
-          "ts": 1787089048152,
-          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-          "punto_id": "eiij3v6ew25v"
-        },
-        {
-          "texto": "Necesidades: Electrolitos, Hidratación, Gasolina, Cascos, Voluntarios, Guantes de obra, 6 gafas con elástico",
-          "autor": "Linternas de minero",
-          "ts": 1787089030968,
-          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-          "punto_id": "eiij3v6ew25v"
-        },
-        {
-          "texto": "Necesidades: Electrolitos, Hidratación, Gasolina, Cascos, Voluntarios, Guantes de obra",
-          "autor": "Linternas de minero",
-          "ts": 1787089013348,
-          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-          "punto_id": "eiij3v6ew25v"
-        },
-        {
-          "texto": "Necesidades: Electrolitos, Hidratación, Gasolina, Gafas de seguridad, Cascos, Voluntarios, Guantes de obra",
-          "autor": "Linternas de minero",
-          "ts": 1787089004747,
-          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-          "punto_id": "eiij3v6ew25v"
-        },
-        {
-          "texto": "Necesidades: Electrolitos, Hidratación, Gasolina, Gafas de seguridad, Cascos, Voluntarios, Guantes de obra",
-          "autor": "",
-          "ts": 1787088988688,
-          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-          "punto_id": "eiij3v6ew25v"
-        },
-        {
-          "texto": "Necesidades: Electrolitos, Hidratación, Gasolina, ACMP, Gafas de seguridad, Cascos, Voluntarios, Guantes de obra",
-          "autor": "",
-          "ts": 1787088985748,
-          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-          "punto_id": "eiij3v6ew25v"
-        },
-        {
-          "texto": "Necesidades: Electrolitos, Hidratación, Gasolina, ACMP, ExtintorROJO, Gafas de seguridad, Cascos, Voluntarios, Guantes de obra",
-          "autor": "",
-          "ts": 1787088981928,
-          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-          "punto_id": "eiij3v6ew25v"
-        },
-        {
-          "texto": "Necesidades: Electrolitos, Comida, Hidratación, Gasolina, ACMP, ExtintorROJO, Gafas de seguridad, Cascos, Voluntarios, Guantes de obra",
-          "autor": "",
-          "ts": 1787088976537,
-          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-          "punto_id": "eiij3v6ew25v"
-        },
-        {
-          "texto": "Necesidades: Linternas, Electrolitos, Comida, Hidratación, Gasolina, ACMP, ExtintorROJO, Gafas de seguridad, Cascos, Voluntarios, Guantes de obra",
-          "autor": "",
-          "ts": 1787088961076,
-          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-          "punto_id": "eiij3v6ew25v"
-        },
-        {
-          "texto": "Necesidades: Linternas, Electrolitos, Comida, Hidratación, Gasolina, ACMP, ExtintorROJO, Gafas de seguridad, Cascos, Voluntarios, Comida para animales, Guantes de obra",
-          "autor": "",
-          "ts": 1787088943108,
-          "nombre": "Carrera 56 # 3 - 88 • Edificio Ana Pilar",
-          "punto_id": "eiij3v6ew25v"
         },
         {
           "texto": "1 persona menos ayudando",
@@ -2971,18 +2690,102 @@
           "ts": 1787073011354,
           "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
           "punto_id": "zimkegz2agg5"
+        },
+        {
+          "texto": "Punto creado.",
+          "autor": "Garec GPS , Red de apoyo SIC - (Recolecta Norte del Valle)",
+          "ts": 1787072916150,
+          "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
+          "punto_id": "zimkegz2agg5"
+        },
+        {
+          "texto": "Desmentido: la información no cuadra.",
+          "autor": "",
+          "ts": 1787070410426,
+          "nombre": "Campin, Bogotá",
+          "punto_id": "hw9w7cj26vwh"
+        },
+        {
+          "texto": "Desmentido: la información no cuadra.",
+          "autor": "",
+          "ts": 1787070285875,
+          "nombre": "Campin, Bogotá",
+          "punto_id": "hw9w7cj26vwh"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787069104096,
+          "nombre": "Campin, Bogotá",
+          "punto_id": "hw9w7cj26vwh"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787069100094,
+          "nombre": "Campin, Bogotá",
+          "punto_id": "hw9w7cj26vwh"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787063954452,
+          "nombre": "Torres de limonar, capri",
+          "punto_id": "fj8tfv25v64s"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787055378533,
+          "nombre": "Bogotá",
+          "punto_id": "rd4eiwi6nznp"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787055378408,
+          "nombre": "Bogotá",
+          "punto_id": "rd4eiwi6nznp"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787055378235,
+          "nombre": "Bogotá",
+          "punto_id": "rd4eiwi6nznp"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787055378080,
+          "nombre": "Bogotá",
+          "punto_id": "rd4eiwi6nznp"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787055377853,
+          "nombre": "Bogotá",
+          "punto_id": "rd4eiwi6nznp"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787055376876,
+          "nombre": "Bogotá",
+          "punto_id": "rd4eiwi6nznp"
         }
       ]
     },
     "resumen": {
-      "total": 39,
-      "urgentes": 33,
-      "faltan_manos": 10,
-      "exceso": 9,
+      "total": 36,
+      "urgentes": 31,
+      "faltan_manos": 9,
+      "exceso": 7,
       "sin_ubicar": 2,
-      "sin_confirmar": 29,
-      "voluntarios_faltan": 178,
-      "voluntarios_hay": 347
+      "sin_confirmar": 30,
+      "voluntarios_faltan": 150,
+      "voluntarios_hay": 216
     }
   }
 }
