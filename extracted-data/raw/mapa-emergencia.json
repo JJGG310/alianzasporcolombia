@@ -3,91 +3,10 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "310.007804ms",
-  "obtenido": "2026-08-19T20:52:27Z",
-  "total": 25,
+  "duracion": "390.913816ms",
+  "obtenido": "2026-08-19T21:19:14Z",
+  "total": 24,
   "puntos": [
-    {
-      "id": "mapa-emergencia-c4820d0aa7",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=be6c5q828jpg",
-      "tipo": "rescate",
-      "nombre": "Cra 60 con 4 casa de Lucky",
-      "direccion": "Cra 60 con 4 casa de Lucky",
-      "lat": 3.405659000153791,
-      "lon": -76.5479120399448,
-      "necesita": [
-        "Agua",
-        "Baldes",
-        "Cinceles",
-        "Comida",
-        "Comida para animales",
-        "Costales",
-        "Discos de pulidora",
-        "Electrolitos",
-        "Gafas de seguridad",
-        "Gato hidráulico 3 toneladas estilo caiman",
-        "Guantes de obra",
-        "Seguetas",
-        "Tapabocas",
-        "Un veterinario"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "Beatriz",
-      "verificado": false,
-      "desmentidos": 1,
-      "creado": "2026-08-16T21:59:45.406Z",
-      "actualizado": "2026-08-19T20:51:24.152Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "be6c5q828jpg",
-        "nombre": "Cra 60 con 4 casa de Lucky",
-        "tipo": "rescate",
-        "lat": 3.405659000153791,
-        "lng": -76.5479120399448,
-        "direccion": "Cra 60 con 4 casa de Lucky",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Discos de pulidora",
-          "Cinceles",
-          "Seguetas",
-          "Baldes",
-          "Costales",
-          "Tapabocas",
-          "Electrolitos",
-          "Agua",
-          "Un veterinario",
-          "Comida",
-          "Gafas de seguridad",
-          "Guantes de obra",
-          "Comida para animales",
-          "Gato hidráulico 3 toneladas estilo caiman"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Beatriz",
-        "creado": 1786917585406,
-        "actualizado": 1787172684152,
-        "confirmado": 1787000053382,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 1,
-        "media": [],
-        "media_total": 0
-      }
-    },
     {
       "id": "mapa-emergencia-653dceef87",
       "fuente": "mapa-emergencia",
@@ -120,7 +39,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -185,7 +104,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-19T11:45:34.394Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -237,7 +156,7 @@
       "verificado": false,
       "creado": "2026-08-17T19:22:04.164Z",
       "actualizado": "2026-08-19T09:47:51.295Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -295,7 +214,7 @@
       "verificado": false,
       "creado": "2026-08-14T23:06:08.054Z",
       "actualizado": "2026-08-19T04:17:31.065Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -349,7 +268,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "raw": {
         "id": "g2idddxmw5j2",
         "nombre": "Los Naranjos, jamundi",
@@ -403,7 +322,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-19T02:35:30.796Z",
       "actualizado": "2026-08-19T02:38:34.841Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -467,7 +386,7 @@
       "verificado": false,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-19T02:03:25.679Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -546,7 +465,7 @@
       "verificado": false,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-19T01:51:23.863Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -629,7 +548,7 @@
       "verificado": false,
       "creado": "2026-08-12T16:40:47.598Z",
       "actualizado": "2026-08-18T21:53:49.183Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "raw": {
         "id": "s2k8rv92iy48",
         "nombre": "Calle novena con 44 edificio Vanessa",
@@ -685,7 +604,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -745,7 +664,7 @@
       "verificado": false,
       "creado": "2026-08-18T18:24:36.441Z",
       "actualizado": "2026-08-18T18:24:53.801Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "raw": {
         "id": "97tfc5ceezji",
         "nombre": "Cl 43 #33-41",
@@ -793,7 +712,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:46:18.32Z",
       "actualizado": "2026-08-18T17:46:18.32Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -843,7 +762,7 @@
       "verificado": false,
       "creado": "2026-08-18T04:05:46.232Z",
       "actualizado": "2026-08-18T12:16:18.533Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -915,7 +834,7 @@
       "verificado": false,
       "creado": "2026-08-16T16:17:40.812Z",
       "actualizado": "2026-08-18T05:48:40.48Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1005,7 +924,7 @@
       "verificado": false,
       "creado": "2026-08-18T01:11:25.156Z",
       "actualizado": "2026-08-18T03:32:46.208Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1066,7 +985,7 @@
       "verificado": false,
       "creado": "2026-08-16T17:23:27.838Z",
       "actualizado": "2026-08-18T03:17:05.28Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1114,7 +1033,7 @@
       "verificado": false,
       "creado": "2026-08-17T21:27:13.648Z",
       "actualizado": "2026-08-17T22:30:26.948Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1177,7 +1096,7 @@
       "verificado": false,
       "creado": "2026-08-15T18:21:37.922Z",
       "actualizado": "2026-08-17T22:23:29.746Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "raw": {
         "id": "sdznvek56naf",
         "nombre": "Cra 60 A #4",
@@ -1273,7 +1192,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-17T17:10:51.176Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1333,7 +1252,7 @@
       "verificado": false,
       "creado": "2026-08-17T04:09:29.31Z",
       "actualizado": "2026-08-17T04:54:06.971Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1416,7 +1335,7 @@
       "verificado": false,
       "creado": "2026-08-12T22:58:40.01Z",
       "actualizado": "2026-08-17T04:48:17.132Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1504,7 +1423,7 @@
       "verificado": false,
       "creado": "2026-08-16T11:11:43.402Z",
       "actualizado": "2026-08-16T23:27:35.152Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1585,7 +1504,7 @@
       "verificado": false,
       "creado": "2026-08-16T02:32:50.425Z",
       "actualizado": "2026-08-16T02:32:50.425Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1644,7 +1563,7 @@
       "verificado": false,
       "creado": "2026-08-13T20:07:50.424Z",
       "actualizado": "2026-08-15T23:23:32.499Z",
-      "fecha_corte": "2026-08-19T20:52:27Z",
+      "fecha_corte": "2026-08-19T21:19:14Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1708,9 +1627,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 39.03761,
-        "lng": -77.41582,
-        "ciudad": "Dulles Town Center",
+        "lat": 41.85003,
+        "lng": -87.65005,
+        "ciudad": "Chicago",
         "pais": "US"
       },
       "tipos": [
@@ -1738,244 +1657,6 @@
     },
     "novedades": {
       "novedades": [
-        {
-          "texto": "Desmentido: la información no cuadra.",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172703017,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "Necesidades: Discos de pulidora, Cinceles, Seguetas, Baldes, Costales, Tapabocas, Electrolitos, Agua, Un veterinario, Comida, Gafas de seguridad, Guantes de obra, Comida para animales, Gato hidráulico 3 toneladas estilo caiman",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172684152,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "Necesidades: Barras de demolición, Discos de pulidora, Cinceles, Seguetas, Baldes, Costales, Tapabocas, Electrolitos, Agua, Un veterinario, Comida, Gafas de seguridad, Guantes de obra, Comida para animales, Gato hidráulico 3 toneladas estilo caiman",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172683097,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172681088,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172680442,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172680003,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172679663,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172679447,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172679236,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172678965,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172678552,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172678342,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172678170,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172677987,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172677788,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172677602,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172676996,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172676800,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172676615,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172676366,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172675852,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172675678,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172675509,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172675329,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172675220,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172674992,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172674777,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172674578,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172674406,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172674207,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172673994,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172673687,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172673478,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "Juliana Caycedo 3218887025",
-          "ts": 1787172673292,
-          "nombre": "Cra 60 con 4 casa de Lucky",
-          "punto_id": "be6c5q828jpg"
-        },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
@@ -2017,16 +1698,254 @@
           "ts": 1787149316750,
           "nombre": "Riofrio valle",
           "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787149316007,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787149313997,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787149313327,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787149313017,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787149312320,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787149308716,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787149308302,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1787149306404,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "Lucia Orozco - Yadira Zuñiga",
+          "ts": 1787146653580,
+          "nombre": "Casa Cultural Freire - Fe y alegría",
+          "punto_id": "5p4qb5hrw5pk"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787139934394,
+          "nombre": "Centro comercial parque La Colina Bogota",
+          "punto_id": "knp859rnx2cb"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787139934231,
+          "nombre": "Centro comercial parque La Colina Bogota",
+          "punto_id": "knp859rnx2cb"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787139933810,
+          "nombre": "Centro comercial parque La Colina Bogota",
+          "punto_id": "knp859rnx2cb"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787139933243,
+          "nombre": "Centro comercial parque La Colina Bogota",
+          "punto_id": "knp859rnx2cb"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787139932671,
+          "nombre": "Centro comercial parque La Colina Bogota",
+          "punto_id": "knp859rnx2cb"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787139644132,
+          "nombre": "Centro comercial parque La Colina Bogota",
+          "punto_id": "knp859rnx2cb"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "Garec GPS , Red de apoyo SIC - (Recolecta Norte del Valle)",
+          "ts": 1787137368705,
+          "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
+          "punto_id": "zimkegz2agg5"
+        },
+        {
+          "texto": "1 persona menos ayudando",
+          "autor": "",
+          "ts": 1787132871295,
+          "nombre": "Albergue temporal para damnificados",
+          "punto_id": "ythbnzuca5g3"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787113051065,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "1 persona menos ayudando",
+          "autor": "",
+          "ts": 1787113050647,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787113050006,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1787113049332,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787113048588,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "1 persona menos ayudando",
+          "autor": "",
+          "ts": 1787113047990,
+          "nombre": "Carrera 56 # 13C-29",
+          "punto_id": "6d2rrk6jg9g4"
+        },
+        {
+          "texto": "Desmentido: la información no cuadra.",
+          "autor": "",
+          "ts": 1787109298002,
+          "nombre": "Cl 43 #33-41",
+          "punto_id": "97tfc5ceezji"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "Alba Lucía",
+          "ts": 1787108657238,
+          "nombre": "Av 6 oeste #22 -40",
+          "punto_id": "vanx56e8e6tg"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "Alba Lucía",
+          "ts": 1787108656480,
+          "nombre": "Av 6 oeste #22 -40",
+          "punto_id": "vanx56e8e6tg"
+        },
+        {
+          "texto": "Necesidades: ninguna",
+          "autor": "",
+          "ts": 1787108584430,
+          "nombre": "Los Naranjos, jamundi",
+          "punto_id": "g2idddxmw5j2"
+        },
+        {
+          "texto": "Necesidades: ninguna",
+          "autor": "",
+          "ts": 1787108583756,
+          "nombre": "Los Naranjos, jamundi",
+          "punto_id": "g2idddxmw5j2"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "Alba Lucía",
+          "ts": 1787108578223,
+          "nombre": "Av 6 oeste #22 -40",
+          "punto_id": "vanx56e8e6tg"
+        },
+        {
+          "texto": "Desmentido: la información no cuadra.",
+          "autor": "",
+          "ts": 1787108573610,
+          "nombre": "Los Naranjos, jamundi",
+          "punto_id": "g2idddxmw5j2"
+        },
+        {
+          "texto": "Desmentido: la información no cuadra.",
+          "autor": "",
+          "ts": 1787108553423,
+          "nombre": "Los Naranjos, jamundi",
+          "punto_id": "g2idddxmw5j2"
+        },
+        {
+          "texto": "Punto creado.",
+          "autor": "",
+          "ts": 1787108515925,
+          "nombre": "Los Naranjos, jamundi",
+          "punto_id": "g2idddxmw5j2"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "Lucia Orozco - Yadira Zuñiga",
+          "ts": 1787107129105,
+          "nombre": "Casa Cultural Freire - Fe y alegría",
+          "punto_id": "5p4qb5hrw5pk"
+        },
+        {
+          "texto": "Confirmado sin cambios.",
+          "autor": "Lucia Orozco - Yadira Zuñiga",
+          "ts": 1787107114841,
+          "nombre": "Casa Cultural Freire - Fe y alegría",
+          "punto_id": "5p4qb5hrw5pk"
         }
       ]
     },
     "resumen": {
-      "total": 25,
-      "urgentes": 22,
+      "total": 24,
+      "urgentes": 21,
       "faltan_manos": 4,
       "exceso": 6,
       "sin_ubicar": 1,
-      "sin_confirmar": 24,
+      "sin_confirmar": 23,
       "voluntarios_faltan": 128,
       "voluntarios_hay": 164
     }
