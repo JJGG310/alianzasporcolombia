@@ -3,10 +3,75 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "129.065929ms",
-  "obtenido": "2026-08-20T20:20:57Z",
+  "duracion": "704.845077ms",
+  "obtenido": "2026-08-20T20:55:07Z",
   "total": 11,
   "puntos": [
+    {
+      "id": "mapa-emergencia-aacec036e0",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=vanx56e8e6tg",
+      "tipo": "rescate",
+      "nombre": "Av 6 oeste #22 -40",
+      "direccion": "Av 6 oeste #22 -40",
+      "lat": 3.455114,
+      "lon": -76.5518327,
+      "necesita": [
+        "Agua",
+        "Botiquín",
+        "Carpas",
+        "Colchonetas",
+        "Comida para animales",
+        "Electrolitos",
+        "Pañales"
+      ],
+      "estado": "urgente",
+      "prioridad": "critica",
+      "voluntarios_faltan": 5,
+      "organizacion": "Albergue en terrón colorado en cali necesita ayuda Alimentos no perecederos Implementos de aseo Jabón de ropa Crema dental Pañales Medicamentos Alimento para perros Contacto Helena Candelo +573117536847 Av 6 oeste #22 -40",
+      "verificado": false,
+      "desmentidos": 1,
+      "creado": "2026-08-15T01:28:57.168Z",
+      "actualizado": "2026-08-20T20:41:48.36Z",
+      "fecha_corte": "2026-08-20T20:55:07Z",
+      "raw": {
+        "id": "vanx56e8e6tg",
+        "nombre": "Av 6 oeste #22 -40",
+        "tipo": "rescate",
+        "lat": 3.455114,
+        "lng": -76.5518327,
+        "direccion": "Av 6 oeste #22 -40",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [
+          "Botiquín",
+          "Carpas",
+          "Agua",
+          "Colchonetas",
+          "Pañales",
+          "Electrolitos",
+          "Comida para animales"
+        ],
+        "voluntarios_hay": 0,
+        "voluntarios_faltan": 5,
+        "contacto": "",
+        "notas": "",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "Albergue en terrón colorado en cali necesita ayuda  Alimentos no perecederos  Implementos de aseo  Jabón de ropa Crema dental Pañales  Medicamentos Alimento para perros Contacto Helena Candelo  +573117536847 Av 6 oeste #22 -40",
+        "creado": 1786757337168,
+        "actualizado": 1787258508360,
+        "confirmado": 1787253909612,
+        "ubicado": true,
+        "fresco": true,
+        "saturacion": "faltan",
+        "confirma": 0,
+        "desmiente": 1,
+        "media": [],
+        "media_total": 0
+      }
+    },
     {
       "id": "mapa-emergencia-2f225a94ff",
       "fuente": "mapa-emergencia",
@@ -28,7 +93,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-20T17:17:54.046Z",
-      "fecha_corte": "2026-08-20T20:20:57Z",
+      "fecha_corte": "2026-08-20T20:55:07Z",
       "raw": {
         "id": "hw9w7cj26vwh",
         "nombre": "Campin, Bogotá",
@@ -114,7 +179,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-18T01:11:25.156Z",
       "actualizado": "2026-08-20T16:26:36.479Z",
-      "fecha_corte": "2026-08-20T20:20:57Z",
+      "fecha_corte": "2026-08-20T20:55:07Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -188,7 +253,7 @@
       "desmentidos": 1,
       "creado": "2026-08-20T13:39:33.966Z",
       "actualizado": "2026-08-20T13:39:33.966Z",
-      "fecha_corte": "2026-08-20T20:20:57Z",
+      "fecha_corte": "2026-08-20T20:55:07Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -255,16 +320,14 @@
         "Pañales",
         "Picas"
       ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
+      "estado": "urgente",
+      "prioridad": "critica",
       "organizacion": "3205163851",
       "verificado": false,
+      "confirmaciones": 1,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-20T20:20:57Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
+      "fecha_corte": "2026-08-20T20:55:07Z",
       "raw": {
         "id": "387c278q25n6",
         "nombre": "Riofrio valle",
@@ -297,77 +360,12 @@
         "autor": "3205163851",
         "creado": 1787197016980,
         "actualizado": 1787197016980,
-        "confirmado": 1787197016980,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
-      "id": "mapa-emergencia-aacec036e0",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=vanx56e8e6tg",
-      "tipo": "rescate",
-      "nombre": "Av 6 oeste #22 -40",
-      "direccion": "Av 6 oeste #22 -40",
-      "lat": 3.455114,
-      "lon": -76.5518327,
-      "necesita": [
-        "Agua",
-        "Botiquín",
-        "Carpas",
-        "Colchonetas",
-        "Comida para animales",
-        "Electrolitos",
-        "Pañales"
-      ],
-      "estado": "urgente",
-      "prioridad": "critica",
-      "voluntarios_faltan": 5,
-      "organizacion": "Albergue en terrón colorado en cali necesita ayuda Alimentos no perecederos Implementos de aseo Jabón de ropa Crema dental Pañales Medicamentos Alimento para perros Contacto Helena Candelo +573117536847 Av 6 oeste #22 -40",
-      "verificado": false,
-      "desmentidos": 1,
-      "creado": "2026-08-15T01:28:57.168Z",
-      "actualizado": "2026-08-20T02:11:55.696Z",
-      "fecha_corte": "2026-08-20T20:20:57Z",
-      "raw": {
-        "id": "vanx56e8e6tg",
-        "nombre": "Av 6 oeste #22 -40",
-        "tipo": "rescate",
-        "lat": 3.455114,
-        "lng": -76.5518327,
-        "direccion": "Av 6 oeste #22 -40",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Botiquín",
-          "Carpas",
-          "Agua",
-          "Colchonetas",
-          "Pañales",
-          "Electrolitos",
-          "Comida para animales"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 5,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Albergue en terrón colorado en cali necesita ayuda  Alimentos no perecederos  Implementos de aseo  Jabón de ropa Crema dental Pañales  Medicamentos Alimento para perros Contacto Helena Candelo  +573117536847 Av 6 oeste #22 -40",
-        "creado": 1786757337168,
-        "actualizado": 1787191915696,
-        "confirmado": 1787253909612,
+        "confirmado": 1787257823140,
         "ubicado": true,
         "fresco": true,
-        "saturacion": "faltan",
-        "confirma": 0,
-        "desmiente": 1,
+        "saturacion": "sin_dato",
+        "confirma": 1,
+        "desmiente": 0,
         "media": [],
         "media_total": 0
       }
@@ -403,7 +401,7 @@
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-20T20:20:57Z",
+      "fecha_corte": "2026-08-20T20:55:07Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -467,7 +465,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-19T11:45:34.394Z",
-      "fecha_corte": "2026-08-20T20:20:57Z",
+      "fecha_corte": "2026-08-20T20:55:07Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -516,7 +514,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-20T20:20:57Z",
+      "fecha_corte": "2026-08-20T20:55:07Z",
       "raw": {
         "id": "g2idddxmw5j2",
         "nombre": "Los Naranjos, jamundi",
@@ -569,7 +567,7 @@
       "verificado": false,
       "creado": "2026-08-19T02:35:30.796Z",
       "actualizado": "2026-08-19T02:38:34.841Z",
-      "fecha_corte": "2026-08-20T20:20:57Z",
+      "fecha_corte": "2026-08-20T20:55:07Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -634,7 +632,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-19T02:03:25.679Z",
-      "fecha_corte": "2026-08-20T20:20:57Z",
+      "fecha_corte": "2026-08-20T20:55:07Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -717,7 +715,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-20T20:20:57Z",
+      "fecha_corte": "2026-08-20T20:55:07Z",
       "raw": {
         "id": "zimkegz2agg5",
         "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
@@ -763,9 +761,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 39.03761,
-        "lng": -77.41582,
-        "ciudad": "Dulles Town Center",
+        "lat": 41.60054,
+        "lng": -93.60911,
+        "ciudad": "Des Moines",
         "pais": "US"
       },
       "tipos": [
@@ -793,6 +791,27 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787258508360,
+          "nombre": "Av 6 oeste #22 -40",
+          "punto_id": "vanx56e8e6tg"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787258505749,
+          "nombre": "Av 6 oeste #22 -40",
+          "punto_id": "vanx56e8e6tg"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "3205163851",
+          "ts": 1787257823140,
+          "nombre": "Riofrio valle",
+          "punto_id": "387c278q25n6"
+        },
         {
           "texto": "Desmentido: la información no cuadra.",
           "autor": "",
@@ -1051,27 +1070,6 @@
           "ts": 1787224817847,
           "nombre": "Albergue temporal para damnificados sur",
           "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787224817324,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787224817002,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787224816792,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
         }
       ]
     },
@@ -1081,7 +1079,7 @@
       "faltan_manos": 2,
       "exceso": 2,
       "sin_ubicar": 0,
-      "sin_confirmar": 7,
+      "sin_confirmar": 6,
       "voluntarios_faltan": 26,
       "voluntarios_hay": 37
     }
