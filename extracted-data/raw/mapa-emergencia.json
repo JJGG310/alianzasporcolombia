@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "351.389925ms",
-  "obtenido": "2026-08-20T10:36:44Z",
+  "duracion": "651.225695ms",
+  "obtenido": "2026-08-20T11:20:29Z",
   "total": 17,
   "puntos": [
     {
@@ -26,10 +26,10 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "confirmaciones": 1,
+      "confirmaciones": 2,
       "creado": "2026-08-18T01:11:25.156Z",
       "actualizado": "2026-08-20T06:11:32.265Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "raw": {
         "id": "myjvsrjr9jju",
         "nombre": "Albergue temporal para damnificados sur",
@@ -54,11 +54,11 @@
         "autor": "",
         "creado": 1787015485156,
         "actualizado": 1787206292265,
-        "confirmado": 1787206301388,
+        "confirmado": 1787224828230,
         "ubicado": true,
         "fresco": true,
         "saturacion": "sin_dato",
-        "confirma": 1,
+        "confirma": 2,
         "desmiente": 0,
         "media": [
           {
@@ -100,7 +100,7 @@
       "verificado": false,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -165,7 +165,7 @@
       "verificado": false,
       "creado": "2026-08-17T04:09:29.31Z",
       "actualizado": "2026-08-20T02:31:13.939Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -241,7 +241,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T02:11:55.696Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -315,7 +315,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -379,7 +379,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-19T11:45:34.394Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -431,7 +431,7 @@
       "verificado": false,
       "creado": "2026-08-17T19:22:04.164Z",
       "actualizado": "2026-08-19T09:47:51.295Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -481,7 +481,7 @@
       "verificado": false,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -537,7 +537,7 @@
       "verificado": false,
       "creado": "2026-08-19T02:35:30.796Z",
       "actualizado": "2026-08-19T02:38:34.841Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -601,7 +601,7 @@
       "verificado": false,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-19T02:03:25.679Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -680,7 +680,7 @@
       "verificado": false,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-19T01:51:23.863Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -773,7 +773,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -833,7 +833,7 @@
       "verificado": false,
       "creado": "2026-08-18T18:24:36.441Z",
       "actualizado": "2026-08-18T18:24:53.801Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "raw": {
         "id": "97tfc5ceezji",
         "nombre": "Cl 43 #33-41",
@@ -881,7 +881,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:46:18.32Z",
       "actualizado": "2026-08-18T17:46:18.32Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -949,7 +949,7 @@
       "verificado": false,
       "creado": "2026-08-12T22:58:40.01Z",
       "actualizado": "2026-08-17T04:48:17.132Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1037,7 +1037,7 @@
       "verificado": false,
       "creado": "2026-08-16T11:11:43.402Z",
       "actualizado": "2026-08-16T23:27:35.152Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1121,7 +1121,7 @@
       "verificado": false,
       "creado": "2026-08-13T20:07:50.424Z",
       "actualizado": "2026-08-15T23:23:32.499Z",
-      "fecha_corte": "2026-08-20T10:36:44Z",
+      "fecha_corte": "2026-08-20T11:20:29Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1185,9 +1185,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 41.85003,
-        "lng": -87.65005,
-        "ciudad": "Chicago",
+        "lat": 41.60054,
+        "lng": -93.60911,
+        "ciudad": "Des Moines",
         "pais": "US"
       },
       "tipos": [
@@ -1218,282 +1218,282 @@
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
-          "ts": 1787206301388,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787206292265,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787206289712,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1787206287630,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1787206284924,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1787206281606,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1787206280192,
+          "ts": 1787224828230,
           "nombre": "Albergue temporal para damnificados sur",
           "punto_id": "myjvsrjr9jju"
         },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
-          "ts": 1787197534221,
-          "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
-          "punto_id": "zimkegz2agg5"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "3205163851",
-          "ts": 1787197035544,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "Punto creado.",
-          "autor": "3205163851",
-          "ts": 1787197016980,
-          "nombre": "Riofrio valle",
-          "punto_id": "387c278q25n6"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1787193073939,
-          "nombre": "Albergue avivamiento cali",
-          "punto_id": "63a28jt3u7dv"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1787193071078,
-          "nombre": "Albergue avivamiento cali",
-          "punto_id": "63a28jt3u7dv"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787191915696,
-          "nombre": "Av 6 oeste #22 -40",
-          "punto_id": "vanx56e8e6tg"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787191913824,
-          "nombre": "Av 6 oeste #22 -40",
-          "punto_id": "vanx56e8e6tg"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787191907347,
-          "nombre": "Av 6 oeste #22 -40",
-          "punto_id": "vanx56e8e6tg"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787191905350,
-          "nombre": "Av 6 oeste #22 -40",
-          "punto_id": "vanx56e8e6tg"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787191904636,
-          "nombre": "Av 6 oeste #22 -40",
-          "punto_id": "vanx56e8e6tg"
+          "ts": 1787224828187,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
         },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
-          "ts": 1787170827578,
-          "nombre": "Los Naranjos, jamundi",
-          "punto_id": "g2idddxmw5j2"
+          "ts": 1787224827458,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
         },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
-          "ts": 1787167737350,
-          "nombre": "Los Naranjos, jamundi",
-          "punto_id": "g2idddxmw5j2"
+          "ts": 1787224827125,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
         },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
-          "ts": 1787149331757,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
+          "ts": 1787224826746,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
         },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
-          "ts": 1787149326143,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1787149318186,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1787149316750,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787149316007,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787149313997,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787149313327,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787149313017,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787149312320,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787149308716,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787149308302,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1787149306404,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "Lucia Orozco - Yadira Zuñiga",
-          "ts": 1787146653580,
-          "nombre": "Casa Cultural Freire - Fe y alegría",
-          "punto_id": "5p4qb5hrw5pk"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787139934394,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787139934231,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787139933810,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787139933243,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787139932671,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
+          "ts": 1787224826322,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
         },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
-          "ts": 1787139644132,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
+          "ts": 1787224826083,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
         },
         {
           "texto": "Confirmado sobre el terreno.",
-          "autor": "Garec GPS , Red de apoyo SIC - (Recolecta Norte del Valle)",
-          "ts": 1787137368705,
-          "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
-          "punto_id": "zimkegz2agg5"
+          "autor": "",
+          "ts": 1787224825747,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
         },
         {
-          "texto": "1 persona menos ayudando",
+          "texto": "Confirmado sobre el terreno.",
           "autor": "",
-          "ts": 1787132871295,
-          "nombre": "Albergue temporal para damnificados",
-          "punto_id": "ythbnzuca5g3"
+          "ts": 1787224825576,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224825056,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224824541,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224824006,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224823491,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224822962,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224822309,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224822188,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224821798,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224821247,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224820687,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224820171,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224819635,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224819126,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224818370,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224817847,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224817324,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224817002,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224816792,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224816286,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224815732,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224815206,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224814695,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224814143,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224813619,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224813092,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224812563,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224812032,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224811494,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224810968,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224810453,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787224809923,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
         }
       ]
     },
