@@ -3,9 +3,9 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "323.922393ms",
-  "obtenido": "2026-08-20T17:22:39Z",
-  "total": 17,
+  "duracion": "489.182055ms",
+  "obtenido": "2026-08-20T17:54:57Z",
+  "total": 16,
   "puntos": [
     {
       "id": "mapa-emergencia-2f225a94ff",
@@ -27,7 +27,7 @@
       "verificado": false,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-20T17:17:54.046Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -113,7 +113,7 @@
       "verificado": false,
       "creado": "2026-08-17T04:09:29.31Z",
       "actualizado": "2026-08-20T17:05:45.276Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -186,7 +186,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-18T01:11:25.156Z",
       "actualizado": "2026-08-20T16:26:36.479Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -260,7 +260,7 @@
       "desmentidos": 1,
       "creado": "2026-08-20T13:39:33.966Z",
       "actualizado": "2026-08-20T13:39:33.966Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "raw": {
         "id": "i59che3yqvhq",
         "nombre": "Chiminangos calle 62 1D",
@@ -330,7 +330,7 @@
       "verificado": false,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -401,7 +401,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T02:11:55.696Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -474,7 +474,7 @@
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -538,7 +538,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-19T11:45:34.394Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -590,7 +590,7 @@
       "verificado": false,
       "creado": "2026-08-17T19:22:04.164Z",
       "actualizado": "2026-08-19T09:47:51.295Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -635,15 +635,13 @@
       "direccion": "Los Naranjos, jamundi",
       "lat": 3.2596045,
       "lon": -76.5489367,
-      "estado": "por-confirmar",
-      "prioridad": "alta",
+      "estado": "urgente",
+      "prioridad": "critica",
       "verificado": false,
+      "confirmaciones": 1,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "raw": {
         "id": "g2idddxmw5j2",
         "nombre": "Los Naranjos, jamundi",
@@ -664,11 +662,11 @@
         "autor": "",
         "creado": 1787108515925,
         "actualizado": 1787108584430,
-        "confirmado": 1787170827578,
+        "confirmado": 1787247062887,
         "ubicado": true,
-        "fresco": false,
+        "fresco": true,
         "saturacion": "sin_dato",
-        "confirma": 0,
+        "confirma": 1,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -696,7 +694,7 @@
       "verificado": false,
       "creado": "2026-08-19T02:35:30.796Z",
       "actualizado": "2026-08-19T02:38:34.841Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -761,7 +759,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-19T02:03:25.679Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "raw": {
         "id": "9xtitashddwm",
         "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
@@ -841,7 +839,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "raw": {
         "id": "zimkegz2agg5",
         "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
@@ -898,7 +896,7 @@
       "verificado": false,
       "creado": "2026-08-18T18:24:36.441Z",
       "actualizado": "2026-08-18T18:24:53.801Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "raw": {
         "id": "97tfc5ceezji",
         "nombre": "Cl 43 #33-41",
@@ -925,57 +923,6 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "faltan",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
-      "id": "mapa-emergencia-ca1290619d",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=n5ekh5rjw9am",
-      "tipo": "rescate",
-      "nombre": "Medellin",
-      "direccion": "Medellin",
-      "necesita": [
-        "Voluntarios"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "verificado": false,
-      "creado": "2026-08-18T17:46:18.32Z",
-      "actualizado": "2026-08-18T17:46:18.32Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "n5ekh5rjw9am",
-        "nombre": "Medellin",
-        "tipo": "rescate",
-        "lat": null,
-        "lng": null,
-        "direccion": "Medellin",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Voluntarios"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1787075178320,
-        "actualizado": 1787075178320,
-        "confirmado": 1787075178320,
-        "ubicado": false,
-        "fresco": false,
-        "saturacion": "sin_dato",
         "confirma": 0,
         "desmiente": 0,
         "media": [],
@@ -1013,7 +960,7 @@
       "verificado": false,
       "creado": "2026-08-16T11:11:43.402Z",
       "actualizado": "2026-08-16T23:27:35.152Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1097,7 +1044,7 @@
       "verificado": false,
       "creado": "2026-08-13T20:07:50.424Z",
       "actualizado": "2026-08-15T23:23:32.499Z",
-      "fecha_corte": "2026-08-20T17:22:38Z",
+      "fecha_corte": "2026-08-20T17:54:57Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1161,9 +1108,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 36.66764,
-        "lng": -78.3875,
-        "ciudad": "Boydton",
+        "lat": 41.85003,
+        "lng": -87.65005,
+        "ciudad": "Chicago",
         "pais": "US"
       },
       "tipos": [
@@ -1191,6 +1138,13 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787247062887,
+          "nombre": "Los Naranjos, jamundi",
+          "punto_id": "g2idddxmw5j2"
+        },
         {
           "texto": "Necesidades: Carpas, Colchonetas, Linternas",
           "autor": "",
@@ -1463,23 +1417,16 @@
           "ts": 1787224816286,
           "nombre": "Albergue temporal para damnificados sur",
           "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787224815732,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
         }
       ]
     },
     "resumen": {
-      "total": 17,
-      "urgentes": 16,
+      "total": 16,
+      "urgentes": 15,
       "faltan_manos": 3,
       "exceso": 4,
-      "sin_ubicar": 1,
-      "sin_confirmar": 14,
+      "sin_ubicar": 0,
+      "sin_confirmar": 12,
       "voluntarios_faltan": 27,
       "voluntarios_hay": 62
     }
