@@ -3,10 +3,75 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "457.399079ms",
-  "obtenido": "2026-08-20T15:58:12Z",
+  "duracion": "514.253276ms",
+  "obtenido": "2026-08-20T16:35:37Z",
   "total": 17,
   "puntos": [
+    {
+      "id": "mapa-emergencia-da423d181c",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=myjvsrjr9jju",
+      "tipo": "albergue",
+      "nombre": "Albergue temporal para damnificados sur",
+      "descripcion": "Albergue disponible temporal para damnificados",
+      "barrio": "Capri",
+      "direccion": "Calle 10A # 78A-05 en el barrio Capri cali",
+      "lat": 3.388444987011278,
+      "lon": -76.54178011408604,
+      "necesita": [
+        "Almohadas",
+        "Tapabocas",
+        "kit de aseo"
+      ],
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "confirmaciones": 2,
+      "creado": "2026-08-18T01:11:25.156Z",
+      "actualizado": "2026-08-20T16:26:36.479Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
+      "raw": {
+        "id": "myjvsrjr9jju",
+        "nombre": "Albergue temporal para damnificados sur",
+        "tipo": "albergue",
+        "lat": 3.388444987011278,
+        "lng": -76.54178011408604,
+        "direccion": "Calle 10A # 78A-05 en el barrio Capri cali",
+        "barrio": "Capri",
+        "estado": "urgente",
+        "necesidades": [
+          "Tapabocas",
+          "Almohadas",
+          "kit de aseo"
+        ],
+        "voluntarios_hay": 0,
+        "voluntarios_faltan": 0,
+        "contacto": "",
+        "notas": "Albergue disponible temporal para damnificados",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "",
+        "creado": 1787015485156,
+        "actualizado": 1787243196479,
+        "confirmado": 1787224828230,
+        "ubicado": true,
+        "fresco": true,
+        "saturacion": "sin_dato",
+        "confirma": 2,
+        "desmiente": 0,
+        "media": [
+          {
+            "id": "drfpuijuea",
+            "url": "/media/myjvsrjr9jju/1787015949686-jqtnxw.mp4",
+            "mime": "video/mp4",
+            "pie": "",
+            "ts": 1787015951210
+          }
+        ],
+        "media_total": 1
+      }
+    },
     {
       "id": "mapa-emergencia-91396edc8a",
       "fuente": "mapa-emergencia",
@@ -35,7 +100,7 @@
       "desmentidos": 1,
       "creado": "2026-08-20T13:39:33.966Z",
       "actualizado": "2026-08-20T13:39:33.966Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "raw": {
         "id": "i59che3yqvhq",
         "nombre": "Chiminangos calle 62 1D",
@@ -78,71 +143,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-da423d181c",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=myjvsrjr9jju",
-      "tipo": "albergue",
-      "nombre": "Albergue temporal para damnificados sur",
-      "descripcion": "Albergue disponible temporal para damnificados",
-      "barrio": "Capri",
-      "direccion": "Calle 10A # 78A-05 en el barrio Capri cali",
-      "lat": 3.388444987011278,
-      "lon": -76.54178011408604,
-      "necesita": [
-        "Almohadas",
-        "Tapabocas",
-        "kit de aseo"
-      ],
-      "estado": "urgente",
-      "prioridad": "critica",
-      "verificado": false,
-      "confirmaciones": 2,
-      "creado": "2026-08-18T01:11:25.156Z",
-      "actualizado": "2026-08-20T06:11:32.265Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
-      "raw": {
-        "id": "myjvsrjr9jju",
-        "nombre": "Albergue temporal para damnificados sur",
-        "tipo": "albergue",
-        "lat": 3.388444987011278,
-        "lng": -76.54178011408604,
-        "direccion": "Calle 10A # 78A-05 en el barrio Capri cali",
-        "barrio": "Capri",
-        "estado": "urgente",
-        "necesidades": [
-          "Tapabocas",
-          "Almohadas",
-          "kit de aseo"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "Albergue disponible temporal para damnificados",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1787015485156,
-        "actualizado": 1787206292265,
-        "confirmado": 1787224828230,
-        "ubicado": true,
-        "fresco": true,
-        "saturacion": "sin_dato",
-        "confirma": 2,
-        "desmiente": 0,
-        "media": [
-          {
-            "id": "drfpuijuea",
-            "url": "/media/myjvsrjr9jju/1787015949686-jqtnxw.mp4",
-            "mime": "video/mp4",
-            "pie": "",
-            "ts": 1787015951210
-          }
-        ],
-        "media_total": 1
-      }
-    },
-    {
       "id": "mapa-emergencia-bc32521dbd",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=387c278q25n6",
@@ -170,7 +170,7 @@
       "verificado": false,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -235,7 +235,7 @@
       "verificado": false,
       "creado": "2026-08-17T04:09:29.31Z",
       "actualizado": "2026-08-20T02:31:13.939Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -311,7 +311,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T02:11:55.696Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -384,7 +384,7 @@
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -448,7 +448,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-19T11:45:34.394Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -500,7 +500,7 @@
       "verificado": false,
       "creado": "2026-08-17T19:22:04.164Z",
       "actualizado": "2026-08-19T09:47:51.295Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -550,7 +550,7 @@
       "verificado": false,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -606,7 +606,7 @@
       "verificado": false,
       "creado": "2026-08-19T02:35:30.796Z",
       "actualizado": "2026-08-19T02:38:34.841Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -671,7 +671,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-19T02:03:25.679Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "raw": {
         "id": "9xtitashddwm",
         "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
@@ -747,7 +747,7 @@
       "verificado": false,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-19T01:51:23.863Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -837,10 +837,10 @@
       "contacto": "311 2341267",
       "organizacion": "Garec GPS , Red de apoyo SIC - (Recolecta Norte del Valle)",
       "verificado": false,
-      "confirmaciones": 1,
+      "confirmaciones": 2,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "raw": {
         "id": "zimkegz2agg5",
         "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
@@ -867,11 +867,11 @@
         "autor": "Garec GPS , Red de apoyo SIC - (Recolecta Norte del Valle)",
         "creado": 1787072916150,
         "actualizado": 1787079906712,
-        "confirmado": 1787232420661,
+        "confirmado": 1787242294031,
         "ubicado": true,
         "fresco": true,
         "saturacion": "sin_dato",
-        "confirma": 1,
+        "confirma": 2,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -897,7 +897,7 @@
       "verificado": false,
       "creado": "2026-08-18T18:24:36.441Z",
       "actualizado": "2026-08-18T18:24:53.801Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "raw": {
         "id": "97tfc5ceezji",
         "nombre": "Cl 43 #33-41",
@@ -945,7 +945,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:46:18.32Z",
       "actualizado": "2026-08-18T17:46:18.32Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1012,7 +1012,7 @@
       "verificado": false,
       "creado": "2026-08-16T11:11:43.402Z",
       "actualizado": "2026-08-16T23:27:35.152Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1096,7 +1096,7 @@
       "verificado": false,
       "creado": "2026-08-13T20:07:50.424Z",
       "actualizado": "2026-08-15T23:23:32.499Z",
-      "fecha_corte": "2026-08-20T15:58:12Z",
+      "fecha_corte": "2026-08-20T16:35:37Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1190,6 +1190,27 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "1 persona menos ayudando",
+          "autor": "",
+          "ts": 1787243196479,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1787243195961,
+          "nombre": "Albergue temporal para damnificados sur",
+          "punto_id": "myjvsrjr9jju"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787242294031,
+          "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
+          "punto_id": "zimkegz2agg5"
+        },
         {
           "texto": "Desmentido: la información no cuadra.",
           "autor": "",
@@ -1446,27 +1467,6 @@
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
           "ts": 1787224814143,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787224813619,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787224813092,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787224812563,
           "nombre": "Albergue temporal para damnificados sur",
           "punto_id": "myjvsrjr9jju"
         }
