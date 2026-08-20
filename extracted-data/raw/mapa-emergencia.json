@@ -3,9 +3,9 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "522.18697ms",
-  "obtenido": "2026-08-20T18:29:14Z",
-  "total": 16,
+  "duracion": "547.720978ms",
+  "obtenido": "2026-08-20T19:11:34Z",
+  "total": 14,
   "puntos": [
     {
       "id": "mapa-emergencia-2f225a94ff",
@@ -28,7 +28,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-20T17:17:54.046Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
+      "fecha_corte": "2026-08-20T19:11:34Z",
       "raw": {
         "id": "hw9w7cj26vwh",
         "nombre": "Campin, Bogotá",
@@ -111,7 +111,7 @@
       "verificado": false,
       "creado": "2026-08-17T04:09:29.31Z",
       "actualizado": "2026-08-20T17:05:45.276Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
+      "fecha_corte": "2026-08-20T19:11:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -184,7 +184,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-18T01:11:25.156Z",
       "actualizado": "2026-08-20T16:26:36.479Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
+      "fecha_corte": "2026-08-20T19:11:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -258,7 +258,7 @@
       "desmentidos": 1,
       "creado": "2026-08-20T13:39:33.966Z",
       "actualizado": "2026-08-20T13:39:33.966Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
+      "fecha_corte": "2026-08-20T19:11:34Z",
       "raw": {
         "id": "i59che3yqvhq",
         "nombre": "Chiminangos calle 62 1D",
@@ -328,7 +328,7 @@
       "verificado": false,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
+      "fecha_corte": "2026-08-20T19:11:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -399,7 +399,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T02:11:55.696Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
+      "fecha_corte": "2026-08-20T19:11:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -472,7 +472,7 @@
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
+      "fecha_corte": "2026-08-20T19:11:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -536,7 +536,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-19T11:45:34.394Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
+      "fecha_corte": "2026-08-20T19:11:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -588,7 +588,7 @@
       "verificado": false,
       "creado": "2026-08-17T19:22:04.164Z",
       "actualizado": "2026-08-19T09:47:51.295Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
+      "fecha_corte": "2026-08-20T19:11:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -639,7 +639,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
+      "fecha_corte": "2026-08-20T19:11:34Z",
       "raw": {
         "id": "g2idddxmw5j2",
         "nombre": "Los Naranjos, jamundi",
@@ -692,7 +692,7 @@
       "verificado": false,
       "creado": "2026-08-19T02:35:30.796Z",
       "actualizado": "2026-08-19T02:38:34.841Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
+      "fecha_corte": "2026-08-20T19:11:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -750,14 +750,17 @@
         "harina",
         "pañales para adultos"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "voluntarios_faltan": 21,
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-19T02:03:25.679Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
+      "fecha_corte": "2026-08-20T19:11:34Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "9xtitashddwm",
         "nombre": "Calle 125 # 19a-11 Casa Delegada del Quindio Gobernación del Quindio",
@@ -789,7 +792,7 @@
         "actualizado": 1787105005679,
         "confirmado": 1787229310928,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "faltan",
         "confirma": 1,
         "desmiente": 0,
@@ -837,7 +840,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
+      "fecha_corte": "2026-08-20T19:11:34Z",
       "raw": {
         "id": "zimkegz2agg5",
         "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
@@ -875,152 +878,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-cdeac44431",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=97tfc5ceezji",
-      "tipo": "otro",
-      "nombre": "Cl 43 #33-41",
-      "direccion": "Cl 43 #33-41",
-      "lat": 10.975280235815019,
-      "lon": -74.78636026382448,
-      "necesita": [
-        "Transporte Barranquilla - Quibdó"
-      ],
-      "estado": "activo",
-      "prioridad": "alta",
-      "voluntarios_hay": 2,
-      "voluntarios_faltan": 1,
-      "organizacion": "Suzan 3225912756",
-      "verificado": false,
-      "creado": "2026-08-18T18:24:36.441Z",
-      "actualizado": "2026-08-18T18:24:53.801Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
-      "raw": {
-        "id": "97tfc5ceezji",
-        "nombre": "Cl 43 #33-41",
-        "tipo": "otro",
-        "lat": 10.975280235815019,
-        "lng": -74.78636026382448,
-        "direccion": "Cl 43 #33-41",
-        "barrio": "",
-        "estado": "necesita",
-        "necesidades": [
-          "Transporte Barranquilla - Quibdó"
-        ],
-        "voluntarios_hay": 2,
-        "voluntarios_faltan": 1,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Suzan 3225912756",
-        "creado": 1787077476441,
-        "actualizado": 1787077493801,
-        "confirmado": 1787077500048,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "faltan",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
-      "id": "mapa-emergencia-3966b290a5",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=ny7zt74ttu5a",
-      "tipo": "veterinario",
-      "nombre": "Parques del Río por el lado de la torre de piedras de colores",
-      "direccion": "Parques del Río",
-      "lat": 6.245075801612877,
-      "lon": -75.57872951030731,
-      "necesita": [
-        "Agua",
-        "Botiquín",
-        "Comida",
-        "Comida para animales",
-        "Dulces y mecato para niños",
-        "Electrolitos",
-        "Guacales para animales",
-        "Pañales",
-        "Tapabocas",
-        "colores y juguetes para niños",
-        "libros",
-        "medicamentos para animales"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_hay": 21,
-      "contacto": "3117868776",
-      "organizacion": "Valeria, Nana en Casa - 3176919121",
-      "verificado": false,
-      "creado": "2026-08-16T11:11:43.402Z",
-      "actualizado": "2026-08-16T23:27:35.152Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "ny7zt74ttu5a",
-        "nombre": "Parques del Río por el lado de la torre de piedras de colores",
-        "tipo": "veterinario",
-        "lat": 6.245075801612877,
-        "lng": -75.57872951030731,
-        "direccion": "Parques del Río",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Agua",
-          "Comida",
-          "Tapabocas",
-          "Electrolitos",
-          "Botiquín",
-          "Comida para animales",
-          "Pañales",
-          "Guacales para animales",
-          "medicamentos para animales",
-          "libros",
-          "colores y juguetes para niños",
-          "Dulces y mecato para niños"
-        ],
-        "voluntarios_hay": 21,
-        "voluntarios_faltan": 0,
-        "contacto": "3117868776",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Valeria, Nana en Casa - 3176919121",
-        "creado": 1786878703402,
-        "actualizado": 1786922855152,
-        "confirmado": 1787078644772,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "exceso",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [
-          {
-            "id": "qf7fdvze8n",
-            "url": "/media/ny7zt74ttu5a/1786922854565-kwgkf7.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786922855152
-          },
-          {
-            "id": "ufmxxeyk4i",
-            "url": "/media/ny7zt74ttu5a/1786878843271-dzuzg7.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786878843920
-          }
-        ],
-        "media_total": 2
-      }
-    },
-    {
       "id": "mapa-emergencia-44766772be",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=wdpdxxapebm8",
@@ -1042,7 +899,7 @@
       "verificado": false,
       "creado": "2026-08-13T20:07:50.424Z",
       "actualizado": "2026-08-15T23:23:32.499Z",
-      "fecha_corte": "2026-08-20T18:29:13Z",
+      "fecha_corte": "2026-08-20T19:11:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1106,9 +963,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 37.33939,
-        "lng": -121.89496,
-        "ciudad": "San Jose",
+        "lat": 41.60054,
+        "lng": -93.60911,
+        "ciudad": "Des Moines",
         "pais": "US"
       },
       "tipos": [
@@ -1419,14 +1276,14 @@
       ]
     },
     "resumen": {
-      "total": 16,
-      "urgentes": 15,
-      "faltan_manos": 3,
-      "exceso": 4,
+      "total": 14,
+      "urgentes": 14,
+      "faltan_manos": 2,
+      "exceso": 3,
       "sin_ubicar": 0,
-      "sin_confirmar": 11,
-      "voluntarios_faltan": 27,
-      "voluntarios_hay": 62
+      "sin_confirmar": 10,
+      "voluntarios_faltan": 26,
+      "voluntarios_hay": 39
     }
   }
 }
