@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "453.16564ms",
-  "obtenido": "2026-08-20T21:21:40Z",
+  "duracion": "516.364638ms",
+  "obtenido": "2026-08-20T21:52:23Z",
   "total": 11,
   "puntos": [
     {
@@ -33,7 +33,7 @@
       "desmentidos": 1,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T20:41:48.36Z",
-      "fecha_corte": "2026-08-20T21:21:40Z",
+      "fecha_corte": "2026-08-20T21:52:23Z",
       "raw": {
         "id": "vanx56e8e6tg",
         "nombre": "Av 6 oeste #22 -40",
@@ -93,7 +93,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-20T17:17:54.046Z",
-      "fecha_corte": "2026-08-20T21:21:40Z",
+      "fecha_corte": "2026-08-20T21:52:23Z",
       "raw": {
         "id": "hw9w7cj26vwh",
         "nombre": "Campin, Bogotá",
@@ -179,7 +179,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-18T01:11:25.156Z",
       "actualizado": "2026-08-20T16:26:36.479Z",
-      "fecha_corte": "2026-08-20T21:21:40Z",
+      "fecha_corte": "2026-08-20T21:52:23Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -253,7 +253,7 @@
       "desmentidos": 1,
       "creado": "2026-08-20T13:39:33.966Z",
       "actualizado": "2026-08-20T13:39:33.966Z",
-      "fecha_corte": "2026-08-20T21:21:40Z",
+      "fecha_corte": "2026-08-20T21:52:23Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -327,7 +327,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-20T21:21:40Z",
+      "fecha_corte": "2026-08-20T21:52:23Z",
       "raw": {
         "id": "387c278q25n6",
         "nombre": "Riofrio valle",
@@ -401,7 +401,7 @@
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-20T21:21:40Z",
+      "fecha_corte": "2026-08-20T21:52:23Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -465,7 +465,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-19T11:45:34.394Z",
-      "fecha_corte": "2026-08-20T21:21:40Z",
+      "fecha_corte": "2026-08-20T21:52:23Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -514,7 +514,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-20T21:21:40Z",
+      "fecha_corte": "2026-08-20T21:52:23Z",
       "raw": {
         "id": "g2idddxmw5j2",
         "nombre": "Los Naranjos, jamundi",
@@ -567,7 +567,7 @@
       "verificado": false,
       "creado": "2026-08-19T02:35:30.796Z",
       "actualizado": "2026-08-19T02:38:34.841Z",
-      "fecha_corte": "2026-08-20T21:21:40Z",
+      "fecha_corte": "2026-08-20T21:52:23Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -632,7 +632,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-19T02:03:25.679Z",
-      "fecha_corte": "2026-08-20T21:21:40Z",
+      "fecha_corte": "2026-08-20T21:52:23Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -715,7 +715,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-20T21:21:40Z",
+      "fecha_corte": "2026-08-20T21:52:23Z",
       "raw": {
         "id": "zimkegz2agg5",
         "nombre": "Garec GPS  (Fundacion Red de Apoyo SIC)",
@@ -761,9 +761,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 37.33939,
-        "lng": -121.89496,
-        "ciudad": "San Jose",
+        "lat": 33.44838,
+        "lng": -112.07404,
+        "ciudad": "Phoenix",
         "pais": "US"
       },
       "tipos": [
