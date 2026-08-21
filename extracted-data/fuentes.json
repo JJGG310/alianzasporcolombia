@@ -6,8 +6,8 @@
       "mecanismo": "API propia /api/timeline (actualmente caída) — el Supabase del sitio exige autenticación",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-08-21T00:56:03Z",
-      "duracion": "8.361249356s",
+      "obtenido": "2026-08-21T02:21:28Z",
+      "duracion": "8.942182336s",
       "nota": "endpoint público caído (500, error de blockchain); el Supabase del sitio exige autenticación (401). Sin datos públicos disponibles — se reintenta en cada corrida.",
       "error": "timeline: tras 4 intentos: https://aidtrace-rastroayuda.vercel.app/api/timeline?limit=100\u0026cursor=0 devolvió 500"
     },
@@ -17,8 +17,8 @@
       "mecanismo": "Convex HTTP query API (udf needs:list; descubierto interceptando el WebSocket)",
       "ok": true,
       "total": 65,
-      "obtenido": "2026-08-21T00:55:55Z",
-      "duracion": "145.205358ms"
+      "obtenido": "2026-08-21T02:21:19Z",
+      "duracion": "62.243274ms"
     },
     {
       "fuente": "calisolidario",
@@ -26,8 +26,8 @@
       "mecanismo": "payload RSC de Next.js embebido en el HTML de /necesidades y /ofertas",
       "ok": true,
       "total": 175,
-      "obtenido": "2026-08-21T00:55:55Z",
-      "duracion": "392.273691ms"
+      "obtenido": "2026-08-21T02:21:19Z",
+      "duracion": "255.926923ms"
     },
     {
       "fuente": "haciendo-comunidad",
@@ -35,8 +35,8 @@
       "mecanismo": "API REST de Firestore con lectura anónima (colecciones reportes_ayuda y comunidad_servicios; la colección desaparecidos se omite a propósito)",
       "ok": true,
       "total": 88,
-      "obtenido": "2026-08-21T00:55:55Z",
-      "duracion": "1.306111753s",
+      "obtenido": "2026-08-21T02:21:19Z",
+      "duracion": "1.393018272s",
       "nota": "No se leyó la colección 'desaparecidos' por política de datos personales."
     },
     {
@@ -45,8 +45,8 @@
       "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
       "ok": true,
       "total": 11,
-      "obtenido": "2026-08-21T00:55:54Z",
-      "duracion": "363.02871ms"
+      "obtenido": "2026-08-21T02:21:19Z",
+      "duracion": "345.467898ms"
     },
     {
       "fuente": "puntos-criticos",
@@ -54,8 +54,8 @@
       "mecanismo": "arreglos JS embebidos en el HTML (React vía Babel standalone, sin API)",
       "ok": true,
       "total": 53,
-      "obtenido": "2026-08-21T00:55:55Z",
-      "duracion": "149.066009ms"
+      "obtenido": "2026-08-21T02:21:19Z",
+      "duracion": "145.955772ms"
     },
     {
       "fuente": "quesenecesita",
@@ -63,8 +63,8 @@
       "mecanismo": "Google Sheets publicado como CSV (descubierto en SHEET_CSV_URL del HTML)",
       "ok": true,
       "total": 50,
-      "obtenido": "2026-08-21T00:55:55Z",
-      "duracion": "398.276587ms"
+      "obtenido": "2026-08-21T02:21:20Z",
+      "duracion": "743.305924ms"
     },
     {
       "fuente": "sismoinfo",
@@ -72,8 +72,8 @@
       "mecanismo": "API REST propia (/api/buildings y /api/anuncios; /api/disappeared se omite a propósito)",
       "ok": true,
       "total": 61,
-      "obtenido": "2026-08-21T00:55:54Z",
-      "duracion": "547.462659ms",
+      "obtenido": "2026-08-21T02:21:19Z",
+      "duracion": "527.137314ms",
       "nota": "no se leyó /api/disappeared por política de datos personales"
     },
     {
@@ -82,12 +82,12 @@
       "mecanismo": "página informativa estática (sin dataset; no hace peticiones de datos)",
       "ok": true,
       "total": 1,
-      "obtenido": "2026-08-21T00:55:55Z",
-      "duracion": "840.990143ms",
+      "obtenido": "2026-08-21T02:21:20Z",
+      "duracion": "742.78257ms",
       "nota": "sin dataset estructurado; se conserva como fuente informativa/editorial"
     }
   ],
-  "generado": "2026-08-21T00:55:54Z",
+  "generado": "2026-08-21T02:21:19Z",
   "informe": {
     "entrada": 610,
     "salida": 600,
@@ -111,12 +111,12 @@
       "agua": 1,
       "albergue": 34,
       "donacion-org": 36,
-      "info": 14,
+      "info": 13,
       "necesidad": 160,
       "oferta": 76,
       "olla": 7,
       "otro": 3,
-      "rescate": 117,
+      "rescate": 118,
       "salud": 5,
       "sangre": 11
     }
