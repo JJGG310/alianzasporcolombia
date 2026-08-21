@@ -3,10 +3,58 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "531.329949ms",
-  "obtenido": "2026-08-21T16:31:09Z",
-  "total": 10,
+  "duracion": "350.621971ms",
+  "obtenido": "2026-08-21T17:22:16Z",
+  "total": 11,
   "puntos": [
+    {
+      "id": "mapa-emergencia-1b3cd953bc",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=camp5e9prmyu",
+      "tipo": "rescate",
+      "nombre": "Carrera 94 c",
+      "direccion": "Carrera 94 c",
+      "lat": 3.374532771432979,
+      "lon": -76.55135035514833,
+      "estado": "urgente",
+      "prioridad": "critica",
+      "voluntarios_hay": 6,
+      "voluntarios_faltan": 3,
+      "verificado": false,
+      "confirmaciones": 1,
+      "creado": "2026-08-21T16:45:21.042Z",
+      "actualizado": "2026-08-21T16:45:44.251Z",
+      "fecha_corte": "2026-08-21T17:22:16Z",
+      "raw": {
+        "id": "camp5e9prmyu",
+        "nombre": "Carrera 94 c",
+        "tipo": "rescate",
+        "lat": 3.374532771432979,
+        "lng": -76.55135035514833,
+        "direccion": "Carrera 94 c",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [],
+        "voluntarios_hay": 6,
+        "voluntarios_faltan": 3,
+        "contacto": "",
+        "notas": "",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "",
+        "creado": 1787330721042,
+        "actualizado": 1787330744251,
+        "confirmado": 1787330761705,
+        "ubicado": true,
+        "fresco": true,
+        "saturacion": "faltan",
+        "confirma": 1,
+        "desmiente": 0,
+        "media": [],
+        "media_total": 0
+      }
+    },
     {
       "id": "mapa-emergencia-b114800209",
       "fuente": "mapa-emergencia",
@@ -23,7 +71,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-21T16:31:09Z",
+      "fecha_corte": "2026-08-21T17:22:16Z",
       "raw": {
         "id": "knp859rnx2cb",
         "nombre": "Centro comercial parque La Colina Bogota",
@@ -79,7 +127,7 @@
       "verificado": false,
       "creado": "2026-08-20T13:39:33.966Z",
       "actualizado": "2026-08-20T22:18:14.841Z",
-      "fecha_corte": "2026-08-21T16:31:09Z",
+      "fecha_corte": "2026-08-21T17:22:16Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -147,7 +195,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T20:41:48.36Z",
-      "fecha_corte": "2026-08-21T16:31:09Z",
+      "fecha_corte": "2026-08-21T17:22:16Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -209,7 +257,7 @@
       "verificado": false,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-20T17:17:54.046Z",
-      "fecha_corte": "2026-08-21T16:31:09Z",
+      "fecha_corte": "2026-08-21T17:22:16Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -297,7 +345,7 @@
       "verificado": false,
       "creado": "2026-08-18T01:11:25.156Z",
       "actualizado": "2026-08-20T16:26:36.479Z",
-      "fecha_corte": "2026-08-21T16:31:09Z",
+      "fecha_corte": "2026-08-21T17:22:16Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -371,7 +419,7 @@
       "verificado": false,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-21T16:31:09Z",
+      "fecha_corte": "2026-08-21T17:22:16Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -448,7 +496,7 @@
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-21T16:31:09Z",
+      "fecha_corte": "2026-08-21T17:22:16Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -511,7 +559,7 @@
       "verificado": false,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-21T16:31:09Z",
+      "fecha_corte": "2026-08-21T17:22:16Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -570,7 +618,7 @@
       "verificado": false,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-19T02:03:25.679Z",
-      "fecha_corte": "2026-08-21T16:31:09Z",
+      "fecha_corte": "2026-08-21T17:22:16Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -652,7 +700,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-21T16:31:09Z",
+      "fecha_corte": "2026-08-21T17:22:16Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -701,9 +749,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 47.13014,
-        "lng": -119.27808,
-        "ciudad": "Moses Lake",
+        "lat": 36.66764,
+        "lng": -78.3875,
+        "ciudad": "Boydton",
         "pais": "US"
       },
       "tipos": [
@@ -731,6 +779,104 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787330761705,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787330753688,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787330744251,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787330743171,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787330742117,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787330739078,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787330739011,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1787330736359,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1787330731733,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1787330729184,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1787330728868,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1787330727363,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1787330726354,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "Punto creado.",
+          "autor": "",
+          "ts": 1787330721042,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
@@ -912,116 +1058,18 @@
           "ts": 1787271928221,
           "nombre": "Av 6 oeste #22 -40",
           "punto_id": "vanx56e8e6tg"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "3205163851",
-          "ts": 1787271134255,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "3205163851",
-          "ts": 1787271125541,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "Necesidades: Botiquín, Pañales, Colchonetas, Tapers, Electrolitos, Hielo, nevera hicopor, juegos niños",
-          "autor": "",
-          "ts": 1787264294841,
-          "nombre": "Chiminangos calle 62 1D",
-          "punto_id": "i59che3yqvhq"
-        },
-        {
-          "texto": "Necesidades: Botiquín, Pañales, Colchonetas, Tapers, Electrolitos, Hielo, hielo seco, nevera hicopor, juegos niños",
-          "autor": "",
-          "ts": 1787264291650,
-          "nombre": "Chiminangos calle 62 1D",
-          "punto_id": "i59che3yqvhq"
-        },
-        {
-          "texto": "Necesidades: Botiquín, Pañales, Colchonetas, Tapers, Electrolitos, Hielo, hielo seco, nevera hicopor, juegos niños",
-          "autor": "",
-          "ts": 1787264291023,
-          "nombre": "Chiminangos calle 62 1D",
-          "punto_id": "i59che3yqvhq"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1787264272239,
-          "nombre": "Chiminangos calle 62 1D",
-          "punto_id": "i59che3yqvhq"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787258508360,
-          "nombre": "Av 6 oeste #22 -40",
-          "punto_id": "vanx56e8e6tg"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787258505749,
-          "nombre": "Av 6 oeste #22 -40",
-          "punto_id": "vanx56e8e6tg"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "3205163851",
-          "ts": 1787257823140,
-          "nombre": "Riofrio valle",
-          "punto_id": "387c278q25n6"
-        },
-        {
-          "texto": "Desmentido: la información no cuadra.",
-          "autor": "",
-          "ts": 1787253917264,
-          "nombre": "Av 6 oeste #22 -40",
-          "punto_id": "vanx56e8e6tg"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787253909612,
-          "nombre": "Av 6 oeste #22 -40",
-          "punto_id": "vanx56e8e6tg"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787249114784,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787247062887,
-          "nombre": "Los Naranjos, jamundi",
-          "punto_id": "g2idddxmw5j2"
-        },
-        {
-          "texto": "Necesidades: Carpas, Colchonetas, Linternas",
-          "autor": "",
-          "ts": 1787246274046,
-          "nombre": "Campin, Bogotá",
-          "punto_id": "hw9w7cj26vwh"
         }
       ]
     },
     "resumen": {
-      "total": 10,
-      "urgentes": 10,
-      "faltan_manos": 2,
+      "total": 11,
+      "urgentes": 11,
+      "faltan_manos": 3,
       "exceso": 2,
       "sin_ubicar": 0,
       "sin_confirmar": 9,
-      "voluntarios_faltan": 26,
-      "voluntarios_hay": 37
+      "voluntarios_faltan": 29,
+      "voluntarios_hay": 43
     }
   }
 }
