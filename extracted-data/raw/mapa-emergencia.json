@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "618.15144ms",
-  "obtenido": "2026-08-20T23:48:57Z",
+  "duracion": "363.02871ms",
+  "obtenido": "2026-08-21T00:55:54Z",
   "total": 11,
   "puntos": [
     {
@@ -33,7 +33,7 @@
       "desmentidos": 1,
       "creado": "2026-08-20T13:39:33.966Z",
       "actualizado": "2026-08-20T22:18:14.841Z",
-      "fecha_corte": "2026-08-20T23:48:57Z",
+      "fecha_corte": "2026-08-21T00:55:54Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -99,10 +99,11 @@
       "voluntarios_faltan": 5,
       "organizacion": "Albergue en terrón colorado en cali necesita ayuda Alimentos no perecederos Implementos de aseo Jabón de ropa Crema dental Pañales Medicamentos Alimento para perros Contacto Helena Candelo +573117536847 Av 6 oeste #22 -40",
       "verificado": false,
+      "confirmaciones": 1,
       "desmentidos": 1,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T20:41:48.36Z",
-      "fecha_corte": "2026-08-20T23:48:57Z",
+      "fecha_corte": "2026-08-21T00:55:54Z",
       "raw": {
         "id": "vanx56e8e6tg",
         "nombre": "Av 6 oeste #22 -40",
@@ -131,11 +132,11 @@
         "autor": "Albergue en terrón colorado en cali necesita ayuda  Alimentos no perecederos  Implementos de aseo  Jabón de ropa Crema dental Pañales  Medicamentos Alimento para perros Contacto Helena Candelo  +573117536847 Av 6 oeste #22 -40",
         "creado": 1786757337168,
         "actualizado": 1787258508360,
-        "confirmado": 1787253909612,
+        "confirmado": 1787271928221,
         "ubicado": true,
         "fresco": true,
         "saturacion": "faltan",
-        "confirma": 0,
+        "confirma": 1,
         "desmiente": 1,
         "media": [],
         "media_total": 0
@@ -155,14 +156,17 @@
         "Colchonetas",
         "Linternas"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "voluntarios_hay": 10,
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-20T17:17:54.046Z",
-      "fecha_corte": "2026-08-20T23:48:57Z",
+      "fecha_corte": "2026-08-21T00:55:54Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "hw9w7cj26vwh",
         "nombre": "Campin, Bogotá",
@@ -189,7 +193,7 @@
         "actualizado": 1787246274046,
         "confirmado": 1787249114784,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "exceso",
         "confirma": 1,
         "desmiente": 0,
@@ -247,7 +251,7 @@
       "verificado": false,
       "creado": "2026-08-18T01:11:25.156Z",
       "actualizado": "2026-08-20T16:26:36.479Z",
-      "fecha_corte": "2026-08-20T23:48:57Z",
+      "fecha_corte": "2026-08-21T00:55:54Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -322,7 +326,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-20T23:48:57Z",
+      "fecha_corte": "2026-08-21T00:55:54Z",
       "raw": {
         "id": "387c278q25n6",
         "nombre": "Riofrio valle",
@@ -390,16 +394,14 @@
         "Tapabocas",
         "Tapers"
       ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
+      "estado": "urgente",
+      "prioridad": "critica",
       "organizacion": "3205163851",
       "verificado": false,
+      "confirmaciones": 1,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-20T23:48:57Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
+      "fecha_corte": "2026-08-21T00:55:54Z",
       "raw": {
         "id": "2kzk3b8unask",
         "nombre": "Riofrio valle",
@@ -435,11 +437,11 @@
         "autor": "3205163851",
         "creado": 1786997408582,
         "actualizado": 1787149318186,
-        "confirmado": 1787197035544,
+        "confirmado": 1787271134255,
         "ubicado": true,
-        "fresco": false,
+        "fresco": true,
         "saturacion": "sin_dato",
-        "confirma": 0,
+        "confirma": 1,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -454,16 +456,14 @@
       "direccion": "Centro comercial parque La Colina Bogota",
       "lat": 4.733376358817001,
       "lon": -74.06641760375352,
-      "estado": "por-confirmar",
-      "prioridad": "alta",
+      "estado": "urgente",
+      "prioridad": "critica",
       "voluntarios_hay": 27,
       "verificado": false,
+      "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-19T11:45:34.394Z",
-      "fecha_corte": "2026-08-20T23:48:57Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
+      "fecha_corte": "2026-08-21T00:55:54Z",
       "raw": {
         "id": "knp859rnx2cb",
         "nombre": "Centro comercial parque La Colina Bogota",
@@ -484,11 +484,11 @@
         "autor": "",
         "creado": 1786811067550,
         "actualizado": 1787139934394,
-        "confirmado": 1787139644132,
+        "confirmado": 1787273490731,
         "ubicado": true,
-        "fresco": false,
+        "fresco": true,
         "saturacion": "exceso",
-        "confirma": 0,
+        "confirma": 1,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -509,7 +509,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-20T23:48:57Z",
+      "fecha_corte": "2026-08-21T00:55:54Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -565,7 +565,7 @@
       "verificado": false,
       "creado": "2026-08-19T02:35:30.796Z",
       "actualizado": "2026-08-19T02:38:34.841Z",
-      "fecha_corte": "2026-08-20T23:48:57Z",
+      "fecha_corte": "2026-08-21T00:55:54Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -627,10 +627,9 @@
       "prioridad": "alta",
       "voluntarios_faltan": 21,
       "verificado": false,
-      "confirmaciones": 1,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-19T02:03:25.679Z",
-      "fecha_corte": "2026-08-20T23:48:57Z",
+      "fecha_corte": "2026-08-21T00:55:54Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -667,7 +666,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "faltan",
-        "confirma": 1,
+        "confirma": 0,
         "desmiente": 0,
         "media": [
           {
@@ -713,7 +712,7 @@
       "confirmaciones": 2,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-20T23:48:57Z",
+      "fecha_corte": "2026-08-21T00:55:54Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -762,9 +761,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 41.60054,
-        "lng": -93.60911,
-        "ciudad": "Des Moines",
+        "lat": 36.66764,
+        "lng": -78.3875,
+        "ciudad": "Boydton",
         "pais": "US"
       },
       "tipos": [
@@ -792,6 +791,41 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787273490731,
+          "nombre": "Centro comercial parque La Colina Bogota",
+          "punto_id": "knp859rnx2cb"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787273489415,
+          "nombre": "Centro comercial parque La Colina Bogota",
+          "punto_id": "knp859rnx2cb"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787271928221,
+          "nombre": "Av 6 oeste #22 -40",
+          "punto_id": "vanx56e8e6tg"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "3205163851",
+          "ts": 1787271134255,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "3205163851",
+          "ts": 1787271125541,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
         {
           "texto": "Necesidades: Botiquín, Pañales, Colchonetas, Tapers, Electrolitos, Hielo, nevera hicopor, juegos niños",
           "autor": "",
@@ -1036,41 +1070,6 @@
           "ts": 1787224822309,
           "nombre": "Albergue temporal para damnificados sur",
           "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787224822188,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787224821798,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787224821247,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787224820687,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787224820171,
-          "nombre": "Albergue temporal para damnificados sur",
-          "punto_id": "myjvsrjr9jju"
         }
       ]
     },
@@ -1080,7 +1079,7 @@
       "faltan_manos": 2,
       "exceso": 2,
       "sin_ubicar": 0,
-      "sin_confirmar": 8,
+      "sin_confirmar": 7,
       "voluntarios_faltan": 26,
       "voluntarios_hay": 37
     }
