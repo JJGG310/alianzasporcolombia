@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "207.043314ms",
-  "obtenido": "2026-08-21T14:27:59Z",
+  "duracion": "356.629155ms",
+  "obtenido": "2026-08-21T15:04:25Z",
   "total": 10,
   "puntos": [
     {
@@ -23,7 +23,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-21T14:27:58Z",
+      "fecha_corte": "2026-08-21T15:04:24Z",
       "raw": {
         "id": "knp859rnx2cb",
         "nombre": "Centro comercial parque La Colina Bogota",
@@ -79,7 +79,7 @@
       "verificado": false,
       "creado": "2026-08-20T13:39:33.966Z",
       "actualizado": "2026-08-20T22:18:14.841Z",
-      "fecha_corte": "2026-08-21T14:27:58Z",
+      "fecha_corte": "2026-08-21T15:04:24Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -147,7 +147,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T20:41:48.36Z",
-      "fecha_corte": "2026-08-21T14:27:58Z",
+      "fecha_corte": "2026-08-21T15:04:24Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -209,7 +209,7 @@
       "verificado": false,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-20T17:17:54.046Z",
-      "fecha_corte": "2026-08-21T14:27:58Z",
+      "fecha_corte": "2026-08-21T15:04:24Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -297,7 +297,7 @@
       "verificado": false,
       "creado": "2026-08-18T01:11:25.156Z",
       "actualizado": "2026-08-20T16:26:36.479Z",
-      "fecha_corte": "2026-08-21T14:27:58Z",
+      "fecha_corte": "2026-08-21T15:04:24Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -371,7 +371,7 @@
       "verificado": false,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-21T14:27:58Z",
+      "fecha_corte": "2026-08-21T15:04:24Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -448,7 +448,7 @@
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-21T14:27:58Z",
+      "fecha_corte": "2026-08-21T15:04:24Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -511,7 +511,7 @@
       "verificado": false,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-21T14:27:58Z",
+      "fecha_corte": "2026-08-21T15:04:24Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -570,7 +570,7 @@
       "verificado": false,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-19T02:03:25.679Z",
-      "fecha_corte": "2026-08-21T14:27:58Z",
+      "fecha_corte": "2026-08-21T15:04:24Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -652,7 +652,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-21T14:27:58Z",
+      "fecha_corte": "2026-08-21T15:04:24Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -701,9 +701,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 39.03761,
-        "lng": -77.41582,
-        "ciudad": "Dulles Town Center",
+        "lat": 41.60054,
+        "lng": -93.60911,
+        "ciudad": "Des Moines",
         "pais": "US"
       },
       "tipos": [
