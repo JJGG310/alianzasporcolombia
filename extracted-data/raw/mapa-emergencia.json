@@ -3,9 +3,9 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "454.899902ms",
-  "obtenido": "2026-08-22T17:15:00Z",
-  "total": 8,
+  "duracion": "496.434577ms",
+  "obtenido": "2026-08-22T17:43:55Z",
+  "total": 7,
   "puntos": [
     {
       "id": "mapa-emergencia-1b3cd953bc",
@@ -23,7 +23,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T17:10:14.522Z",
-      "fecha_corte": "2026-08-22T17:15:00Z",
+      "fecha_corte": "2026-08-22T17:43:54Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -77,7 +77,7 @@
       "verificado": false,
       "creado": "2026-08-22T04:06:56.195Z",
       "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-22T17:15:00Z",
+      "fecha_corte": "2026-08-22T17:43:54Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -131,7 +131,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-22T17:15:00Z",
+      "fecha_corte": "2026-08-22T17:43:54Z",
       "raw": {
         "id": "knp859rnx2cb",
         "nombre": "Centro comercial parque La Colina Bogota",
@@ -187,7 +187,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T20:41:48.36Z",
-      "fecha_corte": "2026-08-22T17:15:00Z",
+      "fecha_corte": "2026-08-22T17:43:54Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -249,7 +249,7 @@
       "verificado": false,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-20T17:17:54.046Z",
-      "fecha_corte": "2026-08-22T17:15:00Z",
+      "fecha_corte": "2026-08-22T17:43:54Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -344,7 +344,7 @@
       "verificado": false,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-22T17:15:00Z",
+      "fecha_corte": "2026-08-22T17:43:54Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -421,7 +421,7 @@
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-22T17:15:00Z",
+      "fecha_corte": "2026-08-22T17:43:54Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -469,54 +469,6 @@
         "media": [],
         "media_total": 0
       }
-    },
-    {
-      "id": "mapa-emergencia-4d957facd8",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=g2idddxmw5j2",
-      "tipo": "rescate",
-      "nombre": "Los Naranjos, jamundi",
-      "direccion": "Los Naranjos, jamundi",
-      "lat": 3.2596045,
-      "lon": -76.5489367,
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "verificado": false,
-      "creado": "2026-08-19T03:01:55.925Z",
-      "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-22T17:15:00Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "g2idddxmw5j2",
-        "nombre": "Los Naranjos, jamundi",
-        "tipo": "rescate",
-        "lat": 3.2596045,
-        "lng": -76.5489367,
-        "direccion": "Los Naranjos, jamundi",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1787108515925,
-        "actualizado": 1787108584430,
-        "confirmado": 1787247062887,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
     }
   ],
   "extra": {
@@ -527,9 +479,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 37.33939,
-        "lng": -121.89496,
-        "ciudad": "San Jose",
+        "lat": 47.13014,
+        "lng": -119.27808,
+        "ciudad": "Moses Lake",
         "pais": "US"
       },
       "tipos": [
@@ -840,12 +792,12 @@
       ]
     },
     "resumen": {
-      "total": 8,
-      "urgentes": 8,
+      "total": 7,
+      "urgentes": 7,
       "faltan_manos": 2,
       "exceso": 2,
       "sin_ubicar": 0,
-      "sin_confirmar": 7,
+      "sin_confirmar": 6,
       "voluntarios_faltan": 8,
       "voluntarios_hay": 43
     }
