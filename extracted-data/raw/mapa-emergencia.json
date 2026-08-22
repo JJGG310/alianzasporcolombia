@@ -3,10 +3,90 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "496.434577ms",
-  "obtenido": "2026-08-22T17:43:55Z",
-  "total": 7,
+  "duracion": "478.585887ms",
+  "obtenido": "2026-08-22T18:20:01Z",
+  "total": 6,
   "puntos": [
+    {
+      "id": "mapa-emergencia-653dceef87",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=2kzk3b8unask",
+      "tipo": "rescate",
+      "nombre": "Riofrio valle",
+      "direccion": "Riofrio valle",
+      "lat": 4.1071481,
+      "lon": -76.3839423,
+      "necesita": [
+        "Agua",
+        "Botiquín",
+        "Carpas",
+        "Colchonetas",
+        "Comida",
+        "Comida para animales",
+        "Electrolitos",
+        "Gafas de seguridad",
+        "Guantes de obra",
+        "Linternas",
+        "Palas",
+        "Picas",
+        "Tapabocas",
+        "Tapers"
+      ],
+      "estado": "por-confirmar",
+      "prioridad": "alta",
+      "organizacion": "3205163851",
+      "verificado": false,
+      "creado": "2026-08-17T20:10:08.582Z",
+      "actualizado": "2026-08-22T17:58:10.836Z",
+      "fecha_corte": "2026-08-22T18:20:01Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
+      "raw": {
+        "id": "2kzk3b8unask",
+        "nombre": "Riofrio valle",
+        "tipo": "rescate",
+        "lat": 4.1071481,
+        "lng": -76.3839423,
+        "direccion": "Riofrio valle",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [
+          "Agua",
+          "Guantes de obra",
+          "Comida",
+          "Gafas de seguridad",
+          "Tapabocas",
+          "Linternas",
+          "Palas",
+          "Picas",
+          "Botiquín",
+          "Tapers",
+          "Electrolitos",
+          "Carpas",
+          "Colchonetas",
+          "Comida para animales"
+        ],
+        "voluntarios_hay": 0,
+        "voluntarios_faltan": 0,
+        "contacto": "",
+        "notas": "",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "3205163851",
+        "creado": 1786997408582,
+        "actualizado": 1787421490836,
+        "confirmado": 1787271134255,
+        "ubicado": true,
+        "fresco": false,
+        "saturacion": "sin_dato",
+        "confirma": 0,
+        "desmiente": 0,
+        "media": [],
+        "media_total": 0
+      }
+    },
     {
       "id": "mapa-emergencia-1b3cd953bc",
       "fuente": "mapa-emergencia",
@@ -23,7 +103,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T17:10:14.522Z",
-      "fecha_corte": "2026-08-22T17:43:54Z",
+      "fecha_corte": "2026-08-22T18:20:01Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -77,7 +157,7 @@
       "verificado": false,
       "creado": "2026-08-22T04:06:56.195Z",
       "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-22T17:43:54Z",
+      "fecha_corte": "2026-08-22T18:20:01Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -131,7 +211,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-22T17:43:54Z",
+      "fecha_corte": "2026-08-22T18:20:01Z",
       "raw": {
         "id": "knp859rnx2cb",
         "nombre": "Centro comercial parque La Colina Bogota",
@@ -187,7 +267,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T20:41:48.36Z",
-      "fecha_corte": "2026-08-22T17:43:54Z",
+      "fecha_corte": "2026-08-22T18:20:01Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -230,93 +310,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-2f225a94ff",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=hw9w7cj26vwh",
-      "tipo": "rescate",
-      "nombre": "Campin, Bogotá",
-      "direccion": "Campin, Bogotá",
-      "lat": 4.6459495,
-      "lon": -74.0776054,
-      "necesita": [
-        "Carpas",
-        "Colchonetas",
-        "Linternas"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_hay": 10,
-      "verificado": false,
-      "creado": "2026-08-15T20:42:53.924Z",
-      "actualizado": "2026-08-20T17:17:54.046Z",
-      "fecha_corte": "2026-08-22T17:43:54Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "hw9w7cj26vwh",
-        "nombre": "Campin, Bogotá",
-        "tipo": "rescate",
-        "lat": 4.6459495,
-        "lng": -74.0776054,
-        "direccion": "Campin, Bogotá",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Carpas",
-          "Colchonetas",
-          "Linternas"
-        ],
-        "voluntarios_hay": 10,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786826573924,
-        "actualizado": 1787246274046,
-        "confirmado": 1787249114784,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "exceso",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [
-          {
-            "id": "p28fz6inid",
-            "url": "/media/hw9w7cj26vwh/1786846727378-z6eywh.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786846727875
-          },
-          {
-            "id": "bu73bpw9f7",
-            "url": "/media/hw9w7cj26vwh/1786846717372-hrweb6.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786846718269
-          },
-          {
-            "id": "fiqcry5a3i",
-            "url": "/media/hw9w7cj26vwh/1786846654179-pey5ms.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786846655175
-          },
-          {
-            "id": "yzrziu7wz6",
-            "url": "/media/hw9w7cj26vwh/1786846652343-cn39v7.jpeg",
-            "mime": "image/jpeg",
-            "pie": "",
-            "ts": 1786846652836
-          }
-        ],
-        "media_total": 7
-      }
-    },
-    {
       "id": "mapa-emergencia-bc32521dbd",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=387c278q25n6",
@@ -344,7 +337,7 @@
       "verificado": false,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-22T17:43:54Z",
+      "fecha_corte": "2026-08-22T18:20:01Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -389,86 +382,6 @@
         "media": [],
         "media_total": 0
       }
-    },
-    {
-      "id": "mapa-emergencia-653dceef87",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=2kzk3b8unask",
-      "tipo": "rescate",
-      "nombre": "Riofrio valle",
-      "direccion": "Riofrio valle",
-      "lat": 4.1071481,
-      "lon": -76.3839423,
-      "necesita": [
-        "Agua",
-        "Botiquín",
-        "Carpas",
-        "Colchonetas",
-        "Comida",
-        "Comida para animales",
-        "Electrolitos",
-        "Gafas de seguridad",
-        "Guantes de obra",
-        "Linternas",
-        "Palas",
-        "Picas",
-        "Tapabocas",
-        "Tapers"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "3205163851",
-      "verificado": false,
-      "creado": "2026-08-17T20:10:08.582Z",
-      "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-22T17:43:54Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "2kzk3b8unask",
-        "nombre": "Riofrio valle",
-        "tipo": "rescate",
-        "lat": 4.1071481,
-        "lng": -76.3839423,
-        "direccion": "Riofrio valle",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Agua",
-          "Guantes de obra",
-          "Comida",
-          "Gafas de seguridad",
-          "Tapabocas",
-          "Linternas",
-          "Palas",
-          "Picas",
-          "Botiquín",
-          "Tapers",
-          "Electrolitos",
-          "Carpas",
-          "Colchonetas",
-          "Comida para animales"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "3205163851",
-        "creado": 1786997408582,
-        "actualizado": 1787149318186,
-        "confirmado": 1787271134255,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
     }
   ],
   "extra": {
@@ -479,9 +392,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 47.13014,
-        "lng": -119.27808,
-        "ciudad": "Moses Lake",
+        "lat": 37.33939,
+        "lng": -121.89496,
+        "ciudad": "San Jose",
         "pais": "US"
       },
       "tipos": [
@@ -509,6 +422,20 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "1 persona menos ayudando",
+          "autor": "",
+          "ts": 1787421490836,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
+        {
+          "texto": "+1 persona ayudando",
+          "autor": "",
+          "ts": 1787421485857,
+          "nombre": "Riofrio valle",
+          "punto_id": "2kzk3b8unask"
+        },
         {
           "texto": "1 mano menos por cubrir",
           "autor": "",
@@ -774,32 +701,18 @@
           "ts": 1787313120408,
           "nombre": "Centro comercial parque La Colina Bogota",
           "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313120351,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313120222,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
         }
       ]
     },
     "resumen": {
-      "total": 7,
-      "urgentes": 7,
+      "total": 6,
+      "urgentes": 6,
       "faltan_manos": 2,
-      "exceso": 2,
+      "exceso": 1,
       "sin_ubicar": 0,
-      "sin_confirmar": 6,
+      "sin_confirmar": 5,
       "voluntarios_faltan": 8,
-      "voluntarios_hay": 43
+      "voluntarios_hay": 33
     }
   }
 }
