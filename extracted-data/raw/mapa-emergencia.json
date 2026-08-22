@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "513.916447ms",
-  "obtenido": "2026-08-22T21:44:29Z",
+  "duracion": "453.69417ms",
+  "obtenido": "2026-08-22T22:14:59Z",
   "total": 5,
   "puntos": [
     {
@@ -23,7 +23,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T18:51:49.675Z",
-      "fecha_corte": "2026-08-22T21:44:28Z",
+      "fecha_corte": "2026-08-22T22:14:59Z",
       "raw": {
         "id": "camp5e9prmyu",
         "nombre": "Carrera 94 c",
@@ -85,7 +85,7 @@
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-22T17:58:10.836Z",
-      "fecha_corte": "2026-08-22T21:44:28Z",
+      "fecha_corte": "2026-08-22T22:14:59Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -154,7 +154,7 @@
       "verificado": false,
       "creado": "2026-08-22T04:06:56.195Z",
       "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-22T21:44:28Z",
+      "fecha_corte": "2026-08-22T22:14:59Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -208,7 +208,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-22T21:44:28Z",
+      "fecha_corte": "2026-08-22T22:14:59Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -267,7 +267,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T20:41:48.36Z",
-      "fecha_corte": "2026-08-22T21:44:28Z",
+      "fecha_corte": "2026-08-22T22:14:59Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -318,9 +318,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 33.44838,
-        "lng": -112.07404,
-        "ciudad": "Phoenix",
+        "lat": 41.85003,
+        "lng": -87.65005,
+        "ciudad": "Chicago",
         "pais": "US"
       },
       "tipos": [
