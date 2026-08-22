@@ -3,9 +3,9 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "370.278609ms",
-  "obtenido": "2026-08-22T20:15:26Z",
-  "total": 6,
+  "duracion": "498.185705ms",
+  "obtenido": "2026-08-22T20:47:07Z",
+  "total": 5,
   "puntos": [
     {
       "id": "mapa-emergencia-1b3cd953bc",
@@ -23,7 +23,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T18:51:49.675Z",
-      "fecha_corte": "2026-08-22T20:15:26Z",
+      "fecha_corte": "2026-08-22T20:47:07Z",
       "raw": {
         "id": "camp5e9prmyu",
         "nombre": "Carrera 94 c",
@@ -85,7 +85,7 @@
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-22T17:58:10.836Z",
-      "fecha_corte": "2026-08-22T20:15:26Z",
+      "fecha_corte": "2026-08-22T20:47:07Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -154,7 +154,7 @@
       "verificado": false,
       "creado": "2026-08-22T04:06:56.195Z",
       "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-22T20:15:26Z",
+      "fecha_corte": "2026-08-22T20:47:07Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -201,14 +201,17 @@
       "direccion": "Centro comercial parque La Colina Bogota",
       "lat": 4.733376358817001,
       "lon": -74.06641760375352,
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "voluntarios_hay": 27,
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-22T20:15:26Z",
+      "fecha_corte": "2026-08-22T20:47:07Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "knp859rnx2cb",
         "nombre": "Centro comercial parque La Colina Bogota",
@@ -231,7 +234,7 @@
         "actualizado": 1787313121467,
         "confirmado": 1787408746437,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "exceso",
         "confirma": 1,
         "desmiente": 0,
@@ -264,7 +267,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T20:41:48.36Z",
-      "fecha_corte": "2026-08-22T20:15:26Z",
+      "fecha_corte": "2026-08-22T20:47:07Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -305,80 +308,6 @@
         "media": [],
         "media_total": 0
       }
-    },
-    {
-      "id": "mapa-emergencia-bc32521dbd",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=387c278q25n6",
-      "tipo": "rescate",
-      "nombre": "Riofrio valle",
-      "direccion": "Riofrio valle",
-      "lat": 4.1557779,
-      "lon": -76.2899531,
-      "necesita": [
-        "Agua",
-        "Carpas",
-        "Colchonetas",
-        "Comida",
-        "Comida para animales",
-        "Electrolitos",
-        "Guantes de obra",
-        "Linternas",
-        "Palas",
-        "Pañales",
-        "Picas"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "3205163851",
-      "verificado": false,
-      "creado": "2026-08-20T03:36:56.98Z",
-      "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-22T20:15:26Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "387c278q25n6",
-        "nombre": "Riofrio valle",
-        "tipo": "rescate",
-        "lat": 4.1557779,
-        "lng": -76.2899531,
-        "direccion": "Riofrio valle",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Agua",
-          "Comida",
-          "Guantes de obra",
-          "Linternas",
-          "Palas",
-          "Picas",
-          "Electrolitos",
-          "Carpas",
-          "Colchonetas",
-          "Pañales",
-          "Comida para animales"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "3205163851",
-        "creado": 1787197016980,
-        "actualizado": 1787197016980,
-        "confirmado": 1787257823140,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
     }
   ],
   "extra": {
@@ -389,9 +318,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 41.85003,
-        "lng": -87.65005,
-        "ciudad": "Chicago",
+        "lat": 33.44838,
+        "lng": -112.07404,
+        "ciudad": "Phoenix",
         "pais": "US"
       },
       "tipos": [
@@ -702,8 +631,8 @@
       ]
     },
     "resumen": {
-      "total": 6,
-      "urgentes": 6,
+      "total": 5,
+      "urgentes": 5,
       "faltan_manos": 2,
       "exceso": 1,
       "sin_ubicar": 0,
