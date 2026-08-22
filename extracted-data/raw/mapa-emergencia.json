@@ -3,10 +3,60 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "460.488626ms",
-  "obtenido": "2026-08-22T16:47:43Z",
+  "duracion": "454.899902ms",
+  "obtenido": "2026-08-22T17:15:00Z",
   "total": 8,
   "puntos": [
+    {
+      "id": "mapa-emergencia-1b3cd953bc",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=camp5e9prmyu",
+      "tipo": "rescate",
+      "nombre": "Carrera 94 c",
+      "direccion": "Carrera 94 c",
+      "lat": 3.374532771432979,
+      "lon": -76.55135035514833,
+      "estado": "por-confirmar",
+      "prioridad": "alta",
+      "voluntarios_hay": 6,
+      "voluntarios_faltan": 3,
+      "verificado": false,
+      "creado": "2026-08-21T16:45:21.042Z",
+      "actualizado": "2026-08-22T17:10:14.522Z",
+      "fecha_corte": "2026-08-22T17:15:00Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
+      "raw": {
+        "id": "camp5e9prmyu",
+        "nombre": "Carrera 94 c",
+        "tipo": "rescate",
+        "lat": 3.374532771432979,
+        "lng": -76.55135035514833,
+        "direccion": "Carrera 94 c",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [],
+        "voluntarios_hay": 6,
+        "voluntarios_faltan": 3,
+        "contacto": "",
+        "notas": "",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "",
+        "creado": 1787330721042,
+        "actualizado": 1787418614522,
+        "confirmado": 1787330761705,
+        "ubicado": true,
+        "fresco": false,
+        "saturacion": "faltan",
+        "confirma": 0,
+        "desmiente": 0,
+        "media": [],
+        "media_total": 0
+      }
+    },
     {
       "id": "mapa-emergencia-5ac4ec7f8c",
       "fuente": "mapa-emergencia",
@@ -27,7 +77,7 @@
       "verificado": false,
       "creado": "2026-08-22T04:06:56.195Z",
       "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-22T16:47:43Z",
+      "fecha_corte": "2026-08-22T17:15:00Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -66,56 +116,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-1b3cd953bc",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=camp5e9prmyu",
-      "tipo": "rescate",
-      "nombre": "Carrera 94 c",
-      "direccion": "Carrera 94 c",
-      "lat": 3.374532771432979,
-      "lon": -76.55135035514833,
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_hay": 6,
-      "voluntarios_faltan": 3,
-      "verificado": false,
-      "creado": "2026-08-21T16:45:21.042Z",
-      "actualizado": "2026-08-21T22:35:42.621Z",
-      "fecha_corte": "2026-08-22T16:47:43Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "camp5e9prmyu",
-        "nombre": "Carrera 94 c",
-        "tipo": "rescate",
-        "lat": 3.374532771432979,
-        "lng": -76.55135035514833,
-        "direccion": "Carrera 94 c",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [],
-        "voluntarios_hay": 6,
-        "voluntarios_faltan": 3,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1787330721042,
-        "actualizado": 1787351742621,
-        "confirmado": 1787330761705,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "faltan",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-b114800209",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=knp859rnx2cb",
@@ -131,7 +131,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-22T16:47:43Z",
+      "fecha_corte": "2026-08-22T17:15:00Z",
       "raw": {
         "id": "knp859rnx2cb",
         "nombre": "Centro comercial parque La Colina Bogota",
@@ -187,7 +187,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T20:41:48.36Z",
-      "fecha_corte": "2026-08-22T16:47:43Z",
+      "fecha_corte": "2026-08-22T17:15:00Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -249,7 +249,7 @@
       "verificado": false,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-20T17:17:54.046Z",
-      "fecha_corte": "2026-08-22T16:47:43Z",
+      "fecha_corte": "2026-08-22T17:15:00Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -344,7 +344,7 @@
       "verificado": false,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-22T16:47:43Z",
+      "fecha_corte": "2026-08-22T17:15:00Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -421,7 +421,7 @@
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-22T16:47:43Z",
+      "fecha_corte": "2026-08-22T17:15:00Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -484,7 +484,7 @@
       "verificado": false,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-22T16:47:43Z",
+      "fecha_corte": "2026-08-22T17:15:00Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -557,6 +557,34 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787418614522,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787418613074,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787418611176,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787418610509,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
@@ -806,34 +834,6 @@
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
           "ts": 1787313120222,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313120111,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313120040,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313119983,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313119932,
           "nombre": "Centro comercial parque La Colina Bogota",
           "punto_id": "knp859rnx2cb"
         }
