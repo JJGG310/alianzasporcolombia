@@ -3,9 +3,9 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "216.640962ms",
-  "obtenido": "2026-08-22T13:09:04Z",
-  "total": 10,
+  "duracion": "442.903968ms",
+  "obtenido": "2026-08-22T13:50:43Z",
+  "total": 9,
   "puntos": [
     {
       "id": "mapa-emergencia-5ac4ec7f8c",
@@ -27,7 +27,7 @@
       "verificado": false,
       "creado": "2026-08-22T04:06:56.195Z",
       "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-22T13:09:04Z",
+      "fecha_corte": "2026-08-22T13:50:43Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -81,7 +81,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-21T22:35:42.621Z",
-      "fecha_corte": "2026-08-22T13:09:04Z",
+      "fecha_corte": "2026-08-22T13:50:43Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -130,7 +130,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-22T13:09:04Z",
+      "fecha_corte": "2026-08-22T13:50:43Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -165,74 +165,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-91396edc8a",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=i59che3yqvhq",
-      "tipo": "rescate",
-      "nombre": "Chiminangos calle 62 1D",
-      "direccion": "Chiminangos calle 62 1D",
-      "lat": 3.4773984,
-      "lon": -76.4942897,
-      "necesita": [
-        "Botiquín",
-        "Colchonetas",
-        "Electrolitos",
-        "Hielo",
-        "Pañales",
-        "Tapers",
-        "juegos niños",
-        "nevera hicopor"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "Martha Isabel",
-      "verificado": false,
-      "creado": "2026-08-20T13:39:33.966Z",
-      "actualizado": "2026-08-20T22:18:14.841Z",
-      "fecha_corte": "2026-08-22T13:09:04Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "i59che3yqvhq",
-        "nombre": "Chiminangos calle 62 1D",
-        "tipo": "rescate",
-        "lat": 3.4773984,
-        "lng": -76.4942897,
-        "direccion": "Chiminangos calle 62 1D",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Botiquín",
-          "Pañales",
-          "Colchonetas",
-          "Tapers",
-          "Electrolitos",
-          "Hielo",
-          "nevera hicopor",
-          "juegos niños"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Martha Isabel",
-        "creado": 1787233173966,
-        "actualizado": 1787264294841,
-        "confirmado": 1787233173966,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-aacec036e0",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=vanx56e8e6tg",
@@ -257,7 +189,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T20:41:48.36Z",
-      "fecha_corte": "2026-08-22T13:09:04Z",
+      "fecha_corte": "2026-08-22T13:50:43Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -319,7 +251,7 @@
       "verificado": false,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-20T17:17:54.046Z",
-      "fecha_corte": "2026-08-22T13:09:04Z",
+      "fecha_corte": "2026-08-22T13:50:43Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -414,7 +346,7 @@
       "verificado": false,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-22T13:09:04Z",
+      "fecha_corte": "2026-08-22T13:50:43Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -491,7 +423,7 @@
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-22T13:09:04Z",
+      "fecha_corte": "2026-08-22T13:50:43Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -554,7 +486,7 @@
       "verificado": false,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-22T13:09:04Z",
+      "fecha_corte": "2026-08-22T13:50:43Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -612,7 +544,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-22T13:09:04Z",
+      "fecha_corte": "2026-08-22T13:50:43Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -661,9 +593,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 36.66764,
-        "lng": -78.3875,
-        "ciudad": "Boydton",
+        "lat": 37.33939,
+        "lng": -121.89496,
+        "ciudad": "San Jose",
         "pais": "US"
       },
       "tipos": [
@@ -974,12 +906,12 @@
       ]
     },
     "resumen": {
-      "total": 10,
-      "urgentes": 10,
+      "total": 9,
+      "urgentes": 9,
       "faltan_manos": 2,
       "exceso": 2,
       "sin_ubicar": 0,
-      "sin_confirmar": 10,
+      "sin_confirmar": 9,
       "voluntarios_faltan": 8,
       "voluntarios_hay": 43
     }
