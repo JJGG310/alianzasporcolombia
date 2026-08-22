@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "524.738143ms",
-  "obtenido": "2026-08-22T14:14:49Z",
+  "duracion": "521.290254ms",
+  "obtenido": "2026-08-22T14:45:44Z",
   "total": 9,
   "puntos": [
     {
@@ -27,7 +27,7 @@
       "verificado": false,
       "creado": "2026-08-22T04:06:56.195Z",
       "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-22T14:14:49Z",
+      "fecha_corte": "2026-08-22T14:45:44Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -81,7 +81,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-21T22:35:42.621Z",
-      "fecha_corte": "2026-08-22T14:14:49Z",
+      "fecha_corte": "2026-08-22T14:45:44Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -124,16 +124,14 @@
       "direccion": "Centro comercial parque La Colina Bogota",
       "lat": 4.733376358817001,
       "lon": -74.06641760375352,
-      "estado": "por-confirmar",
-      "prioridad": "alta",
+      "estado": "urgente",
+      "prioridad": "critica",
       "voluntarios_hay": 27,
       "verificado": false,
+      "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-22T14:14:49Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
+      "fecha_corte": "2026-08-22T14:45:44Z",
       "raw": {
         "id": "knp859rnx2cb",
         "nombre": "Centro comercial parque La Colina Bogota",
@@ -154,11 +152,11 @@
         "autor": "",
         "creado": 1786811067550,
         "actualizado": 1787313121467,
-        "confirmado": 1787313122861,
+        "confirmado": 1787408746437,
         "ubicado": true,
-        "fresco": false,
+        "fresco": true,
         "saturacion": "exceso",
-        "confirma": 0,
+        "confirma": 1,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -189,7 +187,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T20:41:48.36Z",
-      "fecha_corte": "2026-08-22T14:14:49Z",
+      "fecha_corte": "2026-08-22T14:45:44Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -251,7 +249,7 @@
       "verificado": false,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-20T17:17:54.046Z",
-      "fecha_corte": "2026-08-22T14:14:49Z",
+      "fecha_corte": "2026-08-22T14:45:44Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -346,7 +344,7 @@
       "verificado": false,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-22T14:14:49Z",
+      "fecha_corte": "2026-08-22T14:45:44Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -423,7 +421,7 @@
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-22T14:14:49Z",
+      "fecha_corte": "2026-08-22T14:45:44Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -486,7 +484,7 @@
       "verificado": false,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-22T14:14:49Z",
+      "fecha_corte": "2026-08-22T14:45:44Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -544,7 +542,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-22T14:14:49Z",
+      "fecha_corte": "2026-08-22T14:45:44Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -593,9 +591,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 47.13014,
-        "lng": -119.27808,
-        "ciudad": "Moses Lake",
+        "lat": 39.03761,
+        "lng": -77.41582,
+        "ciudad": "Dulles Town Center",
         "pais": "US"
       },
       "tipos": [
@@ -623,6 +621,13 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787408746437,
+          "nombre": "Centro comercial parque La Colina Bogota",
+          "punto_id": "knp859rnx2cb"
+        },
         {
           "texto": "Punto creado.",
           "autor": "Olga Benitez",
@@ -895,13 +900,6 @@
           "ts": 1787313119932,
           "nombre": "Centro comercial parque La Colina Bogota",
           "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313119195,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
         }
       ]
     },
@@ -911,7 +909,7 @@
       "faltan_manos": 2,
       "exceso": 2,
       "sin_ubicar": 0,
-      "sin_confirmar": 9,
+      "sin_confirmar": 8,
       "voluntarios_faltan": 8,
       "voluntarios_hay": 43
     }
