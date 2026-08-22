@@ -6,8 +6,8 @@
       "mecanismo": "API propia /api/timeline (actualmente caída) — el Supabase del sitio exige autenticación",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-08-22T02:12:30Z",
-      "duracion": "8.566359801s",
+      "obtenido": "2026-08-22T03:13:44Z",
+      "duracion": "8.522119657s",
       "nota": "endpoint público caído (500, error de blockchain); el Supabase del sitio exige autenticación (401). Sin datos públicos disponibles — se reintenta en cada corrida.",
       "error": "timeline: tras 4 intentos: https://aidtrace-rastroayuda.vercel.app/api/timeline?limit=100\u0026cursor=0 devolvió 500"
     },
@@ -17,8 +17,8 @@
       "mecanismo": "Convex HTTP query API (udf needs:list; descubierto interceptando el WebSocket)",
       "ok": true,
       "total": 65,
-      "obtenido": "2026-08-22T02:12:21Z",
-      "duracion": "304.341261ms"
+      "obtenido": "2026-08-22T03:13:35Z",
+      "duracion": "101.127322ms"
     },
     {
       "fuente": "calisolidario",
@@ -26,8 +26,8 @@
       "mecanismo": "payload RSC de Next.js embebido en el HTML de /necesidades y /ofertas",
       "ok": true,
       "total": 176,
-      "obtenido": "2026-08-22T02:12:21Z",
-      "duracion": "540.30865ms"
+      "obtenido": "2026-08-22T03:13:36Z",
+      "duracion": "199.261347ms"
     },
     {
       "fuente": "haciendo-comunidad",
@@ -35,8 +35,8 @@
       "mecanismo": "API REST de Firestore con lectura anónima (colecciones reportes_ayuda y comunidad_servicios; la colección desaparecidos se omite a propósito)",
       "ok": true,
       "total": 89,
-      "obtenido": "2026-08-22T02:12:21Z",
-      "duracion": "1.188950554s",
+      "obtenido": "2026-08-22T03:13:35Z",
+      "duracion": "1.643030976s",
       "nota": "No se leyó la colección 'desaparecidos' por política de datos personales."
     },
     {
@@ -45,8 +45,8 @@
       "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
       "ok": true,
       "total": 11,
-      "obtenido": "2026-08-22T02:12:21Z",
-      "duracion": "445.3089ms"
+      "obtenido": "2026-08-22T03:13:35Z",
+      "duracion": "300.128757ms"
     },
     {
       "fuente": "puntos-criticos",
@@ -54,8 +54,8 @@
       "mecanismo": "arreglos JS embebidos en el HTML (React vía Babel standalone, sin API)",
       "ok": true,
       "total": 57,
-      "obtenido": "2026-08-22T02:12:21Z",
-      "duracion": "527.540023ms"
+      "obtenido": "2026-08-22T03:13:36Z",
+      "duracion": "229.665823ms"
     },
     {
       "fuente": "quesenecesita",
@@ -63,8 +63,8 @@
       "mecanismo": "Google Sheets publicado como CSV (descubierto en SHEET_CSV_URL del HTML)",
       "ok": true,
       "total": 50,
-      "obtenido": "2026-08-22T02:12:21Z",
-      "duracion": "643.438799ms"
+      "obtenido": "2026-08-22T03:13:36Z",
+      "duracion": "666.214218ms"
     },
     {
       "fuente": "sismoinfo",
@@ -72,8 +72,8 @@
       "mecanismo": "API REST propia (/api/buildings y /api/anuncios; /api/disappeared se omite a propósito)",
       "ok": true,
       "total": 61,
-      "obtenido": "2026-08-22T02:12:20Z",
-      "duracion": "755.745087ms",
+      "obtenido": "2026-08-22T03:13:35Z",
+      "duracion": "527.234997ms",
       "nota": "no se leyó /api/disappeared por política de datos personales"
     },
     {
@@ -82,12 +82,12 @@
       "mecanismo": "página informativa estática (sin dataset; no hace peticiones de datos)",
       "ok": true,
       "total": 1,
-      "obtenido": "2026-08-22T02:12:21Z",
-      "duracion": "832.541941ms",
+      "obtenido": "2026-08-22T03:13:36Z",
+      "duracion": "689.771522ms",
       "nota": "sin dataset estructurado; se conserva como fuente informativa/editorial"
     }
   ],
-  "generado": "2026-08-22T02:12:20Z",
+  "generado": "2026-08-22T03:13:35Z",
   "informe": {
     "entrada": 616,
     "salida": 606,
