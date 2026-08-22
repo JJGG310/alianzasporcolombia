@@ -3,9 +3,9 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "492.783451ms",
-  "obtenido": "2026-08-22T11:14:52Z",
-  "total": 12,
+  "duracion": "460.958526ms",
+  "obtenido": "2026-08-22T11:43:26Z",
+  "total": 11,
   "puntos": [
     {
       "id": "mapa-emergencia-5ac4ec7f8c",
@@ -27,7 +27,7 @@
       "verificado": false,
       "creado": "2026-08-22T04:06:56.195Z",
       "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-22T11:14:52Z",
+      "fecha_corte": "2026-08-22T11:43:25Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -81,7 +81,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-21T22:35:42.621Z",
-      "fecha_corte": "2026-08-22T11:14:52Z",
+      "fecha_corte": "2026-08-22T11:43:25Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -130,7 +130,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-22T11:14:52Z",
+      "fecha_corte": "2026-08-22T11:43:25Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -189,7 +189,7 @@
       "verificado": false,
       "creado": "2026-08-20T13:39:33.966Z",
       "actualizado": "2026-08-20T22:18:14.841Z",
-      "fecha_corte": "2026-08-22T11:14:52Z",
+      "fecha_corte": "2026-08-22T11:43:25Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -257,7 +257,7 @@
       "verificado": false,
       "creado": "2026-08-15T01:28:57.168Z",
       "actualizado": "2026-08-20T20:41:48.36Z",
-      "fecha_corte": "2026-08-22T11:14:52Z",
+      "fecha_corte": "2026-08-22T11:43:25Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -319,7 +319,7 @@
       "verificado": false,
       "creado": "2026-08-15T20:42:53.924Z",
       "actualizado": "2026-08-20T17:17:54.046Z",
-      "fecha_corte": "2026-08-22T11:14:52Z",
+      "fecha_corte": "2026-08-22T11:43:25Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -387,73 +387,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-da423d181c",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=myjvsrjr9jju",
-      "tipo": "albergue",
-      "nombre": "Albergue temporal para damnificados sur",
-      "descripcion": "Albergue disponible temporal para damnificados",
-      "barrio": "Capri",
-      "direccion": "Calle 10A # 78A-05 en el barrio Capri cali",
-      "lat": 3.388444987011278,
-      "lon": -76.54178011408604,
-      "necesita": [
-        "Almohadas",
-        "Tapabocas",
-        "kit de aseo"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "verificado": false,
-      "creado": "2026-08-18T01:11:25.156Z",
-      "actualizado": "2026-08-20T16:26:36.479Z",
-      "fecha_corte": "2026-08-22T11:14:52Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "myjvsrjr9jju",
-        "nombre": "Albergue temporal para damnificados sur",
-        "tipo": "albergue",
-        "lat": 3.388444987011278,
-        "lng": -76.54178011408604,
-        "direccion": "Calle 10A # 78A-05 en el barrio Capri cali",
-        "barrio": "Capri",
-        "estado": "urgente",
-        "necesidades": [
-          "Tapabocas",
-          "Almohadas",
-          "kit de aseo"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "Albergue disponible temporal para damnificados",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1787015485156,
-        "actualizado": 1787243196479,
-        "confirmado": 1787224828230,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [
-          {
-            "id": "drfpuijuea",
-            "url": "/media/myjvsrjr9jju/1787015949686-jqtnxw.mp4",
-            "mime": "video/mp4",
-            "pie": "",
-            "ts": 1787015951210
-          }
-        ],
-        "media_total": 1
-      }
-    },
-    {
       "id": "mapa-emergencia-bc32521dbd",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=387c278q25n6",
@@ -481,7 +414,7 @@
       "verificado": false,
       "creado": "2026-08-20T03:36:56.98Z",
       "actualizado": "2026-08-20T03:36:56.98Z",
-      "fecha_corte": "2026-08-22T11:14:52Z",
+      "fecha_corte": "2026-08-22T11:43:25Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -558,7 +491,7 @@
       "verificado": false,
       "creado": "2026-08-17T20:10:08.582Z",
       "actualizado": "2026-08-19T14:21:58.186Z",
-      "fecha_corte": "2026-08-22T11:14:52Z",
+      "fecha_corte": "2026-08-22T11:43:25Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -621,7 +554,7 @@
       "verificado": false,
       "creado": "2026-08-19T03:01:55.925Z",
       "actualizado": "2026-08-19T03:03:04.43Z",
-      "fecha_corte": "2026-08-22T11:14:52Z",
+      "fecha_corte": "2026-08-22T11:43:25Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -680,7 +613,7 @@
       "verificado": false,
       "creado": "2026-08-16T13:30:48.937Z",
       "actualizado": "2026-08-19T02:03:25.679Z",
-      "fecha_corte": "2026-08-22T11:14:52Z",
+      "fecha_corte": "2026-08-22T11:43:25Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -762,7 +695,7 @@
       "verificado": false,
       "creado": "2026-08-18T17:08:36.15Z",
       "actualizado": "2026-08-18T19:05:06.712Z",
-      "fecha_corte": "2026-08-22T11:14:52Z",
+      "fecha_corte": "2026-08-22T11:43:25Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -1124,12 +1057,12 @@
       ]
     },
     "resumen": {
-      "total": 12,
-      "urgentes": 12,
+      "total": 11,
+      "urgentes": 11,
       "faltan_manos": 3,
       "exceso": 2,
       "sin_ubicar": 0,
-      "sin_confirmar": 12,
+      "sin_confirmar": 11,
       "voluntarios_faltan": 29,
       "voluntarios_hay": 43
     }
