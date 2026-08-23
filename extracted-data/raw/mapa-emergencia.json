@@ -3,10 +3,86 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "401.322611ms",
-  "obtenido": "2026-08-23T00:55:59Z",
-  "total": 4,
+  "duracion": "519.33717ms",
+  "obtenido": "2026-08-23T02:21:36Z",
+  "total": 5,
   "puntos": [
+    {
+      "id": "mapa-emergencia-942066f90b",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=cescrvvrueww",
+      "tipo": "rescate",
+      "nombre": "Riofrio valle",
+      "direccion": "Riofrio valle",
+      "lat": 4.1071481,
+      "lon": -76.3839423,
+      "necesita": [
+        "Agua",
+        "Botiquín",
+        "Carpas",
+        "Colchonetas",
+        "Comida",
+        "Comida para animales",
+        "Electrolitos",
+        "Gafas de seguridad",
+        "Guantes de obra",
+        "Linternas",
+        "Palas",
+        "Picas",
+        "Tapers"
+      ],
+      "estado": "urgente",
+      "prioridad": "critica",
+      "organizacion": "3205163851",
+      "verificado": false,
+      "confirmaciones": 1,
+      "creado": "2026-08-23T01:18:50.153Z",
+      "actualizado": "2026-08-23T01:18:50.153Z",
+      "fecha_corte": "2026-08-23T02:21:35Z",
+      "raw": {
+        "id": "cescrvvrueww",
+        "nombre": "Riofrio valle",
+        "tipo": "rescate",
+        "lat": 4.1071481,
+        "lng": -76.3839423,
+        "direccion": "Riofrio valle",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [
+          "Agua",
+          "Comida",
+          "Guantes de obra",
+          "Gafas de seguridad",
+          "Linternas",
+          "Palas",
+          "Picas",
+          "Electrolitos",
+          "Botiquín",
+          "Tapers",
+          "Carpas",
+          "Colchonetas",
+          "Comida para animales"
+        ],
+        "voluntarios_hay": 0,
+        "voluntarios_faltan": 0,
+        "contacto": "",
+        "notas": "",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "3205163851",
+        "creado": 1787447930153,
+        "actualizado": 1787447930153,
+        "confirmado": 1787447933005,
+        "ubicado": true,
+        "fresco": true,
+        "saturacion": "sin_dato",
+        "confirma": 1,
+        "desmiente": 0,
+        "media": [],
+        "media_total": 0
+      }
+    },
     {
       "id": "mapa-emergencia-a0fc4aa40e",
       "fuente": "mapa-emergencia",
@@ -21,7 +97,7 @@
       "verificado": false,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-23T00:55:59Z",
+      "fecha_corte": "2026-08-23T02:21:35Z",
       "raw": {
         "id": "t8ddv2iab37x",
         "nombre": "Ave. 5 Norte # 39-16 la Flora",
@@ -68,7 +144,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T18:51:49.675Z",
-      "fecha_corte": "2026-08-23T00:55:59Z",
+      "fecha_corte": "2026-08-23T02:21:35Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -122,7 +198,7 @@
       "verificado": false,
       "creado": "2026-08-22T04:06:56.195Z",
       "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-23T00:55:59Z",
+      "fecha_corte": "2026-08-23T02:21:35Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -176,7 +252,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-23T00:55:59Z",
+      "fecha_corte": "2026-08-23T02:21:35Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -219,9 +295,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 41.60054,
-        "lng": -93.60911,
-        "ciudad": "Des Moines",
+        "lat": 33.44838,
+        "lng": -112.07404,
+        "ciudad": "Phoenix",
         "pais": "US"
       },
       "tipos": [
@@ -249,6 +325,20 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "3205163851",
+          "ts": 1787447933005,
+          "nombre": "Riofrio valle",
+          "punto_id": "cescrvvrueww"
+        },
+        {
+          "texto": "Punto creado.",
+          "autor": "3205163851",
+          "ts": 1787447930153,
+          "nombre": "Riofrio valle",
+          "punto_id": "cescrvvrueww"
+        },
         {
           "texto": "Punto creado.",
           "autor": "",
@@ -514,26 +604,12 @@
           "ts": 1787313120544,
           "nombre": "Centro comercial parque La Colina Bogota",
           "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313120419,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313120408,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
         }
       ]
     },
     "resumen": {
-      "total": 4,
-      "urgentes": 4,
+      "total": 5,
+      "urgentes": 5,
       "faltan_manos": 1,
       "exceso": 1,
       "sin_ubicar": 0,
