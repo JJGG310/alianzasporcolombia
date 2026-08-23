@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "473.298832ms",
-  "obtenido": "2026-08-23T07:11:47Z",
+  "duracion": "424.759934ms",
+  "obtenido": "2026-08-23T07:55:36Z",
   "total": 5,
   "puntos": [
     {
@@ -31,14 +31,17 @@
         "Picas",
         "Tapers"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "organizacion": "3205163851",
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-23T07:11:47Z",
+      "fecha_corte": "2026-08-23T07:55:36Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "cescrvvrueww",
         "nombre": "Riofrio valle",
@@ -75,7 +78,7 @@
         "actualizado": 1787447930153,
         "confirmado": 1787447933005,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 1,
         "desmiente": 0,
@@ -97,7 +100,7 @@
       "verificado": false,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-23T07:11:47Z",
+      "fecha_corte": "2026-08-23T07:55:36Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -147,7 +150,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T18:51:49.675Z",
-      "fecha_corte": "2026-08-23T07:11:47Z",
+      "fecha_corte": "2026-08-23T07:55:36Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -201,7 +204,7 @@
       "verificado": false,
       "creado": "2026-08-22T04:06:56.195Z",
       "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-23T07:11:47Z",
+      "fecha_corte": "2026-08-23T07:55:36Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -254,7 +257,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-23T07:11:47Z",
+      "fecha_corte": "2026-08-23T07:55:36Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -297,9 +300,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 33.44838,
-        "lng": -112.07404,
-        "ciudad": "Phoenix",
+        "lat": 37.33939,
+        "lng": -121.89496,
+        "ciudad": "San Jose",
         "pais": "US"
       },
       "tipos": [
@@ -615,7 +618,7 @@
       "faltan_manos": 1,
       "exceso": 1,
       "sin_ubicar": 0,
-      "sin_confirmar": 4,
+      "sin_confirmar": 5,
       "voluntarios_faltan": 3,
       "voluntarios_hay": 33
     }
