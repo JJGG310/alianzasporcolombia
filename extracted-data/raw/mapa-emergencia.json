@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "519.33717ms",
-  "obtenido": "2026-08-23T02:21:36Z",
+  "duracion": "433.927312ms",
+  "obtenido": "2026-08-23T03:28:43Z",
   "total": 5,
   "puntos": [
     {
@@ -38,7 +38,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-23T02:21:35Z",
+      "fecha_corte": "2026-08-23T03:28:42Z",
       "raw": {
         "id": "cescrvvrueww",
         "nombre": "Riofrio valle",
@@ -97,7 +97,7 @@
       "verificado": false,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-23T02:21:35Z",
+      "fecha_corte": "2026-08-23T03:28:42Z",
       "raw": {
         "id": "t8ddv2iab37x",
         "nombre": "Ave. 5 Norte # 39-16 la Flora",
@@ -144,7 +144,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T18:51:49.675Z",
-      "fecha_corte": "2026-08-23T02:21:35Z",
+      "fecha_corte": "2026-08-23T03:28:42Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -198,7 +198,7 @@
       "verificado": false,
       "creado": "2026-08-22T04:06:56.195Z",
       "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-23T02:21:35Z",
+      "fecha_corte": "2026-08-23T03:28:42Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -249,10 +249,9 @@
       "prioridad": "alta",
       "voluntarios_hay": 27,
       "verificado": false,
-      "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-23T02:21:35Z",
+      "fecha_corte": "2026-08-23T03:28:42Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -280,7 +279,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "exceso",
-        "confirma": 1,
+        "confirma": 0,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -295,9 +294,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 33.44838,
-        "lng": -112.07404,
-        "ciudad": "Phoenix",
+        "lat": 37.33939,
+        "lng": -121.89496,
+        "ciudad": "San Jose",
         "pais": "US"
       },
       "tipos": [
