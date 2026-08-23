@@ -3,8 +3,8 @@
   "url": "https://aqui-hace-falta.web.app/",
   "mecanismo": "Convex HTTP query API (udf needs:list; descubierto interceptando el WebSocket)",
   "ok": true,
-  "duracion": "228.061065ms",
-  "obtenido": "2026-08-23T08:56:37Z",
+  "duracion": "147.812499ms",
+  "obtenido": "2026-08-23T09:24:32Z",
   "total": 65,
   "puntos": [
     {
@@ -42,7 +42,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:32:21.655Z",
       "actualizado": "2026-08-13T15:22:02.201Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786491141655.4287,
         "_id": "j5741ef7w4ek63r65626r2w7098c9hp8",
@@ -200,7 +200,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:18:57.917Z",
       "actualizado": "2026-08-11T23:43:46.616Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786486737917.0684,
         "_id": "j577r0y3bwawss7dz8cmcyv2a18c9k1d",
@@ -340,7 +340,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:09:34.698Z",
       "actualizado": "2026-08-11T23:34:43.995Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786489774698.8909,
         "_id": "j578eyt4wnzcf9zz36hwtvbp798c9bv6",
@@ -442,7 +442,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:35:06.201Z",
       "actualizado": "2026-08-11T22:53:02.951Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786487706201.074,
         "_id": "j5793904fzfzenhycqt8rnhgkx8c87rx",
@@ -547,7 +547,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:37:40.432Z",
       "actualizado": "2026-08-11T22:07:37.315Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786484260432.6821,
         "_id": "j574cx9sxscw3f6jqxn3q19cbn8c9vr4",
@@ -641,7 +641,7 @@
       "verificado": true,
       "creado": "2026-08-16T01:48:32.847Z",
       "actualizado": "2026-08-17T07:59:18.52Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786844912847.4382,
         "_id": "j57bp3bkzj0k1aky2x7d1vet958cjk8y",
@@ -718,7 +718,7 @@
       "verificado": true,
       "creado": "2026-08-15T17:48:51.211Z",
       "actualizado": "2026-08-17T07:58:41.479Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786816131211.1917,
         "_id": "j5793xtr1ma5d9y19cz986162h8cg9c9",
@@ -785,7 +785,7 @@
       "verificado": true,
       "creado": "2026-08-15T02:15:50.634Z",
       "actualizado": "2026-08-15T16:10:59.86Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786760150634.4333,
         "_id": "j571g38hk9ga81njcbfvswz0wx8cgejt",
@@ -856,7 +856,7 @@
       "verificado": true,
       "creado": "2026-08-14T14:49:34.538Z",
       "actualizado": "2026-08-15T14:17:59.148Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786718974538.8076,
         "_id": "j575caa32y8xysy5ps5x5gr8md8cfb1r",
@@ -918,7 +918,7 @@
       "verificado": true,
       "creado": "2026-08-14T15:10:26.359Z",
       "actualizado": "2026-08-15T14:16:40.547Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786720226359.3914,
         "_id": "j57cwvrczce1kqxf5x7e75qxgh8cex19",
@@ -983,7 +983,7 @@
       "verificado": true,
       "creado": "2026-08-14T15:38:30.158Z",
       "actualizado": "2026-08-15T14:15:37.137Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786721910158.8972,
         "_id": "j579frwjswhr3ctc4xhzxhqd6h8cfrzb",
@@ -1049,7 +1049,7 @@
       "verificado": true,
       "creado": "2026-08-14T16:54:21.679Z",
       "actualizado": "2026-08-15T14:14:52.104Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786726461679.3418,
         "_id": "j578302w1aek1xzwe0hp2nppvh8ce694",
@@ -1115,7 +1115,7 @@
       "verificado": true,
       "creado": "2026-08-14T15:30:44.749Z",
       "actualizado": "2026-08-15T14:13:55.915Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786721444749.6309,
         "_id": "j57agwdgea35zr7k62gvww345x8ceyx0",
@@ -1181,7 +1181,7 @@
       "verificado": true,
       "creado": "2026-08-14T16:08:43.812Z",
       "actualizado": "2026-08-15T14:13:00.008Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786723723812.0657,
         "_id": "j576m1qqf5rm05jp51aab9zqdx8ce89c",
@@ -1247,7 +1247,7 @@
       "verificado": true,
       "creado": "2026-08-14T15:01:49.446Z",
       "actualizado": "2026-08-15T13:54:34.389Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786719709446.359,
         "_id": "j5721bvsmkfvsr7h0ptms705458ce5h1",
@@ -1312,7 +1312,7 @@
       "verificado": true,
       "creado": "2026-08-14T15:18:47.499Z",
       "actualizado": "2026-08-15T13:54:33.276Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786720727499.5466,
         "_id": "j578p4k6a7125936zch1jfx5zh8cekq1",
@@ -1375,7 +1375,7 @@
       "verificado": true,
       "creado": "2026-08-14T14:58:55.082Z",
       "actualizado": "2026-08-15T13:53:43.972Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786719535082.5107,
         "_id": "j574s5rc51rersvxvp884w2aes8cev3x",
@@ -1435,7 +1435,7 @@
       "verificado": true,
       "creado": "2026-08-14T14:56:23.394Z",
       "actualizado": "2026-08-15T08:21:44.026Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786719383394.366,
         "_id": "j571643w4b7f61rrj2k4smv0t58ce7c4",
@@ -1496,7 +1496,7 @@
       "verificado": true,
       "creado": "2026-08-14T01:50:39.788Z",
       "actualizado": "2026-08-14T14:37:40.145Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786672239788.6218,
         "_id": "j579a937374k2epk97n96xtt7x8ce378",
@@ -1559,7 +1559,7 @@
       "verificado": true,
       "creado": "2026-08-12T22:51:21.972Z",
       "actualizado": "2026-08-13T23:03:17.92Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786575081972.5115,
         "_id": "j5746wkxhn1bd4tqp9g775n8x18cag41",
@@ -1626,7 +1626,7 @@
       "verificado": true,
       "creado": "2026-08-12T17:11:25.973Z",
       "actualizado": "2026-08-13T23:03:05.608Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786554685973.0059,
         "_id": "j5757qy457cz83hrhkxk62p8ed8ca98s",
@@ -1702,7 +1702,7 @@
       "verificado": true,
       "creado": "2026-08-12T04:45:31.581Z",
       "actualizado": "2026-08-13T23:02:57.36Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786509931581.0012,
         "_id": "j574dswfw8x765mkcetf905fw18ca0j2",
@@ -1778,7 +1778,7 @@
       "verificado": true,
       "creado": "2026-08-13T20:30:24.133Z",
       "actualizado": "2026-08-13T20:34:42.607Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786653024133.6865,
         "_id": "j57fm0cynczx6kqnj1bmkb6dg18cddrx",
@@ -1849,7 +1849,7 @@
       "verificado": true,
       "creado": "2026-08-12T15:36:52.771Z",
       "actualizado": "2026-08-13T20:34:20.574Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786549012771.4758,
         "_id": "j57dr878zwqh96qee0753fd6j58cas9y",
@@ -1964,7 +1964,7 @@
       "verificado": true,
       "creado": "2026-08-13T02:30:12.925Z",
       "actualizado": "2026-08-13T20:34:12.228Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786588212925.0796,
         "_id": "j574jp9zf42ryj3hmh1536t18n8cdx7w",
@@ -2028,7 +2028,7 @@
       "verificado": true,
       "creado": "2026-08-12T16:41:27.801Z",
       "actualizado": "2026-08-13T20:32:37.209Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786552887801.1382,
         "_id": "j570rsefdb4fbfntr5x1sxbqp18cahnw",
@@ -2105,7 +2105,7 @@
       "verificado": true,
       "creado": "2026-08-13T18:55:41.636Z",
       "actualizado": "2026-08-13T20:32:09.376Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786647341635.946,
         "_id": "j574107psdmsb5t05k3gdqtf4h8cd5kt",
@@ -2177,7 +2177,7 @@
       "verificado": true,
       "creado": "2026-08-13T18:40:46.872Z",
       "actualizado": "2026-08-13T20:32:04.143Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786646446872.444,
         "_id": "j57arw3142d7gadx77x68gksh98ccsk5",
@@ -2243,7 +2243,7 @@
       "verificado": true,
       "creado": "2026-08-13T10:01:32.561Z",
       "actualizado": "2026-08-13T20:21:02.787Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786615292561.7737,
         "_id": "j57dghzese5r1cj8e50j00ab3d8cc2yk",
@@ -2314,7 +2314,7 @@
       "verificado": true,
       "creado": "2026-08-13T19:39:12.256Z",
       "actualizado": "2026-08-13T20:17:48.472Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786649952256.7888,
         "_id": "j572xvtjdh421bfcb72r7tzbxh8ccd5h",
@@ -2378,7 +2378,7 @@
       "verificado": true,
       "creado": "2026-08-13T16:04:53.885Z",
       "actualizado": "2026-08-13T20:16:15.485Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786637093885.4055,
         "_id": "j57ffv9nsy26dmpd0w8mtjgb2x8ccdyx",
@@ -2477,7 +2477,7 @@
       "verificado": true,
       "creado": "2026-08-13T03:58:09.586Z",
       "actualizado": "2026-08-13T18:03:26.371Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786593489586.1309,
         "_id": "j579sje1w4ss3t0s6neqa46n2x8cdh5j",
@@ -2554,7 +2554,7 @@
       "verificado": true,
       "creado": "2026-08-13T17:18:05.565Z",
       "actualizado": "2026-08-13T17:18:41.276Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786641485565.6167,
         "_id": "j574c2587g08vdyrp6p7g3veps8ccjyr",
@@ -2678,7 +2678,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:09:11.638Z",
       "actualizado": "2026-08-13T16:56:23.714Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786489751638.9255,
         "_id": "j576yyhwyxvnxhs075b5cyf6yh8c80s8",
@@ -2798,7 +2798,7 @@
       "verificado": true,
       "creado": "2026-08-12T14:29:34.272Z",
       "actualizado": "2026-08-13T16:37:18.158Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786544974272.5803,
         "_id": "j575hev9bw7z8m9x18xs2z5hx18cajw5",
@@ -2912,7 +2912,7 @@
       "verificado": true,
       "creado": "2026-08-12T23:26:30.826Z",
       "actualizado": "2026-08-13T15:26:08.747Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786577190826.2837,
         "_id": "j5779mxh0t86ep5ky4cef5d6rx8cbsnp",
@@ -2988,7 +2988,7 @@
       "verificado": true,
       "creado": "2026-08-12T23:31:22.496Z",
       "actualizado": "2026-08-13T00:36:24.16Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786577482496.1282,
         "_id": "j57d9f0vv469wt1761p9ye49jd8cag3m",
@@ -3051,7 +3051,7 @@
       "verificado": true,
       "creado": "2026-08-12T03:28:40.837Z",
       "actualizado": "2026-08-13T00:36:03.611Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786505320837.2754,
         "_id": "j576s2qsr6gje26x8qh6nk0q258cbnnh",
@@ -3130,7 +3130,7 @@
       "verificado": true,
       "creado": "2026-08-13T00:09:36.528Z",
       "actualizado": "2026-08-13T00:09:40.2Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786579776528.4773,
         "_id": "j57frzyb6a2nw3m8bg8nry7qw58cdzwb",
@@ -3193,7 +3193,7 @@
       "verificado": true,
       "creado": "2026-08-12T23:31:18.444Z",
       "actualizado": "2026-08-12T23:31:28.338Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786577478444.3972,
         "_id": "j577fmh7fmgcse9vxhjys41ge98cac10",
@@ -3289,7 +3289,7 @@
       "verificado": true,
       "creado": "2026-08-12T23:05:00.45Z",
       "actualizado": "2026-08-12T23:05:12.626Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786575900450.5342,
         "_id": "j57f3g5rn81n37815v3n32bhy98caawz",
@@ -3409,7 +3409,7 @@
       "verificado": true,
       "creado": "2026-08-12T19:58:00.273Z",
       "actualizado": "2026-08-12T20:39:06.267Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786564680273.7483,
         "_id": "j57cekf5vnwmaazdw4e17ygsdx8cacqe",
@@ -3477,7 +3477,7 @@
       "verificado": true,
       "creado": "2026-08-12T19:23:25.075Z",
       "actualizado": "2026-08-12T19:23:29.076Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786562605075.24,
         "_id": "j57cth4vm6tmy8d75frbc5x7zh8cb63h",
@@ -3581,7 +3581,7 @@
       "verificado": true,
       "creado": "2026-08-12T19:18:12.389Z",
       "actualizado": "2026-08-12T19:18:17.014Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786562292389.7358,
         "_id": "j57fy6wra25rhd1kyx2ssd092s8cb6r6",
@@ -3684,7 +3684,7 @@
       "verificado": true,
       "creado": "2026-08-12T05:20:10.543Z",
       "actualizado": "2026-08-12T05:58:55.104Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786512010543.0168,
         "_id": "j57cfste6yrcpy73rne8vnbb318ca0w8",
@@ -3758,7 +3758,7 @@
       "verificado": true,
       "creado": "2026-08-12T02:41:12.848Z",
       "actualizado": "2026-08-12T04:16:44.763Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786502472848.8545,
         "_id": "j573mthvebfphavgnbdmzyb78d8ca7mj",
@@ -3830,7 +3830,7 @@
       "verificado": true,
       "creado": "2026-08-12T03:52:58.412Z",
       "actualizado": "2026-08-12T04:16:35.965Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786506778412.3071,
         "_id": "j578pz455wy3z3mbde4y8p8hyx8caz5b",
@@ -3910,7 +3910,7 @@
       "verificado": true,
       "creado": "2026-08-12T01:03:16.743Z",
       "actualizado": "2026-08-12T01:05:41.917Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786496596743.0527,
         "_id": "j577edt10szejzc7ypq0tdck9n8ca6ea",
@@ -3991,7 +3991,7 @@
       "verificado": true,
       "creado": "2026-08-12T00:42:12.348Z",
       "actualizado": "2026-08-12T00:43:07.348Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786495332348.4417,
         "_id": "j576ws5q3cfenp56a5hd2t1ded8cbapf",
@@ -4093,7 +4093,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:00:39.321Z",
       "actualizado": "2026-08-12T00:19:40.999Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786485639321.4592,
         "_id": "j573zm8htdwyf9x40ha24a866d8c8vhh",
@@ -4196,7 +4196,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:26:46.951Z",
       "actualizado": "2026-08-11T23:49:32.668Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786490806951.425,
         "_id": "j579zg73dtkt2j2zmttwej096s8c8eyn",
@@ -4271,7 +4271,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:25:48.811Z",
       "actualizado": "2026-08-11T23:26:07.192Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786490748810.966,
         "_id": "j57292rbg4jqzqzcnax3pa8mfd8c9x6s",
@@ -4385,7 +4385,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:34:58.707Z",
       "actualizado": "2026-08-11T22:37:00.485Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786487698707.1492,
         "_id": "j57145t136945tvcef4c1d0eg18c9qm4",
@@ -4488,7 +4488,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:25:17.923Z",
       "actualizado": "2026-08-11T22:26:24.077Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786487117923.451,
         "_id": "j5778xc1yprt9qzfthx2msyzv18c82yc",
@@ -4582,7 +4582,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:14:23.013Z",
       "actualizado": "2026-08-11T22:14:39.912Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786486463013.8313,
         "_id": "j570wngge6jn3z1e4s98m95kj18c8rej",
@@ -4666,7 +4666,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:50:43.611Z",
       "actualizado": "2026-08-11T21:57:36.561Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786485043611.0762,
         "_id": "j570kbm0s91j3eg6b3at2y48a98c8e4r",
@@ -4755,7 +4755,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:42:17.134Z",
       "actualizado": "2026-08-11T21:45:33.905Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786484537134.8933,
         "_id": "j573rm94h2wp60yh0ks1g53cys8c986b",
@@ -4825,7 +4825,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:43:09.558Z",
       "actualizado": "2026-08-11T21:45:33.128Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786484589558.8015,
         "_id": "j570x2qz7fgg8jbk4cjzda4wtd8c9etr",
@@ -4895,7 +4895,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:22:30.263Z",
       "actualizado": "2026-08-11T21:23:03.227Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786483350263.7568,
         "_id": "j57arjt7xap3n324rk25yxs23h8c8vfw",
@@ -4965,7 +4965,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:20:47.822Z",
       "actualizado": "2026-08-11T21:21:06.873Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786483247822.3757,
         "_id": "j570ztpyhqbwgc6n4k2ksv2ed98c9h5x",
@@ -5037,7 +5037,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:13:07.919Z",
       "actualizado": "2026-08-11T21:13:11.172Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786482787919.281,
         "_id": "j57czex1eetqw8tp1gw2r1dcnh8c82jn",
@@ -5119,7 +5119,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:01:07.759Z",
       "actualizado": "2026-08-11T21:10:31.567Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786482067758.9922,
         "_id": "j57015fjmqspmgnav85a6htrr98c8m4d",
@@ -5201,7 +5201,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:09:38.529Z",
       "actualizado": "2026-08-11T21:09:42.845Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786482578529.6008,
         "_id": "j57drv0wfzn62gdq0vzyf2ge8d8c9r1n",
@@ -5294,7 +5294,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:12:57.509Z",
       "actualizado": "2026-08-12T00:44:32.928Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786486377509.5364,
         "_id": "j574x4mrvtgkw9wzmdd3w3qkvx8c82ec",
@@ -5433,7 +5433,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:45:21.7Z",
       "actualizado": "2026-08-12T00:30:12.329Z",
-      "fecha_corte": "2026-08-23T08:56:37Z",
+      "fecha_corte": "2026-08-23T09:24:32Z",
       "raw": {
         "_creationTime": 1786484721700.538,
         "_id": "j575ff1n4qdn1cnatfpfgfhcah8c8q2z",
