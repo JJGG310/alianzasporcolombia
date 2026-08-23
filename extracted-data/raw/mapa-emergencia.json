@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "373.390807ms",
-  "obtenido": "2026-08-23T18:55:38Z",
+  "duracion": "535.947256ms",
+  "obtenido": "2026-08-23T19:18:34Z",
   "total": 5,
   "puntos": [
     {
@@ -31,16 +31,14 @@
         "Picas",
         "Tapers"
       ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
+      "estado": "urgente",
+      "prioridad": "critica",
       "organizacion": "3205163851",
       "verificado": false,
+      "confirmaciones": 1,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-23T18:55:38Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
+      "fecha_corte": "2026-08-23T19:18:34Z",
       "raw": {
         "id": "cescrvvrueww",
         "nombre": "Riofrio valle",
@@ -75,11 +73,11 @@
         "autor": "3205163851",
         "creado": 1787447930153,
         "actualizado": 1787447930153,
-        "confirmado": 1787447933005,
+        "confirmado": 1787511958087,
         "ubicado": true,
-        "fresco": false,
+        "fresco": true,
         "saturacion": "sin_dato",
-        "confirma": 0,
+        "confirma": 1,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -100,7 +98,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-23T18:55:38Z",
+      "fecha_corte": "2026-08-23T19:18:34Z",
       "raw": {
         "id": "t8ddv2iab37x",
         "nombre": "Ave. 5 Norte # 39-16 la Flora",
@@ -147,7 +145,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T18:51:49.675Z",
-      "fecha_corte": "2026-08-23T18:55:38Z",
+      "fecha_corte": "2026-08-23T19:18:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -201,7 +199,7 @@
       "verificado": false,
       "creado": "2026-08-22T04:06:56.195Z",
       "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-23T18:55:38Z",
+      "fecha_corte": "2026-08-23T19:18:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -254,7 +252,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-23T18:55:38Z",
+      "fecha_corte": "2026-08-23T19:18:34Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -297,9 +295,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 41.85003,
-        "lng": -87.65005,
-        "ciudad": "Chicago",
+        "lat": 33.44838,
+        "lng": -112.07404,
+        "ciudad": "Phoenix",
         "pais": "US"
       },
       "tipos": [
@@ -327,6 +325,20 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "3205163851",
+          "ts": 1787511958087,
+          "nombre": "Riofrio valle",
+          "punto_id": "cescrvvrueww"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "3205163851",
+          "ts": 1787511953720,
+          "nombre": "Riofrio valle",
+          "punto_id": "cescrvvrueww"
+        },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
@@ -592,20 +604,6 @@
           "ts": 1787313121467,
           "nombre": "Centro comercial parque La Colina Bogota",
           "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787313121450,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787313121286,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
         }
       ]
     },
@@ -615,7 +613,7 @@
       "faltan_manos": 1,
       "exceso": 1,
       "sin_ubicar": 0,
-      "sin_confirmar": 4,
+      "sin_confirmar": 3,
       "voluntarios_faltan": 3,
       "voluntarios_hay": 33
     }
