@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "496.528878ms",
-  "obtenido": "2026-08-23T18:19:25Z",
+  "duracion": "373.390807ms",
+  "obtenido": "2026-08-23T18:55:38Z",
   "total": 5,
   "puntos": [
     {
@@ -37,7 +37,7 @@
       "verificado": false,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-23T18:19:25Z",
+      "fecha_corte": "2026-08-23T18:55:38Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -100,7 +100,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-23T18:19:25Z",
+      "fecha_corte": "2026-08-23T18:55:38Z",
       "raw": {
         "id": "t8ddv2iab37x",
         "nombre": "Ave. 5 Norte # 39-16 la Flora",
@@ -147,7 +147,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T18:51:49.675Z",
-      "fecha_corte": "2026-08-23T18:19:25Z",
+      "fecha_corte": "2026-08-23T18:55:38Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -201,7 +201,7 @@
       "verificado": false,
       "creado": "2026-08-22T04:06:56.195Z",
       "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-23T18:19:25Z",
+      "fecha_corte": "2026-08-23T18:55:38Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -254,7 +254,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-23T18:19:25Z",
+      "fecha_corte": "2026-08-23T18:55:38Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -297,9 +297,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 47.13014,
-        "lng": -119.27808,
-        "ciudad": "Moses Lake",
+        "lat": 41.85003,
+        "lng": -87.65005,
+        "ciudad": "Chicago",
         "pais": "US"
       },
       "tipos": [
