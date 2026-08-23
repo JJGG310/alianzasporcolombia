@@ -3,10 +3,55 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "298.717338ms",
-  "obtenido": "2026-08-22T23:44:03Z",
-  "total": 5,
+  "duracion": "401.322611ms",
+  "obtenido": "2026-08-23T00:55:59Z",
+  "total": 4,
   "puntos": [
+    {
+      "id": "mapa-emergencia-a0fc4aa40e",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=t8ddv2iab37x",
+      "tipo": "rescate",
+      "nombre": "Ave. 5 Norte # 39-16 la Flora",
+      "direccion": "Ave. 5 Norte # 39-16 la Flora",
+      "lat": 4.694834853040115,
+      "lon": -74.0382554521774,
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "creado": "2026-08-23T00:49:59Z",
+      "actualizado": "2026-08-23T00:49:59Z",
+      "fecha_corte": "2026-08-23T00:55:59Z",
+      "raw": {
+        "id": "t8ddv2iab37x",
+        "nombre": "Ave. 5 Norte # 39-16 la Flora",
+        "tipo": "rescate",
+        "lat": 4.694834853040115,
+        "lng": -74.0382554521774,
+        "direccion": "Ave. 5 Norte # 39-16 la Flora",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [],
+        "voluntarios_hay": 0,
+        "voluntarios_faltan": 0,
+        "contacto": "",
+        "notas": "",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "",
+        "creado": 1787446199000,
+        "actualizado": 1787446199000,
+        "confirmado": 1787446199000,
+        "ubicado": true,
+        "fresco": true,
+        "saturacion": "sin_dato",
+        "confirma": 0,
+        "desmiente": 0,
+        "media": [],
+        "media_total": 0
+      }
+    },
     {
       "id": "mapa-emergencia-1b3cd953bc",
       "fuente": "mapa-emergencia",
@@ -16,14 +61,17 @@
       "direccion": "Carrera 94 c",
       "lat": 3.374531433482705,
       "lon": -76.5513550490141,
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "voluntarios_hay": 6,
       "voluntarios_faltan": 3,
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T18:51:49.675Z",
-      "fecha_corte": "2026-08-22T23:44:03Z",
+      "fecha_corte": "2026-08-23T00:55:59Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "camp5e9prmyu",
         "nombre": "Carrera 94 c",
@@ -46,88 +94,8 @@
         "actualizado": 1787424709675,
         "confirmado": 1787424709675,
         "ubicado": true,
-        "fresco": true,
-        "saturacion": "faltan",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
-      "id": "mapa-emergencia-653dceef87",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=2kzk3b8unask",
-      "tipo": "rescate",
-      "nombre": "Riofrio valle",
-      "direccion": "Riofrio valle",
-      "lat": 4.1071481,
-      "lon": -76.3839423,
-      "necesita": [
-        "Agua",
-        "Botiquín",
-        "Carpas",
-        "Colchonetas",
-        "Comida",
-        "Comida para animales",
-        "Electrolitos",
-        "Gafas de seguridad",
-        "Guantes de obra",
-        "Linternas",
-        "Palas",
-        "Picas",
-        "Tapabocas",
-        "Tapers"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "3205163851",
-      "verificado": false,
-      "creado": "2026-08-17T20:10:08.582Z",
-      "actualizado": "2026-08-22T17:58:10.836Z",
-      "fecha_corte": "2026-08-22T23:44:03Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "2kzk3b8unask",
-        "nombre": "Riofrio valle",
-        "tipo": "rescate",
-        "lat": 4.1071481,
-        "lng": -76.3839423,
-        "direccion": "Riofrio valle",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Agua",
-          "Guantes de obra",
-          "Comida",
-          "Gafas de seguridad",
-          "Tapabocas",
-          "Linternas",
-          "Palas",
-          "Picas",
-          "Botiquín",
-          "Tapers",
-          "Electrolitos",
-          "Carpas",
-          "Colchonetas",
-          "Comida para animales"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "3205163851",
-        "creado": 1786997408582,
-        "actualizado": 1787421490836,
-        "confirmado": 1787271134255,
-        "ubicado": true,
         "fresco": false,
-        "saturacion": "sin_dato",
+        "saturacion": "faltan",
         "confirma": 0,
         "desmiente": 0,
         "media": [],
@@ -154,7 +122,7 @@
       "verificado": false,
       "creado": "2026-08-22T04:06:56.195Z",
       "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-22T23:44:03Z",
+      "fecha_corte": "2026-08-23T00:55:59Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -208,7 +176,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-22T23:44:03Z",
+      "fecha_corte": "2026-08-23T00:55:59Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -241,73 +209,6 @@
         "media": [],
         "media_total": 0
       }
-    },
-    {
-      "id": "mapa-emergencia-aacec036e0",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=vanx56e8e6tg",
-      "tipo": "rescate",
-      "nombre": "Av 6 oeste #22 -40",
-      "direccion": "Av 6 oeste #22 -40",
-      "lat": 3.455114,
-      "lon": -76.5518327,
-      "necesita": [
-        "Agua",
-        "Botiquín",
-        "Carpas",
-        "Colchonetas",
-        "Comida para animales",
-        "Electrolitos",
-        "Pañales"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_faltan": 5,
-      "organizacion": "Albergue en terrón colorado en cali necesita ayuda Alimentos no perecederos Implementos de aseo Jabón de ropa Crema dental Pañales Medicamentos Alimento para perros Contacto Helena Candelo +573117536847 Av 6 oeste #22 -40",
-      "verificado": false,
-      "creado": "2026-08-15T01:28:57.168Z",
-      "actualizado": "2026-08-20T20:41:48.36Z",
-      "fecha_corte": "2026-08-22T23:44:03Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "vanx56e8e6tg",
-        "nombre": "Av 6 oeste #22 -40",
-        "tipo": "rescate",
-        "lat": 3.455114,
-        "lng": -76.5518327,
-        "direccion": "Av 6 oeste #22 -40",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Botiquín",
-          "Carpas",
-          "Agua",
-          "Colchonetas",
-          "Pañales",
-          "Electrolitos",
-          "Comida para animales"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 5,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Albergue en terrón colorado en cali necesita ayuda  Alimentos no perecederos  Implementos de aseo  Jabón de ropa Crema dental Pañales  Medicamentos Alimento para perros Contacto Helena Candelo  +573117536847 Av 6 oeste #22 -40",
-        "creado": 1786757337168,
-        "actualizado": 1787258508360,
-        "confirmado": 1787271928221,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "faltan",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
     }
   ],
   "extra": {
@@ -318,9 +219,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 39.03761,
-        "lng": -77.41582,
-        "ciudad": "Dulles Town Center",
+        "lat": 41.60054,
+        "lng": -93.60911,
+        "ciudad": "Des Moines",
         "pais": "US"
       },
       "tipos": [
@@ -349,25 +250,18 @@
     "novedades": {
       "novedades": [
         {
+          "texto": "Punto creado.",
+          "autor": "",
+          "ts": 1787446199000,
+          "nombre": "Ave. 5 Norte # 39-16 la Flora",
+          "punto_id": "t8ddv2iab37x"
+        },
+        {
           "texto": "Ubicación corregida en el mapa.",
           "autor": "",
           "ts": 1787424709675,
           "nombre": "Carrera 94 c",
           "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1787421490836,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1787421485857,
-          "nombre": "Riofrio valle",
-          "punto_id": "2kzk3b8unask"
         },
         {
           "texto": "1 mano menos por cubrir",
@@ -627,17 +521,24 @@
           "ts": 1787313120419,
           "nombre": "Centro comercial parque La Colina Bogota",
           "punto_id": "knp859rnx2cb"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787313120408,
+          "nombre": "Centro comercial parque La Colina Bogota",
+          "punto_id": "knp859rnx2cb"
         }
       ]
     },
     "resumen": {
-      "total": 5,
-      "urgentes": 5,
-      "faltan_manos": 2,
+      "total": 4,
+      "urgentes": 4,
+      "faltan_manos": 1,
       "exceso": 1,
       "sin_ubicar": 0,
-      "sin_confirmar": 4,
-      "voluntarios_faltan": 8,
+      "sin_confirmar": 3,
+      "voluntarios_faltan": 3,
       "voluntarios_hay": 33
     }
   }
