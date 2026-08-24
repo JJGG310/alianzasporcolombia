@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "300.980786ms",
-  "obtenido": "2026-08-24T20:57:17Z",
+  "duracion": "515.194114ms",
+  "obtenido": "2026-08-24T21:27:38Z",
   "total": 3,
   "puntos": [
     {
@@ -37,7 +37,7 @@
       "verificado": false,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-24T20:57:16Z",
+      "fecha_corte": "2026-08-24T21:27:38Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -99,7 +99,7 @@
       "verificado": false,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-24T20:57:16Z",
+      "fecha_corte": "2026-08-24T21:27:38Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -142,15 +142,18 @@
       "direccion": "Carrera 94 c",
       "lat": 3.374531433482705,
       "lon": -76.5513550490141,
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "voluntarios_hay": 6,
       "voluntarios_faltan": 3,
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T18:51:49.675Z",
-      "fecha_corte": "2026-08-24T20:57:16Z",
+      "fecha_corte": "2026-08-24T21:27:38Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "camp5e9prmyu",
         "nombre": "Carrera 94 c",
@@ -173,7 +176,7 @@
         "actualizado": 1787424709675,
         "confirmado": 1787584043942,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "faltan",
         "confirma": 1,
         "desmiente": 0,
@@ -190,9 +193,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 39.03761,
-        "lng": -77.41582,
-        "ciudad": "Dulles Town Center",
+        "lat": 47.13014,
+        "lng": -119.27808,
+        "ciudad": "Moses Lake",
         "pais": "US"
       },
       "tipos": [
@@ -445,7 +448,7 @@
       "faltan_manos": 1,
       "exceso": 0,
       "sin_ubicar": 0,
-      "sin_confirmar": 2,
+      "sin_confirmar": 3,
       "voluntarios_faltan": 3,
       "voluntarios_hay": 6
     }
