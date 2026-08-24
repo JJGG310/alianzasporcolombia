@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "489.684277ms",
-  "obtenido": "2026-08-24T05:09:59Z",
+  "duracion": "528.137415ms",
+  "obtenido": "2026-08-24T06:01:52Z",
   "total": 4,
   "puntos": [
     {
@@ -38,7 +38,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-24T05:09:58Z",
+      "fecha_corte": "2026-08-24T06:01:52Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -101,7 +101,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-24T05:09:58Z",
+      "fecha_corte": "2026-08-24T06:01:52Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -149,9 +149,10 @@
       "voluntarios_hay": 6,
       "voluntarios_faltan": 3,
       "verificado": false,
+      "desmentidos": 1,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T18:51:49.675Z",
-      "fecha_corte": "2026-08-24T05:09:58Z",
+      "fecha_corte": "2026-08-24T06:01:52Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -180,7 +181,7 @@
         "fresco": false,
         "saturacion": "faltan",
         "confirma": 0,
-        "desmiente": 0,
+        "desmiente": 1,
         "media": [],
         "media_total": 0
       }
@@ -200,7 +201,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-24T05:09:58Z",
+      "fecha_corte": "2026-08-24T06:01:52Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -243,9 +244,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 41.13998,
-        "lng": -104.82025,
-        "ciudad": "Cheyenne",
+        "lat": 41.60054,
+        "lng": -93.60911,
+        "ciudad": "Des Moines",
         "pais": "US"
       },
       "tipos": [
@@ -273,6 +274,13 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Desmentido: la información no cuadra.",
+          "autor": "",
+          "ts": 1787551152863,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "3205163851",
@@ -543,13 +551,6 @@
           "texto": "1 mano menos por cubrir",
           "autor": "",
           "ts": 1787313121467,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787313121450,
           "nombre": "Centro comercial parque La Colina Bogota",
           "punto_id": "knp859rnx2cb"
         }
