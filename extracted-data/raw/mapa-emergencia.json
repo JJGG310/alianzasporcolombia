@@ -3,9 +3,9 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "893.000914ms",
-  "obtenido": "2026-08-24T13:44:43Z",
-  "total": 4,
+  "duracion": "281.68935ms",
+  "obtenido": "2026-08-24T14:35:05Z",
+  "total": 3,
   "puntos": [
     {
       "id": "mapa-emergencia-942066f90b",
@@ -37,7 +37,7 @@
       "verificado": false,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-24T13:44:43Z",
+      "fecha_corte": "2026-08-24T14:35:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -99,7 +99,7 @@
       "verificado": false,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-24T13:44:43Z",
+      "fecha_corte": "2026-08-24T14:35:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -150,7 +150,7 @@
       "desmentidos": 1,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T18:51:49.675Z",
-      "fecha_corte": "2026-08-24T13:44:43Z",
+      "fecha_corte": "2026-08-24T14:35:05Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -183,55 +183,6 @@
         "media": [],
         "media_total": 0
       }
-    },
-    {
-      "id": "mapa-emergencia-b114800209",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=knp859rnx2cb",
-      "tipo": "rescate",
-      "nombre": "Centro comercial parque La Colina Bogota",
-      "direccion": "Centro comercial parque La Colina Bogota",
-      "lat": 4.733376358817001,
-      "lon": -74.06641760375352,
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_hay": 27,
-      "verificado": false,
-      "creado": "2026-08-15T16:24:27.55Z",
-      "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-24T13:44:43Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "knp859rnx2cb",
-        "nombre": "Centro comercial parque La Colina Bogota",
-        "tipo": "rescate",
-        "lat": 4.733376358817001,
-        "lng": -74.06641760375352,
-        "direccion": "Centro comercial parque La Colina Bogota",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [],
-        "voluntarios_hay": 27,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1786811067550,
-        "actualizado": 1787313121467,
-        "confirmado": 1787408746437,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "exceso",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
     }
   ],
   "extra": {
@@ -242,9 +193,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 33.44838,
-        "lng": -112.07404,
-        "ciudad": "Phoenix",
+        "lat": 36.66764,
+        "lng": -78.3875,
+        "ciudad": "Boydton",
         "pais": "US"
       },
       "tipos": [
@@ -355,13 +306,6 @@
           "ts": 1787418610509,
           "nombre": "Carrera 94 c",
           "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787408746437,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
         },
         {
           "texto": "1 mano menos por cubrir",
@@ -488,81 +432,18 @@
           "ts": 1787330721042,
           "nombre": "Carrera 94 c",
           "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313122861,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313122609,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313122578,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313122560,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313122401,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313122388,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313122388,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787313122385,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787313121467,
-          "nombre": "Centro comercial parque La Colina Bogota",
-          "punto_id": "knp859rnx2cb"
         }
       ]
     },
     "resumen": {
-      "total": 4,
-      "urgentes": 4,
+      "total": 3,
+      "urgentes": 3,
       "faltan_manos": 1,
-      "exceso": 1,
+      "exceso": 0,
       "sin_ubicar": 0,
-      "sin_confirmar": 4,
+      "sin_confirmar": 3,
       "voluntarios_faltan": 3,
-      "voluntarios_hay": 33
+      "voluntarios_hay": 6
     }
   }
 }
