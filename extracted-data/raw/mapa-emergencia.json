@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "281.68935ms",
-  "obtenido": "2026-08-24T14:35:05Z",
+  "duracion": "846.632375ms",
+  "obtenido": "2026-08-24T15:33:08Z",
   "total": 3,
   "puntos": [
     {
@@ -37,7 +37,7 @@
       "verificado": false,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-24T14:35:05Z",
+      "fecha_corte": "2026-08-24T15:33:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -99,7 +99,7 @@
       "verificado": false,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-24T14:35:05Z",
+      "fecha_corte": "2026-08-24T15:33:08Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -142,18 +142,16 @@
       "direccion": "Carrera 94 c",
       "lat": 3.374531433482705,
       "lon": -76.5513550490141,
-      "estado": "por-confirmar",
-      "prioridad": "alta",
+      "estado": "urgente",
+      "prioridad": "critica",
       "voluntarios_hay": 6,
       "voluntarios_faltan": 3,
       "verificado": false,
+      "confirmaciones": 1,
       "desmentidos": 1,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T18:51:49.675Z",
-      "fecha_corte": "2026-08-24T14:35:05Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
+      "fecha_corte": "2026-08-24T15:33:08Z",
       "raw": {
         "id": "camp5e9prmyu",
         "nombre": "Carrera 94 c",
@@ -174,11 +172,11 @@
         "autor": "",
         "creado": 1787330721042,
         "actualizado": 1787424709675,
-        "confirmado": 1787424709675,
+        "confirmado": 1787584043942,
         "ubicado": true,
-        "fresco": false,
+        "fresco": true,
         "saturacion": "faltan",
-        "confirma": 0,
+        "confirma": 1,
         "desmiente": 1,
         "media": [],
         "media_total": 0
@@ -193,9 +191,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 36.66764,
-        "lng": -78.3875,
-        "ciudad": "Boydton",
+        "lat": 37.33939,
+        "lng": -121.89496,
+        "ciudad": "San Jose",
         "pais": "US"
       },
       "tipos": [
@@ -223,6 +221,13 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1787584043942,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
         {
           "texto": "Desmentido: la información no cuadra.",
           "autor": "",
@@ -441,7 +446,7 @@
       "faltan_manos": 1,
       "exceso": 0,
       "sin_ubicar": 0,
-      "sin_confirmar": 3,
+      "sin_confirmar": 2,
       "voluntarios_faltan": 3,
       "voluntarios_hay": 6
     }
