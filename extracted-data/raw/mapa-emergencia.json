@@ -3,9 +3,9 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "423.184478ms",
-  "obtenido": "2026-08-24T03:30:16Z",
-  "total": 5,
+  "duracion": "289.862316ms",
+  "obtenido": "2026-08-24T04:23:22Z",
+  "total": 4,
   "puntos": [
     {
       "id": "mapa-emergencia-942066f90b",
@@ -38,7 +38,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-24T03:30:16Z",
+      "fecha_corte": "2026-08-24T04:23:22Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -101,7 +101,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-24T03:30:16Z",
+      "fecha_corte": "2026-08-24T04:23:22Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -151,7 +151,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-22T18:51:49.675Z",
-      "fecha_corte": "2026-08-24T03:30:16Z",
+      "fecha_corte": "2026-08-24T04:23:22Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -186,64 +186,6 @@
       }
     },
     {
-      "id": "mapa-emergencia-5ac4ec7f8c",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=qmuf5hqgsw4v",
-      "tipo": "rescate",
-      "nombre": "Vereda el Porvenir , Vijes",
-      "direccion": "Vereda el Porvenir , Vijes",
-      "lat": 3.811160248311615,
-      "lon": -76.47084724926573,
-      "necesita": [
-        "Comida",
-        "Linternas",
-        "Material de construcción"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "Olga Benitez",
-      "verificado": false,
-      "creado": "2026-08-22T04:06:56.195Z",
-      "actualizado": "2026-08-22T04:06:56.195Z",
-      "fecha_corte": "2026-08-24T03:30:16Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "qmuf5hqgsw4v",
-        "nombre": "Vereda el  Porvenir  , Vijes",
-        "tipo": "rescate",
-        "lat": 3.811160248311615,
-        "lng": -76.47084724926573,
-        "direccion": "Vereda el  Porvenir  , Vijes",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Comida",
-          "Linternas",
-          "Material de construcción"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "Olga Benitez",
-        "creado": 1787371616195,
-        "actualizado": 1787371616195,
-        "confirmado": 1787371616195,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
-    {
       "id": "mapa-emergencia-b114800209",
       "fuente": "mapa-emergencia",
       "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=knp859rnx2cb",
@@ -258,7 +200,7 @@
       "verificado": false,
       "creado": "2026-08-15T16:24:27.55Z",
       "actualizado": "2026-08-21T11:52:01.467Z",
-      "fecha_corte": "2026-08-24T03:30:16Z",
+      "fecha_corte": "2026-08-24T04:23:22Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -301,9 +243,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 41.60054,
-        "lng": -93.60911,
-        "ciudad": "Des Moines",
+        "lat": 39.03761,
+        "lng": -77.41582,
+        "ciudad": "Dulles Town Center",
         "pais": "US"
       },
       "tipos": [
@@ -414,13 +356,6 @@
           "ts": 1787408746437,
           "nombre": "Centro comercial parque La Colina Bogota",
           "punto_id": "knp859rnx2cb"
-        },
-        {
-          "texto": "Punto creado.",
-          "autor": "Olga Benitez",
-          "ts": 1787371616195,
-          "nombre": "Vereda el  Porvenir  , Vijes",
-          "punto_id": "qmuf5hqgsw4v"
         },
         {
           "texto": "1 mano menos por cubrir",
@@ -610,16 +545,23 @@
           "ts": 1787313121467,
           "nombre": "Centro comercial parque La Colina Bogota",
           "punto_id": "knp859rnx2cb"
+        },
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787313121450,
+          "nombre": "Centro comercial parque La Colina Bogota",
+          "punto_id": "knp859rnx2cb"
         }
       ]
     },
     "resumen": {
-      "total": 5,
-      "urgentes": 5,
+      "total": 4,
+      "urgentes": 4,
       "faltan_manos": 1,
       "exceso": 1,
       "sin_ubicar": 0,
-      "sin_confirmar": 5,
+      "sin_confirmar": 4,
       "voluntarios_faltan": 3,
       "voluntarios_hay": 33
     }
