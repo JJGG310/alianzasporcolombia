@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "542.21504ms",
-  "obtenido": "2026-08-25T19:54:17Z",
+  "duracion": "683.782068ms",
+  "obtenido": "2026-08-25T20:21:15Z",
   "total": 2,
   "puntos": [
     {
@@ -23,7 +23,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-25T15:40:43.915Z",
-      "fecha_corte": "2026-08-25T19:54:16Z",
+      "fecha_corte": "2026-08-25T20:21:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -87,7 +87,7 @@
       "verificado": false,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-25T19:54:16Z",
+      "fecha_corte": "2026-08-25T20:21:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -144,9 +144,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 37.33939,
-        "lng": -121.89496,
-        "ciudad": "San Jose",
+        "lat": 41.85003,
+        "lng": -87.65005,
+        "ciudad": "Chicago",
         "pais": "US"
       },
       "tipos": [
