@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "423.161125ms",
-  "obtenido": "2026-08-25T05:03:09Z",
+  "duracion": "435.94027ms",
+  "obtenido": "2026-08-25T05:56:46Z",
   "total": 3,
   "puntos": [
     {
@@ -24,7 +24,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-25T02:50:59.971Z",
-      "fecha_corte": "2026-08-25T05:03:09Z",
+      "fecha_corte": "2026-08-25T05:56:46Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -82,16 +82,14 @@
         "Picas",
         "Tapers"
       ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
+      "estado": "urgente",
+      "prioridad": "critica",
       "organizacion": "3205163851",
       "verificado": false,
+      "confirmaciones": 1,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-25T05:03:09Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
+      "fecha_corte": "2026-08-25T05:56:46Z",
       "raw": {
         "id": "cescrvvrueww",
         "nombre": "Riofrio valle",
@@ -126,11 +124,11 @@
         "autor": "3205163851",
         "creado": 1787447930153,
         "actualizado": 1787447930153,
-        "confirmado": 1787511958087,
+        "confirmado": 1787637281218,
         "ubicado": true,
-        "fresco": false,
+        "fresco": true,
         "saturacion": "sin_dato",
-        "confirma": 0,
+        "confirma": 1,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -150,7 +148,7 @@
       "verificado": false,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-25T05:03:09Z",
+      "fecha_corte": "2026-08-25T05:56:46Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -223,6 +221,20 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "3205163851",
+          "ts": 1787637281218,
+          "nombre": "Riofrio valle",
+          "punto_id": "cescrvvrueww"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "3205163851",
+          "ts": 1787637277315,
+          "nombre": "Riofrio valle",
+          "punto_id": "cescrvvrueww"
+        },
         {
           "texto": "+1 persona ayudando",
           "autor": "",
@@ -476,7 +488,7 @@
       "faltan_manos": 1,
       "exceso": 0,
       "sin_ubicar": 0,
-      "sin_confirmar": 3,
+      "sin_confirmar": 2,
       "voluntarios_faltan": 3,
       "voluntarios_hay": 6
     }
