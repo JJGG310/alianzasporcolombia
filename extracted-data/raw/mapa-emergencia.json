@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "346.662768ms",
-  "obtenido": "2026-08-25T11:28:08Z",
+  "duracion": "441.036731ms",
+  "obtenido": "2026-08-25T11:55:12Z",
   "total": 3,
   "puntos": [
     {
@@ -23,7 +23,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-25T02:50:59.971Z",
-      "fecha_corte": "2026-08-25T11:28:08Z",
+      "fecha_corte": "2026-08-25T11:55:11Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -81,14 +81,17 @@
         "Picas",
         "Tapers"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "organizacion": "3205163851",
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-25T11:28:08Z",
+      "fecha_corte": "2026-08-25T11:55:11Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "cescrvvrueww",
         "nombre": "Riofrio valle",
@@ -125,7 +128,7 @@
         "actualizado": 1787447930153,
         "confirmado": 1787637281218,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 1,
         "desmiente": 0,
@@ -147,7 +150,7 @@
       "verificado": false,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-25T11:28:08Z",
+      "fecha_corte": "2026-08-25T11:55:11Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -190,9 +193,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 39.03761,
-        "lng": -77.41582,
-        "ciudad": "Dulles Town Center",
+        "lat": 41.60054,
+        "lng": -93.60911,
+        "ciudad": "Des Moines",
         "pais": "US"
       },
       "tipos": [
@@ -487,7 +490,7 @@
       "faltan_manos": 1,
       "exceso": 0,
       "sin_ubicar": 0,
-      "sin_confirmar": 2,
+      "sin_confirmar": 3,
       "voluntarios_faltan": 3,
       "voluntarios_hay": 6
     }
