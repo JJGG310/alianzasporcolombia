@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "475.720156ms",
-  "obtenido": "2026-08-25T14:38:38Z",
+  "duracion": "347.173655ms",
+  "obtenido": "2026-08-25T15:36:15Z",
   "total": 3,
   "puntos": [
     {
@@ -23,7 +23,7 @@
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-25T02:50:59.971Z",
-      "fecha_corte": "2026-08-25T14:38:38Z",
+      "fecha_corte": "2026-08-25T15:36:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -88,7 +88,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-25T14:38:38Z",
+      "fecha_corte": "2026-08-25T15:36:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -150,7 +150,7 @@
       "verificado": false,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-25T14:38:38Z",
+      "fecha_corte": "2026-08-25T15:36:15Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -193,9 +193,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 47.13014,
-        "lng": -119.27808,
-        "ciudad": "Moses Lake",
+        "lat": 36.66764,
+        "lng": -78.3875,
+        "ciudad": "Boydton",
         "pais": "US"
       },
       "tipos": [
