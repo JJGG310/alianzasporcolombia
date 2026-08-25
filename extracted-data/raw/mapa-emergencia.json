@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "347.173655ms",
-  "obtenido": "2026-08-25T15:36:15Z",
+  "duracion": "922.974573ms",
+  "obtenido": "2026-08-25T16:28:58Z",
   "total": 3,
   "puntos": [
     {
@@ -19,11 +19,11 @@
       "estado": "por-confirmar",
       "prioridad": "alta",
       "voluntarios_hay": 6,
-      "voluntarios_faltan": 3,
+      "voluntarios_faltan": 4,
       "verificado": false,
       "creado": "2026-08-21T16:45:21.042Z",
-      "actualizado": "2026-08-25T02:50:59.971Z",
-      "fecha_corte": "2026-08-25T15:36:15Z",
+      "actualizado": "2026-08-25T15:40:43.915Z",
+      "fecha_corte": "2026-08-25T16:28:58Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -38,7 +38,7 @@
         "estado": "urgente",
         "necesidades": [],
         "voluntarios_hay": 6,
-        "voluntarios_faltan": 3,
+        "voluntarios_faltan": 4,
         "contacto": "",
         "notas": "",
         "fuente": "app",
@@ -46,7 +46,7 @@
         "verificado_por": "",
         "autor": "",
         "creado": 1787330721042,
-        "actualizado": 1787626259971,
+        "actualizado": 1787672443915,
         "confirmado": 1787607247006,
         "ubicado": true,
         "fresco": false,
@@ -88,7 +88,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-25T15:36:15Z",
+      "fecha_corte": "2026-08-25T16:28:58Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -150,7 +150,7 @@
       "verificado": false,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-25T15:36:15Z",
+      "fecha_corte": "2026-08-25T16:28:58Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -193,9 +193,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 36.66764,
-        "lng": -78.3875,
-        "ciudad": "Boydton",
+        "lat": 37.33939,
+        "lng": -121.89496,
+        "ciudad": "San Jose",
         "pais": "US"
       },
       "tipos": [
@@ -223,6 +223,27 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "1 mano menos por cubrir",
+          "autor": "",
+          "ts": 1787672443915,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787672442311,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
+        {
+          "texto": "falta 1 mano más",
+          "autor": "",
+          "ts": 1787672441181,
+          "nombre": "Carrera 94 c",
+          "punto_id": "camp5e9prmyu"
+        },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "3205163851",
@@ -491,7 +512,7 @@
       "exceso": 0,
       "sin_ubicar": 0,
       "sin_confirmar": 3,
-      "voluntarios_faltan": 3,
+      "voluntarios_faltan": 4,
       "voluntarios_hay": 6
     }
   }
