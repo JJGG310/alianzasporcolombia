@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "435.94027ms",
-  "obtenido": "2026-08-25T05:56:46Z",
+  "duracion": "466.312814ms",
+  "obtenido": "2026-08-25T06:41:07Z",
   "total": 3,
   "puntos": [
     {
@@ -24,7 +24,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-21T16:45:21.042Z",
       "actualizado": "2026-08-25T02:50:59.971Z",
-      "fecha_corte": "2026-08-25T05:56:46Z",
+      "fecha_corte": "2026-08-25T06:41:07Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -89,7 +89,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-25T05:56:46Z",
+      "fecha_corte": "2026-08-25T06:41:07Z",
       "raw": {
         "id": "cescrvvrueww",
         "nombre": "Riofrio valle",
@@ -148,7 +148,7 @@
       "verificado": false,
       "creado": "2026-08-23T00:49:59Z",
       "actualizado": "2026-08-23T00:49:59Z",
-      "fecha_corte": "2026-08-25T05:56:46Z",
+      "fecha_corte": "2026-08-25T06:41:07Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -191,9 +191,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 37.33939,
-        "lng": -121.89496,
-        "ciudad": "San Jose",
+        "lat": 47.13014,
+        "lng": -119.27808,
+        "ciudad": "Moses Lake",
         "pais": "US"
       },
       "tipos": [
