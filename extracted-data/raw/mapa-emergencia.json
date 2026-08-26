@@ -3,60 +3,10 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "544.996506ms",
-  "obtenido": "2026-08-26T20:27:13Z",
-  "total": 2,
+  "duracion": "441.921021ms",
+  "obtenido": "2026-08-26T23:56:38Z",
+  "total": 1,
   "puntos": [
-    {
-      "id": "mapa-emergencia-1b3cd953bc",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=camp5e9prmyu",
-      "tipo": "rescate",
-      "nombre": "Carrera 94 c",
-      "direccion": "Carrera 94 c",
-      "lat": 3.374531433482705,
-      "lon": -76.5513550490141,
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "voluntarios_hay": 6,
-      "voluntarios_faltan": 4,
-      "verificado": false,
-      "creado": "2026-08-21T16:45:21.042Z",
-      "actualizado": "2026-08-25T15:40:43.915Z",
-      "fecha_corte": "2026-08-26T20:27:12Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "camp5e9prmyu",
-        "nombre": "Carrera 94 c",
-        "tipo": "rescate",
-        "lat": 3.374531433482705,
-        "lng": -76.5513550490141,
-        "direccion": "Carrera 94 c",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [],
-        "voluntarios_hay": 6,
-        "voluntarios_faltan": 4,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "",
-        "creado": 1787330721042,
-        "actualizado": 1787672443915,
-        "confirmado": 1787607247006,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "faltan",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    },
     {
       "id": "mapa-emergencia-942066f90b",
       "fuente": "mapa-emergencia",
@@ -87,7 +37,7 @@
       "verificado": false,
       "creado": "2026-08-23T01:18:50.153Z",
       "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-26T20:27:12Z",
+      "fecha_corte": "2026-08-26T23:56:38Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -144,9 +94,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 47.13014,
-        "lng": -119.27808,
-        "ciudad": "Moses Lake",
+        "lat": 37.33939,
+        "lng": -121.89496,
+        "ciudad": "San Jose",
         "pais": "US"
       },
       "tipos": [
@@ -175,27 +125,6 @@
     "novedades": {
       "novedades": [
         {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787672443915,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787672442311,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787672441181,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
           "texto": "Confirmado sobre el terreno.",
           "autor": "3205163851",
           "ts": 1787637281218,
@@ -208,48 +137,6 @@
           "ts": 1787637277315,
           "nombre": "Riofrio valle",
           "punto_id": "cescrvvrueww"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1787626259971,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "1 persona menos ayudando",
-          "autor": "",
-          "ts": 1787626259269,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787607247006,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787607246112,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787584043942,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "Desmentido: la información no cuadra.",
-          "autor": "",
-          "ts": 1787551152863,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
         },
         {
           "texto": "Confirmado sobre el terreno.",
@@ -278,179 +165,18 @@
           "ts": 1787447930153,
           "nombre": "Riofrio valle",
           "punto_id": "cescrvvrueww"
-        },
-        {
-          "texto": "Ubicación corregida en el mapa.",
-          "autor": "",
-          "ts": 1787424709675,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787418614522,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787418613074,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787418611176,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787418610509,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787351742621,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787351741958,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787351740672,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787351739602,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787330761705,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "",
-          "ts": 1787330753688,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "1 mano menos por cubrir",
-          "autor": "",
-          "ts": 1787330744251,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787330743171,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787330742117,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787330739078,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "falta 1 mano más",
-          "autor": "",
-          "ts": 1787330739011,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1787330736359,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1787330731733,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1787330729184,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1787330728868,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1787330727363,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "+1 persona ayudando",
-          "autor": "",
-          "ts": 1787330726354,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
-        },
-        {
-          "texto": "Punto creado.",
-          "autor": "",
-          "ts": 1787330721042,
-          "nombre": "Carrera 94 c",
-          "punto_id": "camp5e9prmyu"
         }
       ]
     },
     "resumen": {
-      "total": 2,
-      "urgentes": 2,
-      "faltan_manos": 1,
+      "total": 1,
+      "urgentes": 1,
+      "faltan_manos": 0,
       "exceso": 0,
       "sin_ubicar": 0,
-      "sin_confirmar": 2,
-      "voluntarios_faltan": 4,
-      "voluntarios_hay": 6
+      "sin_confirmar": 1,
+      "voluntarios_faltan": 0,
+      "voluntarios_hay": 0
     }
   }
 }
