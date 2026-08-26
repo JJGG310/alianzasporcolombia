@@ -3,9 +3,9 @@
   "url": "https://terremoto-cali-puntos-criticos.netlify.app/",
   "mecanismo": "arreglos JS embebidos en el HTML (React vía Babel standalone, sin API)",
   "ok": true,
-  "duracion": "395.040759ms",
-  "obtenido": "2026-08-26T16:12:42Z",
-  "total": 65,
+  "duracion": "548.134007ms",
+  "obtenido": "2026-08-26T18:14:06Z",
+  "total": 70,
   "puntos": [
     {
       "id": "puntos-criticos-a2f1a5eb0e",
@@ -32,7 +32,7 @@
       "prioridad": "critica",
       "contacto": "Jonathan Gómez — 320 7499522",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "lugar": "Edif. Colores — Tequendama",
         "direccion": "Calle 5D #38A-35",
@@ -81,7 +81,7 @@
       "prioridad": "critica",
       "contacto": "María Paula Hernández — 314 7874022",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "lugar": "Torres de Limonar",
         "direccion": "Cra. 72 #10 Bis-141 a 10 Bis-3, Comuna 17",
@@ -131,7 +131,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "lugar": "Calle 8 con 42",
         "direccion": "Calle 8 con 42",
@@ -170,7 +170,7 @@
       "prioridad": "critica",
       "contacto": "Camila Sánchez — 314 8875589",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "lugar": "Edificio Elvira",
         "direccion": "Carrera 4 # 58-18",
@@ -213,7 +213,7 @@
       ],
       "estado": "activo",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "lugar": "Edif. Vanessa",
         "direccion": "Cra. 44 #9-35",
@@ -256,7 +256,7 @@
       ],
       "estado": "activo",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "lugar": "Edificio Pilar",
         "direccion": "",
@@ -284,7 +284,7 @@
       ],
       "estado": "activo",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "lugar": "Colegio Adventista",
         "direccion": "",
@@ -312,7 +312,7 @@
       ],
       "estado": "activo",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "lugar": "Edificio Archinie",
         "direccion": "",
@@ -340,7 +340,7 @@
       "estado": "activo",
       "contacto": "318 5026611",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "lugar": "Autopista con 73",
         "direccion": "",
@@ -351,6 +351,111 @@
         "necesidades": [
           "Megáfonos"
         ]
+      }
+    },
+    {
+      "id": "puntos-criticos-c6b4fc0679",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Llegan las primeras ayudas al barrio La Flora",
+      "descripcion": "En el conjunto Balcón de las Flores (av. 5B norte #64N-80, Comuna 2), evacuado tras el sismo, la Alcaldía entregó 84 mercados y 84 kits de aseo a las familias damnificadas. Mientras esperan volver a sus viviendas, los residentes están donde familiares o pagando arriendo; piden que no especulen con los cánones. Las ayudas se entregan según el registro en el RUFE y seguirán llegando a otros sectores del norte. El Centro de Acopio sigue activo en la Ciudadela Petronio, junto al Coliseo El Pueblo.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-26T18:14:06Z",
+      "raw": {
+        "fecha": "26 ago · 9:00 a. m.",
+        "punto": "Llegan las primeras ayudas al barrio La Flora",
+        "nota": "En el conjunto Balcón de las Flores (av. 5B norte #64N-80, Comuna 2), evacuado tras el sismo, la Alcaldía entregó 84 mercados y 84 kits de aseo a las familias damnificadas. Mientras esperan volver a sus viviendas, los residentes están donde familiares o pagando arriendo; piden que no especulen con los cánones. Las ayudas se entregan según el registro en el RUFE y seguirán llegando a otros sectores del norte. El Centro de Acopio sigue activo en la Ciudadela Petronio, junto al Coliseo El Pueblo.",
+        "link": "https://www.cali.gov.co/boletines/publicaciones/193972/la-ayuda-comienza-a-llegar-al-barrio-la-flora-un-respiro-para-los-afectados-por-el-sismo/",
+        "linkTexto": "Boletín Gestión del Riesgo"
+      }
+    },
+    {
+      "id": "puntos-criticos-d42ea8832f",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Qué significan los ‘stickers’ de colores en las fachadas",
+      "descripcion": "Gestión del Riesgo explica la marcación con la norma internacional ATC-20 (más de 270 inspecciones ya realizadas): rojo = edificación en condición restringida, no hay condiciones seguras para ingresar; amarillo = acceso o uso condicionado, con áreas limitadas; verde = inspeccionada y habitable en el corto plazo (no exime de revisiones posteriores). Verifica que la etiqueta de tu inmueble tenga el logo de la UNGRD y la firma del profesional; los evaluadores válidos se acreditan en el Coliseo El Pueblo. Los stickers son preventivos y no reemplazan un estudio técnico detallado.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-26T18:14:06Z",
+      "raw": {
+        "fecha": "25 ago · 5:00 p. m.",
+        "punto": "Qué significan los ‘stickers’ de colores en las fachadas",
+        "nota": "Gestión del Riesgo explica la marcación con la norma internacional ATC-20 (más de 270 inspecciones ya realizadas): rojo = edificación en condición restringida, no hay condiciones seguras para ingresar; amarillo = acceso o uso condicionado, con áreas limitadas; verde = inspeccionada y habitable en el corto plazo (no exime de revisiones posteriores). Verifica que la etiqueta de tu inmueble tenga el logo de la UNGRD y la firma del profesional; los evaluadores válidos se acreditan en el Coliseo El Pueblo. Los stickers son preventivos y no reemplazan un estudio técnico detallado.",
+        "link": "https://www.cali.gov.co/boletines/publicaciones/193965/que-significan-los-stickers-en-las-fachadas-gestion-del-riesgo-explica-la-clasificacion-de-inmuebles-tras-el-sismo/",
+        "linkTexto": "Boletín Gestión del Riesgo"
+      }
+    },
+    {
+      "id": "puntos-criticos-138713fa3f",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "Dos proyectos ante el Concejo para acelerar la reconstrucción",
+      "descripcion": "La Alcaldía radicó ante el Concejo (sesiones extraordinarias del 24 ago al 4 sep) dos proyectos de acuerdo: el primero da al alcalde facultades presupuestales excepcionales y pro tempore para adiciones y traslados de recursos ágiles hacia damnificados, limpieza de sectores críticos y recuperación de infraestructura; el segundo crea alivios tributarios y no tributarios (incentivos, descuentos, plazos y facilidades de pago, incluido el predial) para las familias y comerciantes afectados y para reactivar la economía.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-26T18:14:06Z",
+      "raw": {
+        "fecha": "25 ago · 3:00 p. m.",
+        "punto": "Dos proyectos ante el Concejo para acelerar la reconstrucción",
+        "nota": "La Alcaldía radicó ante el Concejo (sesiones extraordinarias del 24 ago al 4 sep) dos proyectos de acuerdo: el primero da al alcalde facultades presupuestales excepcionales y pro tempore para adiciones y traslados de recursos ágiles hacia damnificados, limpieza de sectores críticos y recuperación de infraestructura; el segundo crea alivios tributarios y no tributarios (incentivos, descuentos, plazos y facilidades de pago, incluido el predial) para las familias y comerciantes afectados y para reactivar la economía.",
+        "link": "https://www.cali.gov.co/boletines/publicaciones/193957/es-oficial-gobierno-de-cali-formalizo-ante-el-concejo-dos-proyectos-para-acelerar-la-reconstruccion-y-aliviar-a-los-afectados/",
+        "linkTexto": "Boletín Alcaldía"
+      }
+    },
+    {
+      "id": "puntos-criticos-fb07e0774e",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "395 damnificados ya pasaron de albergues a hoteles",
+      "descripcion": "En articulación con Cotelco Valle, Propacífico y ACNUR, 395 personas hicieron check-in en hoteles de primer nivel (Boulevard del Río, Marriott City Express, Hilton Garden Inn, entre otros) y solo 12 están pendientes. El censo de afectados va en 85%. La Alcaldía insiste en que los albergues son protección transitoria —no más de una semana— y que la atención humanitaria podría extenderse hasta un año mientras avanza el diagnóstico estructural de las viviendas.",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-26T18:14:06Z",
+      "raw": {
+        "fecha": "25 ago · 1:00 p. m.",
+        "punto": "395 damnificados ya pasaron de albergues a hoteles",
+        "nota": "En articulación con Cotelco Valle, Propacífico y ACNUR, 395 personas hicieron check-in en hoteles de primer nivel (Boulevard del Río, Marriott City Express, Hilton Garden Inn, entre otros) y solo 12 están pendientes. El censo de afectados va en 85%. La Alcaldía insiste en que los albergues son protección transitoria —no más de una semana— y que la atención humanitaria podría extenderse hasta un año mientras avanza el diagnóstico estructural de las viviendas.",
+        "link": "https://www.cali.gov.co/boletines/publicaciones/193962/alcaldia-de-cali-avanza-en-el-traslado-de-damnificados-de-albergues-a-la-red-hotelera-para-garantizar-una-atencion-digna-tras-el-terremoto/",
+        "linkTexto": "Boletín Alcaldía"
+      }
+    },
+    {
+      "id": "puntos-criticos-462aa7df37",
+      "fuente": "puntos-criticos",
+      "fuente_url": "https://terremoto-cali-puntos-criticos.netlify.app/",
+      "tipo": "rescate",
+      "nombre": "COTELCO: solo el 3,5 % de la capacidad hotelera quedó afectada",
+      "descripcion": "El gremio hotelero informa que 36 hoteles presentan daños (algunos severos, otros medianos o estéticos), el 3,5 % de los establecimientos de la ciudad y el Valle. Los hoteles se unieron para alojar a los damnificados: cerca de 380 personas ubicadas y proyección de superar 500; antes ya habían albergado gratis a más de 1.400. La recuperación de los hoteles afectados tomaría entre dos y seis meses. «Cali sufrió un terremoto, pero no se cayó, sigue en pie».",
+      "departamento": "Valle del Cauca",
+      "municipio": "Cali",
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "fecha_corte": "2026-08-26T18:14:06Z",
+      "raw": {
+        "fecha": "25 ago · 11:00 a. m.",
+        "punto": "COTELCO: solo el 3,5 % de la capacidad hotelera quedó afectada",
+        "nota": "El gremio hotelero informa que 36 hoteles presentan daños (algunos severos, otros medianos o estéticos), el 3,5 % de los establecimientos de la ciudad y el Valle. Los hoteles se unieron para alojar a los damnificados: cerca de 380 personas ubicadas y proyección de superar 500; antes ya habían albergado gratis a más de 1.400. La recuperación de los hoteles afectados tomaría entre dos y seis meses. «Cali sufrió un terremoto, pero no se cayó, sigue en pie».",
+        "link": "https://www.cali.gov.co/boletines/publicaciones/193967/solo-el-35-de-la-capacidad-hotelera-de-cali-quedo-afectada-tras-el-terremoto-advierte-cotelco/",
+        "linkTexto": "Boletín Alcaldía"
       }
     },
     {
@@ -365,7 +470,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "22 ago · 6:00 p. m.",
         "punto": "Cali avanza hacia una reconstrucción segura",
@@ -386,7 +491,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "22 ago · 3:00 p. m.",
         "punto": "Topógrafos apoyan el monitoreo técnico de zonas afectadas",
@@ -407,7 +512,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "22 ago · 11:00 a. m.",
         "punto": "Docentes en jornadas de sanación y bienestar emocional",
@@ -428,7 +533,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "21 ago · 6:00 p. m.",
         "punto": "Culmina la recuperación de cuerpos en Cali",
@@ -449,7 +554,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "21 ago · 5:00 p. m.",
         "punto": "Cali avanza en su reactivación",
@@ -470,7 +575,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "21 ago · 4:00 p. m.",
         "punto": "Adultos mayores trasladados de albergues a hoteles",
@@ -491,7 +596,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "21 ago · 3:00 p. m.",
         "punto": "Deporte · hoja de ruta para 53 ligas",
@@ -512,7 +617,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "21 ago · 2:00 p. m.",
         "punto": "Un espacio especial para los bebés en los albergues",
@@ -533,7 +638,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "21 ago · 9:00 a. m.",
         "punto": "Termina la búsqueda en el edificio Vanessa",
@@ -554,7 +659,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "21 ago · 8:30 a. m.",
         "punto": "Se restablece el Pico y Placa ordinario",
@@ -575,7 +680,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "21 ago · 8:00 a. m.",
         "punto": "Más de 363 toneladas de ayuda humanitaria entregadas",
@@ -596,7 +701,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "21 ago · 7:30 a. m.",
         "punto": "Cali se recupera · cuadrillas de Infraestructura",
@@ -617,7 +722,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "19 ago · 12:00 m.",
         "punto": "Un techo digno · reubicación de familias en albergues",
@@ -638,7 +743,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "19 ago · 11:00 a. m.",
         "punto": "Edificio Vanessa · búsqueda activa las 24 horas",
@@ -659,7 +764,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "19 ago · 10:00 a. m.",
         "punto": "Red de salud · cerca de 200 IPS afectadas",
@@ -680,7 +785,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "19 ago · 8:15 a. m.",
         "punto": "Teatro Municipal cancela sus eventos de septiembre",
@@ -701,7 +806,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "18 ago · 6:30 p. m.",
         "punto": "Eder: más de 100 estructuras podrían ser demolidas",
@@ -722,7 +827,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "18 ago · 6:00 p. m.",
         "punto": "Fase de recuperación · Alcaldía y Concejo se articulan",
@@ -743,7 +848,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "18 ago · 12:30 p. m.",
         "punto": "HUV · termina la recuperación de cuerpos",
@@ -764,7 +869,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "18 ago · 11:00 a. m.",
         "punto": "Educación desmiente una cadena falsa",
@@ -785,7 +890,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "18 ago · 9:00 a. m.",
         "punto": "Gestión del Riesgo y Bomberos · balance y RUFE",
@@ -806,7 +911,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "17 ago · 10:30 a. m.",
         "punto": "Rutas de atención · líneas de emergencia y RUFE",
@@ -827,7 +932,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "17 ago · 10:25 a. m.",
         "punto": "Nueva plataforma para reportar afectaciones",
@@ -848,7 +953,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "17 ago · 10:20 a. m.",
         "punto": "Inmuebles de la Alcaldía · estado tras el sismo",
@@ -869,7 +974,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "17 ago · 10:15 a. m.",
         "punto": "Animales · termina la búsqueda, sigue el reencuentro",
@@ -890,7 +995,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "17 ago · 10:10 a. m.",
         "punto": "Educación · 217 sedes evaluadas, clases desde el 24 ago",
@@ -911,7 +1016,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "16 ago · 8:45 a. m.",
         "punto": "Inmuebles evacuados NO pueden ser reocupados",
@@ -932,7 +1037,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "16 ago · 8:45 a. m.",
         "punto": "🎶 Olla comunitaria en Chiminangos · Federación de Salsa",
@@ -951,7 +1056,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "15 ago · 8:55 a. m.",
         "punto": "Estadio Pascual Guerrero · sin daños estructurales",
@@ -972,7 +1077,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "15 ago · 8:55 a. m.",
         "punto": "Respaldo legal · 7 decretos de la emergencia",
@@ -993,7 +1098,7 @@
       "estado": "urgente",
       "prioridad": "critica",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "fecha": "15 ago · 8:55 a. m.",
         "punto": "Trámites de la Alcaldía por canales virtuales",
@@ -1014,7 +1119,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "nombre": "Centro Comercial Bochalema",
         "direccion": "Cali · Habilitado por Fundación Esperanza Color Arcoíris y Pañalera Angie · Contacto: Viviana, WhatsApp 301 834 1033",
@@ -1033,7 +1138,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "nombre": "Reserva Natural Anáhuac",
         "direccion": "Pueblo Pance, Cali · Techo sin costo para damnificados · Contacto: 304 453 3506"
@@ -1051,7 +1156,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "nombre": "Karen Agudelo · Airbnb sin costo",
         "direccion": "Granada, Cali · Amoblado, cama doble y sofá cama · Del 13 al 20 de agosto (8 días) · 3.er piso sin ascensor, sin parqueadero · WhatsApp: 312 209 7085",
@@ -1070,7 +1175,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "nombre": "Hotel Six Avenue Cali",
         "direccion": "Av. 6a N #17N-73, Santa Mónica Residencial"
@@ -1088,7 +1193,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "nombre": "Cancha de hockey Miguel Calero",
         "direccion": "Calle 9 con Carrera 37A / 39"
@@ -1105,7 +1210,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "nombre": "Diamante de béisbol",
         "direccion": ""
@@ -1123,7 +1228,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "nombre": "Loft House 14",
         "direccion": "Carrera 26 #2-91"
@@ -1141,7 +1246,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "nombre": "Motel California",
         "direccion": "Cl. 10 #30-155, Arroyo Hondo"
@@ -1159,7 +1264,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "nombre": "Motel Éxtasis",
         "direccion": "3ra Norte 72 Esquina"
@@ -1177,7 +1282,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "nombre": "Cristal Palace",
         "direccion": "Enseguida de TQ Tecnoquímicas, Cra. 7a #23-43"
@@ -1195,7 +1300,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "nombre": "Residencias Ramírez",
         "direccion": "Enseguida de TQ Tecnoquímicas, Cra. 7a #23-43, San Nicolás"
@@ -1213,7 +1318,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "nombre": "Residencias Bugatier",
         "direccion": "Cra. 25a #14c-09"
@@ -1231,7 +1336,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "nombre": "Plaza Real Norte",
         "direccion": "Av. 2 Nte. #21 Norte-99"
@@ -1249,7 +1354,7 @@
       "estado": "activo",
       "contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "nombre": "Motel Kamasutra",
         "direccion": "Cl. 10 #29 A-50, Acopi"
@@ -1267,7 +1372,7 @@
       "estado": "urgente",
       "prioridad": "alta",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "clinica": "Clínica Alba"
       }
@@ -1284,7 +1389,7 @@
       "estado": "urgente",
       "prioridad": "alta",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "clinica": "Clínica Rey David"
       }
@@ -1301,7 +1406,7 @@
       "estado": "urgente",
       "prioridad": "alta",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "clinica": "Clínica Nuestra Señora del Rosario"
       }
@@ -1318,7 +1423,7 @@
       "estado": "urgente",
       "prioridad": "alta",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "clinica": "Clínica Sanitas Tequendama"
       }
@@ -1335,7 +1440,7 @@
       "estado": "urgente",
       "prioridad": "alta",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "clinica": "Hospital Carlos Holmes Trujillo"
       }
@@ -1355,7 +1460,7 @@
       "estado": "activo",
       "contacto": "Daniela Orjuela",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "recurso": "5 mujeres de Olla Comunitaria",
         "destino": "Poblado",
@@ -1379,7 +1484,7 @@
       "estado": "activo",
       "contacto": "Daniel Centenario — 305 3158708",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "recurso": "Dos equipos de sonido y personal",
         "destino": "Poblado",
@@ -1403,7 +1508,7 @@
       "estado": "activo",
       "contacto": "Nathalia Varela — 314 7778914",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "recurso": "Planta de 6000 y EcoFlows",
         "destino": "Casa Moisés Wells",
@@ -1427,7 +1532,7 @@
       "estado": "activo",
       "contacto": "Sarah Marín — 302 8525671",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "recurso": "Maquinaria pesada",
         "destino": "Sin destino aún",
@@ -1451,7 +1556,7 @@
       "estado": "activo",
       "contacto": "@hielokolbitos (Instagram) — 317 5154927",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "recurso": "Hielo (Kolbitos)",
         "destino": "Sin destino aún",
@@ -1475,7 +1580,7 @@
       "estado": "activo",
       "contacto": "María Paula — 314 7874022",
       "verificado": false,
-      "fecha_corte": "2026-08-26T16:12:42Z",
+      "fecha_corte": "2026-08-26T18:14:06Z",
       "raw": {
         "recurso": "Guantes · 500 almuerzos",
         "destino": "Por asignar",
@@ -2976,12 +3081,12 @@
         "texto": "Si tienes donaciones fisicas y no sabes a donde llevarlas, puedes escribirme al 3158068465, estamos mapeando la información y enviando a los lugares prioritarios"
       }
     ],
-    "actualizado": "24 de agosto de 2026, 9:10 a. m.",
+    "actualizado": "26 de agosto de 2026, 11:41 a. m.",
     "albergues_contacto": "Coordinación (Six Avenue, hockey, béisbol, Loft House): Kevin Cardoso, 317 4246076. Información de moteles (Menga, Sameco y centro de Cali): 317 8865887.",
     "conteo_por_arreglo": {
       "ACTUALIZACIONES": 248,
       "ALBERGUES": 14,
-      "ALTA_PRIORIDAD": 31,
+      "ALTA_PRIORIDAD": 36,
       "AYUDAS": 6,
       "CLINICAS": 5,
       "NECESIDADES_GENERALES": 13,
