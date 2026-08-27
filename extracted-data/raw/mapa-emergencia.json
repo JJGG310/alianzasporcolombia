@@ -3,89 +3,10 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "441.921021ms",
-  "obtenido": "2026-08-26T23:56:38Z",
-  "total": 1,
-  "puntos": [
-    {
-      "id": "mapa-emergencia-942066f90b",
-      "fuente": "mapa-emergencia",
-      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=cescrvvrueww",
-      "tipo": "rescate",
-      "nombre": "Riofrio valle",
-      "direccion": "Riofrio valle",
-      "lat": 4.1071481,
-      "lon": -76.3839423,
-      "necesita": [
-        "Agua",
-        "Botiquín",
-        "Carpas",
-        "Colchonetas",
-        "Comida",
-        "Comida para animales",
-        "Electrolitos",
-        "Gafas de seguridad",
-        "Guantes de obra",
-        "Linternas",
-        "Palas",
-        "Picas",
-        "Tapers"
-      ],
-      "estado": "por-confirmar",
-      "prioridad": "alta",
-      "organizacion": "3205163851",
-      "verificado": false,
-      "creado": "2026-08-23T01:18:50.153Z",
-      "actualizado": "2026-08-23T01:18:50.153Z",
-      "fecha_corte": "2026-08-26T23:56:38Z",
-      "avisos": [
-        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
-      ],
-      "raw": {
-        "id": "cescrvvrueww",
-        "nombre": "Riofrio valle",
-        "tipo": "rescate",
-        "lat": 4.1071481,
-        "lng": -76.3839423,
-        "direccion": "Riofrio valle",
-        "barrio": "",
-        "estado": "urgente",
-        "necesidades": [
-          "Agua",
-          "Comida",
-          "Guantes de obra",
-          "Gafas de seguridad",
-          "Linternas",
-          "Palas",
-          "Picas",
-          "Electrolitos",
-          "Botiquín",
-          "Tapers",
-          "Carpas",
-          "Colchonetas",
-          "Comida para animales"
-        ],
-        "voluntarios_hay": 0,
-        "voluntarios_faltan": 0,
-        "contacto": "",
-        "notas": "",
-        "fuente": "app",
-        "verificado": 0,
-        "verificado_por": "",
-        "autor": "3205163851",
-        "creado": 1787447930153,
-        "actualizado": 1787447930153,
-        "confirmado": 1787637281218,
-        "ubicado": true,
-        "fresco": false,
-        "saturacion": "sin_dato",
-        "confirma": 0,
-        "desmiente": 0,
-        "media": [],
-        "media_total": 0
-      }
-    }
-  ],
+  "duracion": "502.693699ms",
+  "obtenido": "2026-08-27T07:10:49Z",
+  "total": 0,
+  "puntos": [],
   "extra": {
     "config": {
       "titulo": "Sismo · Valle, Chocó y Cauca",
@@ -94,9 +15,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 37.33939,
-        "lng": -121.89496,
-        "ciudad": "San Jose",
+        "lat": 33.44838,
+        "lng": -112.07404,
+        "ciudad": "Phoenix",
         "pais": "US"
       },
       "tipos": [
@@ -123,58 +44,15 @@
       "gtiles": true
     },
     "novedades": {
-      "novedades": [
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "3205163851",
-          "ts": 1787637281218,
-          "nombre": "Riofrio valle",
-          "punto_id": "cescrvvrueww"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "3205163851",
-          "ts": 1787637277315,
-          "nombre": "Riofrio valle",
-          "punto_id": "cescrvvrueww"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "3205163851",
-          "ts": 1787511958087,
-          "nombre": "Riofrio valle",
-          "punto_id": "cescrvvrueww"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "3205163851",
-          "ts": 1787511953720,
-          "nombre": "Riofrio valle",
-          "punto_id": "cescrvvrueww"
-        },
-        {
-          "texto": "Confirmado sobre el terreno.",
-          "autor": "3205163851",
-          "ts": 1787447933005,
-          "nombre": "Riofrio valle",
-          "punto_id": "cescrvvrueww"
-        },
-        {
-          "texto": "Punto creado.",
-          "autor": "3205163851",
-          "ts": 1787447930153,
-          "nombre": "Riofrio valle",
-          "punto_id": "cescrvvrueww"
-        }
-      ]
+      "novedades": []
     },
     "resumen": {
-      "total": 1,
-      "urgentes": 1,
+      "total": 0,
+      "urgentes": 0,
       "faltan_manos": 0,
       "exceso": 0,
       "sin_ubicar": 0,
-      "sin_confirmar": 1,
+      "sin_confirmar": 0,
       "voluntarios_faltan": 0,
       "voluntarios_hay": 0
     }
