@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "895.598123ms",
-  "obtenido": "2026-08-27T18:21:22Z",
+  "duracion": "491.115008ms",
+  "obtenido": "2026-08-28T02:14:57Z",
   "total": 0,
   "puntos": [],
   "extra": {
@@ -15,9 +15,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 37.33939,
-        "lng": -121.89496,
-        "ciudad": "San Jose",
+        "lat": 47.13014,
+        "lng": -119.27808,
+        "ciudad": "Moses Lake",
         "pais": "US"
       },
       "tipos": [
