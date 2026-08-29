@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "537.158011ms",
-  "obtenido": "2026-08-29T19:27:33Z",
+  "duracion": "433.569174ms",
+  "obtenido": "2026-08-29T21:52:40Z",
   "total": 1,
   "puntos": [
     {
@@ -38,7 +38,7 @@
       "confirmaciones": 1,
       "creado": "2026-08-29T16:19:32.128Z",
       "actualizado": "2026-08-29T16:19:32.128Z",
-      "fecha_corte": "2026-08-29T19:27:33Z",
+      "fecha_corte": "2026-08-29T21:52:40Z",
       "raw": {
         "id": "vjr92yhwzf75",
         "nombre": "Riofrio valle",
@@ -92,9 +92,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 41.13998,
-        "lng": -104.82025,
-        "ciudad": "Cheyenne",
+        "lat": 41.60054,
+        "lng": -93.60911,
+        "ciudad": "Des Moines",
         "pais": "US"
       },
       "tipos": [
