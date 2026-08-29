@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "433.569174ms",
-  "obtenido": "2026-08-29T21:52:40Z",
+  "duracion": "721.753864ms",
+  "obtenido": "2026-08-29T23:48:59Z",
   "total": 1,
   "puntos": [
     {
@@ -31,14 +31,17 @@
         "Picas",
         "Tapers"
       ],
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "organizacion": "3205163851",
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-29T16:19:32.128Z",
       "actualizado": "2026-08-29T16:19:32.128Z",
-      "fecha_corte": "2026-08-29T21:52:40Z",
+      "fecha_corte": "2026-08-29T23:48:59Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "vjr92yhwzf75",
         "nombre": "Riofrio valle",
@@ -75,7 +78,7 @@
         "actualizado": 1788020372128,
         "confirmado": 1788020376097,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 1,
         "desmiente": 0,
@@ -144,7 +147,7 @@
       "faltan_manos": 0,
       "exceso": 0,
       "sin_ubicar": 0,
-      "sin_confirmar": 0,
+      "sin_confirmar": 1,
       "voluntarios_faltan": 0,
       "voluntarios_hay": 0
     }
