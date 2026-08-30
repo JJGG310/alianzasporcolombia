@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "905.347606ms",
-  "obtenido": "2026-08-30T09:01:16Z",
+  "duracion": "588.026712ms",
+  "obtenido": "2026-08-30T14:28:30Z",
   "total": 1,
   "puntos": [
     {
@@ -37,7 +37,7 @@
       "verificado": false,
       "creado": "2026-08-29T16:19:32.128Z",
       "actualizado": "2026-08-29T23:50:45.332Z",
-      "fecha_corte": "2026-08-30T09:01:16Z",
+      "fecha_corte": "2026-08-30T14:28:30Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -94,9 +94,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 41.60054,
-        "lng": -93.60911,
-        "ciudad": "Des Moines",
+        "lat": 33.44838,
+        "lng": -112.07404,
+        "ciudad": "Phoenix",
         "pais": "US"
       },
       "tipos": [
