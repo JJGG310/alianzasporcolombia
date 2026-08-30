@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "290.777844ms",
-  "obtenido": "2026-08-30T02:58:51Z",
+  "duracion": "905.347606ms",
+  "obtenido": "2026-08-30T09:01:16Z",
   "total": 1,
   "puntos": [
     {
@@ -35,10 +35,9 @@
       "prioridad": "alta",
       "organizacion": "3205163851",
       "verificado": false,
-      "confirmaciones": 1,
       "creado": "2026-08-29T16:19:32.128Z",
       "actualizado": "2026-08-29T23:50:45.332Z",
-      "fecha_corte": "2026-08-30T02:58:51Z",
+      "fecha_corte": "2026-08-30T09:01:16Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -80,7 +79,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "sin_dato",
-        "confirma": 1,
+        "confirma": 0,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -95,9 +94,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 39.03761,
-        "lng": -77.41582,
-        "ciudad": "Dulles Town Center",
+        "lat": 41.60054,
+        "lng": -93.60911,
+        "ciudad": "Des Moines",
         "pais": "US"
       },
       "tipos": [
