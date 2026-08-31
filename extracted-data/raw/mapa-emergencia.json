@@ -3,10 +3,57 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "369.626215ms",
-  "obtenido": "2026-08-31T09:12:01Z",
-  "total": 1,
+  "duracion": "677.342682ms",
+  "obtenido": "2026-08-31T17:10:30Z",
+  "total": 2,
   "puntos": [
+    {
+      "id": "mapa-emergencia-887af38ea8",
+      "fuente": "mapa-emergencia",
+      "fuente_url": "https://mapa-emergencia.artefactofilms.workers.dev/#p=xj8my8b63qnt",
+      "tipo": "rescate",
+      "nombre": "Avenida Colombia #1-72",
+      "direccion": "Avenida Colombia #1-72",
+      "lat": 3.453548,
+      "lon": -76.5470886,
+      "estado": "urgente",
+      "prioridad": "critica",
+      "verificado": false,
+      "confirmaciones": 1,
+      "desmentidos": 1,
+      "creado": "2026-08-31T11:53:20.837Z",
+      "actualizado": "2026-08-31T11:53:20.837Z",
+      "fecha_corte": "2026-08-31T17:10:30Z",
+      "raw": {
+        "id": "xj8my8b63qnt",
+        "nombre": "Avenida Colombia #1-72",
+        "tipo": "rescate",
+        "lat": 3.453548,
+        "lng": -76.5470886,
+        "direccion": "Avenida Colombia #1-72",
+        "barrio": "",
+        "estado": "urgente",
+        "necesidades": [],
+        "voluntarios_hay": 0,
+        "voluntarios_faltan": 0,
+        "contacto": "",
+        "notas": "",
+        "fuente": "app",
+        "verificado": 0,
+        "verificado_por": "",
+        "autor": "",
+        "creado": 1788177200837,
+        "actualizado": 1788177200837,
+        "confirmado": 1788186292102,
+        "ubicado": true,
+        "fresco": true,
+        "saturacion": "sin_dato",
+        "confirma": 1,
+        "desmiente": 1,
+        "media": [],
+        "media_total": 0
+      }
+    },
     {
       "id": "mapa-emergencia-4148395989",
       "fuente": "mapa-emergencia",
@@ -35,10 +82,9 @@
       "prioridad": "alta",
       "organizacion": "3205163851",
       "verificado": false,
-      "confirmaciones": 1,
       "creado": "2026-08-29T16:19:32.128Z",
       "actualizado": "2026-08-29T23:50:45.332Z",
-      "fecha_corte": "2026-08-31T09:12:00Z",
+      "fecha_corte": "2026-08-31T17:10:30Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -80,7 +126,7 @@
         "ubicado": true,
         "fresco": false,
         "saturacion": "sin_dato",
-        "confirma": 1,
+        "confirma": 0,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -95,9 +141,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 39.03761,
-        "lng": -77.41582,
-        "ciudad": "Dulles Town Center",
+        "lat": 33.44838,
+        "lng": -112.07404,
+        "ciudad": "Phoenix",
         "pais": "US"
       },
       "tipos": [
@@ -125,6 +171,41 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1788186292102,
+          "nombre": "Avenida Colombia #1-72",
+          "punto_id": "xj8my8b63qnt"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1788186289219,
+          "nombre": "Avenida Colombia #1-72",
+          "punto_id": "xj8my8b63qnt"
+        },
+        {
+          "texto": "Desmentido: la información no cuadra.",
+          "autor": "",
+          "ts": 1788177282309,
+          "nombre": "Avenida Colombia #1-72",
+          "punto_id": "xj8my8b63qnt"
+        },
+        {
+          "texto": "Desmentido: la información no cuadra.",
+          "autor": "",
+          "ts": 1788177246943,
+          "nombre": "Avenida Colombia #1-72",
+          "punto_id": "xj8my8b63qnt"
+        },
+        {
+          "texto": "Punto creado.",
+          "autor": "",
+          "ts": 1788177200837,
+          "nombre": "Avenida Colombia #1-72",
+          "punto_id": "xj8my8b63qnt"
+        },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
@@ -170,8 +251,8 @@
       ]
     },
     "resumen": {
-      "total": 1,
-      "urgentes": 1,
+      "total": 2,
+      "urgentes": 2,
       "faltan_manos": 0,
       "exceso": 0,
       "sin_ubicar": 0,
