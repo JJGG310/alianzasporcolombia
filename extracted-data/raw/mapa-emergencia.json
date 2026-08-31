@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "551.660833ms",
-  "obtenido": "2026-08-31T02:53:12Z",
+  "duracion": "369.626215ms",
+  "obtenido": "2026-08-31T09:12:01Z",
   "total": 1,
   "puntos": [
     {
@@ -35,9 +35,10 @@
       "prioridad": "alta",
       "organizacion": "3205163851",
       "verificado": false,
+      "confirmaciones": 1,
       "creado": "2026-08-29T16:19:32.128Z",
       "actualizado": "2026-08-29T23:50:45.332Z",
-      "fecha_corte": "2026-08-31T02:53:12Z",
+      "fecha_corte": "2026-08-31T09:12:00Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -75,11 +76,11 @@
         "autor": "3205163851",
         "creado": 1788020372128,
         "actualizado": 1788047445332,
-        "confirmado": 1788020376097,
+        "confirmado": 1788145067198,
         "ubicado": true,
         "fresco": false,
         "saturacion": "sin_dato",
-        "confirma": 0,
+        "confirma": 1,
         "desmiente": 0,
         "media": [],
         "media_total": 0
@@ -94,9 +95,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 33.44838,
-        "lng": -112.07404,
-        "ciudad": "Phoenix",
+        "lat": 39.03761,
+        "lng": -77.41582,
+        "ciudad": "Dulles Town Center",
         "pais": "US"
       },
       "tipos": [
@@ -124,6 +125,20 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1788145067198,
+          "nombre": "Riofrio valle",
+          "punto_id": "vjr92yhwzf75"
+        },
+        {
+          "texto": "Confirmado sobre el terreno.",
+          "autor": "",
+          "ts": 1788145064635,
+          "nombre": "Riofrio valle",
+          "punto_id": "vjr92yhwzf75"
+        },
         {
           "texto": "Confirmado sin cambios.",
           "autor": "",
