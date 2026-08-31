@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "677.342682ms",
-  "obtenido": "2026-08-31T17:10:30Z",
+  "duracion": "412.539458ms",
+  "obtenido": "2026-08-31T21:58:35Z",
   "total": 2,
   "puntos": [
     {
@@ -16,14 +16,17 @@
       "direccion": "Avenida Colombia #1-72",
       "lat": 3.453548,
       "lon": -76.5470886,
-      "estado": "urgente",
-      "prioridad": "critica",
+      "estado": "por-confirmar",
+      "prioridad": "alta",
       "verificado": false,
       "confirmaciones": 1,
-      "desmentidos": 1,
+      "desmentidos": 2,
       "creado": "2026-08-31T11:53:20.837Z",
       "actualizado": "2026-08-31T11:53:20.837Z",
-      "fecha_corte": "2026-08-31T17:10:30Z",
+      "fecha_corte": "2026-08-31T21:58:35Z",
+      "avisos": [
+        "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
+      ],
       "raw": {
         "id": "xj8my8b63qnt",
         "nombre": "Avenida Colombia #1-72",
@@ -46,10 +49,10 @@
         "actualizado": 1788177200837,
         "confirmado": 1788186292102,
         "ubicado": true,
-        "fresco": true,
+        "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 1,
-        "desmiente": 1,
+        "desmiente": 2,
         "media": [],
         "media_total": 0
       }
@@ -84,7 +87,7 @@
       "verificado": false,
       "creado": "2026-08-29T16:19:32.128Z",
       "actualizado": "2026-08-29T23:50:45.332Z",
-      "fecha_corte": "2026-08-31T17:10:30Z",
+      "fecha_corte": "2026-08-31T21:58:35Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -141,9 +144,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 33.44838,
-        "lng": -112.07404,
-        "ciudad": "Phoenix",
+        "lat": 39.03761,
+        "lng": -77.41582,
+        "ciudad": "Dulles Town Center",
         "pais": "US"
       },
       "tipos": [
@@ -171,6 +174,13 @@
     },
     "novedades": {
       "novedades": [
+        {
+          "texto": "Desmentido: la información no cuadra.",
+          "autor": "",
+          "ts": 1788206596295,
+          "nombre": "Avenida Colombia #1-72",
+          "punto_id": "xj8my8b63qnt"
+        },
         {
           "texto": "Confirmado sobre el terreno.",
           "autor": "",
@@ -256,7 +266,7 @@
       "faltan_manos": 0,
       "exceso": 0,
       "sin_ubicar": 0,
-      "sin_confirmar": 1,
+      "sin_confirmar": 2,
       "voluntarios_faltan": 0,
       "voluntarios_hay": 0
     }
