@@ -3,8 +3,8 @@
   "url": "https://mapa-emergencia.artefactofilms.workers.dev",
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": true,
-  "duracion": "412.539458ms",
-  "obtenido": "2026-08-31T21:58:35Z",
+  "duracion": "721.266968ms",
+  "obtenido": "2026-09-01T01:03:40Z",
   "total": 2,
   "puntos": [
     {
@@ -20,10 +20,10 @@
       "prioridad": "alta",
       "verificado": false,
       "confirmaciones": 1,
-      "desmentidos": 2,
+      "desmentidos": 1,
       "creado": "2026-08-31T11:53:20.837Z",
       "actualizado": "2026-08-31T11:53:20.837Z",
-      "fecha_corte": "2026-08-31T21:58:35Z",
+      "fecha_corte": "2026-09-01T01:03:40Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -52,7 +52,7 @@
         "fresco": false,
         "saturacion": "sin_dato",
         "confirma": 1,
-        "desmiente": 2,
+        "desmiente": 1,
         "media": [],
         "media_total": 0
       }
@@ -87,7 +87,7 @@
       "verificado": false,
       "creado": "2026-08-29T16:19:32.128Z",
       "actualizado": "2026-08-29T23:50:45.332Z",
-      "fecha_corte": "2026-08-31T21:58:35Z",
+      "fecha_corte": "2026-09-01T01:03:40Z",
       "avisos": [
         "el sitio de origen ya no lo tiene como vigente: confirma antes de ir"
       ],
@@ -144,9 +144,9 @@
         -76.532
       ],
       "geo": {
-        "lat": 39.03761,
-        "lng": -77.41582,
-        "ciudad": "Dulles Town Center",
+        "lat": 47.13014,
+        "lng": -119.27808,
+        "ciudad": "Moses Lake",
         "pais": "US"
       },
       "tipos": [
