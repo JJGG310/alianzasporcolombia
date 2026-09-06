@@ -3,8 +3,8 @@
   "url": "https://quesenecesita.org/",
   "mecanismo": "Google Sheets publicado como CSV (descubierto en SHEET_CSV_URL del HTML)",
   "ok": true,
-  "duracion": "996.303637ms",
-  "obtenido": "2026-09-06T17:12:07Z",
+  "duracion": "1.090038265s",
+  "obtenido": "2026-09-06T19:21:40Z",
   "total": 50,
   "puntos": [
     {
@@ -28,7 +28,7 @@
       "organizacion": "Alcaldía de Cali",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -127,7 +127,7 @@
       "organizacion": "Banco de Alimentos de Cali / ABACO",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -194,7 +194,7 @@
       "organizacion": "Alcaldía de Pereira",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -261,7 +261,7 @@
       "organizacion": "Alcaldía de Pereira",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -328,7 +328,7 @@
       "organizacion": "Alcaldía de Pereira",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -395,7 +395,7 @@
       "organizacion": "Alcaldía de Pereira",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -462,7 +462,7 @@
       "organizacion": "Alcaldía de Pereira",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -529,7 +529,7 @@
       "organizacion": "Alcaldía de Pereira",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -596,7 +596,7 @@
       "organizacion": "Alcaldía de Pereira",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -664,7 +664,7 @@
       "organizacion": "Banco de Alimentos de Manizales / ABACO",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -729,7 +729,7 @@
       "organizacion": "Hemocentro del Café",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -766,7 +766,7 @@
       "organizacion": "Cruz Roja Colombiana / Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -833,7 +833,7 @@
       "organizacion": "Cruz Roja Colombiana / Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -900,7 +900,7 @@
       "organizacion": "Cruz Roja Colombiana / Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -967,7 +967,7 @@
       "organizacion": "Cruz Roja Colombiana / Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1034,7 +1034,7 @@
       "organizacion": "Cruz Roja Colombiana / Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1101,7 +1101,7 @@
       "organizacion": "Cruz Roja Colombiana / Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1168,7 +1168,7 @@
       "organizacion": "Campaña Colombia se levanta",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1235,7 +1235,7 @@
       "organizacion": "Campaña Colombia se levanta",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1303,7 +1303,7 @@
       "organizacion": "Oficina Distrital de Gestión del Riesgo",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1384,7 +1384,7 @@
       "organizacion": "Banco de Alimentos / ABACO",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1422,7 +1422,7 @@
       "organizacion": "Alcaldía de Cali",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1489,7 +1489,7 @@
       "organizacion": "Alcaldía de Cali",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1541,7 +1541,7 @@
       "organizacion": "Alcaldía de Cali",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1592,7 +1592,7 @@
       "organizacion": "Alcaldía de Manizales",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1642,7 +1642,7 @@
       "organizacion": "Alcaldía de Manizales",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1677,7 +1677,7 @@
       "organizacion": "Alcaldía de Manizales",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1712,7 +1712,7 @@
       "organizacion": "Hemocentro del Café",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1749,7 +1749,7 @@
       "organizacion": "Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1815,7 +1815,7 @@
       "organizacion": "Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1866,7 +1866,7 @@
       "organizacion": "Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1916,7 +1916,7 @@
       "organizacion": "Gestión del Riesgo",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1951,7 +1951,7 @@
       "organizacion": "Gestión del Riesgo",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -1986,7 +1986,7 @@
       "organizacion": "Casa Abelardista",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T17:19:21-05:00",
@@ -2021,7 +2021,7 @@
       "organizacion": "Arquidiócesis de Cartagena",
       "verificado": false,
       "actualizado": "2026-08-12T00:23:14Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T19:23:14-05:00",
@@ -2056,7 +2056,7 @@
       "organizacion": "Arquidiócesis de Cartagena",
       "verificado": false,
       "actualizado": "2026-08-12T00:23:16Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T19:23:16-05:00",
@@ -2091,7 +2091,7 @@
       "organizacion": "Banco de Alimentos de Cartagena",
       "verificado": false,
       "actualizado": "2026-08-12T00:23:18Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T19:23:18-05:00",
@@ -2129,7 +2129,7 @@
       "organizacion": "Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-12T02:30:33Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T21:30:26-05:00",
@@ -2210,7 +2210,7 @@
       "organizacion": "Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-12T02:30:38Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-11T21:30:35-05:00",
@@ -2261,7 +2261,7 @@
       "organizacion": "Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-12T10:18:07Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-12T05:18:03-05:00",
@@ -2313,7 +2313,7 @@
       "organizacion": "Reddhhpac",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:01Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-12T14:10:57-05:00",
@@ -2363,7 +2363,7 @@
       "organizacion": "Fundación Innovación Social Paz y Desarrollo",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:04Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-12T14:11:04-05:00",
@@ -2399,7 +2399,7 @@
       "organizacion": "Cruz Roja Colombiana",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:06Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-12T14:11:06-05:00",
@@ -2436,7 +2436,7 @@
       "organizacion": "Cruz Roja Colombiana",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:09Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-12T14:11:09-05:00",
@@ -2472,7 +2472,7 @@
       "organizacion": "Cruz Roja Colombiana",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:11Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-12T14:11:11-05:00",
@@ -2508,7 +2508,7 @@
       "organizacion": "Cruz Roja Colombiana",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:14Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-12T14:11:14-05:00",
@@ -2544,7 +2544,7 @@
       "organizacion": "Cruz Roja Colombiana",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:16Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-12T14:11:16-05:00",
@@ -2580,7 +2580,7 @@
       "organizacion": "Cruz Roja Colombiana",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:19Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-12T14:11:19-05:00",
@@ -2616,7 +2616,7 @@
       "organizacion": "Reddhhpac",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:22Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-12T14:11:22-05:00",
@@ -2651,7 +2651,7 @@
       "organizacion": "Campaña sector privado",
       "verificado": false,
       "actualizado": "2026-08-16T01:11:14Z",
-      "fecha_corte": "2026-09-06T17:12:07Z",
+      "fecha_corte": "2026-09-06T19:21:40Z",
       "raw": [
         {
           "actualizado": "2026-08-15T20:11:14-05:00",

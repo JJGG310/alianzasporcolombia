@@ -6,8 +6,8 @@
       "mecanismo": "API propia /api/timeline (actualmente caída) — el Supabase del sitio exige autenticación",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-09-06T17:12:17Z",
-      "duracion": "9.434725466s",
+      "obtenido": "2026-09-06T19:21:48Z",
+      "duracion": "9.17232148s",
       "nota": "endpoint público caído (500, error de blockchain); el Supabase del sitio exige autenticación (401). Sin datos públicos disponibles — se reintenta en cada corrida.",
       "error": "timeline: tras 4 intentos: https://aidtrace-rastroayuda.vercel.app/api/timeline?limit=100\u0026cursor=0 devolvió 500"
     },
@@ -17,8 +17,8 @@
       "mecanismo": "Convex HTTP query API (udf needs:list; descubierto interceptando el WebSocket)",
       "ok": true,
       "total": 65,
-      "obtenido": "2026-09-06T17:12:07Z",
-      "duracion": "377.812383ms"
+      "obtenido": "2026-09-06T19:21:38Z",
+      "duracion": "189.210313ms"
     },
     {
       "fuente": "calisolidario",
@@ -26,8 +26,8 @@
       "mecanismo": "payload RSC de Next.js embebido en el HTML de /necesidades y /ofertas",
       "ok": true,
       "total": 184,
-      "obtenido": "2026-09-06T17:12:07Z",
-      "duracion": "645.382169ms"
+      "obtenido": "2026-09-06T19:21:39Z",
+      "duracion": "470.97734ms"
     },
     {
       "fuente": "haciendo-comunidad",
@@ -35,8 +35,8 @@
       "mecanismo": "API REST de Firestore con lectura anónima (colecciones reportes_ayuda y comunidad_servicios; la colección desaparecidos se omite a propósito)",
       "ok": true,
       "total": 89,
-      "obtenido": "2026-09-06T17:12:07Z",
-      "duracion": "1.176589349s",
+      "obtenido": "2026-09-06T19:21:38Z",
+      "duracion": "1.488496502s",
       "nota": "No se leyó la colección 'desaparecidos' por política de datos personales."
     },
     {
@@ -45,8 +45,8 @@
       "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-09-06T17:12:06Z",
-      "duracion": "59.095105ms",
+      "obtenido": "2026-09-06T19:21:38Z",
+      "duracion": "118.675341ms",
       "error": "snapshot: https://mapa-emergencia.artefactofilms.workers.dev/api/snapshot devolvió 410: {\"cerrado\":true,\"archivo\":\"https://mapa-emergencia-archivo.netlify.app\"}"
     },
     {
@@ -55,8 +55,8 @@
       "mecanismo": "arreglos JS embebidos en el HTML (React vía Babel standalone, sin API)",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-09-06T17:12:08Z",
-      "duracion": "337.551035ms",
+      "obtenido": "2026-09-06T19:21:39Z",
+      "duracion": "147.153346ms",
       "error": "no se pudo extraer ningún arreglo JS del HTML: el sitio cambió de forma (se esperaban PUNTOS, ALBERGUES, CLINICAS, AYUDAS, ALTA_PRIORIDAD, NECESIDADES_GENERALES, NO_DESPLAZARSE, ACTUALIZACIONES)"
     },
     {
@@ -65,8 +65,8 @@
       "mecanismo": "Google Sheets publicado como CSV (descubierto en SHEET_CSV_URL del HTML)",
       "ok": true,
       "total": 50,
-      "obtenido": "2026-09-06T17:12:07Z",
-      "duracion": "996.303637ms"
+      "obtenido": "2026-09-06T19:21:40Z",
+      "duracion": "1.090038265s"
     },
     {
       "fuente": "sismoinfo",
@@ -74,8 +74,8 @@
       "mecanismo": "API REST propia (/api/buildings y /api/anuncios; /api/disappeared se omite a propósito)",
       "ok": true,
       "total": 63,
-      "obtenido": "2026-09-06T17:12:06Z",
-      "duracion": "745.064179ms",
+      "obtenido": "2026-09-06T19:21:38Z",
+      "duracion": "718.579564ms",
       "nota": "no se leyó /api/disappeared por política de datos personales"
     },
     {
@@ -84,12 +84,12 @@
       "mecanismo": "página informativa estática (sin dataset; no hace peticiones de datos)",
       "ok": true,
       "total": 1,
-      "obtenido": "2026-09-06T17:12:08Z",
-      "duracion": "1.322723412s",
+      "obtenido": "2026-09-06T19:21:39Z",
+      "duracion": "1.040540317s",
       "nota": "sin dataset estructurado; se conserva como fuente informativa/editorial"
     }
   ],
-  "generado": "2026-09-06T17:12:06Z",
+  "generado": "2026-09-06T19:21:38Z",
   "informe": {
     "entrada": 558,
     "salida": 548,
