@@ -4,8 +4,8 @@
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": false,
   "error": "snapshot: https://mapa-emergencia.artefactofilms.workers.dev/api/snapshot devolvió 410: {\"cerrado\":true,\"archivo\":\"https://mapa-emergencia-archivo.netlify.app\"}",
-  "duracion": "171.635383ms",
-  "obtenido": "2026-09-06T14:17:15Z",
+  "duracion": "59.095105ms",
+  "obtenido": "2026-09-06T17:12:06Z",
   "total": 0,
   "puntos": null
 }
