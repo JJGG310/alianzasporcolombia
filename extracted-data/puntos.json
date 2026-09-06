@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-06T01:10:03Z",
+  "generado": "2026-09-06T06:12:04Z",
   "licencia": "CC BY 4.0 — datos abiertos de Alianzas por Colombia. Cita la fuente de cada ítem.",
   "politica": "Nunca publicamos cuentas bancarias ni datos de pago. Contacta a la organización y valida con ella antes de entregar dinero.",
   "aviso": "Datos agregados automáticamente de sitios ciudadanos de terceros. No están verificados uno por uno por Alianzas por Colombia: cada punto cita su fuente para que puedas confirmarlo. Los puntos con 'politica_alerta' requieren revisión humana antes de publicarse.",
@@ -41,8 +41,8 @@
       "mecanismo": "API propia /api/timeline (actualmente caída) — el Supabase del sitio exige autenticación",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-09-06T01:10:12Z",
-      "duracion": "8.623569459s",
+      "obtenido": "2026-09-06T06:12:13Z",
+      "duracion": "8.488134624s",
       "nota": "endpoint público caído (500, error de blockchain); el Supabase del sitio exige autenticación (401). Sin datos públicos disponibles — se reintenta en cada corrida.",
       "error": "timeline: tras 4 intentos: https://aidtrace-rastroayuda.vercel.app/api/timeline?limit=100\u0026cursor=0 devolvió 500"
     },
@@ -52,8 +52,8 @@
       "mecanismo": "Convex HTTP query API (udf needs:list; descubierto interceptando el WebSocket)",
       "ok": true,
       "total": 65,
-      "obtenido": "2026-09-06T01:10:03Z",
-      "duracion": "325.627538ms"
+      "obtenido": "2026-09-06T06:12:04Z",
+      "duracion": "119.96056ms"
     },
     {
       "fuente": "calisolidario",
@@ -61,8 +61,8 @@
       "mecanismo": "payload RSC de Next.js embebido en el HTML de /necesidades y /ofertas",
       "ok": true,
       "total": 184,
-      "obtenido": "2026-09-06T01:10:04Z",
-      "duracion": "480.487654ms"
+      "obtenido": "2026-09-06T06:12:05Z",
+      "duracion": "286.162622ms"
     },
     {
       "fuente": "haciendo-comunidad",
@@ -70,8 +70,8 @@
       "mecanismo": "API REST de Firestore con lectura anónima (colecciones reportes_ayuda y comunidad_servicios; la colección desaparecidos se omite a propósito)",
       "ok": true,
       "total": 89,
-      "obtenido": "2026-09-06T01:10:03Z",
-      "duracion": "1.261801958s",
+      "obtenido": "2026-09-06T06:12:05Z",
+      "duracion": "1.353673136s",
       "nota": "No se leyó la colección 'desaparecidos' por política de datos personales."
     },
     {
@@ -80,8 +80,8 @@
       "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-09-06T01:10:03Z",
-      "duracion": "74.122168ms",
+      "obtenido": "2026-09-06T06:12:04Z",
+      "duracion": "57.626041ms",
       "error": "snapshot: https://mapa-emergencia.artefactofilms.workers.dev/api/snapshot devolvió 410: {\"cerrado\":true,\"archivo\":\"https://mapa-emergencia-archivo.netlify.app\"}"
     },
     {
@@ -90,8 +90,8 @@
       "mecanismo": "arreglos JS embebidos en el HTML (React vía Babel standalone, sin API)",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-09-06T01:10:04Z",
-      "duracion": "252.771921ms",
+      "obtenido": "2026-09-06T06:12:05Z",
+      "duracion": "530.862108ms",
       "error": "no se pudo extraer ningún arreglo JS del HTML: el sitio cambió de forma (se esperaban PUNTOS, ALBERGUES, CLINICAS, AYUDAS, ALTA_PRIORIDAD, NECESIDADES_GENERALES, NO_DESPLAZARSE, ACTUALIZACIONES)"
     },
     {
@@ -100,8 +100,8 @@
       "mecanismo": "Google Sheets publicado como CSV (descubierto en SHEET_CSV_URL del HTML)",
       "ok": true,
       "total": 50,
-      "obtenido": "2026-09-06T01:10:05Z",
-      "duracion": "774.723454ms"
+      "obtenido": "2026-09-06T06:12:05Z",
+      "duracion": "719.866632ms"
     },
     {
       "fuente": "sismoinfo",
@@ -109,8 +109,8 @@
       "mecanismo": "API REST propia (/api/buildings y /api/anuncios; /api/disappeared se omite a propósito)",
       "ok": true,
       "total": 63,
-      "obtenido": "2026-09-06T01:10:03Z",
-      "duracion": "745.000475ms",
+      "obtenido": "2026-09-06T06:12:05Z",
+      "duracion": "533.393893ms",
       "nota": "no se leyó /api/disappeared por política de datos personales"
     },
     {
@@ -119,8 +119,8 @@
       "mecanismo": "página informativa estática (sin dataset; no hace peticiones de datos)",
       "ok": true,
       "total": 1,
-      "obtenido": "2026-09-06T01:10:04Z",
-      "duracion": "1.201359321s",
+      "obtenido": "2026-09-06T06:12:05Z",
+      "duracion": "881.226714ms",
       "nota": "sin dataset estructurado; se conserva como fuente informativa/editorial"
     }
   ],
@@ -148,7 +148,7 @@
       "verificado": true,
       "creado": "2026-08-12T23:31:22.496Z",
       "actualizado": "2026-08-13T00:36:24.16Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-02ed8b55e8",
@@ -179,7 +179,7 @@
       "verificado": true,
       "creado": "2026-08-12T19:23:25.075Z",
       "actualizado": "2026-08-12T19:23:29.076Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-0ca7b716e7",
@@ -206,7 +206,7 @@
       "verificado": true,
       "creado": "2026-08-12T04:45:31.581Z",
       "actualizado": "2026-08-13T23:02:57.36Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-15cd50211e",
@@ -236,7 +236,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:34:58.707Z",
       "actualizado": "2026-08-11T22:37:00.485Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-160c68a298",
@@ -264,7 +264,7 @@
       "verificado": true,
       "creado": "2026-08-14T15:38:30.158Z",
       "actualizado": "2026-08-15T14:15:37.137Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-167085d63b",
@@ -290,7 +290,7 @@
       "verificado": true,
       "creado": "2026-08-14T15:18:47.499Z",
       "actualizado": "2026-08-15T13:54:33.276Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-1b5fff18f5",
@@ -320,7 +320,7 @@
       "verificado": true,
       "creado": "2026-08-12T00:42:12.348Z",
       "actualizado": "2026-08-12T00:43:07.348Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-29f71cd05e",
@@ -349,7 +349,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:26:46.951Z",
       "actualizado": "2026-08-11T23:49:32.668Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-2ac72ab8cd",
@@ -388,7 +388,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:12:57.509Z",
       "actualizado": "2026-08-12T00:44:32.928Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-2b58d44737",
@@ -416,7 +416,7 @@
       "verificado": true,
       "creado": "2026-08-15T17:48:51.211Z",
       "actualizado": "2026-08-17T07:58:41.479Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-2e3b7ee593",
@@ -445,7 +445,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:09:38.529Z",
       "actualizado": "2026-08-11T21:09:42.845Z",
-      "fecha_corte": "2026-09-06T01:10:03Z",
+      "fecha_corte": "2026-09-06T06:12:04Z",
       "tambien_en": [
         {
           "fuente": "haciendo-comunidad",
@@ -483,7 +483,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:22:30.263Z",
       "actualizado": "2026-08-11T21:23:03.227Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-2e87cef95b",
@@ -516,7 +516,7 @@
       "verificado": true,
       "creado": "2026-08-12T01:03:16.743Z",
       "actualizado": "2026-08-12T01:05:41.917Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-2ff3e80d6e",
@@ -542,7 +542,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:45:21.7Z",
       "actualizado": "2026-08-12T00:30:12.329Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-33360e7658",
@@ -580,7 +580,7 @@
       "verificado": true,
       "creado": "2026-08-12T14:29:34.272Z",
       "actualizado": "2026-08-13T16:37:18.158Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-3515c5d535",
@@ -611,7 +611,7 @@
       "verificado": true,
       "creado": "2026-08-12T19:18:12.389Z",
       "actualizado": "2026-08-12T19:18:17.014Z",
-      "fecha_corte": "2026-09-06T01:10:03Z",
+      "fecha_corte": "2026-09-06T06:12:04Z",
       "tambien_en": [
         {
           "fuente": "haciendo-comunidad",
@@ -646,7 +646,7 @@
       "verificado": true,
       "creado": "2026-08-12T19:58:00.273Z",
       "actualizado": "2026-08-12T20:39:06.267Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-3a03bbc908",
@@ -673,7 +673,7 @@
       "verificado": true,
       "creado": "2026-08-14T16:08:43.812Z",
       "actualizado": "2026-08-15T14:13:00.008Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-3a3e387ae2",
@@ -703,7 +703,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:50:43.611Z",
       "actualizado": "2026-08-11T21:57:36.561Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-436f349f32",
@@ -732,7 +732,7 @@
       "verificado": true,
       "creado": "2026-08-16T01:48:32.847Z",
       "actualizado": "2026-08-17T07:59:18.52Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-43c99c4595",
@@ -758,7 +758,7 @@
       "verificado": true,
       "creado": "2026-08-14T15:10:26.359Z",
       "actualizado": "2026-08-15T14:16:40.547Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-43e9959c0b",
@@ -795,7 +795,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:32:21.655Z",
       "actualizado": "2026-08-13T15:22:02.201Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-5812d8cfe1",
@@ -824,7 +824,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:25:48.811Z",
       "actualizado": "2026-08-11T23:26:07.192Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-59ee9cb814",
@@ -852,7 +852,7 @@
       "verificado": true,
       "creado": "2026-08-14T15:30:44.749Z",
       "actualizado": "2026-08-15T14:13:55.915Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-5aa88f262d",
@@ -877,7 +877,7 @@
       "verificado": true,
       "creado": "2026-08-14T14:49:34.538Z",
       "actualizado": "2026-08-15T14:17:59.148Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-651a2fde14",
@@ -903,7 +903,7 @@
       "verificado": true,
       "creado": "2026-08-12T16:41:27.801Z",
       "actualizado": "2026-08-13T20:32:37.209Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-6affc188a6",
@@ -930,7 +930,7 @@
       "verificado": true,
       "creado": "2026-08-14T16:54:21.679Z",
       "actualizado": "2026-08-15T14:14:52.104Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-6cf19332d6",
@@ -956,7 +956,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:20:47.822Z",
       "actualizado": "2026-08-11T21:21:06.873Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-6de243f7e9",
@@ -982,7 +982,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:43:09.558Z",
       "actualizado": "2026-08-11T21:45:33.128Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-706f03815e",
@@ -1012,7 +1012,7 @@
       "verificado": true,
       "creado": "2026-08-12T17:11:25.973Z",
       "actualizado": "2026-08-13T23:03:05.608Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-72c9c2dd40",
@@ -1038,7 +1038,7 @@
       "verificado": true,
       "creado": "2026-08-13T10:01:32.561Z",
       "actualizado": "2026-08-13T20:21:02.787Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-7a66ae0113",
@@ -1062,7 +1062,7 @@
       "verificado": true,
       "creado": "2026-08-13T00:09:36.528Z",
       "actualizado": "2026-08-13T00:09:40.2Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-87e25aa0b7",
@@ -1089,7 +1089,7 @@
       "verificado": true,
       "creado": "2026-08-13T02:30:12.925Z",
       "actualizado": "2026-08-13T20:34:12.228Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-893a738174",
@@ -1118,7 +1118,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:25:17.923Z",
       "actualizado": "2026-08-11T22:26:24.077Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-9135d1bd34",
@@ -1143,7 +1143,7 @@
       "verificado": true,
       "creado": "2026-08-12T02:41:12.848Z",
       "actualizado": "2026-08-12T04:16:44.763Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-981282d27f",
@@ -1177,7 +1177,7 @@
       "verificado": true,
       "creado": "2026-08-13T17:18:05.565Z",
       "actualizado": "2026-08-13T17:18:41.276Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-9be0fa8b00",
@@ -1210,7 +1210,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:09:34.698Z",
       "actualizado": "2026-08-11T23:34:43.995Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-a161c2862b",
@@ -1248,7 +1248,7 @@
       "verificado": true,
       "creado": "2026-08-11T23:09:11.638Z",
       "actualizado": "2026-08-13T16:56:23.714Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-a2a4db0764",
@@ -1280,7 +1280,7 @@
       "verificado": true,
       "creado": "2026-08-12T15:36:52.771Z",
       "actualizado": "2026-08-13T20:34:20.574Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-a537390cd7",
@@ -1310,7 +1310,7 @@
       "verificado": true,
       "creado": "2026-08-13T18:40:46.872Z",
       "actualizado": "2026-08-13T20:32:04.143Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-a6c5e4c5c3",
@@ -1341,7 +1341,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:37:40.432Z",
       "actualizado": "2026-08-11T22:07:37.315Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-a749504e2d",
@@ -1371,7 +1371,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:00:39.321Z",
       "actualizado": "2026-08-12T00:19:40.999Z",
-      "fecha_corte": "2026-09-06T01:10:03Z",
+      "fecha_corte": "2026-09-06T06:12:04Z",
       "tambien_en": [
         {
           "fuente": "haciendo-comunidad",
@@ -1409,7 +1409,7 @@
       "verificado": true,
       "creado": "2026-08-13T18:55:41.636Z",
       "actualizado": "2026-08-13T20:32:09.376Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-aba82e6ddb",
@@ -1441,7 +1441,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:18:57.917Z",
       "actualizado": "2026-08-11T23:43:46.616Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-ad183ae47a",
@@ -1474,7 +1474,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:35:06.201Z",
       "actualizado": "2026-08-11T22:53:02.951Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-aeccbff54f",
@@ -1506,7 +1506,7 @@
       "verificado": true,
       "creado": "2026-08-12T23:26:30.826Z",
       "actualizado": "2026-08-13T15:26:08.747Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-b5819b31fa",
@@ -1534,7 +1534,7 @@
       "verificado": true,
       "creado": "2026-08-12T03:28:40.837Z",
       "actualizado": "2026-08-13T00:36:03.611Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-bbb9029ebc",
@@ -1564,7 +1564,7 @@
       "verificado": true,
       "creado": "2026-08-13T20:30:24.133Z",
       "actualizado": "2026-08-13T20:34:42.607Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-bf0ef7a8f1",
@@ -1592,7 +1592,7 @@
       "verificado": true,
       "creado": "2026-08-11T22:14:23.013Z",
       "actualizado": "2026-08-11T22:14:39.912Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-d6dbe8491f",
@@ -1620,7 +1620,7 @@
       "verificado": true,
       "creado": "2026-08-14T15:01:49.446Z",
       "actualizado": "2026-08-15T13:54:34.389Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-d7d165eabf",
@@ -1649,7 +1649,7 @@
       "verificado": true,
       "creado": "2026-08-13T16:04:53.885Z",
       "actualizado": "2026-08-13T20:16:15.485Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-d9593e8138",
@@ -1673,7 +1673,7 @@
       "verificado": true,
       "creado": "2026-08-14T14:56:23.394Z",
       "actualizado": "2026-08-15T08:21:44.026Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-dcfd26b927",
@@ -1700,7 +1700,7 @@
       "verificado": true,
       "creado": "2026-08-12T03:52:58.412Z",
       "actualizado": "2026-08-12T04:16:35.965Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-dd6980774e",
@@ -1726,7 +1726,7 @@
       "verificado": true,
       "creado": "2026-08-14T01:50:39.788Z",
       "actualizado": "2026-08-14T14:37:40.145Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-ddd7b167fb",
@@ -1752,7 +1752,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:42:17.134Z",
       "actualizado": "2026-08-11T21:45:33.905Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-e0e14e39cd",
@@ -1781,7 +1781,7 @@
       "verificado": true,
       "creado": "2026-08-12T23:31:18.444Z",
       "actualizado": "2026-08-12T23:31:28.338Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-e3c2dfd46e",
@@ -1815,7 +1815,7 @@
       "verificado": true,
       "creado": "2026-08-13T03:58:09.586Z",
       "actualizado": "2026-08-13T18:03:26.371Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-ec317d85b5",
@@ -1840,7 +1840,7 @@
       "verificado": true,
       "creado": "2026-08-13T19:39:12.256Z",
       "actualizado": "2026-08-13T20:17:48.472Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-ef2d9c4b88",
@@ -1866,7 +1866,7 @@
       "verificado": true,
       "creado": "2026-08-14T14:58:55.082Z",
       "actualizado": "2026-08-15T13:53:43.972Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-f217931d9b",
@@ -1896,7 +1896,7 @@
       "verificado": true,
       "creado": "2026-08-12T05:20:10.543Z",
       "actualizado": "2026-08-12T05:58:55.104Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-f3964e88fe",
@@ -1924,7 +1924,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:01:07.759Z",
       "actualizado": "2026-08-11T21:10:31.567Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-f480d4beea",
@@ -1951,7 +1951,7 @@
       "verificado": true,
       "creado": "2026-08-12T22:51:21.972Z",
       "actualizado": "2026-08-13T23:03:17.92Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-f5204631cf",
@@ -1982,7 +1982,7 @@
       "verificado": true,
       "creado": "2026-08-12T23:05:00.45Z",
       "actualizado": "2026-08-12T23:05:12.626Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-f82a90dc0e",
@@ -2010,7 +2010,7 @@
       "verificado": true,
       "creado": "2026-08-11T21:13:07.919Z",
       "actualizado": "2026-08-11T21:13:11.172Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "aqui-hace-falta-fb42ee51dd",
@@ -2038,7 +2038,7 @@
       "verificado": true,
       "creado": "2026-08-15T02:15:50.634Z",
       "actualizado": "2026-08-15T16:10:59.86Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-00182d9a61",
@@ -2056,7 +2056,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:56:09.717105Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-01963706bd",
@@ -2075,7 +2075,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:31:08.835075Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-0204552fbd",
@@ -2095,7 +2095,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T02:51:42.579512Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-0219cb7a45",
@@ -2112,7 +2112,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-25T19:01:10.122602Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-0648490a5f",
@@ -2133,7 +2133,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:59:51.775029Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-06858f41e5",
@@ -2154,7 +2154,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T11:59:19.773579Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-072ed50a4b",
@@ -2171,7 +2171,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T20:36:35.893475Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-07bc0f82aa",
@@ -2192,7 +2192,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-17T18:54:16.573213Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-0ac4444325",
@@ -2209,7 +2209,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T13:32:53.404504Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-0d6cd05e28",
@@ -2227,7 +2227,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T19:59:53.542549Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-0f74bac1b8",
@@ -2245,7 +2245,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T20:32:01.937939Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-120e7ebf16",
@@ -2266,7 +2266,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:52:03.409721Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-123725df6b",
@@ -2284,7 +2284,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T16:24:38.657293Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-12b421e290",
@@ -2305,7 +2305,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-18T18:46:14.236486Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-16f4957a86",
@@ -2322,7 +2322,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T03:17:46.582303Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-1b4f5c55d9",
@@ -2343,7 +2343,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:04:01.777901Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-1cb9f412fe",
@@ -2364,7 +2364,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T13:03:47.845079Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-1d04b15da7",
@@ -2381,7 +2381,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T17:12:59.847654Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-1eca867308",
@@ -2401,7 +2401,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:02:57.214438Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-20b96580af",
@@ -2421,7 +2421,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:41:22.775128Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-20e2060132",
@@ -2442,7 +2442,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T16:37:42.533262Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-2518bec996",
@@ -2462,7 +2462,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T17:29:05.519885Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-279f0ab4e5",
@@ -2480,7 +2480,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:43:50.185056Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-2867da1af0",
@@ -2498,7 +2498,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:11:18.711024Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-2895734bca",
@@ -2518,7 +2518,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:04:49.314434Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-28a31d020b",
@@ -2534,7 +2534,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T01:54:44.982524Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-29337e1318",
@@ -2554,7 +2554,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T06:32:47.464107Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-2995ee8270",
@@ -2575,7 +2575,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:30:55.598544Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-2c6f3ddb98",
@@ -2596,7 +2596,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T00:10:51.8511Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-30ee988777",
@@ -2616,7 +2616,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:18:12.999355Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-31959e0117",
@@ -2636,7 +2636,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:05:32.641867Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-32549fe937",
@@ -2654,7 +2654,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:52:26.626756Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-33cb036ed3",
@@ -2670,7 +2670,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:33:34.867849Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-341f9ecb67",
@@ -2689,7 +2689,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:42:46.437505Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-387b4cbb06",
@@ -2709,7 +2709,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T02:42:39.048398Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-38f00da170",
@@ -2726,7 +2726,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:11:47.6773Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-3924124cef",
@@ -2747,7 +2747,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T00:28:32.024024Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-3a74ba0a13",
@@ -2767,7 +2767,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T03:09:54.007892Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-3b2eecc410",
@@ -2788,7 +2788,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:52:38.519256Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-3e24488529",
@@ -2807,7 +2807,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T15:54:25.198174Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-423ff3f5db",
@@ -2828,7 +2828,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T16:53:33.715431Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-441209165b",
@@ -2848,7 +2848,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T02:36:54.695217Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-44cafd0d8f",
@@ -2866,7 +2866,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T02:31:26.703677Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-450977e159",
@@ -2887,7 +2887,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:38:59.569582Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-47201e3328",
@@ -2907,7 +2907,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T22:52:11.439093Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-4863e635a3",
@@ -2928,7 +2928,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T19:04:04.169444Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-4881658438",
@@ -2945,7 +2945,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T02:03:49.663827Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-49a840b8d6",
@@ -2965,7 +2965,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:25:46.444994Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-4a6f82ca0a",
@@ -2985,7 +2985,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-24T22:45:33.596909Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-4aa4ac8cf3",
@@ -3003,7 +3003,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-18T22:08:16.016509Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-4cbecb98d2",
@@ -3021,7 +3021,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T19:22:55.760636Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-4d19d8b18d",
@@ -3039,7 +3039,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T20:12:50.860658Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-4dc191adc4",
@@ -3060,7 +3060,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:31:16.524558Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-50047c56ca",
@@ -3080,7 +3080,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T23:52:07.15246Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-50b2d656ec",
@@ -3100,7 +3100,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:32:35.634701Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-53260164b9",
@@ -3120,7 +3120,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T20:18:55.324478Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-53a8c70d8d",
@@ -3141,7 +3141,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:18:12.673612Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-5425e95bb0",
@@ -3162,7 +3162,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T22:13:39.167951Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-55e5b82027",
@@ -3182,7 +3182,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T13:25:28.865829Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-576be51722",
@@ -3200,7 +3200,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-20T15:30:28.394398Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-58097eecfb",
@@ -3221,7 +3221,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-20T19:35:02.2904Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-58e9120e50",
@@ -3238,7 +3238,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-18T20:50:55.329108Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-5c0bdd4af4",
@@ -3258,7 +3258,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T02:25:58.551772Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-5d06292f83",
@@ -3278,7 +3278,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-20T18:57:49.348927Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-5eedab2de1",
@@ -3294,7 +3294,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T03:08:56.636228Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-5fae69eec5",
@@ -3311,7 +3311,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:46:33.767354Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-623036dd01",
@@ -3331,7 +3331,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:02:22.139555Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-6437cc900f",
@@ -3351,7 +3351,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T11:40:44.526917Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-643d5ed558",
@@ -3371,7 +3371,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:59:06.00741Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-64a684f19e",
@@ -3388,7 +3388,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T20:37:31.918606Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-651cddeed6",
@@ -3409,7 +3409,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T12:35:24.560326Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-65d3428f1a",
@@ -3426,7 +3426,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T13:38:27.11933Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-65e20ea069",
@@ -3446,7 +3446,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:50:11.555301Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-66d875f9e8",
@@ -3467,7 +3467,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T17:05:19.957231Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-66ed25c3bb",
@@ -3484,7 +3484,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T03:13:56.358391Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-6804261479",
@@ -3501,7 +3501,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T17:08:47.508354Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-69432345a3",
@@ -3520,7 +3520,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-20T12:44:01.096215Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-69bf009923",
@@ -3540,7 +3540,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T00:27:55.836558Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-6b448d5100",
@@ -3557,7 +3557,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:43:19.3229Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-6c25c5534f",
@@ -3577,7 +3577,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:16:38.568824Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-6d1f1bae92",
@@ -3595,7 +3595,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T02:15:07.292944Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-6f84248428",
@@ -3613,7 +3613,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:04:21.396035Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-711e4da49e",
@@ -3633,7 +3633,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T01:08:14.72085Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-7583db4552",
@@ -3650,7 +3650,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:37:04.74991Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-76334de130",
@@ -3670,7 +3670,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T01:10:51.792064Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-76581b5cc8",
@@ -3691,7 +3691,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-09-05T14:55:32.204532Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-77a489a9d3",
@@ -3711,7 +3711,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:47:56.659194Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-7821ef2ab8",
@@ -3731,7 +3731,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T23:06:03.945603Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-7af1efcf8e",
@@ -3749,7 +3749,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T09:41:52.529295Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-7c285e37f8",
@@ -3767,7 +3767,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T02:20:33.677574Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-7c5ebef91e",
@@ -3787,7 +3787,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-26T00:43:25.601083Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-837d5d6f93",
@@ -3807,7 +3807,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T18:00:37.087638Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-841dee91df",
@@ -3825,7 +3825,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:32:36.730743Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-84578bfd2c",
@@ -3845,7 +3845,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T11:49:51.482551Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-85fc72bc14",
@@ -3865,7 +3865,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T01:00:00.292653Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-86547afbf8",
@@ -3883,7 +3883,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T01:52:36.016088Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-872ffc43c7",
@@ -3904,7 +3904,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:14:26.282743Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-89aea01dac",
@@ -3922,7 +3922,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T02:27:52.115574Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-8c50416ab6",
@@ -3940,7 +3940,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T16:47:14.949249Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-8d1572ac18",
@@ -3958,7 +3958,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T20:22:39.446973Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-8d1ab63325",
@@ -3978,7 +3978,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:02:24.257878Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-8d6873143d",
@@ -3995,7 +3995,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T10:25:48.389321Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-8f27c2e51f",
@@ -4013,7 +4013,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T19:16:07.488209Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-907c75f409",
@@ -4032,7 +4032,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:42:51.042339Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-919c4eca38",
@@ -4053,7 +4053,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-24T22:58:06.28226Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-954fcb5ecd",
@@ -4074,7 +4074,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T03:11:32.868501Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-96cf7d0e72",
@@ -4095,7 +4095,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:52:07.481915Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-983bb203ce",
@@ -4116,7 +4116,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T19:22:56.95903Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-98a071d0fe",
@@ -4134,7 +4134,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T20:08:18.842601Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-9940024339",
@@ -4151,7 +4151,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T23:41:36.324301Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-998f53d119",
@@ -4169,7 +4169,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:03:31.97957Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-9ad209f69f",
@@ -4189,7 +4189,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-20T18:23:53.38934Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-9b101ac883",
@@ -4209,7 +4209,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T21:59:05.44064Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-9d079dbe1f",
@@ -4230,7 +4230,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T23:30:10.540229Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-9d64414af2",
@@ -4250,7 +4250,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-29T13:54:51.43314Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-a1441c903a",
@@ -4271,7 +4271,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:29:52.814157Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-a153fd6266",
@@ -4292,7 +4292,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T22:11:06.522862Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-a1fbb8a197",
@@ -4310,7 +4310,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T13:10:10.076549Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-a86662fc7f",
@@ -4328,7 +4328,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:48:46.810986Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-a9d7cf4418",
@@ -4349,7 +4349,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T18:23:21.29013Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-aa57831e75",
@@ -4370,7 +4370,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T16:54:53.154509Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-ab2de5e195",
@@ -4391,7 +4391,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:38:30.895313Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-ab3cf06374",
@@ -4412,7 +4412,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T00:24:57.688234Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-abec130e15",
@@ -4433,7 +4433,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T22:53:07.514902Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-ae44afbc73",
@@ -4454,7 +4454,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T22:43:59.958107Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-aed25913d6",
@@ -4475,7 +4475,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:45:05.935785Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-af48f7ade8",
@@ -4496,7 +4496,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T21:33:46.014415Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-b0373b9b81",
@@ -4517,7 +4517,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-25T18:57:02.069477Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-b0584b421f",
@@ -4538,7 +4538,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T21:50:36.22754Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-b3080495c2",
@@ -4559,7 +4559,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:00:22.641538Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-b35676d41b",
@@ -4580,7 +4580,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T16:38:20.188803Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-b4bd309746",
@@ -4601,7 +4601,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:47:11.385985Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-b67046619c",
@@ -4619,7 +4619,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:42:53.304675Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-b81ba9ea2a",
@@ -4639,7 +4639,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T01:01:41.263554Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-b8af6630f9",
@@ -4659,7 +4659,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-22T02:04:40.3716Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-bc8b8154a0",
@@ -4677,7 +4677,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:19:29.613673Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-bdec0d0f76",
@@ -4695,7 +4695,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T20:28:41.677222Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-be15fa97aa",
@@ -4713,7 +4713,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:55:17.569774Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-c0141903af",
@@ -4730,7 +4730,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T23:58:49.394335Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-c018676f8b",
@@ -4749,7 +4749,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:07:13.093865Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-c0609d7c22",
@@ -4770,7 +4770,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T23:22:03.651417Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-c07ee8bc94",
@@ -4791,7 +4791,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:36:57.027041Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-c117147c7e",
@@ -4808,7 +4808,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T17:22:51.814705Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-c188925c0a",
@@ -4828,7 +4828,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T11:51:17.985936Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-c36bc33e62",
@@ -4845,7 +4845,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:58:44.882529Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-c3fc7af119",
@@ -4863,7 +4863,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T17:02:34.692377Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-c4d83a2ea5",
@@ -4884,7 +4884,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:23:07.473486Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-c8cf1e21cb",
@@ -4902,7 +4902,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:13:38.952643Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-c9b6c3bb96",
@@ -4922,7 +4922,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:31:47.780127Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-ca16e4e5e0",
@@ -4942,7 +4942,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:44:33.111329Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-cb3d48e00c",
@@ -4962,7 +4962,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:51:41.037389Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-cd0fe86f71",
@@ -4981,7 +4981,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T13:24:27.3573Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-cfb310e58e",
@@ -4999,7 +4999,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T13:31:38.744944Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-d0add2aaaf",
@@ -5017,7 +5017,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:35:21.894799Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-d0b92ce1bf",
@@ -5036,7 +5036,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T19:33:07.05769Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-d24dfa2970",
@@ -5057,7 +5057,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:54:01.931448Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-d2852f9210",
@@ -5078,7 +5078,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-28T02:25:19.351764Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-d36b7faa3b",
@@ -5094,7 +5094,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-19T20:38:40.772675Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-d4f022f91c",
@@ -5112,7 +5112,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-27T21:15:53.784187Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-d590262ea9",
@@ -5131,7 +5131,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T04:45:06.643814Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-d66328426f",
@@ -5151,7 +5151,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T19:23:32.892718Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-d681c3d87e",
@@ -5171,7 +5171,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T19:32:55.218525Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-d71ac6bff2",
@@ -5192,7 +5192,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T12:02:22.948584Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-d8c9c0244d",
@@ -5208,7 +5208,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T04:42:27.168951Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-d92a816272",
@@ -5226,7 +5226,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T22:27:46.75875Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-da5c695c38",
@@ -5246,7 +5246,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T23:24:34.918475Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-df7e3517bc",
@@ -5264,7 +5264,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T02:10:53.341609Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-dfac727c6f",
@@ -5281,7 +5281,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T22:51:40.89908Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-e273fc19ec",
@@ -5302,7 +5302,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T21:05:55.901757Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-e283fbb9be",
@@ -5322,7 +5322,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:40:40.994941Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-e33edf14b6",
@@ -5340,7 +5340,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T17:16:00.597913Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-e353ac8174",
@@ -5361,7 +5361,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T05:05:54.361432Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-e3b67077f4",
@@ -5379,7 +5379,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-20T01:37:42.763319Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-e7172c7aca",
@@ -5395,7 +5395,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:42:20.528145Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-e871e221b4",
@@ -5412,7 +5412,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T21:42:43.330239Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-eb2d820e05",
@@ -5429,7 +5429,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:45:06.721356Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-ec51b614c6",
@@ -5450,7 +5450,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:56:51.856866Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-efc054d395",
@@ -5471,7 +5471,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T16:43:21.921203Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-f8a4062d25",
@@ -5487,7 +5487,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:23:43.229178Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-f8b5aaeca8",
@@ -5505,7 +5505,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-20T18:30:02.360523Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-facc55f72f",
@@ -5522,7 +5522,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T16:55:35.415346Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-fb8964ec7a",
@@ -5540,7 +5540,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T15:34:21.306164Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-fd29c8cfbf",
@@ -5561,7 +5561,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T19:55:57.767122Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "calisolidario-ffc508629e",
@@ -5581,7 +5581,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T20:13:31.985345Z",
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:04Z"
     },
     {
       "id": "curado-00535a0b45",
@@ -7334,7 +7334,7 @@
       "contacto": "0",
       "verificado": false,
       "creado": "2026-08-15T22:29:35.841Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-050c0caefc",
@@ -7353,7 +7353,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:48:19.961Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-052acdc885",
@@ -7373,7 +7373,7 @@
       "contacto": "3052659796",
       "verificado": false,
       "creado": "2026-08-13T17:26:26.512Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-0b02ea05e3",
@@ -7392,7 +7392,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T15:06:44.388Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-108f5cc1b5",
@@ -7411,7 +7411,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T03:03:49.026Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-119153c2d4",
@@ -7428,7 +7428,7 @@
       "contacto": "3117949540",
       "verificado": false,
       "creado": "2026-08-12T17:01:29.76Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-19d77f55a7",
@@ -7447,7 +7447,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:29:37.196Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-1df22c365f",
@@ -7467,7 +7467,7 @@
       "contacto": "3167412350",
       "verificado": false,
       "creado": "2026-08-13T19:30:07.19Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-1f6221c0f7",
@@ -7484,7 +7484,7 @@
       "contacto": "3024172975",
       "verificado": false,
       "creado": "2026-08-12T03:50:45.132Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-281f876bb6",
@@ -7501,7 +7501,7 @@
       "contacto": "3244041115",
       "verificado": false,
       "creado": "2026-08-13T14:58:38.012Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-28d1ea43a2",
@@ -7520,7 +7520,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T03:04:29.065Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-2aa23b2d16",
@@ -7537,7 +7537,7 @@
       "contacto": "3157724695",
       "verificado": false,
       "creado": "2026-08-18T20:50:33.762Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-2b43ef2ae0",
@@ -7552,7 +7552,7 @@
       "contacto": "3169732820",
       "verificado": false,
       "creado": "2026-08-20T01:31:10.644Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-2bb91e771b",
@@ -7571,7 +7571,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:13:29.132Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-2d43095e48",
@@ -7587,7 +7587,7 @@
       "contacto": "3218018032",
       "verificado": false,
       "creado": "2026-08-17T22:57:23.523Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-303080aede",
@@ -7606,7 +7606,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T03:11:45.604Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-30f647e0b1",
@@ -7625,7 +7625,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T14:06:19.663Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-358569f876",
@@ -7644,7 +7644,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T04:29:09.285Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-37197cbf29",
@@ -7664,7 +7664,7 @@
       "contacto": "3187285348",
       "verificado": false,
       "creado": "2026-08-16T22:27:02.891Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-38acd1eb96",
@@ -7683,7 +7683,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T01:17:59.708Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-3b05bfa02f",
@@ -7702,7 +7702,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-18T15:32:41.104Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-3b9f840ca9",
@@ -7721,7 +7721,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-18T15:34:10.827Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-3ee0155d7e",
@@ -7738,7 +7738,7 @@
       "contacto": "3053559145",
       "verificado": false,
       "creado": "2026-08-12T11:15:09.706Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-3f0b82bc45",
@@ -7758,7 +7758,7 @@
       "contacto": "3157264681",
       "verificado": false,
       "creado": "2026-08-15T22:53:57.812Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-41563e8124",
@@ -7777,7 +7777,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T03:42:54.792Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-4308655883",
@@ -7794,7 +7794,7 @@
       "contacto": "3192791756",
       "verificado": false,
       "creado": "2026-08-14T21:48:42.462Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-4d93478e5f",
@@ -7813,7 +7813,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T18:08:01.683Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-57156e3cb6",
@@ -7833,7 +7833,7 @@
       "contacto": "316 2 11 41 34",
       "verificado": false,
       "creado": "2026-08-12T17:02:36.021Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-580e8ba309",
@@ -7852,7 +7852,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T23:59:14.937Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-588d867b76",
@@ -7871,7 +7871,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T22:10:46.397Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-58c2531a3e",
@@ -7890,7 +7890,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T18:58:55.947Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-592e060967",
@@ -7909,7 +7909,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T18:46:14.435Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-5942db6874",
@@ -7929,7 +7929,7 @@
       "contacto": "3112222931",
       "verificado": false,
       "creado": "2026-08-12T13:31:57.658Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-5a7392a176",
@@ -7949,7 +7949,7 @@
       "contacto": "3187285348",
       "verificado": false,
       "creado": "2026-08-16T22:22:40.615Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-610f345db8",
@@ -7969,7 +7969,7 @@
       "contacto": "3229087370",
       "verificado": false,
       "creado": "2026-08-15T23:06:49.121Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-615fe47b29",
@@ -7986,7 +7986,7 @@
       "contacto": "3186566102",
       "verificado": false,
       "creado": "2026-08-17T23:28:57.33Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-67d1b12a68",
@@ -8005,7 +8005,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:23:22.692Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-6bb63d56c4",
@@ -8022,7 +8022,7 @@
       "contacto": "322 2843984",
       "verificado": false,
       "creado": "2026-08-12T04:40:26.68Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-6c9b01327e",
@@ -8038,7 +8038,7 @@
       "contacto": "3146416859",
       "verificado": false,
       "creado": "2026-08-21T11:53:57.862Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-770a6527fd",
@@ -8057,7 +8057,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T20:50:07.7Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-7ef00c32b6",
@@ -8077,7 +8077,7 @@
       "contacto": "3244041115",
       "verificado": false,
       "creado": "2026-08-13T15:05:34.282Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-8baaab2b0b",
@@ -8096,7 +8096,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T16:47:02.857Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-8ecdf7d483",
@@ -8113,7 +8113,7 @@
       "contacto": "3178713693",
       "verificado": false,
       "creado": "2026-08-12T17:15:38.138Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-91ed92eed5",
@@ -8132,7 +8132,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T00:43:09.555Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-928bedbe0e",
@@ -8151,7 +8151,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T03:15:34.532Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-94c90e41e9",
@@ -8171,7 +8171,7 @@
       "contacto": "‪3172868989‬",
       "verificado": false,
       "creado": "2026-08-13T01:32:27.04Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-95cf462dc5",
@@ -8188,7 +8188,7 @@
       "contacto": "97343465858",
       "verificado": false,
       "creado": "2026-08-12T03:54:05.85Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-9afe0cecb8",
@@ -8207,7 +8207,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T14:56:03.49Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-9c679513a1",
@@ -8226,7 +8226,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T17:21:51.77Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-a0c688d8d3",
@@ -8243,7 +8243,7 @@
       "contacto": "3108219689",
       "verificado": false,
       "creado": "2026-08-18T00:44:20.713Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-a1fc3e49ea",
@@ -8263,7 +8263,7 @@
       "contacto": "3183355722",
       "verificado": false,
       "creado": "2026-08-13T02:21:48.698Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-a30db3b26b",
@@ -8282,7 +8282,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T03:28:59.606Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-a62f1d9f28",
@@ -8298,7 +8298,7 @@
       "contacto": "3234592829",
       "verificado": false,
       "creado": "2026-08-12T02:52:47.823Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-a6b409ac4c",
@@ -8317,7 +8317,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-15T23:56:32.544Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-a9efc3c3cb",
@@ -8336,7 +8336,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:20:41.301Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-aabe84ff69",
@@ -8353,7 +8353,7 @@
       "contacto": "3187285348",
       "verificado": false,
       "creado": "2026-08-18T16:08:25.419Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-af0c1fb9d5",
@@ -8372,7 +8372,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-18T02:28:41.147Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-af919cc92f",
@@ -8389,7 +8389,7 @@
       "contacto": "312 2075013",
       "verificado": false,
       "creado": "2026-08-17T20:03:00.751Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-b0aaf12ddb",
@@ -8406,7 +8406,7 @@
       "contacto": "3163979091",
       "verificado": false,
       "creado": "2026-08-16T18:53:13.502Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-b1a1fb32c0",
@@ -8425,7 +8425,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T00:39:59.875Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-b40e93a48a",
@@ -8445,7 +8445,7 @@
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-12T02:25:21.768Z",
-      "fecha_corte": "2026-09-06T01:10:03Z",
+      "fecha_corte": "2026-09-06T06:12:05Z",
       "tambien_en": [
         {
           "fuente": "sismoinfo",
@@ -8469,7 +8469,7 @@
       "contacto": "3168459434",
       "verificado": false,
       "creado": "2026-08-14T16:21:28.857Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-bf5a0bc88c",
@@ -8486,7 +8486,7 @@
       "contacto": "3128748744",
       "verificado": false,
       "creado": "2026-08-12T17:20:59.268Z",
-      "fecha_corte": "2026-09-06T01:10:03Z",
+      "fecha_corte": "2026-09-06T06:12:05Z",
       "politica_alerta": [
         "posible dato de pago en 'descripcion' (billetera digital): redactado, revisar antes de publicar"
       ]
@@ -8508,7 +8508,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T21:51:00.532Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-c780a2ac84",
@@ -8527,7 +8527,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T02:03:27.12Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-c92cf1d20a",
@@ -8544,7 +8544,7 @@
       "contacto": "3206989880",
       "verificado": false,
       "creado": "2026-08-12T16:12:29.916Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-cac2c5b178",
@@ -8563,7 +8563,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-13T01:14:26.434Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-cb350d4e7e",
@@ -8583,7 +8583,7 @@
       "contacto": "3157264681",
       "verificado": false,
       "creado": "2026-08-14T19:12:18.102Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-cbac4baf1b",
@@ -8602,7 +8602,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T15:42:17.017Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-cf3a47db8a",
@@ -8619,7 +8619,7 @@
       "contacto": "3145712390",
       "verificado": false,
       "creado": "2026-08-12T15:55:56.165Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-d5ff805867",
@@ -8636,7 +8636,7 @@
       "contacto": "3117745703",
       "verificado": false,
       "creado": "2026-08-12T03:52:20.137Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-d6ceef022c",
@@ -8656,7 +8656,7 @@
       "contacto": "3134223235",
       "verificado": false,
       "creado": "2026-08-15T22:48:40.689Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-d76d67907e",
@@ -8675,7 +8675,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T03:13:42.144Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-d912e699a4",
@@ -8694,7 +8694,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T18:43:11.646Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-dd2d99746c",
@@ -8713,7 +8713,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T03:07:48.133Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-dfdeaf2ac1",
@@ -8730,7 +8730,7 @@
       "contacto": "3192791756",
       "verificado": false,
       "creado": "2026-08-14T21:48:42.498Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-e7d2453fd2",
@@ -8749,7 +8749,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T03:09:59.942Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-ec19c6422a",
@@ -8768,7 +8768,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T04:50:21.005Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-f276aee8f7",
@@ -8787,7 +8787,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-14T16:18:30.189Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-f34faa928e",
@@ -8807,7 +8807,7 @@
       "contacto": "3163979091",
       "verificado": false,
       "creado": "2026-08-14T20:33:11.105Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-fa0448f4ae",
@@ -8824,7 +8824,7 @@
       "contacto": "3235268488",
       "verificado": false,
       "creado": "2026-08-20T05:50:53.665Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-fcb0dfa687",
@@ -8844,7 +8844,7 @@
       "contacto": "3148088270",
       "verificado": false,
       "creado": "2026-08-14T21:48:42.52Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "haciendo-comunidad-ffe5df7d2b",
@@ -8861,7 +8861,7 @@
       "contacto": "3008136957",
       "verificado": false,
       "creado": "2026-08-12T03:52:58.827Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-03d5f080c4",
@@ -8881,7 +8881,7 @@
       "organizacion": "Alcaldía de Pereira",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-067b7c25ff",
@@ -8901,7 +8901,7 @@
       "organizacion": "Alcaldía de Pereira",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-082b519b7d",
@@ -8921,7 +8921,7 @@
       "organizacion": "Cruz Roja Colombiana / Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-09e1ac406c",
@@ -8939,7 +8939,7 @@
       "organizacion": "Alcaldía de Manizales",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-0d405ca928",
@@ -8958,7 +8958,7 @@
       "organizacion": "Alcaldía de Manizales",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-0e599b2a4a",
@@ -8978,7 +8978,7 @@
       "organizacion": "Alcaldía de Pereira",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-1933db6d86",
@@ -8996,7 +8996,7 @@
       "organizacion": "Fundación Innovación Social Paz y Desarrollo",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:04Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-29042ca5b0",
@@ -9015,7 +9015,7 @@
       "organizacion": "Cruz Roja Colombiana",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:06Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-3995d301ad",
@@ -9035,7 +9035,7 @@
       "organizacion": "Cruz Roja Colombiana / Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-39aa664ac9",
@@ -9054,7 +9054,7 @@
       "organizacion": "Cruz Roja Colombiana",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:14Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-3b05f2d674",
@@ -9072,7 +9072,7 @@
       "organizacion": "Gestión del Riesgo",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-41b81b0738",
@@ -9093,7 +9093,7 @@
       "organizacion": "Banco de Alimentos de Manizales / ABACO",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-4d49f16cd2",
@@ -9114,7 +9114,7 @@
       "organizacion": "Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-12T02:30:33Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-4d57cba939",
@@ -9134,7 +9134,7 @@
       "organizacion": "Cruz Roja Colombiana / Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-4f2d1d9e7f",
@@ -9153,7 +9153,7 @@
       "organizacion": "Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-50d49d3a72",
@@ -9171,7 +9171,7 @@
       "organizacion": "Hemocentro del Café",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-5731702148",
@@ -9190,7 +9190,7 @@
       "organizacion": "Cruz Roja Colombiana",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:11Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-5e943f04c1",
@@ -9209,7 +9209,7 @@
       "organizacion": "Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-12T10:18:07Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-713ba13d98",
@@ -9227,7 +9227,7 @@
       "organizacion": "Banco de Alimentos de Cartagena",
       "verificado": false,
       "actualizado": "2026-08-12T00:23:18Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-75d7429cc5",
@@ -9245,7 +9245,7 @@
       "organizacion": "Campaña sector privado",
       "verificado": false,
       "actualizado": "2026-08-16T01:11:14Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-77ccf45d04",
@@ -9265,7 +9265,7 @@
       "organizacion": "Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-7c972207fc",
@@ -9285,7 +9285,7 @@
       "organizacion": "Cruz Roja Colombiana",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:09Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-82bae7d274",
@@ -9305,7 +9305,7 @@
       "organizacion": "Reddhhpac",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:01Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-9087a7113c",
@@ -9325,7 +9325,7 @@
       "organizacion": "Alcaldía de Pereira",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-9a0f988391",
@@ -9345,7 +9345,7 @@
       "organizacion": "Alcaldía de Pereira",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-9bc9c082f2",
@@ -9363,7 +9363,7 @@
       "organizacion": "Alcaldía de Manizales",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-9bf6b9acea",
@@ -9383,7 +9383,7 @@
       "organizacion": "Alcaldía de Cali",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-9d6f3f683c",
@@ -9402,7 +9402,7 @@
       "organizacion": "Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-a0402577e7",
@@ -9421,7 +9421,7 @@
       "organizacion": "Cruz Roja Colombiana",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:19Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-a13e7bcd1b",
@@ -9439,7 +9439,7 @@
       "organizacion": "Arquidiócesis de Cartagena",
       "verificado": false,
       "actualizado": "2026-08-12T00:23:16Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-b62364a856",
@@ -9459,7 +9459,7 @@
       "organizacion": "Campaña Colombia se levanta",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-bbe01f42f5",
@@ -9477,7 +9477,7 @@
       "organizacion": "Casa Abelardista",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-c08c51c968",
@@ -9496,7 +9496,7 @@
       "organizacion": "Cruz Roja Colombiana",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:16Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-c6b54455da",
@@ -9517,7 +9517,7 @@
       "organizacion": "Oficina Distrital de Gestión del Riesgo",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-cfc7379318",
@@ -9535,7 +9535,7 @@
       "organizacion": "Gestión del Riesgo",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-d4c56c0397",
@@ -9555,7 +9555,7 @@
       "organizacion": "Cruz Roja Colombiana / Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-d6dbd78b66",
@@ -9575,7 +9575,7 @@
       "organizacion": "Alcaldía de Cali",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-dc5f33a9b7",
@@ -9594,7 +9594,7 @@
       "organizacion": "Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-12T02:30:38Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-e19da87a79",
@@ -9617,7 +9617,7 @@
       "organizacion": "Alcaldía de Cali",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-e2741c0003",
@@ -9636,7 +9636,7 @@
       "organizacion": "Banco de Alimentos / ABACO",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-eb17c0e487",
@@ -9657,7 +9657,7 @@
       "organizacion": "Alcaldía de Cali",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-ec00e0ed55",
@@ -9676,7 +9676,7 @@
       "organizacion": "Reddhhpac",
       "verificado": false,
       "actualizado": "2026-08-12T19:11:22Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-ecb1c76f46",
@@ -9698,7 +9698,7 @@
       "organizacion": "Banco de Alimentos de Cali / ABACO",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-f2368d8ff1",
@@ -9718,7 +9718,7 @@
       "organizacion": "Cruz Roja Colombiana / Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-f30dde6aee",
@@ -9736,7 +9736,7 @@
       "organizacion": "Hemocentro del Café",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-f79a8958ca",
@@ -9754,7 +9754,7 @@
       "organizacion": "Arquidiócesis de Cartagena",
       "verificado": false,
       "actualizado": "2026-08-12T00:23:14Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "quesenecesita-fe79815f5b",
@@ -9774,7 +9774,7 @@
       "organizacion": "Cruz Roja Colombiana / Alcaldía de Bogotá",
       "verificado": false,
       "actualizado": "2026-08-11T22:19:21Z",
-      "fecha_corte": "2026-09-06T01:10:05Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-041f357f81",
@@ -9786,7 +9786,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T04:56:10.039Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-06d9908591",
@@ -9804,7 +9804,7 @@
       "prioridad": "critica",
       "verificado": false,
       "creado": "2026-08-14T16:11:51.257Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-0e0a5b5bb6",
@@ -9816,7 +9816,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-12T19:16:11.281Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-0f02137d9c",
@@ -9829,7 +9829,7 @@
       "estado": "por-confirmar",
       "verificado": false,
       "creado": "2026-08-23T00:29:45.783Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-1038c15527",
@@ -9841,7 +9841,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T00:51:52.668Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-1960ada34a",
@@ -9853,7 +9853,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T04:52:39.135Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-1f204f879a",
@@ -9870,7 +9870,7 @@
       "estado": "cubierto",
       "verificado": false,
       "creado": "2026-08-14T14:14:35.906Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-1fb03a1709",
@@ -9882,7 +9882,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T00:01:52.158Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-2243ffa861",
@@ -9897,7 +9897,7 @@
       "prioridad": "critica",
       "verificado": false,
       "creado": "2026-08-10T21:04:23.772Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-2a6bd7c4c0",
@@ -9909,7 +9909,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T04:35:48.339Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-2c2c12ff89",
@@ -9921,7 +9921,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T04:54:09.827Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-3061f5fafc",
@@ -9933,7 +9933,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T04:57:23.791Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-3a545ee524",
@@ -9948,7 +9948,7 @@
       "prioridad": "alta",
       "verificado": false,
       "creado": "2026-08-10T21:24:07.846Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-4a1d888db5",
@@ -9961,7 +9961,7 @@
       "prioridad": "critica",
       "verificado": false,
       "creado": "2026-08-10T21:03:41.801Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-5981fc911a",
@@ -9976,7 +9976,7 @@
       "prioridad": "critica",
       "verificado": false,
       "creado": "2026-08-10T21:01:55.081Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-5aa1067b2a",
@@ -9989,7 +9989,7 @@
       "estado": "por-confirmar",
       "verificado": false,
       "creado": "2026-08-23T00:30:21.323Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-5f77c5d4e6",
@@ -10005,7 +10005,7 @@
       "estado": "cubierto",
       "verificado": false,
       "creado": "2026-08-11T08:04:45.22Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-5ffa06dec1",
@@ -10020,7 +10020,7 @@
       "prioridad": "critica",
       "verificado": false,
       "creado": "2026-08-10T21:03:12.729Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-6a51eeab91",
@@ -10035,7 +10035,7 @@
       "prioridad": "alta",
       "verificado": false,
       "creado": "2026-08-10T21:02:12.474Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-74c0a043a9",
@@ -10050,7 +10050,7 @@
       "estado": "por-confirmar",
       "verificado": false,
       "creado": "2026-08-16T03:32:38.318Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-7bdc0808e5",
@@ -10066,7 +10066,7 @@
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-10T21:00:11.134Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-7f0fe9ef6b",
@@ -10078,7 +10078,7 @@
       "estado": "cubierto",
       "verificado": false,
       "creado": "2026-08-10T21:05:20.265Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-852b9a199c",
@@ -10090,7 +10090,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T00:37:27.576Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-88a1ce74d2",
@@ -10103,7 +10103,7 @@
       "prioridad": "critica",
       "verificado": false,
       "creado": "2026-08-10T21:00:30.526Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-88fc7c25ac",
@@ -10121,7 +10121,7 @@
       "verificado": false,
       "confirmaciones": 2,
       "creado": "2026-08-14T13:54:32.568Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-8a778fbe54",
@@ -10135,7 +10135,7 @@
       "estado": "cubierto",
       "verificado": false,
       "creado": "2026-08-14T12:25:36.401Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-8c99cb4185",
@@ -10147,7 +10147,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T11:56:45.659Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-8d49c66f97",
@@ -10162,7 +10162,7 @@
       "prioridad": "critica",
       "verificado": false,
       "creado": "2026-08-10T21:01:20.93Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-8ef058bccb",
@@ -10177,7 +10177,7 @@
       "prioridad": "critica",
       "verificado": false,
       "creado": "2026-08-10T21:05:12.289Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-8f0b250074",
@@ -10195,7 +10195,7 @@
       "prioridad": "critica",
       "verificado": false,
       "creado": "2026-08-10T23:34:02.382Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-902e0a8d39",
@@ -10210,7 +10210,7 @@
       "estado": "por-confirmar",
       "verificado": false,
       "creado": "2026-08-11T11:47:11.954Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-951e5a817e",
@@ -10222,7 +10222,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T04:40:45.412Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-9825f77b4b",
@@ -10236,7 +10236,7 @@
       "prioridad": "alta",
       "verificado": false,
       "creado": "2026-08-10T21:14:23.816Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-99164f6469",
@@ -10254,7 +10254,7 @@
       "verificado": false,
       "confirmaciones": 2,
       "creado": "2026-08-11T12:36:16.379Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-9d67286eef",
@@ -10266,7 +10266,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-10T23:30:59.924Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-a0ca5acd97",
@@ -10281,7 +10281,7 @@
       "prioridad": "critica",
       "verificado": false,
       "creado": "2026-08-10T21:02:27.776Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-a64bf11a67",
@@ -10294,7 +10294,7 @@
       "estado": "por-confirmar",
       "verificado": false,
       "creado": "2026-08-10T21:04:11.085Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-b1f867978a",
@@ -10308,7 +10308,7 @@
       "estado": "cubierto",
       "verificado": false,
       "creado": "2026-08-10T21:04:41.104Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-b49c675e74",
@@ -10320,7 +10320,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T02:05:07.732Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-b73f9461b4",
@@ -10338,7 +10338,7 @@
       "prioridad": "critica",
       "verificado": false,
       "creado": "2026-08-14T12:09:53.085Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-b8715f3012",
@@ -10355,7 +10355,7 @@
       "prioridad": "alta",
       "verificado": false,
       "creado": "2026-08-11T12:40:25.006Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-babcfa3ee5",
@@ -10370,7 +10370,7 @@
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-10T21:03:06.541Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-bd9ec2965d",
@@ -10382,7 +10382,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T12:30:00.671Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-c000325fcb",
@@ -10394,7 +10394,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T04:53:23.834Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-c0b0b5e401",
@@ -10406,7 +10406,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-20T23:13:04.143Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-c628365ddf",
@@ -10418,7 +10418,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-16T03:46:00.671Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-c703b46809",
@@ -10430,7 +10430,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T02:05:35.498Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-c727231c16",
@@ -10448,7 +10448,7 @@
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-11T12:26:00.651Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-c8280e3dff",
@@ -10463,7 +10463,7 @@
       "prioridad": "critica",
       "verificado": false,
       "creado": "2026-08-10T21:03:32.2Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-c929ea0bb7",
@@ -10475,7 +10475,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T02:03:42.41Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-cb40a646a4",
@@ -10488,7 +10488,7 @@
       "prioridad": "alta",
       "verificado": false,
       "creado": "2026-08-10T21:00:56.53Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-ccd3f70f90",
@@ -10500,7 +10500,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T02:07:30.933Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-d3c7c3fe8e",
@@ -10512,7 +10512,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T04:55:36.288Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-d4004a3a1a",
@@ -10524,7 +10524,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T00:04:39.255Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-d5d50b618c",
@@ -10537,7 +10537,7 @@
       "estado": "por-confirmar",
       "verificado": false,
       "creado": "2026-08-10T21:03:53.881Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-df7f7e8261",
@@ -10550,7 +10550,7 @@
       "estado": "por-confirmar",
       "verificado": false,
       "creado": "2026-08-23T00:31:46.416Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-e012c90bbf",
@@ -10568,7 +10568,7 @@
       "prioridad": "critica",
       "verificado": false,
       "creado": "2026-08-10T22:56:36.672Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-e0ae6047e4",
@@ -10583,7 +10583,7 @@
       "verificado": false,
       "confirmaciones": 1,
       "creado": "2026-08-10T20:59:24.18Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-e13f62289b",
@@ -10595,7 +10595,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T04:49:37.517Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-e83bfbbe10",
@@ -10609,7 +10609,7 @@
       "estado": "cubierto",
       "verificado": false,
       "creado": "2026-08-10T21:05:01.628Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-ee81e4df1f",
@@ -10621,7 +10621,7 @@
       "estado": "activo",
       "verificado": false,
       "creado": "2026-08-11T00:03:01.87Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "sismoinfo-fbdd4f6c6f",
@@ -10634,7 +10634,7 @@
       "estado": "por-confirmar",
       "verificado": false,
       "creado": "2026-08-10T21:02:51.145Z",
-      "fecha_corte": "2026-09-06T01:10:03Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     },
     {
       "id": "window-of-hope-149920d6a4",
@@ -10646,7 +10646,7 @@
       "departamento": "Chocó",
       "estado": "activo",
       "verificado": false,
-      "fecha_corte": "2026-09-06T01:10:04Z"
+      "fecha_corte": "2026-09-06T06:12:05Z"
     }
   ]
 }
