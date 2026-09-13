@@ -6,8 +6,8 @@
       "mecanismo": "API propia /api/timeline (actualmente caída) — el Supabase del sitio exige autenticación",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-09-13T10:54:43Z",
-      "duracion": "9.029098991s",
+      "obtenido": "2026-09-13T14:45:54Z",
+      "duracion": "8.574703729s",
       "nota": "endpoint público caído (500, error de blockchain); el Supabase del sitio exige autenticación (401). Sin datos públicos disponibles — se reintenta en cada corrida.",
       "error": "timeline: tras 4 intentos: https://aidtrace-rastroayuda.vercel.app/api/timeline?limit=100\u0026cursor=0 devolvió 500"
     },
@@ -17,8 +17,8 @@
       "mecanismo": "Convex HTTP query API (udf needs:list; descubierto interceptando el WebSocket)",
       "ok": true,
       "total": 65,
-      "obtenido": "2026-09-13T10:54:33Z",
-      "duracion": "187.399038ms"
+      "obtenido": "2026-09-13T14:45:44Z",
+      "duracion": "324.647092ms"
     },
     {
       "fuente": "calisolidario",
@@ -26,8 +26,8 @@
       "mecanismo": "payload RSC de Next.js embebido en el HTML de /necesidades y /ofertas",
       "ok": true,
       "total": 185,
-      "obtenido": "2026-09-13T10:54:34Z",
-      "duracion": "776.519892ms"
+      "obtenido": "2026-09-13T14:45:46Z",
+      "duracion": "480.621443ms"
     },
     {
       "fuente": "haciendo-comunidad",
@@ -35,8 +35,8 @@
       "mecanismo": "API REST de Firestore con lectura anónima (colecciones reportes_ayuda y comunidad_servicios; la colección desaparecidos se omite a propósito)",
       "ok": true,
       "total": 89,
-      "obtenido": "2026-09-13T10:54:33Z",
-      "duracion": "1.24732255s",
+      "obtenido": "2026-09-13T14:45:44Z",
+      "duracion": "1.197634642s",
       "nota": "No se leyó la colección 'desaparecidos' por política de datos personales."
     },
     {
@@ -45,8 +45,8 @@
       "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-09-13T10:54:33Z",
-      "duracion": "117.349769ms",
+      "obtenido": "2026-09-13T14:45:44Z",
+      "duracion": "50.130775ms",
       "error": "snapshot: https://mapa-emergencia.artefactofilms.workers.dev/api/snapshot devolvió 404: error code: 1042\n"
     },
     {
@@ -55,8 +55,8 @@
       "mecanismo": "arreglos JS embebidos en el HTML (React vía Babel standalone, sin API)",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-09-13T10:54:33Z",
-      "duracion": "685.63691ms",
+      "obtenido": "2026-09-13T14:45:45Z",
+      "duracion": "660.888817ms",
       "error": "no se pudo extraer ningún arreglo JS del HTML: el sitio cambió de forma (se esperaban PUNTOS, ALBERGUES, CLINICAS, AYUDAS, ALTA_PRIORIDAD, NECESIDADES_GENERALES, NO_DESPLAZARSE, ACTUALIZACIONES)"
     },
     {
@@ -65,8 +65,8 @@
       "mecanismo": "Google Sheets publicado como CSV (descubierto en SHEET_CSV_URL del HTML)",
       "ok": true,
       "total": 50,
-      "obtenido": "2026-09-13T10:54:34Z",
-      "duracion": "716.776834ms"
+      "obtenido": "2026-09-13T14:45:45Z",
+      "duracion": "1.040097864s"
     },
     {
       "fuente": "sismoinfo",
@@ -74,8 +74,8 @@
       "mecanismo": "API REST propia (/api/buildings y /api/anuncios; /api/disappeared se omite a propósito)",
       "ok": true,
       "total": 63,
-      "obtenido": "2026-09-13T10:54:33Z",
-      "duracion": "712.824293ms",
+      "obtenido": "2026-09-13T14:45:44Z",
+      "duracion": "759.705475ms",
       "nota": "no se leyó /api/disappeared por política de datos personales"
     },
     {
@@ -84,12 +84,12 @@
       "mecanismo": "página informativa estática (sin dataset; no hace peticiones de datos)",
       "ok": true,
       "total": 1,
-      "obtenido": "2026-09-13T10:54:34Z",
-      "duracion": "1.12580583s",
+      "obtenido": "2026-09-13T14:45:45Z",
+      "duracion": "1.311612402s",
       "nota": "sin dataset estructurado; se conserva como fuente informativa/editorial"
     }
   ],
-  "generado": "2026-09-13T10:54:33Z",
+  "generado": "2026-09-13T14:45:44Z",
   "informe": {
     "entrada": 559,
     "salida": 549,
