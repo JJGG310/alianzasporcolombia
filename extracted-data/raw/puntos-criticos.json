@@ -4,8 +4,8 @@
   "mecanismo": "arreglos JS embebidos en el HTML (React vía Babel standalone, sin API)",
   "ok": false,
   "error": "no se pudo extraer ningún arreglo JS del HTML: el sitio cambió de forma (se esperaban PUNTOS, ALBERGUES, CLINICAS, AYUDAS, ALTA_PRIORIDAD, NECESIDADES_GENERALES, NO_DESPLAZARSE, ACTUALIZACIONES)",
-  "duracion": "650.013752ms",
-  "obtenido": "2026-09-22T02:48:25Z",
+  "duracion": "565.020592ms",
+  "obtenido": "2026-09-22T08:08:32Z",
   "total": 0,
   "puntos": null
 }
