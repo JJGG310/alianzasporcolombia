@@ -3,9 +3,9 @@
   "url": "https://terremoto-cali-puntos-criticos.netlify.app/",
   "mecanismo": "arreglos JS embebidos en el HTML (React vía Babel standalone, sin API)",
   "ok": false,
-  "error": "no se pudo extraer ningún arreglo JS del HTML: el sitio cambió de forma (se esperaban PUNTOS, ALBERGUES, CLINICAS, AYUDAS, ALTA_PRIORIDAD, NECESIDADES_GENERALES, NO_DESPLAZARSE, ACTUALIZACIONES)",
-  "duracion": "774.933039ms",
-  "obtenido": "2026-09-23T20:56:53Z",
+  "error": "descargando el HTML: tras 4 intentos: https://terremoto-cali-puntos-criticos.netlify.app/ devolvió 500",
+  "duracion": "5.997205824s",
+  "obtenido": "2026-09-23T23:25:45Z",
   "total": 0,
   "puntos": null
 }
