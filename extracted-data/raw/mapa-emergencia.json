@@ -4,8 +4,8 @@
   "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
   "ok": false,
   "error": "snapshot: https://mapa-emergencia.artefactofilms.workers.dev/api/snapshot devolvió 404: error code: 1042\n",
-  "duracion": "117.796352ms",
-  "obtenido": "2026-10-17T23:16:20Z",
+  "duracion": "118.790655ms",
+  "obtenido": "2026-10-18T01:19:31Z",
   "total": 0,
   "puntos": null
 }
