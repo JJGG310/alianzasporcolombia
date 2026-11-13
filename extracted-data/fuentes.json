@@ -6,8 +6,8 @@
       "mecanismo": "API propia /api/timeline (actualmente caída) — el Supabase del sitio exige autenticación",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-11-13T07:31:46Z",
-      "duracion": "8.34332449s",
+      "obtenido": "2026-11-13T15:50:44Z",
+      "duracion": "8.652358612s",
       "nota": "endpoint público caído (500, error de blockchain); el Supabase del sitio exige autenticación (401). Sin datos públicos disponibles — se reintenta en cada corrida.",
       "error": "timeline: tras 4 intentos: https://aidtrace-rastroayuda.vercel.app/api/timeline?limit=100\u0026cursor=0 devolvió 500"
     },
@@ -17,8 +17,8 @@
       "mecanismo": "Convex HTTP query API (udf needs:list; descubierto interceptando el WebSocket)",
       "ok": true,
       "total": 65,
-      "obtenido": "2026-11-13T07:31:38Z",
-      "duracion": "74.326037ms"
+      "obtenido": "2026-11-13T15:50:36Z",
+      "duracion": "86.833475ms"
     },
     {
       "fuente": "calisolidario",
@@ -26,8 +26,8 @@
       "mecanismo": "payload RSC de Next.js embebido en el HTML de /necesidades y /ofertas",
       "ok": true,
       "total": 192,
-      "obtenido": "2026-11-13T07:31:38Z",
-      "duracion": "277.025173ms"
+      "obtenido": "2026-11-13T15:50:35Z",
+      "duracion": "228.733835ms"
     },
     {
       "fuente": "haciendo-comunidad",
@@ -35,8 +35,8 @@
       "mecanismo": "API REST de Firestore con lectura anónima (colecciones reportes_ayuda y comunidad_servicios; la colección desaparecidos se omite a propósito)",
       "ok": true,
       "total": 89,
-      "obtenido": "2026-11-13T07:31:38Z",
-      "duracion": "1.390207006s",
+      "obtenido": "2026-11-13T15:50:36Z",
+      "duracion": "1.513550414s",
       "nota": "No se leyó la colección 'desaparecidos' por política de datos personales."
     },
     {
@@ -45,8 +45,8 @@
       "mecanismo": "API REST pública (/api/snapshot, /api/novedades, /api/config)",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-11-13T07:31:37Z",
-      "duracion": "57.902569ms",
+      "obtenido": "2026-11-13T15:50:36Z",
+      "duracion": "94.178879ms",
       "error": "snapshot: https://mapa-emergencia.artefactofilms.workers.dev/api/snapshot devolvió 404: error code: 1042\n"
     },
     {
@@ -55,8 +55,8 @@
       "mecanismo": "arreglos JS embebidos en el HTML (React vía Babel standalone, sin API)",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-11-13T07:31:38Z",
-      "duracion": "155.959568ms",
+      "obtenido": "2026-11-13T15:50:36Z",
+      "duracion": "291.155026ms",
       "error": "no se pudo extraer ningún arreglo JS del HTML: el sitio cambió de forma (se esperaban PUNTOS, ALBERGUES, CLINICAS, AYUDAS, ALTA_PRIORIDAD, NECESIDADES_GENERALES, NO_DESPLAZARSE, ACTUALIZACIONES)"
     },
     {
@@ -65,8 +65,8 @@
       "mecanismo": "Google Sheets publicado como CSV (descubierto en SHEET_CSV_URL del HTML)",
       "ok": true,
       "total": 50,
-      "obtenido": "2026-11-13T07:31:38Z",
-      "duracion": "749.550076ms"
+      "obtenido": "2026-11-13T15:50:36Z",
+      "duracion": "672.633761ms"
     },
     {
       "fuente": "sismoinfo",
@@ -74,9 +74,9 @@
       "mecanismo": "API REST propia (/api/buildings y /api/anuncios; /api/disappeared se omite a propósito)",
       "ok": false,
       "total": 0,
-      "obtenido": "2026-11-13T07:31:37Z",
-      "duracion": "6.592089194s",
-      "error": "buildings: tras 4 intentos: Get \"https://sismoinfo.co/api/buildings\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-11-13T07:31:44Z is after 2026-11-09T04:41:22Z"
+      "obtenido": "2026-11-13T15:50:35Z",
+      "duracion": "6.582859584s",
+      "error": "buildings: tras 4 intentos: Get \"https://sismoinfo.co/api/buildings\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-11-13T15:50:42Z is after 2026-11-09T04:41:22Z"
     },
     {
       "fuente": "window-of-hope",
@@ -84,12 +84,12 @@
       "mecanismo": "página informativa estática (sin dataset; no hace peticiones de datos)",
       "ok": true,
       "total": 1,
-      "obtenido": "2026-11-13T07:31:38Z",
-      "duracion": "904.511274ms",
+      "obtenido": "2026-11-13T15:50:37Z",
+      "duracion": "1.562967337s",
       "nota": "sin dataset estructurado; se conserva como fuente informativa/editorial"
     }
   ],
-  "generado": "2026-11-13T07:31:37Z",
+  "generado": "2026-11-13T15:50:35Z",
   "informe": {
     "entrada": 503,
     "salida": 494,
