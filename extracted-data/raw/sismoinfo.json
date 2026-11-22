@@ -3,9 +3,9 @@
   "url": "https://sismoinfo.co/",
   "mecanismo": "API REST propia (/api/buildings y /api/anuncios; /api/disappeared se omite a propósito)",
   "ok": false,
-  "error": "buildings: tras 4 intentos: Get \"https://sismoinfo.co/api/buildings\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-11-21T23:40:44Z is after 2026-11-09T04:41:22Z",
-  "duracion": "6.567420598s",
-  "obtenido": "2026-11-21T23:40:37Z",
+  "error": "buildings: tras 4 intentos: Get \"https://sismoinfo.co/api/buildings\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-11-22T04:33:36Z is after 2026-11-09T04:41:22Z",
+  "duracion": "6.574800613s",
+  "obtenido": "2026-11-22T04:33:29Z",
   "total": 0,
   "puntos": null
 }
